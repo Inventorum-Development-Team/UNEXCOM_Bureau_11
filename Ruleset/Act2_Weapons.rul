@@ -1,0 +1,463 @@
+items:
+  - type: STR_COLT_AR-15
+    #requiresBuy:
+    #  - STR_LIGHT_ASSAULT_RIFLE_AQUISITION
+    size: 0.2
+    costBuy: 5000
+    costSell: 4750
+    weight: 8
+    bigSprite: 201
+    floorSprite: 201
+    handSprite: 200
+    fireSound: 201
+    bulletSpeed: 25
+    compatibleAmmo: 
+      - STR_556X45_MAG_X20
+    accuracySnap: 85
+    accuracyAimed: 110
+    accuracyAuto: 50
+    accuracyCloseQuarters: 50
+    oneHandedPenalty: 60
+    kneelBonus: 130
+    tuSnap: 30
+    tuAimed: 55
+    tuAuto: 40
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    tuMelee: 0
+    listOrder: 209
+  - type: STR_556X45_MAG_X20
+    #requiresBuy:
+    #  - STR_LIGHT_ASSAULT_RIFLE_AQUISITION
+    size: 0.1
+    costBuy: 500
+    costSell: 425
+    weight: 3
+    bigSprite: 202
+    floorSprite: 1
+    handSprite: 1
+    hitAnimation: 26
+    bulletSprite: 1
+    hitSound: 201
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    power: 32
+    attraction: 8
+    listOrder: 109
+  - type: STR_M1897
+    #requiresBuy:
+    #  - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.2
+    costBuy: 2000
+    costSell: 1500
+    weight: 6
+    bigSprite: 203
+    floorSprite: 203
+    handSprite: 208
+    fireSound: 102
+    compatibleAmmo:
+      - STR_12_GAUGE_SHELLS_2X
+    accuracySnap: 55
+    accuracyAimed: 80
+    tuSnap: 20
+    tuAimed: 30
+    snapRange: 4
+    aimRange: 4
+    dropoff: 3
+    tuLoad: 10
+    battleType: 1
+    twoHanded: false
+    shotgunChoke: 100
+    invWidth: 1
+    invHeight: 3
+    attraction: 7
+    listOrder: 210
+  - type: STR_12_GAUGE_SHELLS_X6
+    #requiresBuy:
+    #  - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.1
+    costBuy: 150
+    costSell: 110
+    weight: 3
+    bigSprite: 204
+    floorSprite: 1
+    handSprite: 1
+    hitSound: 13
+    hitAnimation: 26
+    power: 20
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+    shotgunBehavior: 1
+    shotgunSpread: 25
+    shotgunPellets: 5
+    bulletSpeed: 2
+    listOrder: 110
+  - type: STR_M60
+    #requiresBuy:
+    #  - STR_MILITARY_EQUIPMENT_AQUISITION
+    costBuy: 12500
+    costSell: 10000
+    weight: 15
+    bigSprite: 205
+    floorSprite: 205
+    handSprite: 216
+    bulletSprite: 1
+    bulletSpeed: 32
+    fireSound: 2
+    compatibleAmmo:
+      - STR_762X51_MAG_X100
+    accuracyCloseQuarters: 45
+    accuracySnap: 22
+    accuracyAuto: 22
+    tuSnap: 36
+    tuAuto: 50
+    tuLoad: 30
+    snapRange: 22
+    autoRange: 22
+    confSnap:
+      shots: 2
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    kneelBonus: 150
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    autoShots: 5
+    listOrder: 211
+  - type: STR_762X51_MAG_X100
+    #requiresBuy:
+    #  - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.1
+    costBuy: 1000
+    costSell: 850
+    weight: 3
+    bigSprite: 206
+    floorSprite: 1
+    handSprite: 1
+    hitAnimation: 26
+    hitSound: 203
+    damageType: 1
+    clipSize: 100
+    invHeight: 2
+    invWidth: 2
+    power: 40
+    battleType: 2
+    listOrder: 111
+  - type: STR_SPRINGFIELD_M14
+    #requiresBuy:
+    #  - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.2
+    costBuy: 1200
+    costSell: 900
+    weight: 9
+    bigSprite: 207
+    floorSprite: 207
+    handSprite: 224
+    fireSound: 204
+    compatibleAmmo:
+      - STR_762X51_MAG_X20
+    accuracySnap: 70
+    accuracyAimed: 110
+    accuracyAuto: 40
+    accuracyCloseQuarters: 90
+    oneHandedPenalty: 60
+    kneelBonus: 120
+    tuSnap: 30
+    tuAimed: 55
+    tuAuto: 40
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    tuMelee: 0
+    listOrder: 212
+  - type: STR_762X51_MAG_X20
+    size: 0.05
+    costBuy: 200
+    costSell: 100
+    weight: 4
+    bigSprite: 208
+    handSprite: 1
+    floorSprite: 1
+    hitAnimation: 26
+    bulletSprite: 1
+    damageType: 1
+    power: 40
+    clipSize: 20
+    battleType: 2
+    listOrder: 112
+  - type: STR_SPRINGFIELD_M1903A3
+    #requiresBuy:
+    #  - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.3
+    costBuy: 4000
+    costSell: 3200
+    weight: 11
+    bigSprite: 209
+    floorSprite: 209
+    handSprite: 232
+    bulletSprite: 4
+    bulletSpeed: 20
+    fireSound: 204
+    compatibleAmmo:
+      - STR_30_06_SPRINGFIELD_CLIP_5X
+    accuracyCloseQuarters: 50
+    accuracySnap: 70
+    accuracyAimed: 110
+    tuSnap: 50
+    tuAimed: 65
+    tuLoad: 30
+    twoHanded: true
+    oneHandedPenalty: 25
+    invWidth: 1
+    invHeight: 3
+    damageType: 1    
+    aimRange: 30
+    battleType: 1
+    dropoff: 3
+    listOrder: 213
+  - type: STR_30_06_SPRINGFIELD_CLIP_5X
+    #requiresBuy:
+    #  - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.05
+    costBuy: 200
+    costSell: 100
+    weight: 2
+    bigSprite: 210
+    floorSprite: 210
+    hitAnimation: 26
+    hitSound: 204
+    damageType: 2
+    power: 40
+    clipSize: 5
+    battleType: 2
+    listOrder: 113
+  - type: STR_M3_GREASEGUN
+    #requiresBuy:
+    #  - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.2
+    costBuy: 1900
+    costSell: 1750
+    weight: 9
+    bigSprite: 211
+    floorSprite: 211
+    handSprite: 240 
+    bulletSprite: 1
+    fireSound: 205
+    bulletSpeed: 35
+    compatibleAmmo: 
+      - STR_45_ACP_MAG_X30
+    accuracyCloseQuarters: 125
+    accuracyAuto: 45
+    accuracySnap: 56
+    accuracyAimed: 65
+    tuAuto: 40
+    tuSnap: 23
+    tuAimed: 35
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 75
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    aimRange: 20
+    listOrder: 214
+  - type: STR_45_ACP_MAG_X30
+    #requiresBuy:
+    #  - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.05
+    costBuy: 700
+    costSell: 600
+    weight: 3
+    bigSprite: 212
+    floorSprite: 212
+    hitAnimation: 26
+    hitSound: 25
+    damageType: 1
+    clipSize: 30
+    power: 36
+    battleType: 2
+    listOrder: 114
+  - type: STR_M79_THUMPER
+    #requiresBuy:
+    #  - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.2
+    costBuy: 6000
+    costSell: 2250
+    weight: 14
+    bigSprite: 213
+    floorSprite: 213
+    handSprite: 248
+    fireSound: 206
+    compatibleAmmo:
+      - STR_40MM_GRENADE
+    accuracySnap: 40
+    accuracyAimed: 90
+    tuSnap: 33
+    tuAimed: 75
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    arcingShot: true
+    listOrder: 215
+  - type: STR_40MM_GRENADE
+    #requiresBuy:
+    #  - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.1
+    costBuy: 500
+    costSell: 450
+    weight: 1
+    bigSprite: 214
+    floorSprite: 1
+    hitSound: 206
+    hitAnimation: 0
+    power: 60
+    damageType: 3
+    damageAlter:
+      RadiusReduction: 5
+      ToWound: 1.4
+      RandomWound: true
+    clipSize: 1
+    battleType: 2
+    blastRadius: 2
+    bulletSprite: 26
+    listOrder: 115
+
+ufopaedia:
+  - id: STR_COLT_AR-15
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_COLT_AR-15_UFOPEDIA
+    listOrder: 208
+  - id: STR_556X45_MAG_X20
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M1897
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M1897_UFOPEDIA
+    listOrder: 209
+  - id: STR_12_GAUGE_SHELLS_X6
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M60
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M60_UFOPEDIA
+    listOrder: 210
+  - id: STR_762X51_MAG_X100
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_M14
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SPRINGFIELD_M14_UFOPEDIA
+    listOrder: 204
+  - id: STR_762X51_MAG_X20
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_M1903A3
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SPRINGFIELD_M1903A3_UFOPEDIA
+    listOrder: 205
+  - id: STR_30_06_SPRINGFIELD_CLIP_5X
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M3_GREASEGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M3_GREASEGUN_UFOPEDIA
+    listOrder: 206
+  - id: STR_45_ACP_MAG_X30
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M79_THUMPER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M79_THUMPER_UFOPEDIA
+    listOrder: 207
+  - id: STR_40MM_GRENADE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      201: Resources/Act2_Weapons/Firearms/Colt AR-15/Colt_AR-15_Big.png
+      202: Resources/Act2_Weapons/Firearms/Colt AR-15/556x45_Mag_20x_Big.png
+      203: Resources/Act2_Weapons/Firearms/M1897/M1897_Big.png
+      204: Resources/Act2_Weapons/Firearms/M1897/12_Gauge_Shells_6x_Big.png
+      205: Resources/Act2_Weapons/Firearms/M60/M60_Big.png
+      206: Resources/Act2_Weapons/Firearms/M60/762x51_Mag_100x_Big.png
+      207: Resources/Act2_Weapons/Firearms/Springfield M14/M14_Big.png
+      208: Resources/Act2_Weapons/Firearms/Springfield M14/762x51_Mag_20x_Big.png
+      209: Resources/Act2_Weapons/Firearms/Springfield M1903A3/Springfield_M1903A3_Big.png
+      210: Resources/Act2_Weapons/Firearms/Springfield M1903A3/30_06_Springfield_Clip_5x_Big.png
+      211: Resources/Act2_Weapons/Firearms/M3 Greasegun/M3_Greasegun_Big.png
+      212: Resources/Act2_Weapons/Firearms/M3 Greasegun/45_ACP_Mag_30x_Big.png
+      213: Resources/Act2_Weapons/Firearms/M79 Thumper/M79_Thumper_Big.png
+      214: Resources/Act2_Weapons/Firearms/M79 Thumper/40mm_Grenade_Big.png
+  - type: FLOOROB.PCK
+    files:
+      201: Resources/Act2_Weapons/Firearms/Colt AR-15/Colt_AR-15_Floor.png
+      203: Resources/Act2_Weapons/Firearms/M1897/M1897_Floor.png
+      205: Resources/Act2_Weapons/Firearms/M60/M60_Floor.png
+      207: Resources/Act2_Weapons/Firearms/Springfield M14/M14_Floor.png
+      209: Resources/Act2_Weapons/Firearms/Springfield M1903A3/Springfield_M1903A3_Floor.png
+      211: Resources/Act2_Weapons/Firearms/M3 Greasegun/M3_Greasegun_Floor.png
+      213: Resources/Act2_Weapons/Firearms/M79 Thumper/M79_Thumper_Floor.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      200: Resources/Act2_Weapons/Firearms/Colt AR-15/Colt_AR-15_Hand.png
+      208: Resources/Act2_Weapons/Firearms/M1897/M1897_Hand.png
+      216: Resources/Act2_Weapons/Firearms/M60/M60_Hand.png
+      224: Resources/Act2_Weapons/Firearms/Springfield M14/M14_Hand.png
+      232: Resources/Act2_Weapons/Firearms/Springfield M1903A3/Springfield_M1903A3_Hand.png
+      240: Resources/Act2_Weapons/Firearms/M3 Greasegun/M3_Greasegun_Hand.png
+      248: Resources/Act2_Weapons/Firearms/M79 Thumper/M79_Thumper_Hand.png
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      201: Resources/Act2_Weapons/Sounds/colt_ar-15_fire.wav
+      202: Resources/Act2_Weapons/Sounds/m1897_fire.wav
+      203: Resources/Act2_Weapons/Sounds/m60_fire.wav
+      204: Resources/Act2_Weapons/Sounds/springfield_m14_fire.wav
+      205: Resources/Act2_Weapons/Sounds/m3_greasegun_fire.wav
+      206: Resources/Act2_Weapons/Sounds/m79_thumper_fire.wav
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_COLT_AR-15: "Colt AR-15"
+      STR_556X45_MAG_X20: "5.56x45mm NATO Mag (20x)"
+      STR_COLT_AR-15_UFOPEDIA: "This lightweight, selective fire assault rifle is a model originally made by ArmaLite and now produced by Colt. Uses the new {ALT}5.56x45mm NATO{ALT} intermediate caliber, which is easy to control and quite accurate. A very liked weapon, it is expected to be the future rifle of the US Army in the next decades."
+      STR_M1897: "M1897"
+      STR_12_GAUGE_SHELLS_X6: "12 Gauge Shells (6x)"
+      STR_M1897_UFOPEDIA: "Shotgun designed by John M. Browning in the late 1890s It has seen use in every war the US has been a part of. While it has eventually been replaced by newer shotguns, the 'Trench Gun' is still used by US Army and National Guard units. Powerful, respected and feared by friends and enemies alike."
+      STR_M60: "M60"
+      STR_762X51_MAG_X100: "7.62x51mm NATO Mag (100x)"
+      STR_M60_UFOPEDIA: "One of the newest additions on the US arsenal is this light machine gun. Using {ALT}7.62mm NATO{ALT} heavy rounds and equipped with a bipod, this weapon is perfect for laying a hailstorm of bullets that will break apart any enemy unfortunate enough to be on the wrong side of the trigger."
+      STR_SPRINGFIELD_M14: "Springfield M14"
+      STR_762X51_MAG_X20: "7.62x51mm NATO Mag (20x)"
+      STR_SPRINGFIELD_M14_UFOPEDIA: "The standard battle rifle of the US Armed Forces. It's an improvement from the old M1 Garand used in the 40s, calibrated in the powerful {ALT}7.62x51mm NATO{ALT}. Although it is quite difficult to use in full auto, the M14 will shred enemies like no other. It is advised to use it in semi auto mode."
+      STR_SPRINGFIELD_M1903A3: "Springfield M1903A3"
+      STR_30_06_SPRINGFIELD_CLIP_5X: ".30-06 Springfield Clip (5x)"
+      STR_SPRINGFIELD_M1903A3_UFOPEDIA: "{ALT}.30-06 caliber{ALT} bolt action rifle first used at WW1. Its production was focused on its replacement, the M1 Garand in the mid 40s. This variant was redesigned to be used by designated shooters and military scouts, employed for its accuracy and reliability."
+      STR_M3_GREASEGUN: "M3 Greasegun"
+      STR_45_ACP_MAG_X30: ".45 ACP Magazine (30x)"
+      STR_M3_GREASEGUN_UFOPEDIA: "A very cheap sub machine gun made of stapled metal sheets. The ROF is rather slow for a SMG, but the {ALT}.45 ACP{ALT} rounds pack quite a punch. The name comes from the iconic appearance and sound of the gun when it's fired."
+      STR_M79_THUMPER: "M79 Thumper GL"
+      STR_40MM_GRENADE: "40mm Frag Grenade"
+      STR_M79_THUMPER_UFOPEDIA: "Shotgun grenade launcher, break-action. Used to shoot 40mm projectiles at long distance, it is the same size and shape as a conventional rifle (making it easier for the average infant to use). We were authorized to use fragmentation grenades, but not other types of ammunition."

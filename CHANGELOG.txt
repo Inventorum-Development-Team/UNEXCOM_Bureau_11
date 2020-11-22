@@ -1,0 +1,33 @@
+October-2020 v0.1 Proving Grounds
+Changes made:
+*Removed vanilla content
+*Added Act 1 weapons, by Brother^2
+*Added Act 2 weapons, by Brother^2
+*Added initial research, by Brother^2
+*Added sprites for Bureau 11 weapons, by efrenespartano
+*Added new backgrounds for all the base screens, by efrenespartano
+*Added new crafts
+    - Cadillac El Dorado, by Alex_D
+    - U-2 Dragon Lady, by efrenespartano
+    - Mudranger, by the XCF team
+    - UH-1A Iroquois, by Alex_D, Nord & efrenespartano
+    - F-104 Starfighter, by Andr
+    - X-62 Skyranger, by efrenespartano
+*Added new craft weapons, by efrenespartano
+    - Sidewinder Missile
+    - M61 Vulcan Cannon
+    - Fuel Tank
+    - Flare Dispenser
+    - Improved Spy Camera
+    - Experimental Jet Thruster
+*Added item categories
+*Added custom difficulty names
+*Added Alien Laser Weapons, ruleset by Brother^2, sprites by wolwerin
+*Added food and medical items, by Brother^2
+*Added Laser Devil Axe, ruleset by Brother^2, sprites by wolwerin
+*Added new soldierTypes, by RamoZ
+    - Bureau 11 Agent
+    - US Army Veteran
+    - Directorate 17 Agent
+*Added D17 unit, ruleset by Brother^2, sprites by The Martian & efrenespartano
+*Added US Army unit ruleset by Brother^2, sprites by Hans Woofington & efrenespartano

@@ -1,0 +1,113 @@
+items:
+  - type: STR_CORPSE_COAT
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 500
+    floorSprite: 500
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+armors:
+  - type: STR_COAT_UC
+    spriteSheet: XCOM_10.PCK
+    spriteInv: MAN_0wd
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_COAT
+    loftempsSet: [ 3 ]
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166]
+    stats:
+      tu: -5
+      stamina: -5
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+    units:
+      - STR_BUREAU11_AGENT
+
+ufopaedia:
+  - id: STR_COAT_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 1
+    text: STR_COAT_UC_UFOPEDIA
+
+extraSprites:
+  - type: MAN_0wdF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Act1_Armor/Suit/Inventory/MAN_F0.png
+  - type: MAN_0wdF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Act1_Armor/Suit/Inventory/MAN_F1.png
+  - type: MAN_0wdF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Act1_Armor/Suit/Inventory/MAN_F2.png
+  - type: MAN_0wdF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Act1_Armor/Suit/Inventory/MAN_F3.png
+  - type: MAN_0wdM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Act1_Armor/Suit/Inventory/MAN_M0.png
+  - type: MAN_0wdM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Act1_Armor/Suit/Inventory/MAN_M1.png
+  - type: MAN_0wdM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Act1_Armor/Suit/Inventory/MAN_M2.png
+  - type: MAN_0wdM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Act1_Armor/Suit/Inventory/MAN_M3.png
+
+  - type: XCOM_10.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Act1_Armor/Suit/Coat.png
+  - type: BIGOBS.PCK
+    files:
+      500: Resources/Act1_Armor/Suit/Coat_Big.png
+  - type: FLOOROB.PCK
+    files:
+      500: Resources/Act1_Armor/Suit/Coat_Floor.png
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_COAT_UC: B11 COAT
+      STR_COAT_UC_UFOPEDIA: A coat that provides a modocom of protection and allows our agents to keep a low profile, and all in sytle too!

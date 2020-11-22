@@ -1,0 +1,113 @@
+items:
+  - type: STR_CORPSE_BDU
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 501
+    floorSprite: 501
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+
+armors:
+  - type: STR_BDU_UC
+    spriteSheet: XCOM_BDU.PCK
+    spriteInv: MAN_BDU
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_BDU
+    loftempsSet: [ 3 ]
+    frontArmor: 10
+    sideArmor: 8
+    rearArmor: 10
+    underArmor: 6
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166]
+    stats:
+      tu: 10
+      stamina: 5
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 4.0
+    units:
+      - STR_ARMY_VETERAN
+
+ufopaedia:
+  - id: STR_BDU_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 2
+    text: STR_BDU_UC_UFOPEDIA
+
+extraSprites:
+  - type: MAN_BDUF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Act2_Armor/USArmyUniform/Inventory/MAN_F0.png
+  - type: MAN_BDUF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Act2_Armor/USArmyUniform/Inventory/MAN_F1.png
+  - type: MAN_BDUF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Act2_Armor/USArmyUniform/Inventory/MAN_F2.png
+  - type: MAN_BDUF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Act2_Armor/USArmyUniform/Inventory/MAN_F3.png
+  - type: MAN_BDUM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Act2_Armor/USArmyUniform/Inventory/MAN_M0.png
+  - type: MAN_BDUM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Act2_Armor/USArmyUniform/Inventory/MAN_M1.png
+  - type: MAN_BDUM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Act2_Armor/USArmyUniform/Inventory/MAN_M2.png
+  - type: MAN_BDUM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Act2_Armor/USArmyUniform/Inventory/MAN_M3.png
+
+  - type: XCOM_BDU.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Act2_Armor/USArmyUniform/AmericanSoldierSpritesheet.png
+  - type: BIGOBS.PCK
+    files:
+      501: Resources/Act2_Armor/USArmyUniform/BigAmericanSoldierCorpse.png
+  - type: FLOOROB.PCK
+    files:
+      501: Resources/Act2_Armor/USArmyUniform/FloorAmericanSoldierCorpse.png
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_BDU_UC: ARMY UNIFORM
+      STR_BDU_UC_UFOPEDIA: Standard issue military uniform.

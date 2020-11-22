@@ -1,0 +1,166 @@
+﻿lookWeights:
+  - 25
+  - 35
+  - 35
+  - 5
+maleFirst:
+  - Comrade Aleksandr
+  - Comrade Aleksey
+  - Comrade Anatoliy
+  - Comrade Andrey
+  - Comrade Anton
+  - Comrade Artem
+  - Comrade Artur
+  - Comrade Boris
+  - Comrade Denis
+  - Comrade Dmitriy
+  - Comrade Eduard
+  - Comrade Evgeniy
+  - Comrade Gennadiy
+  - Comrade Georgiy
+  - Comrade Grigoriy
+  - Comrade Igor
+  - Comrade Ilya
+  - Comrade Ivan
+  - Comrade Konstantin
+  - Comrade Leonid
+  - Comrade Maxim
+  - Comrade Mihail
+  - Comrade Nikolay
+  - Comrade Oleg
+  - Comrade Pavel
+  - Comrade Petr
+  - Comrade Roman
+  - Comrade Ruslan
+  - Comrade Sergey
+  - Comrade Stanislav
+  - Comrade Vadim
+  - Comrade Valentin
+  - Comrade Valeriy
+  - Comrade Vasiliy
+  - Comrade Viktor
+  - Comrade Vitaliy
+  - Comrade Vladimir
+  - Comrade Vladislav
+  - Comrade Vyacheslav
+  - Comrade Yuriy
+femaleFirst:
+  - Comrade Albina
+  - Comrade Aleksandra
+  - Comrade Alla
+  - Comrade Alyona
+  - Comrade Anastasiya
+  - Comrade Anna
+  - Comrade Antonina
+  - Comrade Darya
+  - Comrade Ekaterina
+  - Comrade Elena
+  - Comrade Evgeniya
+  - Comrade Galina
+  - Comrade Inna
+  - Comrade Irina
+  - Comrade Kristina
+  - Comrade Kseniya
+  - Comrade Larisa
+  - Comrade Lidiya
+  - Comrade Liliya
+  - Comrade Lyubov
+  - Comrade Lyudmila
+  - Comrade Margarita
+  - Comrade Marina
+  - Comrade Mariya
+  - Comrade Nadezhda
+  - Comrade Natalya
+  - Comrade Nina
+  - Comrade Oksana
+  - Comrade Olesya
+  - Comrade Olga
+  - Comrade Raisa
+  - Comrade Svetlana
+  - Comrade Tamara
+  - Comrade Tatyana
+  - Comrade Valentina
+  - Comrade Varvara
+  - Comrade Vera
+  - Comrade Viktoriya
+  - Comrade Yulia
+  - Comrade Zinaida
+  - Comrade Zoya  
+maleLast:
+  - Alekseev
+  - Andreev
+  - Antonov
+  - Borisov
+  - Fedorov
+  - Egorov
+  - Grigoryev
+  - Gromov
+  - Ivanov
+  - Komarov
+  - Korolyov
+  - Kozlov
+  - Kuzmin
+  - Kuznetsov
+  - Lebedev
+  - Makarov
+  - Mihailov
+  - Morozov
+  - Nikitin
+  - Nikolaev
+  - Novikov
+  - Orlov
+  - Pavlov
+  - Petrov
+  - Popov
+  - Romanov
+  - Semyonov
+  - Sergeev
+  - Smirnov
+  - Sokolov
+  - Solovyov
+  - Stepanov
+  - Vasilyev
+  - Volkov
+  - Vorobyov
+  - Yakovlev
+  - Zaitsev
+  - Zaharov
+femaleLast:
+  - Alekseeva
+  - Andreeva
+  - Antonova
+  - Borisova
+  - Fedorova
+  - Egorova
+  - Grigoryeva
+  - Gromova
+  - Ivanova
+  - Komarova
+  - Korolyova
+  - Kozlova
+  - Kuzmina
+  - Kuznetsova
+  - Lebedeva
+  - Makarova
+  - Mihailova
+  - Morozova
+  - Nikitina
+  - Nikolaeva
+  - Novikova
+  - Orlova
+  - Pavlova
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

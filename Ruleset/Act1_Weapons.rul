@@ -1,0 +1,649 @@
+items:
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_ELECTRO_FLARE
+  - delete: STR_STUN_ROD
+
+  - type: STR_BROWNING_HP35
+    categories: [STR_SEMI_CONCEALED, STR_INVESTIGATION, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_PISTOLS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 5
+    bigSprite: 101
+    floorSprite: 101
+    handSprite: 100
+    bulletSprite: 1
+    fireSound: 101
+    compatibleAmmo:
+      - STR_9MM_PISTOL_MAG_15X
+    accuracySnap: 50
+    accuracyAimed: 90
+    tuSnap: 15
+    tuAimed: 40
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    listOrder: 201
+  - type: STR_9MM_PISTOL_MAG_15X
+    categories: [STR_SEMI_CONCEALED, STR_INVESTIGATION, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_PISTOLS, STR_CLIPS]
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 2
+    bigSprite: 102
+    floorSprite: 1
+    handSprite: 1
+    hitSound: 101
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 15
+    battleType: 2
+    armor: 12
+    attraction: 8
+    listOrder: 101
+  - type: STR_LUPARA
+    categories: [STR_SEMI_CONCEALED, STR_INVESTIGATION, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_SHOTGUNS]
+    size: 0.2
+    costSell: 1500
+    weight: 6
+    bigSprite: 103
+    floorSprite: 103
+    handSprite: 116
+    fireSound: 102
+    compatibleAmmo:
+      - STR_12_GAUGE_SHELLS_2X
+    accuracySnap: 55
+    accuracyAimed: 80
+    tuSnap: 20
+    tuAimed: 30
+    snapRange: 4
+    aimRange: 4
+    dropoff: 3
+    tuLoad: 10
+    battleType: 1
+    twoHanded: false
+    shotgunChoke: 100
+    invWidth: 1
+    invHeight: 2
+    armor: 40
+    attraction: 7
+    listOrder: 202
+  - type: STR_12_GAUGE_SHELLS_2X
+    categories: [STR_CONCEALED, STR_SEMI_CONCEALED, STR_COMBAT, STR_INVESTIGATION, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_SHOTGUNS, STR_SHOTGUNS]
+    size: 0.1
+    costBuy: 100
+    costSell: 50
+    weight: 3
+    bigSprite: 104
+    floorSprite: 104
+    power: 20
+    damageType: 1
+    hitSound: 102
+    hitAnimation: 26
+    clipSize: 2
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 6
+    shotgunSpread: 50
+    battleType: 2
+    listOrder: 102
+  - type: STR_M2_CARBINE
+    categories: [STR_COMBAT, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_CARBINES]
+    size: 0.2
+    costBuy: 900
+    costSell: 400
+    weight: 9
+    bigSprite: 105
+    floorSprite: 105
+    handSprite: 132
+    fireSound: 103
+    compatibleAmmo:
+      - STR_30_CARBINE_MAG_20X
+    accuracySnap: 68
+    accuracyAimed: 95
+    accuracyAuto: 55
+    accuracyCloseQuarters: 90
+    oneHandedPenalty: 60
+    kneelBonus: 120
+    tuSnap: 20
+    tuAimed: 40
+    tuAuto: 30
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    tuMelee: 0
+    listOrder: 203
+  - type: STR_30_CARBINE_MAG_20X 
+    categories: [STR_COMBAT, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_CARBINES, STR_CLIPS]
+    size: 0.05
+    costBuy: 100
+    costSell: 50
+    weight: 3
+    bigSprite: 106
+    floorSprite: 1
+    hitAnimation: 26
+    hitSound: 103
+    damageType: 1
+    power: 36
+    clipSize: 20
+    battleType: 2
+    listOrder: 103
+  - type: STR_UNITED_DEFENSE_M42
+    categories: [STR_SEMI_CONCEALED, STR_INVESTIGATION, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_SMGS]
+    size: 0.2
+    costBuy: 3000
+    costSell: 2250
+    weight: 6
+    autoShots: 5
+    bigSprite: 107
+    floorSprite: 107
+    handSprite: 140
+    bulletSprite: 1
+    bulletSpeed: 20
+    fireSound: 104
+    compatibleAmmo:
+      - STR_9MM_PISTOL_MAG_X20
+    accuracyCloseQuarters: 120
+    accuracyAuto: 55
+    accuracySnap: 60
+    accuracyAimed: 70
+    tuAuto: 32
+    tuSnap: 24
+    tuAimed: 45
+    twoHanded: true
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    autoRange: 9
+    snapRange: 15
+    aimRange: 20
+    attraction: 12
+    listOrder: 204
+  - type: STR_9MM_PISTOL_MAG_X20
+    categories: [STR_SEMI_CONCEALED, STR_COMBAT, STR_INVESTIGATION, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_SMGS, STR_CLIPS]
+    size: 0.05
+    costBuy: 200
+    costSell: 100
+    weight: 3
+    bigSprite: 108
+    floorSprite: 1
+    hitAnimation: 26
+    hitSound: 103
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    power: 30
+    listOrder: 104
+  - type: STR_HEART_ATTACK_GUN
+    categories: [STR_SEMI_CONCEALED, STR_INVESTIGATION, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_PISTOLS]
+    size: 0.1
+    costSell: 2000
+    weight: 4
+    bigSprite: 109
+    floorSprite: 109
+    handSprite: 148
+    bulletSprite: 2
+    fireSound: 101
+    compatibleAmmo: 
+      - STR_45_POISON_MAG_7X
+    accuracyAimed: 80
+    accuracyCloseQuarters: 100
+    kneelBonus: 115
+    tuAimed: 45
+    maxRange: 8
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+    listOrder: 205
+  - type: STR_45_POISON_MAG_7X
+    categories: [STR_SEMI_CONCEALED, STR_INVESTIGATION, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_PISTOLS, STR_CLIPS]
+    size: 0.1
+    costSell: 500
+    weight: 2
+    bigSprite: 110
+    floorSprite: 1
+    handSprite: 1
+    hitSound: 101
+    hitAnimation: 26
+    power: 80
+    damageType: 8
+    clipSize: 7
+    battleType: 2
+    armor: 12
+    attraction: 8
+    listOrder: 105
+  - type: STR_HIGH_STANDARD_HDM
+    categories: [STR_CONCEALED, STR_INVESTIGATION, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_PISTOLS]
+    size: 0.1
+    requiresBuy:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    costBuy: 1200
+    costSell: 1050
+    weight: 4
+    bigSprite: 111
+    floorSprite: 111
+    handSprite: 156
+    bulletSprite: 1
+    fireSound: 105
+    compatibleAmmo:
+      - STR_22LR_MAG_10X
+    accuracySnap: 40
+    accuracyAimed: 80
+    tuSnap: 20
+    tuAimed: 45
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    listOrder: 201
+  - type: STR_22LR_MAG_10X
+    categories: [STR_CONCEALED, STR_INVESTIGATION, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_PISTOLS, STR_CLIPS]
+    size: 0.1
+    requiresBuy:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    costBuy: 150
+    costSell: 125
+    weight: 2
+    bigSprite: 112
+    floorSprite: 112
+    handSprite: 1
+    hitSound: 105
+    hitAnimation: 26
+    power: 26
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    armor: 12
+    attraction: 1
+    listOrder: 106
+  - type: STR_BERETTA_M12
+    categories: [STR_CONCEALED, STR_INVESTIGATION, STR_BALLISTIC, STR_FIREARMS, STR_BUREAU_11_TECH, STR_SMGS]
+    size: 0.2
+    costBuy: 3000
+    costSell: 2500
+    requiresBuy:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    weight: 7
+    autoShots: 5
+    bigSprite: 113
+    floorSprite: 113
+    handSprite: 164
+    bulletSprite: 1
+    bulletSpeed: 20
+    fireSound: 105
+    compatibleAmmo:
+      - STR_9MM_PISTOL_MAG_X20
+    accuracyCloseQuarters: 120
+    accuracySnap: 55
+    accuracyAuto: 45
+    accuracyAimed: 80
+    twoHanded: true
+    tuAuto: 40
+    tuSnap: 35
+    tuAimed: 50
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    snapRange: 15
+    aimRange: 18
+    attraction: 1
+    listOrder: 207
+  - type: STR_COLT_M1911
+    size: 0.1
+    costSell: 1800
+    weight: 5
+    bigSprite: 114
+    floorSprite: 114
+    handSprite: 172
+    bulletSprite: 2
+    fireSound: 101
+    compatibleAmmo: 
+      - STR_45_ACP_MAG_7X
+    accuracyAimed: 80
+    accuracyCloseQuarters: 100
+    kneelBonus: 115
+    tuAimed: 45
+    maxRange: 8
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    listOrder: 208
+  - type: STR_45_ACP_MAG_7X
+    size: 0.1
+    costSell: 400
+    weight: 2
+    bigSprite: 115
+    floorSprite: 1
+    handSprite: 1
+    hitSound: 101
+    hitAnimation: 26
+    power: 36
+    damageType: 1
+    clipSize: 7
+    battleType: 2
+    listOrder: 108
+  - type: STR_MEDICAL_BAG
+    medikitBackground: MEDIKIT_BACKGROUND
+    size: 0.5
+    costBuy: 2000
+    costSell: 1500
+    weight: 10
+    bigSprite: 116
+    floorSprite: 116
+    handSprite: 180
+    battleType: 6
+    invWidth: 2
+    invHeight: 2
+    painKiller: 6
+    heal: 6
+    stimulant: 6
+    woundRecovery: 2
+    healthRecovery: 3
+    stunRecovery: 5
+    energyRecovery: 15
+    costUse:
+      time: 30
+      energy: -3
+    flatRate: false
+    attraction: 5
+    experienceTrainingMode: 19
+    medikitActionName: STR_DEPLOY_MEDICAL_BAG
+    listOrder: 109
+  - type: STR_MEDICAL_POUCH
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 2
+    bigSprite: 117
+    floorSprite: 117
+    handSprite: 188
+    battleType: 6
+    invWidth: 1
+    invHeight: 1
+    heal: 3
+    healthRecovery: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitType: 1
+    costUse:
+      time: 10
+    flatRate: true
+    attraction: 6
+    experienceTrainingMode: 19
+    medikitActionName: STR_USE_MEDICAL_POUCH
+    listOrder: 110
+
+ufopaedia:
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_GRENADE
+  - delete: STR_SMOKE_GRENADE
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_ELECTRO_FLARE
+  - delete: STR_STUN_ROD
+
+  - id: STR_BROWNING_HP35
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BROWNING_HP35_UFOPEDIA
+    listOrder: 101
+  - id: STR_9MM_PISTOL_MAG_15X
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LUPARA
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LUPARA_UFOPEDIA
+    listOrder: 102
+  - id: STR_12_GAUGE_SHELLS_2X
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M2_CARBINE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M2_CARBINE_UFOPEDIA
+    listOrder: 103
+  - id: STR_30_CARBINE_MAG_20X
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_UNITED_DEFENSE_M42
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UNITED_DEFENSE_M42_UFOPEDIA
+    listOrder: 104
+  - id: STR_9MM_PISTOL_MAG_X20
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HEART_ATTACK_GUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HEART_ATTACK_GUN_UFOPEDIA
+    requires:
+      - STR_HEART_ATTACK_GUN
+    listOrder: 105
+  - id: STR_45_POISON_MAG_7X
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HIGH_STANDARD_HDM
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HIGH_STANDARD_HDM_UFOPEDIA
+    requires:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    listOrder: 106
+  - id: STR_22LR_MAG_10X
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BERETTA_M12
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BERETTA_M12_UFOPEDIA
+    requires:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    listOrder: 107
+  - id: STR_COLT_M1911
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_COLT_M1911_UFOPEDIA
+    listOrder: 108
+  - id: STR_45_ACP_MAG_7X
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_SUPPRESSED_WEAPONS_AQUISITION
+    type_id: 8
+    requires:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    text: STR_SUPPRESSED_WEAPONS_AQUISITION_UFOPEDIA
+    listOrder: 201
+
+  - id: STR_MEDICAL_BAG
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MEDICAL_BAG_UFOPEDIA
+    listOrder: 109
+  - id: STR_MEDICAL_POUCH
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MEDICAL_POUCH_UFOPEDIA
+    listOrder: 110
+
+manufacture:
+  - name: STR_LUPARA
+    category: STR_WEAPONS_AND_EQUIPMENT
+    space: 1
+    time: 40
+    cost: 1750
+    producedItems:
+      STR_LUPARA: 1
+    listOrder: 101
+
+  - name: STR_HEART_ATTACK_GUN
+    category: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_HEART_ATTACK_GUN
+    space: 1
+    time: 200
+    cost: 2000
+    producedItems:
+      STR_HEART_ATTACK_GUN: 1
+    listOrder: 102
+
+  - name: STR_45_POISON_MAG_7X
+    category: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_HEART_ATTACK_GUN
+    space: 3
+    time: 120
+    cost: 800
+    producedItems:
+      STR_45_POISON_MAG_7X: 1
+    listOrder: 103
+
+research:
+  - name: STR_HEART_ATTACK_GUN
+    cost: 200
+    points: 50
+
+  - name: STR_SUPPRESSED_WEAPONS_AQUISITION
+    cost: 100
+    points: 50
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      101: Resources/Act1_Weapons/Firearms/Browning HP35/Browning_HP35_Big.png
+      102: Resources/Act1_Weapons/Firearms/Browning HP35/9mm_Mag_15x_Big.png
+      103: Resources/Act1_Weapons/Firearms/Lupara/Lupara_Big.png
+      104: Resources/Act1_Weapons/Firearms/Lupara/12_Gauge_Shells_2x_Big.png
+      105: Resources/Act1_Weapons/Firearms/M2 Carbine/M2_Carbine_Big.png
+      106: Resources/Act1_Weapons/Firearms/M2 Carbine/30_Carbine_Mag_20x_Big.png
+      107: Resources/Act1_Weapons/Firearms/United Defense M42/United_Defense_M42_Big.png
+      108: Resources/Act1_Weapons/Firearms/United Defense M42/9x19mm_Mag_20x_Big.png
+      109: Resources/Act1_Weapons/Firearms/Heart-Attack Gun/Heart_Attack_Gun_Big.png
+      110: Resources/Act1_Weapons/Firearms/Heart-Attack Gun/45_Poison_Mag_7x_Big.png
+      111: Resources/Act1_Weapons/Firearms/High Standard HDM/High_Standard_HDM_Big.png
+      112: Resources/Act1_Weapons/Firearms/High Standard HDM/22LR_Mag_10x_Big.png
+      113: Resources/Act1_Weapons/Firearms/Beretta M12/Beretta_M12_Big.png
+      114: Resources/Act1_Weapons/Firearms/Colt M1911/Colt_M1911_Big.png
+      115: Resources/Act1_Weapons/Firearms/Colt M1911/45_ACP_Mag_7x_Big.png
+      116: Resources/Medical&Food/Medical_Bag_Big.png
+      117: Resources/Medical&Food/Medical_Pouch_Big.png
+  - type: FLOOROB.PCK
+    files:
+      101: Resources/Act1_Weapons/Firearms/Browning HP35/Browning_HP35_Floor.png
+      103: Resources/Act1_Weapons/Firearms/Lupara/Lupara_Floor.png
+      104: Resources/Act1_Weapons/Firearms/Lupara/12_Gauge_Shells_2x_Floor.png
+      105: Resources/Act1_Weapons/Firearms/M2 Carbine/M2_Carbine_Floor.png
+      107: Resources/Act1_Weapons/Firearms/United Defense M42/United_Defense_M42_Floor.png
+      109: Resources/Act1_Weapons/Firearms/Heart-Attack Gun/Heart_Attack_Gun_Floor.png
+      111: Resources/Act1_Weapons/Firearms/High Standard HDM/High_Standard_HDM_Floor.png
+      113: Resources/Act1_Weapons/Firearms/Beretta M12/Beretta_M12_Floor.png
+      114: Resources/Act1_Weapons/Firearms/Colt M1911/Colt_M1911_Floor.png
+      115: Resources/Medical&Food/Medical_Bag_Floor.png
+      116: Resources/Medical&Food/Medical_Pouch_Floor.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      100: Resources/Act1_Weapons/Firearms/Browning HP35/Browning_HP35_Hand.png
+      116: Resources/Act1_Weapons/Firearms/Lupara/Lupara_Hand.png
+      124: Resources/Act1_Weapons/Firearms/Lupara/12_Gauge_Shells_2x_Hand.png
+      132: Resources/Act1_Weapons/Firearms/M2 Carbine/M2_Carbine_Hand.png
+      140: Resources/Act1_Weapons/Firearms/United Defense M42/United_Defense_M42_Hand.png
+      148: Resources/Act1_Weapons/Firearms/Heart-Attack Gun/Heart_Attack_Gun_Hand.png
+      156: Resources/Act1_Weapons/Firearms/High Standard HDM/High_Standard_HDM_Hand.png
+      164: Resources/Act1_Weapons/Firearms/Beretta M12/Beretta_M12_Hand.png
+      172: Resources/Act1_Weapons/Firearms/Colt M1911/Colt_M1911_Hand.png
+      180: Resources/Medical&Food/Medical_Bag_Hand.png
+      188: Resources/Medical&Food/Medical_Pouch_Hand.png
+  - type: MEDIKIT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Medical&Food/MEDIKIT_BACKGROUND.png
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      101: Resources/Act1_Weapons/Sounds/browning_hp-35_fire.wav
+      102: Resources/Act1_Weapons/Sounds/lupara_fire.wav
+      103: Resources/Act1_Weapons/Sounds/m2_carbine_fire.wav
+      104: Resources/Act1_Weapons/Sounds/united_defense_m42_fire.wav
+      105: Resources/Act1_Weapons/Sounds/suppressed_fire.wav
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_BROWNING_HP35: "Browning HP-35"
+      STR_40SW_MAG_10X: ".40 S&W Magazine (10x)"
+      STR_BROWNING_HP35_UFOPEDIA: "The Browning HP-35, named after its designer John Browning, is a reliable semi-automatic handgun chambered in {ALT}.40 S&W{ALT} used by many militaries and law enforcement agencies worldwide. {NEWLINE}> Semi-Concealable"
+      STR_LUPARA: "Lupara"
+      STR_12_GAUGE_SHELLS_2X: "12 Gauge Shells (2x)"
+      STR_LUPARA_UFOPEDIA: "This modified shotgun with the barrel sawn off uses {ALT}12 Gauge Shells{ALT} and is commonly accociated with the mafia or other clandestine activities. {NEWLINE}> Semi-Concealable"
+      STR_M2_CARBINE: "M2 Carbine"
+      STR_30_CARBINE_MAG_20X: ".30 Carbine Magazine (20x)"
+      STR_M2_CARBINE_UFOPEDIA: "Personal defense weapon meant for artillery crews, supply personnel and rear guard troops, it's valuable for the easiness to use and nice recoil. Uses {ALT}.30 Carbine {ALT} rounds. The drawback is the low hitting power or the weapon."
+      STR_UNITED_DEFENSE_M42: "United Defense M42"
+      STR_9MM_PISTOL_MAG_X20: "9x19mm Parabellum Mag (x20)"
+      STR_UNITED_DEFENSE_M42_UFOPEDIA: "The United Defense M42 is a submachine gun designed in the WW2 as a replacement for the Thompson SMGs, reliable but heavy and expensive. It saw little use with the armed forces, but the Office of Strategy Services agents and officers really liked it's performance. Calibrated in {ALT}9mm{ALT} features a fast reload magazine. {NEWLINE}> Semi-Concealable"
+      STR_HEART_ATTACK_GUN: "Heart-Attack Gun"
+      STR_45_POISON_MAG_7X: ".45 ACP Toxin Mag (7x)"
+      STR_HEART_ATTACK_GUN_UFOPEDIA: "A highly modified M1911A1 handgun, the firing bolt has been adapted to fire special darts filled of ricin toxin instead of bullets. These darts disintegrate on contact with the skin and leave no traces in the body of the victim. It fakes a heart attack and a highly skilled coroner is required to detect it. Includes a laser scope to ease with the targeting of the weapon. {NEWLINE}> Semi-Concealable"
+      STR_DAMAGE_ACID: "TOXIN"
+      STR_RESEARCH_REPORT: "Research Reports"
+      STR_SUPPRESSED_WEAPONS_AQUISITION: "Suppressed Weapons Aquisition"
+      STR_SUPPRESSED_WEAPONS_AQUISITION_UFOPEDIA: "Our covert operations require special weapons to avoid detection. By using suppressed firearms we reduce the unwanted attention by dissipating some of the light and noise so characteristic of the gunfire. "
+      STR_HIGH_STANDARD_HDM: "High Standard HDM"
+      STR_22LR_MAG_10X: ".22LR Magazine (10x)"
+      STR_HIGH_STANDARD_HDM_UFOPEDIA: "The High Standard HDM is a semi-automatic handgun equipped with an integral suppressor, adopeted by the OSS in 1942 it has become somewhat outdated but is still used by CIA U-2 pilots. Fires {ALT}.22LR rounds{ALT} {NEWLINE}> Concealable"
+      STR_BERETTA_M12: "Beretta M12"
+      STR_BERETTA_M12_UFOPEDIA: "Variant of a light SMG designed by the Italian firm Beretta, used mostly by security staff of various diplomatic services (and by the CIA). This is equipped with a heavy suppressor that negates most of the noise and flash. Calibrated in {ALT}9x19 Parabellum{ALT} rounds, it has a manageable recoil on full auto. {NEWLINE}> Concealable"
+      STR_COLT_M1911: "Colt M1911"
+      STR_45_ACP_MAG_7X: ".45 ACP Magazine"
+      STR_COLT_M1911_UFOPEDIA: "Placeholder"
+      STR_MEDICAL_BAG: "Medical Bag"
+      STR_DEPLOY_MEDICAL_BAG: "Deploy Medical Bag"
+      STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical and healing items inside. It is used by paramedics on the battlefield to stabilize seriously injured patients. The bag contains various medicines such as antibiotics, anti-inflammatories, morphine and stimulants. One of the most appreciated tools by the users of this kit is a practical field surgery kit with which bullets or splinters can be removed from patients' wounds. It is somewhat heavy and slow to use, but can save a patient's life."
+      STR_MEDICAL_POUCH: "Medical Pouch"
+      STR_USE_MEDICAL_POUCH: "Use Medical Pouch"
+      STR_MEDICAL_POUCH_UFOPEDIA: "Small medical case packed in a plastic bag, it is similar to those found in civilian life, such as in offices and schools. This small first aid kit is used to quickly apply medication to a serious, life-threatening injury, allowing the user to arrive at appropriate medical facilities. It can be used by the user himself, although it does not contain a large amount of medication and when consumed the pouch is discarded." 
