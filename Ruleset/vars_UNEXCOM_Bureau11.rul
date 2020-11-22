@@ -17,8 +17,7 @@ pilotsEmergencyEvacuationSurvivalChance: 75
 statisticalBulletConservation: true
 surrenderMode: 2
 chanceToStopRetaliation: 50
-useCustomCategories: true
-buildInfiltrationBaseCloseToTheCountry: true
+displayCustomCategories: 1
 lessAliensDuringBaseDefense: true
 fixedUserOptions:
   friendlyCraftEscort: true

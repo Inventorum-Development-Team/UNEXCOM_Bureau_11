@@ -166,8 +166,6 @@ crafts:
     transferTime: 72
     autoPatrol: true
     avoidBonus: 20
-    escortRange: 25
-    escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 134
     radarChance: 15
@@ -586,8 +584,8 @@ extraSprites:
 
       236: Resources/Vehicles/Weapons/Fuel_Tank_dogfight.png
       237: Resources/Vehicles/Weapons/FlareDispenser_dogfight.png
-      236: Resources/Vehicles/Weapons/ImprovedSpyCamera_dogfight.png
-      237: Resources/Vehicles/Weapons/Afterburner_dogfight.png
+      238: Resources/Vehicles/Weapons/ImprovedSpyCamera_dogfight.png
+      239: Resources/Vehicles/Weapons/Afterburner_dogfight.png
 ###################################################
       100: Resources/Vehicles/Cadillac_minimised.png
       101: Resources/Vehicles/U2DragonLady_minimised.png

@@ -169,10 +169,10 @@ items:
       ToArmorPre: 0.3
       RadiusReduction: 40
       IgnoreSelfDestruct: true
-      toWound: 1.3
+      ToWound: 1.3
       RandomWound: true
       ToTile: 0.90
-      toStun: 1.2
+      ToStun: 1.2
     clipSize: 1
     battleType: 2
     invWidth: 1
