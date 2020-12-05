@@ -26,7 +26,7 @@ armors:
     spriteHairGroup: 9
     spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166]
     stats:
-      tu: -5
+      tu: 0
       stamina: -5
       health: 0
       bravery: 0
@@ -36,14 +36,14 @@ armors:
       strength: 0
       psiStrength: 0
       psiSkill: 0
-      melee: 0
+      melee: -5
     damageModifier:
       - 1.0
       - 1.0
       - 1.5
       - 1.0
       - 1.0
-      - 1.0
+      - 0.0
       - 1.0
       - 1.0
       - 1.0
