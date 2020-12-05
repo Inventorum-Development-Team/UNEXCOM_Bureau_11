@@ -19,7 +19,7 @@ armors:
     loftempsSet: [ 3 ]
     frontArmor: 10
     sideArmor: 8
-    rearArmor: 10
+    rearArmor: 8
     underArmor: 6
     spriteFaceGroup: 6
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
@@ -43,7 +43,7 @@ armors:
       - 1.2
       - 1.0
       - 1.0
-      - 1.0
+      - 0.0
       - 1.0
       - 1.0
       - 1.0
