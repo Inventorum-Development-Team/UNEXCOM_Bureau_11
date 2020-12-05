@@ -59,7 +59,7 @@ items:
     handSprite: 208
     fireSound: 102
     compatibleAmmo:
-      - STR_12_GAUGE_SHELLS_2X
+      - STR_12_GAUGE_SHELLS_X6
     accuracySnap: 55
     accuracyAimed: 80
     tuSnap: 20
@@ -232,7 +232,7 @@ items:
     floorSprite: 210
     hitAnimation: 26
     hitSound: 204
-    damageType: 2
+    damageType: 1
     power: 40
     clipSize: 5
     battleType: 2
