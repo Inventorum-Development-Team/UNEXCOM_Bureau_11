@@ -393,6 +393,28 @@ items:
     experienceTrainingMode: 19
     medikitActionName: STR_USE_MEDICAL_POUCH
     listOrder: 110
+  - type: STR_SPY_CAMERA
+    size: 0.1
+    costSell: 1200
+    twoHanded: true
+    blockBothHands: true
+    weight: 6
+    damageType: 5
+    bigSprite: 118
+    floorSprite: 118
+    handSprite: 196
+    bulletSprite: 8
+    fireSound: 18
+    power: 5
+    clipSize: 6
+    accuracySnap: 110
+    tuSnap: 70
+    battleType: 1
+    invWidth: 2
+    invHeight: 1
+    maxRange: 2
+    armor: 30
+    listOrder: 111
 
 ufopaedia:
   - delete: STR_PISTOL
@@ -503,6 +525,11 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MEDICAL_POUCH_UFOPEDIA
     listOrder: 110
+  - id: STR_SPY_CAMERA
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SPY_CAMERA_UFOPEDIA
+    listOrder: 111
 
 manufacture:
   - name: STR_LUPARA
@@ -536,6 +563,17 @@ manufacture:
       STR_45_POISON_MAG_7X: 1
     listOrder: 103
 
+  - name: STR_SPY_CAMERA
+    category: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_SPY_CAMERA
+    space: 3
+    time: 60
+    cost: 1000
+    producedItems:
+      STR_SPY_CAMERA: 1
+    listOrder: 104
+
 research:
   - name: STR_HEART_ATTACK_GUN
     cost: 200
@@ -544,6 +582,10 @@ research:
   - name: STR_SUPPRESSED_WEAPONS_AQUISITION
     cost: 100
     points: 50
+
+  - name: STR_SPY_CAMERA
+    cost: 100
+    points: 20
 
 extraSprites:
   - type: BIGOBS.PCK
@@ -647,3 +689,6 @@ extraStrings:
       STR_MEDICAL_POUCH: "Medical Pouch"
       STR_USE_MEDICAL_POUCH: "Use Medical Pouch"
       STR_MEDICAL_POUCH_UFOPEDIA: "Small medical case packed in a plastic bag, it is similar to those found in civilian life, such as in offices and schools. This small first aid kit is used to quickly apply medication to a serious, life-threatening injury, allowing the user to arrive at appropriate medical facilities. It can be used by the user himself, although it does not contain a large amount of medication and when consumed the pouch is discarded." 
+      STR_SPY_CAMERA: Spy Camera
+      STR_SPY_CAMERA_UFOPEDIA: Placeholder.
+      STR_DAMAGE_PLASMA_BEAM: FLASH
