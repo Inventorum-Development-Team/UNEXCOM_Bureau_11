@@ -226,7 +226,7 @@ craftWeapons:
 
   - type: STR_VULCAN
     weaponType: 0
-    sprite: 202
+    sprite: 201
     sound: 4
     damage: 20
     range: 10
@@ -565,6 +565,8 @@ extraSprites:
       137: Resources/Vehicles/Starfighter_base.png
       138: Resources/Vehicles/Skyranger_base.png
 
+      248: Resources/Vehicles/Weapons/Sidewinder_basebits.png
+      249: Resources/Vehicles/Weapons/Vulcan_basebits.png
       279: Resources/Vehicles/Weapons/Fuel_Tank_basebits.png
       280: Resources/Vehicles/Weapons/FlareDispenser_basebits.png
       281: Resources/Vehicles/Weapons/ImprovedSpyCamera_basebits.png
