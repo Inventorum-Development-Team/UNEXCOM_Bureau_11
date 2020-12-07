@@ -229,7 +229,7 @@ items:
     costSell: 100
     weight: 2
     bigSprite: 210
-    floorSprite: 210
+    floorSprite: 4
     hitAnimation: 26
     hitSound: 204
     damageType: 1
@@ -275,7 +275,7 @@ items:
     costSell: 600
     weight: 3
     bigSprite: 212
-    floorSprite: 212
+    floorSprite: 4
     hitAnimation: 26
     hitSound: 25
     damageType: 1
@@ -326,7 +326,7 @@ items:
     clipSize: 1
     battleType: 2
     blastRadius: 2
-    bulletSprite: 26
+    bulletSprite: 4
     listOrder: 115
 
 ufopaedia:
