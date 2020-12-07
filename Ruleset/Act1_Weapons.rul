@@ -393,6 +393,17 @@ items:
     experienceTrainingMode: 19
     medikitActionName: STR_USE_MEDICAL_POUCH
     listOrder: 110
+  - type: STR_GRENADE
+    damageType: 1
+    power: 30
+    damageAlter:
+      RandomType: 6
+      ArmorEffectiveness: 1.5
+      ToWound: 3.0
+      ToHealth: 1.25
+      RandomWound: false
+    battleType: 4
+    blastRadius: 7
   - type: STR_SPY_CAMERA
     size: 0.1
     costSell: 1200
@@ -414,7 +425,6 @@ items:
     invHeight: 1
     maxRange: 2
     armor: 30
-    listOrder: 111
 
 ufopaedia:
   - delete: STR_PISTOL
@@ -508,8 +518,15 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 
+  - id: STR_SPY_CAMERA
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SPY_CAMERA_UFOPEDIA
+    listOrder: 109
+
   - id: STR_SUPPRESSED_WEAPONS_AQUISITION
     type_id: 8
+    section: STR_REPORTS
     requires:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
     text: STR_SUPPRESSED_WEAPONS_AQUISITION_UFOPEDIA
@@ -525,11 +542,6 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MEDICAL_POUCH_UFOPEDIA
     listOrder: 110
-  - id: STR_SPY_CAMERA
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SPY_CAMERA_UFOPEDIA
-    listOrder: 111
 
 manufacture:
   - name: STR_LUPARA
@@ -581,7 +593,7 @@ research:
 
   - name: STR_SUPPRESSED_WEAPONS_AQUISITION
     cost: 100
-    points: 50
+    points: 20
 
   - name: STR_SPY_CAMERA
     cost: 100
@@ -607,6 +619,7 @@ extraSprites:
       115: Resources/Act1_Weapons/Firearms/Colt M1911/45_ACP_Mag_7x_Big.png
       116: Resources/Medical&Food/Medical_Bag_Big.png
       117: Resources/Medical&Food/Medical_Pouch_Big.png
+      118: Resources/SpecialWeapons/Spy Camera/BigSpyCamera.png
   - type: FLOOROB.PCK
     files:
       101: Resources/Act1_Weapons/Firearms/Browning HP35/Browning_HP35_Floor.png
@@ -620,6 +633,7 @@ extraSprites:
       114: Resources/Act1_Weapons/Firearms/Colt M1911/Colt_M1911_Floor.png
       115: Resources/Medical&Food/Medical_Bag_Floor.png
       116: Resources/Medical&Food/Medical_Pouch_Floor.png
+      118: Resources/SpecialWeapons/Spy Camera/FloorSpyCamera.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -637,6 +651,7 @@ extraSprites:
       172: Resources/Act1_Weapons/Firearms/Colt M1911/Colt_M1911_Hand.png
       180: Resources/Medical&Food/Medical_Bag_Hand.png
       188: Resources/Medical&Food/Medical_Pouch_Hand.png
+      196: Resources/SpecialWeapons/Spy Camera/HandSpyCamera.png
   - type: MEDIKIT_BACKGROUND
     singleImage: true
     width: 320
@@ -656,9 +671,11 @@ extraSounds:
 extraStrings:
   - type: en-US
     strings:
+      STR_GRENADE: "Frag Grenade"
+      STR_REPORTS: "REPORTS"
       STR_BROWNING_HP35: "Browning HP-35"
-      STR_40SW_MAG_10X: ".40 S&W Magazine (10x)"
-      STR_BROWNING_HP35_UFOPEDIA: "The Browning HP-35, named after its designer John Browning, is a reliable semi-automatic handgun chambered in {ALT}.40 S&W{ALT} used by many militaries and law enforcement agencies worldwide. {NEWLINE}> Semi-Concealable"
+      STR_9MM_PISTOL_MAG_15X: "9x19mm Parabellum Mag (15x)"
+      STR_BROWNING_HP35_UFOPEDIA: "The Browning HP-35, named after its designer John Browning, is a reliable semi-automatic handgun chambered in {ALT}9x19mm Parabellum{ALT} used by many militaries and law enforcement agencies worldwide. {NEWLINE}> Semi-Concealable"
       STR_LUPARA: "Lupara"
       STR_12_GAUGE_SHELLS_2X: "12 Gauge Shells (2x)"
       STR_LUPARA_UFOPEDIA: "This modified shotgun with the barrel sawn off uses {ALT}12 Gauge Shells{ALT} and is commonly accociated with the mafia or other clandestine activities. {NEWLINE}> Semi-Concealable"
@@ -689,6 +706,7 @@ extraStrings:
       STR_MEDICAL_POUCH: "Medical Pouch"
       STR_USE_MEDICAL_POUCH: "Use Medical Pouch"
       STR_MEDICAL_POUCH_UFOPEDIA: "Small medical case packed in a plastic bag, it is similar to those found in civilian life, such as in offices and schools. This small first aid kit is used to quickly apply medication to a serious, life-threatening injury, allowing the user to arrive at appropriate medical facilities. It can be used by the user himself, although it does not contain a large amount of medication and when consumed the pouch is discarded." 
-      STR_SPY_CAMERA: Spy Camera
-      STR_SPY_CAMERA_UFOPEDIA: Placeholder.
-      STR_DAMAGE_PLASMA_BEAM: FLASH
+
+      STR_SPY_CAMERA: "Spy Camera"
+      STR_SPY_CAMERA_UFOPEDIA: "This camera is aesthetically identical to a civilian one, but internally features a very complex machining system designed to take instant snaps with a very high resolution lens and a prototype stroboscopic flashlight powered by a small battery. We can use it on field investigations to recover evidence of foreign intrusion."
+      STR_DAMAGE_PLASMA_BEAM: "FLASH"
