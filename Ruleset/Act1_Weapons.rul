@@ -265,7 +265,7 @@ items:
     costSell: 125
     weight: 2
     bigSprite: 112
-    floorSprite: 112
+    floorSprite: 4
     handSprite: 1
     hitSound: 105
     hitAnimation: 26
@@ -376,7 +376,7 @@ items:
     costSell: 150
     weight: 2
     bigSprite: 117
-    floorSprite: 117
+    floorSprite: 116
     handSprite: 188
     battleType: 6
     invWidth: 1
