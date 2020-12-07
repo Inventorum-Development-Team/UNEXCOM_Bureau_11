@@ -29,6 +29,7 @@ armors:
     underArmor: 2
     visibilityAtDark: 24
     psiVision: 8
+    drawingRoutine: 4
     specialWeapon: ALIEN_PSI_WEAPON
     damageModifier:
       - 1.0
@@ -97,7 +98,7 @@ research:
   - name: STR_THIN_MAN_INFILTRATOR
     cost: 200
     points: 50
-    lookup: STR_THIN_MAN
+#    lookup: STR_THIN_MAN
     needItem: true
     listOrder: 1000
   - name: STR_THIN_MAN_CORPSE
