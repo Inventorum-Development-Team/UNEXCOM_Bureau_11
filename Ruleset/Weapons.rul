@@ -1189,6 +1189,220 @@ items:
     armor: 20
     listOrder: 230
 
+# Stechkin APS
+  - type: STR_STECHKIN_APS
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
+    requiresBuy:
+      - STR_SOVIET_WEAPON_AQUISITION
+    size: 0.1
+    costBuy: 500
+    costSell: 480
+    weight: 6
+    bigSprite: 584
+    floorSprite: 584
+    handSprite: 584
+    bulletSprite: 1
+    fireSound: 230
+    reloadSound: 231
+    compatibleAmmo:
+      - STR_STECHKIN_APS_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 16
+    accuracyAimed: 80
+    tuAimed: 50
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 12
+    accuracySnap: 65
+    tuSnap: 30
+    confAuto:
+      shots: 5
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    autoRange: 9
+    accuracyAuto: 60
+    tuAuto: 45
+    accuracyCloseQuarters: 100
+    tuLoad: 15
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 115
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    listOrder: 231
+  - type: STR_STECHKIN_APS_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
+    requiresBuy:
+      - STR_SOVIET_WEAPON_AQUISITION
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 3
+    bigSprite: 600
+    floorSprite: 600
+    handSprite: 600
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    armor: 10
+    listOrder: 233
+
+# Skorpion vz.61
+  - type: STR_SKORPION_VZ61
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SOVIET_TECHNOLOGY]
+    size: 0.2
+    requiresBuy:
+      - STR_SOVIET_WEAPON_AQUISITION
+    costBuy: 1000
+    costSell: 860
+    weight: 8
+    bigSprite: 600
+    floorSprite: 600
+    handSprite: 600
+    bulletSprite: 1
+    fireSound: 232
+    reloadSound: 233
+    compatibleAmmo:
+      - STR_STECHKIN_APS_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 20
+    accuracyAimed: 90
+    tuAimed: 40
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 16
+    accuracySnap: 70
+    tuSnap: 25
+    confAuto:
+      shots: 8
+      name: STR_SPRAY_N_PRAY
+      ammoSlot: 0
+      arcing: false
+    autoRange: 8
+    accuracyAuto: 60
+    tuAuto: 35
+    accuracyCloseQuarters: 100
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 125
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    twoHanded: true
+    listOrder: 232
+
+# AK-47
+  - type: STR_AK_47
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECHNOLOGY, STR_PROPRIETARY]
+    requiresBuy:
+      - STR_SOVIET_WEAPON_AQUISITION
+    size: 0.2
+    costBuy: 3000
+    costSell: 2780
+    weight: 12
+    bigSprite: 616
+    floorSprite: 616
+    handSprite: 616
+    bulletSprite: 1
+    fireSound: 234
+    reloadSound: 235
+    compatibleAmmo:
+      - STR_AK_47_MAG
+    confSnap:
+      shots: 3
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    snapRange: 18
+    accuracySnap: 85
+    tuSnap: 35
+    confAuto:
+      shots: 6
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    autoRange: 11
+    accuracyAuto: 60
+    tuAuto: 40
+    accuracyCloseQuarters: 90
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 125
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+# Bayonet Start
+    meleeHitSound: 500
+    meleeAnimation: 8
+    meleeType: 7
+    meleePower: 30
+    meleeBonus:
+      strength: 0.3
+      melee: 0.2
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    costMelee:
+      time: 20
+      energy: 8
+    flatMelee:
+      time: true
+# Bayonet End
+    listOrder: 234
+  - type: STR_AK_47_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECHNOLOGY, STR_MAGAZINES]
+    requiresBuy:
+      - STR_SOVIET_WEAPON_AQUISITION
+    size: 0.1
+    costBuy: 500
+    costSell: 420
+    weight: 2
+    bigSprite: 632
+    floorSprite: 632
+    handSprite: 632
+    hitSound: 22
+    hitAnimation: 26
+    power: 60
+    damageAlter:
+      ToWound: 0.6
+      ToHealth: 0.85
+    damageType: 1
+    clipSize: 30
+    battleType: 2
+    armor: 20
+    listOrder: 235
+
 ufopaedia:
   - id: STR_BROWNING_HP35
     type_id: 4
@@ -1501,6 +1715,14 @@ extraSprites:
       552: Resources/Weapons/Colt AR-15/Unloaded_Big.png
       560: Resources/Weapons/Colt AR-15/Loaded_20_Big.png
       568: Resources/Weapons/Colt AR-15/Mag_20_Big.png
+      576: Resources/Weapons/Stechkin APS/Unloaded_Big.png
+      584: Resources/Weapons/Stechkin APS/Loaded_20_Big.png
+      592: Resources/Weapons/Stechkin APS/Mag_20_Big.png
+      600: Resources/Weapons/Skorpion vz61/Unloaded_Big.png
+      608: Resources/Weapons/Skorpion vz61/Loaded_20_Big.png
+      616: Resources/Weapons/AK-47/Unloaded_Big.png
+      624: Resources/Weapons/AK-47/Loaded_30_Big.png
+      632: Resources/Weapons/AK-47/Mag_30_Big.png
   - type: FLOOROB.PCK
     files:
       200: Resources/Weapons/Browning HP35/Unloaded_Floor.png
@@ -1550,6 +1772,14 @@ extraSprites:
       552: Resources/Weapons/Colt AR-15/Unloaded_Floor.png
       560: Resources/Weapons/Colt AR-15/Loaded_20_Floor.png
       568: Resources/Weapons/Colt AR-15/Mag_20_Floor.png
+      576: Resources/Weapons/Stechkin APS/Unloaded_Floor.png
+      584: Resources/Weapons/Stechkin APS/Loaded_20_Floor.png
+      592: Resources/Weapons/Stechkin APS/Mag_20_Floor.png
+      600: Resources/Weapons/Skorpion vz61/Unloaded_Floor.png
+      608: Resources/Weapons/Skorpion vz61/Loaded_20_Floor.png
+      616: Resources/Weapons/AK-47/Unloaded_Floor.png
+      624: Resources/Weapons/AK-47/Loaded_30_Floor.png
+      632: Resources/Weapons/AK-47/Mag_30_Floor.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -1603,6 +1833,14 @@ extraSprites:
       552: Resources/Weapons/Colt AR-15/Unloaded_Hand.png
       560: Resources/Weapons/Colt AR-15/Loaded_20_Hand.png
       568: Resources/Weapons/Colt AR-15/Mag_20_Hand.png
+      576: Resources/Weapons/Stechkin APS/Unloaded_Hand.png
+      584: Resources/Weapons/Stechkin APS/Loaded_20_Hand.png
+      592: Resources/Weapons/Stechkin APS/Mag_20_Hand.png
+      600: Resources/Weapons/Skorpion vz61/Unloaded_Hand.png
+      608: Resources/Weapons/Skorpion vz61/Loaded_20_Hand.png
+      616: Resources/Weapons/AK-47/Unloaded_Hand.png
+      624: Resources/Weapons/AK-47/Loaded_30_Hand.png
+      632: Resources/Weapons/AK-47/Mag_30_Hand.png
 
 extraSounds:
   - type: BATTLE.CAT
