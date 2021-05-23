@@ -1467,40 +1467,40 @@ extraSprites:
       280: Resources/Weapons/United Defense M42/Loaded_20_Big.png
       288: Resources/Weapons/United Defense M42/Loaded_50_Big.png
       296: Resources/Weapons/United Defense M42/Mag_20_Big.png
-      302: Resources/Weapons/United Defense M42/Mag_50_Big.png
-      310: Resources/Weapons/M2 Carbine/Unloaded_Big.png
-      318: Resources/Weapons/M2 Carbine/Loaded_15_Big.png
-      326: Resources/Weapons/M2 Carbine/Loaded_30_Big.png
-      334: Resources/Weapons/M2 Carbine/Mag_15_Big.png
-      342: Resources/Weapons/M2 Carbine/Mag_30_Big.png
-      350: Resources/Weapons/High Standard HDM/Unloaded_Big.png
-      358: Resources/Weapons/High Standard HDM/Loaded_10_Big.png
-      366: Resources/Weapons/High Standard HDM/Mag_10_Big.png
-      374: Resources/Weapons/Beretta M12/Unloaded_Big.png
-      382: Resources/Weapons/Beretta M12/Loaded_20_Big.png
-      398: Resources/Weapons/Heart Attack Gun/Loaded_7_Big.png
-      406: Resources/Weapons/Heart Attack Gun/Mag_7_Big.png
-      414: Resources/Weapons/M3 Greasegun/Unloaded_Big.png
-      422: Resources/Weapons/M3 Greasegun/Loaded_30_Big.png
-      430: Resources/Weapons/M3 Greasegun/Mag_30_Big.png
-      438: Resources/Weapons/M60 Hog/Unloaded_Big.png
-      446: Resources/Weapons/M60 Hog/Loaded_100_Big.png
-      454: Resources/Weapons/M60 Hog/Mag_100_Big.png
-      464: Resources/Weapons/M79 Thumper/Unloaded_Big.png
-      472: Resources/Weapons/M79 Thumper/Loaded_1_Big.png
-      480: Resources/Weapons/M79 Thumper/Grenade_1_Big.png
-      488: Resources/Weapons/Ithaca 37/Unloaded_Big.png
-      496: Resources/Weapons/Ithaca 37/Loaded_6_Big.png
-      502: Resources/Weapons/Ithaca 37/Mag_6_Big.png
-      510: Resources/Weapons/Springfield M14/Unloaded_Big.png
-      518: Resources/Weapons/Springfield M14/Loaded_20_Big.png
-      526: Resources/Weapons/Springfield M14/Mag_20_Big.png
-      534: Resources/Weapons/Springfield M1903A3/Unloaded_Big.png
-      542: Resources/Weapons/Springfield M1903A3/Loaded_5_Big.png
-      550: Resources/Weapons/Springfield M1903A3/Mag_5_Big.png
-      558: Resources/Weapons/Colt AR-15/Unloaded_Big.png
-      566: Resources/Weapons/Colt AR-15/Loaded_20_Big.png
-      574: Resources/Weapons/Colt AR-15/Mag_20_Big.png
+      304: Resources/Weapons/United Defense M42/Mag_50_Big.png
+      312: Resources/Weapons/M2 Carbine/Unloaded_Big.png
+      320: Resources/Weapons/M2 Carbine/Loaded_15_Big.png
+      328: Resources/Weapons/M2 Carbine/Loaded_30_Big.png
+      336: Resources/Weapons/M2 Carbine/Mag_15_Big.png
+      344: Resources/Weapons/M2 Carbine/Mag_30_Big.png
+      352: Resources/Weapons/High Standard HDM/Unloaded_Big.png
+      360: Resources/Weapons/High Standard HDM/Loaded_10_Big.png
+      368: Resources/Weapons/High Standard HDM/Mag_10_Big.png
+      376: Resources/Weapons/Beretta M12/Unloaded_Big.png
+      384: Resources/Weapons/Beretta M12/Loaded_20_Big.png
+      392: Resources/Weapons/Heart Attack Gun/Loaded_7_Big.png
+      400: Resources/Weapons/Heart Attack Gun/Mag_7_Big.png
+      408: Resources/Weapons/M3 Greasegun/Unloaded_Big.png
+      416: Resources/Weapons/M3 Greasegun/Loaded_30_Big.png
+      424: Resources/Weapons/M3 Greasegun/Mag_30_Big.png
+      432: Resources/Weapons/M60 Hog/Unloaded_Big.png
+      440: Resources/Weapons/M60 Hog/Loaded_100_Big.png
+      448: Resources/Weapons/M60 Hog/Mag_100_Big.png
+      456: Resources/Weapons/M79 Thumper/Unloaded_Big.png
+      464: Resources/Weapons/M79 Thumper/Loaded_1_Big.png
+      472: Resources/Weapons/M79 Thumper/Grenade_1_Big.png
+      480: Resources/Weapons/Ithaca 37/Unloaded_Big.png
+      488: Resources/Weapons/Ithaca 37/Loaded_6_Big.png
+      496: Resources/Weapons/Ithaca 37/Mag_6_Big.png
+      504: Resources/Weapons/Springfield M14/Unloaded_Big.png
+      512: Resources/Weapons/Springfield M14/Loaded_20_Big.png
+      520: Resources/Weapons/Springfield M14/Mag_20_Big.png
+      528: Resources/Weapons/Springfield M1903A3/Unloaded_Big.png
+      536: Resources/Weapons/Springfield M1903A3/Loaded_5_Big.png
+      544: Resources/Weapons/Springfield M1903A3/Mag_5_Big.png
+      552: Resources/Weapons/Colt AR-15/Unloaded_Big.png
+      560: Resources/Weapons/Colt AR-15/Loaded_20_Big.png
+      568: Resources/Weapons/Colt AR-15/Mag_20_Big.png
   - type: FLOOROB.PCK
     files:
       200: Resources/Weapons/Browning HP35/Unloaded_Floor.png
@@ -1513,43 +1513,43 @@ extraSprites:
       256: Resources/Weapons/Lupara/Loaded_2_Floor.png
       264: Resources/Weapons/Lupara/Mag_2_Floor.png
       272: Resources/Weapons/United Defense M42/Unloaded_Floor.png
-      280: Resources/Weapons/United Defense M42/Loaded_50_Floor.png
-      288: Resources/Weapons/United Defense M42/Mag_50_Floor.png
+      280: Resources/Weapons/United Defense M42/Loaded_20_Floor.png
+      288: Resources/Weapons/United Defense M42/Loaded_50_Floor.png
       296: Resources/Weapons/United Defense M42/Mag_20_Floor.png
-      302: Resources/Weapons/United Defense M42/Mag_50_Floor.png
-      310: Resources/Weapons/M2 Carbine/Unloaded_Floor.png
-      318: Resources/Weapons/M2 Carbine/Loaded_15_Floor.png
-      326: Resources/Weapons/M2 Carbine/Loaded_30_Floor.png
-      334: Resources/Weapons/M2 Carbine/Mag_15_Floor.png
-      342: Resources/Weapons/M2 Carbine/Mag_30_Floor.png
-      350: Resources/Weapons/High Standard HDM/Unloaded_Floor.png
-      358: Resources/Weapons/High Standard HDM/Loaded_10_Floor.png
-      366: Resources/Weapons/High Standard HDM/Mag_10_Floor.png
-      374: Resources/Weapons/Beretta M12/Unloaded_Floor.png
-      382: Resources/Weapons/Beretta M12/Loaded_20_Floor.png
-      398: Resources/Weapons/Heart Attack Gun/Loaded_7_Floor.png
-      406: Resources/Weapons/Heart Attack Gun/Mag_7_Floor.png
-      414: Resources/Weapons/M3 Greasegun/Unloaded_Floor.png
-      422: Resources/Weapons/M3 Greasegun/Loaded_30_Floor.png
-      430: Resources/Weapons/M3 Greasegun/Mag_30_Floor.png
-      438: Resources/Weapons/M60 Hog/Unloaded_Floor.png
-      446: Resources/Weapons/M60 Hog/Loaded_100_Floor.png
-      454: Resources/Weapons/M60 Hog/Mag_100_Floor.png
-      464: Resources/Weapons/M79 Thumper/Unloaded_Floor.png
-      472: Resources/Weapons/M79 Thumper/Loaded_1_Floor.png
-      480: Resources/Weapons/M79 Thumper/Grenade_1_Floor.png
-      488: Resources/Weapons/Ithaca 37/Unloaded_Floor.png
-      496: Resources/Weapons/Ithaca 37/Loaded_6_Floor.png
-      502: Resources/Weapons/Ithaca 37/Mag_6_Floor.png
-      510: Resources/Weapons/Springfield M14/Unloaded_Floor.png
-      518: Resources/Weapons/Springfield M14/Loaded_20_Floor.png
-      526: Resources/Weapons/Springfield M14/Mag_20_Floor.png
-      534: Resources/Weapons/Springfield M1903A3/Unloaded_Floor.png
-      542: Resources/Weapons/Springfield M1903A3/Loaded_5_Floor.png
-      550: Resources/Weapons/Springfield M1903A3/Mag_5_Floor.png
-      558: Resources/Weapons/Colt AR-15/Unloaded_Floor.png
-      566: Resources/Weapons/Colt AR-15/Loaded_20_Floor.png
-      574: Resources/Weapons/Colt AR-15/Mag_20_Floor.png
+      304: Resources/Weapons/United Defense M42/Mag_50_Floor.png
+      312: Resources/Weapons/M2 Carbine/Unloaded_Floor.png
+      320: Resources/Weapons/M2 Carbine/Loaded_15_Floor.png
+      328: Resources/Weapons/M2 Carbine/Loaded_30_Floor.png
+      336: Resources/Weapons/M2 Carbine/Mag_15_Floor.png
+      344: Resources/Weapons/M2 Carbine/Mag_30_Floor.png
+      352: Resources/Weapons/High Standard HDM/Unloaded_Floor.png
+      360: Resources/Weapons/High Standard HDM/Loaded_10_Floor.png
+      368: Resources/Weapons/High Standard HDM/Mag_10_Floor.png
+      376: Resources/Weapons/Beretta M12/Unloaded_Floor.png
+      384: Resources/Weapons/Beretta M12/Loaded_20_Floor.png
+      392: Resources/Weapons/Heart Attack Gun/Loaded_7_Floor.png
+      400: Resources/Weapons/Heart Attack Gun/Mag_7_Floor.png
+      408: Resources/Weapons/M3 Greasegun/Unloaded_Floor.png
+      416: Resources/Weapons/M3 Greasegun/Loaded_30_Floor.png
+      424: Resources/Weapons/M3 Greasegun/Mag_30_Floor.png
+      432: Resources/Weapons/M60 Hog/Unloaded_Floor.png
+      440: Resources/Weapons/M60 Hog/Loaded_100_Floor.png
+      448: Resources/Weapons/M60 Hog/Mag_100_Floor.png
+      456: Resources/Weapons/M79 Thumper/Unloaded_Floor.png
+      464: Resources/Weapons/M79 Thumper/Loaded_1_Floor.png
+      472: Resources/Weapons/M79 Thumper/Grenade_1_Floor.png
+      480: Resources/Weapons/Ithaca 37/Unloaded_Floor.png
+      488: Resources/Weapons/Ithaca 37/Loaded_6_Floor.png
+      496: Resources/Weapons/Ithaca 37/Mag_6_Floor.png
+      504: Resources/Weapons/Springfield M14/Unloaded_Floor.png
+      512: Resources/Weapons/Springfield M14/Loaded_20_Floor.png
+      520: Resources/Weapons/Springfield M14/Mag_20_Floor.png
+      528: Resources/Weapons/Springfield M1903A3/Unloaded_Floor.png
+      536: Resources/Weapons/Springfield M1903A3/Loaded_5_Floor.png
+      544: Resources/Weapons/Springfield M1903A3/Mag_5_Floor.png
+      552: Resources/Weapons/Colt AR-15/Unloaded_Floor.png
+      560: Resources/Weapons/Colt AR-15/Loaded_20_Floor.png
+      568: Resources/Weapons/Colt AR-15/Mag_20_Floor.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -1569,40 +1569,80 @@ extraSprites:
       280: Resources/Weapons/United Defense M42/Loaded_20_Hand.png
       288: Resources/Weapons/United Defense M42/Loaded_50_Hand.png
       296: Resources/Weapons/United Defense M42/Mag_20_Hand.png
-      302: Resources/Weapons/United Defense M42/Mag_50_Hand.png
-      310: Resources/Weapons/M2 Carbine/Unloaded_Hand.png
-      318: Resources/Weapons/M2 Carbine/Loaded_15_Hand.png
-      326: Resources/Weapons/M2 Carbine/Loaded_30_Hand.png
-      334: Resources/Weapons/M2 Carbine/Mag_15_Hand.png
-      342: Resources/Weapons/M2 Carbine/Mag_30_Hand.png
-      350: Resources/Weapons/High Standard HDM/Unloaded_Hand.png
-      358: Resources/Weapons/High Standard HDM/Loaded_10_Hand.png
-      366: Resources/Weapons/High Standard HDM/Mag_10_Hand.png
-      374: Resources/Weapons/Beretta M12/Unloaded_Hand.png
-      382: Resources/Weapons/Beretta M12/Loaded_20_Hand.png
-      398: Resources/Weapons/Heart Attack Gun/Loaded_7_Hand.png
-      406: Resources/Weapons/Heart Attack Gun/Mag_7_Hand.png
-      414: Resources/Weapons/M3 Greasegun/Unloaded_Hand.png
-      422: Resources/Weapons/M3 Greasegun/Loaded_30_Hand.png
-      430: Resources/Weapons/M3 Greasegun/Mag_30_Hand.png
-      438: Resources/Weapons/M60 Hog/Unloaded_Hand.png
-      446: Resources/Weapons/M60 Hog/Loaded_100_Hand.png
-      454: Resources/Weapons/M60 Hog/Mag_100_Hand.png
-      464: Resources/Weapons/M79 Thumper/Unloaded_Hand.png
-      472: Resources/Weapons/M79 Thumper/Loaded_1_Hand.png
-      480: Resources/Weapons/M79 Thumper/Grenade_1_Hand.png
-      488: Resources/Weapons/Ithaca 37/Unloaded_Hand.png
-      496: Resources/Weapons/Ithaca 37/Loaded_6_Hand.png
-      502: Resources/Weapons/Ithaca 37/Mag_6_Hand.png
-      510: Resources/Weapons/Springfield M14/Unloaded_Hand.png
-      518: Resources/Weapons/Springfield M14/Loaded_20_Hand.png
-      526: Resources/Weapons/Springfield M14/Mag_20_Hand.png
-      534: Resources/Weapons/Springfield M1903A3/Unloaded_Hand.png
-      542: Resources/Weapons/Springfield M1903A3/Loaded_5_Hand.png
-      550: Resources/Weapons/Springfield M1903A3/Mag_5_Hand.png
-      558: Resources/Weapons/Colt AR-15/Unloaded_Hand.png
-      566: Resources/Weapons/Colt AR-15/Loaded_20_Hand.png
-      574: Resources/Weapons/Colt AR-15/Mag_20_Hand.png
+      304: Resources/Weapons/United Defense M42/Mag_50_Hand.png
+      312: Resources/Weapons/M2 Carbine/Unloaded_Hand.png
+      320: Resources/Weapons/M2 Carbine/Loaded_15_Hand.png
+      328: Resources/Weapons/M2 Carbine/Loaded_30_Hand.png
+      336: Resources/Weapons/M2 Carbine/Mag_15_Hand.png
+      344: Resources/Weapons/M2 Carbine/Mag_30_Hand.png
+      352: Resources/Weapons/High Standard HDM/Unloaded_Hand.png
+      360: Resources/Weapons/High Standard HDM/Loaded_10_Hand.png
+      368: Resources/Weapons/High Standard HDM/Mag_10_Hand.png
+      376: Resources/Weapons/Beretta M12/Unloaded_Hand.png
+      384: Resources/Weapons/Beretta M12/Loaded_20_Hand.png
+      392: Resources/Weapons/Heart Attack Gun/Loaded_7_Hand.png
+      400: Resources/Weapons/Heart Attack Gun/Mag_7_Hand.png
+      408: Resources/Weapons/M3 Greasegun/Unloaded_Hand.png
+      416: Resources/Weapons/M3 Greasegun/Loaded_30_Hand.png
+      424: Resources/Weapons/M3 Greasegun/Mag_30_Hand.png
+      432: Resources/Weapons/M60 Hog/Unloaded_Hand.png
+      440: Resources/Weapons/M60 Hog/Loaded_100_Hand.png
+      448: Resources/Weapons/M60 Hog/Mag_100_Hand.png
+      456: Resources/Weapons/M79 Thumper/Unloaded_Hand.png
+      464: Resources/Weapons/M79 Thumper/Loaded_1_Hand.png
+      472: Resources/Weapons/M79 Thumper/Grenade_1_Hand.png
+      480: Resources/Weapons/Ithaca 37/Unloaded_Hand.png
+      488: Resources/Weapons/Ithaca 37/Loaded_6_Hand.png
+      496: Resources/Weapons/Ithaca 37/Mag_6_Hand.png
+      504: Resources/Weapons/Springfield M14/Unloaded_Hand.png
+      512: Resources/Weapons/Springfield M14/Loaded_20_Hand.png
+      520: Resources/Weapons/Springfield M14/Mag_20_Hand.png
+      528: Resources/Weapons/Springfield M1903A3/Unloaded_Hand.png
+      536: Resources/Weapons/Springfield M1903A3/Loaded_5_Hand.png
+      544: Resources/Weapons/Springfield M1903A3/Mag_5_Hand.png
+      552: Resources/Weapons/Colt AR-15/Unloaded_Hand.png
+      560: Resources/Weapons/Colt AR-15/Loaded_20_Hand.png
+      568: Resources/Weapons/Colt AR-15/Mag_20_Hand.png
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      200: Resources/Weapons/Browning HP35/fire.wav
+      201: Resources/Weapons/Browning HP35/reload.wav
+      202: Resources/Weapons/Colt M1911/fire.wav
+      203: Resources/Weapons/Colt M1911/reload.wav
+      204: Resources/Weapons/Lupara/fire.wav
+      205: Resources/Weapons/Lupara/reload.wav
+      206: Resources/Weapons/United Defense M42/fire.wav
+      207: Resources/Weapons/United Defense M42/reload.wav
+      208: Resources/Weapons/M2 Carbine/fire.wav
+      209: Resources/Weapons/M2 Carbine/reload.wav
+      210: Resources/Weapons/High Standard HDM/fire.wav
+      211: Resources/Weapons/High Standard HDM/reload.wav
+      212: Resources/Weapons/Beretta M12/fire.wav
+      213: Resources/Weapons/Beretta M12/reload.wav
+      214: Resources/Weapons/Heart Attack Gun/fire.wav
+      215: Resources/Weapons/Heart Attack Gun/reload.wav
+      216: Resources/Weapons/M3 Greasegun/fire.wav
+      217: Resources/Weapons/M3 Greasegun/reload.wav
+      218: Resources/Weapons/M60 Hog/fire.wav
+      219: Resources/Weapons/M60 Hog/reload.wav
+      220: Resources/Weapons/M79 Thumper/fire.wav
+      221: Resources/Weapons/M79 Thumper/reload.wav
+      222: Resources/Weapons/Ithaca 37/fire.wav
+      223: Resources/Weapons/Ithaca 37/reload.wav
+      224: Resources/Weapons/Springfield M14/fire.wav
+      225: Resources/Weapons/Springfield M14/reload.wav
+      226: Resources/Weapons/Springfield M1903A3/fire.wav
+      227: Resources/Weapons/Springfield M1903A3/reload.wav
+      228: Resources/Weapons/Colt AR-15/fire.wav
+      229: Resources/Weapons/Colt AR-15/reload.wav
+      230: Resources/Weapons/Stechkin APS/fire.wav
+      231: Resources/Weapons/Stechkin APS/reload.wav
+      232: Resources/Weapons/Skorpion vz61/fire.wav
+      233: Resources/Weapons/Skorpion vz61/reload.wav
+      234: Resources/Weapons/AK-47/fire.wav
+      235: Resources/Weapons/AK-47/reload.wav
 
 extraSounds:
   - type: BATTLE.CAT
