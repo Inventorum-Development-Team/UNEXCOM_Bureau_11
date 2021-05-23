@@ -1312,7 +1312,7 @@ items:
       energy: 12
     battleType: 1
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
     armor: 35
     twoHanded: true
     listOrder: 232
