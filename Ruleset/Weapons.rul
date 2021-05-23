@@ -1553,6 +1553,33 @@ ufopaedia:
   - id: STR_COLT_AR15_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_STECHKIN_APS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_STECHKIN_APS_UFOPEDIA
+    requires:
+      - STR_SOVIET_WEAPON_AQUISITION
+    listOrder: 217
+  - id: STR_STECHKIN_APS_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SKORPION_VZ61
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SKORPION_VZ61_UFOPEDIA
+    requires:
+      - STR_SOVIET_WEAPON_AQUISITION
+    listOrder: 218
+  - id: STR_AK_47
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_AK_47_UFOPEDIA
+    requires:
+      - STR_SOVIET_WEAPON_AQUISITION
+    listOrder: 219
+  - id: STR_AK_47_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
 manufacture:
   - delete: STR_TANK_LASER_CANNON
