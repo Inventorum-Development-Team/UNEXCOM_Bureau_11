@@ -693,14 +693,14 @@ extraStrings:
   
       STR_AUTOCANNON: "AUTOCANNON"
       STR_BVRAAM: "BVRAAM" #Beyond Visual Range Air to Air Missile	 
-      STR_AUXILLARY: "AUXILLARY"	  
+      STR_AUXILLARY: "AUXILLARY"
 
       STR_EXPERIMENTAL_AEROSPACE: "Experimental Transport"
 
       STR_CADILLAC: "EL DORADO"
       STR_CADILLAC_UFOPEDIA: "1960 Cadillac El Dorado, riding into battle in style! Used by our field agents to arrive to their destination after taking an airplane trip."
 
-      STR_U2_DRAGON_LADY: "DRAGONLADY"
+      STR_U2_DRAGON_LADY: "DRAGON LADY"
       STR_U2_DRAGON_LADY_UFOPEDIA: "U-2 Dragon Lady - Long-range, high-altitude airborne reconnaissance aircraft designed to stay in the air for numerous hours. Used by the CIA and USAF to obtain valuable intelligence info."
 
       STR_FUEL_TANK_UC: "FUEL TANK"
