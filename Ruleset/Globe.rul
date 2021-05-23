@@ -1,0 +1,5 @@
+regions:
+  - type: STR_SIBERIA
+    cost: 99999999
+  - type: STR_SOUTH_EAST_ASIA
+    cost: 99999999

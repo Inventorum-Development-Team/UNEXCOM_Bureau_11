@@ -1,0 +1,328 @@
+items:
+  - type: STR_CORPSE_SUIT
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 500
+    floorSprite: 500
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
+  - type: STR_CORPSE_BDU
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 501
+    floorSprite: 501
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
+  - type: STR_CORPSE_KGB
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 502
+    floorSprite: 502
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
+
+armors:
+  - delete: STR_NONE_UC
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
+  - type: STR_AGENT_SUIT_UC
+    spriteSheet: AGENT_SUIT.PCK
+    spriteInv: MAN_SUIT
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_SUIT
+    loftempsSet: [ 3 ]
+    frontArmor: 6
+    sideArmor: 6
+    rearArmor: 4
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166]
+    stats:
+      tu: 0
+      stamina: -5
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: -5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    units:
+      - STR_CIA_AGENT
+  - type: STR_ARMY_UNIFORM_UC
+    spriteSheet: ARMY_UNIFORM.PCK
+    spriteInv: MAN_BDU
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_BDU
+    loftempsSet: [ 3 ]
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 6
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166]
+    stats:
+      tu: 5
+      stamina: 10
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    units:
+      - STR_ARMY_VETERAN
+  - type: STR_OFFICER_COAT_UC
+    spriteSheet: OFFICER_COAT.PCK
+    spriteInv: MAN_KGB
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_KGB
+    loftempsSet: [ 3 ]
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166]
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: -5
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    units:
+      - STR_KGB_OFFICER
+
+ufopaedia:
+  - id: STR_AGENT_SUIT_UC
+    type_id: 5
+    section: STR_OUTFITS
+    listOrder: 101
+    text: STR_AGENT_SUIT_UC_UFOPEDIA
+  - id: STR_ARMY_UNIFORM_UC
+    type_id: 5
+    section: STR_OUTFITS
+    listOrder: 102
+    requires:
+      - STR_ARMY_VETERAN_RECRUITMENT
+    text: STR_ARMY_UNIFORM_UC_UFOPEDIA
+  - id: STR_OFFICER_COAT_UC
+    type_id: 5
+    section: STR_OUTFITS
+    listOrder: 103
+    requires:
+      - STR_KGB_OFFICER_RECRUITMENT
+    text: STR_OFFICER_COAT_UC_UFOPEDIA
+
+extraSprites:
+  # Agent Suit Inv
+  - type: MAN_SUITF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Agent_Suit/Inventory/MAN_F0.png
+  - type: MAN_SUITF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Agent_Suit/Inventory/MAN_F1.png
+  - type: MAN_SUITF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Agent_Suit/Inventory/MAN_F2.png
+  - type: MAN_SUITF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Agent_Suit/Inventory/MAN_F3.png
+  - type: MAN_SUITM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Agent_Suit/Inventory/MAN_M0.png
+  - type: MAN_SUITM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Agent_Suit/Inventory/MAN_M1.png
+  - type: MAN_SUITM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Agent_Suit/Inventory/MAN_M2.png
+  - type: MAN_SUITM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Agent_Suit/Inventory/MAN_M3.png
+  # Army Uniform Inv
+  - type: MAN_BDUF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Army_Uniform/Inventory/MAN_F0.png
+  - type: MAN_BDUF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Army_Uniform/Inventory/MAN_F1.png
+  - type: MAN_BDUF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Army_Uniform/Inventory/MAN_F2.png
+  - type: MAN_BDUF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Army_Uniform/Inventory/MAN_F3.png
+  - type: MAN_BDUM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Army_Uniform/Inventory/MAN_M0.png
+  - type: MAN_BDUM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Army_Uniform/Inventory/MAN_M1.png
+  - type: MAN_BDUM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Army_Uniform/Inventory/MAN_M2.png
+  - type: MAN_BDUM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Army_Uniform/Inventory/MAN_M3.png
+  # Officer Coat Inv
+  - type: MAN_KGBF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Officer_Coat/Inventory/MAN_F0.png
+  - type: MAN_KGBF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Officer_Coat/Inventory/MAN_F1.png
+  - type: MAN_KGBF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Officer_Coat/Inventory/MAN_F2.png
+  - type: MAN_KGBF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Officer_Coat/Inventory/MAN_F3.png
+  - type: MAN_KGBM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Officer_Coat/Inventory/MAN_M0.png
+  - type: MAN_KGBM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Officer_Coat/Inventory/MAN_M1.png
+  - type: MAN_KGBM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Officer_Coat/Inventory/MAN_M2.png
+  - type: MAN_KGBM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Officer_Coat/Inventory/MAN_M3.png
+
+  - type: AGENT_SUIT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      # Agent Suit Spritesheet
+      0: Resources/Outfits/Agent_Suit/Suit.png
+  - type: ARMY_UNIFORM.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      # Agent Suit Spritesheet
+      0: Resources/Outfits/Army_Uniform/Uniform.png
+  - type: OFFICER_COAT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      # Agent Suit Spritesheet
+      0: Resources/Outfits/Officer_Coat/Coat.png
+  - type: BIGOBS.PCK
+    files:
+      # Agent Suit Corpse Bigob
+      500: Resources/Outfits/Agent_Suit/Corpse/Suit_Big.png
+      # Army Uniform Corpse Bigob
+      501: Resources/Outfits/Army_Uniform/Corpse/Uniform_Big.png
+      # Officer Coat Corpse Bigob
+      502: Resources/Outfits/Officer_Coat/Corpse/Coat_Big.png
+  - type: FLOOROB.PCK
+    files:
+      # Agent Suit Corpse Floorob
+      500: Resources/Outfits/Agent_Suit/Corpse/Suit_Floor.png
+      # Army Uniform Corpse Floorob
+      501: Resources/Outfits/Army_Uniform/Corpse/Uniform_Floor.png
+      # Officer Coat Corpse Floorob
+      502: Resources/Outfits/Officer_Coat/Corpse/Coat_Floor.png
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_OUTFITS: "ATTIRE AND ARMOR"
+      STR_AGENT_SUIT_UC: "AGENT SUIT"
+      STR_AGENT_SUIT_UC_UFOPEDIA: "This suit allows our agents to blend it with the general populace; at the cost of somewhat restricting movement."
+      STR_ARMY_UNIFORM_UC: "ARMY UNIFORM"
+      STR_ARMY_UNIFORM_UC_UFOPEDIA: "Standard issue US army uniform, used widely by our armed forces."
+      STR_OFFICER_COAT_UC: "OFFICER COAT"
+      STR_OFFICER_COAT_UC_UFOPEDIA: "This KGB officer coat provides a much needed morale boost, but restricts quick movement."

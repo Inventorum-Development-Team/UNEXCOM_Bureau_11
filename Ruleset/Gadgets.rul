@@ -1,0 +1,304 @@
+items:
+  - type: STR_BANDAGES
+    categories: [STR_GADGETS, STR_MEDICAL, STR_CONCEALED]
+    size: 0.1
+    costBuy: 600
+    costSell: 450
+    weight: 1
+    bigSprite: 896
+    floorSprite: 896
+    handSprite: 896
+    heal: 2
+    woundRecovery: 1
+    healthRecovery: 1
+    isConsumable: true
+    medikitTargetSelf: true
+    armor: 10
+    battleType: 6
+    flatRate: true
+    listOrder: 400
+  - type: STR_MEDICAL_BAG
+    categories: [STR_GADGETS, STR_MEDICAL, STR_CONCEALED]
+    size: 0.2
+    costBuy: 1800
+    costSell: 1500
+    weight: 8
+    bigSprite: 904
+    floorSprite: 904
+    handSprite: 904
+    painKiller: 6
+    heal: 6
+    stimulant: 6   
+    woundRecovery: 2
+    healthRecovery: 3
+    stunRecovery: 5
+    energyRecovery: 15 
+    costUse:
+      time: 30
+      energy: -3
+    invWidth: 2
+    invHeight: 2
+    armor: 20
+    battleType: 6
+    flatRate: true
+    listOrder: 401
+  - type: STR_SPY_CAMERA
+    categories: [STR_GADGETS, STR_PROPRIETARY, STR_CONCEALED]
+    size: 0.1
+    costSell: 2100
+    twoHanded: true
+    blockBothHands: true
+    weight: 6
+    bigSprite: 912
+    floorSprite: 912
+    handSprite: 912
+    hitSound: 19
+    power: 5
+    damageType: 5
+    clipSize: 8
+    confSnap:
+      shots: 1
+      name: STR_SNAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 2
+    accuracySnap: 90
+    tuSnap: 55
+    battleType: 1
+    invWidth: 2
+    invHeight: 1
+    armor: 50
+    listOrder: 402
+  - type: STR_GRENADE
+    categories: [STR_GADGETS, STR_GRENADES]
+#    requiresBuy:
+#      - STR_MILITARY_EQUIPMENT_AQUISITION
+    damageType: 1
+    power: 20
+    damageAlter:
+      RandomType: 6
+      ArmorEffectiveness: 1.5
+      ToTile: 0.2
+      ToWound: 3.0
+      ToHealth: 1.25
+      RandomWound: false
+    battleType: 4
+    blastRadius: 5
+    listOrder: 500
+  - type: STR_SMOKE_GRENADE
+    categories: [STR_GADGETS, STR_GRENADES]
+#    requiresBuy:
+#      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 501
+  - type: STR_KA_BAR
+    categories: [STR_WEAPONS, STR_MELEE, STR_CONCEALED]
+    size: 0.2
+    costBuy: 300
+    costSell: 200
+    weight: 3
+    bigSprite: 920
+    floorSprite: 920
+    handSprite: 920
+    meleeHitSound: 500
+    meleeAnimation: 8
+    power: 20
+    damageType: 7
+    damageBonus:
+      strength: 0.3
+      melee: 1.2
+    damageAlter:
+      ArmorEffectiveness: 1.5
+    accuracyMelee: 80
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.8
+    costMelee:
+      time: 6
+      energy: 2
+    costThrow:
+      energy: 10
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+#    requiresBuy:
+#      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 502
+  - type: STR_ALIEN_REACTIVE_GRENADE
+    size: 0.1
+    costSell: 7600
+    weight: 3
+    bigSprite: 928
+    floorSprite: 928
+    handSprite: 928
+    power: 150
+    damageType: 3
+    battleType: 5
+    invWidth: 2
+    invHeight: 1
+    blastRadius: 2
+  - type: STR_DEVIL_AXE
+    size: 0.2
+    weight: 10
+    costSell: 254080
+    bigSprite: 936
+    floorSprite: 936
+    handSprite: 936
+    meleeSound: 49
+    power: 50
+    damageType: 4
+    damageBonus:
+      strength: 0.3
+      melee: 0.2
+      psiSkill: 0.5
+    damageAlter:
+      ArmorEffectiveness: 1.5
+    accuracyMelee: 80
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    costMelee:
+      time: 10
+      energy: 8
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    experienceTrainingMode: 13
+    attraction: 7
+    armor: 999
+
+research:
+  - name: STR_ALIEN_REACTIVE_GRENADE
+    cost: 300
+    points: 50
+    needItem: true
+  - name: STR_DEVIL_AXE
+    cost: 300
+    points: 50
+    needItem: true
+
+ufopaedia:
+  - id: STR_BANDAGES
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_BANDAGES_UFOPEDIA
+    listOrder: 300
+  - id: STR_MEDICAL_BAG
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_MEDICAL_BAG_UFOPEDIA
+    listOrder: 301
+  - id: STR_SPY_CAMERA
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_SPY_CAMERA_UFOPEDIA
+    listOrder: 302
+  - id: STR_GRENADE
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_GRENADE_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 303
+  - id: STR_SMOKE_GRENADE
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_SMOKE_GRENADE_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 304
+  - id: STR_KA_BAR
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_KA_BAR_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 305
+  - id: STR_ALIEN_REACTIVE_GRENADE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_ALIEN_REACTIVE_GRENADE_UFOPEDIA
+    requires:
+      - STR_ALIEN_REACTIVE_GRENADE
+    listOrder: 306
+  - id: STR_DEVIL_AXE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_DEVIL_AXE_UFOPEDIA
+    requires:
+      - STR_DEVIL_AXE
+    listOrder: 307
+
+manufacture:
+  - name: STR_SPY_CAMERA
+    category: STR_GADGETS
+    space: 4
+    time: 40
+    cost: 1500
+    producedItems:
+      STR_SPY_CAMERA: 1
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      896: Resources/Gadgets/Bandages/Gadget_Big.png
+      904: Resources/Gadgets/Medical Bag/Gadget_Big.png
+      912: Resources/Gadgets/Spy Camera/Gadget_Big.png
+      920: Resources/Gadgets/KA-BAR/Gadget_Big.png
+      928: Resources/Gadgets/Alien Reactive Grenade/Gadget_Big.png
+      936: Resources/Gadgets/Devil Axe/Gadget_Big.png
+  - type: FLOOROB.PCK
+    files:
+      896: Resources/Gadgets/Bandages/Gadget_Floor.png
+      904: Resources/Gadgets/Medical Bag/Gadget_Floor.png
+      912: Resources/Gadgets/Spy Camera/Gadget_Floor.png
+      920: Resources/Gadgets/KA-BAR/Gadget_Floor.png
+      928: Resources/Gadgets/Alien Reactive Grenade/Gadget_Floor.png
+      936: Resources/Gadgets/Devil Axe/Gadget_Floor.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      896: Resources/Gadgets/Bandages/Gadget_Hand.png
+      904: Resources/Gadgets/Medical Bag/Gadget_Hand.png
+      912: Resources/Gadgets/Spy Camera/Gadget_Hand.png
+      920: Resources/Gadgets/KA-BAR/Gadget_Hand.png
+      928: Resources/Gadgets/Alien Reactive Grenade/Gadget_Hand.png
+      936: Resources/Gadgets/Devil Axe/Gadget_Hand.png
+  - type: BATTLE.CAT
+    files:
+      503: Resources/Gadgets/KA-BAR/slash.wav
+  - type: MEDIKIT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Gadgets/BACKGROUND.png
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_GADGETS: "GADGETS AND GRENADES"
+      STR_BANDAGES: "Bandages"
+      STR_BANDAGES_UFOPEDIA: "A small pack of bandages encased in a plastic wrap, able to stop bleeding in life-threatening siuations."
+      STR_MEDICAL_BAG: "Medical Bag"
+      STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical items as well as a crude surgery kit. Utilized by paramedics on the field, it may be unweildy but it can save a man's life." 
+      STR_SNAP: "Snap Shot"
+      STR_SPY_CAMERA: "Spy Camera"
+      STR_SPY_CAMERA_UFOPEDIA: "A portable polaroid camera, used to take photos of evidence. It has a film roll large enough to take 8 photos, and due to its proprietary design and custom parts it must be replaced at the base. {NEWLINE}> Concealable{NEWLINE}"
+      STR_GRENADE: "Mk67 Frag Grenade"
+      STR_GRENADE_UFOPEDIA: "This hand-held fragmentation grenade that has seen use in World War II is a deadly weapon, however it will have trouble piercing heavily armored enemies and cover."
+      STR_SMOKE_GRENADE: "M18 Smoke Grenade"
+      STR_SMOKE_GRENADE_UFOPEDIA: "This device used has been used as a signaling device since World War II, however it has seen recent use as a way to conceal troop positions. Do not inhale for extended periods of time."
+      STR_KA_BAR: "KA-BAR"
+      STR_KA_BAR_UFOPEDIA: "The KA-BAR has been the standard issue utility knife used by the marine corps ever since World War II. Deadly and silent, it can be more dangerous than a gun in the wrong, or right depending on your perspective, hands. {NEWLINE}> Concealable"
+      STR_ALIEN_REACTIVE_GRENADE: "Alien Reactive Grenade"
+      STR_ALIEN_REACTIVE_GRENADE_UFOPEDIA: "This explosive device is an overcharged battery of a modified laser weapon with an activation fuze and a streamlined design, to be used as a throwing weapon. The spikes in the frame of the grenade allow it to embed itself in the ground (even in organic tissue) and remain stationary. The radiation it emitts makes it a dangerous artifact if not properly contained. Reacts to nearby movement and explodes."
+      STR_DEVIL_AXE: "Devil Axe"
+      STR_DEVIL_AXE_UFOPEDIA: "This ceremonial melee weapon is used by distinguished members of the alien ranks. It drains upon the mental energy and psi skill of the user to increase its power. It's a feared tool in the right hands and brains."

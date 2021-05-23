@@ -1,0 +1,224 @@
+alienDeployments:
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
+
+  - type: STR_SMALL_SCOUT
+    civilians: 2
+    height: 10
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
+  - type: STR_MEDIUM_SCOUT
+    civilians: 3
+    height: 10
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+          -
+            - STR_ALIEN_HEAVY_LASER
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+          -
+            - STR_ALIEN_SIEGE_LAUNCHER
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+          -
+            - STR_ALIEN_SIEGE_LAUNCHER
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+  - type: STR_LARGE_SCOUT
+    civilians: 4
+    height: 10
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+          -
+            - STR_ALIEN_SIEGE_LAUNCHER
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+          -
+            - STR_ALIEN_HEAVY_LASER
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+          -
+            - STR_ALIEN_SIEGE_LAUNCHER
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_ALIEN_HEAVY_LASER
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_GRENADE
+          -
+            - STR_ALIEN_HEAVY_LASER
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_MIND_PROBE
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_MIND_PROBE
+
+ufos:
+#<delete>
+  - delete: STR_ABDUCTOR
+  - delete: STR_HARVESTER
+  - delete: STR_BATTLESHIP
+  - delete: STR_TERROR_SHIP
+  - delete: STR_SUPPLY_SHIP
+
+
+missionScripts:
+  - delete: gameStart
+  - delete: recon
+  - delete: invasion
+  - delete: researchRetaliation
+  - delete: beginnerRetaliation
+  - delete: experiencedRetaliation
+  - delete: veteranRetaliation
+  - delete: geniusRetaliation
+  - delete: superhumanRetaliation
+  - delete: recurringTerror
