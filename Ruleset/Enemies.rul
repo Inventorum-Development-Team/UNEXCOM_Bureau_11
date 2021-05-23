@@ -33,6 +33,7 @@ items:
 armors:
   - type: THIN_MAN_ARMOR
     spriteSheet: THIN_MAN.PCK
+    spriteInv: inventory_THIN_MAN
     corpseBattle:
       - STR_THIN_MAN_CORPSE
     frontArmor: 8
@@ -57,6 +58,7 @@ armors:
     loftempsSet: [ 2 ]
   - type: D17_SOLDIER
     spriteSheet: D17_SOLDIER.PCK
+    spriteInv: inventory_D17_SOLDIER
     corpseBattle:
       - STR_CORPSE_KGB
     frontArmor: 8
@@ -78,6 +80,7 @@ armors:
     loftempsSet: [ 2 ]
   - type: D17_OFFICER
     spriteSheet: D17_OFFICER.PCK
+    spriteInv: inventory_D17_OFFICER
     corpseBattle:
       - STR_CORPSE_KGB
     frontArmor: 8
