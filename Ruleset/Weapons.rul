@@ -88,6 +88,8 @@ items:
   - delete: STR_LASER_RIFLE
   - delete: STR_HEAVY_LASER
 
+
+
 # Browning HP-35
   - type: STR_BROWNING_HP35
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
@@ -372,9 +374,9 @@ items:
     costBuy: 300
     costSell: 250
     weight: 5
-    bigSprite: 302
-    floorSprite: 302
-    handSprite: 302
+    bigSprite: 304
+    floorSprite: 304
+    handSprite: 304
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
@@ -392,9 +394,9 @@ items:
     costBuy: 900
     costSell: 400
     weight: 10
-    bigSprite: 310
-    floorSprite: 310
-    handSprite: 310
+    bigSprite: 312
+    floorSprite: 312
+    handSprite: 312
     bulletSprite: 1
     fireSound: 208
     reloadSound: 209
@@ -443,9 +445,9 @@ items:
     costBuy: 300
     costSell: 240
     weight: 2
-    bigSprite: 334
-    floorSprite: 334
-    handSprite: 334
+    bigSprite: 336
+    floorSprite: 336
+    handSprite: 336
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 12
@@ -464,9 +466,9 @@ items:
     costBuy: 300
     costSell: 240
     weight: 4
-    bigSprite: 342
-    floorSprite: 342
-    handSprite: 342
+    bigSprite: 344
+    floorSprite: 344
+    handSprite: 344
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 12
@@ -489,9 +491,9 @@ items:
     costBuy: 900
     costSell: 720
     weight: 6
-    bigSprite: 350
-    floorSprite: 350
-    handSprite: 350
+    bigSprite: 352
+    floorSprite: 352
+    handSprite: 352
     bulletSprite: 1
     fireSound: 210
     reloadSound: 211
@@ -541,9 +543,9 @@ items:
     costBuy: 200
     costSell: 150
     weight: 2
-    bigSprite: 366
-    floorSprite: 366
-    handSprite: 366
+    bigSprite: 368
+    floorSprite: 368
+    handSprite: 368
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 14
@@ -566,9 +568,9 @@ items:
     costBuy: 1500
     costSell: 1200
     weight: 9
-    bigSprite: 374
-    floorSprite: 374
-    handSprite: 374
+    bigSprite: 376
+    floorSprite: 376
+    handSprite: 376
     bulletSprite: 1
     fireSound: 212
     reloadSound: 213
@@ -618,9 +620,9 @@ items:
     size: 0.1
     costSell: 800
     weight: 7
-    bigSprite: 398
-    floorSprite: 398
-    handSprite: 398
+    bigSprite: 392
+    floorSprite: 392
+    handSprite: 392
     bulletSprite: 1
     fireSound: 214
     reloadSound: 215
@@ -659,9 +661,9 @@ items:
     size: 0.1
     costSell: 400
     weight: 2
-    bigSprite: 406
-    floorSprite: 406
-    handSprite: 406
+    bigSprite: 408
+    floorSprite: 408
+    handSprite: 408
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
@@ -686,9 +688,9 @@ items:
     costBuy: 2000
     costSell: 1800
     weight: 8
-    bigSprite: 414
-    floorSprite: 414
-    handSprite: 414
+    bigSprite: 416
+    floorSprite: 416
+    handSprite: 416
     bulletSprite: 1
     fireSound: 217
     reloadSound: 218
@@ -739,9 +741,9 @@ items:
     costBuy: 500
     costSell: 400
     weight: 3
-    bigSprite: 430
-    floorSprite: 430
-    handSprite: 430
+    bigSprite: 432
+    floorSprite: 432
+    handSprite: 432
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
@@ -763,9 +765,9 @@ items:
     costBuy: 6000
     costSell: 5200
     weight: 18
-    bigSprite: 438
-    floorSprite: 438
-    handSprite: 438
+    bigSprite: 440
+    floorSprite: 440
+    handSprite: 440
     bulletSprite: 4
     fireSound: 218
     reloadSound: 219
@@ -808,9 +810,9 @@ items:
     costBuy: 800
     costSell: 650
     weight: 6
-    bigSprite: 454
-    floorSprite: 454
-    handSprite: 454
+    bigSprite: 456
+    floorSprite: 456
+    handSprite: 456
     hitSound: 13
     hitAnimation: 26
     bulletSpeed: 14
@@ -945,9 +947,9 @@ items:
     costBuy: 400
     costSell: 350
     weight: 1
-    bigSprite: 502
-    floorSprite: 502
-    handSprite: 502
+    bigSprite: 504
+    floorSprite: 504
+    handSprite: 504
     hitSound: 22
     hitAnimation: 26
     power: 20
@@ -973,9 +975,9 @@ items:
     costBuy: 1100
     costSell: 900
     weight: 13
-    bigSprite: 510
-    floorSprite: 510
-    handSprite: 510
+    bigSprite: 512
+    floorSprite: 512
+    handSprite: 512
     bulletSprite: 4
     fireSound: 224
     reloadSound: 225
@@ -1025,9 +1027,9 @@ items:
     costBuy: 500
     costSell: 420
     weight: 3
-    bigSprite: 526
-    floorSprite: 526
-    handSprite: 526
+    bigSprite: 528
+    floorSprite: 528
+    handSprite: 528
     hitSound: 13
     hitAnimation: 26
     bulletSpeed: 14
@@ -1050,9 +1052,9 @@ items:
     costBuy: 2000
     costSell: 1400
     weight: 15
-    bigSprite: 534
-    floorSprite: 534
-    handSprite: 534
+    bigSprite: 536
+    floorSprite: 536
+    handSprite: 536
     bulletSprite: 4
     fireSound: 226
     reloadSound: 227
@@ -1095,9 +1097,9 @@ items:
     costBuy: 500
     costSell: 420
     weight: 2
-    bigSprite: 550
-    floorSprite: 550
-    handSprite: 550
+    bigSprite: 552
+    floorSprite: 552
+    handSprite: 552
     hitSound: 13
     hitAnimation: 26
     power: 80
@@ -1119,9 +1121,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 11
-    bigSprite: 558
-    floorSprite: 558
-    handSprite: 558
+    bigSprite: 560
+    floorSprite: 560
+    handSprite: 560
     bulletSprite: 1
     fireSound: 228
     reloadSound: 229
@@ -1171,9 +1173,9 @@ items:
     costBuy: 500
     costSell: 420
     weight: 2
-    bigSprite: 574
-    floorSprite: 574
-    handSprite: 574
+    bigSprite: 576
+    floorSprite: 576
+    handSprite: 576
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 16
