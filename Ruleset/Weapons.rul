@@ -1637,46 +1637,6 @@ extraSounds:
       227: Resources/Weapons/Springfield M1903A3/reload.wav
       228: Resources/Weapons/Colt AR-15/fire.wav
       229: Resources/Weapons/Colt AR-15/reload.wav
-      230: Resources/Weapons/Stechkin APS/fire.wav
-      231: Resources/Weapons/Stechkin APS/reload.wav
-      232: Resources/Weapons/Skorpion vz61/fire.wav
-      233: Resources/Weapons/Skorpion vz61/reload.wav
-      234: Resources/Weapons/AK-47/fire.wav
-      235: Resources/Weapons/AK-47/reload.wav
-
-extraSounds:
-  - type: BATTLE.CAT
-    files:
-      200: Resources/Weapons/Browning HP35/fire.wav
-      201: Resources/Weapons/Browning HP35/reload.wav
-      202: Resources/Weapons/Colt M1911/fire.wav
-      203: Resources/Weapons/Colt M1911/reload.wav
-      204: Resources/Weapons/Lupara/fire.wav
-      205: Resources/Weapons/Lupara/reload.wav
-      206: Resources/Weapons/United Defense M42/fire.wav
-      207: Resources/Weapons/United Defense M42/reload.wav
-      208: Resources/Weapons/M2 Carbine/fire.wav
-      209: Resources/Weapons/M2 Carbine/reload.wav
-      210: Resources/Weapons/High Standard HDM/fire.wav
-      211: Resources/Weapons/High Standard HDM/reload.wav
-      212: Resources/Weapons/Beretta M12/fire.wav
-      213: Resources/Weapons/Beretta M12/reload.wav
-      214: Resources/Weapons/Heart Attack Gun/fire.wav
-      215: Resources/Weapons/Heart Attack Gun/reload.wav
-      216: Resources/Weapons/M3 Greasegun/fire.wav
-      217: Resources/Weapons/M3 Greasegun/reload.wav
-      218: Resources/Weapons/M60 Hog/fire.wav
-      219: Resources/Weapons/M60 Hog/reload.wav
-      220: Resources/Weapons/M79 Thumper/fire.wav
-      221: Resources/Weapons/M79 Thumper/reload.wav
-      222: Resources/Weapons/Ithaca 37/fire.wav
-      223: Resources/Weapons/Ithaca 37/reload.wav
-      224: Resources/Weapons/Springfield M14/fire.wav
-      225: Resources/Weapons/Springfield M14/reload.wav
-      226: Resources/Weapons/Springfield M1903A3/fire.wav
-      227: Resources/Weapons/Springfield M1903A3/reload.wav
-      228: Resources/Weapons/Colt AR-15/fire.wav
-      229: Resources/Weapons/Colt AR-15/reload.wav
 
 extraStrings:
   - type: en-US
