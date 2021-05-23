@@ -604,7 +604,6 @@ items:
     listOrder: 207
 
 # Heart Attack Gun
-// Add Unloaded Sprites
   - type: STR_HEART_ATTACK_GUN
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_PROPRIETARY, STR_SEMI_CONCEALED]
     size: 0.1
