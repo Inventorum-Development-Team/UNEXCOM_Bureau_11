@@ -1,0 +1,742 @@
+items:
+  - delete: STR_STINGRAY_LAUNCHER
+  - delete: STR_STINGRAY_MISSILES
+  - delete: STR_AVALANCHE_LAUNCHER
+  - delete: STR_AVALANCHE_MISSILES
+  - delete: STR_CANNON
+  - delete: STR_CANNON_ROUNDS_X50
+  - type: STR_SIDEWINDER_LAUNCHER
+    categories: [STR_VEHICLES, STR_BVRAAM]
+    requiresBuy:
+      - STR_USAF_INTERCEPTOR_REQUISITION
+    size: 0.8
+    costBuy: 21000
+    costSell: 18000
+    transferTime: 48
+  - type: STR_SIDEWINDER_MISSILES
+    categories: [STR_VEHICLES, STR_BVRAAM]
+    requiresBuy:
+      - STR_USAF_INTERCEPTOR_REQUISITION
+    size: 0.4
+    costBuy: 6000
+    costSell: 4000
+    transferTime: 48
+    clipSize: 1
+  - type: STR_VULCAN_CANNON
+    categories: [STR_VEHICLES, STR_AUTOCANNON]
+    requiresBuy:
+      - STR_USAF_INTERCEPTOR_REQUISITION
+    size: 1.5
+    costBuy: 37500
+    costSell: 35000
+    transferTime: 48
+  - type: STR_VULCAN_CANNON_ROUNDS_X50
+    categories: [STR_VEHICLES, STR_AUTOCANNON]
+    requiresBuy:
+      - STR_USAF_INTERCEPTOR_REQUISITION
+    size: 0.1
+    costBuy: 2000
+    costSell: 1600
+    transferTime: 96
+    clipSize: 50
+  - type: STR_FUEL_TANK
+    categories: [STR_VEHICLES, STR_AUXILLARY]
+    size: 0.8
+    costSell: 13000
+    transferTime: 48
+  - type: STR_AFTERBURNER
+    categories: [STR_VEHICLES, STR_AUXILLARY]
+    size: 0.8
+    costSell: 13000
+    transferTime: 48
+  - type: STR_IMPROVED_SPY_CAMERA
+    categories: [STR_VEHICLES, STR_AUXILLARY]
+    size: 0.8
+    costSell: 13000
+    transferTime: 48
+  - type: STR_FLARE_DISPENSER
+    categories: [STR_VEHICLES, STR_AUXILLARY]
+    size: 0.8
+    costSell: 13000
+    transferTime: 48
+
+crafts:
+  - delete: STR_SKYRANGER
+  - delete: STR_INTERCEPTOR
+  - delete: STR_FIRESTORM
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+  - type: STR_CADILLAC
+    sprite: 100
+    fuelMax: 9999
+    damageMax: 10
+    speedMax: 60
+    accel: 1
+    soldiers: 5
+    vehicles: 0
+    maxItems: 80
+    costBuy: 15000
+    costRent: 2500
+    costSell: 0
+    refuelRate: 9999
+    repairRate: 1
+    transferTime: 1
+    score: 5
+    battlescapeTerrainData:
+      name: CADILLAC
+      mapDataSets:
+        - BLANKS
+        - CADILLAC
+      mapBlocks:
+        - name: CADILLAC
+          width: 10
+          length: 10
+    craftInventoryTile: [4, 2, 0]
+    deployment:
+      - [6, 6, 0, 3]
+      - [3, 6, 0, 5]
+      - [6, 4, 0, 2]
+      - [3, 4, 0, 6]
+      - [4, 2, 0, 0]
+  - type: STR_U2_DRAGON_LADY
+    sprite: 101
+    fuelMax: 800
+    damageMax: 40
+    speedMax: 420
+    accel: 2
+    costBuy: 500000
+    costRent: 25000
+    weapons: 1
+    weaponTypes: 
+      - 3
+    weaponStrings:
+      - STR_AUXILLARY
+    refuelRate: 75
+    radarRange: 600
+    sightRange: 0
+    radarChance: 15
+    transferTime: 96
+    score: 250
+  - type: STR_HUEY
+    requires:
+      - STR_EXPERIMENTAL_AEROSPACE
+    sprite: 102
+    fuelMax: 660
+    damageMax: 150
+    speedMax: 230
+    accel: 3
+    soldiers: 10
+    vehicles: 0
+    weapons: 1
+    weaponTypes: 
+      - 3
+    weaponStrings:
+      - STR_AUXILLARY
+    keepCraftAfterFailedMission: true
+    costBuy: 500000
+    costRent: 6000
+    refuelRate: 50
+    repairRate: 4
+    transferTime: 48
+    score: 40
+    battlescapeTerrainData:
+      name: UH_1B_HUEY
+      mapDataSets:
+        - BLANKS
+        - UH_1B_HUEY
+      mapBlocks:
+        - name: UH_1B_HUEY
+          width: 10
+          length: 20
+    craftInventoryTile: [7, 10, 0]
+    deployment:
+      - [2, 8, 0, 5]
+      - [7, 8, 0, 3]
+      - [2, 9, 0, 7]
+      - [7, 9, 0, 1]
+      - [2, 10, 0, 6]
+      - [7, 10, 0, 2]
+      - [2, 11, 0, 6]
+      - [7, 11, 0, 2]
+      - [2, 12, 0, 5]
+      - [7, 12, 0, 3]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+
+  - type: STR_MUDRANGER
+    requires:
+      - STR_EXPERIMENTAL_AEROSPACE
+    sprite: 103
+    fuelMax: 500
+    damageMax: 200
+    speedMax: 130
+    accel: 1
+    armor: 3
+    soldiers: 14
+    vehicles: 2
+    keepCraftAfterFailedMission: true
+    maxItems: 999
+    costBuy: 400000
+    costRent: 2000
+    costSell: 75000
+    refuelRate: 100
+    repairRate: 1
+    transferTime: 1
+    score: 5
+    battlescapeTerrainData:
+      name: NKF_APC
+      mapDataSets:
+        - BLANKS
+        - NKF_APC
+      mapBlocks:
+        - name: NKF_APC
+          width: 10
+          length: 20
+
+  - type: STR_STARFIGHTER
+    requires:
+      - STR_USAF_INTERCEPTOR_REQUISITION
+    sprite: 104
+    fuelMax: 192
+    damageMax: 130
+    speedMax: 1258
+    accel: 4
+    weapons: 4
+    weaponTypes: 
+      - 1
+      - 2
+      - 2
+      - 3
+    weaponStrings:
+      - STR_AUTOCANNON
+      - STR_BVRAAM
+      - STR_BVRAAM
+      - STR_AUXILLARY
+    allowLanding: false
+    costBuy: 750000
+    costSell: 600000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    avoidBonus: 20
+    sightRange: 0
+    radarRange: 134
+    radarChance: 15
+    score: 400
+
+  - type: STR_SKYRANGER
+    requires:
+      - STR_GYRODYNE_TRANSPORT_HELICOPTER
+    sprite: 105
+    fuelMax: 880
+    damageMax: 320
+    speedMax: 270
+    accel: 4
+    soldiers: 14
+    vehicles: 1
+    costBuy: 600000
+    costSell: 450000
+    refuelRate: 20
+    sightRange: 0
+    radarRange: 0
+    transferTime: 72
+    score: 400
+    keepCraftAfterFailedMission: true
+    battlescapeTerrainData:
+      name: PLANE
+      mapDataSets:
+        - BLANKS
+        - PLANE
+      mapBlocks:
+        - name: PLANE
+          width: 10
+          length: 20
+
+craftWeapons:
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+
+  - type: STR_FUEL_TANK_UC
+    weaponType: 5
+    hidePediaInfo: true
+    sprite: 231
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_FUEL_TANK
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      fuelMax: 150
+      accel: -1
+      avoidBonus: -5
+  - type: STR_FLARE_DISPENSER_UC
+    weaponType: 5
+    sprite: 232
+    hidePediaInfo: true
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_FLARE_DISPENSER
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      avoidBonus: 25
+  - type: STR_IMPROVED_SPY_CAMERA_UC
+    weaponType: 5
+    sprite: 232
+    hidePediaInfo: true
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_IMPROVED_SPY_CAMERA
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      sightRange: 150
+  - type: STR_AFTERBURNER_UC
+    weaponType: 5
+    sprite: 232
+    hidePediaInfo: true
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_AFTERBURNER
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      accel: 5
+      speedMax: 150
+      fuelMax: -15
+
+  - type: STR_SIDEWINDER
+    weaponType: 2
+    sprite: 200
+    sound: 5
+    damage: 60
+    range: 30
+    accuracy: 65
+    reloadCautious: 64
+    reloadStandard: 48
+    reloadAggressive: 32
+    ammoMax: 2
+    launcher: STR_SIDEWINDER_LAUNCHER
+    clip: STR_SIDEWINDER_MISSILES
+    projectileType: 0
+    projectileSpeed: 8
+
+  - type: STR_VULCAN
+    weaponType: 0
+    sprite: 201
+    sound: 4
+    damage: 20
+    range: 10
+    accuracy: 15
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 3
+    ammoMax: 200
+    rearmRate: 50
+    launcher: STR_VULCAN_CANNON
+    clip: STR_VULCAN_CANNON_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 8
+
+research:
+  - name: STR_EXPERIMENTAL_AEROSPACE
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+
+  - name: STR_USAF_INTERCEPTOR_REQUISITION
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_EXPERIMENTAL_AEROSPACE
+
+  - name: STR_GYRODYNE_TRANSPORT_HELICOPTER
+    cost: 300
+    points: 100
+    dependencies:
+      - STR_EXPERIMENTAL_AEROSPACE
+
+manufacture:
+  - delete: STR_FIRESTORM
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+
+  - name: STR_FUEL_TANK
+    category: STR_VEHICLES
+    space: 4
+    time: 150
+    cost: 18000
+    producedItems:
+      STR_FUEL_TANK: 1
+
+  - name: STR_AFTERBURNER
+    category: STR_VEHICLES
+    space: 4
+    time: 150
+    cost: 18000
+    requires:
+      - STR_EXPERIMENTAL_AEROSPACE
+    producedItems:
+      STR_AFTERBURNER: 1
+
+  - name: STR_IMPROVED_SPY_CAMERA
+    category: STR_VEHICLES
+    space: 4
+    time: 150
+    cost: 18000
+    producedItems:
+      STR_IMPROVED_SPY_CAMERA: 1
+
+  - name: STR_FLARE_DISPENSER
+    category: STR_VEHICLES
+    space: 4
+    time: 150
+    cost: 18000
+    requires:
+      - STR_EXPERIMENTAL_AEROSPACE
+    producedItems:
+      STR_FLARE_DISPENSER: 1
+
+ufopaedia:
+  - delete: STR_SKYRANGER
+  - id: STR_CADILLAC
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_CADILLAC_UFOPEDIA
+    listOrder: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: CADILLAC_UFOPEDIA
+  - id: STR_U2_DRAGON_LADY
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_U2_DRAGON_LADY_UFOPEDIA
+    listOrder: 2
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: U2DRAGONLADY_UFOPEDIA
+  - id: STR_HUEY
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_HUEY_UFOPEDIA
+    listOrder: 3
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: HUEY_UFOPEDIA
+  - id: STR_MUDRANGER
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_MUDRANGER_UFOPEDIA
+    listOrder: 4
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: MUDRANGER_UFOPEDIA
+  - id: STR_STARFIGHTER
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_STARFIGHTER_UFOPEDIA
+    listOrder: 5
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: STARFIGHTER_UFOPEDIA
+  - id: STR_SKYRANGER
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_SKYRANGER_UFOPEDIA
+    listOrder: 6
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: SKYRANGER_UFOPEDIA
+
+#Autocannon
+  - id: STR_VULCAN
+    requires:
+      - STR_USAF_INTERCEPTOR_REQUISITION
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: VULCAN
+    text: STR_VULCAN_UFOPEDIA
+    listOrder: 7
+
+#BVRAAM
+  - id: STR_SIDEWINDER
+    requires:
+      - STR_USAF_INTERCEPTOR_REQUISITION
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: SIDEWINDER
+    text: STR_SIDEWINDER_UFOPEDIA
+    listOrder: 8
+
+# Aux
+  - id: STR_FUEL_TANK_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: FUEL_TANK
+    text: STR_FUEL_TANK_UFOPEDIA
+    listOrder: 9
+  - id: STR_AFTERBURNER_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: AFTERBURNER
+    requires:
+      - STR_EXPERIMENTAL_AEROSPACE
+    text: STR_AFTERBURNER_UFOPEDIA
+    listOrder: 10
+  - id: STR_FLARE_DISPENSER_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: FLARE_DISPENSER
+    requires:
+      - STR_EXPERIMENTAL_AEROSPACE
+    text: STR_FLARE_DISPENSER_UFOPEDIA
+    listOrder: 11
+  - id: STR_IMPROVED_SPY_CAMERA_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: IMPROVED_SPY_CAMERA
+    text: STR_IMPROVED_SPY_CAMERA_UFOPEDIA
+    listOrder: 12
+
+extraSprites:
+  - type: BASEBITS.PCK
+    files:
+      133: Resources/Vehicles/Cadillac/Cadillac_Basebits.png
+      134: Resources/Vehicles/Dragon Lady/U2DragonLady_base.png
+      135: Resources/Vehicles/Iroquois/Huey_base.png
+      136: Resources/Vehicles/Mudranger/Mudranger_base.png
+      137: Resources/Vehicles/Starfighter/Starfighter_base.png
+      138: Resources/Vehicles/Skyranger/Skyranger_base.png
+
+      248: Resources/Vehicles/BVRAAM/Sidewinder_basebits.png
+      249: Resources/Vehicles/Autocannon/Vulcan_basebits.png
+      279: Resources/Vehicles/Auxillary/Fuel_Tank_basebits.png
+      280: Resources/Vehicles/Auxillary/FlareDispenser_basebits.png
+      281: Resources/Vehicles/Auxillary/ImprovedSpyCamera_basebits.png
+      282: Resources/Vehicles/Auxillary/Afterburner_basebits.png
+  - type: INTICON.PCK
+    files:
+      100: Resources/Vehicles/Cadillac/Cadillac_Minimised.png
+      111: Resources/Vehicles/Cadillac/Cadillac_Dogfight.png
+      101: Resources/Vehicles/Dragon Lady/U2DragonLady_minimised.png
+      112: Resources/Vehicles/Dragon Lady/U2DragonLady_dogfight.png
+      113: Resources/Vehicles/Iroquois/Huey_dogfight.png
+      114: Resources/Vehicles/Mudranger/Mudranger_dogfight.png
+      115: Resources/Vehicles/Starfighter/Starfighter_dogfight.png
+      116: Resources/Vehicles/Skyranger/Skyranger_dogfight.png
+      104: Resources/Vehicles/Starfighter/Starfighter_minimised.png
+      105: Resources/Vehicles/Skyranger/Skyranger_minimised.png
+
+      205: Resources/Vehicles/BVRAAM/Sidewinder_dogfight.png
+      206: Resources/Vehicles/Autocannon/Vulcan_dogfight.png
+      236: Resources/Vehicles/Auxillary/Fuel_Tank_dogfight.png
+      237: Resources/Vehicles/Auxillary/FlareDispenser_dogfight.png
+      238: Resources/Vehicles/Auxillary/ImprovedSpyCamera_dogfight.png
+      239: Resources/Vehicles/Auxillary/Afterburner_dogfight.png
+  - type: CADILLAC_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Cadillac/CADILLAC_UFOPEDIA.png
+  - type: U2DRAGONLADY_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Dragon Lady/U2DRAGONLADY_UFOPEDIA.PNG
+  - type: HUEY_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Iroquois/HUEY_UFOPEDIA.PNG
+  - type: MUDRANGER_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Mudranger/MUDRANGER_UFOPEDIA.PNG
+  - type: STARFIGHTER_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Starfighter/STARFIGHTER_UFOPEDIA.PNG
+  - type: SKYRANGER_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Skyranger/SKYRANGER_UFOPEDIA.PNG
+  - type: SIDEWINDER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/BVRAAM/SIDEWINDER.gif
+  - type: VULCAN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Autocannon/VULCAN.png
+  - type: FUEL_TANK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Auxillary/FUEL_TANK.png
+  - type: AFTERBURNER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Auxillary/AFTERBURNER.png
+  - type: FLARE_DISPENSER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Auxillary/FLARE_DISPENSER.png
+  - type: IMPROVED_SPY_CAMERA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Auxillary/IMPROVED_SPY_CAMERA.png
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_VEHICLES: "VEHICLES AND ARMAMENT"
+  
+      STR_AUTOCANNON: "AUTOCANNON"
+      STR_BVRAAM: "BVRAAM" #Beyond Visual Range Air to Air Missile	 
+      STR_AUXILLARY: "AUXILLARY"	  
+
+      STR_EXPERIMENTAL_AEROSPACE: "Experimental Transport"
+
+      STR_CADILLAC: "EL DORADO"
+      STR_CADILLAC_UFOPEDIA: "1960 Cadillac El Dorado, riding into battle in style! Used by our field agents to arrive to their destination after taking an airplane trip."
+
+      STR_U2_DRAGON_LADY: "DRAGONLADY"
+      STR_U2_DRAGON_LADY_UFOPEDIA: "U-2 Dragon Lady - Long-range, high-altitude airborne reconnaissance aircraft designed to stay in the air for numerous hours. Used by the CIA and USAF to obtain valuable intelligence info."
+
+      STR_FUEL_TANK_UC: "FUEL TANK"
+      STR_FUEL_TANK_UFOPEDIA: "External tank mounted under the wings, meant to increase the combat range of the aircraft. Produces some drag, thus reducing the acceleration and speed. fuelMax: 150, accel: -1, avoidBonus: -5"
+      STR_FUEL_TANK: "Fuel Tank"
+
+      STR_FLARE_DISPENSER_UC: "FLARE DISPENSER"
+      STR_FLARE_DISPENSER_UFOPEDIA: "Countermeasures designed to divert IR missiles fired at the aircraft. Created with pyrotechnic materials, they burn at temperatures much higher than an engine and can confuse the guidance system of many missiles. avoidBonus: 25"
+      STR_FLARE_DISPENSER: "Flare Dispenser"
+
+      STR_IMPROVED_SPY_CAMERA_UC: "IMPROVED SPY CAMERA"
+      STR_IMPROVED_SPY_CAMERA_UFOPEDIA: "Recon camera equipped with better lens and photo storage. It increases the view field of the aircraft, effectively increasing the opportunity to gather intel. sightRange: 150" 
+      STR_IMPROVED_SPY_CAMERA: "Improved Spy Camera"
+
+      STR_AFTERBURNER_UC: "EXPERIMENTAL JET THURSTER"
+      STR_AFTERBURNER_UFOPEDIA: "This prototype jet motor is used to greatly increase the acceleration and speed of the vehicle where it is mounted. However, the stress put on the motor reduces it's autonomy. accel: 5, speedMax: 150, fuelMax: -15"
+      STR_AFTERBURNER: "Experimental Jet Thurster"
+
+      STR_MUDRANGER: "MUDRANGER"
+      STR_MUDRANGER_UFOPEDIA: "XM115 Armored Cavalry Heavy Transport - Nicknamed 'Mudranger', this is a highly experimental US Army heavy troop carrier, meant to transport and protect large amounts of soldiers and even light vehicles."
+
+      STR_HUEY: "IROQUOIS"
+      STR_HUEY_UFOPEDIA: "UH-1A Iroquois - light transport helicopter, employed to insert and evacuate troops quickly in the battlefield. It has a short range, our troops must are taken on C-130s to mission sites before the deployment."
+
+      STR_STARFIGHTER: "STARFIGHTER"
+      STR_STARFIGHTER_UFOPEDIA: "F-104 Starfighter - 'The Manned Missile', top of the line USAF interceptor, meant for high altitude combat and fast encounters with enemy bombers."
+
+      STR_SKYRANGER: "SKYRANGER"
+      STR_SKYRANGER_UFOPEDIA: "X-62 - Helicopter-airplane hybrid, it can take off vertically with the main rotor and navigate with its wing propellers. Robust design, designed for heavy troop transport over medium and long distances."
+
+      STR_SIDEWINDER: "SIDEWINDER"
+      STR_SIDEWINDER_UFOPEDIA: "AIM-9E Sidewinder - American short range air to air missile with IR guidance. It has a fragmentation warhead that shreds enemy aircrafts once it hits."
+      STR_SIDEWINDER_LAUNCHER: "Sidewinder Launcher"
+      STR_SIDEWINDER_MISSILES: "Sidewinder Missiles"
+
+      STR_VULCAN: "M61 VULCAN"
+      STR_VULCAN_UFOPEDIA: "M61 Vulcan - standard American air to air cannon, widely used by USAF aircrafts. Features an extremely high rate of fire (6000 rounds per minute) and is very reliable, but not very accurate - fires 20mm rounds. Gatling-like cannon"
+      STR_VULCAN_CANNON: "M61 Vulcan Cannon"
+      STR_VULCAN_CANNON_ROUNDS_X50: "M61 Vulcan Cannon Rounds(x50)"

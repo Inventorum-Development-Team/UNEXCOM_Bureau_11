@@ -1,0 +1,216 @@
+ufopaedia:
+  - delete: STR_TANK_CANNON
+  - delete: STR_TANK_ROCKET_LAUNCHER
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_GRENADE
+  - delete: STR_SMOKE_GRENADE
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_ELECTRO_FLARE
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_STUN_ROD
+  - delete: STR_PSI_AMP
+  - delete: STR_MEDI_KIT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_MIND_PROBE
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_ELERIUM_115
+  - delete: STR_AVENGER
+  - delete: STR_LIGHTNING
+  - delete: STR_INTERCEPTOR
+  - delete: STR_FIRESTORM
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+  - delete: STR_FUSION_BALL_UC
+  - delete: STR_LASER_CANNON_UC
+  - delete: STR_PLASMA_BEAM_UC
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_ABDUCTOR
+  - delete: STR_HARVESTER
+  - delete: STR_BATTLESHIP
+  - delete: STR_TERROR_SHIP
+  - delete: STR_SUPPLY_SHIP
+  - delete: STR_ACCESS_LIFT
+  - delete: STR_LIVING_QUARTERS
+  - delete: STR_LABORATORY
+  - delete: STR_WORKSHOP
+  - delete: STR_SMALL_RADAR_SYSTEM
+  - delete: STR_LARGE_RADAR_SYSTEM
+  - delete: STR_MISSILE_DEFENSES
+  - delete: STR_GENERAL_STORES
+  - delete: STR_ALIEN_CONTAINMENT
+  - delete: STR_LASER_DEFENSES
+  - delete: STR_PLASMA_DEFENSES
+  - delete: STR_FUSION_BALL_DEFENSES
+  - delete: STR_GRAV_SHIELD
+  - delete: STR_MIND_SHIELD
+  - delete: STR_PSIONIC_LABORATORY
+  - delete: STR_HYPER_WAVE_DECODER
+  - delete: STR_HANGAR
+  - delete: STR_SECTOID
+  - delete: STR_SECTOID_AUTOPSY
+  - delete: STR_CYBERDISC
+  - delete: STR_CYBERDISC_AUTOPSY
+  - delete: STR_FLOATER
+  - delete: STR_FLOATER_AUTOPSY
+  - delete: STR_REAPER
+  - delete: STR_REAPER_AUTOPSY
+  - delete: STR_SNAKEMAN
+  - delete: STR_SNAKEMAN_AUTOPSY
+  - delete: STR_CHRYSSALID
+  - delete: STR_CHRYSSALID_AUTOPSY
+  - delete: STR_MUTON
+  - delete: STR_MUTON_AUTOPSY
+  - delete: STR_CELATID
+  - delete: STR_CELATID_AUTOPSY
+  - delete: STR_SILACOID
+  - delete: STR_SILACOID_AUTOPSY
+  - delete: STR_ETHEREAL
+  - delete: STR_ETHEREAL_AUTOPSY
+  - delete: STR_SECTOPOD
+  - delete: STR_SECTOPOD_AUTOPSY
+  - delete: STR_ALIEN_ORIGINS
+  - delete: STR_THE_MARTIAN_SOLUTION
+  - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_SUPPLY
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_UFO_CONSTRUCTION
+  - delete: STR_ALIEN_FOOD
+  - delete: STR_ALIEN_REPRODUCTION
+  - delete: STR_ALIEN_ENTERTAINMENT
+  - delete: STR_ALIEN_SURGERY
+  - delete: STR_EXAMINATION_ROOM
+  - delete: STR_ALIEN_ALLOYS
+
+extraSprites:
+  - type: BACK01.SCR #Main
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK01.PNG
+  - type: BACK02.SCR #Soldier
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK02.PNG
+  - type: BACK04.SCR #Base Defense/Equipment Selection
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK04.PNG
+  - type: BACK05.SCR #Research
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK05.PNG
+  - type: BACK12.SCR #Launch Interceptor
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK12.PNG
+  - type: BACK13.SCR #Sell And Purchase 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK13.PNG
+  - type: BACK14.SCR #Equip Craft
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK14.PNG
+  - type: BACK15.SCR #Land At Crash/Landing Site
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK15.PNG
+  - type: BACK16.SCR #Mission Briefing
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK16.PNG
+  - type: BACK17.SCR #Manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK17.PNG
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_OPENXCOM: "UNEXCOM: Bureau 11"
+      STR_NEW_GAME: "Field Operations"
+      STR_NEW_BATTLE: "Investigations"
+      STR_MISSION_GENERATOR: "THE TRUTH IS OUT THERE"
+      STR_1_BEGINNER: "1> FADE OUT"
+      STR_2_EXPERIENCED: "2> DOUBLE TAKE"
+      STR_3_VETERAN: "3> ROUND HOUSE"
+      STR_4_GENIUS: "4> FAST PACE"
+      STR_5_SUPERHUMAN: "5> COCKED PISTOL"    
+      STR_UFOPAEDIA: "Blue Book"
+      STR_UFOPAEDIA_UC: "BLUE BOOK"
+      STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON SITE-TIME=5 SECS"
+      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO LAST REPORTED ACTIVITY"
+      STR_UFO_IS_NOT_RECOVERED: "Site is not recovered"
+      STR_UFO_IS_RECOVERED: "Site is recovered"
+      STR_UFO_RECOVERY: "SITE RECOVER"
+      STR_UFO_DESTROYED: "OETO DESTROYED"
+      STR_UFO_: "ACTIVITY SITE-{0}"
+      STR_TAILING_UFO: "SEARCHING FOR SITES"
+      STR_INTERCEPTING_UFO: "INTERCEPTING SITE-{0}"
+      STR_XCOM_OPERATIVES_KILLED: "BUREAU 11 AGENTS KILLED"
+      STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "BUREAU 11 AGENTS M.I.A."
+      STR_XCOM_CRAFT_LOST: "BUREAU 11 VEHICLE LOST"

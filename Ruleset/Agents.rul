@@ -1,0 +1,275 @@
+units:
+  - delete: STR_TANK_CANNON
+  - delete: STR_TANK_ROCKET_LAUNCHER
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+
+soldiers:
+  - delete: STR_SOLDIER
+  - type: STR_CIA_AGENT
+    costBuy: 40000
+    costSalary: 25000
+    flagOffset: 0
+    minStats:
+      tu: 50
+      stamina: 50
+      health: 30
+      bravery: 20
+      reactions: 50
+      firing: 45
+      throwing: 55
+      strength: 20
+      psiStrength: 30
+      psiSkill: 0
+      melee: 50
+    maxStats:
+      tu: 60
+      stamina: 60
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 60
+      throwing: 70
+      strength: 35
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+    statCaps:
+      tu: 70
+      stamina: 90
+      health: 45
+      bravery: 60
+      reactions: 100
+      firing: 80
+      throwing: 60
+      strength: 50
+      psiStrength: 100
+      psiSkill: 100
+      melee: 70
+    armor: STR_AGENT_SUIT_UC
+    rankSprite: 800         # default 42 # basebits.pck
+    rankBattleSprite: 800   # default 20 # smoke.pck
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 35
+    soldierNames:
+      - delete
+      - NamesAgents/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    rankStrings:
+    - STR_FIELD_AGENT
+    - STR_SENIOR_AGENT
+    - STR_ASSISTANT_A_I_C
+    - STR_AGENT_IN_CHARGE
+    - STR_DEPUTY_DIRECTOR
+
+  - type: STR_ARMY_VETERAN
+    costBuy: 60000
+    costSalary: 45000
+    requires:
+       - STR_ARMY_VETERAN_RECRUITMENT
+    flagOffset: 0
+    minStats:
+      tu: 60
+      stamina: 60
+      health: 40
+      bravery: 30
+      reactions: 30
+      firing: 65
+      throwing: 50
+      strength: 30
+      psiStrength: 10
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 70
+      stamina: 80
+      health: 60
+      bravery: 50
+      reactions: 45
+      firing: 80
+      throwing: 60
+      strength: 50
+      psiStrength: 80
+      psiSkill: 16
+      melee: 70
+    statCaps:
+      tu: 85
+      stamina: 100
+      health: 60
+      bravery: 80
+      reactions: 60
+      firing: 100
+      throwing: 70
+      strength: 70
+      psiStrength: 80
+      psiSkill: 100
+      melee: 95
+    armor: STR_ARMY_UNIFORM_UC
+    rankSprite: 810         # default 42 # basebits.pck
+    rankBattleSprite: 810   # default 20 # smoke.pck
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 3
+    soldierNames:
+      - delete
+      - NamesVet/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    rankStrings:
+    - STR_SERGEANT
+    - STR_STAFF_SERGEANT
+    - STR_SERGEANT_FIRST_CLASS
+    - STR_MASTER_SERGEANT
+    - STR_WARRANT_OFFICER
+
+  - type: STR_KGB_OFFICER
+    costBuy: 80000
+    costSalary: 6000
+    requires:
+       - STR_KGB_OFFICER_RECRUITMENT
+    flagOffset: 2
+    minStats:
+      tu: 55
+      stamina: 50
+      health: 30
+      bravery: 20
+      reactions: 50
+      firing: 50
+      throwing: 40
+      strength: 20
+      psiStrength: 60
+      psiSkill: 0
+      melee: 60
+    maxStats:
+      tu: 65
+      stamina: 60
+      health: 50
+      bravery: 60
+      reactions: 65
+      firing: 70
+      throwing: 60
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 70
+    statCaps:
+      tu: 80
+      stamina: 90
+      health: 55
+      bravery: 80
+      reactions: 80
+      firing: 90
+      throwing: 60
+      strength: 60
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+    armor: STR_OFFICER_COAT_UC
+    rankSprite: 820         # default 42 # basebits.pck
+    rankBattleSprite: 820   # default 20 # smoke.pck
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 45
+    soldierNames:
+      - delete
+      - NamesKGB/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    rankStrings:
+    - STR_LIEUTENANT
+    - STR_CAPTAIN
+    - STR_MAJOR
+    - STR_LT_COLONEL
+    - STR_COLONEL
+
+research:
+  - name: STR_ARMY_VETERAN_RECRUITMENT
+    cost: 150
+    points: 25
+
+  - name: STR_KGB_OFFICER_RECRUITMENT
+    cost: 300
+    points: 50
+
+extraSprites:
+  - type: BASEBITS.PCK
+    files:
+      # CIA Rank Sprites
+      800: Resources/Agents/RankSprites/Rank0_FieldAgent.png
+      801: Resources/Agents/RankSprites/Rank1_SeniorAgent.png
+      802: Resources/Agents/RankSprites/Rank2_AssistantAIC.png
+      803: Resources/Agents/RankSprites/Rank3_AgentInCharge.png
+      804: Resources/Agents/RankSprites/Rank4_DeputyDirector.png
+
+      # Vet Rank Sprites
+      810: Resources/Agents/RankSprites/Rank0_Sergeant.png
+      811: Resources/Agents/RankSprites/Rank1_StaffSergeant.png
+      812: Resources/Agents/RankSprites/Rank2_SergeantFirstClass.png
+      813: Resources/Agents/RankSprites/Rank3_MasterSergeant.png
+      814: Resources/Agents/RankSprites/Rank4_WarrantOfficer.png
+
+      # KGB Rank Sprites
+      820: Resources/Agents/RankSprites/Rank0_Lieutenant.png
+      821: Resources/Agents/RankSprites/Rank1_Captain.png
+      822: Resources/Agents/RankSprites/Rank2_Major.png
+      823: Resources/Agents/RankSprites/Rank3_Lt_Colonel.png
+      824: Resources/Agents/RankSprites/Rank4_Colonel.png
+ 
+  - type: SMOKE.PCK
+    files:
+      # CIA Rank Sprites
+      800: Resources/Agents/RankSprites/Rank0_FieldAgent.png
+      801: Resources/Agents/RankSprites/Rank1_SeniorAgent.png
+      802: Resources/Agents/RankSprites/Rank2_AssistantAIC.png
+      803: Resources/Agents/RankSprites/Rank3_AgentInCharge.png
+      804: Resources/Agents/RankSprites/Rank4_DeputyDirector.png
+
+      # Vet Rank Sprites
+      810: Resources/Agents/RankSprites/Rank0_Sergeant.png
+      811: Resources/Agents/RankSprites/Rank1_StaffSergeant.png
+      812: Resources/Agents/RankSprites/Rank2_SergeantFirstClass.png
+      813: Resources/Agents/RankSprites/Rank3_MasterSergeant.png
+      814: Resources/Agents/RankSprites/Rank4_WarrantOfficer.png
+
+      # KGB Rank Sprites
+      820: Resources/Agents/RankSprites/Rank0_Lieutenant.png
+      821: Resources/Agents/RankSprites/Rank1_Captain.png
+      822: Resources/Agents/RankSprites/Rank2_Major.png
+      823: Resources/Agents/RankSprites/Rank3_Lt_Colonel.png
+      824: Resources/Agents/RankSprites/Rank4_Colonel.png
+
+  - type: Flag0
+    singleImage: true
+    files:
+      # CIA Logo
+      0: Resources/Agents/Flags/CIA.png
+
+  - type: Flag2
+    singleImage: true
+    files:
+      0: Resources/Agents/Flags/KGB.png
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CIA_AGENT: "CIA Agent"
+      STR_FIELD_AGENT: "Field Agent"
+      STR_SENIOR_AGENT: "Senior Agent"
+      STR_ASSISTANT_A_I_C: "Assistant A-i-C"
+      STR_AGENT_IN_CHARGE: "Agent-in-Charge"
+      STR_DEPUTY_DIRECTOR: "Deputy Director"
+      STR_ARMY_VETERAN_RECRUITMENT: "Army Veteran Recruitment"
+      STR_ARMY_VETERAN: "Army Veteran"
+      STR_SERGEANT: "Sergeant"
+      STR_STAFF_SERGEANT: "Staff Sergeant"
+      STR_SERGEANT_FIRST_CLASS: "Sergeant First Class"
+      STR_MASTER_SERGEANT: "Master Sergeant"
+      STR_WARRANT_OFFICER: "Warrant Officer"
+      STR_LIEUTENANT: "Lieutenant"
+      STR_CAPTAIN: "Captain"
+      STR_MAJOR: "Major"
+      STR_LT_COLONEL: "Podpolkovnik"
+      STR_COLONEL: "Polkovnik"

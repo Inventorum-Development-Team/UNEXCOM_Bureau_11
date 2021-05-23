@@ -1,0 +1,1727 @@
+itemCategories:
+  - type: STR_WEAPONS
+    listOrder: 1
+  - type: STR_FIREARMS
+    listOrder: 2
+  - type: STR_HANDGUNS
+    listOrder: 3
+  - type: STR_SMGS
+    listOrder: 4
+  - type: STR_SHOTGUNS
+    listOrder: 5
+  - type: STR_CARBINES
+    listOrder: 6
+  - type: STR_RIFLES
+    listOrder: 7
+  - type: STR_SNIPER_RIFLES
+    listOrder: 8
+  - type: STR_LMGS
+    listOrder: 9
+  - type: STR_ARTILLERY
+    listOrder: 10
+  - type: STR_MAGAZINES
+    listOrder: 11
+  - type: STR_CLIPS
+    listOrder: 12
+  - type: STR_SEMI_CONCEALED
+    listOrder: 13
+  - type: STR_CONCEALED
+    listOrder: 14
+  - type: STR_MELEE
+    listOrder: 15
+  - type: STR_GADGETS
+    listOrder: 16
+  - type: STR_MEDICAL
+    listOrder: 17
+  - type: STR_GRENADES
+    listOrder: 18
+  - type: STR_PROPRIETARY
+    listOrder: 19
+  - type: STR_AUTOCANNON
+    listOrder: 20
+  - type: STR_BVRAAM
+    listOrder: 21
+  - type: STR_AUXILLARY
+    listOrder: 22
+  - type: STR_SOVIET_TECHNOLOGY
+    listOrder: 23
+  - type: STR_ALIEN_ARTIFACT
+    listOrder: 24
+
+items:
+  - delete: STR_TANK_CANNON
+  - delete: STR_HWP_SHELLS
+  - delete: STR_TANK_ROCKET_LAUNCHER
+  - delete: STR_HWP_ROCKETS
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_ELECTRO_FLARE
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_STUN_ROD
+  - delete: STR_PSI_AMP
+  - delete: STR_MEDI_KIT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+
+# Browning HP-35
+  - type: STR_BROWNING_HP35
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
+    size: 0.1
+    costBuy: 700
+    costSell: 580
+    weight: 6
+    bigSprite: 200
+    floorSprite: 200
+    handSprite: 200
+    bulletSprite: 1
+    fireSound: 200
+    reloadSound: 201
+    compatibleAmmo:
+      - STR_BROWNING_HP35_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 18
+    accuracyAimed: 90
+    tuAimed: 55
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 12
+    accuracySnap: 70
+    tuSnap: 25
+    confAuto:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    autoRange: 9
+    accuracyAuto: 55
+    tuAuto: 40
+    accuracyCloseQuarters: 100
+    tuLoad: 15
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 115
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    listOrder: 200
+  - type: STR_BROWNING_HP35_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 2
+    bigSprite: 216
+    floorSprite: 216
+    handSprite: 216
+    hitSound: 22
+    hitAnimation: 26
+    power: 28
+    damageType: 1
+    clipSize: 15
+    battleType: 2
+    armor: 10
+    listOrder: 201
+
+# Colt M1911
+  - type: STR_COLT_M1911
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
+    size: 0.1
+    costBuy: 800
+    costSell: 620
+    weight: 7
+    bigSprite: 224
+    floorSprite: 224
+    handSprite: 224
+    bulletSprite: 1
+    fireSound: 202
+    reloadSound: 203
+    compatibleAmmo:
+      - STR_COLT_M1911_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange:  18
+    accuracyAimed: 85
+    tuAimed: 60
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 12
+    accuracySnap: 60
+    tuSnap: 30
+    confAuto:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    autoRange: 7
+    accuracyAuto: 55
+    tuAuto: 40
+    accuracyCloseQuarters: 100
+    tuLoad: 15
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 115
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    listOrder: 202
+  - type: STR_COLT_M1911_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 2
+    bigSprite: 240
+    floorSprite: 240
+    handSprite: 240
+    hitSound: 22
+    hitAnimation: 26
+    power: 40
+    damageAlter:
+      ArmorEffectiveness: 1.25
+    damageType: 1
+    clipSize: 7
+    battleType: 2
+    armor: 10
+    listOrder: 203
+
+# Lupara M1897
+  - type: STR_LUPARA_M1897
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_SEMI_CONCEALED]
+    size: 0.1
+    costBuy: 1800
+    costSell: 1600
+    weight: 8
+    bigSprite: 248
+    floorSprite: 248
+    handSprite: 248
+    bulletSprite: 3
+    fireSound: 204
+    reloadSound: 205
+    compatibleAmmo:
+      - STR_LUPARA_M1897_SHELLS
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 6
+    accuracyAimed: 110
+    tuAimed: 90
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 4
+    accuracySnap: 70
+    tuSnap: 25
+    accuracyCloseQuarters: 90
+    dropoff: 4
+    shotgunChoke: 50
+    tuLoad: 20
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    listOrder: 204
+  - type: STR_LUPARA_M1897_SHELLS
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS, STR_SEMI_CONCEALED]
+    size: 0.1
+    costSell: 200
+    weight: 1
+    bigSprite: 264
+    floorSprite: 264
+    handSprite: 264
+    hitSound: 22
+    hitAnimation: 26
+    power: 20
+    shotgunBehavior: 1
+    shotgunPellets: 4
+    shotgunSpread: 50
+    damageAlter:
+      ArmorEffectiveness: 0.9
+      ToHealth: 1.25
+    damageType: 1
+    clipSize: 2
+    battleType: 2
+    armor: 10
+    listOrder: 205
+
+# United Defense M42
+  - type: STR_UNITED_DEFENSE_M42
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SEMI_CONCEALED]
+    size: 0.2
+    costBuy: 2000
+    costSell: 1750
+    weight: 9
+    bigSprite: 272
+    floorSprite: 272
+    handSprite: 272
+    bulletSprite: 1
+    fireSound: 206
+    reloadSound: 207
+    compatibleAmmo:
+      - STR_UNITED_DEFENSE_M42_20_MAG
+      - STR_UNITED_DEFENSE_M42_50_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 20
+    accuracyAimed: 110
+    tuAimed: 55
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 16
+    accuracySnap: 70
+    tuSnap: 40
+    confAuto:
+      shots: 8
+      name: STR_SPRAY_N_PRAY
+      ammoSlot: 0
+      arcing: false
+    autoRange: 8
+    accuracyAuto: 55
+    tuAuto: 30
+    accuracyCloseQuarters: 100
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 125
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    twoHanded: true
+    listOrder: 206
+  - type: STR_UNITED_DEFENSE_M42_20_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    size: 0.1
+    costBuy: 300
+    costSell: 250
+    weight: 2
+    bigSprite: 296
+    floorSprite: 296
+    handSprite: 296
+    hitSound: 22
+    hitAnimation: 26
+    power: 28
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    armor: 10
+    listOrder: 208
+  - type: STR_UNITED_DEFENSE_M42_50_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    size: 0.1
+    costBuy: 300
+    costSell: 250
+    weight: 5
+    bigSprite: 302
+    floorSprite: 302
+    handSprite: 302
+    hitSound: 22
+    hitAnimation: 26
+    power: 28
+    damageType: 1
+    clipSize: 50
+    battleType: 2
+    armor: 10
+    listOrder: 209
+
+# Springfield M2
+  - type: STR_SPRINGFIELD_M2
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES]
+    size: 0.2
+    costBuy: 900
+    costSell: 400
+    weight: 10
+    bigSprite: 310
+    floorSprite: 310
+    handSprite: 310
+    bulletSprite: 1
+    fireSound: 208
+    reloadSound: 209
+    compatibleAmmo:
+      - STR_SPRINGFIELD_M2_15_MAG
+      - STR_SPRINGFIELD_M2_30_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 24
+    accuracyAimed: 130
+    tuAimed: 70
+    confSnap:
+      shots: 3
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    snapRange: 14
+    accuracySnap: 90
+    tuSnap: 40
+    confAuto:
+      shots: 5
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    autoRange: 9
+    accuracyAuto: 70
+    tuAuto: 30
+    accuracyCloseQuarters: 90
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 125
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    listOrder: 210
+  - type: STR_SPRINGFIELD_M2_15_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_MAGAZINES]
+    size: 0.1
+    costBuy: 300
+    costSell: 240
+    weight: 2
+    bigSprite: 334
+    floorSprite: 334
+    handSprite: 334
+    hitSound: 22
+    hitAnimation: 26
+    power: 42
+    damageAlter:
+      ToWound: 0.6
+      ToHealth: 0.85
+    damageType: 1
+    clipSize: 15
+    battleType: 2
+    armor: 15
+    listOrder: 211
+  - type: STR_SPRINGFIELD_M2_30_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_MAGAZINES]
+    size: 0.1
+    costBuy: 300
+    costSell: 240
+    weight: 4
+    bigSprite: 342
+    floorSprite: 342
+    handSprite: 342
+    hitSound: 22
+    hitAnimation: 26
+    power: 42
+    damageAlter:
+      ToWound: 0.6
+      ToHealth: 0.85
+    damageType: 1
+    clipSize: 30
+    battleType: 2
+    armor: 15
+    listOrder: 212
+
+# High Standard HDM
+  - type: STR_HIGH_STANDARD_HDM
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_CONCEALED]
+    size: 0.1
+    requiresBuy:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    costBuy: 900
+    costSell: 720
+    weight: 6
+    bigSprite: 350
+    floorSprite: 350
+    handSprite: 350
+    bulletSprite: 1
+    fireSound: 210
+    reloadSound: 211
+    compatibleAmmo:
+      - STR_HIGH_STANDARD_HDM_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 18
+    accuracyAimed: 90
+    tuAimed: 55
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 12
+    accuracySnap: 70
+    tuSnap: 25
+    confAuto:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    autoRange: 9
+    accuracyAuto: 55
+    tuAuto: 40
+    accuracyCloseQuarters: 100
+    tuLoad: 15
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 115
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    listOrder: 213
+  - type: STR_HIGH_STANDARD_HDM_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_CONCEALED]
+    size: 0.1
+    requiresBuy:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    costBuy: 200
+    costSell: 150
+    weight: 2
+    bigSprite: 366
+    floorSprite: 366
+    handSprite: 366
+    hitSound: 22
+    hitAnimation: 26
+    power: 18
+    damageAlter:
+      ToHealth: 1.34
+      ToWound: 1.67
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    armor: 10
+    listOrder: 214
+
+# Beretta M12
+  - type: STR_BERETTA_M12
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_CONCEALED]
+    size: 0.2
+    requiresBuy:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    costBuy: 1500
+    costSell: 1200
+    weight: 9
+    bigSprite: 374
+    floorSprite: 374
+    handSprite: 374
+    bulletSprite: 1
+    fireSound: 212
+    reloadSound: 213
+    compatibleAmmo:
+      - STR_UNITED_DEFENSE_M42_20_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 20
+    accuracyAimed: 110
+    tuAimed: 55
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 16
+    accuracySnap: 70
+    tuSnap: 40
+    confAuto:
+      shots: 8
+      name: STR_SPRAY_N_PRAY
+      ammoSlot: 0
+      arcing: false
+    autoRange: 8
+    accuracyAuto: 55
+    tuAuto: 30
+    accuracyCloseQuarters: 100
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 125
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    twoHanded: true
+    listOrder: 207
+
+# Heart Attack Gun
+// Add Unloaded Sprites
+  - type: STR_HEART_ATTACK_GUN
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_PROPRIETARY, STR_SEMI_CONCEALED]
+    size: 0.1
+    costSell: 800
+    weight: 7
+    bigSprite: 398
+    floorSprite: 398
+    handSprite: 398
+    bulletSprite: 1
+    fireSound: 214
+    reloadSound: 215
+    compatibleAmmo:
+      - STR_HEART_ATTACK_GUN_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange:  18
+    accuracyAimed: 110
+    tuAimed: 60
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 12
+    accuracySnap: 75
+    tuSnap: 30
+    accuracyCloseQuarters: 100
+    tuLoad: 15
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 115
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    listOrder: 215
+  - type: STR_HEART_ATTACK_GUN_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_PROPRIETARY, STR_SEMI_CONCEALED]
+    size: 0.1
+    costSell: 400
+    weight: 2
+    bigSprite: 406
+    floorSprite: 406
+    handSprite: 406
+    hitSound: 22
+    hitAnimation: 26
+    power: 10
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: false
+      ToWound: 10.0
+      RandomWound: false
+    damageType: 8
+    clipSize: 7
+    battleType: 2
+    armor: 5
+    listOrder: 216
+
+# M3 Greasegun
+  - type: STR_M3_GREASEGUN
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS]
+    size: 0.2
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    costBuy: 2000
+    costSell: 1800
+    weight: 8
+    bigSprite: 414
+    floorSprite: 414
+    handSprite: 414
+    bulletSprite: 1
+    fireSound: 217
+    reloadSound: 218
+    compatibleAmmo:
+      - STR_M3_GREASEGUN_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 20
+    accuracyAimed: 110
+    tuAimed: 45
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 16
+    accuracySnap: 70
+    tuSnap: 30
+    confAuto:
+      shots: 8
+      name: STR_SPRAY_N_PRAY
+      ammoSlot: 0
+      arcing: false
+    autoRange: 8
+    accuracyAuto: 55
+    tuAuto: 40
+    accuracyCloseQuarters: 100
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 125
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    twoHanded: true
+    listOrder: 217
+  - type: STR_M3_GREASEGUN_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES]
+    size: 0.1
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    costBuy: 500
+    costSell: 400
+    weight: 3
+    bigSprite: 430
+    floorSprite: 430
+    handSprite: 430
+    hitSound: 22
+    hitAnimation: 26
+    power: 40
+    damageAlter:
+      ArmorEffectiveness: 1.25
+    damageType: 1
+    clipSize: 30
+    battleType: 2
+    armor: 10
+    listOrder: 218
+
+# M60 "Hog"
+  - type: STR_M60_HOG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS]
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.2
+    costBuy: 6000
+    costSell: 5200
+    weight: 18
+    bigSprite: 438
+    floorSprite: 438
+    handSprite: 438
+    bulletSprite: 4
+    fireSound: 218
+    reloadSound: 219
+    compatibleAmmo:
+      - STR_M60_HOG_MAG
+    confSnap:
+      shots: 5
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    snapRange: 20
+    accuracySnap: 70
+    tuSnap: 40
+    confAuto:
+      shots: 10
+      name: STR_SUPPRESSION
+      ammoSlot: 0
+      arcing: false
+    autoRange: 14
+    accuracyAuto: 45
+    tuAuto: 55
+    accuracyCloseQuarters: 90
+    tuLoad: 30
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 150
+    costThrow:
+      energy: 20
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    twoHanded: true
+    blockBothHands: true
+    listOrder: 219
+  - type: STR_M60_HOG_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_MAGAZINES]
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.2
+    costBuy: 800
+    costSell: 650
+    weight: 6
+    bigSprite: 454
+    floorSprite: 454
+    handSprite: 454
+    hitSound: 13
+    hitAnimation: 26
+    power: 60
+    damageAlter:
+      ToWound: 0.5
+      ToHealth: 0.8
+    damageType: 1
+    clipSize: 100
+    battleType: 2
+    invHeight: 2
+    invWidth: 2
+    armor: 20
+    listOrder: 220
+
+# M79 Thumper
+  - type: STR_M79_THUMPER
+    categories: [STR_WEAPONS, STR_FIREARMS, ARTILLERY]
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.2
+    costBuy: 4000
+    costSell: 3500
+    weight: 11
+    bigSprite: 464
+    floorSprite: 464
+    handSprite: 464
+    fireSound: 220
+    reloadSound: 221
+    compatibleAmmo:
+      - STR_M79_THUMPER_GRENADE
+    confAimed:
+      shots: 1
+      name: STR_BOMBS_AWAY
+      ammoSlot: 0
+      arcing: true
+    aimedRange: 30
+    accuracyAimed: 90
+    tuAimed: 55
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    listOrder: 221
+  - type: STR_M79_THUMPER_GRENADE
+    categories: [STR_WEAPONS, STR_FIREARMS, ARTILLERY, STR_CLIPS]
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.1
+    costBuy: 500
+    costSell: 450
+    weight: 1
+    bigSprite: 480
+    floorSprite: 480
+    handSprite: 480
+    hitSound: 0
+    hitAnimation: 0
+    power: 30
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.2
+      ToWound: 1.5
+      ToHealth: 1.5
+      RandomWound: true
+    damageType: 1
+    clipSize: 1
+    battleType: 2
+    armor: 20
+    blastRadius: 5
+    bulletSprite: 14
+    listOrder: 222
+
+# Ithaca 37
+  - type: STR_ITHACA_37
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS]
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.2
+    costBuy: 1500
+    costSell: 1100
+    weight: 11
+    bigSprite: 488
+    floorSprite: 488
+    handSprite: 488
+    bulletSprite: 3
+    fireSound: 222
+    reloadSound: 223
+    compatibleAmmo:
+      - STR_ITHACA_37_SHELLS
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 9
+    accuracyAimed: 110
+    tuAimed: 55
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 6
+    accuracySnap: 90
+    tuSnap: 25
+    confAuto:
+      shots: 3
+      name: STR_RAGE_FIRE
+      ammoSlot: 0
+      arcing: false
+    autoRange: 4
+    accuracyAuto: 50
+    tuAuto: 45
+    accuracyCloseQuarters: 90
+    dropoff: 8
+    shotgunChoke: 70
+    tuLoad: 30
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 1
+    invHeight: 3
+    armor: 40
+    listOrder: 223
+  - type: STR_ITHACA_37_SHELLS
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.1
+    costBuy: 400
+    costSell: 350
+    weight: 1
+    bigSprite: 502
+    floorSprite: 502
+    handSprite: 502
+    hitSound: 22
+    hitAnimation: 26
+    power: 20
+    shotgunBehavior: 1
+    shotgunPellets: 4
+    shotgunSpread: 50
+    damageAlter:
+      ArmorEffectiveness: 0.9
+      ToHealth: 1.25
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+    armor: 10
+    listOrder: 224
+
+# Springfield M14
+
+  - type: STR_SPRINGFIELD_M14
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES]
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.2
+    costBuy: 1100
+    costSell: 900
+    weight: 13
+    bigSprite: 510
+    floorSprite: 510
+    handSprite: 510
+    bulletSprite: 4
+    fireSound: 224
+    reloadSound: 225
+    compatibleAmmo:
+      - STR_SPRINGFIELD_M14_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 30
+    accuracyAimed: 110
+    tuAimed: 75
+    confSnap:
+      shots: 3
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    snapRange: 18
+    accuracySnap: 80
+    tuSnap: 40
+    confAuto:
+      shots: 5
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    autoRange: 11
+    accuracyAuto: 60
+    tuAuto: 45
+    accuracyCloseQuarters: 90
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 125
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    listOrder: 225
+  - type: STR_SPRINGFIELD_M14_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_MAGAZINES]
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.1
+    costBuy: 500
+    costSell: 420
+    weight: 3
+    bigSprite: 526
+    floorSprite: 526
+    handSprite: 526
+    hitSound: 13
+    hitAnimation: 26
+    power: 60
+    damageAlter:
+      ToWound: 0.6
+      ToHealth: 0.8
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    armor: 20
+    listOrder: 226
+
+# Springfield M1903A3
+  - type: STR_SPRINGFIELD_M1903A3
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES]
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.2
+    costBuy: 2000
+    costSell: 1400
+    weight: 15
+    bigSprite: 534
+    floorSprite: 534
+    handSprite: 534
+    bulletSprite: 4
+    fireSound: 226
+    reloadSound: 227
+    compatibleAmmo:
+      - STR_SPRINGFIELD_M1903A3_CLIP
+    confAimed:
+      shots: 1
+      name: STR_DEADEYE
+      ammoSlot: 0
+      arcing: false
+    aimRange: 60
+    accuracyAimed: 200
+    tuAimed: 75
+    confSnap:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    snapRange: 30
+    accuracySnap: 110
+    tuSnap: 40
+    accuracyCloseQuarters: 10
+    tuLoad: 30
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 150
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    blockBothHands: true
+    listOrder: 227
+  - type: STR_SPRINGFIELD_M1903A3_CLIP
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_CLIPS]
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    size: 0.1
+    costBuy: 500
+    costSell: 420
+    weight: 2
+    bigSprite: 550
+    floorSprite: 550
+    handSprite: 550
+    hitSound: 13
+    hitAnimation: 26
+    power: 80
+    damageAlter:
+      ToWound: 0.4
+      ToHealth: 0.7
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+    armor: 20
+    listOrder: 228
+
+# Colt AR-15
+  - type: STR_COLT_AR15
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_PROPRIETARY]
+    requiresBuy:
+      - STR_LIGHT_ASSAULT_RIFLE_REQUISITION
+    size: 0.2
+    costBuy: 4000
+    costSell: 3500
+    weight: 11
+    bigSprite: 558
+    floorSprite: 558
+    handSprite: 558
+    bulletSprite: 1
+    fireSound: 228
+    reloadSound: 229
+    compatibleAmmo:
+      - STR_COLT_AR15_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 30
+    accuracyAimed: 130
+    tuAimed: 65
+    confSnap:
+      shots: 4
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    snapRange: 18
+    accuracySnap: 90
+    tuSnap: 35
+    confAuto:
+      shots: 7
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    autoRange: 11
+    accuracyAuto: 70
+    tuAuto: 40
+    accuracyCloseQuarters: 90
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 125
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    listOrder: 229
+  - type: STR_COLT_AR15_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_PROPRIETARY, STR_MAGAZINES]
+    requiresBuy:
+      - STR_LIGHT_ASSAULT_RIFLE_REQUISITION
+    size: 0.1
+    costBuy: 500
+    costSell: 420
+    weight: 2
+    bigSprite: 574
+    floorSprite: 574
+    handSprite: 574
+    hitSound: 22
+    hitAnimation: 26
+    power: 50
+    damageAlter:
+      ToWound: 0.5
+      ToHealth: 0.9
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    armor: 20
+    listOrder: 230
+
+ufopaedia:
+  - id: STR_BROWNING_HP35
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_BROWNING_HP35_UFOPEDIA
+    listOrder: 200
+  - id: STR_BROWNING_HP35_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_COLT_M1911
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_COLT_M1911_UFOPEDIA
+    listOrder: 201
+  - id: STR_COLT_M1911_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LUPARA_M1897
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_LUPARA_M1897_UFOPEDIA
+    listOrder: 203
+  - id: STR_LUPARA_M1897_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_UNITED_DEFENSE_M42
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_UNITED_DEFENSE_M42_UFOPEDIA
+    listOrder: 204
+  - id: STR_UNITED_DEFENSE_M42_20_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_UNITED_DEFENSE_M42_50_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_M2
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SPRINGFIELD_M2_UFOPEDIA
+    listOrder: 205
+  - id: STR_SPRINGFIELD_M2_15_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_M2_30_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+    text: STR_HIGH_STANDARD_HDM_UFOPEDIA
+    requires:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    listOrder: 206
+  - id: STR_HIGH_STANDARD_HDM_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BERETTA_M12
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_BERETTA_M12_UFOPEDIA
+    requires:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    listOrder: 207
+  - id: STR_HEART_ATTACK_GUN
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_HEART_ATTACK_GUN_UFOPEDIA
+    requires:
+      - STR_HEART_ATTACK_GUN
+    listOrder: 208
+  - id: STR_HEART_ATTACK_GUN_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M3_GREASEGUN
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_M3_GREASEGUN_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 209
+  - id: STR_M3_GREASEGUN_MAG
+    type_id: 4
+  - id: STR_M3_GREASEGUN
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_M3_GREASEGUN_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 210
+  - id: STR_M3_GREASEGUN_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M60_HOG
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_M60_HOG_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 211
+  - id: STR_M60_HOG_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M79_THUMPER
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_M79_THUMPER_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 212
+  - id: STR_M79_THUMPER_GRENADE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ITHACA_37
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_ITHACA_37_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 213
+  - id: STR_ITHACA_37_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_M14
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SPRINGFIELD_M14_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 214
+  - id: STR_SPRINGFIELD_M14_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_M1903A3
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SPRINGFIELD_M1903A3_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 215
+  - id: STR_SPRINGFIELD_M1903A3_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_COLT_AR15
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_COLT_AR15_UFOPEDIA
+    requires:
+      - STR_LIGHT_ASSAULT_RIFLE_REQUISITION
+    listOrder: 216
+  - id: STR_COLT_AR15_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+manufacture:
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_PSI_AMP
+  - delete: STR_MEDI_KIT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_MIND_PROBE
+  - delete: STR_ALIEN_GRENADE
+
+  - name: STR_HEART_ATTACK_GUN
+    category: STR_WEAPONS
+    space: 4
+    time: 50
+    cost: 300
+    requires:
+      - STR_HEART_ATTACK_GUN
+    requiredItems:
+      STR_HEART_ATTACK_GUN: 1
+    producedItems:
+      STR_COLT_M1911: 1
+
+  - name: STR_HEART_ATTACK_GUN_MAG
+    category: STR_WEAPONS
+    space: 4
+    time: 15
+    cost: 100
+    requires:
+      - STR_HEART_ATTACK_GUN
+    requiredItems:
+      STR_HEART_ATTACK_GUN_MAG: 1
+    producedItems:
+      STR_COLT_M1911_MAG: 1
+
+research:
+  - name: STR_SUPPRESSED_WEAPONS_AQUISITION
+    cost: 100
+    points: 50
+
+  - name: STR_HEART_ATTACK_GUN
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+
+  - name: STR_MILITARY_EQUIPMENT_AQUISITION
+    cost: 300
+    points: 100
+
+  - name: STR_LIGHT_ASSAULT_RIFLE_REQUISITION
+    cost: 100
+    points: 25
+    dependencies:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+
+  - name: STR_SOVIET_WEAPON_AQUISITION
+    cost: 400
+    points: 50
+    unlocks:
+      - STR_STECHKIN_APS
+      - STR_SKORPION_VZ61
+      - STR_AK_47
+
+  - name: STR_ALIEN_LASER_PISTOL
+    cost: 300
+    points: 50
+    needItem: true
+
+  - name: STR_STECHKIN_APS
+    cost: 100
+    points: 25
+    needItem: true
+
+  - name: STR_SKORPION_VZ61
+    cost: 100
+    points: 25
+    needItem: true
+
+  - name: STR_AK_47
+    cost: 100
+    points: 25
+    needItem: true
+
+  - name: STR_ALIEN_LASER_RIFLE
+    cost: 300
+    points: 50
+    needItem: true
+
+  - name: STR_ALIEN_HEAVY_LASER
+    cost: 300
+    points: 50
+    needItem: true
+
+  - name: STR_ALIEN_SIEGE_LAUNCHER
+    cost: 300
+    points: 50
+    needItem: true
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      200: Resources/Weapons/Browning HP35/Unloaded_Big.png
+      208: Resources/Weapons/Browning HP35/Loaded_15_Big.png
+      216: Resources/Weapons/Browning HP35/Mag_15_Big.png
+      224: Resources/Weapons/Colt M1911/Unloaded_Big.png
+      232: Resources/Weapons/Colt M1911/Loaded_7_Big.png
+      240: Resources/Weapons/Colt M1911/Mag_7_Big.png
+      248: Resources/Weapons/Lupara/Unloaded_Big.png
+      256: Resources/Weapons/Lupara/Loaded_2_Big.png
+      264: Resources/Weapons/Lupara/Mag_2_Big.png
+      272: Resources/Weapons/United Defense M42/Unloaded_Big.png
+      280: Resources/Weapons/United Defense M42/Loaded_20_Big.png
+      288: Resources/Weapons/United Defense M42/Loaded_50_Big.png
+      296: Resources/Weapons/United Defense M42/Mag_20_Big.png
+      302: Resources/Weapons/United Defense M42/Mag_50_Big.png
+      310: Resources/Weapons/M2 Carbine/Unloaded_Big.png
+      318: Resources/Weapons/M2 Carbine/Loaded_15_Big.png
+      326: Resources/Weapons/M2 Carbine/Loaded_30_Big.png
+      334: Resources/Weapons/M2 Carbine/Mag_15_Big.png
+      342: Resources/Weapons/M2 Carbine/Mag_30_Big.png
+      350: Resources/Weapons/High Standard HDM/Unloaded_Big.png
+      358: Resources/Weapons/High Standard HDM/Loaded_10_Big.png
+      366: Resources/Weapons/High Standard HDM/Mag_10_Big.png
+      374: Resources/Weapons/Beretta M12/Unloaded_Big.png
+      382: Resources/Weapons/Beretta M12/Loaded_20_Big.png
+      398: Resources/Weapons/Heart Attack Gun/Loaded_7_Big.png
+      406: Resources/Weapons/Heart Attack Gun/Mag_7_Big.png
+      414: Resources/Weapons/M3 Greasegun/Unloaded_Big.png
+      422: Resources/Weapons/M3 Greasegun/Loaded_30_Big.png
+      430: Resources/Weapons/M3 Greasegun/Mag_30_Big.png
+      438: Resources/Weapons/M60 Hog/Unloaded_Big.png
+      446: Resources/Weapons/M60 Hog/Loaded_100_Big.png
+      454: Resources/Weapons/M60 Hog/Mag_100_Big.png
+      464: Resources/Weapons/M79 Thumper/Unloaded_Big.png
+      472: Resources/Weapons/M79 Thumper/Loaded_1_Big.png
+      480: Resources/Weapons/M79 Thumper/Grenade_1_Big.png
+      488: Resources/Weapons/Ithaca 37/Unloaded_Big.png
+      496: Resources/Weapons/Ithaca 37/Loaded_6_Big.png
+      502: Resources/Weapons/Ithaca 37/Mag_6_Big.png
+      510: Resources/Weapons/Springfield M14/Unloaded_Big.png
+      518: Resources/Weapons/Springfield M14/Loaded_20_Big.png
+      526: Resources/Weapons/Springfield M14/Mag_20_Big.png
+      534: Resources/Weapons/Springfield M1903A3/Unloaded_Big.png
+      542: Resources/Weapons/Springfield M1903A3/Loaded_5_Big.png
+      550: Resources/Weapons/Springfield M1903A3/Mag_5_Big.png
+      558: Resources/Weapons/Colt AR-15/Unloaded_Big.png
+      566: Resources/Weapons/Colt AR-15/Loaded_20_Big.png
+      574: Resources/Weapons/Colt AR-15/Mag_20_Big.png
+  - type: FLOOROB.PCK
+    files:
+      200: Resources/Weapons/Browning HP35/Unloaded_Floor.png
+      208: Resources/Weapons/Browning HP35/Loaded_15_Floor.png
+      216: Resources/Weapons/Browning HP35/Mag_15_Floor.png
+      224: Resources/Weapons/Colt M1911/Unloaded_Floor.png
+      232: Resources/Weapons/Colt M1911/Loaded_7_Floor.png
+      240: Resources/Weapons/Colt M1911/Mag_7_Floor.png
+      248: Resources/Weapons/Lupara/Unloaded_Floor.png
+      256: Resources/Weapons/Lupara/Loaded_2_Floor.png
+      264: Resources/Weapons/Lupara/Mag_2_Floor.png
+      272: Resources/Weapons/United Defense M42/Unloaded_Floor.png
+      280: Resources/Weapons/United Defense M42/Loaded_50_Floor.png
+      288: Resources/Weapons/United Defense M42/Mag_50_Floor.png
+      296: Resources/Weapons/United Defense M42/Mag_20_Floor.png
+      302: Resources/Weapons/United Defense M42/Mag_50_Floor.png
+      310: Resources/Weapons/M2 Carbine/Unloaded_Floor.png
+      318: Resources/Weapons/M2 Carbine/Loaded_15_Floor.png
+      326: Resources/Weapons/M2 Carbine/Loaded_30_Floor.png
+      334: Resources/Weapons/M2 Carbine/Mag_15_Floor.png
+      342: Resources/Weapons/M2 Carbine/Mag_30_Floor.png
+      350: Resources/Weapons/High Standard HDM/Unloaded_Floor.png
+      358: Resources/Weapons/High Standard HDM/Loaded_10_Floor.png
+      366: Resources/Weapons/High Standard HDM/Mag_10_Floor.png
+      374: Resources/Weapons/Beretta M12/Unloaded_Floor.png
+      382: Resources/Weapons/Beretta M12/Loaded_20_Floor.png
+      398: Resources/Weapons/Heart Attack Gun/Loaded_7_Floor.png
+      406: Resources/Weapons/Heart Attack Gun/Mag_7_Floor.png
+      414: Resources/Weapons/M3 Greasegun/Unloaded_Floor.png
+      422: Resources/Weapons/M3 Greasegun/Loaded_30_Floor.png
+      430: Resources/Weapons/M3 Greasegun/Mag_30_Floor.png
+      438: Resources/Weapons/M60 Hog/Unloaded_Floor.png
+      446: Resources/Weapons/M60 Hog/Loaded_100_Floor.png
+      454: Resources/Weapons/M60 Hog/Mag_100_Floor.png
+      464: Resources/Weapons/M79 Thumper/Unloaded_Floor.png
+      472: Resources/Weapons/M79 Thumper/Loaded_1_Floor.png
+      480: Resources/Weapons/M79 Thumper/Grenade_1_Floor.png
+      488: Resources/Weapons/Ithaca 37/Unloaded_Floor.png
+      496: Resources/Weapons/Ithaca 37/Loaded_6_Floor.png
+      502: Resources/Weapons/Ithaca 37/Mag_6_Floor.png
+      510: Resources/Weapons/Springfield M14/Unloaded_Floor.png
+      518: Resources/Weapons/Springfield M14/Loaded_20_Floor.png
+      526: Resources/Weapons/Springfield M14/Mag_20_Floor.png
+      534: Resources/Weapons/Springfield M1903A3/Unloaded_Floor.png
+      542: Resources/Weapons/Springfield M1903A3/Loaded_5_Floor.png
+      550: Resources/Weapons/Springfield M1903A3/Mag_5_Floor.png
+      558: Resources/Weapons/Colt AR-15/Unloaded_Floor.png
+      566: Resources/Weapons/Colt AR-15/Loaded_20_Floor.png
+      574: Resources/Weapons/Colt AR-15/Mag_20_Floor.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      200: Resources/Weapons/Browning HP35/Unloaded_Hand.png
+      208: Resources/Weapons/Browning HP35/Loaded_15_Hand.png
+      216: Resources/Weapons/Browning HP35/Mag_15_Hand.png
+      224: Resources/Weapons/Colt M1911/Unloaded_Hand.png
+      232: Resources/Weapons/Colt M1911/Loaded_7_Hand.png
+      240: Resources/Weapons/Colt M1911/Mag_7_Hand.png
+      248: Resources/Weapons/Lupara/Unloaded_Hand.png
+      256: Resources/Weapons/Lupara/Loaded_2_Hand.png
+      264: Resources/Weapons/Lupara/Mag_2_Hand.png
+      272: Resources/Weapons/United Defense M42/Unloaded_Hand.png
+      280: Resources/Weapons/United Defense M42/Loaded_20_Hand.png
+      288: Resources/Weapons/United Defense M42/Loaded_50_Hand.png
+      296: Resources/Weapons/United Defense M42/Mag_20_Hand.png
+      302: Resources/Weapons/United Defense M42/Mag_50_Hand.png
+      310: Resources/Weapons/M2 Carbine/Unloaded_Hand.png
+      318: Resources/Weapons/M2 Carbine/Loaded_15_Hand.png
+      326: Resources/Weapons/M2 Carbine/Loaded_30_Hand.png
+      334: Resources/Weapons/M2 Carbine/Mag_15_Hand.png
+      342: Resources/Weapons/M2 Carbine/Mag_30_Hand.png
+      350: Resources/Weapons/High Standard HDM/Unloaded_Hand.png
+      358: Resources/Weapons/High Standard HDM/Loaded_10_Hand.png
+      366: Resources/Weapons/High Standard HDM/Mag_10_Hand.png
+      374: Resources/Weapons/Beretta M12/Unloaded_Hand.png
+      382: Resources/Weapons/Beretta M12/Loaded_20_Hand.png
+      398: Resources/Weapons/Heart Attack Gun/Loaded_7_Hand.png
+      406: Resources/Weapons/Heart Attack Gun/Mag_7_Hand.png
+      414: Resources/Weapons/M3 Greasegun/Unloaded_Hand.png
+      422: Resources/Weapons/M3 Greasegun/Loaded_30_Hand.png
+      430: Resources/Weapons/M3 Greasegun/Mag_30_Hand.png
+      438: Resources/Weapons/M60 Hog/Unloaded_Hand.png
+      446: Resources/Weapons/M60 Hog/Loaded_100_Hand.png
+      454: Resources/Weapons/M60 Hog/Mag_100_Hand.png
+      464: Resources/Weapons/M79 Thumper/Unloaded_Hand.png
+      472: Resources/Weapons/M79 Thumper/Loaded_1_Hand.png
+      480: Resources/Weapons/M79 Thumper/Grenade_1_Hand.png
+      488: Resources/Weapons/Ithaca 37/Unloaded_Hand.png
+      496: Resources/Weapons/Ithaca 37/Loaded_6_Hand.png
+      502: Resources/Weapons/Ithaca 37/Mag_6_Hand.png
+      510: Resources/Weapons/Springfield M14/Unloaded_Hand.png
+      518: Resources/Weapons/Springfield M14/Loaded_20_Hand.png
+      526: Resources/Weapons/Springfield M14/Mag_20_Hand.png
+      534: Resources/Weapons/Springfield M1903A3/Unloaded_Hand.png
+      542: Resources/Weapons/Springfield M1903A3/Loaded_5_Hand.png
+      550: Resources/Weapons/Springfield M1903A3/Mag_5_Hand.png
+      558: Resources/Weapons/Colt AR-15/Unloaded_Hand.png
+      566: Resources/Weapons/Colt AR-15/Loaded_20_Hand.png
+      574: Resources/Weapons/Colt AR-15/Mag_20_Hand.png
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      200: Resources/Weapons/Browning HP35/fire.wav
+      201: Resources/Weapons/Browning HP35/reload.wav
+      202: Resources/Weapons/Colt M1911/fire.wav
+      203: Resources/Weapons/Colt M1911/reload.wav
+      204: Resources/Weapons/Lupara/fire.wav
+      205: Resources/Weapons/Lupara/reload.wav
+      206: Resources/Weapons/United Defense M42/fire.wav
+      207: Resources/Weapons/United Defense M42/reload.wav
+      208: Resources/Weapons/M2 Carbine/fire.wav
+      209: Resources/Weapons/M2 Carbine/reload.wav
+      210: Resources/Weapons/High Standard HDM/fire.wav
+      211: Resources/Weapons/High Standard HDM/reload.wav
+      212: Resources/Weapons/Beretta M12/fire.wav
+      213: Resources/Weapons/Beretta M12/reload.wav
+      214: Resources/Weapons/Heart Attack Gun/fire.wav
+      215: Resources/Weapons/Heart Attack Gun/reload.wav
+      216: Resources/Weapons/M3 Greasegun/fire.wav
+      217: Resources/Weapons/M3 Greasegun/reload.wav
+      218: Resources/Weapons/M60 Hog/fire.wav
+      219: Resources/Weapons/M60 Hog/reload.wav
+      220: Resources/Weapons/M79 Thumper/fire.wav
+      221: Resources/Weapons/M79 Thumper/reload.wav
+      222: Resources/Weapons/Ithaca 37/fire.wav
+      223: Resources/Weapons/Ithaca 37/reload.wav
+      224: Resources/Weapons/Springfield M14/fire.wav
+      225: Resources/Weapons/Springfield M14/reload.wav
+      226: Resources/Weapons/Springfield M1903A3/fire.wav
+      227: Resources/Weapons/Springfield M1903A3/reload.wav
+      228: Resources/Weapons/Colt AR-15/fire.wav
+      229: Resources/Weapons/Colt AR-15/reload.wav
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_WEAPONS: "ARMS AND AMMUNITION"
+      STR_FIREARMS: "FIREARMS"
+      STR_HANDGUNS: "HANDGUNS"
+      STR_SMGS: "SMGS"
+      STR_SHOTGUNS: "SHOTGUNS"
+      STR_CARBINES: "CARBINES"
+      STR_RIFLES: "RIFLES"
+      STR_SNIPER_RIFLES: "SNIPER RIFLES"
+      STR_LMGS: "LMGS"
+      STR_ARTILLERY: "ARTILLERY"
+      STR_MAGAZINES: "MAGAZINES"
+      STR_CLIPS: "CLIPS"
+      STR_SEMI_CONCEALED: "SEMI-CONCEALED"
+      STR_CONCEALED: "FULLY CONCEALED"
+      STR_MELEE: "MELEE"
+      STR_MEDICAL: "MEDICAL"
+      STR_GRENADES: "GRENADES"
+      STR_PROPRIETARY: "PROPRIETARY"
+      STR_SOVIET_TECHNOLOGY: "SOVIET TECHNOLOGY"
+      STR_ALIEN_ARTIFACT: "ALIEN ARTEFACT"
+
+      STR_DAMAGE_ARMOR_PIERCING: "PIERCING"
+      STR_DAMAGE_MELEE: "CUTTING"
+      STR_DAMAGE_ACID: "TOXIN"
+      STR_DAMAGE_PLASMA_BEAM: "FLASH"
+
+      STR_HIP_FIRE: "Hip Fire"
+      STR_STEADY_SHOT: "Steady Shot"
+      STR_DOUBLE_TAP: "Double Tap"
+      STR_SPRAY_N_PRAY: "Spray n' Pray"
+      STR_CONTROLLED_BURST: "Burst Fire"
+      STR_CONTROLLED_AUTO: "Auto Fire"
+      STR_SUPPRESSION: "Suppression"
+      STR_BOMBS_AWAY: "Bombs Away!"
+      STR_RAGE_FIRE: "Slam Fire"
+      STR_DEADEYE: "Deadeye"
+
+      STR_BROWNING_HP35: "Browning HP-35"
+      STR_BROWNING_HP35_MAG: "9x19mm Magazine (15x)"
+      STR_BROWNING_HP35_UFOPEDIA: "The Browning HP-35 is a reliable semi-automatic handgun chambered in {ALT}9x19mm Parabellum{ALT} used by many militaries and law enforcement agencies around the world. {NEWLINE}> Semi-Concealable"
+
+      STR_COLT_M1911: "Colt M1911"
+      STR_COLT_M1911_MAG: ".45 ACP Magazine (7x)"
+      STR_COLT_M1911_UFOPEDIA: "A mainstay of US army personnel, the Colt M1911, chambered in {ALT}.45 ACP{ALT} has seen action across almost every combat theatre. It is also popular among the civilian population and has seen wide distribution. {NEWLINE}> Semi-Concealable"
+
+      STR_LUPARA_M1897: "Lupara M1897"
+      STR_LUPARA_M1897_SHELLS: "12 Gauge Shells (2x)"
+      STR_LUPARA_M1897_UFOPEDIA: "This modified Winchester M1897 had its barrel sawn-off in exchange for easy transport and concealablility. Chambered in {ALT}12 Gauge Shells{ALT}, while small, still packs a considerable punch. {NEWLINE}> Semi-Concealable"
+
+      STR_UNITED_DEFENSE_M42: "United Defense M42"
+      STR_UNITED_DEFENSE_M42_20_MAG: "9x19mm Magazine (20x)"
+      STR_UNITED_DEFENSE_M42_50_MAG: "9x19mm Magazine (50x)"
+      STR_UNITED_DEFENSE_M42_UFOPEDIA: "Known coloquially as the Marlin, the United Defense M42 was designed as a replacement for the Thompson sub-machine gun, now chambered in {ALT}9x19mm Parabellum{ALT}. While it was to expensive to put into large-scale production, OSS agents rated its high preformace and reliability. {NEWLINE}> Semi-Concealable"
+
+      STR_SPRINGFIELD_M2: "Springfield M2"
+      STR_SPRINGFIELD_M2_15_MAG: ".30 Carbine Magazine (15x)"
+      STR_SPRINGFIELD_M2_30_MAG: ".30 Carbine Magazine (30x)"
+      STR_SPRINGFIELD_M2_UFOPEDIA: "The Springfield M2 is a personal defense weapon chambered in {ALT}.30 Carbine{ALT} meant for artillery crews, supply personnel and rear guard troops. It's valuable for its ease to use and low recoil, although it lacks stopping power."
+
+      STR_HIGH_STANDARD_HDM: "High Standard HDM"
+      STR_HIGH_STANDARD_HDM_MAG: ".22 LR Magazine (10x)"
+      STR_HIGH_STANDARD_HDM_UFOPEDIA: "While the High Standard HDM, chambered in {ALT}.22 LR{ALT}, is by all means outdated; it is still in use by our U-2 pilots and its integrated silencer could prove useful for covert operations. {NEWLINE}> Concealable"
+
+      STR_BERETTA_M12: "Beretta M12"
+      STR_BERETTA_M12_UFOPEDIA: "Variant of a light SMG designed by the Italian firm Beretta, used mostly by security staff of various diplomatic services (and by the CIA). This is equipped with a heavy suppressor that negates most of the noise and flash. Calibrated in {ALT}9x19 Parabellum{ALT} rounds, it has a manageable recoil on full auto. {NEWLINE}> Concealable"
+
+      STR_HEART_ATTACK_GUN: "Heart Attack Gun"
+      STR_HEART_ATTACK_GUN_MAG: ".45 ACP Toxin Magazine (7x)"
+      STR_HEART_ATTACK_GUN_UFOPEDIA: "This M1911 has been modified to fire ricin toxin darts. It has an almost 100% lethality rate and is untracable, making it the perfect assassination weapon. Although we are primarily a reconnissance and intelligence gathering group, it may help us in combat scenarios. The darts have trouble piercing thick clothing and take a time to circulate throughout the body, giving the enemy a chance to react. We also don't know its effectiveness against alien biochemistry either. {NEWLINE}> Semi-Concealable"
+
+      STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Requisition"
+
+      STR_M3_GREASEGUN: "M3 Greasegun"
+      STR_M3_GREASEGUN_MAG: ".45 ACP Magazine (30x)"
+      STR_M3_GREASEGUN_UFOPEDIA: "This infamoous machine gun is known for its ability to be manufactured cheapily and easily since the beginning of this service in the Second World War. It fires {ALT}.45 ACP{ALT} rounds out of 30 rd. magazines."
+
+      STR_M60_HOG: "M60 Hog"
+      STR_M60_HOG_MAG: "7.62x51mm NATO Magazine (100x)"
+      STR_M60_HOG_UFOPEDIA: "A powerful light machine gun of recent design that uses {ALT}7.62x51mm NATO{ALT} which has such a high rate of fire that it risks melting the barrel. {NEWLINE}> Definitely Not Concealable"
+
+      STR_M79_THUMPER: "M79 Thumper"
+      STR_M79_THUMPER_GRENADE: "40mm AP Grenade"
+      STR_M79_THUMPER_UFOPEDIA: "A break-action shotgun grenade launcher about the size of a rifle, making it easy to operate. Chambered in {ALT}40mm Grenades{ALT}, we were only allowed to purchase Anti-Personnel grenades as the collateral damage of high explosives or incendiary rounds would compromise the secrecy of our operations."
+
+      STR_ITHACA_37: "Ithaca 37"
+      STR_ITHACA_37_SHELLS: "12 Gauge Shells (6x)"
+      STR_ITHACA_37_UFOPEDIA: "The Ithaca 37 is a {ALT}12 Gauge{ALT} pump-action shotgun renowned for its reliablility under harsh condictions, as well as for its 'slam-fire' capability. It has found a place in the military and many police forces."
+
+      STR_SPRINGFIELD_M14: "Springfield M14"
+      STR_SPRINGFIELD_M14_MAG: "7.62x51mm NATO Magazine (20x)"
+      STR_SPRINGFIELD_M14_UFOPEDIA: "The standard issue battle rifle of the United States armed forces. Calibrated in the powerful {ALT}7.62x51mm NATO{ALT} in 20 round magazines, while it is fully capable of sustained automatic fire it is reccomended to use this in semi-auto for greater accuracy."
+
+      STR_SPRINGFIELD_M1903A3: "Springfield M1903A3"
+      STR_SPRINGFIELD_M1903A3_CLIP: "30-06 Springfield (6x)"
+      STR_SPRINGFIELD_M1903A3_UFOPEDIA: "A {ALT}.30-06 caliber{ALT} bolt-action rifle used since the First World War which has stuck around for a reason. This most recent version has been upgraded for the modern era."
+
+      STR_COLT_AR15: "Colt AR-15"
+      STR_COLT_AR15_MAG: "5.56x45mm NATO Magazine (20x)"
+      STR_COLT_AR15_UFOPEDIA: "This lightweight, selective fire assault rifle is a model originally made by ArmaLite and now produced by Colt. Uses the new {ALT}5.56x45mm NATO{ALT} intermediate caliber, which is easy to control and quite accurate. A very liked weapon, it is expected to be the future rifle of the US Army in the next decades."
