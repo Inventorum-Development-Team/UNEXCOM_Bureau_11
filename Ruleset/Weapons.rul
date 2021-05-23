@@ -47,6 +47,8 @@ itemCategories:
     listOrder: 23
   - type: STR_ALIEN_ARTIFACT
     listOrder: 24
+  - type: STR_VEHICLES
+    listOrder: 24
 
 items:
   - delete: STR_TANK_CANNON
@@ -148,6 +150,7 @@ items:
     handSprite: 216
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 15
     power: 28
     damageType: 1
     clipSize: 15
@@ -217,6 +220,7 @@ items:
     handSprite: 240
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 10
     power: 40
     damageAlter:
       ArmorEffectiveness: 1.25
@@ -262,8 +266,8 @@ items:
     shotgunChoke: 50
     tuLoad: 20
     battleType: 1
-    twoHanded: true
-    blockBothHands: true
+    twoHanded: false
+    blockBothHands: false
     invWidth: 1
     invHeight: 2
     armor: 30
@@ -355,6 +359,7 @@ items:
     handSprite: 296
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 15
     power: 28
     damageType: 1
     clipSize: 20
@@ -372,6 +377,7 @@ items:
     handSprite: 302
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 10
     power: 28
     damageType: 1
     clipSize: 50
@@ -442,6 +448,7 @@ items:
     handSprite: 334
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 12
     power: 42
     damageAlter:
       ToWound: 0.6
@@ -462,6 +469,7 @@ items:
     handSprite: 342
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 12
     power: 42
     damageAlter:
       ToWound: 0.6
@@ -538,6 +546,7 @@ items:
     handSprite: 366
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 14
     power: 18
     damageAlter:
       ToHealth: 1.34
@@ -655,6 +664,7 @@ items:
     handSprite: 406
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 10
     power: 10
     damageAlter:
       RandomType: 2
@@ -734,6 +744,7 @@ items:
     handSprite: 430
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 10
     power: 40
     damageAlter:
       ArmorEffectiveness: 1.25
@@ -802,6 +813,7 @@ items:
     handSprite: 454
     hitSound: 13
     hitAnimation: 26
+    bulletSpeed: 14
     power: 60
     damageAlter:
       ToWound: 0.5
@@ -816,7 +828,7 @@ items:
 
 # M79 Thumper
   - type: STR_M79_THUMPER
-    categories: [STR_WEAPONS, STR_FIREARMS, ARTILLERY]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY]
     requiresBuy:
       - STR_MILITARY_EQUIPMENT_AQUISITION
     size: 0.2
@@ -835,7 +847,7 @@ items:
       name: STR_BOMBS_AWAY
       ammoSlot: 0
       arcing: true
-    aimedRange: 30
+    aimRange: 30
     accuracyAimed: 90
     tuAimed: 55
     battleType: 1
@@ -845,7 +857,7 @@ items:
     armor: 30
     listOrder: 221
   - type: STR_M79_THUMPER_GRENADE
-    categories: [STR_WEAPONS, STR_FIREARMS, ARTILLERY, STR_CLIPS]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     requiresBuy:
       - STR_MILITARY_EQUIPMENT_AQUISITION
     size: 0.1
@@ -870,7 +882,7 @@ items:
     battleType: 2
     armor: 20
     blastRadius: 5
-    bulletSprite: 14
+    bulletSprite: 0
     listOrder: 222
 
 # Ithaca 37
@@ -1018,6 +1030,7 @@ items:
     handSprite: 526
     hitSound: 13
     hitAnimation: 26
+    bulletSpeed: 14
     power: 60
     damageAlter:
       ToWound: 0.6
@@ -1163,6 +1176,7 @@ items:
     handSprite: 574
     hitSound: 22
     hitAnimation: 26
+    bulletSpeed: 16
     power: 50
     damageAlter:
       ToWound: 0.5
