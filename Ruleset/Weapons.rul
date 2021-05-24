@@ -661,9 +661,9 @@ items:
     size: 0.1
     costSell: 400
     weight: 2
-    bigSprite: 408
-    floorSprite: 408
-    handSprite: 408
+    bigSprite: 400
+    floorSprite: 400
+    handSprite: 400
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
@@ -688,9 +688,9 @@ items:
     costBuy: 2000
     costSell: 1800
     weight: 8
-    bigSprite: 416
-    floorSprite: 416
-    handSprite: 416
+    bigSprite: 408
+    floorSprite: 408
+    handSprite: 408
     bulletSprite: 1
     fireSound: 217
     reloadSound: 218
@@ -741,9 +741,9 @@ items:
     costBuy: 500
     costSell: 400
     weight: 3
-    bigSprite: 432
-    floorSprite: 432
-    handSprite: 432
+    bigSprite: 424
+    floorSprite: 424
+    handSprite: 424
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
@@ -765,9 +765,9 @@ items:
     costBuy: 6000
     costSell: 5200
     weight: 18
-    bigSprite: 440
-    floorSprite: 440
-    handSprite: 440
+    bigSprite: 432
+    floorSprite: 432
+    handSprite: 432
     bulletSprite: 4
     fireSound: 218
     reloadSound: 219
@@ -810,9 +810,9 @@ items:
     costBuy: 800
     costSell: 650
     weight: 6
-    bigSprite: 456
-    floorSprite: 456
-    handSprite: 456
+    bigSprite: 448
+    floorSprite: 448
+    handSprite: 448
     hitSound: 13
     hitAnimation: 26
     bulletSpeed: 14
@@ -837,9 +837,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 11
-    bigSprite: 464
-    floorSprite: 464
-    handSprite: 464
+    bigSprite: 456
+    floorSprite: 456
+    handSprite: 456
     fireSound: 220
     reloadSound: 221
     compatibleAmmo:
@@ -866,9 +866,9 @@ items:
     costBuy: 500
     costSell: 450
     weight: 1
-    bigSprite: 480
-    floorSprite: 480
-    handSprite: 480
+    bigSprite: 472
+    floorSprite: 472
+    handSprite: 472
     hitSound: 0
     hitAnimation: 0
     power: 30
@@ -896,9 +896,9 @@ items:
     costBuy: 1500
     costSell: 1100
     weight: 11
-    bigSprite: 488
-    floorSprite: 488
-    handSprite: 488
+    bigSprite: 480
+    floorSprite: 480
+    handSprite: 480
     bulletSprite: 3
     fireSound: 222
     reloadSound: 223
@@ -947,9 +947,9 @@ items:
     costBuy: 400
     costSell: 350
     weight: 1
-    bigSprite: 504
-    floorSprite: 504
-    handSprite: 504
+    bigSprite: 496
+    floorSprite: 496
+    handSprite: 496
     hitSound: 22
     hitAnimation: 26
     power: 20
@@ -975,9 +975,9 @@ items:
     costBuy: 1100
     costSell: 900
     weight: 13
-    bigSprite: 512
-    floorSprite: 512
-    handSprite: 512
+    bigSprite: 504
+    floorSprite: 504
+    handSprite: 504
     bulletSprite: 4
     fireSound: 224
     reloadSound: 225
@@ -1027,9 +1027,9 @@ items:
     costBuy: 500
     costSell: 420
     weight: 3
-    bigSprite: 528
-    floorSprite: 528
-    handSprite: 528
+    bigSprite: 520
+    floorSprite: 520
+    handSprite: 520
     hitSound: 13
     hitAnimation: 26
     bulletSpeed: 14
@@ -1052,9 +1052,9 @@ items:
     costBuy: 2000
     costSell: 1400
     weight: 15
-    bigSprite: 536
-    floorSprite: 536
-    handSprite: 536
+    bigSprite: 528
+    floorSprite: 528
+    handSprite: 528
     bulletSprite: 4
     fireSound: 226
     reloadSound: 227
@@ -1097,9 +1097,9 @@ items:
     costBuy: 500
     costSell: 420
     weight: 2
-    bigSprite: 552
-    floorSprite: 552
-    handSprite: 552
+    bigSprite: 544
+    floorSprite: 544
+    handSprite: 544
     hitSound: 13
     hitAnimation: 26
     power: 80
@@ -1121,9 +1121,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 11
-    bigSprite: 560
-    floorSprite: 560
-    handSprite: 560
+    bigSprite: 552
+    floorSprite: 552
+    handSprite: 552
     bulletSprite: 1
     fireSound: 228
     reloadSound: 229
@@ -1173,9 +1173,9 @@ items:
     costBuy: 500
     costSell: 420
     weight: 2
-    bigSprite: 576
-    floorSprite: 576
-    handSprite: 576
+    bigSprite: 568
+    floorSprite: 568
+    handSprite: 568
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 16
@@ -1198,9 +1198,9 @@ items:
     costBuy: 500
     costSell: 480
     weight: 6
-    bigSprite: 584
-    floorSprite: 584
-    handSprite: 584
+    bigSprite: 576
+    floorSprite: 576
+    handSprite: 576
     bulletSprite: 1
     fireSound: 230
     reloadSound: 231
@@ -1314,7 +1314,7 @@ items:
     invWidth: 1
     invHeight: 2
     armor: 35
-    twoHanded: true
+    twoHanded: false
     listOrder: 232
 
 # AK-47
@@ -1986,7 +1986,7 @@ extraStrings:
 
       STR_M3_GREASEGUN: "M3 Greasegun"
       STR_M3_GREASEGUN_MAG: ".45 ACP Magazine (30x)"
-      STR_M3_GREASEGUN_UFOPEDIA: "This infamoous machine gun is known for its ability to be manufactured cheapily and easily since the beginning of this service in the Second World War. It fires {ALT}.45 ACP{ALT} rounds out of 30 rd. magazines."
+      STR_M3_GREASEGUN_UFOPEDIA: "This famoous machine gun is known for its ability to be manufactured cheapily and easily since the beginning of this service in the Second World War. It fires {ALT}.45 ACP{ALT} rounds out of 30 rd. magazines."
 
       STR_M60_HOG: "M60 Hog"
       STR_M60_HOG_MAG: "7.62x51mm NATO Magazine (100x)"
@@ -2019,6 +2019,6 @@ extraStrings:
       STR_SKORPION_VZ61: "Skorpion vz61"
       STR_SKORPION_VZ61_UFOPEDIA: "A Personal Defense Weapon manufactured in Czechoslovakia. This rendition, chambered in {ALT}9x18mm Makarov{ALT} instead of the traditional 7.58mm rounds, has made its way into the common ranks of Directorate 17."
 
-      STR_AK_47: "AK-47"
+      STR_AK_47: "AKM"
       STR_AK_47_MAG: "7.62x39mm Magazine (30x)"
       STR_AK_47_UFOPEDIA: "Possibly one of the most prolific and mass-produced weapons in the world, and for good reason. A reliable and resiliant assault rifle. Chambered in {ALT}7.62x39mm{ALT}"
