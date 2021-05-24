@@ -1,9 +1,9 @@
 name: "UNEXCOM: Bureau 11"
-version: "0.1g"
+version: "0.1.2"
 author: "Brother^2, efrenespartano + IDT"
-description: "1961. A decade before the War of 1972, an US agency fought an unknown enemy and a Soviet menance in the heist of the Cold War. UNEXCOM DLC"
-id: UNEXCOM_Bureau11
+description: "1961. Counter the opening plays of the red menace and looming alien threat as Bureau 11, a top secret US intelligence agency."
+id: Bureau_11_test
 master: xcom1
 reservedSpace: 3
-requiredExtendedVersion: "6.6.1"
+requiredExtendedVersion: "6.8"
 resourceConfig: transparency.rul
