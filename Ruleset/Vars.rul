@@ -1,0 +1,13 @@
+hiddenMovementBackgrounds:
+  - TACTICBACK00.SCR
+  - TACTICBACK01.SCR
+  - TACTICBACK02.SCR
+  - TACTICBACK03.SCR
+startingTime:
+  second: 0
+  minute: 0
+  hour: 12
+  weekday: 7
+  day: 1
+  month: 1
+  year: 1961
