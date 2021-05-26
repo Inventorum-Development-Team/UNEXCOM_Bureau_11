@@ -88,8 +88,6 @@ items:
   - delete: STR_LASER_RIFLE
   - delete: STR_HEAVY_LASER
 
-
-
 # Browning HP-35
   - type: STR_BROWNING_HP35
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
@@ -737,7 +735,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES]
     size: 0.1
     requiresBuy:
-      - STR_MILITARY_EQUIPMENT_AQUISITION
+      - STR_CARL_GUSTAF_M45
     costBuy: 500
     costSell: 400
     weight: 3
@@ -942,7 +940,7 @@ items:
   - type: STR_ITHACA_37_SHELLS
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     requiresBuy:
-      - STR_MILITARY_EQUIPMENT_AQUISITION
+      - STR_WINCHESTER_MODEL_12
     size: 0.1
     costBuy: 400
     costSell: 350
@@ -966,7 +964,6 @@ items:
     listOrder: 224
 
 # Springfield M14
-
   - type: STR_SPRINGFIELD_M14
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES]
     requiresBuy:
@@ -1022,7 +1019,7 @@ items:
   - type: STR_SPRINGFIELD_M14_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_MAGAZINES]
     requiresBuy:
-      - STR_MILITARY_EQUIPMENT_AQUISITION
+      - STR_FN_FAL
     size: 0.1
     costBuy: 500
     costSell: 420
@@ -1403,6 +1400,160 @@ items:
     armor: 20
     listOrder: 235
 
+# Winchester Model 12
+  - type: STR_WINCHESTER_MODEL_12
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS]
+    requiresBuy:
+      - STR_WINCHESTER_MODEL_12
+    size: 0.2
+    costBuy: 1300
+    costSell: 1150
+    weight: 11
+    bigSprite: 640
+    floorSprite: 640
+    handSprite: 640
+    bulletSprite: 3
+    fireSound: 236
+    reloadSound: 237
+    compatibleAmmo:
+      - STR_ITHACA_37_SHELLS
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 9
+    accuracyAimed: 110
+    tuAimed: 60
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 6
+    accuracySnap: 90
+    tuSnap: 35
+    accuracyCloseQuarters: 90
+    dropoff: 9
+    shotgunChoke: 60
+    tuLoad: 30
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 1
+    invHeight: 3
+    armor: 40
+    listOrder: 223
+
+# FN FAL
+  - type: STR_FN_FAL
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES]
+    requiresBuy:
+      - STR_FN_FAL
+    size: 0.2
+    costBuy: 1100
+    costSell: 900
+    weight: 14
+    bigSprite: 656
+    floorSprite: 656
+    handSprite: 656
+    bulletSprite: 4
+    fireSound: 238
+    reloadSound: 239
+    compatibleAmmo:
+      - STR_SPRINGFIELD_M14_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 30
+    accuracyAimed: 110
+    tuAimed: 75
+    confSnap:
+      shots: 2
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    snapRange: 16
+    accuracySnap: 60
+    tuSnap: 40
+    confAuto:
+      shots: 5
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    autoRange: 7
+    accuracyAuto: 40
+    tuAuto: 35
+    accuracyCloseQuarters: 90
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 115
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    listOrder: 225
+
+# Carl Gustaf m/45
+  - type: STR_CARL_GUSTAF_M45
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS]
+    size: 0.2
+    requiresBuy:
+      - STR_CARL_GUSTAF_M45
+    costBuy: 2000
+    costSell: 1800
+    weight: 8
+    bigSprite: 672
+    floorSprite: 672
+    handSprite: 672
+    bulletSprite: 1
+    fireSound: 240
+    reloadSound: 241
+    compatibleAmmo:
+      - STR_UNITED_DEFENSE_M42_20_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 22
+    accuracyAimed: 90
+    tuAimed: 48
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 12
+    accuracySnap: 75
+    tuSnap: 35
+    confAuto:
+      shots: 8
+      name: STR_SPRAY_N_PRAY
+      ammoSlot: 0
+      arcing: false
+    autoRange: 6
+    accuracyAuto: 45
+    tuAuto: 40
+    accuracyCloseQuarters: 100
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 115
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    twoHanded: true
+    listOrder: 206
+
 ufopaedia:
   - id: STR_BROWNING_HP35
     type_id: 4
@@ -1580,6 +1731,27 @@ ufopaedia:
   - id: STR_AK_47_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_WINCHESTER_MODEL_12
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_WINCHESTER_MODEL_12_UFOPEDIA
+    requires:
+      - STR_WINCHESTER_MODEL_12
+    listOrder: 220
+  - id: STR_FN_FAL
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_FN_FAL_UFOPEDIA
+    requires:
+      - STR_FN_FAL
+    listOrder: 221
+  - id: STR_CARL_GUSTAF_M45
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_CARL_GUSTAF_M45_UFOPEDIA
+    requires:
+      - STR_CARL_GUSTAF_M45
+    listOrder: 222
 
 manufacture:
   - delete: STR_TANK_LASER_CANNON
@@ -1639,9 +1811,26 @@ research:
     dependencies:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
 
+  - name: STR_WINCHESTER_MODEL_12
+    cost: 50
+    points: 10
+
+  - name: STR_FN_FAL
+    cost: 50
+    points: 10
+    needItem: true
+
+  - name: STR_CARL_GUSTAF_M45
+    cost: 50
+    points: 10
+    needItem: true
+
   - name: STR_MILITARY_EQUIPMENT_AQUISITION
     cost: 300
     points: 100
+    unlocks:
+      - STR_WINCHESTER_MODEL_12
+      - STR_FN_FAL
 
   - name: STR_LIGHT_ASSAULT_RIFLE_REQUISITION
     cost: 100
@@ -1750,6 +1939,12 @@ extraSprites:
       616: Resources/Weapons/AK-47/Unloaded_Big.png
       624: Resources/Weapons/AK-47/Loaded_30_Big.png
       632: Resources/Weapons/AK-47/Mag_30_Big.png
+      640: Resources/Weapons/Winchester Model 12/Unloaded_Big.png
+      648: Resources/Weapons/Winchester Model 12/Loaded_6_Big.png
+      656: Resources/Weapons/FN FAL/Unloaded_Big.png
+      664: Resources/Weapons/FN FAL/Loaded_20_Big.png
+      672: Resources/Weapons/Carl Gustaf M45/Unloaded_Big.png
+      680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Big.png
   - type: FLOOROB.PCK
     files:
       200: Resources/Weapons/Browning HP35/Unloaded_Floor.png
@@ -1807,6 +2002,12 @@ extraSprites:
       616: Resources/Weapons/AK-47/Unloaded_Floor.png
       624: Resources/Weapons/AK-47/Loaded_30_Floor.png
       632: Resources/Weapons/AK-47/Mag_30_Floor.png
+      640: Resources/Weapons/Winchester Model 12/Unloaded_Floor.png
+      648: Resources/Weapons/Winchester Model 12/Loaded_6_Floor.png
+      656: Resources/Weapons/FN FAL/Unloaded_Big.png
+      664: Resources/Weapons/FN FAL/Loaded_20_Big.png
+      672: Resources/Weapons/Carl Gustaf M45/Unloaded_Big.png
+      680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Big.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -1868,6 +2069,12 @@ extraSprites:
       616: Resources/Weapons/AK-47/Unloaded_Hand.png
       624: Resources/Weapons/AK-47/Loaded_30_Hand.png
       632: Resources/Weapons/AK-47/Mag_30_Hand.png
+      640: Resources/Weapons/Winchester Model 12/Unloaded_Big.png
+      648: Resources/Weapons/Winchester Model 12/Loaded_6_Big.png
+      656: Resources/Weapons/FN FAL/Unloaded_Big.png
+      664: Resources/Weapons/FN FAL/Loaded_20_Big.png
+      672: Resources/Weapons/Carl Gustaf M45/Unloaded_Big.png
+      680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Big.png
 
 extraSounds:
   - type: BATTLE.CAT
@@ -1908,6 +2115,12 @@ extraSounds:
       233: Resources/Weapons/Skorpion vz61/reload.wav
       234: Resources/Weapons/AK-47/fire.wav
       235: Resources/Weapons/AK-47/reload.wav
+      236: Resources/Weapons/Winchester Model 12/fire.wav
+      237: Resources/Weapons/Winchester Model 12/reload.wav
+      238: Resources/Weapons/FN FAL/fire.wav
+      239: Resources/Weapons/FN FAL/reload.wav
+      240: Resources/Weapons/Carl Gustaf M45/fire.wav
+      241: Resources/Weapons/Carl Gustaf M45/reload.wav
 
 extraStrings:
   - type: en-US
@@ -2022,3 +2235,12 @@ extraStrings:
       STR_AK_47: "AKM"
       STR_AK_47_MAG: "7.62x39mm Magazine (30x)"
       STR_AK_47_UFOPEDIA: "Possibly one of the most prolific and mass-produced weapons in the world, and for good reason. A reliable and resiliant assault rifle. Chambered in {ALT}7.62x39mm{ALT}"
+
+      STR_WINCHESTER_MODEL_12: "Winchester Model 12"
+      STR_WINCHESTER_MODEL_12_UFOPEDIA: "The Winchester Model 12 is a pump-action shotgun chambered in {ALT}12 Gauge{ALT} ammunition. Though it has seen action in WII and Korea, it has a special place in the heart of the American civilian populace. Aquiring this weapon should be no issue, although there are probrably better alternatives."
+
+      STR_FN_FAL: "FN FAL"
+      STR_FN_FAL_UFOPEDIA: "The FN FAL is a battle rifle of Belgian design chambered in {ALT}7.62x51mm{ALT}. Chrisined the 'right hand of the free world' it has a place in many NATO countries' armories. While a great rifle that we should have no trouble in obtaining, there are probrably better alternatives when it comes to sustained fire."
+
+      STR_CARL_GUSTAF_M45: "Carl Gustaf m/45"
+      STR_CARL_GUSTAF_M45_UFOPEDIA: "A {ALT}9x19mm{ALT} SMG of Swedish design adpoted at the tail-end of WWII. In that time, has become a mainstay of the Swedish Army. While we shouldn't have trouble obtaining some of these, there are probrably better alternatives."

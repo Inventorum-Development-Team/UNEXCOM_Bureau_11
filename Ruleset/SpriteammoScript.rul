@@ -163,6 +163,15 @@ items:
   - type: STR_AK_47_MAG
     tags:
       AmmoNo: 1
+  - type: STR_WINCHESTER_MODEL_12
+    tags:
+      AmmoReSprite: 1
+  - type: STR_FN_FAL
+    tags:
+      AmmoReSprite: 1
+  - type: STR_CARL_GUSTAF_M45
+    tags:
+      AmmoReSprite: 1
 
 extended:
   tags:
