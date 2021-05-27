@@ -2004,10 +2004,10 @@ extraSprites:
       632: Resources/Weapons/AK-47/Mag_30_Floor.png
       640: Resources/Weapons/Winchester Model 12/Unloaded_Floor.png
       648: Resources/Weapons/Winchester Model 12/Loaded_6_Floor.png
-      656: Resources/Weapons/FN FAL/Unloaded_Big.png
-      664: Resources/Weapons/FN FAL/Loaded_20_Big.png
-      672: Resources/Weapons/Carl Gustaf M45/Unloaded_Big.png
-      680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Big.png
+      656: Resources/Weapons/FN FAL/Unloaded_Floor.png
+      664: Resources/Weapons/FN FAL/Loaded_20_Floor.png
+      672: Resources/Weapons/Carl Gustaf M45/Unloaded_Floor.png
+      680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Floor.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -2071,10 +2071,10 @@ extraSprites:
       632: Resources/Weapons/AK-47/Mag_30_Hand.png
       640: Resources/Weapons/Winchester Model 12/Unloaded_Big.png
       648: Resources/Weapons/Winchester Model 12/Loaded_6_Big.png
-      656: Resources/Weapons/FN FAL/Unloaded_Big.png
-      664: Resources/Weapons/FN FAL/Loaded_20_Big.png
-      672: Resources/Weapons/Carl Gustaf M45/Unloaded_Big.png
-      680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Big.png
+      656: Resources/Weapons/FN FAL/Unloaded_Hand.png
+      664: Resources/Weapons/FN FAL/Loaded_20_Hand.png
+      672: Resources/Weapons/Carl Gustaf M45/Unloaded_Hand.png
+      680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Hand.png
 
 extraSounds:
   - type: BATTLE.CAT
