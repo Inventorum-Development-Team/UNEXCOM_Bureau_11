@@ -1945,6 +1945,12 @@ extraSprites:
       664: Resources/Weapons/FN FAL/Loaded_20_Big.png
       672: Resources/Weapons/Carl Gustaf M45/Unloaded_Big.png
       680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Big.png
+      706: Resources/Weapons/Sturm Ekanone/Unloaded_Big.png
+      714: Resources/Weapons/Sturm Ekanone/Loaded_10_Big.png
+      722: Resources/Weapons/Sturm Ekanone/Mag_10_Big.png
+      730: Resources/Weapons/Vikhir Electromagnetic Rifle/Unloaded_Big.png
+      738: Resources/Weapons/Vikhir Electromagnetic Rifle/Loaded_10_Big.png
+      746: Resources/Weapons/Vikhir Electromagnetic Rifle/Mag_10_Big.png
   - type: FLOOROB.PCK
     files:
       200: Resources/Weapons/Browning HP35/Unloaded_Floor.png
@@ -2008,6 +2014,13 @@ extraSprites:
       664: Resources/Weapons/FN FAL/Loaded_20_Floor.png
       672: Resources/Weapons/Carl Gustaf M45/Unloaded_Floor.png
       680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Floor.png
+      688: Resources/Weapons/China Lake Laser Projector/Loaded_0_Floor.png
+      706: Resources/Weapons/Sturm Ekanone/Unloaded_Floor.png
+      714: Resources/Weapons/Sturm Ekanone/Loaded_10_Floor.png
+      722: Resources/Weapons/Sturm Ekanone/Mag_10_Floor.png
+      730: Resources/Weapons/Vikhir Electromagnetic Rifle/Unloaded_Floor.png
+      738: Resources/Weapons/Vikhir Electromagnetic Rifle/Loaded_10_Floor.png
+      746: Resources/Weapons/Vikhir Electromagnetic Rifle/Mag_10_Floor.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -2069,12 +2082,38 @@ extraSprites:
       616: Resources/Weapons/AK-47/Unloaded_Hand.png
       624: Resources/Weapons/AK-47/Loaded_30_Hand.png
       632: Resources/Weapons/AK-47/Mag_30_Hand.png
-      640: Resources/Weapons/Winchester Model 12/Unloaded_Big.png
-      648: Resources/Weapons/Winchester Model 12/Loaded_6_Big.png
+      640: Resources/Weapons/Winchester Model 12/Unloaded_Hand.png
+      648: Resources/Weapons/Winchester Model 12/Loaded_6_Hand.png
       656: Resources/Weapons/FN FAL/Unloaded_Hand.png
       664: Resources/Weapons/FN FAL/Loaded_20_Hand.png
       672: Resources/Weapons/Carl Gustaf M45/Unloaded_Hand.png
       680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Hand.png
+      688: Resources/Weapons/China Lake Laser Projector/Loaded_0_Hand.png
+      706: Resources/Weapons/Sturm Ekanone/Unloaded_Hand.png
+      714: Resources/Weapons/Sturm Ekanone/Loaded_10_Hand.png
+      722: Resources/Weapons/Sturm Ekanone/Mag_10_Hand.png
+      730: Resources/Weapons/Vikhir Electromagnetic Rifle/Unloaded_Hand.png
+      738: Resources/Weapons/Vikhir Electromagnetic Rifle/Loaded_10_Hand.png
+      746: Resources/Weapons/Vikhir Electromagnetic Rifle/Mag_10_Hand.png
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files: # Yellow Laser = 36
+      100: Resources/Weapons/HitAnimations/HumanElectric_Hit.png
+      101: Resources/Weapons/HitAnimations/Railgun_Hit.png
+      102: Resources/Weapons/HitAnimations/RedLaser_Hit.png
+  - type: Projectiles
+    height: 3
+    width: 105
+    subX: 3
+    subY: 3
+    files:
+      1015: Resources/Weapons/BulletSprites/WideYellowLaser_Bullet.png # 29
+      1050: Resources/Weapons/BulletSprites/HumanElectric_Bullet.png # 30
+      1085: Resources/Weapons/BulletSprites/RailgunLaser_Bullet.png # 31
+      1120: Resources/Weapons/BulletSprites/WideRedLaser_Bullet.png # 32
 
 extraSounds:
   - type: BATTLE.CAT
