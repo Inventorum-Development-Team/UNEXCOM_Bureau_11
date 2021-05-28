@@ -1554,6 +1554,50 @@ items:
     twoHanded: true
     listOrder: 206
 
+# China Lake Laser Projector
+  - type: STR_CHINA_LAKE_LASER_PROJECTOR
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_PROPRIETARY]
+    size: 0.2
+    costSell: 225000
+    weight: 20
+    bigSprite: 688
+    floorSprite: 688
+    handSprite: 688
+    bulletSpeed: 99
+    bulletSprite: 29
+    hitAnimation: 36
+    fireSound: 242
+    confSnap:
+      shots: 5
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    snapRange: 30
+    accuracySnap: 70
+    tuSnap: 40
+    confAuto:
+      shots: 10
+      name: STR_SUPPRESSION
+      ammoSlot: 0
+      arcing: false
+    autoRange: 20
+    accuracyAuto: 35
+    tuAuto: 55
+    accuracyCloseQuarters: 90
+    damageType: 4
+    power: 55
+    clipSize: -1
+    damageAlter:
+      RandomType: 6
+      ArmorEffectiveness: 0.8
+    maxRange: 60
+    kneelBonus: 150
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    listOrder: 236
+
 ufopaedia:
   - id: STR_BROWNING_HP35
     type_id: 4
@@ -1752,6 +1796,33 @@ ufopaedia:
     requires:
       - STR_CARL_GUSTAF_M45
     listOrder: 222
+  - id: STR_CHINA_LAKE_LASER_PROJECTOR
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_CHINA_LAKE_LASER_PROJECTOR_UFOPEDIA
+    requires:
+      - STR_CHINA_LAKE_LASER_PROJECTOR
+    listOrder: 223
+  - id: STR_STURM_EKANONE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_STURM_EKANONE_UFOPEDIA
+    requires:
+      - STR_STURM_EKANONE
+    listOrder: 224
+  - id: STR_STURM_EKANONE_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_VIKHIR_ELECTROMAGNETIC_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_VIKHIR_ELECTROMAGNETIC_RIFLE_UFOPEDIA
+    requires:
+      - STR_VIKHIR_ELECTROMAGNETIC_RIFLE
+    listOrder: 225
+  - id: STR_VIKHIR_ELECTROMAGNETIC_RIFLE_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
 manufacture:
   - delete: STR_TANK_LASER_CANNON
@@ -1866,6 +1937,21 @@ research:
     points: 25
     needItem: true
 
+  - name: STR_CHINA_LAKE_LASER_PROJECTOR
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_STURM_EKANONE
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_VIKHIR_ELECTROMAGNETIC_RIFLE
+    cost: 200
+    points: 50
+    needItem: true
+
   - name: STR_ALIEN_LASER_RIFLE
     cost: 300
     points: 50
@@ -1945,6 +2031,7 @@ extraSprites:
       664: Resources/Weapons/FN FAL/Loaded_20_Big.png
       672: Resources/Weapons/Carl Gustaf M45/Unloaded_Big.png
       680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Big.png
+      688: Resources/Weapons/China Lake Laser Projector/Loaded_0_Big.png
       706: Resources/Weapons/Sturm Ekanone/Unloaded_Big.png
       714: Resources/Weapons/Sturm Ekanone/Loaded_10_Big.png
       722: Resources/Weapons/Sturm Ekanone/Mag_10_Big.png
@@ -2112,7 +2199,7 @@ extraSprites:
     files:
       1015: Resources/Weapons/BulletSprites/WideYellowLaser_Bullet.png # 29
       1050: Resources/Weapons/BulletSprites/HumanElectric_Bullet.png # 30
-      1085: Resources/Weapons/BulletSprites/RailgunLaser_Bullet.png # 31
+      1085: Resources/Weapons/BulletSprites/Railgun_Bullet.png # 31
       1120: Resources/Weapons/BulletSprites/WideRedLaser_Bullet.png # 32
 
 extraSounds:
@@ -2160,6 +2247,11 @@ extraSounds:
       239: Resources/Weapons/FN FAL/reload.wav
       240: Resources/Weapons/Carl Gustaf M45/fire.wav
       241: Resources/Weapons/Carl Gustaf M45/reload.wav
+      242: Resources/Weapons/China Lake Laser Projector/fire.wav
+      243: Resources/Weapons/Sturm Ekanone/fire.wav
+      244: Resources/Weapons/Sturm Ekanone/reload.wav
+      245: Resources/Weapons/Vikhir Electromagnetic Rifle/fire.wav
+      246: Resources/Weapons/Vikhir Electromagnetic Rifle/reload.wav
 
 extraStrings:
   - type: en-US
@@ -2271,7 +2363,7 @@ extraStrings:
       STR_SKORPION_VZ61: "Skorpion vz61"
       STR_SKORPION_VZ61_UFOPEDIA: "A Personal Defense Weapon manufactured in Czechoslovakia. This rendition, chambered in {ALT}9x18mm Makarov{ALT} instead of the traditional 7.58mm rounds, has made its way into the common ranks of Directorate 17."
 
-      STR_AK_47: "AKM"
+      STR_AK_47: "AK-47"
       STR_AK_47_MAG: "7.62x39mm Magazine (30x)"
       STR_AK_47_UFOPEDIA: "Possibly one of the most prolific and mass-produced weapons in the world, and for good reason. A reliable and resiliant assault rifle. Chambered in {ALT}7.62x39mm{ALT}"
 
@@ -2283,3 +2375,6 @@ extraStrings:
 
       STR_CARL_GUSTAF_M45: "Carl Gustaf m/45"
       STR_CARL_GUSTAF_M45_UFOPEDIA: "A {ALT}9x19mm{ALT} SMG of Swedish design adpoted at the tail-end of WWII. In that time, has become a mainstay of the Swedish Army. While we shouldn't have trouble obtaining some of these, there are probrably better alternatives."
+
+      STR_CHINA_LAKE_LASER_PROJECTOR: "China Lake Laser Projector"
+      STR_CHINA_LAKE_LASER_PROJECTOR_UFOPEDIA: "This is an advanced prototype of a direct energy weapon assembled in secrecy at the China Lake Naval Air Weapons Station. It is the product of reverse engineering after the study of the laser weapons fielded by the aliens. While originally intended to be an air-mounted weapon, it was eventually miniaturized into a small arm intended for deployment by Navy Special Forces on black ops. They have provided us with most of their samples."
