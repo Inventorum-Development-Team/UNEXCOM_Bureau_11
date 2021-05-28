@@ -2241,11 +2241,11 @@ extraSprites:
       680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Hand.png
       688: Resources/Weapons/China Lake Laser Projector/Loaded_0_Hand.png
       696: Resources/Weapons/Sturm Ekanone/Unloaded_Hand.png
-      706: Resources/Weapons/Sturm Ekanone/Loaded_10_Hand.png
-      714: Resources/Weapons/Sturm Ekanone/Mag_10_Hand.png
-      722: Resources/Weapons/Vikhir Electromagnetic Rifle/Unloaded_Hand.png
-      730: Resources/Weapons/Vikhir Electromagnetic Rifle/Loaded_10_Hand.png
-      738: Resources/Weapons/Vikhir Electromagnetic Rifle/Mag_10_Hand.png
+      704: Resources/Weapons/Sturm Ekanone/Loaded_10_Hand.png
+      712: Resources/Weapons/Sturm Ekanone/Mag_10_Hand.png
+      720: Resources/Weapons/Vikhir Electromagnetic Rifle/Unloaded_Hand.png
+      728: Resources/Weapons/Vikhir Electromagnetic Rifle/Loaded_10_Hand.png
+      736: Resources/Weapons/Vikhir Electromagnetic Rifle/Mag_10_Hand.png
   - type: SMOKE.PCK
     height: 80
     width: 160
