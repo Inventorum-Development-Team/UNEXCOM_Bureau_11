@@ -123,10 +123,10 @@ items:
   - type: STR_M79_THUMPER_GRENADE
     tags:
       AmmoNo: 1
-  - type: STR_ITHICA_37
+  - type: STR_ITHACA_37
     tags:
       AmmoReSprite: 1
-  - type: STR_ITHICA_37_SHELLS
+  - type: STR_ITHACA_37_SHELLS
     tags:
       AmmoNo: 1
   - type: STR_SPRINGFIELD_M14
