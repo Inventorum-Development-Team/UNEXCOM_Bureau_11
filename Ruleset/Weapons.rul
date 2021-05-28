@@ -1589,13 +1589,14 @@ items:
     clipSize: -1
     damageAlter:
       RandomType: 7
-      ArmorEffectiveness: 0.9
+      ToArmor: 0.5
     maxRange: 60
     kneelBonus: 150
     battleType: 1
     invWidth: 1
     invHeight: 3
     twoHanded: true
+    sprayWaypoints: 2
     armor: 200
     listOrder: 236
 
@@ -1604,7 +1605,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS]
     size: 0.2
     costSell: 180000
-    weight: 15
+    weight: 22
     bigSprite: 696
     floorSprite: 696
     handSprite: 696
@@ -1648,19 +1649,85 @@ items:
     floorSprite: 712
     handSprite: 712
     bulletSprite: 30
-    hitAnimation: 101
+    hitAnimation: 102
     power: 40
     shotgunBehavior: 1
-    shotgunPellets: 4
-    shotgunSpread: 60
+    shotgunPellets: 8
+    shotgunSpread: 50
     damageAlter:
-      ArmorEffectiveness: 0.9
       ToStun: 1.25
     damageType: 6
     clipSize: 10
     battleType: 2
     armor: 200
     listOrder: 238
+
+# Vikhir Electromagnetic Rifle
+  - type: STR_VIKHIR_ELECTROMAGNETIC_RIFLE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES]
+    requiresBuy:
+      - STR_VIKHIR_ELECTROMAGNETIC_RIFLE
+    size: 0.2
+    costSell: 14000
+    weight: 13
+    bigSprite: 720
+    floorSprite: 720
+    handSprite: 720
+    bulletSprite: 31
+    fireSound: 245
+    reloadSound: 246
+    compatibleAmmo:
+      - STR_VIKHIR_ELECTROMAGNETIC_RIFLE_MAG
+    confAimed:
+      shots: 1
+      name: STR_DEADEYE
+      ammoSlot: 0
+      arcing: false
+    aimRange: 60
+    accuracyAimed: 200
+    tuAimed: 55
+    confSnap:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    snapRange: 20
+    accuracySnap: 110
+    tuSnap: 40
+    accuracyCloseQuarters: 10
+    tuLoad: 30
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 150
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    twoHanded: true
+    armor: 200
+    listOrder: 239
+  - type: STR_VIKHIR_ELECTROMAGNETIC_RIFLE_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_CLIPS]
+    requiresBuy:
+      - STR_VIKHIR_ELECTROMAGNETIC_RIFLE
+    size: 0.1
+    costBuy: 500
+    costSell: 420
+    weight: 4
+    bigSprite: 736
+    floorSprite: 736
+    handSprite: 736
+    hitSound: 13
+    hitAnimation: 102
+    power: 120
+    damageAlter:
+      RandomType: 7
+      ArmorEffectiveness: 0.8
+      ToHealth: 1.25
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    armor: 200
+    listOrder: 240
 
 ufopaedia:
   - id: STR_BROWNING_HP35
@@ -2447,3 +2514,7 @@ extraStrings:
       STR_STURM_EKANONE: "Sturm Ekanone"
       STR_STURM_EKANONE_BATTERY: "Sturm Ekanone Battery (10x)"
       STR_STURM_EKANONE_UFOPEDIA: "The sterotype about German engineering holds true. This masterpiece, the Sturm Ekanone, a pormanteau of the German words for Cannon and Electricity, is an electric weapon designed to incapacitate both biological and mechanical targets. Designed by NATO engineers after sharing the prototype Laser Projectors provided by the China Lake staff. It launches a short burst of electricity that can spread out to multiplte targets."
+
+      STR_VIKHIR_ELECTROMAGNETIC_RIFLE: "Vikhir Electromagnetic Rifle"
+      STR_VIKHIR_ELECTROMAGNETIC_RIFLE_MAG: "Vikhir EMR Mag (10x)"
+      STR_VIKHIR_ELECTROMAGNETIC_RIFLE_UFOPEDIA: "a"

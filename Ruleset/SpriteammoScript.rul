@@ -178,6 +178,12 @@ items:
   - type: STR_STURM_EKANONE_BATTERY
     tags:
       AmmoNo: 1
+  - type: STR_VIKHIR_ELECTROMAGNETIC_RIFLE
+    tags:
+      AmmoReSprite: 1
+  - type: STR_VIKHIR_ELECTROMAGNETIC_RIFLE_MAG
+    tags:
+      AmmoNo: 1
 
 extended:
   tags:
