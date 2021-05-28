@@ -172,6 +172,12 @@ items:
   - type: STR_CARL_GUSTAF_M45
     tags:
       AmmoReSprite: 1
+  - type: STR_STURM_EKANONE
+    tags:
+      AmmoReSprite: 1
+  - type: STR_STURM_EKANONE_BATTERY
+    tags:
+      AmmoNo: 1
 
 extended:
   tags:
