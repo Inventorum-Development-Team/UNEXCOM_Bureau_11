@@ -1743,15 +1743,22 @@ items:
     fireSound: 11
     compatibleAmmo:
       - STR_ALIEN_LASER_PISTOL_BATTERY
-    accuracyAuto: 50
-    accuracySnap: 65
-    accuracyAimed: 85
-    autoRange: 60
-    snapRange: 60
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
     aimRange: 60
-    tuAuto: 30
-    tuSnap: 30
-    tuAimed: 60
+    accuracyAimed: 90
+    tuAimed: 55
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 60
+    accuracySnap: 65
+    tuSnap: 40
     battleType: 1
     invWidth: 1
     invHeight: 2
@@ -1773,7 +1780,7 @@ items:
     damageAlter:
       ArmorEffectiveness: 0.75
       ToArmor: 1.2
-    clipSize: 26
+    clipSize: 15
     battleType: 2
     recoveryPoints: 1
     listOrder: 242
@@ -1792,15 +1799,30 @@ items:
     fireSound: 11
     compatibleAmmo:
       - STR_ALIEN_LASER_RIFLE_BATTERY
-    accuracyAuto: 55
-    accuracySnap: 86
-    accuracyAimed: 100
-    autoRange: 60
-    snapRange: 60
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
     aimRange: 60
-    tuAuto: 35
+    accuracyAimed: 110
+    tuAimed: 70
+    confSnap:
+      shots: 2
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    snapRange: 60
+    accuracySnap: 70
     tuSnap: 45
-    tuAimed: 60
+    confAuto:
+      shots: 4
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    autoRange: 20
+    accuracyAuto: 65
+    tuAuto: 55
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -1842,12 +1864,22 @@ items:
     fireSound: 11
     compatibleAmmo:
       - STR_ALIEN_HEAVY_LASER_BATTERY
-    accuracySnap: 110
-    accuracyAimed: 200
-    snapRange: 60
+    confAimed:
+      shots: 1
+      name: STR_DEADEYE
+      ammoSlot: 0
+      arcing: false
     aimRange: 60
-    tuSnap: 55
-    tuAimed: 70
+    accuracyAimed: 200
+    tuAimed: 80
+    confSnap:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    snapRange: 60
+    accuracySnap: 110
+    tuSnap: 65
     battleType: 1
     twoHanded: true
     invWidth: 2
@@ -1865,7 +1897,7 @@ items:
     handSprite: 808
     hitSound: 19
     hitAnimation: 103
-    power: 150
+    power: 125
     damageType: 4
     damageAlter:
       ArmorEffectiveness: 0.50
