@@ -985,8 +985,8 @@ items:
       name: STR_STEADY_SHOT
       ammoSlot: 0
       arcing: false
-    aimRange: 30
-    accuracyAimed: 110
+    aimRange: 22
+    accuracyAimed: 100
     tuAimed: 75
     confSnap:
       shots: 3
@@ -1468,8 +1468,8 @@ items:
       ammoSlot: 0
       arcing: false
     aimRange: 30
-    accuracyAimed: 110
-    tuAimed: 75
+    accuracyAimed: 120
+    tuAimed: 65
     confSnap:
       shots: 2
       name: STR_CONTROLLED_BURST
