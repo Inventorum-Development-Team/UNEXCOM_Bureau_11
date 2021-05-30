@@ -88,8 +88,6 @@ items:
   - delete: STR_LASER_RIFLE
   - delete: STR_HEAVY_LASER
 
-
-
 # Browning HP-35
   - type: STR_BROWNING_HP35
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
@@ -661,9 +659,9 @@ items:
     size: 0.1
     costSell: 400
     weight: 2
-    bigSprite: 408
-    floorSprite: 408
-    handSprite: 408
+    bigSprite: 400
+    floorSprite: 400
+    handSprite: 400
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
@@ -688,9 +686,9 @@ items:
     costBuy: 2000
     costSell: 1800
     weight: 8
-    bigSprite: 416
-    floorSprite: 416
-    handSprite: 416
+    bigSprite: 408
+    floorSprite: 408
+    handSprite: 408
     bulletSprite: 1
     fireSound: 217
     reloadSound: 218
@@ -737,13 +735,13 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES]
     size: 0.1
     requiresBuy:
-      - STR_MILITARY_EQUIPMENT_AQUISITION
+      - STR_CARL_GUSTAF_M45
     costBuy: 500
     costSell: 400
     weight: 3
-    bigSprite: 432
-    floorSprite: 432
-    handSprite: 432
+    bigSprite: 424
+    floorSprite: 424
+    handSprite: 424
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
@@ -765,9 +763,9 @@ items:
     costBuy: 6000
     costSell: 5200
     weight: 18
-    bigSprite: 440
-    floorSprite: 440
-    handSprite: 440
+    bigSprite: 432
+    floorSprite: 432
+    handSprite: 432
     bulletSprite: 4
     fireSound: 218
     reloadSound: 219
@@ -810,9 +808,9 @@ items:
     costBuy: 800
     costSell: 650
     weight: 6
-    bigSprite: 456
-    floorSprite: 456
-    handSprite: 456
+    bigSprite: 448
+    floorSprite: 448
+    handSprite: 448
     hitSound: 13
     hitAnimation: 26
     bulletSpeed: 14
@@ -837,9 +835,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 11
-    bigSprite: 464
-    floorSprite: 464
-    handSprite: 464
+    bigSprite: 456
+    floorSprite: 456
+    handSprite: 456
     fireSound: 220
     reloadSound: 221
     compatibleAmmo:
@@ -859,16 +857,16 @@ items:
     armor: 30
     listOrder: 221
   - type: STR_M79_THUMPER_GRENADE
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_GRENADES]
     requiresBuy:
       - STR_MILITARY_EQUIPMENT_AQUISITION
     size: 0.1
     costBuy: 500
     costSell: 450
     weight: 1
-    bigSprite: 480
-    floorSprite: 480
-    handSprite: 480
+    bigSprite: 472
+    floorSprite: 472
+    handSprite: 472
     hitSound: 0
     hitAnimation: 0
     power: 30
@@ -896,9 +894,9 @@ items:
     costBuy: 1500
     costSell: 1100
     weight: 11
-    bigSprite: 488
-    floorSprite: 488
-    handSprite: 488
+    bigSprite: 480
+    floorSprite: 480
+    handSprite: 480
     bulletSprite: 3
     fireSound: 222
     reloadSound: 223
@@ -942,14 +940,14 @@ items:
   - type: STR_ITHACA_37_SHELLS
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     requiresBuy:
-      - STR_MILITARY_EQUIPMENT_AQUISITION
+      - STR_WINCHESTER_MODEL_12
     size: 0.1
     costBuy: 400
     costSell: 350
     weight: 1
-    bigSprite: 504
-    floorSprite: 504
-    handSprite: 504
+    bigSprite: 496
+    floorSprite: 496
+    handSprite: 496
     hitSound: 22
     hitAnimation: 26
     power: 20
@@ -966,7 +964,6 @@ items:
     listOrder: 224
 
 # Springfield M14
-
   - type: STR_SPRINGFIELD_M14
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES]
     requiresBuy:
@@ -975,9 +972,9 @@ items:
     costBuy: 1100
     costSell: 900
     weight: 13
-    bigSprite: 512
-    floorSprite: 512
-    handSprite: 512
+    bigSprite: 504
+    floorSprite: 504
+    handSprite: 504
     bulletSprite: 4
     fireSound: 224
     reloadSound: 225
@@ -988,8 +985,8 @@ items:
       name: STR_STEADY_SHOT
       ammoSlot: 0
       arcing: false
-    aimRange: 30
-    accuracyAimed: 110
+    aimRange: 22
+    accuracyAimed: 100
     tuAimed: 75
     confSnap:
       shots: 3
@@ -1022,14 +1019,14 @@ items:
   - type: STR_SPRINGFIELD_M14_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_MAGAZINES]
     requiresBuy:
-      - STR_MILITARY_EQUIPMENT_AQUISITION
+      - STR_FN_FAL
     size: 0.1
     costBuy: 500
     costSell: 420
     weight: 3
-    bigSprite: 528
-    floorSprite: 528
-    handSprite: 528
+    bigSprite: 520
+    floorSprite: 520
+    handSprite: 520
     hitSound: 13
     hitAnimation: 26
     bulletSpeed: 14
@@ -1052,9 +1049,9 @@ items:
     costBuy: 2000
     costSell: 1400
     weight: 15
-    bigSprite: 536
-    floorSprite: 536
-    handSprite: 536
+    bigSprite: 528
+    floorSprite: 528
+    handSprite: 528
     bulletSprite: 4
     fireSound: 226
     reloadSound: 227
@@ -1097,15 +1094,15 @@ items:
     costBuy: 500
     costSell: 420
     weight: 2
-    bigSprite: 552
-    floorSprite: 552
-    handSprite: 552
+    bigSprite: 544
+    floorSprite: 544
+    handSprite: 544
     hitSound: 13
     hitAnimation: 26
-    power: 80
+    power: 60
     damageAlter:
-      ToWound: 0.4
-      ToHealth: 0.7
+      ToWound: 0.9
+      ToHealth: 1.1
     damageType: 1
     clipSize: 6
     battleType: 2
@@ -1121,9 +1118,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 11
-    bigSprite: 560
-    floorSprite: 560
-    handSprite: 560
+    bigSprite: 552
+    floorSprite: 552
+    handSprite: 552
     bulletSprite: 1
     fireSound: 228
     reloadSound: 229
@@ -1173,9 +1170,9 @@ items:
     costBuy: 500
     costSell: 420
     weight: 2
-    bigSprite: 576
-    floorSprite: 576
-    handSprite: 576
+    bigSprite: 568
+    floorSprite: 568
+    handSprite: 568
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 16
@@ -1188,6 +1185,748 @@ items:
     battleType: 2
     armor: 20
     listOrder: 230
+
+# Stechkin APS
+  - type: STR_STECHKIN_APS
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
+    requiresBuy:
+      - STR_SOVIET_WEAPON_AQUISITION
+    size: 0.1
+    costBuy: 500
+    costSell: 480
+    weight: 6
+    bigSprite: 576
+    floorSprite: 576
+    handSprite: 576
+    bulletSprite: 1
+    fireSound: 230
+    reloadSound: 231
+    compatibleAmmo:
+      - STR_STECHKIN_APS_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 16
+    accuracyAimed: 80
+    tuAimed: 50
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 12
+    accuracySnap: 65
+    tuSnap: 30
+    confAuto:
+      shots: 5
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    autoRange: 9
+    accuracyAuto: 60
+    tuAuto: 45
+    accuracyCloseQuarters: 100
+    tuLoad: 15
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 115
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    listOrder: 231
+  - type: STR_STECHKIN_APS_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
+    requiresBuy:
+      - STR_SOVIET_WEAPON_AQUISITION
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 3
+    bigSprite: 592
+    floorSprite: 592
+    handSprite: 592
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    armor: 10
+    listOrder: 233
+
+# Skorpion vz.61
+  - type: STR_SKORPION_VZ61
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SOVIET_TECHNOLOGY]
+    size: 0.2
+    requiresBuy:
+      - STR_SOVIET_WEAPON_AQUISITION
+    costBuy: 1000
+    costSell: 860
+    weight: 8
+    bigSprite: 600
+    floorSprite: 600
+    handSprite: 600
+    bulletSprite: 1
+    fireSound: 232
+    reloadSound: 233
+    compatibleAmmo:
+      - STR_STECHKIN_APS_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 20
+    accuracyAimed: 90
+    tuAimed: 40
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 16
+    accuracySnap: 70
+    tuSnap: 25
+    confAuto:
+      shots: 8
+      name: STR_SPRAY_N_PRAY
+      ammoSlot: 0
+      arcing: false
+    autoRange: 8
+    accuracyAuto: 60
+    tuAuto: 35
+    accuracyCloseQuarters: 100
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 125
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    twoHanded: false
+    listOrder: 232
+
+# AK-47
+  - type: STR_AK_47
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECHNOLOGY, STR_PROPRIETARY]
+    requiresBuy:
+      - STR_SOVIET_WEAPON_AQUISITION
+    size: 0.2
+    costBuy: 3000
+    costSell: 2780
+    weight: 12
+    bigSprite: 616
+    floorSprite: 616
+    handSprite: 616
+    bulletSprite: 1
+    fireSound: 234
+    reloadSound: 235
+    compatibleAmmo:
+      - STR_AK_47_MAG
+    confSnap:
+      shots: 3
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    snapRange: 18
+    accuracySnap: 85
+    tuSnap: 35
+    confAuto:
+      shots: 6
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    autoRange: 11
+    accuracyAuto: 60
+    tuAuto: 40
+    accuracyCloseQuarters: 90
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 125
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+# Bayonet Start
+    meleeHitSound: 500
+    meleeAnimation: 8
+    meleeType: 7
+    meleePower: 30
+    meleeBonus:
+      strength: 0.3
+      melee: 0.2
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    costMelee:
+      time: 20
+      energy: 8
+    flatMelee:
+      time: true
+# Bayonet End
+    listOrder: 234
+  - type: STR_AK_47_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECHNOLOGY, STR_MAGAZINES]
+    requiresBuy:
+      - STR_SOVIET_WEAPON_AQUISITION
+    size: 0.1
+    costBuy: 500
+    costSell: 420
+    weight: 2
+    bigSprite: 632
+    floorSprite: 632
+    handSprite: 632
+    hitSound: 22
+    hitAnimation: 26
+    power: 60
+    damageAlter:
+      ToWound: 0.6
+      ToHealth: 0.85
+    damageType: 1
+    clipSize: 30
+    battleType: 2
+    armor: 20
+    listOrder: 235
+
+# Winchester Model 12
+  - type: STR_WINCHESTER_MODEL_12
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS]
+    requiresBuy:
+      - STR_WINCHESTER_MODEL_12
+    size: 0.2
+    costBuy: 1300
+    costSell: 1150
+    weight: 11
+    bigSprite: 640
+    floorSprite: 640
+    handSprite: 640
+    bulletSprite: 3
+    fireSound: 236
+    reloadSound: 237
+    compatibleAmmo:
+      - STR_ITHACA_37_SHELLS
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 9
+    accuracyAimed: 110
+    tuAimed: 60
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 6
+    accuracySnap: 90
+    tuSnap: 35
+    accuracyCloseQuarters: 90
+    dropoff: 9
+    shotgunChoke: 60
+    tuLoad: 30
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 1
+    invHeight: 3
+    armor: 40
+    listOrder: 223
+
+# FN FAL
+  - type: STR_FN_FAL
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES]
+    requiresBuy:
+      - STR_FN_FAL
+    size: 0.2
+    costBuy: 1100
+    costSell: 900
+    weight: 14
+    bigSprite: 656
+    floorSprite: 656
+    handSprite: 656
+    bulletSprite: 4
+    fireSound: 238
+    reloadSound: 239
+    compatibleAmmo:
+      - STR_SPRINGFIELD_M14_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 30
+    accuracyAimed: 120
+    tuAimed: 65
+    confSnap:
+      shots: 2
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    snapRange: 16
+    accuracySnap: 60
+    tuSnap: 40
+    confAuto:
+      shots: 5
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    autoRange: 7
+    accuracyAuto: 40
+    tuAuto: 35
+    accuracyCloseQuarters: 90
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 115
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    listOrder: 225
+
+# Carl Gustaf m/45
+  - type: STR_CARL_GUSTAF_M45
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS]
+    size: 0.2
+    requiresBuy:
+      - STR_CARL_GUSTAF_M45
+    costBuy: 2000
+    costSell: 1800
+    weight: 8
+    bigSprite: 672
+    floorSprite: 672
+    handSprite: 672
+    bulletSprite: 1
+    fireSound: 240
+    reloadSound: 241
+    compatibleAmmo:
+      - STR_UNITED_DEFENSE_M42_20_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 22
+    accuracyAimed: 90
+    tuAimed: 48
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 12
+    accuracySnap: 75
+    tuSnap: 35
+    confAuto:
+      shots: 8
+      name: STR_SPRAY_N_PRAY
+      ammoSlot: 0
+      arcing: false
+    autoRange: 6
+    accuracyAuto: 45
+    tuAuto: 40
+    accuracyCloseQuarters: 100
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 115
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    twoHanded: true
+    listOrder: 206
+
+# China Lake Laser Projector
+  - type: STR_CHINA_LAKE_LASER_PROJECTOR
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_PROPRIETARY]
+    size: 0.2
+    costSell: 225000
+    weight: 20
+    bigSprite: 688
+    floorSprite: 688
+    handSprite: 688
+    bulletSpeed: 30
+    bulletSprite: 29
+    hitAnimation: 36
+    fireSound: 242
+    confSnap:
+      shots: 5
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    snapRange: 30
+    accuracySnap: 70
+    tuSnap: 40
+    confAuto:
+      shots: 10
+      name: STR_SUPPRESSION
+      ammoSlot: 0
+      arcing: false
+    autoRange: 20
+    accuracyAuto: 35
+    tuAuto: 55
+    accuracyCloseQuarters: 90
+    damageType: 4
+    power: 55
+    clipSize: -1
+    damageAlter:
+      RandomType: 7
+      ToArmor: 0.5
+    maxRange: 60
+    kneelBonus: 150
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    sprayWaypoints: 2
+    armor: 200
+    listOrder: 236
+
+# Sturm Ekanone
+  - type: STR_STURM_EKANONE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS]
+    size: 0.2
+    costSell: 180000
+    weight: 22
+    bigSprite: 696
+    floorSprite: 696
+    handSprite: 696
+    bulletSpeed: 1
+    fireSound: 243
+    reloadSound: 244
+    compatibleAmmo:
+      - STR_STURM_EKANONE_BATTERY
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 18
+    accuracyAimed: 110
+    tuAimed: 45
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 12
+    accuracySnap: 90
+    tuSnap: 20
+    accuracyCloseQuarters: 90
+    dropoff: 4
+    shotgunChoke: 70
+    tuLoad: 30
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 200
+    listOrder: 237
+  - type: STR_STURM_EKANONE_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    size: 0.1
+    costSell: 15000
+    weight: 3
+    bigSprite: 712
+    floorSprite: 712
+    handSprite: 712
+    bulletSprite: 30
+    hitAnimation: 102
+    power: 40
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 50
+    damageAlter:
+      ToStun: 1.25
+    damageType: 6
+    clipSize: 10
+    battleType: 2
+    armor: 200
+    listOrder: 238
+
+# Vikhr Electromagnetic Rifle
+  - type: STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES]
+    requiresBuy:
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    size: 0.2
+    costSell: 14000
+    weight: 13
+    bigSprite: 720
+    floorSprite: 720
+    handSprite: 720
+    bulletSprite: 31
+    fireSound: 245
+    reloadSound: 246
+    compatibleAmmo:
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+    confAimed:
+      shots: 1
+      name: STR_DEADEYE
+      ammoSlot: 0
+      arcing: false
+    aimRange: 60
+    accuracyAimed: 200
+    tuAimed: 55
+    confSnap:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    snapRange: 20
+    accuracySnap: 110
+    tuSnap: 40
+    accuracyCloseQuarters: 10
+    tuLoad: 30
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 150
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    twoHanded: true
+    armor: 200
+    listOrder: 239
+  - type: STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_CLIPS]
+    requiresBuy:
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    size: 0.1
+    costBuy: 500
+    costSell: 420
+    weight: 4
+    bigSprite: 736
+    floorSprite: 736
+    handSprite: 736
+    hitSound: 13
+    hitAnimation: 102
+    power: 120
+    damageAlter:
+      RandomType: 7
+      ArmorEffectiveness: 0.8
+      ToHealth: 1.25
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    armor: 200
+    listOrder: 240
+
+# Alien Laser Pistol
+  - type: STR_ALIEN_LASER_PISTOL
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT]
+    size: 0.1
+    costSell: 84000
+    weight: 3
+    bigSprite: 744
+    floorSprite: 744
+    handSprite: 744
+    bulletSprite: 32
+    bulletSpeed: 10
+    fireSound: 11
+    compatibleAmmo:
+      - STR_ALIEN_LASER_PISTOL_BATTERY
+    accuracyAuto: 50
+    accuracySnap: 65
+    accuracyAimed: 85
+    autoRange: 60
+    snapRange: 60
+    aimRange: 60
+    tuAuto: 30
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 45
+    listOrder: 241
+  - type: STR_ALIEN_LASER_PISTOL_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
+    size: 0.1
+    costSell: 4440
+    weight: 3
+    bigSprite: 760
+    floorSprite: 760
+    handSprite: 760
+    hitSound: 19
+    hitAnimation: 103
+    power: 65
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.75
+      ToArmor: 1.2
+    clipSize: 26
+    battleType: 2
+    recoveryPoints: 1
+    listOrder: 242
+
+# Alien Laser Rifle
+  - type: STR_ALIEN_LASER_RIFLE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT]
+    size: 0.2
+    costSell: 126500
+    weight: 5
+    bigSprite: 768
+    floorSprite: 768
+    handSprite: 768
+    bulletSprite: 29
+    bulletSpeed: 10
+    fireSound: 11
+    compatibleAmmo:
+      - STR_ALIEN_LASER_RIFLE_BATTERY
+    accuracyAuto: 55
+    accuracySnap: 86
+    accuracyAimed: 100
+    autoRange: 60
+    snapRange: 60
+    aimRange: 60
+    tuAuto: 35
+    tuSnap: 45
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    listOrder: 243
+  - type: STR_ALIEN_LASER_RIFLE_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
+    size: 0.1
+    costSell: 6290
+    weight: 3
+    bigSprite: 784
+    floorSprite: 784
+    handSprite: 784
+    hitSound: 19
+    hitAnimation: 103
+    power: 90
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.65
+      ToArmor: 1.2
+    clipSize: 20
+    battleType: 2
+    recoveryPoints: 1
+    listOrder: 244
+
+# Alien Heavy Laser
+  - type: STR_ALIEN_HEAVY_LASER
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT]
+    size: 0.2
+    costSell: 171600
+    weight: 8
+    bigSprite: 792
+    floorSprite: 792
+    handSprite: 792
+    bulletSprite: 29
+    bulletSpeed: 10
+    fireSound: 11
+    compatibleAmmo:
+      - STR_ALIEN_HEAVY_LASER_BATTERY
+    accuracySnap: 110
+    accuracyAimed: 200
+    snapRange: 60
+    aimRange: 60
+    tuSnap: 55
+    tuAimed: 70
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 50
+    listOrder: 245
+  - type: STR_ALIEN_HEAVY_LASER_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
+    size: 0.3
+    costSell: 9590
+    weight: 3
+    bigSprite: 808
+    floorSprite: 808
+    handSprite: 808
+    hitSound: 19
+    hitAnimation: 103
+    power: 150
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.50
+      ToArmor: 1.2
+    clipSize: 10
+    battleType: 2
+    recoveryPoints: 1
+    listOrder: 246
+
+# Alien Siege Launcher
+  - type: STR_ALIEN_SIEGE_LAUNCHER
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_ALIEN_ARTIFACT]
+    size: 0.3
+    costSell: 144000
+    weight: 16
+    bigSprite: 816
+    floorSprite: 816
+    handSprite: 816
+    bulletSprite: 4
+    fireSound: 53
+    compatibleAmmo:
+      - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+    accuracyAimed: 120
+    tuAimed: 66
+    battleType: 1
+    twoHanded: true
+    arcingShot: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 40
+    listOrder: 247
+  - type: STR_ALIEN_SIEGE_LAUNCHER_SHELL
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_ALIEN_ARTIFACT, STR_GRENADES]
+    size: 0.2
+    costSell: 17028
+    weight: 3
+    bigSprite: 832
+    floorSprite: 832
+    handSprite: 832
+    hitSound: 0
+    hitAnimation: 0
+    power: 150
+    damageType: 3
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.75
+      ToArmorPre: 0.3
+      RadiusReduction: 40
+      IgnoreSelfDestruct: true
+      toWound: 1.3
+      RandomWound: true
+      ToTile: 0.90
+      toStun: 1.2
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 1
+    blastRadius: 5
+    listOrder: 248
 
 ufopaedia:
   - id: STR_BROWNING_HP35
@@ -1339,6 +2078,121 @@ ufopaedia:
   - id: STR_COLT_AR15_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_STECHKIN_APS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_STECHKIN_APS_UFOPEDIA
+    requires:
+      - STR_SOVIET_WEAPON_AQUISITION
+    listOrder: 217
+  - id: STR_STECHKIN_APS_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SKORPION_VZ61
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SKORPION_VZ61_UFOPEDIA
+    requires:
+      - STR_SOVIET_WEAPON_AQUISITION
+    listOrder: 218
+  - id: STR_AK_47
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_AK_47_UFOPEDIA
+    requires:
+      - STR_SOVIET_WEAPON_AQUISITION
+    listOrder: 219
+  - id: STR_AK_47_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_WINCHESTER_MODEL_12
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_WINCHESTER_MODEL_12_UFOPEDIA
+    requires:
+      - STR_WINCHESTER_MODEL_12
+    listOrder: 220
+  - id: STR_FN_FAL
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_FN_FAL_UFOPEDIA
+    requires:
+      - STR_FN_FAL
+    listOrder: 221
+  - id: STR_CARL_GUSTAF_M45
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_CARL_GUSTAF_M45_UFOPEDIA
+    requires:
+      - STR_CARL_GUSTAF_M45
+    listOrder: 222
+  - id: STR_CHINA_LAKE_LASER_PROJECTOR
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_CHINA_LAKE_LASER_PROJECTOR_UFOPEDIA
+    requires:
+      - STR_CHINA_LAKE_LASER_PROJECTOR
+    listOrder: 223
+  - id: STR_STURM_EKANONE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_STURM_EKANONE_UFOPEDIA
+    requires:
+      - STR_STURM_EKANONE
+    listOrder: 224
+  - id: STR_STURM_EKANONE_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_VIKHR_ELECTROMAGNETIC_RIFLE_UFOPEDIA
+    requires:
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    listOrder: 225
+  - id: STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_LASER_PISTOL
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALIEN_LASER_PISTOL
+    text: STR_ALIEN_LASER_PISTOL_UFOPEDIA
+    listOrder: 226
+  - id: STR_ALIEN_LASER_PISTOL_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_LASER_RIFLE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALIEN_LASER_RIFLE
+    text: STR_ALIEN_LASER_RIFLE_UFOPEDIA
+    listOrder: 227
+  - id: STR_ALIEN_LASER_RIFLE_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_HEAVY_LASER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALIEN_HEAVY_LASER
+    text: STR_ALIEN_HEAVY_LASER_UFOPEDIA
+    listOrder: 228
+  - id: STR_ALIEN_HEAVY_LASER_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_SIEGE_LAUNCHER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALIEN_SIEGE_LAUNCHER
+    text: STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA
+    listOrder: 229
+  - id: STR_ALIEN_SIEGE_LAUNCHER_SHELL
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
 manufacture:
   - delete: STR_TANK_LASER_CANNON
@@ -1398,9 +2252,26 @@ research:
     dependencies:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
 
+  - name: STR_WINCHESTER_MODEL_12
+    cost: 50
+    points: 10
+
+  - name: STR_FN_FAL
+    cost: 50
+    points: 10
+    needItem: true
+
+  - name: STR_CARL_GUSTAF_M45
+    cost: 50
+    points: 10
+    needItem: true
+
   - name: STR_MILITARY_EQUIPMENT_AQUISITION
     cost: 300
     points: 100
+    unlocks:
+      - STR_WINCHESTER_MODEL_12
+      - STR_FN_FAL
 
   - name: STR_LIGHT_ASSAULT_RIFLE_REQUISITION
     cost: 100
@@ -1416,11 +2287,6 @@ research:
       - STR_SKORPION_VZ61
       - STR_AK_47
 
-  - name: STR_ALIEN_LASER_PISTOL
-    cost: 300
-    points: 50
-    needItem: true
-
   - name: STR_STECHKIN_APS
     cost: 100
     points: 25
@@ -1434,6 +2300,26 @@ research:
   - name: STR_AK_47
     cost: 100
     points: 25
+    needItem: true
+
+  - name: STR_CHINA_LAKE_LASER_PROJECTOR
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_STURM_EKANONE
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_ALIEN_LASER_PISTOL
+    cost: 300
+    points: 50
     needItem: true
 
   - name: STR_ALIEN_LASER_RIFLE
@@ -1501,6 +2387,39 @@ extraSprites:
       552: Resources/Weapons/Colt AR-15/Unloaded_Big.png
       560: Resources/Weapons/Colt AR-15/Loaded_20_Big.png
       568: Resources/Weapons/Colt AR-15/Mag_20_Big.png
+      576: Resources/Weapons/Stechkin APS/Unloaded_Big.png
+      584: Resources/Weapons/Stechkin APS/Loaded_20_Big.png
+      592: Resources/Weapons/Stechkin APS/Mag_20_Big.png
+      600: Resources/Weapons/Skorpion vz61/Unloaded_Big.png
+      608: Resources/Weapons/Skorpion vz61/Loaded_20_Big.png
+      616: Resources/Weapons/AK-47/Unloaded_Big.png
+      624: Resources/Weapons/AK-47/Loaded_30_Big.png
+      632: Resources/Weapons/AK-47/Mag_30_Big.png
+      640: Resources/Weapons/Winchester Model 12/Unloaded_Big.png
+      648: Resources/Weapons/Winchester Model 12/Loaded_6_Big.png
+      656: Resources/Weapons/FN FAL/Unloaded_Big.png
+      664: Resources/Weapons/FN FAL/Loaded_20_Big.png
+      672: Resources/Weapons/Carl Gustaf M45/Unloaded_Big.png
+      680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Big.png
+      688: Resources/Weapons/China Lake Laser Projector/Loaded_0_Big.png
+      696: Resources/Weapons/Sturm Ekanone/Unloaded_Big.png
+      704: Resources/Weapons/Sturm Ekanone/Loaded_10_Big.png
+      712: Resources/Weapons/Sturm Ekanone/Mag_10_Big.png
+      720: Resources/Weapons/Vikhr Electromagnetic Rifle/Unloaded_Big.png
+      728: Resources/Weapons/Vikhr Electromagnetic Rifle/Loaded_10_Big.png
+      736: Resources/Weapons/Vikhr Electromagnetic Rifle/Mag_10_Big.png
+      744: Resources/Weapons/Alien Laser Pistol/Unloaded_Big.png
+      752: Resources/Weapons/Alien Laser Pistol/Loaded_15_Big.png
+      760: Resources/Weapons/Alien Laser Pistol/Mag_15_Big.png
+      768: Resources/Weapons/Alien Laser Rifle/Unloaded_Big.png
+      776: Resources/Weapons/Alien Laser Rifle/Loaded_20_Big.png
+      784: Resources/Weapons/Alien Laser Rifle/Mag_20_Big.png
+      792: Resources/Weapons/Alien Heavy Laser/Unloaded_Big.png
+      800: Resources/Weapons/Alien Heavy Laser/Loaded_10_Big.png
+      808: Resources/Weapons/Alien Heavy Laser/Mag_10_Big.png
+      816: Resources/Weapons/Alien Siege Launcher/Unloaded_Big.png
+      824: Resources/Weapons/Alien Siege Launcher/Loaded_1_Big.png
+      832: Resources/Weapons/Alien Siege Launcher/Mag_1_Big.png
   - type: FLOOROB.PCK
     files:
       200: Resources/Weapons/Browning HP35/Unloaded_Floor.png
@@ -1550,6 +2469,39 @@ extraSprites:
       552: Resources/Weapons/Colt AR-15/Unloaded_Floor.png
       560: Resources/Weapons/Colt AR-15/Loaded_20_Floor.png
       568: Resources/Weapons/Colt AR-15/Mag_20_Floor.png
+      576: Resources/Weapons/Stechkin APS/Unloaded_Floor.png
+      584: Resources/Weapons/Stechkin APS/Loaded_20_Floor.png
+      592: Resources/Weapons/Stechkin APS/Mag_20_Floor.png
+      600: Resources/Weapons/Skorpion vz61/Unloaded_Floor.png
+      608: Resources/Weapons/Skorpion vz61/Loaded_20_Floor.png
+      616: Resources/Weapons/AK-47/Unloaded_Floor.png
+      624: Resources/Weapons/AK-47/Loaded_30_Floor.png
+      632: Resources/Weapons/AK-47/Mag_30_Floor.png
+      640: Resources/Weapons/Winchester Model 12/Unloaded_Floor.png
+      648: Resources/Weapons/Winchester Model 12/Loaded_6_Floor.png
+      656: Resources/Weapons/FN FAL/Unloaded_Floor.png
+      664: Resources/Weapons/FN FAL/Loaded_20_Floor.png
+      672: Resources/Weapons/Carl Gustaf M45/Unloaded_Floor.png
+      680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Floor.png
+      688: Resources/Weapons/China Lake Laser Projector/Loaded_0_Floor.png
+      696: Resources/Weapons/Sturm Ekanone/Unloaded_Floor.png
+      704: Resources/Weapons/Sturm Ekanone/Loaded_10_Floor.png
+      712: Resources/Weapons/Sturm Ekanone/Mag_10_Floor.png
+      720: Resources/Weapons/Vikhr Electromagnetic Rifle/Unloaded_Floor.png
+      728: Resources/Weapons/Vikhr Electromagnetic Rifle/Loaded_10_Floor.png
+      736: Resources/Weapons/Vikhr Electromagnetic Rifle/Mag_10_Floor.png
+      744: Resources/Weapons/Alien Laser Pistol/Unloaded_Floor.png
+      752: Resources/Weapons/Alien Laser Pistol/Loaded_15_Floor.png
+      760: Resources/Weapons/Alien Laser Pistol/Mag_15_Floor.png
+      768: Resources/Weapons/Alien Laser Rifle/Unloaded_Floor.png
+      776: Resources/Weapons/Alien Laser Rifle/Loaded_20_Floor.png
+      784: Resources/Weapons/Alien Laser Rifle/Mag_20_Floor.png
+      792: Resources/Weapons/Alien Heavy Laser/Unloaded_Floor.png
+      800: Resources/Weapons/Alien Heavy Laser/Loaded_10_Floor.png
+      808: Resources/Weapons/Alien Heavy Laser/Mag_10_Floor.png
+      816: Resources/Weapons/Alien Siege Launcher/Unloaded_Floor.png
+      824: Resources/Weapons/Alien Siege Launcher/Loaded_1_Floor.png
+      832: Resources/Weapons/Alien Siege Launcher/Mag_1_Floor.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -1603,6 +2555,58 @@ extraSprites:
       552: Resources/Weapons/Colt AR-15/Unloaded_Hand.png
       560: Resources/Weapons/Colt AR-15/Loaded_20_Hand.png
       568: Resources/Weapons/Colt AR-15/Mag_20_Hand.png
+      576: Resources/Weapons/Stechkin APS/Unloaded_Hand.png
+      584: Resources/Weapons/Stechkin APS/Loaded_20_Hand.png
+      592: Resources/Weapons/Stechkin APS/Mag_20_Hand.png
+      600: Resources/Weapons/Skorpion vz61/Unloaded_Hand.png
+      608: Resources/Weapons/Skorpion vz61/Loaded_20_Hand.png
+      616: Resources/Weapons/AK-47/Unloaded_Hand.png
+      624: Resources/Weapons/AK-47/Loaded_30_Hand.png
+      632: Resources/Weapons/AK-47/Mag_30_Hand.png
+      640: Resources/Weapons/Winchester Model 12/Unloaded_Hand.png
+      648: Resources/Weapons/Winchester Model 12/Loaded_6_Hand.png
+      656: Resources/Weapons/FN FAL/Unloaded_Hand.png
+      664: Resources/Weapons/FN FAL/Loaded_20_Hand.png
+      672: Resources/Weapons/Carl Gustaf M45/Unloaded_Hand.png
+      680: Resources/Weapons/Carl Gustaf M45/Loaded_20_Hand.png
+      688: Resources/Weapons/China Lake Laser Projector/Loaded_0_Hand.png
+      696: Resources/Weapons/Sturm Ekanone/Unloaded_Hand.png
+      704: Resources/Weapons/Sturm Ekanone/Loaded_10_Hand.png
+      712: Resources/Weapons/Sturm Ekanone/Mag_10_Hand.png
+      720: Resources/Weapons/Vikhr Electromagnetic Rifle/Unloaded_Hand.png
+      728: Resources/Weapons/Vikhr Electromagnetic Rifle/Loaded_10_Hand.png
+      736: Resources/Weapons/Vikhr Electromagnetic Rifle/Mag_10_Hand.png
+      744: Resources/Weapons/Alien Laser Pistol/Unloaded_Hand.png
+      752: Resources/Weapons/Alien Laser Pistol/Loaded_15_Hand.png
+      760: Resources/Weapons/Alien Laser Pistol/Mag_15_Hand.png
+      768: Resources/Weapons/Alien Laser Rifle/Unloaded_Hand.png
+      776: Resources/Weapons/Alien Laser Rifle/Loaded_20_Hand.png
+      784: Resources/Weapons/Alien Laser Rifle/Mag_20_Hand.png
+      792: Resources/Weapons/Alien Heavy Laser/Unloaded_Hand.png
+      800: Resources/Weapons/Alien Heavy Laser/Loaded_10_Hand.png
+      808: Resources/Weapons/Alien Heavy Laser/Mag_10_Hand.png
+      816: Resources/Weapons/Alien Siege Launcher/Unloaded_Hand.png
+      824: Resources/Weapons/Alien Siege Launcher/Loaded_1_Hand.png
+      832: Resources/Weapons/Alien Siege Launcher/Mag_1_Hand.png
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files: # Yellow Laser = 36
+      101: Resources/Weapons/HitAnimations/HumanElectric_Hit.png
+      102: Resources/Weapons/HitAnimations/Railgun_Hit.png
+      103: Resources/Weapons/HitAnimations/RedLaser_Hit.png
+  - type: Projectiles
+    height: 3
+    width: 105
+    subX: 3
+    subY: 3
+    files:
+      1015: Resources/Weapons/BulletSprites/WideYellowLaser_Bullet.png
+      1050: Resources/Weapons/BulletSprites/HumanElectric_Bullet.png
+      1085: Resources/Weapons/BulletSprites/Railgun_Bullet.png
+      1120: Resources/Weapons/BulletSprites/WideRedLaser_Bullet.png # 32
 
 extraSounds:
   - type: BATTLE.CAT
@@ -1663,6 +2667,7 @@ extraStrings:
       STR_ALIEN_ARTIFACT: "ALIEN ARTEFACT"
 
       STR_DAMAGE_ARMOR_PIERCING: "PIERCING"
+      STR_DAMAGE_STUN: "SHOCK"
       STR_DAMAGE_MELEE: "CUTTING"
       STR_DAMAGE_ACID: "TOXIN"
       STR_DAMAGE_PLASMA_BEAM: "FLASH"
@@ -1709,17 +2714,17 @@ extraStrings:
 
       STR_HEART_ATTACK_GUN: "Heart Attack Gun"
       STR_HEART_ATTACK_GUN_MAG: ".45 ACP Toxin Magazine (7x)"
-      STR_HEART_ATTACK_GUN_UFOPEDIA: "This M1911 has been modified to fire ricin toxin darts. It has an almost 100% lethality rate and is untracable, making it the perfect assassination weapon. Although we are primarily a reconnissance and intelligence gathering group, it may help us in combat scenarios. The darts have trouble piercing thick clothing and take a time to circulate throughout the body, giving the enemy a chance to react. We also don't know its effectiveness against alien biochemistry either. {NEWLINE}> Semi-Concealable"
+      STR_HEART_ATTACK_GUN_UFOPEDIA: "This M1911 has been modified to fire ricin toxin darts. It has an almost 100% lethality rate and is untracable, making it the perfect assassination weapon. Although we are primarily a reconnissance and intelligence gathering group, it may help us in combat scenarios. The darts have trouble piercing thick clothing and takes time to circulate throughout the body, giving the enemy a chance to react. We also don't know its effectiveness against alien biochemistry either. {NEWLINE}> Semi-Concealable"
 
       STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Requisition"
 
       STR_M3_GREASEGUN: "M3 Greasegun"
       STR_M3_GREASEGUN_MAG: ".45 ACP Magazine (30x)"
-      STR_M3_GREASEGUN_UFOPEDIA: "This infamoous machine gun is known for its ability to be manufactured cheapily and easily since the beginning of this service in the Second World War. It fires {ALT}.45 ACP{ALT} rounds out of 30 rd. magazines."
+      STR_M3_GREASEGUN_UFOPEDIA: "This famoous machine gun is known for its ability to be manufactured cheapily and easily since the beginning of this service in the Second World War. It fires {ALT}.45 ACP{ALT} rounds out of 30 rd. magazines."
 
       STR_M60_HOG: "M60 Hog"
       STR_M60_HOG_MAG: "7.62x51mm NATO Magazine (100x)"
-      STR_M60_HOG_UFOPEDIA: "A powerful light machine gun of recent design that uses {ALT}7.62x51mm NATO{ALT} which has such a high rate of fire that it risks melting the barrel. {NEWLINE}> Definitely Not Concealable"
+      STR_M60_HOG_UFOPEDIA: "A powerful light machine gun of recent design that uses {ALT}7.62x51mm NATO{ALT} which has such a high rate of fire that it risks melting the barrel. Its integrated bipod is {ALT}deployed{ALT} once loaded and grants a {ALT}kneelBonus{ALT} of {ALT}150{ALT} {NEWLINE}> Definitely Not Concealable"
 
       STR_M79_THUMPER: "M79 Thumper"
       STR_M79_THUMPER_GRENADE: "40mm AP Grenade"
@@ -1740,3 +2745,50 @@ extraStrings:
       STR_COLT_AR15: "Colt AR-15"
       STR_COLT_AR15_MAG: "5.56x45mm NATO Magazine (20x)"
       STR_COLT_AR15_UFOPEDIA: "This lightweight, selective fire assault rifle is a model originally made by ArmaLite and now produced by Colt. Uses the new {ALT}5.56x45mm NATO{ALT} intermediate caliber, which is easy to control and quite accurate. A very liked weapon, it is expected to be the future rifle of the US Army in the next decades."
+
+      STR_STECHKIN_APS: "Stechkin APS"
+      STR_STECHKIN_APS_MAG: "9x18mm Magazine (20x)"
+      STR_STECHKIN_APS_UFOPEDIA: "This pistol, a select fire handgun chambered in {ALT}9x18mm Makarov{ALT}, originating from the Soviet Union was originally designed for tank crews, however it has been adopted by Directorate 17 agents as thier standard side-arm. {NEWLINE}> Semi-Concealable"
+
+      STR_SKORPION_VZ61: "Skorpion vz61"
+      STR_SKORPION_VZ61_UFOPEDIA: "A Personal Defense Weapon manufactured in Czechoslovakia. This rendition, chambered in {ALT}9x18mm Makarov{ALT} instead of the traditional 7.58mm rounds, has made its way into the common ranks of Directorate 17."
+
+      STR_AK_47: "AKM"
+      STR_AK_47_MAG: "7.62x39mm Magazine (30x)"
+      STR_AK_47_UFOPEDIA: "Possibly one of the most prolific and mass-produced weapons in the world, and for good reason. A reliable and resiliant assault rifle. Chambered in {ALT}7.62x39mm{ALT}"
+
+      STR_WINCHESTER_MODEL_12: "Winchester Model 12"
+      STR_WINCHESTER_MODEL_12_UFOPEDIA: "The Winchester Model 12 is a pump-action shotgun chambered in {ALT}12 Gauge{ALT} ammunition. Though it has seen action in WII and Korea, it has a special place in the heart of the American civilian populace. Aquiring this weapon should be no issue, although there are probrably better alternatives."
+
+      STR_FN_FAL: "FN FAL"
+      STR_FN_FAL_UFOPEDIA: "The FN FAL is a battle rifle of Belgian design chambered in {ALT}7.62x51mm{ALT}. Chrisined the 'right hand of the free world' it has a place in many NATO countries' armories. While a great rifle that we should have no trouble in obtaining, there are probrably better alternatives when it comes to sustained fire."
+
+      STR_CARL_GUSTAF_M45: "Carl Gustaf m/45"
+      STR_CARL_GUSTAF_M45_UFOPEDIA: "A {ALT}9x19mm{ALT} SMG of Swedish design adpoted at the tail-end of WWII. In that time, has become a mainstay of the Swedish Army. While we shouldn't have trouble obtaining some of these, there are probrably better alternatives."
+
+      STR_CHINA_LAKE_LASER_PROJECTOR: "China Lake Laser Projector"
+      STR_CHINA_LAKE_LASER_PROJECTOR_UFOPEDIA: "This is an advanced prototype of a direct energy weapon assembled in secrecy at the China Lake Naval Air Weapons Station. It is the product of reverse engineering after the study of the laser weapons fielded by the aliens. While originally intended to be an air-mounted weapon, it was eventually miniaturized into a small arm intended for deployment by Navy Special Forces on black ops. They have provided us with most of their samples."
+
+      STR_STURM_EKANONE: "Sturm Ekanone"
+      STR_STURM_EKANONE_BATTERY: "Sturm Ekanone Battery (10x)"
+      STR_STURM_EKANONE_UFOPEDIA: "The sterotype about German engineering holds true. This masterpiece, the Sturm Ekanone, a pormanteau of the German words for Cannon and Electricity, is an electric weapon designed to incapacitate both biological and mechanical targets. Designed by NATO engineers after sharing the prototype Laser Projectors provided by the China Lake staff. It launches a short burst of electricity that can spread out to multiplte targets."
+
+      STR_VIKHR_ELECTROMAGNETIC_RIFLE: "Vikhr Electromagnetic Rifle"
+      STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG: "Vikhr EMR Mag (10x)"
+      STR_VIKHR_ELECTROMAGNETIC_RIFLE_UFOPEDIA: "The Vikhr Electromagnetic Rifle is the mouthful from the East which that isn't any better in its native tounge. It is a prototype high powered railgun that launches tungsten alloy slugs at ludicrous speeds, penetrating through several feet of steel. While Directorate 17 has not been willing to share much about its planned applications, we theorize it will be used against mechanized infantry or even aerial vehicles such as helicopters."
+     
+      STR_ALIEN_LASER_PISTOL: "Alien Laser Pistol"
+      STR_ALIEN_LASER_PISTOL_BATTERY: "Alien Light Battery (15x)"
+      STR_ALIEN_LASER_PISTOL_UFOPEDIA: "This 'hand weapon' (named by our technicians, judging by the size and use of this weapon by the enemy) uses novel technology to emit a powerful beam of light. When passing a Geiger counter, we can see that it emits a small amount of radiation, so it is not recommended for analysis without adequate protection."
+
+      STR_ALIEN_LASER_RIFLE: "Alien Laser Rifle"
+      STR_ALIEN_LASER_RIFLE_BATTERY: "Alien Medium Battery (20x)"
+      STR_ALIEN_LASER_RIFLE_UFOPEDIA: "Our studies and field reports point to this weapon as the standard weaponry of the enemy infantry (similar to our doctrines). This 'rifle', if you can call it that, has a compact power generator, which emits a light beam powered by a crystal of unknown origin. The beam is capable of penetrating armor without problems."
+
+      STR_ALIEN_HEAVY_LASER: "Alien Heavy Laser"
+      STR_ALIEN_HEAVY_LASER_BATTERY: "Alien Heavy Battery (10x)"
+      STR_ALIEN_HEAVY_LASER_UFOPEDIA: "A really heavy weapon, but extremely powerful. This cannon uses the same concept of an energy source that emits a laser, amplified by an alien crystal. This crystal is quite large, more than in other enemy devices, which we believe contributes to give it a greater range. We have noticed that it has a tendency to overheat."
+
+      STR_ALIEN_SIEGE_LAUNCHER: "Alien Siege Launcher"
+      STR_ALIEN_SIEGE_LAUNCHER_SHELL: "Alien Siege Shell"
+      STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "Unlike the other weapons we have found so far, this one seems to employ some kind of ballistic principle to propel its projectiles at an angle, similar to the way our mortars work. We have not found the way in which this weapon is held. The projectile is one of our greatest concerns, because it is fundamentally a miniature atomic bomb. Any alien using this weapon should have priority to be eliminated."

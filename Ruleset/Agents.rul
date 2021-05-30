@@ -55,7 +55,7 @@ soldiers:
     femaleFrequency: 35
     soldierNames:
       - delete
-      - NamesAgents/
+      - NamesCIA/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
     rankStrings:

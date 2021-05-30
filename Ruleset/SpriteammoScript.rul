@@ -111,50 +111,101 @@ items:
   - type: STR_M3_GREASEGUN_MAG
     tags:
       AmmoNo: 1
-  - id: STR_M3_GREASEGUN
-    type_id: 4
-    section: STR_WEAPONS
-    text: STR_M3_GREASEGUN_UFOPEDIA
-    requires:
-      - STR_MILITARY_EQUIPMENT_AQUISITION
-    listOrder: 200
-  - id: STR_M3_GREASEGUN_MAG
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_M60_HOG
+  - type: STR_M60_HOG
     tags:
       AmmoReSprite: 1
-  - id: STR_M60_HOG_MAG
+  - type: STR_M60_HOG_MAG
     tags:
       AmmoNo: 1
-  - id: STR_M79_THUMPER
+  - type: STR_M79_THUMPER
     tags:
       AmmoReSprite: 1
-  - id: STR_M79_THUMPER_GRENADE
+  - type: STR_M79_THUMPER_GRENADE
     tags:
       AmmoNo: 1
-  - id: STR_ITHICA_37
+  - type: STR_ITHACA_37
     tags:
       AmmoReSprite: 1
-  - id: STR_ITHICA_37_SHELLS
+  - type: STR_ITHACA_37_SHELLS
     tags:
       AmmoNo: 1
-  - id: STR_SPRINGFIELD_M14
+  - type: STR_SPRINGFIELD_M14
     tags:
       AmmoReSprite: 1
-  - id: STR_SPRINGFIELD_M14_MAG
+  - type: STR_SPRINGFIELD_M14_MAG
     tags:
       AmmoNo: 1
-  - id: STR_SPRINGFIELD_M1903A3
+  - type: STR_SPRINGFIELD_M1903A3
     tags:
       AmmoReSprite: 1
-  - id: STR_SPRINGFIELD_M1903A3_CLIP
+  - type: STR_SPRINGFIELD_M1903A3_CLIP
     tags:
       AmmoNo: 1
-  - id: STR_COLT_AR15
+  - type: STR_COLT_AR15
     tags:
       AmmoReSprite: 1
-  - id: STR_COLT_AR15_MAG
+  - type: STR_COLT_AR15_MAG
+    tags:
+      AmmoNo: 1
+
+  - type: STR_STECHKIN_APS
+    tags:
+      AmmoReSprite: 1
+  - type: STR_STECHKIN_APS_MAG
+    tags:
+      AmmoNo: 1
+  - type: STR_SKORPION_VZ61
+    tags:
+      AmmoReSprite: 1
+  - type: STR_AK_47
+    tags:
+      AmmoReSprite: 1
+  - type: STR_AK_47_MAG
+    tags:
+      AmmoNo: 1
+  - type: STR_WINCHESTER_MODEL_12
+    tags:
+      AmmoReSprite: 1
+  - type: STR_FN_FAL
+    tags:
+      AmmoReSprite: 1
+  - type: STR_CARL_GUSTAF_M45
+    tags:
+      AmmoReSprite: 1
+  - type: STR_STURM_EKANONE
+    tags:
+      AmmoReSprite: 1
+  - type: STR_STURM_EKANONE_BATTERY
+    tags:
+      AmmoNo: 1
+  - type: STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    tags:
+      AmmoReSprite: 1
+  - type: STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+    tags: 
+      AmmoNo: 1
+  - type: STR_ALIEN_LASER_PISTOL
+    tags:
+      AmmoReSprite: 1
+  - type: STR_ALIEN_LASER_PISTOL_BATTERY
+    tags:
+      AmmoNo: 1
+  - type: STR_ALIEN_LASER_RIFLE
+    tags:
+      AmmoReSprite: 1
+  - type: STR_ALIEN_LASER_RIFLE_BATTERY
+    tags:
+      AmmoNo: 1
+  - type: STR_HEAVY_ALIEN_LASER
+    tags:
+      AmmoReSprite: 1
+  - type: STR_HEAVY_ALIEN_LASER_BATTERY
+    tags:
+      AmmoNo: 1
+  - type: STR_ALIEN_SIEGE_LAUNCHER
+    tags:
+      AmmoReSprite: 1
+  - type: STR_ALIEN_SIEGE_LAUNCHER_SHELL
     tags:
       AmmoNo: 1
 

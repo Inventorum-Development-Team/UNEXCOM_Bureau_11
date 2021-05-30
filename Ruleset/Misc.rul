@@ -188,6 +188,33 @@ extraSprites:
     files:
       0: Resources/Misc/Backgrounds/BACK17.PNG
 
+### Turn Hidden movement background
+
+  - type: TACTICBACK00.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/TACTICBACK00.PNG
+  - type: TACTICBACK01.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/TACTICBACK01.PNG
+  - type: TACTICBACK02.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/TACTICBACK02.PNG
+  - type: TACTICBACK03.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/TACTICBACK03.PNG
+
 extraStrings:
   - type: en-US
     strings:

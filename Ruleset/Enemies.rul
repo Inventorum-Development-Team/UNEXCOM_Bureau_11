@@ -210,18 +210,19 @@ research:
     points: 50
     lookup: STR_THIN_MAN_AUTOPSY
     needItem: true
-    listOrder: 1000
+    listOrder: 1001
 
 ufopaedia:
   - id: STR_THIN_MAN
     type_id: 7
     section: STR_ENEMIES
     requires:
-      - STR_THIN_MAN
+      - STR_THIN_MAN_INFILTRATOR
     image_id: UFOPAEDIA_IMG_THIN_MAN
     text: STR_THIN_MAN_UFOPAEDIA
     text_width: 158
     listOrder: 1000
+
   - id: STR_THIN_MAN_AUTOPSY
     type_id: 7
     section: STR_ENEMIES
@@ -296,9 +297,10 @@ extraStrings:
       STR_HYBRID: "Hybrid"
       STR_THIN_MAN: "Thin Man"
       STR_THIN_MAN_CORPSE: "Thin Man Carcass"
+      STR_THIN_MAN_AUTOPSY: "Thin Man Autopsy"
+      STR_THIN_MAN_AUTOPSY_UFOPAEDIA: "This creature is clearly a product of genetic engineering. It appears to be an attempted replication of a human, down to the DNA level. However, it appears to be imperfect with some eerie features such as reptilian eyes. Reports from the field indicate that they exerted some sort of mental control over the troops. Perhaps this is to assist in the disguise, or to improve the creature's combat power. Nevertheless, this is a dangerous creature that should not be underestimated."
       STR_THIN_MAN_INFILTRATOR: "Thin Man Infiltrator"
-      STR_THIN_MAN_AUTOPSY_UFOPAEDIA: "Placeholder"
-      STR_THIN_MAN_UFOPAEDIA: "Placeholder"
+      STR_THIN_MAN_UFOPAEDIA: "The 'Thin Man' as it has been christened by our troops, appears to be a gaunt Cacucasian man, but sports eerie features such as reptilian eyes. Interrogation proved to be futile as it seemed to have an unconcious control over our researchers. A person of a more unprofessional background may refer to it as...telepathy. Sadly, it was terminated after it tried to escape."
       STR_D17: "KGB Directorate 17"
       STR_D17_SOLDIER: "D17 Soldier"
       STR_D17_OFFICER: "D17 Officer"
