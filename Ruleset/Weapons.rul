@@ -1975,6 +1975,9 @@ ufopaedia:
   - id: STR_SPRINGFIELD_M2_30_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_HIGH_STANDARD_HDM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
     text: STR_HIGH_STANDARD_HDM_UFOPEDIA
     requires:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
