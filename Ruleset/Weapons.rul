@@ -2641,23 +2641,6 @@ extraSounds:
       227: Resources/Weapons/Springfield M1903A3/reload.wav
       228: Resources/Weapons/Colt AR-15/fire.wav
       229: Resources/Weapons/Colt AR-15/reload.wav
-      230: Resources/Weapons/Stechkin APS/fire.wav
-      231: Resources/Weapons/Stechkin APS/reload.wav
-      232: Resources/Weapons/Skorpion vz61/fire.wav
-      233: Resources/Weapons/Skorpion vz61/reload.wav
-      234: Resources/Weapons/AK-47/fire.wav
-      235: Resources/Weapons/AK-47/reload.wav
-      236: Resources/Weapons/Winchester Model 12/fire.wav
-      237: Resources/Weapons/Winchester Model 12/reload.wav
-      238: Resources/Weapons/FN FAL/fire.wav
-      239: Resources/Weapons/FN FAL/reload.wav
-      240: Resources/Weapons/Carl Gustaf M45/fire.wav
-      241: Resources/Weapons/Carl Gustaf M45/reload.wav
-      242: Resources/Weapons/China Lake Laser Projector/fire.wav
-      243: Resources/Weapons/Sturm Ekanone/fire.wav
-      244: Resources/Weapons/Sturm Ekanone/reload.wav
-      245: Resources/Weapons/Vikhr Electromagnetic Rifle/fire.wav
-      246: Resources/Weapons/Vikhr Electromagnetic Rifle/reload.wav
 
 extraStrings:
   - type: en-US
