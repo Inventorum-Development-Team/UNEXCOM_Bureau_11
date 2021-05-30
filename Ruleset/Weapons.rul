@@ -857,7 +857,7 @@ items:
     armor: 30
     listOrder: 221
   - type: STR_M79_THUMPER_GRENADE
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_GRENADES]
     requiresBuy:
       - STR_MILITARY_EQUIPMENT_AQUISITION
     size: 0.1
@@ -1731,6 +1731,7 @@ items:
 
 # Alien Laser Pistol
   - type: STR_ALIEN_LASER_PISTOL
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT]
     size: 0.1
     costSell: 84000
     weight: 3
@@ -1745,6 +1746,9 @@ items:
     accuracyAuto: 50
     accuracySnap: 65
     accuracyAimed: 85
+    autoRange: 60
+    snapRange: 60
+    aimRange: 60
     tuAuto: 30
     tuSnap: 30
     tuAimed: 60
@@ -1753,7 +1757,9 @@ items:
     invHeight: 2
     recoveryPoints: 3
     armor: 45
+    listOrder: 241
   - type: STR_ALIEN_LASER_PISTOL_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
     costSell: 4440
     weight: 3
@@ -1770,9 +1776,11 @@ items:
     clipSize: 26
     battleType: 2
     recoveryPoints: 1
+    listOrder: 242
 
 # Alien Laser Rifle
   - type: STR_ALIEN_LASER_RIFLE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
     costSell: 126500
     weight: 5
@@ -1787,6 +1795,9 @@ items:
     accuracyAuto: 55
     accuracySnap: 86
     accuracyAimed: 100
+    autoRange: 60
+    snapRange: 60
+    aimRange: 60
     tuAuto: 35
     tuSnap: 45
     tuAimed: 60
@@ -1796,7 +1807,9 @@ items:
     invHeight: 3
     recoveryPoints: 4
     armor: 50
+    listOrder: 243
   - type: STR_ALIEN_LASER_RIFLE_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
     costSell: 6290
     weight: 3
@@ -1813,9 +1826,11 @@ items:
     clipSize: 20
     battleType: 2
     recoveryPoints: 1
+    listOrder: 244
 
 # Alien Heavy Laser
   - type: STR_ALIEN_HEAVY_LASER
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
     costSell: 171600
     weight: 8
@@ -1827,10 +1842,10 @@ items:
     fireSound: 11
     compatibleAmmo:
       - STR_ALIEN_HEAVY_LASER_BATTERY
-    accuracyAuto: 50
-    accuracySnap: 75
-    accuracyAimed: 110
-    tuAuto: 40
+    accuracySnap: 110
+    accuracyAimed: 200
+    snapRange: 60
+    aimRange: 60
     tuSnap: 55
     tuAimed: 70
     battleType: 1
@@ -1839,7 +1854,9 @@ items:
     invHeight: 3
     recoveryPoints: 5
     armor: 50
+    listOrder: 245
   - type: STR_ALIEN_HEAVY_LASER_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.3
     costSell: 9590
     weight: 3
@@ -1856,9 +1873,11 @@ items:
     clipSize: 10
     battleType: 2
     recoveryPoints: 1
+    listOrder: 246
 
 # Alien Siege Launcher
   - type: STR_ALIEN_SIEGE_LAUNCHER
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_ALIEN_ARTIFACT]
     size: 0.3
     costSell: 144000
     weight: 16
@@ -1878,7 +1897,9 @@ items:
     invHeight: 3
     recoveryPoints: 5
     armor: 40
+    listOrder: 247
   - type: STR_ALIEN_SIEGE_LAUNCHER_SHELL
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_ALIEN_ARTIFACT, STR_GRENADES]
     size: 0.2
     costSell: 17028
     weight: 3
@@ -1905,6 +1926,7 @@ items:
     invHeight: 2
     recoveryPoints: 1
     blastRadius: 5
+    listOrder: 248
 
 ufopaedia:
   - id: STR_BROWNING_HP35
@@ -2133,7 +2155,7 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_ALIEN_LASER_PISTOL
     type_id: 4
-    section: STR_ALIEN_ARTEFACTS
+    section: STR_ALIEN_ARTIFACTS
     requires:
       - STR_ALIEN_LASER_PISTOL
     text: STR_ALIEN_LASER_PISTOL_UFOPEDIA
@@ -2143,7 +2165,7 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_ALIEN_LASER_RIFLE
     type_id: 4
-    section: STR_ALIEN_ARTEFACTS
+    section: STR_ALIEN_ARTIFACTS
     requires:
       - STR_ALIEN_LASER_RIFLE
     text: STR_ALIEN_LASER_RIFLE_UFOPEDIA
@@ -2153,7 +2175,7 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_ALIEN_HEAVY_LASER
     type_id: 4
-    section: STR_ALIEN_ARTEFACTS
+    section: STR_ALIEN_ARTIFACTS
     requires:
       - STR_ALIEN_HEAVY_LASER
     text: STR_ALIEN_HEAVY_LASER_UFOPEDIA
@@ -2163,7 +2185,7 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_ALIEN_SIEGE_LAUNCHER
     type_id: 4
-    section: STR_ALIEN_ARTEFACTS
+    section: STR_ALIEN_ARTIFACTS
     requires:
       - STR_ALIEN_SIEGE_LAUNCHER
     text: STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA
@@ -2773,15 +2795,15 @@ extraStrings:
       STR_VIKHR_ELECTROMAGNETIC_RIFLE_UFOPEDIA: "The Vikhr Electromagnetic Rifle is the mouthful from the East which that isn't any better in its native tounge. It is a prototype high powered railgun that launches tungsten alloy slugs at ludicrous speeds, penetrating through several feet of steel. While Directorate 17 has not been willing to share much about its planned applications, we theorize it will be used against mechanized infantry or even aerial vehicles such as helicopters."
      
       STR_ALIEN_LASER_PISTOL: "Alien Laser Pistol"
-      STR_ALIEN_LASER_PISTOL_BATTERY: "Alien Light Battery"
+      STR_ALIEN_LASER_PISTOL_BATTERY: "Alien Light Battery (15x)"
       STR_ALIEN_LASER_PISTOL_UFOPEDIA: "This 'hand weapon' (named by our technicians, judging by the size and use of this weapon by the enemy) uses novel technology to emit a powerful beam of light. When passing a Geiger counter, we can see that it emits a small amount of radiation, so it is not recommended for analysis without adequate protection."
 
       STR_ALIEN_LASER_RIFLE: "Alien Laser Rifle"
-      STR_ALIEN_LASER_RIFLE_BATTERY: "Alien Medium Battery"
+      STR_ALIEN_LASER_RIFLE_BATTERY: "Alien Medium Battery (20x)"
       STR_ALIEN_LASER_RIFLE_UFOPEDIA: "Our studies and field reports point to this weapon as the standard weaponry of the enemy infantry (similar to our doctrines). This 'rifle', if you can call it that, has a compact power generator, which emits a light beam powered by a crystal of unknown origin. The beam is capable of penetrating armor without problems."
 
       STR_ALIEN_HEAVY_LASER: "Alien Heavy Laser"
-      STR_ALIEN_HEAVY_LASER_BATTERY: "Alien Heavy Battery"
+      STR_ALIEN_HEAVY_LASER_BATTERY: "Alien Heavy Battery (10x)"
       STR_ALIEN_HEAVY_LASER_UFOPEDIA: "A really heavy weapon, but extremely powerful. This cannon uses the same concept of an energy source that emits a laser, amplified by an alien crystal. This crystal is quite large, more than in other enemy devices, which we believe contributes to give it a greater range. We have noticed that it has a tendency to overheat."
 
       STR_ALIEN_SIEGE_LAUNCHER: "Alien Siege Launcher"
