@@ -182,6 +182,30 @@ items:
     tags:
       AmmoReSprite: 1
   - type: STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+    tags: 
+      AmmoNo: 1
+  - type: STR_ALIEN_LASER_PISTOL
+    tags:
+      AmmoReSprite: 1
+  - type: STR_ALIEN_LASER_PISTOL_BATTERY
+    tags:
+      AmmoNo: 1
+  - type: STR_ALIEN_LASER_RIFLE
+    tags:
+      AmmoReSprite: 1
+  - type: STR_ALIEN_LASER_RIFLE_BATTERY
+    tags:
+      AmmoNo: 1
+  - type: STR_HEAVY_ALIEN_LASER
+    tags:
+      AmmoReSprite: 1
+  - type: STR_HEAVY_ALIEN_LASER_BATTERY
+    tags:
+      AmmoNo: 1
+  - type: STR_ALIEN_SIEGE_LAUNCHER
+    tags:
+      AmmoReSprite: 1
+  - type: STR_ALIEN_SIEGE_LAUNCHER_SHELL
     tags:
       AmmoNo: 1
 

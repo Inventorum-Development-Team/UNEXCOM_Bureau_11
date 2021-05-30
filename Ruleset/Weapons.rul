@@ -1099,10 +1099,10 @@ items:
     handSprite: 544
     hitSound: 13
     hitAnimation: 26
-    power: 80
+    power: 60
     damageAlter:
-      ToWound: 0.4
-      ToHealth: 0.7
+      ToWound: 0.9
+      ToHealth: 1.1
     damageType: 1
     clipSize: 6
     battleType: 2
@@ -1729,6 +1729,183 @@ items:
     armor: 200
     listOrder: 240
 
+# Alien Laser Pistol
+  - type: STR_ALIEN_LASER_PISTOL
+    size: 0.1
+    costSell: 84000
+    weight: 3
+    bigSprite: 744
+    floorSprite: 744
+    handSprite: 744
+    bulletSprite: 32
+    bulletSpeed: 10
+    fireSound: 11
+    compatibleAmmo:
+      - STR_ALIEN_LASER_PISTOL_BATTERY
+    accuracyAuto: 50
+    accuracySnap: 65
+    accuracyAimed: 85
+    tuAuto: 30
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 45
+  - type: STR_ALIEN_LASER_PISTOL_BATTERY
+    size: 0.1
+    costSell: 4440
+    weight: 3
+    bigSprite: 760
+    floorSprite: 760
+    handSprite: 760
+    hitSound: 19
+    hitAnimation: 103
+    power: 65
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.75
+      ToArmor: 1.2
+    clipSize: 26
+    battleType: 2
+    recoveryPoints: 1
+
+# Alien Laser Rifle
+  - type: STR_ALIEN_LASER_RIFLE
+    size: 0.2
+    costSell: 126500
+    weight: 5
+    bigSprite: 768
+    floorSprite: 768
+    handSprite: 768
+    bulletSprite: 29
+    bulletSpeed: 10
+    fireSound: 11
+    compatibleAmmo:
+      - STR_ALIEN_LASER_RIFLE_BATTERY
+    accuracyAuto: 55
+    accuracySnap: 86
+    accuracyAimed: 100
+    tuAuto: 35
+    tuSnap: 45
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+  - type: STR_ALIEN_LASER_RIFLE_BATTERY
+    size: 0.1
+    costSell: 6290
+    weight: 3
+    bigSprite: 784
+    floorSprite: 784
+    handSprite: 784
+    hitSound: 19
+    hitAnimation: 103
+    power: 90
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.65
+      ToArmor: 1.2
+    clipSize: 20
+    battleType: 2
+    recoveryPoints: 1
+
+# Alien Heavy Laser
+  - type: STR_ALIEN_HEAVY_LASER
+    size: 0.2
+    costSell: 171600
+    weight: 8
+    bigSprite: 792
+    floorSprite: 792
+    handSprite: 792
+    bulletSprite: 29
+    bulletSpeed: 10
+    fireSound: 11
+    compatibleAmmo:
+      - STR_ALIEN_HEAVY_LASER_BATTERY
+    accuracyAuto: 50
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuAuto: 40
+    tuSnap: 55
+    tuAimed: 70
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 50
+  - type: STR_ALIEN_HEAVY_LASER_BATTERY
+    size: 0.3
+    costSell: 9590
+    weight: 3
+    bigSprite: 808
+    floorSprite: 808
+    handSprite: 808
+    hitSound: 19
+    hitAnimation: 103
+    power: 150
+    damageType: 4
+    damageAlter:
+      ArmorEffectiveness: 0.50
+      ToArmor: 1.2
+    clipSize: 10
+    battleType: 2
+    recoveryPoints: 1
+
+# Alien Siege Launcher
+  - type: STR_ALIEN_SIEGE_LAUNCHER
+    size: 0.3
+    costSell: 144000
+    weight: 16
+    bigSprite: 816
+    floorSprite: 816
+    handSprite: 816
+    bulletSprite: 4
+    fireSound: 53
+    compatibleAmmo:
+      - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+    accuracyAimed: 120
+    tuAimed: 66
+    battleType: 1
+    twoHanded: true
+    arcingShot: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_ALIEN_SIEGE_LAUNCHER_SHELL
+    size: 0.2
+    costSell: 17028
+    weight: 3
+    bigSprite: 832
+    floorSprite: 832
+    handSprite: 832
+    hitSound: 0
+    hitAnimation: 0
+    power: 150
+    damageType: 3
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.75
+      ToArmorPre: 0.3
+      RadiusReduction: 40
+      IgnoreSelfDestruct: true
+      toWound: 1.3
+      RandomWound: true
+      ToTile: 0.90
+      toStun: 1.2
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 1
+    blastRadius: 5
+
 ufopaedia:
   - id: STR_BROWNING_HP35
     type_id: 4
@@ -1954,6 +2131,46 @@ ufopaedia:
   - id: STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_LASER_PISTOL
+    type_id: 4
+    section: STR_ALIEN_ARTEFACTS
+    requires:
+      - STR_ALIEN_LASER_PISTOL
+    text: STR_ALIEN_LASER_PISTOL_UFOPEDIA
+    listOrder: 226
+  - id: STR_ALIEN_LASER_PISTOL_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_LASER_RIFLE
+    type_id: 4
+    section: STR_ALIEN_ARTEFACTS
+    requires:
+      - STR_ALIEN_LASER_RIFLE
+    text: STR_ALIEN_LASER_RIFLE_UFOPEDIA
+    listOrder: 227
+  - id: STR_ALIEN_LASER_RIFLE_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_HEAVY_LASER
+    type_id: 4
+    section: STR_ALIEN_ARTEFACTS
+    requires:
+      - STR_ALIEN_HEAVY_LASER
+    text: STR_ALIEN_HEAVY_LASER_UFOPEDIA
+    listOrder: 228
+  - id: STR_ALIEN_HEAVY_LASER_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_SIEGE_LAUNCHER
+    type_id: 4
+    section: STR_ALIEN_ARTEFACTS
+    requires:
+      - STR_ALIEN_SIEGE_LAUNCHER
+    text: STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA
+    listOrder: 229
+  - id: STR_ALIEN_SIEGE_LAUNCHER_SHELL
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
 manufacture:
   - delete: STR_TANK_LASER_CANNON
@@ -2048,11 +2265,6 @@ research:
       - STR_SKORPION_VZ61
       - STR_AK_47
 
-  - name: STR_ALIEN_LASER_PISTOL
-    cost: 300
-    points: 50
-    needItem: true
-
   - name: STR_STECHKIN_APS
     cost: 100
     points: 25
@@ -2080,6 +2292,11 @@ research:
 
   - name: STR_VIKHR_ELECTROMAGNETIC_RIFLE
     cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_ALIEN_LASER_PISTOL
+    cost: 300
     points: 50
     needItem: true
 
@@ -2169,6 +2386,18 @@ extraSprites:
       720: Resources/Weapons/Vikhr Electromagnetic Rifle/Unloaded_Big.png
       728: Resources/Weapons/Vikhr Electromagnetic Rifle/Loaded_10_Big.png
       736: Resources/Weapons/Vikhr Electromagnetic Rifle/Mag_10_Big.png
+      744: Resources/Weapons/Alien Laser Pistol/Unloaded_Big.png
+      752: Resources/Weapons/Alien Laser Pistol/Loaded_15_Big.png
+      760: Resources/Weapons/Alien Laser Pistol/Mag_15_Big.png
+      768: Resources/Weapons/Alien Laser Rifle/Unloaded_Big.png
+      776: Resources/Weapons/Alien Laser Rifle/Loaded_20_Big.png
+      784: Resources/Weapons/Alien Laser Rifle/Mag_20_Big.png
+      792: Resources/Weapons/Alien Heavy Laser/Unloaded_Big.png
+      800: Resources/Weapons/Alien Heavy Laser/Loaded_10_Big.png
+      808: Resources/Weapons/Alien Heavy Laser/Mag_10_Big.png
+      816: Resources/Weapons/Alien Siege Launcher/Unloaded_Big.png
+      824: Resources/Weapons/Alien Siege Launcher/Loaded_1_Big.png
+      832: Resources/Weapons/Alien Siege Launcher/Mag_1_Big.png
   - type: FLOOROB.PCK
     files:
       200: Resources/Weapons/Browning HP35/Unloaded_Floor.png
@@ -2239,6 +2468,18 @@ extraSprites:
       720: Resources/Weapons/Vikhr Electromagnetic Rifle/Unloaded_Floor.png
       728: Resources/Weapons/Vikhr Electromagnetic Rifle/Loaded_10_Floor.png
       736: Resources/Weapons/Vikhr Electromagnetic Rifle/Mag_10_Floor.png
+      744: Resources/Weapons/Alien Laser Pistol/Unloaded_Floor.png
+      752: Resources/Weapons/Alien Laser Pistol/Loaded_15_Floor.png
+      760: Resources/Weapons/Alien Laser Pistol/Mag_15_Floor.png
+      768: Resources/Weapons/Alien Laser Rifle/Unloaded_Floor.png
+      776: Resources/Weapons/Alien Laser Rifle/Loaded_20_Floor.png
+      784: Resources/Weapons/Alien Laser Rifle/Mag_20_Floor.png
+      792: Resources/Weapons/Alien Heavy Laser/Unloaded_Floor.png
+      800: Resources/Weapons/Alien Heavy Laser/Loaded_10_Floor.png
+      808: Resources/Weapons/Alien Heavy Laser/Mag_10_Floor.png
+      816: Resources/Weapons/Alien Siege Launcher/Unloaded_Floor.png
+      824: Resources/Weapons/Alien Siege Launcher/Loaded_1_Floor.png
+      832: Resources/Weapons/Alien Siege Launcher/Mag_1_Floor.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -2313,6 +2554,18 @@ extraSprites:
       720: Resources/Weapons/Vikhr Electromagnetic Rifle/Unloaded_Hand.png
       728: Resources/Weapons/Vikhr Electromagnetic Rifle/Loaded_10_Hand.png
       736: Resources/Weapons/Vikhr Electromagnetic Rifle/Mag_10_Hand.png
+      744: Resources/Weapons/Alien Laser Pistol/Unloaded_Hand.png
+      752: Resources/Weapons/Alien Laser Pistol/Loaded_15_Hand.png
+      760: Resources/Weapons/Alien Laser Pistol/Mag_15_Hand.png
+      768: Resources/Weapons/Alien Laser Rifle/Unloaded_Hand.png
+      776: Resources/Weapons/Alien Laser Rifle/Loaded_20_Hand.png
+      784: Resources/Weapons/Alien Laser Rifle/Mag_20_Hand.png
+      792: Resources/Weapons/Alien Heavy Laser/Unloaded_Hand.png
+      800: Resources/Weapons/Alien Heavy Laser/Loaded_10_Hand.png
+      808: Resources/Weapons/Alien Heavy Laser/Mag_10_Hand.png
+      816: Resources/Weapons/Alien Siege Launcher/Unloaded_Hand.png
+      824: Resources/Weapons/Alien Siege Launcher/Loaded_1_Hand.png
+      832: Resources/Weapons/Alien Siege Launcher/Mag_1_Hand.png
   - type: SMOKE.PCK
     height: 80
     width: 160
@@ -2331,7 +2584,7 @@ extraSprites:
       1015: Resources/Weapons/BulletSprites/WideYellowLaser_Bullet.png
       1050: Resources/Weapons/BulletSprites/HumanElectric_Bullet.png
       1085: Resources/Weapons/BulletSprites/Railgun_Bullet.png
-      1120: Resources/Weapons/BulletSprites/WideRedLaser_Bullet.png
+      1120: Resources/Weapons/BulletSprites/WideRedLaser_Bullet.png # 32
 
 extraSounds:
   - type: BATTLE.CAT
@@ -2519,4 +2772,18 @@ extraStrings:
       STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG: "Vikhr EMR Mag (10x)"
       STR_VIKHR_ELECTROMAGNETIC_RIFLE_UFOPEDIA: "The Vikhr Electromagnetic Rifle is the mouthful from the East which that isn't any better in its native tounge. It is a prototype high powered railgun that launches tungsten alloy slugs at ludicrous speeds, penetrating through several feet of steel. While Directorate 17 has not been willing to share much about its planned applications, we theorize it will be used against mechanized infantry or even aerial vehicles such as helicopters."
      
-    
+      STR_ALIEN_LASER_PISTOL: "Alien Laser Pistol"
+      STR_ALIEN_LASER_PISTOL_BATTERY: "Alien Light Battery"
+      STR_ALIEN_LASER_PISTOL_UFOPEDIA: "This 'hand weapon' (named by our technicians, judging by the size and use of this weapon by the enemy) uses novel technology to emit a powerful beam of light. When passing a Geiger counter, we can see that it emits a small amount of radiation, so it is not recommended for analysis without adequate protection."
+
+      STR_ALIEN_LASER_RIFLE: "Alien Laser Rifle"
+      STR_ALIEN_LASER_RIFLE_BATTERY: "Alien Medium Battery"
+      STR_ALIEN_LASER_RIFLE_UFOPEDIA: "Our studies and field reports point to this weapon as the standard weaponry of the enemy infantry (similar to our doctrines). This 'rifle', if you can call it that, has a compact power generator, which emits a light beam powered by a crystal of unknown origin. The beam is capable of penetrating armor without problems."
+
+      STR_ALIEN_HEAVY_LASER: "Alien Heavy Laser"
+      STR_ALIEN_HEAVY_LASER_BATTERY: "Alien Heavy Battery"
+      STR_ALIEN_HEAVY_LASER_UFOPEDIA: "A really heavy weapon, but extremely powerful. This cannon uses the same concept of an energy source that emits a laser, amplified by an alien crystal. This crystal is quite large, more than in other enemy devices, which we believe contributes to give it a greater range. We have noticed that it has a tendency to overheat."
+
+      STR_ALIEN_SIEGE_LAUNCHER: "Alien Siege Launcher"
+      STR_ALIEN_SIEGE_LAUNCHER_SHELL: "Alien Siege Shell"
+      STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "Unlike the other weapons we have found so far, this one seems to employ some kind of ballistic principle to propel its projectiles at an angle, similar to the way our mortars work. We have not found the way in which this weapon is held. The projectile is one of our greatest concerns, because it is fundamentally a miniature atomic bomb. Any alien using this weapon should have priority to be eliminated."
