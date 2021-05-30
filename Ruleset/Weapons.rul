@@ -2731,7 +2731,7 @@ extraStrings:
 
       STR_HEART_ATTACK_GUN: "Heart Attack Gun"
       STR_HEART_ATTACK_GUN_MAG: ".45 ACP Toxin Magazine (7x)"
-      STR_HEART_ATTACK_GUN_UFOPEDIA: "This M1911 has been modified to fire ricin toxin darts. It has an almost 100% lethality rate and is untracable, making it the perfect assassination weapon. Although we are primarily a reconnissance and intelligence gathering group, it may help us in combat scenarios. The darts have trouble piercing thick clothing and take a time to circulate throughout the body, giving the enemy a chance to react. We also don't know its effectiveness against alien biochemistry either. {NEWLINE}> Semi-Concealable"
+      STR_HEART_ATTACK_GUN_UFOPEDIA: "This M1911 has been modified to fire ricin toxin darts. It has an almost 100% lethality rate and is untracable, making it the perfect assassination weapon. Although we are primarily a reconnissance and intelligence gathering group, it may help us in combat scenarios. The darts have trouble piercing thick clothing and takes time to circulate throughout the body, giving the enemy a chance to react. We also don't know its effectiveness against alien biochemistry either. {NEWLINE}> Semi-Concealable"
 
       STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Requisition"
 
