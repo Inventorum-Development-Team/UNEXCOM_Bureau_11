@@ -204,8 +204,6 @@ alienDeployments:
 
 ufos:
 #<delete>
-  - delete: STR_ABDUCTOR
-  - delete: STR_HARVESTER
   - delete: STR_BATTLESHIP
   - delete: STR_TERROR_SHIP
   - delete: STR_SUPPLY_SHIP

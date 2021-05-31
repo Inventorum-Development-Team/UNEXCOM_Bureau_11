@@ -12,7 +12,6 @@ Credits by name:
 *Andr: original creator of F-104 Starfighter, Beretta M12, AR-15, Sawed-off Shotgun, Winchester M1897, Flask, Field Dressing, Cigarettes, Medical Pouch
 *Brother^2: lead design, ruleset creator
 *efrenespartano: lead design, sprite & ruleset creator
-*Dioxine: M79 Thumper sprites
 *RamoZ: D17, B11 and US Army rulesets
 *Hans Woofington: B11 and US Army unit sprites
 *The Martian: D17 unit sprites

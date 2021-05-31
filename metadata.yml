@@ -2,7 +2,7 @@ name: "UNEXCOM: Bureau 11"
 version: "0.1.2"
 author: "Brother^2, efrenespartano + IDT"
 description: "1961. Counter the opening plays of the red menace and looming alien threat as Bureau 11, a top secret US intelligence agency."
-id: Bureau_11_test
+id: Bureau_11_dlc
 master: xcom1
 reservedSpace: 3
 requiredExtendedVersion: "6.8"

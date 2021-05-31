@@ -1,10 +1,11 @@
-October-2020 v0.1 Proving Grounds
+30-May-2020 v0.1 Proving Grounds
 Changes made:
 *Removed vanilla content
-*Added Act 1 weapons, by Brother^2
-*Added Act 2 weapons, by Brother^2
+*Added Act 1 weapons, ruleset by Brother^2, sprites by efrenespartano
+*Added Act 2 weapons, ruleset by Brother^2, sprites by efrenespartano
+*Added Act 3 weapons, ruleset by Brother^2, sprites by efrenespartano
 *Added initial research, by Brother^2
-*Added sprites for Bureau 11 weapons, by efrenespartano
+*Added ammo resprite script, wrote by Filip-H
 *Added new backgrounds for all the base screens, by efrenespartano
 *Added new crafts
     - Cadillac El Dorado, by Alex_D
@@ -31,3 +32,6 @@ Changes made:
     - Directorate 17 Agent
 *Added D17 unit, ruleset by Brother^2, sprites by The Martian & efrenespartano
 *Added US Army unit ruleset by Brother^2, sprites by Hans Woofington & efrenespartano
+*Added Hybrid Thin Man, ruleset by Brother^2, sprites by efrenespartano
+*Added CMP Vanilla
+*Added IDT_RED_FARM terrain, Experimental
