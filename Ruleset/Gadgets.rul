@@ -273,15 +273,17 @@ extraSprites:
       920: Resources/Gadgets/KA-BAR/Gadget_Hand.png
       928: Resources/Gadgets/Alien Reactive Grenade/Gadget_Hand.png
       936: Resources/Gadgets/Devil Axe/Gadget_Hand.png
-  - type: BATTLE.CAT
-    files:
-      503: Resources/Gadgets/KA-BAR/slash.wav
   - type: MEDIKIT_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Gadgets/BACKGROUND.png
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      503: Resources/Gadgets/KA-BAR/slash.wav
 
 extraStrings:
   - type: en-US
