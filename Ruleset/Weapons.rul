@@ -940,7 +940,7 @@ items:
   - type: STR_ITHACA_37_SHELLS
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     requiresBuy:
-      - STR_WINCHESTER_MODEL_12
+      - STR_WINCHESTER_MODEL_12_BUY
     size: 0.1
     costBuy: 400
     costSell: 350
@@ -1019,7 +1019,7 @@ items:
   - type: STR_SPRINGFIELD_M14_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_MAGAZINES]
     requiresBuy:
-      - STR_FN_FAL
+      - STR_FN_FAL_BUY
     size: 0.1
     costBuy: 500
     costSell: 420
@@ -1190,7 +1190,7 @@ items:
   - type: STR_STECHKIN_APS
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
     requiresBuy:
-      - STR_SOVIET_WEAPON_AQUISITION
+      - STR_STECHKIN_APS_BUY
     size: 0.1
     costBuy: 500
     costSell: 480
@@ -1242,7 +1242,7 @@ items:
   - type: STR_STECHKIN_APS_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
     requiresBuy:
-      - STR_SOVIET_WEAPON_AQUISITION
+      - STR_STECHKIN_APS_BUY
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -1264,7 +1264,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SOVIET_TECHNOLOGY]
     size: 0.2
     requiresBuy:
-      - STR_SOVIET_WEAPON_AQUISITION
+      - STR_SKORPION_VZ61_BUY
     costBuy: 1000
     costSell: 860
     weight: 8
@@ -1318,7 +1318,7 @@ items:
   - type: STR_AK_47
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECHNOLOGY, STR_PROPRIETARY]
     requiresBuy:
-      - STR_SOVIET_WEAPON_AQUISITION
+      - STR_AK_47_BUY
     size: 0.2
     costBuy: 3000
     costSell: 2780
@@ -1380,7 +1380,7 @@ items:
   - type: STR_AK_47_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECHNOLOGY, STR_MAGAZINES]
     requiresBuy:
-      - STR_SOVIET_WEAPON_AQUISITION
+      - STR_AK_47_BUY
     size: 0.1
     costBuy: 500
     costSell: 420
@@ -1404,7 +1404,7 @@ items:
   - type: STR_WINCHESTER_MODEL_12
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS]
     requiresBuy:
-      - STR_WINCHESTER_MODEL_12
+      - STR_WINCHESTER_MODEL_12_BUY
     size: 0.2
     costBuy: 1300
     costSell: 1150
@@ -1449,7 +1449,7 @@ items:
   - type: STR_FN_FAL
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES]
     requiresBuy:
-      - STR_FN_FAL
+      - STR_FN_FAL_BUY
     size: 0.2
     costBuy: 1100
     costSell: 900
@@ -1504,7 +1504,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS]
     size: 0.2
     requiresBuy:
-      - STR_CARL_GUSTAF_M45
+      - STR_CARL_GUSTAF_M45_BUY
     costBuy: 2000
     costSell: 1800
     weight: 8
@@ -2115,7 +2115,7 @@ ufopaedia:
     section: STR_WEAPONS
     text: STR_STECHKIN_APS_UFOPEDIA
     requires:
-      - STR_SOVIET_WEAPON_AQUISITION
+      - STR_STECHKIN_APS_BUY
     listOrder: 217
   - id: STR_STECHKIN_APS_MAG
     type_id: 4
@@ -2125,14 +2125,14 @@ ufopaedia:
     section: STR_WEAPONS
     text: STR_SKORPION_VZ61_UFOPEDIA
     requires:
-      - STR_SOVIET_WEAPON_AQUISITION
+      - STR_SKORPION_VZ61_BUY
     listOrder: 218
   - id: STR_AK_47
     type_id: 4
     section: STR_WEAPONS
     text: STR_AK_47_UFOPEDIA
     requires:
-      - STR_SOVIET_WEAPON_AQUISITION
+      - STR_AK_47_BUY
     listOrder: 219
   - id: STR_AK_47_MAG
     type_id: 4
@@ -2142,21 +2142,21 @@ ufopaedia:
     section: STR_WEAPONS
     text: STR_WINCHESTER_MODEL_12_UFOPEDIA
     requires:
-      - STR_WINCHESTER_MODEL_12
+      - STR_WINCHESTER_MODEL_12_BUY
     listOrder: 220
   - id: STR_FN_FAL
     type_id: 4
     section: STR_WEAPONS
     text: STR_FN_FAL_UFOPEDIA
     requires:
-      - STR_FN_FAL
+      - STR_FN_FAL_BUY
     listOrder: 221
   - id: STR_CARL_GUSTAF_M45
     type_id: 4
     section: STR_WEAPONS
     text: STR_CARL_GUSTAF_M45_UFOPEDIA
     requires:
-      - STR_CARL_GUSTAF_M45
+      - STR_CARL_GUSTAF_M45_BUY
     listOrder: 222
   - id: STR_CHINA_LAKE_LASER_PROJECTOR
     type_id: 4
@@ -2294,28 +2294,52 @@ research:
     dependencies:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
 
+  - name: STR_MILITARY_EQUIPMENT_AQUISITION
+    cost: 300
+    points: 100
+    unlocks:
+      - STR_WINCHESTER_MODEL_12_BUY
+      - STR_FN_FAL_BUY
+      - STR_CARL_GUSTAF_M45_BUY
+
   - name: STR_WINCHESTER_MODEL_12
     cost: 50
     points: 10
     needItem: true
+    unlocks:
+      - STR_WINCHESTER_MODEL_12_BUY
 
   - name: STR_FN_FAL
     cost: 50
     points: 10
     needItem: true
+    unlocks:
+      - STR_FN_FAL_BUY
 
   - name: STR_CARL_GUSTAF_M45
     cost: 50
     points: 10
     needItem: true
-
-  - name: STR_MILITARY_EQUIPMENT_AQUISITION
-    cost: 300
-    points: 100
     unlocks:
-      - STR_WINCHESTER_MODEL_12
-      - STR_FN_FAL
-      - STR_CARL_GUSTAF_M45
+      - STR_CARL_GUSTAF_M45_BUY
+
+  - name: STR_WINCHESTER_MODEL_12_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_FN_FAL_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_CARL_GUSTAF_M45_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
 
   - name: STR_LIGHT_ASSAULT_RIFLE_REQUISITION
     cost: 100
@@ -2327,24 +2351,48 @@ research:
     cost: 400
     points: 50
     unlocks:
-      - STR_STECHKIN_APS
-      - STR_SKORPION_VZ61
-      - STR_AK_47
+      - STR_STECHKIN_APS_BUY
+      - STR_SKORPION_VZ61_BUY
+      - STR_AK_47_BUY
 
   - name: STR_STECHKIN_APS
     cost: 100
     points: 25
     needItem: true
+    unlocks:
+      - STR_STECHKIN_APS_BUY
 
   - name: STR_SKORPION_VZ61
     cost: 100
     points: 25
     needItem: true
+    unlocks:
+      - STR_SKORPION_VZ61_BUY
 
   - name: STR_AK_47
     cost: 100
     points: 25
     needItem: true
+    unlocks:
+      - STR_AK_47_BUY
+
+  - name: STR_STECHKIN_APS_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_SKORPION_VZ61_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_AK_47_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
 
   - name: STR_CHINA_LAKE_LASER_PROJECTOR
     cost: 200
