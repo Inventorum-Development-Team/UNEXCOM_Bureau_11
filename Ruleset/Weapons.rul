@@ -2274,6 +2274,16 @@ manufacture:
       STR_HEART_ATTACK_GUN_MAG: 1
 
 research:
+  - name: STR_LASER_WEAPONS
+    dependencies:
+      - STR_COMMANDER_PLUS
+  - name: STR_MOTION_SCANNER
+    dependencies:
+      - STR_COMMANDER_PLUS
+  - name: STR_MEDI_KIT
+    dependencies:
+      - STR_COMMANDER_PLUS
+
   - name: STR_SUPPRESSED_WEAPONS_AQUISITION
     cost: 100
     points: 50
