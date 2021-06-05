@@ -2715,6 +2715,11 @@ extraStrings:
       STR_RAGE_FIRE: "Slam Fire"
       STR_DEADEYE: "Deadeye"
 
+      STR_SUPPRESSED_WEAPONS_AQUISITION: "Suppressed Weapon Acquisition"
+      STR_LIGHT_ASSAULT_RIFLE_REQUISITION: "Light Assault Requisition"
+      STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Acquisition"
+      STR_SOVIET_WEAPON_AQUISITION: "Soviet Weapon Aquisition"
+
       STR_BROWNING_HP35: "Browning HP-35"
       STR_BROWNING_HP35_MAG: "9x19mm Magazine (15x)"
       STR_BROWNING_HP35_UFOPEDIA: "The Browning HP-35 is a reliable semi-automatic handgun chambered in {ALT}9x19mm Parabellum{ALT} used by many militaries and law enforcement agencies around the world. {NEWLINE}> Semi-Concealable"
@@ -2747,8 +2752,6 @@ extraStrings:
       STR_HEART_ATTACK_GUN: "Heart Attack Gun"
       STR_HEART_ATTACK_GUN_MAG: ".45 ACP Toxin Magazine (7x)"
       STR_HEART_ATTACK_GUN_UFOPEDIA: "This M1911 has been modified to fire ricin toxin darts. It has an almost 100% lethality rate and is untracable, making it the perfect assassination weapon. Although we are primarily a reconnissance and intelligence gathering group, it may help us in combat scenarios. The darts have trouble piercing thick clothing and takes time to circulate throughout the body, giving the enemy a chance to react. We also don't know its effectiveness against alien biochemistry either. {NEWLINE}> Semi-Concealable"
-
-      STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Requisition"
 
       STR_M3_GREASEGUN: "M3 Greasegun"
       STR_M3_GREASEGUN_MAG: ".45 ACP Magazine (30x)"
