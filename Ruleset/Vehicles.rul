@@ -210,10 +210,10 @@ crafts:
       - 2
       - 3
     weaponStrings:
-      - STR_AUTOCANNON
-      - STR_BVRAAM
-      - STR_BVRAAM
       - STR_AUXILLARY
+      - STR_BVRAAM
+      - STR_BVRAAM
+      - STR_AUTOCANNON
     allowLanding: false
     costBuy: 750000
     costSell: 600000
@@ -731,6 +731,9 @@ extraStrings:
       STR_STARFIGHTER: "STARFIGHTER"
       STR_STARFIGHTER_UFOPEDIA: "F-104 Starfighter - 'The Manned Missile', top of the line USAF interceptor, meant for high altitude combat and fast encounters with enemy bombers."
 
+      STR_USAF_INTERCEPTOR_REQUISITION: "USAF Interceptor Requisition"
+      STR_GYRODYNE_TRANSPORT_HELICOPTER: "Gyrodone Transport Helicopter"
+
       STR_SKYRANGER: "SKYRANGER"
       STR_SKYRANGER_UFOPEDIA: "X-62 - Helicopter-airplane hybrid, it can take off vertically with the main rotor and navigate with its wing propellers. Robust design, designed for heavy troop transport over medium and long distances."
 
@@ -781,6 +784,9 @@ extraStrings:
 
       STR_HUEY: "IROQUOIS"
       STR_HUEY_UFOPEDIA: "UH-1A Iroquois - light transport helicopter, employed to insert and evacuate troops quickly in the battlefield. It has a short range, our troops must are taken on C-130s to mission sites before the deployment."
+
+      STR_USAF_INTERCEPTOR_REQUISITION: "USAF Interceptor Requisition"
+      STR_GYRODYNE_TRANSPORT_HELICOPTER: "Gyrodone Transport Helicopter"
 
       STR_STARFIGHTER: "STARFIGHTER"
       STR_STARFIGHTER_UFOPEDIA: "F-104 Starfighter - 'The Manned Missile', top of the line USAF interceptor, meant for high altitude combat and fast encounters with enemy bombers."
