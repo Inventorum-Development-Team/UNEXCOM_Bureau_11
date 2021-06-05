@@ -735,7 +735,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES]
     size: 0.1
     requiresBuy:
-      - STR_CARL_GUSTAF_M45
+      - STR_MILITARY_EQUIPMENT_AQUISITION
     costBuy: 500
     costSell: 400
     weight: 3
@@ -2287,6 +2287,7 @@ research:
   - name: STR_WINCHESTER_MODEL_12
     cost: 50
     points: 10
+    needItem: true
 
   - name: STR_FN_FAL
     cost: 50
@@ -2304,6 +2305,7 @@ research:
     unlocks:
       - STR_WINCHESTER_MODEL_12
       - STR_FN_FAL
+      - STR_CARL_GUSTAF_M45
 
   - name: STR_LIGHT_ASSAULT_RIFLE_REQUISITION
     cost: 100
