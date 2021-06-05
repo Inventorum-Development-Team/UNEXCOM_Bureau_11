@@ -743,3 +743,57 @@ extraStrings:
       STR_VULCAN_UFOPEDIA: "M61 Vulcan - standard American air to air cannon, widely used by USAF aircrafts. Features an extremely high rate of fire (6000 rounds per minute) and is very reliable, but not very accurate - fires 20mm rounds. Gatling-like cannon"
       STR_VULCAN_CANNON: "M61 Vulcan Cannon"
       STR_VULCAN_CANNON_ROUNDS_X50: "M61 Vulcan Cannon Rounds(x50)"
+
+  - type: en-GB
+    strings:
+      STR_VEHICLES: "VEHICLES AND ARMAMENT"
+  
+      STR_AUTOCANNON: "AUTOCANNON"
+      STR_BVRAAM: "BVRAAM" #Beyond Visual Range Air to Air Missile	 
+      STR_AUXILLARY: "AUXILLARY"
+
+      STR_EXPERIMENTAL_AEROSPACE: "Experimental Transport"
+
+      STR_CADILLAC: "EL DORADO"
+      STR_CADILLAC_UFOPEDIA: "1960 Cadillac El Dorado, riding into battle in style! Used by our field agents to arrive to their destination after taking an airplane trip."
+
+      STR_U2_DRAGON_LADY: "DRAGON LADY"
+      STR_U2_DRAGON_LADY_UFOPEDIA: "U-2 Dragon Lady - Long-range, high-altitude airborne reconnaissance aircraft designed to stay in the air for numerous hours. Used by the CIA and USAF to obtain valuable intelligence info."
+
+      STR_FUEL_TANK_UC: "FUEL TANK"
+      STR_FUEL_TANK_UFOPEDIA: "External tank mounted under the wings, meant to increase the combat range of the aircraft. Produces some drag, thus reducing the acceleration and speed. fuelMax: 150, accel: -1, avoidBonus: -5"
+      STR_FUEL_TANK: "Fuel Tank"
+
+      STR_FLARE_DISPENSER_UC: "FLARE DISPENSER"
+      STR_FLARE_DISPENSER_UFOPEDIA: "Countermeasures designed to divert IR missiles fired at the aircraft. Created with pyrotechnic materials, they burn at temperatures much higher than an engine and can confuse the guidance system of many missiles. avoidBonus: 25"
+      STR_FLARE_DISPENSER: "Flare Dispenser"
+
+      STR_IMPROVED_SPY_CAMERA_UC: "IMPROVED SPY CAMERA"
+      STR_IMPROVED_SPY_CAMERA_UFOPEDIA: "Recon camera equipped with better lens and photo storage. It increases the view field of the aircraft, effectively increasing the opportunity to gather intel. sightRange: 150" 
+      STR_IMPROVED_SPY_CAMERA: "Improved Spy Camera"
+
+      STR_AFTERBURNER_UC: "EXPERIMENTAL JET THURSTER"
+      STR_AFTERBURNER_UFOPEDIA: "This prototype jet motor is used to greatly increase the acceleration and speed of the vehicle where it is mounted. However, the stress put on the motor reduces it's autonomy. accel: 5, speedMax: 150, fuelMax: -15"
+      STR_AFTERBURNER: "Experimental Jet Thurster"
+
+      STR_MUDRANGER: "MUDRANGER"
+      STR_MUDRANGER_UFOPEDIA: "XM115 Armored Cavalry Heavy Transport - Nicknamed 'Mudranger', this is a highly experimental US Army heavy troop carrier, meant to transport and protect large amounts of soldiers and even light vehicles."
+
+      STR_HUEY: "IROQUOIS"
+      STR_HUEY_UFOPEDIA: "UH-1A Iroquois - light transport helicopter, employed to insert and evacuate troops quickly in the battlefield. It has a short range, our troops must are taken on C-130s to mission sites before the deployment."
+
+      STR_STARFIGHTER: "STARFIGHTER"
+      STR_STARFIGHTER_UFOPEDIA: "F-104 Starfighter - 'The Manned Missile', top of the line USAF interceptor, meant for high altitude combat and fast encounters with enemy bombers."
+
+      STR_SKYRANGER: "SKYRANGER"
+      STR_SKYRANGER_UFOPEDIA: "X-62 - Helicopter-airplane hybrid, it can take off vertically with the main rotor and navigate with its wing propellers. Robust design, designed for heavy troop transport over medium and long distances."
+
+      STR_SIDEWINDER: "SIDEWINDER"
+      STR_SIDEWINDER_UFOPEDIA: "AIM-9E Sidewinder - American short range air to air missile with IR guidance. It has a fragmentation warhead that shreds enemy aircrafts once it hits."
+      STR_SIDEWINDER_LAUNCHER: "Sidewinder Launcher"
+      STR_SIDEWINDER_MISSILES: "Sidewinder Missiles"
+
+      STR_VULCAN: "M61 VULCAN"
+      STR_VULCAN_UFOPEDIA: "M61 Vulcan - standard American air to air cannon, widely used by USAF aircrafts. Features an extremely high rate of fire (6000 rounds per minute) and is very reliable, but not very accurate - fires 20mm rounds. Gatling-like cannon"
+      STR_VULCAN_CANNON: "M61 Vulcan Cannon"
+      STR_VULCAN_CANNON_ROUNDS_X50: "M61 Vulcan Cannon Rounds(x50)"
