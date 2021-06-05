@@ -326,3 +326,13 @@ extraStrings:
       STR_ARMY_UNIFORM_UC_UFOPEDIA: "Standard issue US army uniform, used widely by our armed forces."
       STR_OFFICER_COAT_UC: "OFFICER COAT"
       STR_OFFICER_COAT_UC_UFOPEDIA: "This KGB officer coat provides a much needed morale boost, but restricts quick movement."
+
+  - type: en-GB
+    strings:
+      STR_OUTFITS: "ATTIRE AND ARMOR"
+      STR_AGENT_SUIT_UC: "AGENT SUIT"
+      STR_AGENT_SUIT_UC_UFOPEDIA: "This suit allows our agents to blend it with the general populace; at the cost of somewhat restricting movement."
+      STR_ARMY_UNIFORM_UC: "ARMY UNIFORM"
+      STR_ARMY_UNIFORM_UC_UFOPEDIA: "Standard issue US army uniform, used widely by our armed forces."
+      STR_OFFICER_COAT_UC: "OFFICER COAT"
+      STR_OFFICER_COAT_UC_UFOPEDIA: "This KGB officer coat provides a much needed morale boost, but restricts quick movement."
