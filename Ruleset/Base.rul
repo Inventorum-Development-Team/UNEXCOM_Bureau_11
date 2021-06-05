@@ -64,3 +64,8 @@ extraStrings:
     strings:
       STR_BASE: "FACILITY MODULES"
       STR_HANGAR_UFOPEDIA: "Each hangar can accomodate one craft and the logistics and planning of missions. There are facilities for maintenance, refueling and repair of Bureau 11 craft. Each craft stationed at the base must have a free hangar assigned to it which cannot be used by other craft, even if the assigned craft is out on a mission."
+
+  - type: en-GB
+    strings:
+      STR_BASE: "FACILITY MODULES"
+      STR_HANGAR_UFOPEDIA: "Each hangar can accomodate one craft and the logistics and planning of missions. There are facilities for maintenance, refueling and repair of Bureau 11 craft. Each craft stationed at the base must have a free hangar assigned to it which cannot be used by other craft, even if the assigned craft is out on a mission."
