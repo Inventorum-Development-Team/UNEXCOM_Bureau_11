@@ -129,7 +129,7 @@ crafts:
     vehicles: 0
     weapons: 1
     weaponTypes: 
-      - 3
+      - 1
     weaponStrings:
       - STR_AUXILLARY
     keepCraftAfterFailedMission: true
@@ -259,8 +259,9 @@ craftWeapons:
   - delete: STR_AVALANCHE
   - delete: STR_CANNON_UC
 
+# Auxilary
   - type: STR_FUEL_TANK_UC
-    weaponType: 5
+    weaponType: 1
     hidePediaInfo: true
     sprite: 231
     sound: 0
@@ -280,7 +281,7 @@ craftWeapons:
       accel: -1
       avoidBonus: -5
   - type: STR_FLARE_DISPENSER_UC
-    weaponType: 5
+    weaponType: 1
     sprite: 232
     hidePediaInfo: true
     sound: 0
@@ -316,7 +317,7 @@ craftWeapons:
     stats:
       sightRange: 150
   - type: STR_AFTERBURNER_UC
-    weaponType: 5
+    weaponType: 1
     sprite: 232
     hidePediaInfo: true
     sound: 0
@@ -336,6 +337,7 @@ craftWeapons:
       speedMax: 150
       fuelMax: -15
 
+# BVRAAM
   - type: STR_SIDEWINDER
     weaponType: 2
     sprite: 200
@@ -352,8 +354,9 @@ craftWeapons:
     projectileType: 0
     projectileSpeed: 8
 
+# Autocannons
   - type: STR_VULCAN
-    weaponType: 0
+    weaponType: 3
     sprite: 201
     sound: 4
     damage: 20
