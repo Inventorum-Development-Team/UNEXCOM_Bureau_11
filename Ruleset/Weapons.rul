@@ -2257,9 +2257,9 @@ manufacture:
     requires:
       - STR_HEART_ATTACK_GUN
     requiredItems:
-      STR_HEART_ATTACK_GUN: 1
-    producedItems:
       STR_COLT_M1911: 1
+    producedItems:
+      STR_HEART_ATTACK_GUN: 1
 
   - name: STR_HEART_ATTACK_GUN_MAG
     category: STR_WEAPONS
@@ -2269,9 +2269,9 @@ manufacture:
     requires:
       - STR_HEART_ATTACK_GUN
     requiredItems:
-      STR_HEART_ATTACK_GUN_MAG: 1
-    producedItems:
       STR_COLT_M1911_MAG: 1
+    producedItems:
+      STR_HEART_ATTACK_GUN_MAG: 1
 
 research:
   - name: STR_SUPPRESSED_WEAPONS_AQUISITION
