@@ -1,0 +1,67 @@
+ufopaedia:
+  - id: STR_SUPPRESSED_MUNITIONS_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    text: STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA
+    listOrder: 206
+  - id: STR_ARMY_WEAPONS_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    text: STR_ARMY_WEAPONS_REPORT_UFOPEDIA
+    listOrder: 209
+  - id: STR_SOVIET_MUNITIONS_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_SOVIET_WEAPON_AQUISITION
+    text: STR_SOVIET_MUNITIONS_REPORT_UFOPEDIA
+    listOrder: 217
+  - id: STR_ALLIED_MUNITIONS_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_WINCHESTER_MODEL_12_BUY
+      - STR_FN_FAL_BUY
+      - STR_CARL_GUSTAF_BUY
+    text: STR_ALLIED_MUNITIONS_REPORT_UFOPEDIA
+    listOrder: 220
+  - id: STR_ALIEN_MUNITIONS_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_ALIEN_WEAPON_OPERATION
+    text: STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA
+    listOrder: 220
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_RESEARCH_REPORTS_UC: "Research Reports"
+      STR_SUPPRESSED_MUNITIONS_REPORT: "Report: Suppressed Munitions"
+      STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA: "We have requisitioned sound suppressed weapons from the CIA for use in the field. While we are primarily a reconnissance group, we have had violent encounters with foreign intelligences both extraterrestrial and eastward directional. These should help for mission where we must remain undetected or there are too many witnessess, especially in populated urban areas. Otherwise, they are relatively inferior to the rest of our arsenal."
+      STR_ARMY_MUNITIONS_REPORT: "Report: US Army Munitions"
+      STR_ARMY_MUNITIONS_REPORT_UFOPEDIA: "Our aquisition of US Army munitions has been approved due to the rising scale of the alien incursions and violent encounters with the 17th Directorate. Our agents should already be familiar with thier operation, as they most likely have served before. These should be some of the most powerful weapons we have access to, however they are not suitable for stealth operations."
+      STR_SOVIET_MUNITIONS_REPORT: "Report: Soviet Munitions"
+      STR_SOVIET_MUNITIONS_REPORT_UFOPEDIA: "While Washington may not be the best of friends with Moscow, we have gone through enough diploatic talks to agree to provide us soviet equipment used by the 17th Directorate, as well as the necessary training to use them. While we have spent the past few decades trying to surpass the Soviets technology wise, these weapons excell at sustained automatic fire as well as close range encounters."
+      STR_ALLIED_MUNITIONS_REPORT: "Report: Allied Munitions"
+      STR_ALLIED_MUNITIONS_REPORT_UFOPEDIA: "We have obtained these weapons in the field and our agents have taken a liking to them, though they aren't produced in the US. Through some of our diplomatic channels, it shouldn't be hard to obtain more of them, although they are probrably directly inferior to US military hardware."
+      STR_ALIEN_MUNITIONS_REPORT: "Report: Alien Munitions"
+      STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA: "After thorough examiniation of the weapons wielded by the aliens and obtained by our agents, we have finally found out how to operate them. The basic principles are understood to us and most parts are analogous to ones we can produce, but the central reflective crystal has properties that cannot be replicated. The weapons shockingly resemble to ours in operation, similar to operating a magazine loading gun."
+
+  - type: en-GB
+    strings:
+      STR_RESEARCH_REPORTS_UC: "Research Reports"
+      STR_SUPPRESSED_MUNITIONS_REPORT: "Report: Suppressed Munitions"
+      STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA: "We have requisitioned sound suppressed weapons from the CIA for use in the field. While we are primarily a reconnissance group, we have had violent encounters with foreign intelligences both extraterrestrial and eastward directional. These should help for mission where we must remain undetected or there are too many witnessess, especially in populated urban areas. Otherwise, they are relatively inferior to the rest of our arsenal."
+      STR_ARMY_MUNITIONS_REPORT: "Report: US Army Munitions"
+      STR_ARMY_MUNITIONS_REPORT_UFOPEDIA: "Our aquisition of US Army munitions has been approved due to the rising scale of the alien incursions and violent encounters with the 17th Directorate. Our agents should already be familiar with thier operation, as they most likely have served before. These should be some of the most powerful weapons we have access to, however they are not suitable for stealth operations."
+      STR_SOVIET_MUNITIONS_REPORT: "Report: Soviet Munitions"
+      STR_SOVIET_MUNITIONS_REPORT_UFOPEDIA: "While Washington may not be the best of friends with Moscow, we have gone through enough diploatic talks to agree to provide us soviet equipment used by the 17th Directorate, as well as the necessary training to use them. While we have spent the past few decades trying to surpass the Soviets technology wise, these weapons excell at sustained automatic fire as well as close range encounters."
+      STR_ALLIED_MUNITIONS_REPORT: "Report: Allied Munitions"
+      STR_ALLIED_MUNITIONS_REPORT_UFOPEDIA: "We have obtained these weapons in the field and our agents have taken a liking to them, though they aren't produced in the US. Through some of our diplomatic channels, it shouldn't be hard to obtain more of them, although they are probrably directly inferior to US military hardware."
+      STR_ALIEN_MUNITIONS_REPORT: "Report: Alien Munitions"
+      STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA: "After thorough examiniation of the weapons wielded by the aliens and obtained by our agents, we have finally found out how to operate them. The basic principles are understood to us and most parts are analogous to ones we can produce, but the central reflective crystal has properties that cannot be replicated. The weapons shockingly resemble to ours in operation, similar to operating a magazine loading gun."
