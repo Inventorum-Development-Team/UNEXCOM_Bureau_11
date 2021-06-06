@@ -2394,20 +2394,13 @@ research:
     dependencies:
       - STR_COMMANDER_PLUS
 
-  - name: STR_CHINA_LAKE_LASER_PROJECTOR
-    cost: 200
-    points: 50
-    needItem: true
-
-  - name: STR_STURM_EKANONE
-    cost: 200
-    points: 50
-    needItem: true
-
-  - name: STR_VIKHR_ELECTROMAGNETIC_RIFLE
-    cost: 200
-    points: 50
-    needItem: true
+  - name: STR_ALIEN_WEAPON_OPERATION
+    cost: 100
+    points: 25
+    dependencies:
+      - STR_ALIEN_LASER_PISTOL
+      - STR_ALIEN_LASER_RIFLE
+      - STR_ALIEN_HEAVY_LASER
 
   - name: STR_ALIEN_LASER_PISTOL
     cost: 300
@@ -2426,6 +2419,21 @@ research:
 
   - name: STR_ALIEN_SIEGE_LAUNCHER
     cost: 300
+    points: 50
+    needItem: true
+
+  - name: STR_CHINA_LAKE_LASER_PROJECTOR
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_STURM_EKANONE
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    cost: 200
     points: 50
     needItem: true
 
@@ -2776,9 +2784,10 @@ extraStrings:
       STR_DEADEYE: "Deadeye"
 
       STR_SUPPRESSED_WEAPONS_AQUISITION: "Suppressed Weapon Acquisition"
-      STR_LIGHT_ASSAULT_RIFLE_REQUISITION: "Light Assault Requisition"
       STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Acquisition"
       STR_SOVIET_WEAPON_AQUISITION: "Soviet Weapon Aquisition"
+      STR_ALIEN_WEAPON_OPERATION: "Alien Weapon Operation"
+      STR_LIGHT_ASSAULT_RIFLE_REQUISITION: "Light Assault Requisition"
 
       STR_BROWNING_HP35: "Browning HP-35"
       STR_BROWNING_HP35_MAG: "9x19mm Magazine (15x)"
@@ -2929,9 +2938,10 @@ extraStrings:
       STR_DEADEYE: "Deadeye"
 
       STR_SUPPRESSED_WEAPONS_AQUISITION: "Suppressed Weapon Acquisition"
-      STR_LIGHT_ASSAULT_RIFLE_REQUISITION: "Light Assault Requisition"
       STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Acquisition"
       STR_SOVIET_WEAPON_AQUISITION: "Soviet Weapon Aquisition"
+      STR_ALIEN_WEAPON_OPERATION: "Alien Weapon Operation"
+      STR_LIGHT_ASSAULT_RIFLE_REQUISITION: "Light Assault Requisition"
 
       STR_BROWNING_HP35: "Browning HP-35"
       STR_BROWNING_HP35_MAG: "9x19mm Magazine (15x)"
@@ -3024,7 +3034,7 @@ extraStrings:
       STR_VIKHR_ELECTROMAGNETIC_RIFLE: "Vikhr Electromagnetic Rifle"
       STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG: "Vikhr EMR Mag (10x)"
       STR_VIKHR_ELECTROMAGNETIC_RIFLE_UFOPEDIA: "The Vikhr Electromagnetic Rifle is the mouthful from the East which that isn't any better in its native tounge. It is a prototype high powered railgun that launches tungsten alloy slugs at ludicrous speeds, penetrating through several feet of steel. While Directorate 17 has not been willing to share much about its planned applications, we theorize it will be used against mechanized infantry or even aerial vehicles such as helicopters."
-     
+    
       STR_ALIEN_LASER_PISTOL: "Alien Laser Pistol"
       STR_ALIEN_LASER_PISTOL_BATTERY: "Alien Light Battery (15x)"
       STR_ALIEN_LASER_PISTOL_UFOPEDIA: "This 'hand weapon' (named by our technicians, judging by the size and use of this weapon by the enemy) uses novel technology to emit a powerful beam of light. When passing a Geiger counter, we can see that it emits a small amount of radiation, so it is not recommended for analysis without adequate protection."
