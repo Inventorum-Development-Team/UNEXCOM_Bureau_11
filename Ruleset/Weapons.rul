@@ -1734,6 +1734,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT]
     size: 0.1
     costSell: 84000
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
     bigSprite: 744
     floorSprite: 744
@@ -1769,6 +1771,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
     costSell: 4440
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
     bigSprite: 760
     floorSprite: 760
@@ -1790,6 +1794,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
     costSell: 126500
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 5
     bigSprite: 768
     floorSprite: 768
@@ -1834,6 +1840,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
     costSell: 6290
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
     bigSprite: 784
     floorSprite: 784
@@ -1855,6 +1863,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
     costSell: 171600
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 8
     bigSprite: 792
     floorSprite: 792
@@ -1891,6 +1901,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.3
     costSell: 9590
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
     bigSprite: 808
     floorSprite: 808
@@ -1912,6 +1924,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_ALIEN_ARTIFACT]
     size: 0.3
     costSell: 144000
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 16
     bigSprite: 816
     floorSprite: 816
@@ -1934,6 +1948,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_ALIEN_ARTIFACT, STR_GRENADES]
     size: 0.2
     costSell: 17028
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
     bigSprite: 832
     floorSprite: 832
