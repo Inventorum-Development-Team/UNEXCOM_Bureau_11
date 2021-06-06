@@ -6,12 +6,12 @@ ufopaedia:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
     text: STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA
     listOrder: 206
-  - id: STR_ARMY_WEAPONS_REPORT
+  - id: STR_ARMY_MUNITIONS_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
-    text: STR_ARMY_WEAPONS_REPORT_UFOPEDIA
+    text: STR_ARMY_MUNITIONS_REPORT_UFOPEDIA
     listOrder: 209
   - id: STR_SOVIET_MUNITIONS_REPORT
     type_id: 8
@@ -35,7 +35,7 @@ ufopaedia:
     requires:
       - STR_ALIEN_WEAPON_OPERATION
     text: STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA
-    listOrder: 220
+    listOrder: 226
 
 extraStrings:
   - type: en-US
