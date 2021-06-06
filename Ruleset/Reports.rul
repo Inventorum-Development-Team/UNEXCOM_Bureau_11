@@ -40,7 +40,7 @@ ufopaedia:
 extraStrings:
   - type: en-US
     strings:
-      STR_RESEARCH_REPORTS_UC: "Research Reports"
+      STR_RESEARCH_REPORTS_UC: "RESEARCH REPORTS"
       STR_SUPPRESSED_MUNITIONS_REPORT: "Report: Suppressed Munitions"
       STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA: "We have requisitioned sound suppressed weapons from the CIA for use in the field. While we are primarily a reconnissance group, we have had violent encounters with foreign intelligences both extraterrestrial and eastward directional. These should help for mission where we must remain undetected or there are too many witnessess, especially in populated urban areas. Otherwise, they are relatively inferior to the rest of our arsenal."
       STR_ARMY_MUNITIONS_REPORT: "Report: US Army Munitions"
@@ -54,7 +54,7 @@ extraStrings:
 
   - type: en-GB
     strings:
-      STR_RESEARCH_REPORTS_UC: "Research Reports"
+      STR_RESEARCH_REPORTS_UC: "RESEARCH REPORTS"
       STR_SUPPRESSED_MUNITIONS_REPORT: "Report: Suppressed Munitions"
       STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA: "We have requisitioned sound suppressed weapons from the CIA for use in the field. While we are primarily a reconnissance group, we have had violent encounters with foreign intelligences both extraterrestrial and eastward directional. These should help for mission where we must remain undetected or there are too many witnessess, especially in populated urban areas. Otherwise, they are relatively inferior to the rest of our arsenal."
       STR_ARMY_MUNITIONS_REPORT: "Report: US Army Munitions"
