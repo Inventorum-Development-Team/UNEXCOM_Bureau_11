@@ -614,7 +614,7 @@ items:
 
 # Heart Attack Gun
   - type: STR_HEART_ATTACK_GUN
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_PROPRIETARY, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_PROPRIETARY, STR_CONCEALED]
     size: 0.1
     costSell: 800
     weight: 7
@@ -664,12 +664,12 @@ items:
     handSprite: 400
     hitSound: 22
     hitAnimation: 26
-    bulletSpeed: 10
-    power: 10
+    bulletSpeed: 5
+    power: 15
     damageAlter:
-      RandomType: 2
+      RandomType: 6
       IgnoreOverKill: false
-      ToWound: 10.0
+      ToWound: 30.0
       RandomWound: false
     damageType: 8
     clipSize: 7
@@ -2970,7 +2970,7 @@ extraStrings:
 
       STR_HEART_ATTACK_GUN: "Heart Attack Gun"
       STR_HEART_ATTACK_GUN_MAG: ".45 ACP Toxin Magazine (7x)"
-      STR_HEART_ATTACK_GUN_UFOPEDIA: "This M1911 has been modified to fire ricin toxin darts. It has an almost 100% lethality rate and is untracable, making it the perfect assassination weapon. Although we are primarily a reconnissance and intelligence gathering group, it may help us in combat scenarios. The darts have trouble piercing thick clothing and takes time to circulate throughout the body, giving the enemy a chance to react. We also don't know its effectiveness against alien biochemistry either. {NEWLINE}> Semi-Concealable"
+      STR_HEART_ATTACK_GUN_UFOPEDIA: "The 'Heart Attack Gun' is a modified internally suppressed M1911 that fires ricin darts. The toxin darts dissolve on the skin and cause a heart attack, killing the target and leaving almost no trace of itself behind. However, it takes time to circulate throughout the body and may give the enemy time to react. {NEWLINE}> Concealable"
 
       STR_M3_GREASEGUN: "M3 Greasegun"
       STR_M3_GREASEGUN_MAG: ".45 ACP Magazine (30x)"
