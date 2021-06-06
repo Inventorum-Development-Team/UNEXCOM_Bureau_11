@@ -128,6 +128,8 @@ items:
     listOrder: 502
   - type: STR_ALIEN_REACTIVE_GRENADE
     size: 0.1
+    requires:
+      - STR_ALIEN_WEAPON_OPERATION
     costSell: 7600
     weight: 3
     bigSprite: 928
@@ -142,6 +144,8 @@ items:
     listOrder: 503
   - type: STR_DEVIL_AXE
     size: 0.2
+    requires:
+      - STR_ALIEN_WEAPON_OPERATION
     weight: 10
     costSell: 254080
     bigSprite: 936
