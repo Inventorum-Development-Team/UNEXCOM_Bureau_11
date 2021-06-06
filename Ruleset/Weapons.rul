@@ -1190,7 +1190,7 @@ items:
   - type: STR_STECHKIN_APS
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
     requiresBuy:
-      - STR_STECHKIN_APS_BUY
+      - STR_SOVIET_WEAPON_AQUISITION
     size: 0.1
     costBuy: 500
     costSell: 480
@@ -1242,7 +1242,7 @@ items:
   - type: STR_STECHKIN_APS_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
     requiresBuy:
-      - STR_STECHKIN_APS_BUY
+      - STR_SOVIET_WEAPON_AQUISITION
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -1264,7 +1264,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SOVIET_TECHNOLOGY]
     size: 0.2
     requiresBuy:
-      - STR_SKORPION_VZ61_BUY
+      - STR_SOVIET_WEAPON_AQUISITION
     costBuy: 1000
     costSell: 860
     weight: 8
@@ -1318,7 +1318,7 @@ items:
   - type: STR_AK_47
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECHNOLOGY, STR_PROPRIETARY]
     requiresBuy:
-      - STR_AK_47_BUY
+      - STR_SOVIET_WEAPON_AQUISITION
     size: 0.2
     costBuy: 3000
     costSell: 2780
@@ -1380,7 +1380,7 @@ items:
   - type: STR_AK_47_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_SOVIET_TECHNOLOGY, STR_MAGAZINES]
     requiresBuy:
-      - STR_AK_47_BUY
+      - STR_SOVIET_WEAPON_AQUISITION
     size: 0.1
     costBuy: 500
     costSell: 420
@@ -2131,7 +2131,7 @@ ufopaedia:
     section: STR_WEAPONS
     text: STR_STECHKIN_APS_UFOPEDIA
     requires:
-      - STR_STECHKIN_APS_BUY
+      - STR_STECHKIN_APS
     listOrder: 217
   - id: STR_STECHKIN_APS_MAG
     type_id: 4
@@ -2141,14 +2141,14 @@ ufopaedia:
     section: STR_WEAPONS
     text: STR_SKORPION_VZ61_UFOPEDIA
     requires:
-      - STR_SKORPION_VZ61_BUY
+      - STR_SKORPION_VZ61
     listOrder: 218
   - id: STR_AK_47
     type_id: 4
     section: STR_WEAPONS
     text: STR_AK_47_UFOPEDIA
     requires:
-      - STR_AK_47_BUY
+      - STR_AK_47
     listOrder: 219
   - id: STR_AK_47_MAG
     type_id: 4
@@ -2366,49 +2366,25 @@ research:
   - name: STR_SOVIET_WEAPON_AQUISITION
     cost: 400
     points: 50
-    unlocks:
-      - STR_STECHKIN_APS_BUY
-      - STR_SKORPION_VZ61_BUY
-      - STR_AK_47_BUY
+    dependencies:
+      - STR_STECHKIN_APS
+      - STR_SKORPION_VZ61
+      - STR_AK_47
 
   - name: STR_STECHKIN_APS
     cost: 100
     points: 25
     needItem: true
-    unlocks:
-      - STR_STECHKIN_APS_BUY
 
   - name: STR_SKORPION_VZ61
     cost: 100
     points: 25
     needItem: true
-    unlocks:
-      - STR_SKORPION_VZ61_BUY
 
   - name: STR_AK_47
     cost: 100
     points: 25
     needItem: true
-    unlocks:
-      - STR_AK_47_BUY
-
-  - name: STR_STECHKIN_APS_BUY
-    cost: 0
-    points: 0
-    dependencies:
-      - STR_COMMANDER_PLUS
-
-  - name: STR_SKORPION_VZ61_BUY
-    cost: 0
-    points: 0
-    dependencies:
-      - STR_COMMANDER_PLUS
-
-  - name: STR_AK_47_BUY
-    cost: 0
-    points: 0
-    dependencies:
-      - STR_COMMANDER_PLUS
 
   - name: STR_ALIEN_WEAPON_OPERATION
     cost: 100
