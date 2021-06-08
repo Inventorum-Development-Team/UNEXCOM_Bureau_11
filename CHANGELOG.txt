@@ -31,3 +31,13 @@ Changes made:
     - Directorate 17 Agent
 *Added D17 unit, ruleset by Brother^2, sprites by The Martian & efrenespartano
 *Added US Army unit ruleset by Brother^2, sprites by Hans Woofington & efrenespartano
+
+June-2021 v0.1.1 Proving Grounds
+Changes made:
+*Fixed Heart-Attack Gun manufacturing bug, reported by Black Onix (Виталий)#2140
+*Fixed bug with Starfighter Equipment, reported by various
+*Added en-GB Strings. It's still english, innit? by Brother^2
+*Fixed Various Research Bugs, Typos & Slight Rebalancing, by Brother^2
+*Added Research Reports to the Blue Book, Added Munitions Reports, by Brother^2
+*Added Revised Heart-Attack Gun Blue Book and Rebalanced The Weapon, by Brother^2
+*Added Weapon Compatible Spritesheet, sprites by The Martian

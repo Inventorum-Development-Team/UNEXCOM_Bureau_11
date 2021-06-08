@@ -90,7 +90,7 @@ items:
 
 # Browning HP-35
   - type: STR_BROWNING_HP35
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS]
     size: 0.1
     costBuy: 700
     costSell: 580
@@ -140,7 +140,7 @@ items:
     armor: 35
     listOrder: 200
   - type: STR_BROWNING_HP35_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES]
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -160,7 +160,7 @@ items:
 
 # Colt M1911
   - type: STR_COLT_M1911
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS]
     size: 0.1
     costBuy: 800
     costSell: 620
@@ -210,7 +210,7 @@ items:
     armor: 35
     listOrder: 202
   - type: STR_COLT_M1911_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES]
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -232,7 +232,7 @@ items:
 
 # Lupara M1897
   - type: STR_LUPARA_M1897
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS]
     size: 0.1
     costBuy: 1800
     costSell: 1600
@@ -273,7 +273,7 @@ items:
     armor: 30
     listOrder: 204
   - type: STR_LUPARA_M1897_SHELLS
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
     costSell: 200
     weight: 1
@@ -297,7 +297,7 @@ items:
 
 # United Defense M42
   - type: STR_UNITED_DEFENSE_M42
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS]
     size: 0.2
     costBuy: 2000
     costSell: 1750
@@ -367,7 +367,7 @@ items:
     armor: 10
     listOrder: 208
   - type: STR_UNITED_DEFENSE_M42_50_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES]
     size: 0.1
     costBuy: 300
     costSell: 250
@@ -482,7 +482,7 @@ items:
 
 # High Standard HDM
   - type: STR_HIGH_STANDARD_HDM
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
     size: 0.1
     requiresBuy:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
@@ -534,7 +534,7 @@ items:
     armor: 35
     listOrder: 213
   - type: STR_HIGH_STANDARD_HDM_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED]
     size: 0.1
     requiresBuy:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
@@ -559,7 +559,7 @@ items:
 
 # Beretta M12
   - type: STR_BERETTA_M12
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SEMI_CONCEALED]
     size: 0.2
     requiresBuy:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
@@ -664,12 +664,12 @@ items:
     handSprite: 400
     hitSound: 22
     hitAnimation: 26
-    bulletSpeed: 10
-    power: 10
+    bulletSpeed: 5
+    power: 15
     damageAlter:
-      RandomType: 2
+      RandomType: 6
       IgnoreOverKill: false
-      ToWound: 10.0
+      ToWound: 30.0
       RandomWound: false
     damageType: 8
     clipSize: 7
@@ -735,7 +735,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES]
     size: 0.1
     requiresBuy:
-      - STR_CARL_GUSTAF_M45
+      - STR_MILITARY_EQUIPMENT_AQUISITION
     costBuy: 500
     costSell: 400
     weight: 3
@@ -940,7 +940,7 @@ items:
   - type: STR_ITHACA_37_SHELLS
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     requiresBuy:
-      - STR_WINCHESTER_MODEL_12
+      - STR_WINCHESTER_MODEL_12_BUY
     size: 0.1
     costBuy: 400
     costSell: 350
@@ -1019,7 +1019,7 @@ items:
   - type: STR_SPRINGFIELD_M14_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_MAGAZINES]
     requiresBuy:
-      - STR_FN_FAL
+      - STR_FN_FAL_BUY
     size: 0.1
     costBuy: 500
     costSell: 420
@@ -1188,7 +1188,7 @@ items:
 
 # Stechkin APS
   - type: STR_STECHKIN_APS
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SOVIET_TECHNOLOGY]
     requiresBuy:
       - STR_SOVIET_WEAPON_AQUISITION
     size: 0.1
@@ -1240,7 +1240,7 @@ items:
     armor: 35
     listOrder: 231
   - type: STR_STECHKIN_APS_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SOVIET_TECHNOLOGY]
     requiresBuy:
       - STR_SOVIET_WEAPON_AQUISITION
     size: 0.1
@@ -1404,7 +1404,7 @@ items:
   - type: STR_WINCHESTER_MODEL_12
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS]
     requiresBuy:
-      - STR_WINCHESTER_MODEL_12
+      - STR_WINCHESTER_MODEL_12_BUY
     size: 0.2
     costBuy: 1300
     costSell: 1150
@@ -1449,7 +1449,7 @@ items:
   - type: STR_FN_FAL
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES]
     requiresBuy:
-      - STR_FN_FAL
+      - STR_FN_FAL_BUY
     size: 0.2
     costBuy: 1100
     costSell: 900
@@ -1504,7 +1504,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS]
     size: 0.2
     requiresBuy:
-      - STR_CARL_GUSTAF_M45
+      - STR_CARL_GUSTAF_M45_BUY
     costBuy: 2000
     costSell: 1800
     weight: 8
@@ -1734,6 +1734,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT]
     size: 0.1
     costSell: 84000
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
     bigSprite: 744
     floorSprite: 744
@@ -1743,15 +1745,22 @@ items:
     fireSound: 11
     compatibleAmmo:
       - STR_ALIEN_LASER_PISTOL_BATTERY
-    accuracyAuto: 50
-    accuracySnap: 65
-    accuracyAimed: 85
-    autoRange: 60
-    snapRange: 60
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
     aimRange: 60
-    tuAuto: 30
-    tuSnap: 30
-    tuAimed: 60
+    accuracyAimed: 90
+    tuAimed: 55
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 60
+    accuracySnap: 65
+    tuSnap: 40
     battleType: 1
     invWidth: 1
     invHeight: 2
@@ -1762,6 +1771,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
     costSell: 4440
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
     bigSprite: 760
     floorSprite: 760
@@ -1773,7 +1784,7 @@ items:
     damageAlter:
       ArmorEffectiveness: 0.75
       ToArmor: 1.2
-    clipSize: 26
+    clipSize: 15
     battleType: 2
     recoveryPoints: 1
     listOrder: 242
@@ -1783,6 +1794,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
     costSell: 126500
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 5
     bigSprite: 768
     floorSprite: 768
@@ -1792,15 +1805,30 @@ items:
     fireSound: 11
     compatibleAmmo:
       - STR_ALIEN_LASER_RIFLE_BATTERY
-    accuracyAuto: 55
-    accuracySnap: 86
-    accuracyAimed: 100
-    autoRange: 60
-    snapRange: 60
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
     aimRange: 60
-    tuAuto: 35
+    accuracyAimed: 110
+    tuAimed: 70
+    confSnap:
+      shots: 2
+      name: STR_CONTROLLED_BURST
+      ammoSlot: 0
+      arcing: false
+    snapRange: 60
+    accuracySnap: 70
     tuSnap: 45
-    tuAimed: 60
+    confAuto:
+      shots: 4
+      name: STR_CONTROLLED_AUTO
+      ammoSlot: 0
+      arcing: false
+    autoRange: 20
+    accuracyAuto: 65
+    tuAuto: 55
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -1812,6 +1840,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
     costSell: 6290
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
     bigSprite: 784
     floorSprite: 784
@@ -1833,6 +1863,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
     costSell: 171600
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 8
     bigSprite: 792
     floorSprite: 792
@@ -1842,12 +1874,22 @@ items:
     fireSound: 11
     compatibleAmmo:
       - STR_ALIEN_HEAVY_LASER_BATTERY
-    accuracySnap: 110
-    accuracyAimed: 200
-    snapRange: 60
+    confAimed:
+      shots: 1
+      name: STR_DEADEYE
+      ammoSlot: 0
+      arcing: false
     aimRange: 60
-    tuSnap: 55
-    tuAimed: 70
+    accuracyAimed: 200
+    tuAimed: 80
+    confSnap:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    snapRange: 60
+    accuracySnap: 110
+    tuSnap: 65
     battleType: 1
     twoHanded: true
     invWidth: 2
@@ -1859,13 +1901,15 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.3
     costSell: 9590
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
     bigSprite: 808
     floorSprite: 808
     handSprite: 808
     hitSound: 19
     hitAnimation: 103
-    power: 150
+    power: 125
     damageType: 4
     damageAlter:
       ArmorEffectiveness: 0.50
@@ -1880,6 +1924,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_ALIEN_ARTIFACT]
     size: 0.3
     costSell: 144000
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 16
     bigSprite: 816
     floorSprite: 816
@@ -1902,6 +1948,8 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_ALIEN_ARTIFACT, STR_GRENADES]
     size: 0.2
     costSell: 17028
+    requires:
+     - STR_ALIEN_WEAPON_OPERATION
     weight: 3
     bigSprite: 832
     floorSprite: 832
@@ -2086,7 +2134,7 @@ ufopaedia:
     section: STR_WEAPONS
     text: STR_STECHKIN_APS_UFOPEDIA
     requires:
-      - STR_SOVIET_WEAPON_AQUISITION
+      - STR_STECHKIN_APS
     listOrder: 217
   - id: STR_STECHKIN_APS_MAG
     type_id: 4
@@ -2096,14 +2144,14 @@ ufopaedia:
     section: STR_WEAPONS
     text: STR_SKORPION_VZ61_UFOPEDIA
     requires:
-      - STR_SOVIET_WEAPON_AQUISITION
+      - STR_SKORPION_VZ61
     listOrder: 218
   - id: STR_AK_47
     type_id: 4
     section: STR_WEAPONS
     text: STR_AK_47_UFOPEDIA
     requires:
-      - STR_SOVIET_WEAPON_AQUISITION
+      - STR_AK_47
     listOrder: 219
   - id: STR_AK_47_MAG
     type_id: 4
@@ -2113,21 +2161,21 @@ ufopaedia:
     section: STR_WEAPONS
     text: STR_WINCHESTER_MODEL_12_UFOPEDIA
     requires:
-      - STR_WINCHESTER_MODEL_12
+      - STR_WINCHESTER_MODEL_12_BUY
     listOrder: 220
   - id: STR_FN_FAL
     type_id: 4
     section: STR_WEAPONS
     text: STR_FN_FAL_UFOPEDIA
     requires:
-      - STR_FN_FAL
+      - STR_FN_FAL_BUY
     listOrder: 221
   - id: STR_CARL_GUSTAF_M45
     type_id: 4
     section: STR_WEAPONS
     text: STR_CARL_GUSTAF_M45_UFOPEDIA
     requires:
-      - STR_CARL_GUSTAF_M45
+      - STR_CARL_GUSTAF_M45_BUY
     listOrder: 222
   - id: STR_CHINA_LAKE_LASER_PROJECTOR
     type_id: 4
@@ -2228,9 +2276,9 @@ manufacture:
     requires:
       - STR_HEART_ATTACK_GUN
     requiredItems:
-      STR_HEART_ATTACK_GUN: 1
-    producedItems:
       STR_COLT_M1911: 1
+    producedItems:
+      STR_HEART_ATTACK_GUN: 1
 
   - name: STR_HEART_ATTACK_GUN_MAG
     category: STR_WEAPONS
@@ -2240,11 +2288,21 @@ manufacture:
     requires:
       - STR_HEART_ATTACK_GUN
     requiredItems:
-      STR_HEART_ATTACK_GUN_MAG: 1
-    producedItems:
       STR_COLT_M1911_MAG: 1
+    producedItems:
+      STR_HEART_ATTACK_GUN_MAG: 1
 
 research:
+  - name: STR_LASER_WEAPONS
+    dependencies:
+      - STR_COMMANDER_PLUS
+  - name: STR_MOTION_SCANNER
+    dependencies:
+      - STR_COMMANDER_PLUS
+  - name: STR_MEDI_KIT
+    dependencies:
+      - STR_COMMANDER_PLUS
+
   - name: STR_SUPPRESSED_WEAPONS_AQUISITION
     cost: 100
     points: 50
@@ -2255,26 +2313,52 @@ research:
     dependencies:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
 
+  - name: STR_MILITARY_EQUIPMENT_AQUISITION
+    cost: 300
+    points: 100
+    unlocks:
+      - STR_WINCHESTER_MODEL_12_BUY
+      - STR_FN_FAL_BUY
+      - STR_CARL_GUSTAF_M45_BUY
+
   - name: STR_WINCHESTER_MODEL_12
     cost: 50
     points: 10
+    needItem: true
+    unlocks:
+      - STR_WINCHESTER_MODEL_12_BUY
 
   - name: STR_FN_FAL
     cost: 50
     points: 10
     needItem: true
+    unlocks:
+      - STR_FN_FAL_BUY
 
   - name: STR_CARL_GUSTAF_M45
     cost: 50
     points: 10
     needItem: true
-
-  - name: STR_MILITARY_EQUIPMENT_AQUISITION
-    cost: 300
-    points: 100
     unlocks:
-      - STR_WINCHESTER_MODEL_12
-      - STR_FN_FAL
+      - STR_CARL_GUSTAF_M45_BUY
+
+  - name: STR_WINCHESTER_MODEL_12_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_FN_FAL_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_CARL_GUSTAF_M45_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
 
   - name: STR_LIGHT_ASSAULT_RIFLE_REQUISITION
     cost: 100
@@ -2285,7 +2369,7 @@ research:
   - name: STR_SOVIET_WEAPON_AQUISITION
     cost: 400
     points: 50
-    unlocks:
+    dependencies:
       - STR_STECHKIN_APS
       - STR_SKORPION_VZ61
       - STR_AK_47
@@ -2305,20 +2389,14 @@ research:
     points: 25
     needItem: true
 
-  - name: STR_CHINA_LAKE_LASER_PROJECTOR
-    cost: 200
-    points: 50
-    needItem: true
-
-  - name: STR_STURM_EKANONE
-    cost: 200
-    points: 50
-    needItem: true
-
-  - name: STR_VIKHR_ELECTROMAGNETIC_RIFLE
-    cost: 200
-    points: 50
-    needItem: true
+  - name: STR_ALIEN_WEAPON_OPERATION
+    cost: 100
+    points: 25
+    dependencies:
+      - STR_ALIEN_LASER_PISTOL
+      - STR_ALIEN_LASER_RIFLE
+      - STR_ALIEN_HEAVY_LASER
+      - STR_ALIEN_SIEGE_LAUNCHER
 
   - name: STR_ALIEN_LASER_PISTOL
     cost: 300
@@ -2337,6 +2415,21 @@ research:
 
   - name: STR_ALIEN_SIEGE_LAUNCHER
     cost: 300
+    points: 50
+    needItem: true
+
+  - name: STR_CHINA_LAKE_LASER_PROJECTOR
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_STURM_EKANONE
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    cost: 200
     points: 50
     needItem: true
 
@@ -2703,6 +2796,12 @@ extraStrings:
       STR_RAGE_FIRE: "Slam Fire"
       STR_DEADEYE: "Deadeye"
 
+      STR_SUPPRESSED_WEAPONS_AQUISITION: "Suppressed Weapon Acquisition"
+      STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Acquisition"
+      STR_SOVIET_WEAPON_AQUISITION: "Soviet Weapon Aquisition"
+      STR_ALIEN_WEAPON_OPERATION: "Alien Weapon Operation"
+      STR_LIGHT_ASSAULT_RIFLE_REQUISITION: "Light Assault Requisition"
+
       STR_BROWNING_HP35: "Browning HP-35"
       STR_BROWNING_HP35_MAG: "9x19mm Magazine (15x)"
       STR_BROWNING_HP35_UFOPEDIA: "The Browning HP-35 is a reliable semi-automatic handgun chambered in {ALT}9x19mm Parabellum{ALT} used by many militaries and law enforcement agencies around the world. {NEWLINE}> Semi-Concealable"
@@ -2734,9 +2833,7 @@ extraStrings:
 
       STR_HEART_ATTACK_GUN: "Heart Attack Gun"
       STR_HEART_ATTACK_GUN_MAG: ".45 ACP Toxin Magazine (7x)"
-      STR_HEART_ATTACK_GUN_UFOPEDIA: "This M1911 has been modified to fire ricin toxin darts. It has an almost 100% lethality rate and is untracable, making it the perfect assassination weapon. Although we are primarily a reconnissance and intelligence gathering group, it may help us in combat scenarios. The darts have trouble piercing thick clothing and takes time to circulate throughout the body, giving the enemy a chance to react. We also don't know its effectiveness against alien biochemistry either. {NEWLINE}> Semi-Concealable"
-
-      STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Requisition"
+      STR_HEART_ATTACK_GUN_UFOPEDIA: "The 'Heart Attack Gun' is a modified internally suppressed M1911 that fires ricin darts. The toxin darts dissolve on the skin and cause a heart attack, killing the target and leaving almost no trace of itself behind. However, it takes time to circulate throughout the body and may give the enemy time to react. We also have no idea of its effectiveness against alien biochemistry. {NEWLINE}> Concealable"
 
       STR_M3_GREASEGUN: "M3 Greasegun"
       STR_M3_GREASEGUN_MAG: ".45 ACP Magazine (30x)"
@@ -2812,3 +2909,158 @@ extraStrings:
       STR_ALIEN_SIEGE_LAUNCHER: "Alien Siege Launcher"
       STR_ALIEN_SIEGE_LAUNCHER_SHELL: "Alien Siege Shell"
       STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "Unlike the other weapons we have found so far, this one seems to employ some kind of ballistic principle to propel its projectiles at an angle, similar to the way our mortars work. We have not found the way in which this weapon is held. The projectile is one of our greatest concerns, because it is fundamentally a miniature atomic bomb. Any alien using this weapon should have priority to be eliminated."
+
+  - type: en-GB
+    strings:
+      STR_WEAPONS: "ARMS AND AMMUNITION"
+      STR_FIREARMS: "FIREARMS"
+      STR_HANDGUNS: "HANDGUNS"
+      STR_SMGS: "SMGS"
+      STR_SHOTGUNS: "SHOTGUNS"
+      STR_CARBINES: "CARBINES"
+      STR_RIFLES: "RIFLES"
+      STR_SNIPER_RIFLES: "SNIPER RIFLES"
+      STR_LMGS: "LMGS"
+      STR_ARTILLERY: "ARTILLERY"
+      STR_MAGAZINES: "MAGAZINES"
+      STR_CLIPS: "CLIPS"
+      STR_SEMI_CONCEALED: "SEMI-CONCEALED"
+      STR_CONCEALED: "FULLY CONCEALED"
+      STR_MELEE: "MELEE"
+      STR_MEDICAL: "MEDICAL"
+      STR_GRENADES: "GRENADES"
+      STR_PROPRIETARY: "PROPRIETARY"
+      STR_SOVIET_TECHNOLOGY: "SOVIET TECHNOLOGY"
+      STR_ALIEN_ARTIFACT: "ALIEN ARTEFACT"
+
+      STR_DAMAGE_ARMOR_PIERCING: "PIERCING"
+      STR_DAMAGE_STUN: "SHOCK"
+      STR_DAMAGE_MELEE: "CUTTING"
+      STR_DAMAGE_ACID: "TOXIN"
+      STR_DAMAGE_PLASMA_BEAM: "FLASH"
+
+      STR_HIP_FIRE: "Hip Fire"
+      STR_STEADY_SHOT: "Steady Shot"
+      STR_DOUBLE_TAP: "Double Tap"
+      STR_SPRAY_N_PRAY: "Spray n' Pray"
+      STR_CONTROLLED_BURST: "Burst Fire"
+      STR_CONTROLLED_AUTO: "Auto Fire"
+      STR_SUPPRESSION: "Suppression"
+      STR_BOMBS_AWAY: "Bombs Away!"
+      STR_RAGE_FIRE: "Slam Fire"
+      STR_DEADEYE: "Deadeye"
+
+      STR_SUPPRESSED_WEAPONS_AQUISITION: "Suppressed Weapon Acquisition"
+      STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Acquisition"
+      STR_SOVIET_WEAPON_AQUISITION: "Soviet Weapon Aquisition"
+      STR_ALIEN_WEAPON_OPERATION: "Alien Weapon Operation"
+      STR_LIGHT_ASSAULT_RIFLE_REQUISITION: "Light Assault Requisition"
+
+      STR_BROWNING_HP35: "Browning HP-35"
+      STR_BROWNING_HP35_MAG: "9x19mm Magazine (15x)"
+      STR_BROWNING_HP35_UFOPEDIA: "The Browning HP-35 is a reliable semi-automatic handgun chambered in {ALT}9x19mm Parabellum{ALT} used by many militaries and law enforcement agencies around the world."
+
+      STR_COLT_M1911: "Colt M1911"
+      STR_COLT_M1911_MAG: ".45 ACP Magazine (7x)"
+      STR_COLT_M1911_UFOPEDIA: "A mainstay of US army personnel, the Colt M1911, chambered in {ALT}.45 ACP{ALT} has seen action across almost every combat theatre. It is also popular among the civilian population and has seen wide distribution."
+
+      STR_LUPARA_M1897: "Lupara M1897"
+      STR_LUPARA_M1897_SHELLS: "12 Gauge Shells (2x)"
+      STR_LUPARA_M1897_UFOPEDIA: "This modified Winchester M1897 had its barrel sawn-off in exchange for easy transport and concealablility. Chambered in {ALT}12 Gauge Shells{ALT}, while small, still packs a considerable punch."
+
+      STR_UNITED_DEFENSE_M42: "United Defense M42"
+      STR_UNITED_DEFENSE_M42_20_MAG: "9x19mm Magazine (20x)"
+      STR_UNITED_DEFENSE_M42_50_MAG: "9x19mm Magazine (50x)"
+      STR_UNITED_DEFENSE_M42_UFOPEDIA: "Known coloquially as the Marlin, the United Defense M42 was designed as a replacement for the Thompson sub-machine gun, now chambered in {ALT}9x19mm Parabellum{ALT}. While it was to expensive to put into large-scale production, OSS agents rated its high preformace and reliability."
+
+      STR_SPRINGFIELD_M2: "Springfield M2"
+      STR_SPRINGFIELD_M2_15_MAG: ".30 Carbine Magazine (15x)"
+      STR_SPRINGFIELD_M2_30_MAG: ".30 Carbine Magazine (30x)"
+      STR_SPRINGFIELD_M2_UFOPEDIA: "The Springfield M2 is a personal defense weapon chambered in {ALT}.30 Carbine{ALT} meant for artillery crews, supply personnel and rear guard troops. It's valuable for its ease to use and low recoil, although it lacks stopping power."
+
+      STR_HIGH_STANDARD_HDM: "High Standard HDM"
+      STR_HIGH_STANDARD_HDM_MAG: ".22 LR Magazine (10x)"
+      STR_HIGH_STANDARD_HDM_UFOPEDIA: "While the High Standard HDM, chambered in {ALT}.22 LR{ALT}, is by all means outdated; it is still in use by our U-2 pilots and its integrated silencer could prove useful for covert operations. {NEWLINE}> Semi-Concealable"
+
+      STR_BERETTA_M12: "Beretta M12"
+      STR_BERETTA_M12_UFOPEDIA: "Variant of a light SMG designed by the Italian firm Beretta, used mostly by security staff of various diplomatic services (and by the CIA). This is equipped with a heavy suppressor that negates most of the noise and flash. Calibrated in {ALT}9x19 Parabellum{ALT} rounds, it has a manageable recoil on full auto. {NEWLINE}> Semi-Concealable"
+
+      STR_HEART_ATTACK_GUN: "Heart Attack Gun"
+      STR_HEART_ATTACK_GUN_MAG: ".45 ACP Toxin Magazine (7x)"
+      STR_HEART_ATTACK_GUN_UFOPEDIA: "The 'Heart Attack Gun' is a modified internally suppressed M1911 that fires ricin darts. The toxin darts dissolve on the skin and cause a heart attack, killing the target and leaving almost no trace of itself behind. However, it takes time to circulate throughout the body and may give the enemy time to react. We also have no idea of its effectiveness against alien biochemistry. {NEWLINE}> Semi-Concealable"
+
+      STR_M3_GREASEGUN: "M3 Greasegun"
+      STR_M3_GREASEGUN_MAG: ".45 ACP Magazine (30x)"
+      STR_M3_GREASEGUN_UFOPEDIA: "This famoous machine gun is known for its ability to be manufactured cheapily and easily since the beginning of this service in the Second World War. It fires {ALT}.45 ACP{ALT} rounds out of 30 rd. magazines."
+
+      STR_M60_HOG: "M60 Hog"
+      STR_M60_HOG_MAG: "7.62x51mm NATO Magazine (100x)"
+      STR_M60_HOG_UFOPEDIA: "A powerful light machine gun of recent design that uses {ALT}7.62x51mm NATO{ALT} which has such a high rate of fire that it risks melting the barrel. Its integrated bipod is {ALT}deployed{ALT} once loaded and grants a {ALT}kneelBonus{ALT} of {ALT}150{ALT} {NEWLINE}> Definitely Not Concealable"
+
+      STR_M79_THUMPER: "M79 Thumper"
+      STR_M79_THUMPER_GRENADE: "40mm AP Grenade"
+      STR_M79_THUMPER_UFOPEDIA: "A break-action shotgun grenade launcher about the size of a rifle, making it easy to operate. Chambered in {ALT}40mm Grenades{ALT}, we were only allowed to purchase Anti-Personnel grenades as the collateral damage of high explosives or incendiary rounds would compromise the secrecy of our operations."
+
+      STR_ITHACA_37: "Ithaca 37"
+      STR_ITHACA_37_SHELLS: "12 Gauge Shells (6x)"
+      STR_ITHACA_37_UFOPEDIA: "The Ithaca 37 is a {ALT}12 Gauge{ALT} pump-action shotgun renowned for its reliablility under harsh condictions, as well as for its 'slam-fire' capability. It has found a place in the military and many police forces."
+
+      STR_SPRINGFIELD_M14: "Springfield M14"
+      STR_SPRINGFIELD_M14_MAG: "7.62x51mm NATO Magazine (20x)"
+      STR_SPRINGFIELD_M14_UFOPEDIA: "The standard issue battle rifle of the United States armed forces. Calibrated in the powerful {ALT}7.62x51mm NATO{ALT} in 20 round magazines, while it is fully capable of sustained automatic fire it is reccomended to use this in semi-auto for greater accuracy."
+
+      STR_SPRINGFIELD_M1903A3: "Springfield M1903A3"
+      STR_SPRINGFIELD_M1903A3_CLIP: "30-06 Springfield (6x)"
+      STR_SPRINGFIELD_M1903A3_UFOPEDIA: "A {ALT}.30-06 caliber{ALT} bolt-action rifle used since the First World War which has stuck around for a reason. This most recent version has been upgraded for the modern era."
+
+      STR_COLT_AR15: "Colt AR-15"
+      STR_COLT_AR15_MAG: "5.56x45mm NATO Magazine (20x)"
+      STR_COLT_AR15_UFOPEDIA: "This lightweight, selective fire assault rifle is a model originally made by ArmaLite and now produced by Colt. Uses the new {ALT}5.56x45mm NATO{ALT} intermediate caliber, which is easy to control and quite accurate. A very liked weapon, it is expected to be the future rifle of the US Army in the next decades."
+
+      STR_STECHKIN_APS: "Stechkin APS"
+      STR_STECHKIN_APS_MAG: "9x18mm Magazine (20x)"
+      STR_STECHKIN_APS_UFOPEDIA: "This pistol, a select fire handgun chambered in {ALT}9x18mm Makarov{ALT}, originating from the Soviet Union was originally designed for tank crews, however it has been adopted by Directorate 17 agents as thier standard side-arm. {NEWLINE}> Semi-Concealable"
+
+      STR_SKORPION_VZ61: "Skorpion vz61"
+      STR_SKORPION_VZ61_UFOPEDIA: "A Personal Defense Weapon manufactured in Czechoslovakia. This rendition, chambered in {ALT}9x18mm Makarov{ALT} instead of the traditional 7.58mm rounds, has made its way into the common ranks of Directorate 17."
+
+      STR_AK_47: "AKM"
+      STR_AK_47_MAG: "7.62x39mm Magazine (30x)"
+      STR_AK_47_UFOPEDIA: "Possibly one of the most prolific and mass-produced weapons in the world, and for good reason. A reliable and resiliant assault rifle. Chambered in {ALT}7.62x39mm{ALT}"
+
+      STR_WINCHESTER_MODEL_12: "Winchester Model 12"
+      STR_WINCHESTER_MODEL_12_UFOPEDIA: "The Winchester Model 12 is a pump-action shotgun chambered in {ALT}12 Gauge{ALT} ammunition. Though it has seen action in WII and Korea, it has a special place in the heart of the American civilian populace. Aquiring this weapon should be no issue, although there are probrably better alternatives."
+
+      STR_FN_FAL: "FN FAL"
+      STR_FN_FAL_UFOPEDIA: "The FN FAL is a battle rifle of Belgian design chambered in {ALT}7.62x51mm{ALT}. Chrisined the 'right hand of the free world' it has a place in many NATO countries' armories. While a great rifle that we should have no trouble in obtaining, there are probrably better alternatives when it comes to sustained fire."
+
+      STR_CARL_GUSTAF_M45: "Carl Gustaf m/45"
+      STR_CARL_GUSTAF_M45_UFOPEDIA: "A {ALT}9x19mm{ALT} SMG of Swedish design adpoted at the tail-end of WWII. In that time, has become a mainstay of the Swedish Army. While we shouldn't have trouble obtaining some of these, there are probrably better alternatives."
+
+      STR_CHINA_LAKE_LASER_PROJECTOR: "China Lake Laser Projector"
+      STR_CHINA_LAKE_LASER_PROJECTOR_UFOPEDIA: "This is an advanced prototype of a direct energy weapon assembled in secrecy at the China Lake Naval Air Weapons Station. It is the product of reverse engineering after the study of the laser weapons fielded by the aliens. While originally intended to be an air-mounted weapon, it was eventually miniaturized into a small arm intended for deployment by Navy Special Forces on black ops. They have provided us with most of their samples."
+
+      STR_STURM_EKANONE: "Sturm Ekanone"
+      STR_STURM_EKANONE_BATTERY: "Sturm Ekanone Battery (10x)"
+      STR_STURM_EKANONE_UFOPEDIA: "The sterotype about German engineering holds true. This masterpiece, the Sturm Ekanone, a pormanteau of the German words for Cannon and Electricity, is an electric weapon designed to incapacitate both biological and mechanical targets. Designed by NATO engineers after sharing the prototype Laser Projectors provided by the China Lake staff. It launches a short burst of electricity that can spread out to multiplte targets."
+
+      STR_VIKHR_ELECTROMAGNETIC_RIFLE: "Vikhr Electromagnetic Rifle"
+      STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG: "Vikhr EMR Mag (10x)"
+      STR_VIKHR_ELECTROMAGNETIC_RIFLE_UFOPEDIA: "The Vikhr Electromagnetic Rifle is the mouthful from the East which that isn't any better in its native tounge. It is a prototype high powered railgun that launches tungsten alloy slugs at ludicrous speeds, penetrating through several feet of steel. While Directorate 17 has not been willing to share much about its planned applications, we theorize it will be used against mechanized infantry or even aerial vehicles such as helicopters."
+    
+      STR_ALIEN_LASER_PISTOL: "Alien Laser Pistol"
+      STR_ALIEN_LASER_PISTOL_BATTERY: "Alien Light Battery (15x)"
+      STR_ALIEN_LASER_PISTOL_UFOPEDIA: "This 'hand weapon' (named by our technicians, judging by the size and use of this weapon by the enemy) uses novel technology to emit a powerful beam of light. When passing a Geiger counter, we can see that it emits a small amount of radiation, so it is not recommended for analysis without adequate protection."
+
+      STR_ALIEN_LASER_RIFLE: "Alien Laser Rifle"
+      STR_ALIEN_LASER_RIFLE_BATTERY: "Alien Medium Battery (20x)"
+      STR_ALIEN_LASER_RIFLE_UFOPEDIA: "Our studies and field reports point to this weapon as the standard weaponry of the enemy infantry (similar to our doctrines). This 'rifle', if you can call it that, has a compact power generator, which emits a light beam powered by a crystal of unknown origin. The beam is capable of penetrating armor without problems."
+
+      STR_ALIEN_HEAVY_LASER: "Alien Heavy Laser"
+      STR_ALIEN_HEAVY_LASER_BATTERY: "Alien Heavy Battery (10x)"
+      STR_ALIEN_HEAVY_LASER_UFOPEDIA: "A really heavy weapon, but extremely powerful. This cannon uses the same concept of an energy source that emits a laser, amplified by an alien crystal. This crystal is quite large, more than in other enemy devices, which we believe contributes to give it a greater range. We have noticed that it has a tendency to overheat."
+
+      STR_ALIEN_SIEGE_LAUNCHER: "Alien Siege Launcher"
+      STR_ALIEN_SIEGE_LAUNCHER_SHELL: "Alien Siege Shell"
+      STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "Unlike the other weapons we have found so far, this one seems to employ some kind of ballistic principle to propel its projectiles at an angle, similar to the way our mortars work. We have not found the way in which this weapon is held. The projectile is one of our greatest concerns, because it is fundamentally a miniature atomic bomb. Any alien using this weapon should have priority to be eliminated."
+
