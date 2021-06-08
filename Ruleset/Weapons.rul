@@ -90,7 +90,7 @@ items:
 
 # Browning HP-35
   - type: STR_BROWNING_HP35
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS]
     size: 0.1
     costBuy: 700
     costSell: 580
@@ -140,7 +140,7 @@ items:
     armor: 35
     listOrder: 200
   - type: STR_BROWNING_HP35_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES]
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -160,7 +160,7 @@ items:
 
 # Colt M1911
   - type: STR_COLT_M1911
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS]
     size: 0.1
     costBuy: 800
     costSell: 620
@@ -210,7 +210,7 @@ items:
     armor: 35
     listOrder: 202
   - type: STR_COLT_M1911_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES]
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -232,7 +232,7 @@ items:
 
 # Lupara M1897
   - type: STR_LUPARA_M1897
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS]
     size: 0.1
     costBuy: 1800
     costSell: 1600
@@ -273,7 +273,7 @@ items:
     armor: 30
     listOrder: 204
   - type: STR_LUPARA_M1897_SHELLS
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
     costSell: 200
     weight: 1
@@ -297,7 +297,7 @@ items:
 
 # United Defense M42
   - type: STR_UNITED_DEFENSE_M42
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS]
     size: 0.2
     costBuy: 2000
     costSell: 1750
@@ -367,7 +367,7 @@ items:
     armor: 10
     listOrder: 208
   - type: STR_UNITED_DEFENSE_M42_50_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES]
     size: 0.1
     costBuy: 300
     costSell: 250
@@ -482,7 +482,7 @@ items:
 
 # High Standard HDM
   - type: STR_HIGH_STANDARD_HDM
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
     size: 0.1
     requiresBuy:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
@@ -534,7 +534,7 @@ items:
     armor: 35
     listOrder: 213
   - type: STR_HIGH_STANDARD_HDM_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED]
     size: 0.1
     requiresBuy:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
@@ -559,7 +559,7 @@ items:
 
 # Beretta M12
   - type: STR_BERETTA_M12
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SEMI_CONCEALED]
     size: 0.2
     requiresBuy:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
@@ -614,7 +614,7 @@ items:
 
 # Heart Attack Gun
   - type: STR_HEART_ATTACK_GUN
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_PROPRIETARY, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_PROPRIETARY, STR_SEMI_CONCEALED]
     size: 0.1
     costSell: 800
     weight: 7
@@ -1188,7 +1188,7 @@ items:
 
 # Stechkin APS
   - type: STR_STECHKIN_APS
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SOVIET_TECHNOLOGY]
     requiresBuy:
       - STR_SOVIET_WEAPON_AQUISITION
     size: 0.1
@@ -1240,7 +1240,7 @@ items:
     armor: 35
     listOrder: 231
   - type: STR_STECHKIN_APS_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SOVIET_TECHNOLOGY, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SOVIET_TECHNOLOGY]
     requiresBuy:
       - STR_SOVIET_WEAPON_AQUISITION
     size: 0.1
@@ -2941,20 +2941,20 @@ extraStrings:
 
       STR_BROWNING_HP35: "Browning HP-35"
       STR_BROWNING_HP35_MAG: "9x19mm Magazine (15x)"
-      STR_BROWNING_HP35_UFOPEDIA: "The Browning HP-35 is a reliable semi-automatic handgun chambered in {ALT}9x19mm Parabellum{ALT} used by many militaries and law enforcement agencies around the world. {NEWLINE}> Semi-Concealable"
+      STR_BROWNING_HP35_UFOPEDIA: "The Browning HP-35 is a reliable semi-automatic handgun chambered in {ALT}9x19mm Parabellum{ALT} used by many militaries and law enforcement agencies around the world."
 
       STR_COLT_M1911: "Colt M1911"
       STR_COLT_M1911_MAG: ".45 ACP Magazine (7x)"
-      STR_COLT_M1911_UFOPEDIA: "A mainstay of US army personnel, the Colt M1911, chambered in {ALT}.45 ACP{ALT} has seen action across almost every combat theatre. It is also popular among the civilian population and has seen wide distribution. {NEWLINE}> Semi-Concealable"
+      STR_COLT_M1911_UFOPEDIA: "A mainstay of US army personnel, the Colt M1911, chambered in {ALT}.45 ACP{ALT} has seen action across almost every combat theatre. It is also popular among the civilian population and has seen wide distribution."
 
       STR_LUPARA_M1897: "Lupara M1897"
       STR_LUPARA_M1897_SHELLS: "12 Gauge Shells (2x)"
-      STR_LUPARA_M1897_UFOPEDIA: "This modified Winchester M1897 had its barrel sawn-off in exchange for easy transport and concealablility. Chambered in {ALT}12 Gauge Shells{ALT}, while small, still packs a considerable punch. {NEWLINE}> Semi-Concealable"
+      STR_LUPARA_M1897_UFOPEDIA: "This modified Winchester M1897 had its barrel sawn-off in exchange for easy transport and concealablility. Chambered in {ALT}12 Gauge Shells{ALT}, while small, still packs a considerable punch."
 
       STR_UNITED_DEFENSE_M42: "United Defense M42"
       STR_UNITED_DEFENSE_M42_20_MAG: "9x19mm Magazine (20x)"
       STR_UNITED_DEFENSE_M42_50_MAG: "9x19mm Magazine (50x)"
-      STR_UNITED_DEFENSE_M42_UFOPEDIA: "Known coloquially as the Marlin, the United Defense M42 was designed as a replacement for the Thompson sub-machine gun, now chambered in {ALT}9x19mm Parabellum{ALT}. While it was to expensive to put into large-scale production, OSS agents rated its high preformace and reliability. {NEWLINE}> Semi-Concealable"
+      STR_UNITED_DEFENSE_M42_UFOPEDIA: "Known coloquially as the Marlin, the United Defense M42 was designed as a replacement for the Thompson sub-machine gun, now chambered in {ALT}9x19mm Parabellum{ALT}. While it was to expensive to put into large-scale production, OSS agents rated its high preformace and reliability."
 
       STR_SPRINGFIELD_M2: "Springfield M2"
       STR_SPRINGFIELD_M2_15_MAG: ".30 Carbine Magazine (15x)"
@@ -2963,14 +2963,14 @@ extraStrings:
 
       STR_HIGH_STANDARD_HDM: "High Standard HDM"
       STR_HIGH_STANDARD_HDM_MAG: ".22 LR Magazine (10x)"
-      STR_HIGH_STANDARD_HDM_UFOPEDIA: "While the High Standard HDM, chambered in {ALT}.22 LR{ALT}, is by all means outdated; it is still in use by our U-2 pilots and its integrated silencer could prove useful for covert operations. {NEWLINE}> Concealable"
+      STR_HIGH_STANDARD_HDM_UFOPEDIA: "While the High Standard HDM, chambered in {ALT}.22 LR{ALT}, is by all means outdated; it is still in use by our U-2 pilots and its integrated silencer could prove useful for covert operations. {NEWLINE}> Semi-Concealable"
 
       STR_BERETTA_M12: "Beretta M12"
-      STR_BERETTA_M12_UFOPEDIA: "Variant of a light SMG designed by the Italian firm Beretta, used mostly by security staff of various diplomatic services (and by the CIA). This is equipped with a heavy suppressor that negates most of the noise and flash. Calibrated in {ALT}9x19 Parabellum{ALT} rounds, it has a manageable recoil on full auto. {NEWLINE}> Concealable"
+      STR_BERETTA_M12_UFOPEDIA: "Variant of a light SMG designed by the Italian firm Beretta, used mostly by security staff of various diplomatic services (and by the CIA). This is equipped with a heavy suppressor that negates most of the noise and flash. Calibrated in {ALT}9x19 Parabellum{ALT} rounds, it has a manageable recoil on full auto. {NEWLINE}> Semi-Concealable"
 
       STR_HEART_ATTACK_GUN: "Heart Attack Gun"
       STR_HEART_ATTACK_GUN_MAG: ".45 ACP Toxin Magazine (7x)"
-      STR_HEART_ATTACK_GUN_UFOPEDIA: "The 'Heart Attack Gun' is a modified internally suppressed M1911 that fires ricin darts. The toxin darts dissolve on the skin and cause a heart attack, killing the target and leaving almost no trace of itself behind. However, it takes time to circulate throughout the body and may give the enemy time to react. We also have no idea of its effectiveness against alien biochemistry. {NEWLINE}> Concealable"
+      STR_HEART_ATTACK_GUN_UFOPEDIA: "The 'Heart Attack Gun' is a modified internally suppressed M1911 that fires ricin darts. The toxin darts dissolve on the skin and cause a heart attack, killing the target and leaving almost no trace of itself behind. However, it takes time to circulate throughout the body and may give the enemy time to react. We also have no idea of its effectiveness against alien biochemistry. {NEWLINE}> Semi-Concealable"
 
       STR_M3_GREASEGUN: "M3 Greasegun"
       STR_M3_GREASEGUN_MAG: ".45 ACP Magazine (30x)"
