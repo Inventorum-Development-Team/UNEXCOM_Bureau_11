@@ -1567,6 +1567,9 @@ items:
     bulletSprite: 29
     hitAnimation: 36
     fireSound: 242
+    costSnap:
+      time: 40
+      mana: 3
     confSnap:
       shots: 5
       name: STR_CONTROLLED_AUTO
@@ -1574,7 +1577,9 @@ items:
       arcing: false
     snapRange: 30
     accuracySnap: 70
-    tuSnap: 40
+    costAuto:
+      time: 55
+      mana: 5
     confAuto:
       shots: 10
       name: STR_SUPPRESSION
@@ -1582,7 +1587,6 @@ items:
       arcing: false
     autoRange: 20
     accuracyAuto: 35
-    tuAuto: 55
     accuracyCloseQuarters: 90
     damageType: 4
     power: 55
@@ -1614,6 +1618,8 @@ items:
     reloadSound: 244
     compatibleAmmo:
       - STR_STURM_EKANONE_BATTERY
+    costAimed:
+      time: 45
     confAimed:
       shots: 1
       name: STR_STEADY_SHOT
@@ -1621,7 +1627,8 @@ items:
       arcing: false
     aimRange: 18
     accuracyAimed: 110
-    tuAimed: 45
+    costSnap:
+      time: 20
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
@@ -1629,7 +1636,6 @@ items:
       arcing: false
     snapRange: 12
     accuracySnap: 90
-    tuSnap: 20
     accuracyCloseQuarters: 90
     dropoff: 4
     shotgunChoke: 70
@@ -1678,6 +1684,9 @@ items:
     reloadSound: 246
     compatibleAmmo:
       - STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+    costAimed:
+      time: 55
+      mana: 2
     confAimed:
       shots: 1
       name: STR_DEADEYE
@@ -1685,7 +1694,9 @@ items:
       arcing: false
     aimRange: 60
     accuracyAimed: 200
-    tuAimed: 55
+    costSnap:
+      time: 40
+      mana: 2
     confSnap:
       shots: 1
       name: STR_STEADY_SHOT
@@ -1693,7 +1704,6 @@ items:
       arcing: false
     snapRange: 20
     accuracySnap: 110
-    tuSnap: 40
     accuracyCloseQuarters: 10
     tuLoad: 30
     maxRange: 60
@@ -2737,6 +2747,23 @@ extraSounds:
       227: Resources/Weapons/Springfield M1903A3/reload.wav
       228: Resources/Weapons/Colt AR-15/fire.wav
       229: Resources/Weapons/Colt AR-15/reload.wav
+      230: Resources/Weapons/Stechkin APS/fire.wav
+      231: Resources/Weapons/Stechkin APS/reload.wav
+      232: Resources/Weapons/Skorpion vz61/fire.wav
+      233: Resources/Weapons/Skorpion vz61/reload.wav
+      234: Resources/Weapons/AK-47/fire.wav
+      235: Resources/Weapons/AK-47/reload.wav
+      236: Resources/Weapons/Winchester Model 12/fire.wav
+      237: Resources/Weapons/Winchester Model 12/reload.wav
+      238: Resources/Weapons/FN FAL/fire.wav
+      239: Resources/Weapons/FN FAL/reload.wav
+      240: Resources/Weapons/Carl Gustaf M45/fire.wav
+      241: Resources/Weapons/Carl Gustaf M45/reload.wav
+      242: Resources/Weapons/China Lake Laser Projector/fire.wav
+      243: Resources/Weapons/Sturm Ekanone/fire.wav
+      244: Resources/Weapons/Sturm Ekanone/reload.wav
+      245: Resources/Weapons/Vikhr Electromagnetic Rifle/fire.wav
+      246: Resources/Weapons/Vikhr Electromagnetic Rifle/reload.wav
 
 extraStrings:
   - type: en-US
@@ -3027,7 +3054,7 @@ extraStrings:
       STR_STURM_EKANONE_BATTERY: "Sturm Ekanone Battery (10x)"
       STR_STURM_EKANONE_UFOPEDIA: "The sterotype about German engineering holds true. This masterpiece, the Sturm Ekanone, a pormanteau of the German words for Cannon and Electricity, is an electric weapon designed to incapacitate both biological and mechanical targets. Designed by NATO engineers after sharing the prototype Laser Projectors provided by the China Lake staff. It launches a short burst of electricity that can spread out to multiplte targets."
 
-      STR_VIKHR_ELECTROMAGNETIC_RIFLE: "Vikhr Electromagnetic Rifle"
+      STR_VIKHR_ELECTROMAGNETIC_RIFLE: "Vikhr EMR"
       STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG: "Vikhr EMR Mag (10x)"
       STR_VIKHR_ELECTROMAGNETIC_RIFLE_UFOPEDIA: "The Vikhr Electromagnetic Rifle is the mouthful from the East which that isn't any better in its native tounge. It is a prototype high powered railgun that launches tungsten alloy slugs at ludicrous speeds, penetrating through several feet of steel. While Directorate 17 has not been willing to share much about its planned applications, we theorize it will be used against mechanized infantry or even aerial vehicles such as helicopters."
     

@@ -26,6 +26,29 @@ items:
     invHeight: 3
     armor: 50
     recover: false
+  - type: STR_CORPSE_AUG
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 503
+    floorSprite: 503
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
+  - type: STR_AUGMENTATION_SUIT
+    categories: [STR_PROPRIETARY]
+    costSell: 128000
+    size: 0.2
+    recover: false
+  - type: INV_POWER_PACK_3X3
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 955
+    invWidth: 3
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
 
 armors:
   - delete: STR_NONE_UC
@@ -152,6 +175,51 @@ armors:
       - 1.0
     units:
       - STR_KGB_OFFICER
+  - type: STR_AUGMENTATION_SUIT_UC
+    spriteSheet: AUGMENTATION_SUIT.PCK
+    spriteInv: MAN_AUG
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_AUG
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 8
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166]
+    stats:
+      tu: 14
+      stamina: 28
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 12
+      throwing: 12
+      strength: 8
+      psiStrength: 0
+      psiSkill: 0
+      melee: 8
+      mana: 60
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 0.5
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    units:
+      - STR_CIA_AGENT
+      - STR_ARMY_VETERAN
+      - STR_KGB_OFFICER
+    builtInWeapons:
+      - INV_POWER_PACK_3X3
 
 ufopaedia:
   - id: STR_AGENT_SUIT_UC
@@ -173,6 +241,18 @@ ufopaedia:
     requires:
       - STR_KGB_OFFICER_RECRUITMENT
     text: STR_OFFICER_COAT_UC_UFOPEDIA
+  - id: STR_AUGMENTATION_SUIT_UC
+    type_id: 5
+    section: STR_OUTFITS
+    listOrder: 103
+    requires:
+      - STR_AUGMENTATION_SUIT
+    text: STR_AUGMENTATION_SUIT_UC_UFOPEDIA
+
+research:
+  - name: STR_AUGMENTATION_SUIT
+    cost: 150
+    points: 25
 
 extraSprites:
   # Agent Suit Inv
@@ -274,6 +354,39 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Outfits/Officer_Coat/Inventory/MAN_M3.png
+  # Augmentation Suit Inv
+  - type: MAN_AUGF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Augmentation_Suit/Inventory/MAN_F0.png
+  - type: MAN_AUGF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Augmentation_Suit/Inventory/MAN_F1.png
+  - type: MAN_AUGF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Augmentation_Suit/Inventory/MAN_F2.png
+  - type: MAN_AUGF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Augmentation_Suit/Inventory/MAN_F3.png
+  - type: MAN_AUGM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Augmentation_Suit/Inventory/MAN_M0.png
+  - type: MAN_AUGM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Augmentation_Suit/Inventory/MAN_M1.png
+  - type: MAN_AUGM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Augmentation_Suit/Inventory/MAN_M2.png
+  - type: MAN_AUGM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/Augmentation_Suit/Inventory/MAN_M3.png
 
   - type: AGENT_SUIT.PCK
     width: 512
@@ -299,6 +412,14 @@ extraSprites:
     files:
       # Agent Suit Spritesheet
       0: Resources/Outfits/Officer_Coat/Coat.png
+  - type: AUGMENTATION_SUIT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      # Augmentation Suit Spritesheet
+      0: Resources/Outfits/Augmentation_Suit/Suit.png
   - type: BIGOBS.PCK
     files:
       # Agent Suit Corpse Bigob
@@ -307,6 +428,9 @@ extraSprites:
       501: Resources/Outfits/Army_Uniform/Corpse/Uniform_Big.png
       # Officer Coat Corpse Bigob
       502: Resources/Outfits/Officer_Coat/Corpse/Coat_Big.png
+      # Augmentation Suit Corpse Bigob
+      503: Resources/Outfits/Augmentation_Suit/Corpse/Corpse_Big.png
+      955: Resources/Outfits/Augmentation_Suit/Backpack_Big.png
   - type: FLOOROB.PCK
     files:
       # Agent Suit Corpse Floorob
@@ -315,10 +439,13 @@ extraSprites:
       501: Resources/Outfits/Army_Uniform/Corpse/Uniform_Floor.png
       # Officer Coat Corpse Floorob
       502: Resources/Outfits/Officer_Coat/Corpse/Coat_Floor.png
+      # Augmentation Suit Corpse Floorob
+      503: Resources/Outfits/Augmentation_Suit/Corpse/Corpse_Floor.png
 
 extraStrings:
   - type: en-US
     strings:
+      STR_MANA_POOL: "ENERGY RESERVE"
       STR_OUTFITS: "ATTIRE AND ARMOR"
       STR_AGENT_SUIT_UC: "AGENT SUIT"
       STR_AGENT_SUIT_UC_UFOPEDIA: "This suit allows our agents to blend it with the general populace; at the cost of somewhat restricting movement."
@@ -326,9 +453,15 @@ extraStrings:
       STR_ARMY_UNIFORM_UC_UFOPEDIA: "Standard issue US army uniform, used widely by our armed forces."
       STR_OFFICER_COAT_UC: "OFFICER COAT"
       STR_OFFICER_COAT_UC_UFOPEDIA: "This KGB officer coat provides a much needed morale boost, but restricts quick movement."
+      STR_AUGMENTATION_SUIT: "Augmentation Suit"
+      STR_AUGMENTATION_SUIT_UC: "AUGMENTATION SUIT"
+      STR_AUGMENTATION_SUIT_UC_UFOPEDIA: "The Augmentation suit has in-built motors powered by an external battery that augment the wearer's strength and mobility and generate an energy shield that blocks incoming attacks."
+      STR_SHIELD_S: "Shields At {0}%"
+      STR_SHIELD_DOWN: "Shields Down!"
 
   - type: en-GB
     strings:
+      STR_MANA_POOL: "ENERGY RESERVE"
       STR_OUTFITS: "ATTIRE AND ARMOR"
       STR_AGENT_SUIT_UC: "AGENT SUIT"
       STR_AGENT_SUIT_UC_UFOPEDIA: "This suit allows our agents to blend it with the general populace; at the cost of somewhat restricting movement."
@@ -336,3 +469,6 @@ extraStrings:
       STR_ARMY_UNIFORM_UC_UFOPEDIA: "Standard issue US army uniform, used widely by our armed forces."
       STR_OFFICER_COAT_UC: "OFFICER COAT"
       STR_OFFICER_COAT_UC_UFOPEDIA: "This KGB officer coat provides a much needed morale boost, but restricts quick movement."
+      STR_AUGMENTATION_SUIT: "Augmentation Suit"
+      STR_AUGMENTATION_SUIT_UC: "AUGMENTATION SUIT"
+      STR_AUGMENTATION_SUIT_UC_UFOPEDIA: "The Augmentation suit has in-built motors powered by an external battery that augment the wearer's strength and mobility and generate an energy shield that blocks incoming attacks."

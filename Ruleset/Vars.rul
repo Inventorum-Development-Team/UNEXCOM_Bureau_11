@@ -11,3 +11,8 @@ startingTime:
   day: 1
   month: 1
   year: 1961
+
+mana:
+  enabled: true
+  battleUI: true
+  replenishAfterMission: true
