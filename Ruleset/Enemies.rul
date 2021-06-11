@@ -42,7 +42,6 @@ armors:
     underArmor: 2
     visibilityAtDark: 24
     psiVision: 8
-    drawingRoutine: 4
     specialWeapon: ALIEN_PSI_WEAPON
     damageModifier:
       - 1.0
