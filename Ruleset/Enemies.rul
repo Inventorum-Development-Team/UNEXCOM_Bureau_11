@@ -238,7 +238,7 @@ extraSprites:
     subX: 32
     subY: 40
     width: 512
-    height: 200
+    height: 720
     files:
       0: Resources/Enemies/Thin Man/ThinManSpritesheet.png
   - type: D17_SOLDIER.PCK
