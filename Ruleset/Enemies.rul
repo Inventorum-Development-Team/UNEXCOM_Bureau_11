@@ -42,7 +42,6 @@ armors:
     underArmor: 2
     visibilityAtDark: 24
     psiVision: 8
-    drawingRoutine: 4
     specialWeapon: ALIEN_PSI_WEAPON
     damageModifier:
       - 1.0
@@ -238,7 +237,7 @@ extraSprites:
     subX: 32
     subY: 40
     width: 512
-    height: 200
+    height: 720
     files:
       0: Resources/Enemies/Thin Man/ThinManSpritesheet.png
   - type: D17_SOLDIER.PCK
