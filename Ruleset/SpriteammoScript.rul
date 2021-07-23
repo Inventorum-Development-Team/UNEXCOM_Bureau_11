@@ -208,6 +208,9 @@ items:
   - type: STR_ALIEN_SIEGE_LAUNCHER_SHELL
     tags:
       AmmoNo: 1
+  - type: STR_COLLAPSIBLE_SMG
+    tags:
+      AmmoReSprite: 1
 
 extended:
   tags:
