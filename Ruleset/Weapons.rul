@@ -349,7 +349,7 @@ items:
     twoHanded: true
     listOrder: 206
   - type: STR_UNITED_DEFENSE_M42_20_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SEMI_CONCEALED, STR_CONCEALED]
     size: 0.1
     costBuy: 300
     costSell: 250
@@ -367,7 +367,7 @@ items:
     armor: 10
     listOrder: 208
   - type: STR_UNITED_DEFENSE_M42_50_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SEMI_CONCEALED]
     size: 0.1
     costBuy: 300
     costSell: 250
@@ -1986,6 +1986,58 @@ items:
     blastRadius: 5
     listOrder: 248
 
+# Collapsible SMG
+  - type: STR_COLLAPSIBLE_SMG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    size: 0.2
+    costSell: 8000
+    weight: 12
+    bigSprite: 840
+    floorSprite: 840
+    handSprite: 840
+    bulletSprite: 1
+    fireSound: 247
+    reloadSound: 248
+    compatibleAmmo:
+      - STR_UNITED_DEFENSE_M42_20_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 30
+    accuracyAimed: 90
+    tuAimed: 48
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    snapRange: 20
+    accuracySnap: 65
+    tuSnap: 45
+    confAuto:
+      shots: 5
+      name: STR_SPRAY_N_PRAY
+      ammoSlot: 0
+      arcing: false
+    autoRange: 15
+    accuracyAuto: 30
+    tuAuto: 35
+    accuracyCloseQuarters: 100
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 150
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    twoHanded: true
+    listOrder: 206
+
 ufopaedia:
   - id: STR_BROWNING_HP35
     type_id: 4
@@ -2254,6 +2306,13 @@ ufopaedia:
   - id: STR_ALIEN_SIEGE_LAUNCHER_SHELL
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_COLLAPSIBLE_SMG
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_COLLAPSIBLE_SMG
+    text: STR_COLLAPSIBLE_SMG_UFOPEDIA
+    listOrder: 230
 
 manufacture:
   - delete: STR_TANK_LASER_CANNON
@@ -2278,10 +2337,20 @@ manufacture:
   - delete: STR_MIND_PROBE
   - delete: STR_ALIEN_GRENADE
 
+  - name: STR_COLLAPSIBLE_SMG
+    category: STR_WEAPONS
+    space: 4
+    time: 100
+    cost: 7200
+    requires:
+      - STR_COLLAPSIBLE_SMG
+    producedItems:
+      STR_COLLAPSIBLE_SMG: 1
+
   - name: STR_HEART_ATTACK_GUN
     category: STR_WEAPONS
     space: 4
-    time: 50
+    time: 30
     cost: 300
     requires:
       - STR_HEART_ATTACK_GUN
@@ -2293,7 +2362,7 @@ manufacture:
   - name: STR_HEART_ATTACK_GUN_MAG
     category: STR_WEAPONS
     space: 4
-    time: 15
+    time: 10
     cost: 100
     requires:
       - STR_HEART_ATTACK_GUN
@@ -2443,6 +2512,13 @@ research:
     points: 50
     needItem: true
 
+  - name: STR_COLLAPSIBLE_SMG
+    cost: 100
+    points: 25
+    dependencies:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+#      - STR_SOVIET_BRIEFCASE_SMG
+
 extraSprites:
   - type: BIGOBS.PCK
     files:
@@ -2526,6 +2602,8 @@ extraSprites:
       816: Resources/Weapons/Alien Siege Launcher/Unloaded_Big.png
       824: Resources/Weapons/Alien Siege Launcher/Loaded_1_Big.png
       832: Resources/Weapons/Alien Siege Launcher/Mag_1_Big.png
+      840: Resources/Weapons/Collapsible SMG/Unloaded_Big.png
+      848: Resources/Weapons/Collapsible SMG/Loaded_20_Big.png
   - type: FLOOROB.PCK
     files:
       200: Resources/Weapons/Browning HP35/Unloaded_Floor.png
@@ -2608,6 +2686,8 @@ extraSprites:
       816: Resources/Weapons/Alien Siege Launcher/Unloaded_Floor.png
       824: Resources/Weapons/Alien Siege Launcher/Loaded_1_Floor.png
       832: Resources/Weapons/Alien Siege Launcher/Mag_1_Floor.png
+      840: Resources/Weapons/Collapsible SMG/Unloaded_Floor.png
+      848: Resources/Weapons/Collapsible SMG/Loaded_20_Floor.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -2694,6 +2774,8 @@ extraSprites:
       816: Resources/Weapons/Alien Siege Launcher/Unloaded_Hand.png
       824: Resources/Weapons/Alien Siege Launcher/Loaded_1_Hand.png
       832: Resources/Weapons/Alien Siege Launcher/Mag_1_Hand.png
+      840: Resources/Weapons/Collapsible SMG/Unloaded_Hand.png
+      848: Resources/Weapons/Collapsible SMG/Loaded_20_Hand.png
   - type: SMOKE.PCK
     height: 80
     width: 160
@@ -2764,6 +2846,8 @@ extraSounds:
       244: Resources/Weapons/Sturm Ekanone/reload.wav
       245: Resources/Weapons/Vikhr Electromagnetic Rifle/fire.wav
       246: Resources/Weapons/Vikhr Electromagnetic Rifle/reload.wav
+      247: Resources/Weapons/Collapsible SMG/fire.wav
+      248: Resources/Weapons/Collapsible SMG/reload.wav
 
 extraStrings:
   - type: en-US
@@ -2920,6 +3004,9 @@ extraStrings:
       STR_ALIEN_SIEGE_LAUNCHER_SHELL: "Alien Siege Shell"
       STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "Unlike the other weapons we have found so far, this one seems to employ some kind of ballistic principle to propel its projectiles at an angle, similar to the way our mortars work. We have not found the way in which this weapon is held. The projectile is one of our greatest concerns, because it is fundamentally a miniature atomic bomb. Any alien using this weapon should have priority to be eliminated."
 
+      STR_COLLAPSIBLE_SMG: "Collapsible SMG"
+      STR_COLLAPSIBLE_SMG_UFOPEDIA: "At first glance this weapon could be confused with a briefcase, however it can fold open to reveal a custom built integrally-suppressed {ALT}9x19mm Parabellum{ALT} SMG. Its design was heavily based off of the soviet counterpart our agents recovered in the field. Its unfamiliar shape may make it less accurate, but it is designed to be consistently accurate at longer ranges. {NEWLINE}>Concealable"
+
   - type: en-GB
     strings:
       STR_WEAPONS: "ARMS AND AMMUNITION"
@@ -3074,3 +3161,5 @@ extraStrings:
       STR_ALIEN_SIEGE_LAUNCHER_SHELL: "Alien Siege Shell"
       STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "Unlike the other weapons we have found so far, this one seems to employ some kind of ballistic principle to propel its projectiles at an angle, similar to the way our mortars work. We have not found the way in which this weapon is held. The projectile is one of our greatest concerns, because it is fundamentally a miniature atomic bomb. Any alien using this weapon should have priority to be eliminated."
 
+      STR_COLLAPSIBLE_SMG: "Collapsible SMG"
+      STR_COLLAPSIBLE_SMG_UFOPEDIA: "At first glance this weapon could be confused with a briefcase, however it can fold open to reveal a custom built integrally-suppressed {ALT}9x19mm Parabellum{ALT} SMG. Its design was heavily based off of the soviet counterpart our agents recovered in the field. Its unfamiliar shape may make it less accurate, but it is designed to be consistently accurate at longer ranges. {NEWLINE}>Concealable"
