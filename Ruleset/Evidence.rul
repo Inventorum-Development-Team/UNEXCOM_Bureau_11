@@ -162,26 +162,26 @@ research:
 extraSprites:
   - type: BIGOBS.PCK
     files:
-      1000: Resources/Evidence/Crop Circles/BigResidualFluid1.png
-      1001: Resources/Evidence/Crop Circles/BigResidualFluid2.png
-      1002: Resources/Evidence/Crop Circles/BigResidualFluid3.png
-      1003: Resources/Evidence/Cattle Mutilation/BigCattleOrgan1.png
-      1004: Resources/Evidence/Cattle Mutilation/BigCattleOrgan2.png
-      1005: Resources/Evidence/Cattle Mutilation/BigCattleOrgan3.png
-      1006: Resources/Evidence/Cattle Mutilation/BigCattleBlood1.png
-      1007: Resources/Evidence/Cattle Mutilation/BigCattleBlood2.png
-      1008: Resources/Evidence/Cattle Mutilation/BigCattleBlood3.png
+      1000: Resources/Evidence/Crop Circles/Items/BigResidualFluid1.png
+      1001: Resources/Evidence/Crop Circles/Items/BigResidualFluid2.png
+      1002: Resources/Evidence/Crop Circles/Items/BigResidualFluid3.png
+      1003: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan1.png
+      1004: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan2.png
+      1005: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan3.png
+      1006: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood1.png
+      1007: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood2.png
+      1008: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood3.png
   - type: FLOOROB.PCK
     files:
-      1000: Resources/Evidence/Crop Circles/FloorResidualFluid1.png
-      1001: Resources/Evidence/Crop Circles/FloorResidualFluid2.png
-      1002: Resources/Evidence/Crop Circles/FloorResidualFluid3.png
-      1003: Resources/Evidence/Cattle Mutilation/FloorCattleOrgan1.png
-      1004: Resources/Evidence/Cattle Mutilation/FloorCattleOrgan2.png
-      1005: Resources/Evidence/Cattle Mutilation/FloorCattleOrgan3.png
-      1006: Resources/Evidence/Cattle Mutilation/FloorCattleBlood1.png
-      1007: Resources/Evidence/Cattle Mutilation/FloorCattleBlood2.png
-      1008: Resources/Evidence/Cattle Mutilation/FloorCattleBlood3.png
+      1000: Resources/Evidence/Crop Circles/Items/FloorResidualFluid1.png
+      1001: Resources/Evidence/Crop Circles/Items/FloorResidualFluid2.png
+      1002: Resources/Evidence/Crop Circles/Items/FloorResidualFluid3.png
+      1003: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan1.png
+      1004: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan2.png
+      1005: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan3.png
+      1006: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood1.png
+      1007: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood2.png
+      1008: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood3.png
 
 extraStrings:
   - type: en-US
