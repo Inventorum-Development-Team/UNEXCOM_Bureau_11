@@ -1,0 +1,209 @@
+items:
+  - type: STR_PLASMA_RESIDUE_1
+    name: STR_RESIDUAL_FLUID
+    weight: 10
+    bigSprite: 1000
+    floorSprite: 1000
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_PLASMA_RESIDUE_2
+    name: STR_RESIDUAL_FLUID
+    weight: 10
+    bigSprite: 1001
+    floorSprite: 1001
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_PLASMA_RESIDUE_3
+    name: STR_RESIDUAL_FLUID
+    weight: 10
+    bigSprite: 1002
+    floorSprite: 1002
+    invWidth: 2
+    invHeight: 3
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_USELESS_ORGANS_1
+    name: STR_MUTILATED_CATTLE
+    weight: 10
+    bigSprite: 1003
+    floorSprite: 1003
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_USELESS_ORGANS_2
+    name: STR_MUTILATED_CATTLE
+    weight: 10
+    bigSprite: 1004
+    floorSprite: 1004
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_USELESS_ORGANS_3
+    name: STR_MUTILATED_CATTLE
+    weight: 10
+    bigSprite: 1005
+    floorSprite: 1005
+    invWidth: 2
+    invHeight: 3
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_USELESS_ORGANS_4
+    name: STR_SPLATTERED_BLOOD
+    weight: 10
+    bigSprite: 1006
+    floorSprite: 1006
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_USELESS_ORGANS_5
+    name: STR_SPLATTERED_BLOOD
+    weight: 10
+    bigSprite: 1007
+    floorSprite: 1007
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_USELESS_ORGANS_6
+    name: STR_SPLATTERED_BLOOD
+    weight: 10
+    bigSprite: 1008
+    floorSprite: 1008
+    invWidth: 2
+    invHeight: 3
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+
+ufopaedia:
+  - id: STR_CROP_CIRCLE_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 400
+    requires:
+      - STR_CROP_CIRCLE_INVESTIGATION
+    text: STR_CROP_CIRCLE_REPORT_UFOPEDIA
+  - id: STR_CATTLE_MUTILATION_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 401
+    requires:
+      - STR_CATTLE_MUTILATION_INVESTIGATION
+    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
+
+research:
+  - name: STR_CROP_CIRCLE_INVESTIGATION
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_PLASMA_RESIDUE_1
+      - STR_PLASMA_RESIDUE_2
+      - STR_PLASMA_RESIDUE_3
+
+  - name: STR_PLASMA_RESIDUE_1
+    cost: 50
+    points: 25
+    needItem: true
+
+  - name: STR_PLASMA_RESIDUE_2
+    cost: 50
+    points: 25
+    needItem: true
+
+  - name: STR_PLASMA_RESIDUE_3
+    cost: 50
+    points: 25
+    needItem: true
+
+  - name: STR_CATTLE_MUTILATION_INVESTIGATION
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_USELESS_ORGANS_1
+      - STR_USELESS_ORGANS_2
+      - STR_USELESS_ORGANS_3
+      - STR_USELESS_ORGANS_4
+      - STR_USELESS_ORGANS_5
+      - STR_USELESS_ORGANS_6
+
+  - name: STR_USELESS_ORGANS_1
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_USELESS_ORGANS_2
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_USELESS_ORGANS_3
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_USELESS_ORGANS_4
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_USELESS_ORGANS_5
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_USELESS_ORGANS_6
+    cost: 20
+    points: 15
+    needItem: true
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      1000: Resources/Evidence/Crop Circles/Items/BigResidualFluid1.png
+      1001: Resources/Evidence/Crop Circles/Items/BigResidualFluid2.png
+      1002: Resources/Evidence/Crop Circles/Items/BigResidualFluid3.png
+      1003: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan1.png
+      1004: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan2.png
+      1005: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan3.png
+      1006: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood1.png
+      1007: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood2.png
+      1008: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood3.png
+  - type: FLOOROB.PCK
+    files:
+      1000: Resources/Evidence/Crop Circles/Items/FloorResidualFluid1.png
+      1001: Resources/Evidence/Crop Circles/Items/FloorResidualFluid2.png
+      1002: Resources/Evidence/Crop Circles/Items/FloorResidualFluid3.png
+      1003: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan1.png
+      1004: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan2.png
+      1005: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan3.png
+      1006: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood1.png
+      1007: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood2.png
+      1008: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood3.png
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_RESIDUAL_FLUID: "Residual Fluid"
+      STR_CROP_CIRCLE_INVESTIGATION: "Crop Circle Investigation"
+      STR_CROP_CIRCLE_REPORT: "Report: Crop Circle Investigation"
+      STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence. Flammable chemical residue invasive to the environment has been found at the scene. We theorize that this chemical was used to initate a controlled burn that engraved the pattern. The pattern may be used to signal other OETOs flying over head, though of what we have no idea. While suspect these are alien in nature, we have no conclusive evidence."
+      STR_MUTILATED_CATTLE: "Mutilated Cattle"
+      STR_SPLATTERED_BLOOD: "Splattered Blood"
+      STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
+      STR_CATTLE_MUTILATION_REPORT: "Report: Cattle Mutilation Investigation"
+      STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "An autopsy of the mutilated cattle, at least what was left of it when our agents arrived, indicates that despite the brutal procedure the process of ripping these animals apart was meticulous. Burns along the seams show that they were pryed apart with some sort of high-powered laser. We found that several key organs were missing. Our current theory is that the aliens abducted these cattle and removed certain organs that they needed. For what, they are not sure. Sustenance, scientific curiosity...as an aside, while they may have more sympathy for more intelligent life, this shows that they have the capacity for cruelty."
+
+  - type: en-GB
+    strings:
+      STR_RESIDUAL_FLUID: "Residual Fluid"
+      STR_CROP_CIRCLE_INVESTIGATION: "Crop Circle Investigation"
+      STR_CROP_CIRCLE_REPORT: "Report: Crop Circle Investigation"
+      STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence. Flammable chemical residue invasive to the environment has been found at the scene. We theorize that this chemical was used to initate a controlled burn that engraved the pattern. The pattern may be used to signal other OETOs flying over head, though of what we have no idea. While suspect these are alien in nature, we have no conclusive evidence."
+      STR_MUTILATED_CATTLE: "Mutilated Cattle"
+      STR_SPLATTERED_BLOOD: "Splattered Blood"
+      STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
+      STR_CATTLE_MUTILATION_REPORT: "Report: Cattle Mutilation Investigation"
+      STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "An autopsy of the mutilated cattle, at least what was left of it when our agents arrived, indicates that despite the brutal procedure the process of ripping these animals apart was meticulous. Burns along the seams show that they were pryed apart with some sort of high-powered laser. We found that several key organs were missing. Our current theory is that the aliens abducted these cattle and removed certain organs that they needed. For what, they are not sure. Sustenance, scientific curiosity...as an aside, while they may have more sympathy for more intelligent life, this shows that they have the capacity for cruelty."

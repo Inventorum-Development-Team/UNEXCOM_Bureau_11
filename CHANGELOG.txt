@@ -41,3 +41,7 @@ Changes made:
 *Added Research Reports to the Blue Book, Added Munitions Reports, by Brother^2
 *Added Revised Heart-Attack Gun Blue Book and Rebalanced The Weapon, by Brother^2
 *Added Weapon Compatible Spritesheet, sprites by The Martian
+
+July-2021 v0.1.2 Proving Grounds
+Changes made:
+*Added Collapsible SMG, sprites by efrenspartano, rulesets by Brother^2
