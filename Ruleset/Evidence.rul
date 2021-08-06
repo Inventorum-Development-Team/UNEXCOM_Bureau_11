@@ -1,51 +1,53 @@
 items:
+# crop circle/plasma residue
   - type: STR_PLASMA_RESIDUE_1
     name: STR_RESIDUAL_FLUID
     weight: 10
-    bigSprite: 1000
-    floorSprite: 1000
+    bigSprite: 1100
+    floorSprite: 1100
     armor: 999
     recoveryPoints: 50
     recover: true
   - type: STR_PLASMA_RESIDUE_2
     name: STR_RESIDUAL_FLUID
     weight: 10
-    bigSprite: 1001
-    floorSprite: 1001
+    bigSprite: 1101
+    floorSprite: 1101
     armor: 999
     recoveryPoints: 50
     recover: true
   - type: STR_PLASMA_RESIDUE_3
     name: STR_RESIDUAL_FLUID
     weight: 10
-    bigSprite: 1002
-    floorSprite: 1002
+    bigSprite: 1102
+    floorSprite: 1102
     invWidth: 2
     invHeight: 3
     armor: 999
     recoveryPoints: 50
     recover: true
+# mutilated cattle/rejected organs
   - type: STR_USELESS_ORGANS_1
     name: STR_MUTILATED_CATTLE
     weight: 10
-    bigSprite: 1003
-    floorSprite: 1003
+    bigSprite: 1103
+    floorSprite: 1103
     armor: 999
     recoveryPoints: 50
     recover: true
   - type: STR_USELESS_ORGANS_2
     name: STR_MUTILATED_CATTLE
     weight: 10
-    bigSprite: 1004
-    floorSprite: 1004
+    bigSprite: 1104
+    floorSprite: 1104
     armor: 999
     recoveryPoints: 50
     recover: true
   - type: STR_USELESS_ORGANS_3
     name: STR_MUTILATED_CATTLE
     weight: 10
-    bigSprite: 1005
-    floorSprite: 1005
+    bigSprite: 1105
+    floorSprite: 1105
     invWidth: 2
     invHeight: 3
     armor: 999
@@ -54,24 +56,24 @@ items:
   - type: STR_USELESS_ORGANS_4
     name: STR_SPLATTERED_BLOOD
     weight: 10
-    bigSprite: 1006
-    floorSprite: 1006
+    bigSprite: 1106
+    floorSprite: 1106
     armor: 999
     recoveryPoints: 50
     recover: true
   - type: STR_USELESS_ORGANS_5
     name: STR_SPLATTERED_BLOOD
     weight: 10
-    bigSprite: 1007
-    floorSprite: 1007
+    bigSprite: 1107
+    floorSprite: 1107
     armor: 999
     recoveryPoints: 50
     recover: true
   - type: STR_USELESS_ORGANS_6
     name: STR_SPLATTERED_BLOOD
     weight: 10
-    bigSprite: 1008
-    floorSprite: 1008
+    bigSprite: 1108
+    floorSprite: 1108
     invWidth: 2
     invHeight: 3
     armor: 999
@@ -159,29 +161,505 @@ research:
     points: 15
     needItem: true
 
+units:
+  - type: STR_STRANGE_FLUID_1
+    race: STR_CROP_CIRCLES
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 1
+      stamina: 1
+      health: 1
+      bravery: 1
+      reactions: 1
+      firing: 1
+      throwing: 1
+      strength: 1
+      psiStrength: 1
+      psiSkill: 1
+      melee: 1
+    armor: STRANGE_FLUID_1
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    intelligence: 1
+    aggression: 1
+  - type: STR_STRANGE_FLUID_2
+    race: STR_CROP_CIRCLES
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 1
+      stamina: 1
+      health: 1
+      bravery: 1
+      reactions: 1
+      firing: 1
+      throwing: 1
+      strength: 1
+      psiStrength: 1
+      psiSkill: 1
+      melee: 1
+    armor: STRANGE_FLUID_2
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    intelligence: 1
+    aggression: 1
+  - type: STR_STRANGE_FLUID_3
+    race: STR_CROP_CIRCLES
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 1
+      stamina: 1
+      health: 1
+      bravery: 1
+      reactions: 1
+      firing: 1
+      throwing: 1
+      strength: 1
+      psiStrength: 1
+      psiSkill: 1
+      melee: 1
+    armor: STRANGE_FLUID_3
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    intelligence: 1
+    aggression: 1
+  - type: STR_REJECTED_ORGAN_1
+    race: STR_CATTLE_MUTILATION
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 1
+      stamina: 1
+      health: 1
+      bravery: 1
+      reactions: 1
+      firing: 1
+      throwing: 1
+      strength: 1
+      psiStrength: 1
+      psiSkill: 1
+      melee: 1
+    armor: REJECTED_ORGAN_1
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    intelligence: 1
+    aggression: 1
+  - type: STR_REJECTED_ORGAN_2
+    race: STR_CATTLE_MUTILATION
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 1
+      stamina: 1
+      health: 1
+      bravery: 1
+      reactions: 1
+      firing: 1
+      throwing: 1
+      strength: 1
+      psiStrength: 1
+      psiSkill: 1
+      melee: 1
+    armor: REJECTED_ORGAN_2
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    intelligence: 1
+    aggression: 1
+  - type: STR_REJECTED_ORGAN_3
+    race: STR_CATTLE_MUTILATION
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 1
+      stamina: 1
+      health: 1
+      bravery: 1
+      reactions: 1
+      firing: 1
+      throwing: 1
+      strength: 1
+      psiStrength: 1
+      psiSkill: 1
+      melee: 1
+    armor: REJECTED_ORGAN_3
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    intelligence: 1
+    aggression: 1
+  - type: STR_REJECTED_ORGAN_4
+    race: STR_CATTLE_MUTILATION
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 1
+      stamina: 1
+      health: 1
+      bravery: 1
+      reactions: 1
+      firing: 1
+      throwing: 1
+      strength: 1
+      psiStrength: 1
+      psiSkill: 1
+      melee: 1
+    armor: REJECTED_ORGAN_4
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    intelligence: 1
+    aggression: 1
+  - type: STR_REJECTED_ORGAN_5
+    race: STR_CATTLE_MUTILATION
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 1
+      stamina: 1
+      health: 1
+      bravery: 1
+      reactions: 1
+      firing: 1
+      throwing: 1
+      strength: 1
+      psiStrength: 1
+      psiSkill: 1
+      melee: 1
+    armor: REJECTED_ORGAN_5
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    intelligence: 1
+    aggression: 1
+  - type: STR_REJECTED_ORGAN_6
+    race: STR_CATTLE_MUTILATION
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 1
+      stamina: 1
+      health: 1
+      bravery: 1
+      reactions: 1
+      firing: 1
+      throwing: 1
+      strength: 1
+      psiStrength: 1
+      psiSkill: 1
+      melee: 1
+    armor: REJECTED_ORGAN_6
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    intelligence: 1
+    aggression: 1
+
+armors:
+  - type: STRANGE_FLUID_1
+    spriteSheet: STRANGE_FLUID_1.PCK
+    corpseBattle:
+      - STR_PLASMA_RESIDUE_1
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    visibilityAtDark: 1
+    drawingRoutine: 1
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 4.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: STRANGE_FLUID_2
+    spriteSheet: STRANGE_FLUID_2.PCK
+    corpseBattle:
+      - STR_PLASMA_RESIDUE_2
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    visibilityAtDark: 1
+    drawingRoutine: 1
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 4.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: STRANGE_FLUID_3
+    spriteSheet: STRANGE_FLUID_3.PCK
+    corpseBattle:
+      - STR_PLASMA_RESIDUE_3
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    visibilityAtDark: 1
+    drawingRoutine: 1
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 4.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: REJECTED_ORGAN_1
+    spriteSheet: REJECTED_ORGAN_1.PCK
+    corpseBattle:
+      - STR_USELESS_ORGANS_1
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    visibilityAtDark: 1
+    drawingRoutine: 1
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 4.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: REJECTED_ORGAN_2
+    spriteSheet: REJECTED_ORGAN_2.PCK
+    corpseBattle:
+      - STR_USELESS_ORGANS_2
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    visibilityAtDark: 1
+    drawingRoutine: 1
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 4.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: REJECTED_ORGAN_3
+    spriteSheet: REJECTED_ORGAN_3.PCK
+    corpseBattle:
+      - STR_USELESS_ORGANS_3
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    visibilityAtDark: 1
+    drawingRoutine: 1
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 4.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: REJECTED_ORGAN_4
+    spriteSheet: REJECTED_ORGAN_4.PCK
+    corpseBattle:
+      - STR_USELESS_ORGANS_4
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    visibilityAtDark: 1
+    drawingRoutine: 1
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 4.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: REJECTED_ORGAN_5
+    spriteSheet: REJECTED_ORGAN_5.PCK
+    corpseBattle:
+      - STR_USELESS_ORGANS_5
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    visibilityAtDark: 1
+    drawingRoutine: 1
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 4.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: REJECTED_ORGAN_6
+    spriteSheet: REJECTED_ORGAN_6.PCK
+    corpseBattle:
+      - STR_USELESS_ORGANS_6
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    visibilityAtDark: 1
+    drawingRoutine: 1
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 4.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    loftempsSet: [ 2 ]
+
+alienRaces:
+  - id: STR_CROP_CIRCLES
+    members:
+      - STR_STRANGE_FLUID_1
+      - STR_STRANGE_FLUID_2
+      - STR_STRANGE_FLUID_3
+      - STR_STRANGE_FLUID_1
+      - STR_STRANGE_FLUID_2
+      - STR_STRANGE_FLUID_3
+      - STR_STRANGE_FLUID_1
+      - STR_STRANGE_FLUID_2
+  - id: STR_CATTLE_MUTILATION
+    members:
+      - STR_REJECTED_ORGAN_1
+      - STR_REJECTED_ORGAN_2
+      - STR_REJECTED_ORGAN_3
+      - STR_REJECTED_ORGAN_4
+      - STR_REJECTED_ORGAN_5
+      - STR_REJECTED_ORGAN_6
+      - STR_REJECTED_ORGAN_1
+      - STR_REJECTED_ORGAN_1
+
 extraSprites:
+  - type: STRANGE_FLUID_1.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Evidence/Crop Circles/Units/ResidualFluid1_spritesheet.png
+  - type: STRANGE_FLUID_2.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Evidence/Crop Circles/Units/ResidualFluid2_spritesheet.png
+  - type: STRANGE_FLUID_3.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Evidence/Crop Circles/Units/ResidualFluid3_spritesheet.png
+  - type: REJECTED_ORGAN_1.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleOrgan1_spritesheet.png
+  - type: REJECTED_ORGAN_2.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleOrgan2_spritesheet.png
+  - type: REJECTED_ORGAN_3.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleOrgan3_spritesheet.png
+  - type: REJECTED_ORGAN_4.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleBlood1_spritesheet.png
+  - type: REJECTED_ORGAN_5.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleBlood2_spritesheet.png
+  - type: REJECTED_ORGAN_6.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleBlood3_spritesheet.png
   - type: BIGOBS.PCK
     files:
-      1000: Resources/Evidence/Crop Circles/Items/BigResidualFluid1.png
-      1001: Resources/Evidence/Crop Circles/Items/BigResidualFluid2.png
-      1002: Resources/Evidence/Crop Circles/Items/BigResidualFluid3.png
-      1003: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan1.png
-      1004: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan2.png
-      1005: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan3.png
-      1006: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood1.png
-      1007: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood2.png
-      1008: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood3.png
+      1100: Resources/Evidence/Crop Circles/Items/BigResidualFluid1.png
+      1101: Resources/Evidence/Crop Circles/Items/BigResidualFluid2.png
+      1102: Resources/Evidence/Crop Circles/Items/BigResidualFluid3.png
+      1103: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan1.png
+      1104: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan2.png
+      1105: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan3.png
+      1106: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood1.png
+      1107: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood2.png
+      1108: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood3.png
   - type: FLOOROB.PCK
     files:
-      1000: Resources/Evidence/Crop Circles/Items/FloorResidualFluid1.png
-      1001: Resources/Evidence/Crop Circles/Items/FloorResidualFluid2.png
-      1002: Resources/Evidence/Crop Circles/Items/FloorResidualFluid3.png
-      1003: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan1.png
-      1004: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan2.png
-      1005: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan3.png
-      1006: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood1.png
-      1007: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood2.png
-      1008: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood3.png
+      1100: Resources/Evidence/Crop Circles/Items/FloorResidualFluid1.png
+      1101: Resources/Evidence/Crop Circles/Items/FloorResidualFluid2.png
+      1102: Resources/Evidence/Crop Circles/Items/FloorResidualFluid3.png
+      1103: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan1.png
+      1104: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan2.png
+      1105: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan3.png
+      1106: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood1.png
+      1107: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood2.png
+      1108: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood3.png
 
 extraStrings:
   - type: en-US
@@ -189,7 +667,7 @@ extraStrings:
       STR_RESIDUAL_FLUID: "Residual Fluid"
       STR_CROP_CIRCLE_INVESTIGATION: "Crop Circle Investigation"
       STR_CROP_CIRCLE_REPORT: "Report: Crop Circle Investigation"
-      STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence. Flammable chemical residue invasive to the environment has been found at the scene. We theorize that this chemical was used to initate a controlled burn that engraved the pattern. The pattern may be used to signal other OETOs flying over head, though of what we have no idea. While suspect these are alien in nature, we have no conclusive evidence."
+      STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence. Flammable chemical residue invasive to the environment has been found at the scene. We theorize that this chemical was used to initate a controlled burn that engraved the pattern. The pattern may be used to signal other OETOs flying over head, though what we have no idea. While suspect these are alien in nature, we have no conclusive evidence."
       STR_MUTILATED_CATTLE: "Mutilated Cattle"
       STR_SPLATTERED_BLOOD: "Splattered Blood"
       STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
@@ -201,7 +679,7 @@ extraStrings:
       STR_RESIDUAL_FLUID: "Residual Fluid"
       STR_CROP_CIRCLE_INVESTIGATION: "Crop Circle Investigation"
       STR_CROP_CIRCLE_REPORT: "Report: Crop Circle Investigation"
-      STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence. Flammable chemical residue invasive to the environment has been found at the scene. We theorize that this chemical was used to initate a controlled burn that engraved the pattern. The pattern may be used to signal other OETOs flying over head, though of what we have no idea. While suspect these are alien in nature, we have no conclusive evidence."
+      STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence. Flammable chemical residue invasive to the environment has been found at the scene. We theorize that this chemical was used to initate a controlled burn that engraved the pattern. The pattern may be used to signal other OETOs flying over head, though what we have no idea. While suspect these are alien in nature, we have no conclusive evidence."
       STR_MUTILATED_CATTLE: "Mutilated Cattle"
       STR_SPLATTERED_BLOOD: "Splattered Blood"
       STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
