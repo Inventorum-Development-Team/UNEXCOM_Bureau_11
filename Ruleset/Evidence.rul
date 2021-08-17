@@ -186,15 +186,52 @@ extraSprites:
 extraStrings:
   - type: en-US
     strings:
+#################################
+######## CROP CIRCLES ##########
+###############################
+
+################################
+####### Initial Intel #########
+##############################
       STR_RESIDUAL_FLUID: "Residual Fluid"
       STR_CROP_CIRCLE_INVESTIGATION: "Crop Circle Investigation"
       STR_CROP_CIRCLE_REPORT: "Report: Crop Circle Investigation"
       STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence at one such site. Flammable chemical residue invasive to the environment was found at the scene. We theorize that this chemical was used to initiate a controlled burn that engraved the pattern. These patterns may be created by aliens to signal OETOs flying over head, though of what we are still unsure. While we suspect these are alien in nature, we have no conclusive evidence."
+################################
+####### Obtained Intel ########
+##############################
+      STR_BURNED_GROUND_INTEL_1: "Burned Ground Intel I"
+      STR_BURNED_GROUND_INTEL_1_UFOPEDIA: “The photograph of this stain on the floor reminds us of the trail left by a high-powered explosion. Our Geiger counter indicates residual traces of some kind of radiation. Our laboratory requests another photograph to compare and try to analyze the origin of this one.”
+      STR_BURNED_GROUND_INTEL_2: "Burned Ground Intel II"
+      STR_BURNED_GROUND_INTEL_2_UFOPEDIA: “The photographic image we recovered from the research site is identical to the previous sample. Our scientists and technicians have concluded that this burn pattern is caused by the ignition of some type of engine (or machine). Our R&D staff requires a final photograph to complete the analysis.”
+      STR_BURNED_GROUND_INTEL_3: "Burned Ground Intel III"
+      STR_BURNED_GROUND_INTEL_3_UFOPEDIA: “Our R&D team completed the analysis of the last delivered photograph of the research site. The result, compared to the information provided by the Geiger detectors, indicates that the soil burn was caused by an unknown operating tool, whose function is to cleanly cut organic and inorganic material. Whoever makes these circles employs high-tech tools.”
+      STR_BURNED_GROUND_MAJOR_REPORT: "Burned Ground Final Report"
+      STR_BURNED_GROUND_MAJOR_REPORT_UFOPEDIA: “We can just guess the intention of the creators of those strange circles found on crops and farmlands across the world. Is it some kind of signal? A warning? The circles caught public attention and 'experts' around the world try to both explain them or get credits by claiming the creation of the figures. Whatever this may represent, we need to be ready for what comes next.”
+
+     STR_RESIDUAL_FLUID_INTEL_1: "Residual Fluid Intel I"
+     STR_RESIDUAL_FLUID_INTEL_1_UFOPEDIA: “We found this sample close to the area where a 'bright light in the sky' was reported, prior to creating circles on the field. Its particular unnatural glow and stench leads us to think that it is some kind of toxin or toxic waste. Our field agents describe it as 'the smell of hell'. More tests are required to identify the origin and purpose of this fluid.”
+     STR_RESIDUAL_FLUID_INTEL_2: "Residual Fluid Intel II"
+     STR_RESIDUAL_FLUID_INTEL_2_UFOPEDIA: “The analysis carried out in the laboratory ended with an incident. One of our technicians in charge of handling the samples that we retrieve, accidentally came into contact with the fluid recovered from the site of Investigation and fell unconscious immediately. After being hospitalized in an emergency and lasting several days in a coma-like state, we realized that perhaps this substance is a strong sedative. One more sample is needed to finish the study. Extra caution is advised.”
+     STR_RESIDUAL_FLUID_INTEL_3: "Residual Fluid Intel III"
+     STR_RESIDUAL_FLUID_INTEL_3_UFOPEDIA: “The last image taken was conclusive: this viscous residue belongs to some type of very powerful drug, we believe it was used by external agents to knock out and potentially kidnap a group of individuals. We found no trace of any of these, but we do not rule out the idea that there was a civilian present at the time of the creation of this crop circle.“
+     STR_RESIDUAL_FLUID_MAJOR_REPORT: "Residual Fluid Final Report"
+     STR_RESIDUAL_FLUID_MAJOR_REPORT_UFOPEDIA: “The combined results of the investigations concluded that the intruders are using toxic substances with the intention of sedate live beings. The species of those beings and the intention of the use of the foreign drug is not clear. Our scientists are going to try to repurpose it, they hope it may be useful to our operations.”
+
+#####################################
+######## CATTLE MUTILATION #########
+###################################
+
+################################
+####### Initial Intel #########
+##############################
       STR_MUTILATED_CATTLE: "Mutilated Cattle"
       STR_SPLATTERED_BLOOD: "Splattered Blood"
       STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
       STR_CATTLE_MUTILATION_REPORT: "Report: Cattle Mutilation Investigation"
       STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "An autopsy of the mutilated cattle, at least what was left of it when our agents arrived, indicates that despite the vicious outcome, the process of ripping these animals apart was meticulous. After reassembling what was left of the poor creature, we found burn marks at the seams. This would indicate that they were cut apart by a high powered laser. Several key organs were missing. Our current theory is that the aliens abducted these cattle and removed certain organs that they needed. For what, however, we remain unsure. Sustenance, scientific curiosity...as an aside, while they may have more sympathy for more intelligent life, this shows that they have the capacity for cruelty."
+
+
 
   - type: en-GB
     strings:
