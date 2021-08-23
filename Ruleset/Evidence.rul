@@ -78,6 +78,43 @@ items:
     recoveryPoints: 50
     recover: true
 
+# Camera Gun
+  - type: STR_CAMERA_GUN
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_CONCEALED]
+    size: 0.1
+    costSell: 5400
+    weight: 9
+    bigSprite: 1009
+    floorSprite: 1009
+    handSprite: 1009
+    bulletSprite: 1
+    fireSound: 502
+    clipSize: 1
+    power: 18
+    damageAlter:
+      ToHealth: 1.34
+      ToWound: 1.67
+      RandomType: 7
+      ArmorEffectiveness: 0.8
+    damageType: 1
+    confAimed:
+      shots: 1
+      name: STR_SNAP
+      ammoSlot: 0
+      arcing: false
+    aimRange: 15
+    accuracyAimed: 150
+    tuAimed: 70
+    maxRange: 10
+    accuracyCloseQuarters: 100
+    maxRange: 60
+    kneelBonus: 150
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 20
+    listOrder: 1000
+
 ufopaedia:
   - id: STR_CROP_CIRCLE_REPORT
     type_id: 8
@@ -93,6 +130,13 @@ ufopaedia:
     requires:
       - STR_CATTLE_MUTILATION_INVESTIGATION
     text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
+  - id: STR_CAMERA_GUN
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_CAMERA_GUN
+    text: STR_CAMERA_GUN_UFOPEDIA
+    listOrder: 231
 
 research:
   - name: STR_CROP_CIRCLE_INVESTIGATION
@@ -159,6 +203,11 @@ research:
     points: 15
     needItem: true
 
+  - name: STR_CAMERA_GUN
+    cost: 150
+    points: 50
+    needItem: true
+
 extraSprites:
   - type: BIGOBS.PCK
     files:
@@ -171,6 +220,7 @@ extraSprites:
       1006: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood1.png
       1007: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood2.png
       1008: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood3.png
+      1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Big.png
   - type: FLOOROB.PCK
     files:
       1000: Resources/Evidence/Crop Circles/Items/FloorResidualFluid1.png
@@ -182,6 +232,10 @@ extraSprites:
       1006: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood1.png
       1007: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood2.png
       1008: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood3.png
+      1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Floor.png
+  - type: HANDOB.PCK
+    files:
+      1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Hand.png
 
 extraStrings:
   - type: en-US
@@ -230,7 +284,8 @@ extraStrings:
       STR_CATTLE_MUTILATION_REPORT: "Report: Cattle Mutilation Investigation"
       STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "An autopsy of the mutilated cattle, at least what was left of it when our agents arrived, indicates that despite the vicious outcome, the process of ripping these animals apart was meticulous. After reassembling what was left of the poor creature, we found burn marks at the seams. This would indicate that they were cut apart by a high powered laser. Several key organs were missing. Our current theory is that the aliens abducted these cattle and removed certain organs that they needed. For what, however, we remain unsure. Sustenance, scientific curiosity...as an aside, while they may have more sympathy for more intelligent life, this shows that they have the capacity for cruelty."
 
-
+      STR_CAMERA_GUN: "Camera Gun"
+      STR_CAMERA_GUN_UFOPEDIA: "Our agents in the field recovered this weapon from KGB sleeper agents operating within the US. While at first glance, it seems to be a camera it is actually a cleverly concealed single-shot .22LR pistol. It is deadly accurate in close quarters, but drastically falls off in accuracy with increased range. {NEWLINE}>Concealable"
 
   - type: en-GB
     strings:
