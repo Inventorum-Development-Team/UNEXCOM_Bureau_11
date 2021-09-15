@@ -297,7 +297,7 @@ extraSprites:
       1007: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood2.png
       1008: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood3.png
       1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Big.png
-      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_5_Big.png
+      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_Big.png
       1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Big.png
       1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Big.png
   - type: FLOOROB.PCK
@@ -312,13 +312,13 @@ extraSprites:
       1007: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood2.png
       1008: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood3.png
       1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Floor.png
-      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_5_Floor.png
+      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_Floor.png
       1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Floor.png
       1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Floor.png
   - type: HANDOB.PCK
     files:
       1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Hand.png
-      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_5_Hand.png
+      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_Hand.png
       1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Hand.png
       1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Hand.png
 
@@ -368,9 +368,11 @@ extraStrings:
       STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
       STR_CATTLE_MUTILATION_REPORT: "Report: Cattle Mutilation Investigation"
       STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "An autopsy of the mutilated cattle, at least what was left of it when our agents arrived, indicates that despite the vicious outcome, the process of ripping these animals apart was meticulous. After reassembling what was left of the poor creature, we found burn marks at the seams. This would indicate that they were cut apart by a high powered laser. Several key organs were missing. Our current theory is that the aliens abducted these cattle and removed certain organs that they needed. For what, however, we remain unsure. Sustenance, scientific curiosity...as an aside, while they may have more sympathy for more intelligent life, this shows that they have the capacity for cruelty."
-
       STR_CAMERA_GUN: "Camera Gun"
       STR_CAMERA_GUN_UFOPEDIA: "Our agents in the field recovered this weapon from KGB sleeper agents operating within the US. While at first glance, it seems to be a camera it is actually a cleverly concealed single-shot .22LR pistol. It is deadly accurate in close quarters, but drastically falls off in accuracy with increased range. {NEWLINE}>Concealable"
+      STR_UMBRELLA_MOSIN_NAGANT: "Umbrella Mosin-Nagant"
+      STR_UMBRELLA_MOSIN_NAGANT_CLIP: "7.62x54mmR Magazine (5x)"
+      STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA: "While examining it up close, the half-canibalized, half-mangled mechanisms of a Mosin-Nagant rifle are very clear, this weapon is quite innovative. When fully closed, it would be difficult to discern it from a real umbrella, especially at a distance. Other than the umbrella, this {ALT}7.62x54mmR{ALT} Mosin-Nagant otherwise operates normally. Very accurate and deadly, although it tends to fall off at longer ranges. {NEWLINE}>Concealable"
 
   - type: en-GB
     strings:
