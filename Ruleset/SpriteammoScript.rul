@@ -211,6 +211,12 @@ items:
   - type: STR_COLLAPSIBLE_SMG
     tags:
       AmmoReSprite: 1
+  - type: STR_UMBRELLA_MOSIN_NAGANT
+    tags:
+      AmmoReSprite: 1
+  - type: STR_UMBRELLA_MOSIN_NAGANT_MAG
+    tags:
+      AmmoNo: 1
 
 extended:
   tags:

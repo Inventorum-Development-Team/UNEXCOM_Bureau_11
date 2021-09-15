@@ -115,6 +115,70 @@ items:
     armor: 20
     listOrder: 1000
 
+# Umbrella Mosin-Nagant
+  - type: STR_UMBRELLA_MOSIN_NAGANT
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_CONCEALED]
+    size: 0.2
+    costSell: 5000
+    weight: 15
+    bigSprite: 1010
+    floorSprite: 1010
+    handSprite: 1010
+    bulletSprite: 1
+    fireSound: 228
+    reloadSound: 229
+    compatibleAmmo:
+      - STR_UMBRELLA_MOSIN_NAGANT_MAG
+    confAimed:
+      shots: 1
+      name: STR_DEADEYE
+      ammoSlot: 0
+      arcing: false
+    aimRange: 30
+    accuracyAimed: 200
+    tuAimed: 80
+    confSnap:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    snapRange: 15
+    accuracySnap: 150
+    tuSnap: 55
+    accuracyCloseQuarters: 10
+    tuLoad: 30
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 150
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    blockBothHands: true
+    listOrder: 1001
+  - type: STR_UMBRELLA_MOSIN_NAGANT_MAG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_CLIPS, STR_CONCEALED]
+    size: 0.1
+    costSell: 400
+    weight: 2
+    bigSprite: 1026
+    floorSprite: 1026
+    handSprite: 1026
+    hitSound: 22
+    hitAnimation: 26
+    bulletSpeed: 16
+    power: 75
+    damageAlter:
+      ToWound: 0.9
+      ToHealth: 1.1
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    armor: 20
+    listOrder: 1002
+
 ufopaedia:
   - id: STR_CROP_CIRCLE_REPORT
     type_id: 8
@@ -136,6 +200,13 @@ ufopaedia:
     requires:
       - STR_CAMERA_GUN
     text: STR_CAMERA_GUN_UFOPEDIA
+    listOrder: 231
+  - id: STR_UMBRELLA_MOSIN_NAGANT
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_UMBRELLA_MOSIN_NAGANT
+    text: STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA
     listOrder: 231
 
 research:
@@ -208,6 +279,11 @@ research:
     points: 50
     needItem: true
 
+  - name: STR_UMBRELLA_MOSIN_NAGANT
+    cost: 150
+    points: 50
+    needItem: true
+
 extraSprites:
   - type: BIGOBS.PCK
     files:
@@ -221,6 +297,9 @@ extraSprites:
       1007: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood2.png
       1008: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood3.png
       1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Big.png
+      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_5_Big.png
+      1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Big.png
+      1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Big.png
   - type: FLOOROB.PCK
     files:
       1000: Resources/Evidence/Crop Circles/Items/FloorResidualFluid1.png
@@ -233,9 +312,15 @@ extraSprites:
       1007: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood2.png
       1008: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood3.png
       1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Floor.png
+      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_5_Floor.png
+      1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Floor.png
+      1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Floor.png
   - type: HANDOB.PCK
     files:
       1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Hand.png
+      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_5_Hand.png
+      1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Hand.png
+      1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Hand.png
 
 extraStrings:
   - type: en-US
@@ -298,3 +383,8 @@ extraStrings:
       STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
       STR_CATTLE_MUTILATION_REPORT: "Report: Cattle Mutilation Investigation"
       STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "An autopsy of the mutilated cattle, at least what was left of it when our agents arrived, indicates that despite the vicious outcome, the process of ripping these animals apart was meticulous. After reassembling what was left of the poor creature, we found burn marks at the seams. This would indicate that they were cut apart by a high powered laser. Several key organs were missing. Our current theory is that the aliens abducted these cattle and removed certain organs that they needed. For what, however, we remain unsure.. Sustenance, scientific curiosity...as an aside, while they may have more sympathy for more intelligent life, this shows that they have the capacity for cruelty."
+      STR_CAMERA_GUN: "Camera Gun"
+      STR_CAMERA_GUN_UFOPEDIA: "Our agents in the field recovered this weapon from KGB sleeper agents operating within the US. While at first glance, it seems to be a camera it is actually a cleverly concealed {ALT}single-shot .22LR{ALT} pistol. It is deadly accurate in close quarters, but drastically falls off in accuracy with increased range. {NEWLINE}>Concealable"
+      STR_UMBRELLA_MOSIN_NAGANT: "Umbrella Mosin-Nagant"
+      STR_UMBRELLA_MOSIN_NAGANT_CLIP: "7.62x54mmR Magazine (5x)"
+      STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA: "While examining it up close, the half-canibalized, half-mangled mechanisms of a Mosin-Nagant rifle are very clear, this weapon is quite innovative. When fully closed, it would be difficult to discern it from a real umbrella, especially at a distance. Other than the umbrella, this {ALT}7.62x54mmR{ALT} Mosin-Nagant otherwise operates normally. Very accurate and deadly, although it tends to fall off at longer ranges. {NEWLINE}>Concealable"
