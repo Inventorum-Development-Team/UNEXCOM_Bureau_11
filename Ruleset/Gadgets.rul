@@ -52,7 +52,7 @@ items:
     bigSprite: 912
     floorSprite: 912
     handSprite: 912
-    hitSound: 19
+    hitSound: 502
     power: 5
     damageType: 5
     clipSize: 8
@@ -287,6 +287,7 @@ extraSprites:
 extraSounds:
   - type: BATTLE.CAT
     files:
+      502: Resources/Gadgets/Spy Camera/fire.wav
       503: Resources/Gadgets/KA-BAR/slash.wav
 
 extraStrings:

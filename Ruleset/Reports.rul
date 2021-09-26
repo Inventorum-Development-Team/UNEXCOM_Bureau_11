@@ -60,6 +60,15 @@ extraStrings:
       STR_PROTOTYPE_MUNITIONS_REPORT_UFOPEDIA: "These weapons have been reverse engineered from the samples of alien weaponry obtained in the field. Instead of using a removable battery like the aliens, these weapons are powered by an external battery included in the Augmentation Suit. This has the advantage of enabling the weapons to be lighter and more powerful, at the cost of requiring the agent to bring specialized equipment with the suit."
       STR_ALIEN_MUNITIONS_REPORT: "Report: Alien Munitions"
       STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA: "After thorough examiniation of the weapons wielded by the aliens and obtained by our agents, we have finally found out how to operate them. The basic principles are understood to us and most parts are analogous to ones we can produce, but the central reflective crystal has properties that cannot be replicated. The weapons shockingly resemble to ours in operation, similar to operating a magazine loading gun."
+##########################
+      STR_FIELD_INVESTIGATIONS: "Field Investigations"
+      STR_FIELD_INVESTIGATIONS_UFOPEDIA: "Our job as agents of Bureau 11, a branch of the CIA, is to conduct field research and investigate all potential threats against the United States, from inside and outside our borders. And now, from outside our planet. After picking reports of unknown activities, we will be deployed. Our most powerful weapons in those missions are our cunning and our cameras."
+      STR_COMBAT_DEPLOYMENTS: "Combat Deployments"
+      STR_COMBAT_DEPLOYMENTS_UFOPEDIA: "While we are mostly investigators, we are trained on combat tactics as well. The assets and weaponry of our enemies are as unknown as their intentions; we use a range of diverse weaponry useful for different situations, however we cannot go guns blazing in every deployment. Some operations will require a more concealed approach, while in others we will have weapons free authorization."
+      STR_VEHICLES: "Vehicles"
+      STR_VEHICLES_UFOPEDIA: "The nature of our mission both allows us and limits us to the use of transport crafts of diverse types. The most common is an uncovered deployment using public airlines, but if the situation gets grim, we can request our superiors for specialized transports. Also, we have access to aerial recon provided by Lookhed U-2 Dragon Lady spy crafts." 
+      STR_AERIAL_RECON: "Aerial Recon"
+      STR_AERIAL_RECON_UFOPEDIA: “The U-2 spy planes are used to get privileged access to intelligence otherwise impossible to obtain. Manned by USAF pilots working for the Agency, we can use the superior range and ability to get high resolution photos to find and identificate any potential invader activity or ground sites. Be especially careful in the deployment, though. The Soviets had already shot down an U-2 just a year before. Avoid entering the USSR as much as possible, they won't hesitate to launch Interceptors and SAMs.”
 
   - type: en-GB
     strings:
