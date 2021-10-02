@@ -179,6 +179,36 @@ items:
     battleType: 2
     armor: 20
     listOrder: 1002
+  - type: STR_DATA_BRIEFCASE
+    categories: [STR_SOVIET_TECHNOLOGY]
+    name: STR_KGB_TECH
+    weight: 10
+    bigSprite: 1027
+    floorSprite: 1027
+    handSprite: 1027
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_LISTENING_DEVICE
+    categories: [STR_SOVIET_TECHNOLOGY]
+    name: STR_KGB_TECH
+    weight: 10
+    bigSprite: 1027
+    floorSprite: 1027
+    handSprite: 1027
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_TRANSMITTER
+    categories: [STR_SOVIET_TECHNOLOGY]
+    name: STR_KGB_TECH
+    weight: 10
+    bigSprite: 1027
+    floorSprite: 1027
+    handSprite: 1027
+    armor: 999
+    recoveryPoints: 50
+    recover: true
 
 ufopaedia:
   - id: STR_CROP_CIRCLE_REPORT
@@ -209,6 +239,13 @@ ufopaedia:
       - STR_UMBRELLA_MOSIN_NAGANT
     text: STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA
     listOrder: 231
+  - id: STR_KGB_TECH_INVESTIGATION
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 402
+    requires:
+      - STR_KGB_TECH_INVESTIGATION
+    text: STR_KGB_TECH_REPORT_UFOPEDIA
 
 research:
   - name: STR_CROP_CIRCLE_INVESTIGATION
@@ -285,6 +322,29 @@ research:
     points: 50
     needItem: true
 
+  - name: STR_DATA_BRIEFCASE
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_LISTENING_DEVICE
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_TRANSMITTER
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_KGB_TECH_INVESTIGATION
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_DATA_BRIEFCASE
+      - STR_LISTENING_DEVICE
+      - STR_TRANSMITTER
+
 extraSprites:
   - type: BIGOBS.PCK
     files:
@@ -301,6 +361,9 @@ extraSprites:
       1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_Big.png
       1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Big.png
       1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Big.png
+      1027: Resources/Evidence/KGB Investigation/Data Suitcase/Evidence_Big.png
+      1028: Resources/Evidence/KGB Investigation/Listening Device/Evidence_Big.png
+      1029: Resources/Evidence/KGB Investigation/Transmitter/Evidence_Big.png
   - type: FLOOROB.PCK
     files:
       1000: Resources/Evidence/Crop Circles/Items/FloorResidualFluid1.png
@@ -316,12 +379,18 @@ extraSprites:
       1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_Floor.png
       1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Floor.png
       1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Floor.png
+      1027: Resources/Evidence/KGB Investigation/Data Suitcase/Evidence_Floor.png
+      1028: Resources/Evidence/KGB Investigation/Listening Device/Evidence_Floor.png
+      1029: Resources/Evidence/KGB Investigation/Transmitter/Evidence_Floor.png
   - type: HANDOB.PCK
     files:
       1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Hand.png
       1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_Hand.png
       1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Hand.png
       1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Hand.png
+      1027: Resources/Evidence/KGB Investigation/Data Suitcase/Evidence_Hand.png
+      1028: Resources/Evidence/KGB Investigation/Listening Device/Evidence_Hand.png
+      1029: Resources/Evidence/KGB Investigation/Transmitter/Evidence_Hand.png
 
 extraStrings:
   - type: en-US
@@ -375,6 +444,13 @@ extraStrings:
       STR_UMBRELLA_MOSIN_NAGANT_MAG: "7.62x54mmR Magazine (5x)"
       STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA: "While examining it up close, the half-canibalized, half-mangled mechanisms of a Mosin-Nagant rifle are very clear, this weapon is quite innovative. When fully closed, it would be difficult to discern it from a real umbrella, especially at a distance. Other than the umbrella, this {ALT}7.62x54mmR{ALT} Mosin-Nagant otherwise operates normally. Very accurate and deadly, although it tends to fall off at longer ranges. {NEWLINE}>Concealable"
 
+      STR_DATA_BRIEFCASE: "KGB Data Briefcase"
+      STR_LISTENING_DEVICE: "KGB Listening Device"
+      STR_TRANSMITTER: "KGB Transmitter"
+      STR_KGB_TECH: "KGB Tech"
+      STR_KGB_TECH_INVESTIGATION: "KGB Tech Investigation"
+      STR_KGB_TECH_REPORT_UFOPEDIA: "Placeholder."
+
   - type: en-GB
     strings:
 #################################
@@ -425,3 +501,10 @@ extraStrings:
       STR_UMBRELLA_MOSIN_NAGANT: "Umbrella Mosin-Nagant"
       STR_UMBRELLA_MOSIN_NAGANT_MAG: "7.62x54mmR Magazine (5x)"
       STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA: "While examining it up close, the half-canibalized, half-mangled mechanisms of a Mosin-Nagant rifle are very clear, this weapon is quite innovative. When fully closed, it would be difficult to discern it from a real umbrella, especially at a distance. Other than the umbrella, this {ALT}7.62x54mmR{ALT} Mosin-Nagant otherwise operates normally. Very accurate and deadly, although it tends to fall off at longer ranges. {NEWLINE}>Concealable"
+
+      STR_DATA_BRIEFCASE: "KGB Data Briefcase"
+      STR_LISTENING_DEVICE: "KGB Listening Device"
+      STR_TRANSMITTER: "KGB Transmitter"
+      STR_KGB_TECH: "KGB Tech"
+      STR_KGB_TECH_INVESTIGATION: "KGB Tech Investigation"
+      STR_KGB_TECH_REPORT_UFOPEDIA: "Placeholder."
