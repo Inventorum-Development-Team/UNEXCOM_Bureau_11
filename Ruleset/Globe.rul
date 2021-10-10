@@ -3,3 +3,22 @@ regions:
     cost: 99999999
   - type: STR_SOUTH_EAST_ASIA
     cost: 99999999
+countries:
+  - type: STR_USA
+    fundingBase: 1000
+    fundingCap: 10000
+  - delete: STR_RUSSIA
+  - delete: STR_UK
+  - delete: STR_FRANCE
+  - delete: STR_GERMANY
+  - delete: STR_ITALY
+  - delete: STR_SPAIN
+  - delete: STR_CHINA
+  - delete: STR_JAPAN
+  - delete: STR_INDIA
+  - delete: STR_BRAZIL
+  - delete: STR_AUSTRALIA
+  - delete: STR_NIGERIA
+  - delete: STR_SOUTH_AFRICA
+  - delete: STR_EGYPT
+  - delete: STR_CANADA
