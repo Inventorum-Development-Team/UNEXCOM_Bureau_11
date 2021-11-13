@@ -866,6 +866,8 @@ ufopaedia:
       - STR_UMBRELLA_MOSIN_NAGANT
     text: STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA
     listOrder: 231
+  - id: STR_UMBRELLA_MOSIN_NAGANT_MAG
+    type_id: 4
   - id: STR_KGB_TECH_INVESTIGATION
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC

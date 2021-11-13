@@ -500,7 +500,7 @@ ufopaedia:
     image_id: MUDRANGER_UFOPEDIA
   - id: STR_STARFIGHTER
     type_id: 1
-    section: STR_VEHICLES
+    section: STR_VEHICLES1
     text: STR_STARFIGHTER_UFOPEDIA
     listOrder: 5
     rect_stats:
@@ -546,7 +546,7 @@ ufopaedia:
     requires:
       - STR_USAF_INTERCEPTOR_REQUISITION
     type_id: 2
-    section: STR_VEHICLES
+    section: STR_VEHICLES1
     image_id: SIDEWINDER
     text: STR_SIDEWINDER_UFOPEDIA
     listOrder: 8
