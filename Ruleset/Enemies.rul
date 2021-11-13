@@ -201,13 +201,13 @@ research:
   - name: STR_THIN_MAN_INFILTRATOR
     cost: 200
     points: 50
-    lookup: STR_THIN_MAN
+#    lookup: STR_THIN_MAN
     needItem: true
     listOrder: 1000
   - name: STR_THIN_MAN_CORPSE
     cost: 200
     points: 50
-    lookup: STR_THIN_MAN_AUTOPSY
+#    lookup: STR_THIN_MAN_AUTOPSY
     needItem: true
     listOrder: 1001
 
