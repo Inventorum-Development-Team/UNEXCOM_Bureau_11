@@ -61,6 +61,8 @@ items:
       name: STR_SNAP
       ammoSlot: 0
       arcing: false
+    damageAlter:
+      RandomType: 2
     snapRange: 2
     accuracySnap: 90
     tuSnap: 55
@@ -99,8 +101,8 @@ items:
     bigSprite: 920
     floorSprite: 920
     handSprite: 920
-    meleeHitSound: 500
-    meleeAnimation: 8
+#    meleeHitSound: 500
+#    meleeAnimation: 8
     power: 20
     damageType: 7
     damageBonus:
