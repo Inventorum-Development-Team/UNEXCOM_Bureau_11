@@ -8,6 +8,7 @@ items:
     invHeight: 3
     armor: 50
     recover: false
+    battleType: 11
   - type: STR_CORPSE_BDU
     name: STR_CORPSE
     weight: 60
@@ -17,6 +18,7 @@ items:
     invHeight: 3
     armor: 50
     recover: false
+    battleType: 11
   - type: STR_CORPSE_KGB
     name: STR_CORPSE
     weight: 60
@@ -26,6 +28,7 @@ items:
     invHeight: 3
     armor: 50
     recover: false
+    battleType: 11
   - type: STR_CORPSE_AUG
     name: STR_CORPSE
     weight: 60
@@ -35,6 +38,7 @@ items:
     invHeight: 3
     armor: 50
     recover: false
+    battleType: 11
   - type: STR_AUGMENTATION_SUIT
     categories: [STR_PROPRIETARY]
     costSell: 128000
