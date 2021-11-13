@@ -132,90 +132,25 @@ ufos:
 #END LARGE SCOUT
 
 #BEGIN HARVESTER
-  - type: STR_HARVESTER
+  - type: STR_CROP_CIRCLES_UFO
     battlescapeTerrainData:
-      name: UFO_130
+      name: CROP_CIRCLES_UFO
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_DISEC2
-        - U_BITS
-        - U_DISEC3
-        - UFOL83
+        - CROP_CIRCLE_EVIDENCE
       mapBlocks:
-        - name: UFO_130
-          width: 20
-          length: 20
-        - name: UFO_130a
-          width: 20
-          length: 20
-        - name: UFO_130b
-          width: 20
-          length: 20
-        - name: UFO_130c
-          width: 20
-          length: 20
-        - name: UFO_130d
-          width: 20
-          length: 20
-        - name: UFO_130e
-          width: 20
-          length: 20
-        - name: UFO_130f
-          width: 20
-          length: 20
-        - name: UFO_130g
-          width: 20
-          length: 20
-        - name: UFO_130h
-          width: 20
-          length: 20
-        - name: UFO_130i
-          width: 20
-          length: 20
-        - name: UFO_130j
-          width: 20
-          length: 20
-        - name: UFO_130k
-          width: 20
-          length: 20
-        - name: UFO_130l
-          width: 20
-          length: 20
-        - name: UFO_130m
-          width: 20
-          length: 20
-        - name: UFO_130n
-          width: 20
-          length: 20
-        - name: UFO_130o
-          width: 20
-          length: 20
-        - name: UFO_130p
-          width: 20
-          length: 20
-        - name: UFO_130q
-          width: 20
-          length: 20
-        - name: UFO_130r
-          width: 20
-          length: 20
-        - name: UFO_130s
-          width: 20
-          length: 20
-        - name: UFO_130t
-          width: 20
-          length: 20
-        - name: UFO_130u
-          width: 20
-          length: 20
-        - name: UFO_130v
-          width: 20
-          length: 20
-        - name: UFO_130w
-          width: 20
-          length: 20
+        - name: CROP_CIRCLES_UFO00
+          width: 10
+          length: 10
+        - name: CROP_CIRCLES_UFO01
+          width: 10
+          length: 10
+        - name: CROP_CIRCLES_UFO02
+          width: 10
+          length: 10
+        - name: CROP_CIRCLES_UFO03
+          width: 10
+          length: 10
 #END HARVESTER
 
 #BEGIN ABDUCTOR

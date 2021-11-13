@@ -5,6 +5,9 @@ alienDeployments:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
 
+##################
+##### UFOS ######
+################
   - type: STR_SMALL_SCOUT
     civilians: 2
     height: 10
@@ -202,6 +205,58 @@ alienDeployments:
             - STR_ALIEN_LASER_RIFLE_BATTERY
             - STR_MIND_PROBE
 
+###############################
+#### INVESTIGATION SITES #####
+#############################
+
+  - type: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT
+    customUfo: STR_CROP_CIRCLES_UFO
+    height: 10
+    width: 40
+    length: 40
+    data: &EvidenceData
+      - alienRank: 5
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 2
+    markerName: STR_CROP_CIRCLE_INVESTIGATION
+    markerIcon: 7
+
+  - type: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
+    customUfo: STR_SMALL_SCOUT
+    height: 10
+    width: 40
+    length: 40
+    data: *EvidenceData
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 5
+    markerName: STR_CATTLE_MUTILATION_INVESTIGATION
+    markerIcon: 7
+
 ufos:
 #<delete>
   - delete: STR_ABDUCTOR
@@ -222,3 +277,64 @@ missionScripts:
   - delete: geniusRetaliation
   - delete: superhumanRetaliation
   - delete: recurringTerror
+
+  - type: CropCirclesInvestigationSitesScript
+    missionWeights:
+      0:
+        STR_CROP_CIRCLE_INVESTIGATION_SITES: 100
+    startDelay: 150
+    targetBaseOdds: 100
+    useTable: false
+
+  - type: CattleMutilationInvestigationSitesScript
+    missionWeights:
+      0:
+        STR_CROP_CIRCLE_INVESTIGATION_SITES: 100
+    startDelay: 150
+    targetBaseOdds: 50
+    useTable: false
+
+alienMissions:
+  - type: STR_CROP_CIRCLE_INVESTIGATION_SITES
+    points: 50
+    objective: 2
+    siteType: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
+      1:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
+      3:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
+      6:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
+      9:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P6
+        timer: 13500
+
+  - type: STR_CATTLE_MUTILATION_INVESTIGATION_SITES
+    points: 50
+    objective: 2
+    siteType: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
+      1:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
+      3:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
+      6:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
+      9:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P6
+        timer: 13500

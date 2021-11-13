@@ -1,4 +1,14 @@
 items:
+  - type: STR_DUMMY_EVIDENCE_ITEM
+    name: STR_RESIDUAL_FLUID
+    weight: 10
+    bigSprite: 1000
+    floorSprite: 1000
+    armor: 999
+    recoveryPoints: 0
+    recover: false
+    battleType: 0
+
   - type: STR_PLASMA_RESIDUE_1
     name: STR_RESIDUAL_FLUID
     weight: 10
@@ -842,9 +852,36 @@ ufopaedia:
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
     listOrder: 400
-    requires:
-      - STR_CROP_CIRCLE_INVESTIGATION
     text: STR_CROP_CIRCLE_REPORT_UFOPEDIA
+  - id: STR_RESIDUAL_FLUID_INTEL_1
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 400
+    requires:
+      - STR_PLASMA_RESIDUE_1
+    text: STR_RESIDUAL_FLUID_INTEL_1_UFOPEDIA
+  - id: STR_RESIDUAL_FLUID_INTEL_2
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 400
+    requires:
+      - STR_PLASMA_RESIDUE_2
+    text: STR_RESIDUAL_FLUID_INTEL_2_UFOPEDIA
+  - id: STR_RESIDUAL_FLUID_INTEL_3
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 400
+    requires:
+      - STR_PLASMA_RESIDUE_3
+    text: STR_RESIDUAL_FLUID_INTEL_3_UFOPEDIA
+  - id: STR_RESIDUAL_FLUID_MAJOR_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 400
+    requires:
+      - STR_RESIDUAL_FLUID_MAJOR_REPORT
+    text: STR_RESIDUAL_FLUID_MAJOR_REPORT_UFOPEDIA
+#######################
   - id: STR_CATTLE_MUTILATION_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
@@ -852,6 +889,49 @@ ufopaedia:
     requires:
       - STR_CATTLE_MUTILATION_INVESTIGATION
     text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
+  - id: STR_CATTLE_MUTILATION_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_1
+    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
+  - id: STR_CATTLE_MUTILATION_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_2
+    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
+  - id: STR_CATTLE_MUTILATION_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_3
+    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
+  - id: STR_CATTLE_MUTILATION_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_4
+    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
+  - id: STR_CATTLE_MUTILATION_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_5
+    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
+  - id: STR_CATTLE_MUTILATION_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_6
+    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
+######################
   - id: STR_CAMERA_GUN
     type_id: 4
     section: STR_WEAPONS
@@ -868,6 +948,7 @@ ufopaedia:
     listOrder: 231
   - id: STR_UMBRELLA_MOSIN_NAGANT_MAG
     type_id: 4
+    section: STR_NOT_AVAILABLE
   - id: STR_KGB_TECH_INVESTIGATION
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
@@ -877,7 +958,7 @@ ufopaedia:
     text: STR_KGB_TECH_REPORT_UFOPEDIA
 
 research:
-  - name: STR_CROP_CIRCLE_INVESTIGATION
+  - name: STR_RESIDUAL_FLUID_MAJOR_REPORT
     cost: 10
     points: 100
     dependencies:
@@ -1178,9 +1259,9 @@ extraStrings:
       STR_RESIDUAL_FLUID_INTEL_1: "Residual Fluid Intel I"
       STR_RESIDUAL_FLUID_INTEL_1_UFOPEDIA: "We found this sample close to the area where a 'bright light in the sky' was reported, prior to creating circles on the field. Its particular unnatural glow and stench leads us to think that it is some kind of toxin or toxic waste. Our field agents describe it as 'the smell of hell'. More tests are required to identify the origin and purpose of this fluid."
       STR_RESIDUAL_FLUID_INTEL_2: "Residual Fluid Intel II"
-      STR_RESIDUAL_FLUID_INTEL_2_UFOPEDIA: "The analysis carried out in the laboratory ended with an incident. One of our technicians in charge of handling the samples that we retrieve, accidentally came into contact with the fluid recovered from the site of Investigation and fell unconscious immediately. After being hospitalized in an emergency and lasting several days in a coma-like state, we realized that perhaps this substance is a strong sedative. One more sample is needed to finish the study. Extra caution is advised."
+      STR_RESIDUAL_FLUID_INTEL_2_UFOPEDIA: "The analysis carried out in the laboratory ended with an incident. One of our technicians in charge of handling the samples that we retrieve, accidentally came into contact with the fluid recovered from the site of Investigation and fell unconscious immediately. After being hospitalized in an emergency and lasting several days in a coma-like state, we realized that perhaps this substance is a strong sedative. An additional sample is needed to finish the study. Extra caution is advised."
       STR_RESIDUAL_FLUID_INTEL_3: "Residual Fluid Intel III"
-      STR_RESIDUAL_FLUID_INTEL_3_UFOPEDIA: "The last image taken was conclusive: this viscous residue belongs to some type of very powerful drug, we believe it was used by external agents to knock out and potentially kidnap a group of individuals. We found no trace of any of these, but we do not rule out the idea that there was a civilian present at the time of the creation of this crop circle."
+      STR_RESIDUAL_FLUID_INTEL_3_UFOPEDIA: "The recent image taken was conclusive: this viscous residue belongs to some type of very powerful drug, we believe it was used by external agents to knock out and potentially kidnap a group of individuals. We found no trace of any of these, but we do not rule out the idea that there was a civilian present at the time of the creation of this crop circle."
       STR_RESIDUAL_FLUID_MAJOR_REPORT: "Residual Fluid Final Report"
       STR_RESIDUAL_FLUID_MAJOR_REPORT_UFOPEDIA: "The combined results of the investigations concluded that the intruders are using toxic substances with the intention of sedate live beings. The species of those beings and the intention of the use of the foreign drug is not clear. Our scientists are going to try to repurpose it, they hope it may be useful to our operations."
 

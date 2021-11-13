@@ -113,7 +113,7 @@ crafts:
       - STR_AUXILLARY
     refuelRate: 75
     radarRange: 600
-    sightRange: 0
+    sightRange: 600
     radarChance: 15
     transferTime: 96
     score: 250

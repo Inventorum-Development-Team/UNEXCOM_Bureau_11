@@ -53,7 +53,7 @@ items:
     floorSprite: 912
     handSprite: 912
     hitSound: 502
-    power: 5
+    power: 10
     damageType: 5
     clipSize: 8
     confSnap:
