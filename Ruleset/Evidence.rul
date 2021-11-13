@@ -7,6 +7,9 @@ items:
     armor: 999
     recoveryPoints: 50
     recover: true
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
   - type: STR_PLASMA_RESIDUE_2
     name: STR_RESIDUAL_FLUID
     weight: 10
@@ -15,6 +18,9 @@ items:
     armor: 999
     recoveryPoints: 50
     recover: true
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
   - type: STR_PLASMA_RESIDUE_3
     name: STR_RESIDUAL_FLUID
     weight: 10
@@ -25,6 +31,7 @@ items:
     armor: 999
     recoveryPoints: 50
     recover: true
+    battleType: 11
   - type: STR_USELESS_ORGANS_1
     name: STR_MUTILATED_CATTLE
     weight: 10
@@ -33,6 +40,9 @@ items:
     armor: 999
     recoveryPoints: 50
     recover: true
+    battleType: 11
+    invWidth: 1
+    invHeight: 1
   - type: STR_USELESS_ORGANS_2
     name: STR_MUTILATED_CATTLE
     weight: 10
@@ -41,16 +51,20 @@ items:
     armor: 999
     recoveryPoints: 50
     recover: true
+    battleType: 11
+    invWidth: 1
+    invHeight: 1
   - type: STR_USELESS_ORGANS_3
     name: STR_MUTILATED_CATTLE
     weight: 10
     bigSprite: 1005
     floorSprite: 1005
-    invWidth: 2
-    invHeight: 3
+    invWidth: 1
+    invHeight: 1
     armor: 999
     recoveryPoints: 50
     recover: true
+    battleType: 11
   - type: STR_USELESS_ORGANS_4
     name: STR_SPLATTERED_BLOOD
     weight: 10
@@ -59,6 +73,9 @@ items:
     armor: 999
     recoveryPoints: 50
     recover: true
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
   - type: STR_USELESS_ORGANS_5
     name: STR_SPLATTERED_BLOOD
     weight: 10
@@ -67,16 +84,20 @@ items:
     armor: 999
     recoveryPoints: 50
     recover: true
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
   - type: STR_USELESS_ORGANS_6
     name: STR_SPLATTERED_BLOOD
     weight: 10
     bigSprite: 1008
     floorSprite: 1008
-    invWidth: 2
-    invHeight: 3
     armor: 999
     recoveryPoints: 50
     recover: true
+    battleType: 11
+    invWidth: 2
+    invHeight: 3
 
 # Camera Gun
   - type: STR_CAMERA_GUN
@@ -86,7 +107,7 @@ items:
     weight: 9
     bigSprite: 1009
     floorSprite: 1009
-    handSprite: 1009
+    handSprite: 1000
     bulletSprite: 1
     fireSound: 502
     clipSize: 1
@@ -107,7 +128,6 @@ items:
     tuAimed: 70
     maxRange: 10
     accuracyCloseQuarters: 100
-    maxRange: 60
     kneelBonus: 150
     battleType: 1
     invWidth: 1
@@ -209,6 +229,613 @@ items:
     armor: 999
     recoveryPoints: 50
     recover: true
+
+armors:
+#######################################
+##### CROP CIRCLES INVESTIGATION #####
+#####################################
+  - type: PLASMA_RESIDUE_EVIDENCE_ARMOR_1
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: ResidualFluid1_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_PLASMA_RESIDUE_1
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: PLASMA_RESIDUE_EVIDENCE_ARMOR_2
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: ResidualFluid2_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_PLASMA_RESIDUE_2
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: PLASMA_RESIDUE_EVIDENCE_ARMOR_3
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: ResidualFluid3_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_PLASMA_RESIDUE_3
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+############################################
+##### CATTLE MUTILATION INVESTIGATION #####
+##########################################
+  - type: CATTLE_ORGAN_EVIDENCE_ARMOR_1
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: CattleOrgan1_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_USELESS_ORGANS_1
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: CATTLE_ORGAN_EVIDENCE_ARMOR_2
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: CattleOrgan2_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_USELESS_ORGANS_2
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: CATTLE_ORGAN_EVIDENCE_ARMOR_3
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: CattleOrgan3_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_USELESS_ORGANS_3
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: CATTLE_BLOOD_EVIDENCE_ARMOR_1
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: CattleBlood1_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_USELESS_ORGANS_4
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: CATTLE_BLOOD_EVIDENCE_ARMOR_2
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: CattleBlood2_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_USELESS_ORGANS_5
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: CATTLE_BLOOD_EVIDENCE_ARMOR_3
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: CattleBlood3_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_USELESS_ORGANS_6
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+
+units:
+#######################################
+##### CROP CIRCLES INVESTIGATION #####
+#####################################
+  - type: PLASMA_RESIDUE_EVIDENCE_UNIT_1
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 20
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: PLASMA_RESIDUE_EVIDENCE_ARMOR_1
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: PLASMA_RESIDUE_EVIDENCE_UNIT_2
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 20
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: PLASMA_RESIDUE_EVIDENCE_ARMOR_2
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: PLASMA_RESIDUE_EVIDENCE_UNIT_3
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 20
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: PLASMA_RESIDUE_EVIDENCE_ARMOR_3
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+############################################
+##### CATTLE MUTILATION INVESTIGATION #####
+##########################################
+  - type: CATTLE_ORGAN_EVIDENCE_UNIT_1
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 20
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: CATTLE_ORGAN_EVIDENCE_ARMOR_1
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: CATTLE_ORGAN_EVIDENCE_UNIT_2
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 20
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: CATTLE_ORGAN_EVIDENCE_ARMOR_2
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: CATTLE_ORGAN_EVIDENCE_UNIT_3
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 20
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: CATTLE_ORGAN_EVIDENCE_ARMOR_3
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: CATTLE_BLOOD_EVIDENCE_UNIT_1
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 20
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: CATTLE_BLOOD_EVIDENCE_ARMOR_1
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: CATTLE_BLOOD_EVIDENCE_UNIT_2
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 20
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: CATTLE_BLOOD_EVIDENCE_ARMOR_2
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: CATTLE_BLOOD_EVIDENCE_UNIT_3
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 20
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: CATTLE_BLOOD_EVIDENCE_ARMOR_3
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+
+alienRaces:
+  - id: STR_CROP_CIRCLE_INVESTIGATION_RACE
+    membersRandom:
+      - [PLASMA_RESIDUE_EVIDENCE_UNIT_1, PLASMA_RESIDUE_EVIDENCE_UNIT_2, PLASMA_RESIDUE_EVIDENCE_UNIT_3]
+      - [PLASMA_RESIDUE_EVIDENCE_UNIT_1, PLASMA_RESIDUE_EVIDENCE_UNIT_2, PLASMA_RESIDUE_EVIDENCE_UNIT_3]
+      - [PLASMA_RESIDUE_EVIDENCE_UNIT_1, PLASMA_RESIDUE_EVIDENCE_UNIT_2, PLASMA_RESIDUE_EVIDENCE_UNIT_3]
+      - [PLASMA_RESIDUE_EVIDENCE_UNIT_1, PLASMA_RESIDUE_EVIDENCE_UNIT_2, PLASMA_RESIDUE_EVIDENCE_UNIT_3]
+      - [PLASMA_RESIDUE_EVIDENCE_UNIT_1, PLASMA_RESIDUE_EVIDENCE_UNIT_2, PLASMA_RESIDUE_EVIDENCE_UNIT_3]
+      - [PLASMA_RESIDUE_EVIDENCE_UNIT_1, PLASMA_RESIDUE_EVIDENCE_UNIT_2, PLASMA_RESIDUE_EVIDENCE_UNIT_3]
+      - [PLASMA_RESIDUE_EVIDENCE_UNIT_1, PLASMA_RESIDUE_EVIDENCE_UNIT_2, PLASMA_RESIDUE_EVIDENCE_UNIT_3]
+      - [PLASMA_RESIDUE_EVIDENCE_UNIT_1, PLASMA_RESIDUE_EVIDENCE_UNIT_2, PLASMA_RESIDUE_EVIDENCE_UNIT_3]
+      - [PLASMA_RESIDUE_EVIDENCE_UNIT_1, PLASMA_RESIDUE_EVIDENCE_UNIT_2, PLASMA_RESIDUE_EVIDENCE_UNIT_3]
+  - id: STR_CATTLE_MUTILATION_INVESTIGATION_RACE
+    membersRandom:
+      - [CATTLE_ORGAN_EVIDENCE_UNIT_1, CATTLE_ORGAN_EVIDENCE_UNIT_2, CATTLE_ORGAN_EVIDENCE_UNIT_3, CATTLE_BLOOD_EVIDENCE_UNIT_1, CATTLE_BLOOD_EVIDENCE_UNIT_2, CATTLE_BLOOD_EVIDENCE_UNIT_3]
+      - [CATTLE_ORGAN_EVIDENCE_UNIT_1, CATTLE_ORGAN_EVIDENCE_UNIT_2, CATTLE_ORGAN_EVIDENCE_UNIT_3, CATTLE_BLOOD_EVIDENCE_UNIT_1, CATTLE_BLOOD_EVIDENCE_UNIT_2, CATTLE_BLOOD_EVIDENCE_UNIT_3]
+      - [CATTLE_ORGAN_EVIDENCE_UNIT_1, CATTLE_ORGAN_EVIDENCE_UNIT_2, CATTLE_ORGAN_EVIDENCE_UNIT_3, CATTLE_BLOOD_EVIDENCE_UNIT_1, CATTLE_BLOOD_EVIDENCE_UNIT_2, CATTLE_BLOOD_EVIDENCE_UNIT_3]
+      - [CATTLE_ORGAN_EVIDENCE_UNIT_1, CATTLE_ORGAN_EVIDENCE_UNIT_2, CATTLE_ORGAN_EVIDENCE_UNIT_3, CATTLE_BLOOD_EVIDENCE_UNIT_1, CATTLE_BLOOD_EVIDENCE_UNIT_2, CATTLE_BLOOD_EVIDENCE_UNIT_3]
+      - [CATTLE_ORGAN_EVIDENCE_UNIT_1, CATTLE_ORGAN_EVIDENCE_UNIT_2, CATTLE_ORGAN_EVIDENCE_UNIT_3, CATTLE_BLOOD_EVIDENCE_UNIT_1, CATTLE_BLOOD_EVIDENCE_UNIT_2, CATTLE_BLOOD_EVIDENCE_UNIT_3]
+      - [CATTLE_ORGAN_EVIDENCE_UNIT_1, CATTLE_ORGAN_EVIDENCE_UNIT_2, CATTLE_ORGAN_EVIDENCE_UNIT_3, CATTLE_BLOOD_EVIDENCE_UNIT_1, CATTLE_BLOOD_EVIDENCE_UNIT_2, CATTLE_BLOOD_EVIDENCE_UNIT_3]
+      - [CATTLE_ORGAN_EVIDENCE_UNIT_1, CATTLE_ORGAN_EVIDENCE_UNIT_2, CATTLE_ORGAN_EVIDENCE_UNIT_3, CATTLE_BLOOD_EVIDENCE_UNIT_1, CATTLE_BLOOD_EVIDENCE_UNIT_2, CATTLE_BLOOD_EVIDENCE_UNIT_3]
+      - [CATTLE_ORGAN_EVIDENCE_UNIT_1, CATTLE_ORGAN_EVIDENCE_UNIT_2, CATTLE_ORGAN_EVIDENCE_UNIT_3, CATTLE_BLOOD_EVIDENCE_UNIT_1, CATTLE_BLOOD_EVIDENCE_UNIT_2, CATTLE_BLOOD_EVIDENCE_UNIT_3]
+      - [CATTLE_ORGAN_EVIDENCE_UNIT_1, CATTLE_ORGAN_EVIDENCE_UNIT_2, CATTLE_ORGAN_EVIDENCE_UNIT_3, CATTLE_BLOOD_EVIDENCE_UNIT_1, CATTLE_BLOOD_EVIDENCE_UNIT_2, CATTLE_BLOOD_EVIDENCE_UNIT_3]
 
 ufopaedia:
   - id: STR_CROP_CIRCLE_REPORT
@@ -384,7 +1011,7 @@ extraSprites:
       1029: Resources/Evidence/KGB Investigation/Transmitter/Evidence_Floor.png
   - type: HANDOB.PCK
     files:
-      1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Hand.png
+      1000: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Hand.png
       1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_Hand.png
       1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Hand.png
       1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Hand.png
@@ -392,9 +1019,80 @@ extraSprites:
       1028: Resources/Evidence/KGB Investigation/Listening Device/Evidence_Hand.png
       1029: Resources/Evidence/KGB Investigation/Transmitter/Evidence_Hand.png
 
+  - type: ResidualFluid1_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Crop Circles/Items/Units/ResidualFluid1_spritesheet.png
+  - type: ResidualFluid2_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Crop Circles/Items/Units/ResidualFluid2_spritesheet.png
+  - type: ResidualFluid3_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Crop Circles/Items/Units/ResidualFluid3_spritesheet.png
+###################################
+  - type: CattleOrgan1_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleOrgan1_spritesheet.png
+  - type: CattleOrgan2_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleOrgan2_spritesheet.png
+  - type: CattleOrgan3_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleOrgan3_spritesheet.png
+  - type: CattleBlood1_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleBlood1_spritesheet.png
+  - type: CattleBlood2_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleBlood2_spritesheet.png
+  - type: CattleBlood3_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Cattle Mutilation/Units/CattleBlood3_spritesheet.png
+################################
+
+
+
 extraStrings:
   - type: en-US
     strings:
+      STR_EVIDENCE: "Evidence"
+      STR_CROP_CIRCLE_INVESTIGATION_RACE: "Crop Circle Samples"
+      STR_CATTLE_MUTILATION_INVESTIGATION_RACE: "Cattle Mutilation Samples"
 #################################
 ######## CROP CIRCLES ##########
 ###############################
