@@ -6,7 +6,7 @@ items:
   - delete: STR_CANNON
   - delete: STR_CANNON_ROUNDS_X50
   - type: STR_SIDEWINDER_LAUNCHER
-    categories: [STR_VEHICLES1, STR_BVRAAM]
+    categories: [STR_VEHICLES, STR_BVRAAM]
     requiresBuy:
       - STR_USAF_INTERCEPTOR_REQUISITION
     size: 0.8
@@ -14,7 +14,7 @@ items:
     costSell: 18000
     transferTime: 48
   - type: STR_SIDEWINDER_MISSILES
-    categories: [STR_VEHICLES1, STR_BVRAAM]
+    categories: [STR_VEHICLES, STR_BVRAAM]
     requiresBuy:
       - STR_USAF_INTERCEPTOR_REQUISITION
     size: 0.4
@@ -23,7 +23,7 @@ items:
     transferTime: 48
     clipSize: 1
   - type: STR_VULCAN_CANNON
-    categories: [STR_VEHICLES1, STR_AUTOCANNON]
+    categories: [STR_VEHICLES, STR_AUTOCANNON]
     requiresBuy:
       - STR_USAF_INTERCEPTOR_REQUISITION
     size: 1.5
@@ -31,7 +31,7 @@ items:
     costSell: 35000
     transferTime: 48
   - type: STR_VULCAN_CANNON_ROUNDS_X50
-    categories: [STR_VEHICLES1, STR_AUTOCANNON]
+    categories: [STR_VEHICLES, STR_AUTOCANNON]
     requiresBuy:
       - STR_USAF_INTERCEPTOR_REQUISITION
     size: 0.1
@@ -40,22 +40,22 @@ items:
     transferTime: 96
     clipSize: 50
   - type: STR_FUEL_TANK
-    categories: [STR_VEHICLES1, STR_AUXILLARY]
+    categories: [STR_VEHICLES, STR_AUXILLARY]
     size: 0.8
     costSell: 13000
     transferTime: 48
   - type: STR_AFTERBURNER
-    categories: [STR_VEHICLES1, STR_AUXILLARY]
+    categories: [STR_VEHICLES, STR_AUXILLARY]
     size: 0.8
     costSell: 13000
     transferTime: 48
   - type: STR_IMPROVED_SPY_CAMERA
-    categories: [STR_VEHICLES1, STR_AUXILLARY]
+    categories: [STR_VEHICLES, STR_AUXILLARY]
     size: 0.8
     costSell: 13000
     transferTime: 48
   - type: STR_FLARE_DISPENSER
-    categories: [STR_VEHICLES1, STR_AUXILLARY]
+    categories: [STR_VEHICLES, STR_AUXILLARY]
     size: 0.8
     costSell: 13000
     transferTime: 48
@@ -397,7 +397,7 @@ manufacture:
   - delete: STR_AVENGER
 
   - name: STR_FUEL_TANK
-    category: STR_VEHICLES1
+    category: STR_VEHICLES
     space: 4
     time: 150
     cost: 18000
@@ -405,7 +405,7 @@ manufacture:
       STR_FUEL_TANK: 1
 
   - name: STR_AFTERBURNER
-    category: STR_VEHICLES1
+    category: STR_VEHICLES
     space: 4
     time: 150
     cost: 18000
@@ -415,7 +415,7 @@ manufacture:
       STR_AFTERBURNER: 1
 
   - name: STR_IMPROVED_SPY_CAMERA
-    category: STR_VEHICLES1
+    category: STR_VEHICLES
     space: 4
     time: 150
     cost: 18000
@@ -423,7 +423,7 @@ manufacture:
       STR_IMPROVED_SPY_CAMERA: 1
 
   - name: STR_FLARE_DISPENSER
-    category: STR_VEHICLES1
+    category: STR_VEHICLES
     space: 4
     time: 150
     cost: 18000
@@ -436,7 +436,7 @@ ufopaedia:
   - delete: STR_SKYRANGER
   - id: STR_CADILLAC
     type_id: 1
-    section: STR_VEHICLES1
+    section: STR_VEHICLES
     text: STR_CADILLAC_UFOPEDIA
     listOrder: 1
     rect_stats:
@@ -452,7 +452,7 @@ ufopaedia:
     image_id: CADILLAC_UFOPEDIA
   - id: STR_U2_DRAGON_LADY
     type_id: 1
-    section: STR_VEHICLES1
+    section: STR_VEHICLES
     text: STR_U2_DRAGON_LADY_UFOPEDIA
     listOrder: 2
     rect_stats:
@@ -468,7 +468,7 @@ ufopaedia:
     image_id: U2DRAGONLADY_UFOPEDIA
   - id: STR_HUEY
     type_id: 1
-    section: STR_VEHICLES1
+    section: STR_VEHICLES
     text: STR_HUEY_UFOPEDIA
     listOrder: 3
     rect_stats:
@@ -484,7 +484,7 @@ ufopaedia:
     image_id: HUEY_UFOPEDIA
   - id: STR_MUDRANGER
     type_id: 1
-    section: STR_VEHICLES1
+    section: STR_VEHICLES
     text: STR_MUDRANGER_UFOPEDIA
     listOrder: 4
     rect_stats:
@@ -516,7 +516,7 @@ ufopaedia:
     image_id: STARFIGHTER_UFOPEDIA
   - id: STR_SKYRANGER
     type_id: 1
-    section: STR_VEHICLES1
+    section: STR_VEHICLES
     text: STR_SKYRANGER_UFOPEDIA
     listOrder: 6
     rect_stats:
@@ -536,7 +536,7 @@ ufopaedia:
     requires:
       - STR_USAF_INTERCEPTOR_REQUISITION
     type_id: 2
-    section: STR_VEHICLES1
+    section: STR_VEHICLES
     image_id: VULCAN
     text: STR_VULCAN_UFOPEDIA
     listOrder: 7
@@ -554,13 +554,13 @@ ufopaedia:
 # Aux
   - id: STR_FUEL_TANK_UC
     type_id: 2
-    section: STR_VEHICLES1
+    section: STR_VEHICLES
     image_id: FUEL_TANK
     text: STR_FUEL_TANK_UFOPEDIA
     listOrder: 9
   - id: STR_AFTERBURNER_UC
     type_id: 2
-    section: STR_VEHICLES1
+    section: STR_VEHICLES
     image_id: AFTERBURNER
     requires:
       - STR_EXPERIMENTAL_AEROSPACE
@@ -568,7 +568,7 @@ ufopaedia:
     listOrder: 10
   - id: STR_FLARE_DISPENSER_UC
     type_id: 2
-    section: STR_VEHICLES1
+    section: STR_VEHICLES
     image_id: FLARE_DISPENSER
     requires:
       - STR_EXPERIMENTAL_AEROSPACE
@@ -576,7 +576,7 @@ ufopaedia:
     listOrder: 11
   - id: STR_IMPROVED_SPY_CAMERA_UC
     type_id: 2
-    section: STR_VEHICLES1
+    section: STR_VEHICLES
     image_id: IMPROVED_SPY_CAMERA
     text: STR_IMPROVED_SPY_CAMERA_UFOPEDIA
     listOrder: 12
@@ -692,7 +692,7 @@ extraSprites:
 extraStrings:
   - type: en-US
     strings:
-      STR_VEHICLES1: "VEHICLES AND ARMAMENT"
+      STR_VEHICLES: "VEHICLES AND ARMAMENT"
   
       STR_AUTOCANNON: "AUTOCANNON"
       STR_BVRAAM: "BVRAAM" #Beyond Visual Range Air to Air Missile	 
@@ -749,7 +749,7 @@ extraStrings:
 
   - type: en-GB
     strings:
-      STR_VEHICLES1: "VEHICLES AND ARMAMENT"
+      STR_VEHICLES: "VEHICLES AND ARMAMENT"
   
       STR_AUTOCANNON: "AUTOCANNON"
       STR_BVRAAM: "BVRAAM" #Beyond Visual Range Air to Air Missile	 
