@@ -176,6 +176,7 @@ alienRaces:
   - delete: STR_SNAKEMAN
   - delete: STR_MUTON
   - delete: STR_ETHEREAL
+  - delete: STR_MIXED
   - id: STR_HYBRID
     members:
       - STR_THIN_MAN_INFILTRATOR

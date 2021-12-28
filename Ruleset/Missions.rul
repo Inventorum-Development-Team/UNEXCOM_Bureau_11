@@ -219,7 +219,7 @@ alienDeployments:
         lowQty: 2
         highQty: 1
         dQty: 0
-        percentageOutsideUfo: 100
+        percentageOutsideUfo: 0
         itemSets:
           -
             - STR_DUMMY_EVIDENCE_ITEM
