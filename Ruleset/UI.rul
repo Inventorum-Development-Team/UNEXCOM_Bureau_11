@@ -1,0 +1,117 @@
+extraSprites:
+  - type: WpnActive
+    width: 36
+    height: 52
+    singleImage: true
+    files:
+      0: Resources/UI/WpnActive.png
+  - type: InvCopy
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invcopy.png
+  - type: InvCopyActive
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invcopy_active.png
+  - type: InvPaste
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invpaste.png
+  - type: InvPasteEmpty
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invpaste_empty.png
+  - type: TAC01.SCR
+    singleImage: true
+    files:
+      0: Resources/UI/TAC01.png
+  - type: ICONS.PCK
+    singleImage: true
+    files:
+      0: Resources/UI/ui.png
+  - type: KneelButton
+    width: 32
+    height: 32
+    subX: 32
+    subY: 16
+    files:
+      0: Resources/UI/kneelButton.png
+#  - type: SCANBORD.PCK
+#    singleImage: true
+#    files:
+#      0: Resources/UI/SCANBORD.png
+  - type: BigBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: BigStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: BigWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: BigShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png
+  - type: FloorBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: FloorStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: FloorWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: FloorShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png
+interfaces:
+  - type: inventory
+    elements: #color is the color index of the PAL_BATTLESCAPE palette
+      - id: textName
+        color: 128 # 64
+      - id: textTUs
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textWeight
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textStatLine1
+        custom: 11 # 1
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textStatLine2
+        custom: 12 # 2
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textStatLine3
+        custom: 13 # 3
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textStatLine4
+        custom: 14 # 4
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textItem
+        color: 112 # 48
+        color2: 16 # 16
+      - id: textAmmo
+        color: 128 # 64
+        color2: 16 # 16
+      - id: textSlots
+        color: 112
