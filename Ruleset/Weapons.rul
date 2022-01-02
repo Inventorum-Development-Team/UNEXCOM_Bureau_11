@@ -2034,9 +2034,9 @@ items:
       energy: 12
     battleType: 1
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
     armor: 35
-    twoHanded: true
+    twoHanded: false
     listOrder: 206
 
 ufopaedia:
@@ -2605,6 +2605,8 @@ extraSprites:
       832: Resources/Weapons/Alien Siege Launcher/Mag_1_Big.png
       840: Resources/Weapons/Collapsible SMG/Unloaded_Big.png
       848: Resources/Weapons/Collapsible SMG/Loaded_20_Big.png
+      872: Resources/Weapons/Collapsible SMG/UnloadedFolded_Big.png
+      880: Resources/Weapons/Collapsible SMG/LoadedFolded_20_Big.png
   - type: FLOOROB.PCK
     files:
       200: Resources/Weapons/Browning HP35/Unloaded_Floor.png
