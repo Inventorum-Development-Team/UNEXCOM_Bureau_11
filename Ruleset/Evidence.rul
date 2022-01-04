@@ -140,7 +140,7 @@ items:
     accuracyCloseQuarters: 100
     kneelBonus: 150
     battleType: 1
-    invWidth: 1
+    invWidth: 2
     invHeight: 2
     twoHanded: true
     armor: 20
