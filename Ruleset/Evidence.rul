@@ -109,15 +109,83 @@ items:
     invWidth: 2
     invHeight: 3
 
+  - type: STR_COMATOSE_ABDUCTEE_1
+    name: STR_UNCONCIOUS_CIVILIAN
+    weight: 10
+    bigSprite: 1009
+    floorSprite: 1009
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+    battleType: 11
+    invWidth: 1
+    invHeight: 1
+  - type: STR_COMATOSE_ABDUCTEE_1
+    name: STR_UNCONCIOUS_CIVILIAN
+    weight: 10
+    bigSprite: 1010
+    floorSprite: 1010
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+    battleType: 11
+    invWidth: 1
+    invHeight: 1
+  - type: STR_COMATOSE_ABDUCTEE_1
+    name: STR_UNCONCIOUS_CIVILIAN
+    weight: 10
+    bigSprite: 1011
+    floorSprite: 1011
+    invWidth: 1
+    invHeight: 1
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+    battleType: 11
+###############################
+###### KGB TECHNOLOGY ########
+#############################
+
+  - type: STR_DATA_BRIEFCASE
+    categories: [STR_SOVIET_TECHNOLOGY]
+    name: STR_KGB_TECH
+    weight: 10
+    bigSprite: 1016
+    floorSprite: 1016
+    handSprite: 1016
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_LISTENING_DEVICE
+    categories: [STR_SOVIET_TECHNOLOGY]
+    name: STR_KGB_TECH
+    weight: 10
+    bigSprite: 1024
+    floorSprite: 1024
+    handSprite: 1024
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_TRANSMITTER
+    categories: [STR_SOVIET_TECHNOLOGY]
+    name: STR_KGB_TECH
+    weight: 10
+    bigSprite: 1032
+    floorSprite: 1032
+    handSprite: 1032
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+
 # Camera Gun
   - type: STR_CAMERA_GUN
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_CONCEALED]
+    categories: [STR_SOVIET_TECHNOLOGY, STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_CONCEALED]
     size: 0.1
     costSell: 5400
     weight: 9
-    bigSprite: 1009
-    floorSprite: 1009
-    handSprite: 1000
+    bigSprite: 1040
+    floorSprite: 1040
+    handSprite: 1040
     bulletSprite: 1
     fireSound: 502
     clipSize: 1
@@ -148,13 +216,13 @@ items:
 
 # Umbrella Mosin-Nagant
   - type: STR_UMBRELLA_MOSIN_NAGANT
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_CONCEALED]
+    categories: [STR_SOVIET_TECHNOLOGY, STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_CONCEALED]
     size: 0.2
     costSell: 5000
     weight: 15
-    bigSprite: 1010
-    floorSprite: 1010
-    handSprite: 1010
+    bigSprite: 1048
+    floorSprite: 1048
+    handSprite: 1048
     bulletSprite: 1
     fireSound: 228
     reloadSound: 229
@@ -190,13 +258,13 @@ items:
     blockBothHands: true
     listOrder: 1001
   - type: STR_UMBRELLA_MOSIN_NAGANT_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_CLIPS, STR_CONCEALED]
+    categories: [STR_SOVIET_TECHNOLOGY, STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_CLIPS, STR_CONCEALED]
     size: 0.1
     costSell: 400
     weight: 2
-    bigSprite: 1026
-    floorSprite: 1026
-    handSprite: 1026
+    bigSprite: 1064
+    floorSprite: 1064
+    handSprite: 1064
     hitSound: 22
     hitAnimation: 26
     bulletSpeed: 16
@@ -209,70 +277,6 @@ items:
     battleType: 2
     armor: 20
     listOrder: 1002
-  - type: STR_DATA_BRIEFCASE
-    categories: [STR_SOVIET_TECHNOLOGY]
-    name: STR_KGB_TECH
-    weight: 10
-    bigSprite: 1027
-    floorSprite: 1027
-    handSprite: 1027
-    armor: 999
-    recoveryPoints: 50
-    recover: true
-  - type: STR_LISTENING_DEVICE
-    categories: [STR_SOVIET_TECHNOLOGY]
-    name: STR_KGB_TECH
-    weight: 10
-    bigSprite: 1028
-    floorSprite: 1028
-    handSprite: 1028
-    armor: 999
-    recoveryPoints: 50
-    recover: true
-  - type: STR_TRANSMITTER
-    categories: [STR_SOVIET_TECHNOLOGY]
-    name: STR_KGB_TECH
-    weight: 10
-    bigSprite: 1029
-    floorSprite: 1029
-    handSprite: 1029
-    armor: 999
-    recoveryPoints: 50
-    recover: true
-
-  - type: STR_COMATOSE_ABDUCTEE_1
-    name: STR_UNCONCIOUS_CIVILIAN
-    weight: 10
-    bigSprite: 1030
-    floorSprite: 1030
-    armor: 999
-    recoveryPoints: 50
-    recover: true
-    battleType: 11
-    invWidth: 1
-    invHeight: 1
-  - type: STR_COMATOSE_ABDUCTEE_1
-    name: STR_UNCONCIOUS_CIVILIAN
-    weight: 10
-    bigSprite: 1031
-    floorSprite: 1031
-    armor: 999
-    recoveryPoints: 50
-    recover: true
-    battleType: 11
-    invWidth: 1
-    invHeight: 1
-  - type: STR_COMATOSE_ABDUCTEE_1
-    name: STR_UNCONCIOUS_CIVILIAN
-    weight: 10
-    bigSprite: 1032
-    floorSprite: 1032
-    invWidth: 1
-    invHeight: 1
-    armor: 999
-    recoveryPoints: 50
-    recover: true
-    battleType: 11
 
 armors:
 #######################################
@@ -1123,55 +1127,63 @@ research:
 extraSprites:
   - type: BIGOBS.PCK
     files:
-      1000: Resources/Evidence/Crop Circles/Items/BigResidualFluid1.png
-      1001: Resources/Evidence/Crop Circles/Items/BigResidualFluid2.png
-      1002: Resources/Evidence/Crop Circles/Items/BigResidualFluid3.png
-      1003: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan1.png
-      1004: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan2.png
-      1005: Resources/Evidence/Cattle Mutilation/Items/BigCattleOrgan3.png
-      1006: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood1.png
-      1007: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood2.png
-      1008: Resources/Evidence/Cattle Mutilation/Items/BigCattleBlood3.png
-      1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Big.png
-      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_Big.png
-      1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Big.png
-      1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Big.png
-      1027: Resources/Evidence/KGB Investigation/Data Suitcase/Evidence_Big.png
-      1028: Resources/Evidence/KGB Investigation/Listening Device/Evidence_Big.png
-      1029: Resources/Evidence/KGB Investigation/Transmitter/Evidence_Big.png
-      1030: Resources/Evidence/Alien Abduction/Items/BigComatoseAbductee1.gif
-      1031: Resources/Evidence/Alien Abduction/Items/BigComatoseAbductee2.gif
-      1032: Resources/Evidence/Alien Abduction/Items/BigComatoseAbductee3.gif
+      1000: Resources/Evidence/Crop_Circles/Items/BigResidualFluid1.png
+      1001: Resources/Evidence/Crop_Circles/Items/BigResidualFluid2.png
+      1002: Resources/Evidence/Crop_Circles/Items/BigResidualFluid3.png
+      1003: Resources/Evidence/Cattle_Mutilation/Items/BigCattleOrgan1.png
+      1004: Resources/Evidence/Cattle_Mutilation/Items/BigCattleOrgan2.png
+      1005: Resources/Evidence/Cattle_Mutilation/Items/BigCattleOrgan3.png
+      1006: Resources/Evidence/Cattle_Mutilation/Items/BigCattleBlood1.png
+      1007: Resources/Evidence/Cattle_Mutilation/Items/BigCattleBlood2.png
+      1008: Resources/Evidence/Cattle_Mutilation/Items/BigCattleBlood3.png
+      1009: Resources/Evidence/Alien_Abduction/Items/BigComatoseAbductee1.gif
+      1010: Resources/Evidence/Alien_Abduction/Items/BigComatoseAbductee2.gif
+      1011: Resources/Evidence/Alien_Abduction/Items/BigComatoseAbductee3.gif
+      1016: Resources/Evidence/KGB_Investigation/Data_Suitcase/Evidence_Big.png
+      1024: Resources/Evidence/KGB_Investigation/Listening_Device/Evidence_Big.png
+      1032: Resources/Evidence/KGB_Investigation/Transmitter/Evidence_Big.png
+      1040: Resources/Evidence/KGB_Investigation/Camera_Gun/Loaded_1_Big.png
+      1048: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Unloaded_Big.png
+      1056: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Loaded_5_Big.png
+      1064: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Mag_5_Big.png
+
+
   - type: FLOOROB.PCK
     files:
-      1000: Resources/Evidence/Crop Circles/Items/FloorResidualFluid1.png
-      1001: Resources/Evidence/Crop Circles/Items/FloorResidualFluid2.png
-      1002: Resources/Evidence/Crop Circles/Items/FloorResidualFluid3.png
-      1003: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan1.png
-      1004: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan2.png
-      1005: Resources/Evidence/Cattle Mutilation/Items/FloorCattleOrgan3.png
-      1006: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood1.png
-      1007: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood2.png
-      1008: Resources/Evidence/Cattle Mutilation/Items/FloorCattleBlood3.png
-      1009: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Floor.png
-      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_Floor.png
-      1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Floor.png
-      1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Floor.png
-      1027: Resources/Evidence/KGB Investigation/Data Suitcase/Evidence_Floor.png
-      1028: Resources/Evidence/KGB Investigation/Listening Device/Evidence_Floor.png
-      1029: Resources/Evidence/KGB Investigation/Transmitter/Evidence_Floor.png
-      1030: Resources/Evidence/Alien Abduction/Items/FloorComatoseAbductee1.gif
-      1031: Resources/Evidence/Alien Abduction/Items/FloorComatoseAbductee2.gif
-      1032: Resources/Evidence/Alien Abduction/Items/FloorComatoseAbductee3.gif
+      1000: Resources/Evidence/Crop_Circles/Items/FloorResidualFluid1.png
+      1001: Resources/Evidence/Crop_Circles/Items/FloorResidualFluid2.png
+      1002: Resources/Evidence/Crop_Circles/Items/FloorResidualFluid3.png
+      1003: Resources/Evidence/Cattle_Mutilation/Items/FloorCattleOrgan1.png
+      1004: Resources/Evidence/Cattle_Mutilation/Items/FloorCattleOrgan2.png
+      1005: Resources/Evidence/Cattle_Mutilation/Items/FloorCattleOrgan3.png
+      1006: Resources/Evidence/Cattle_Mutilation/Items/FloorCattleBlood1.png
+      1007: Resources/Evidence/Cattle_Mutilation/Items/FloorCattleBlood2.png
+      1008: Resources/Evidence/Cattle_Mutilation/Items/FloorCattleBlood3.png
+      1009: Resources/Evidence/Alien_Abduction/Items/FloorComatoseAbductee1.gif
+      1010: Resources/Evidence/Alien_Abduction/Items/FloorComatoseAbductee2.gif
+      1011: Resources/Evidence/Alien_Abduction/Items/FloorComatoseAbductee3.gif
+      1016: Resources/Evidence/KGB_Investigation/Data_Suitcase/Evidence_Floor.png
+      1024: Resources/Evidence/KGB_Investigation/Listening_Device/Evidence_Floor.png
+      1032: Resources/Evidence/KGB_Investigation/Transmitter/Evidence_Floor.png
+      1040: Resources/Evidence/KGB_Investigation/Camera_Gun/Loaded_1_Floor.png
+      1048: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Unloaded_Floor.png
+      1056: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Loaded_5_Floor.png
+      1064: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Mag_5_Floor.png
+
+
   - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
     files:
-      1000: Resources/Evidence/KGB Investigation/Camera Gun/Loaded_1_Hand.png
-      1010: Resources/Evidence/KGB Investigation/Umbrella Gun/Unloaded_Hand.png
-      1018: Resources/Evidence/KGB Investigation/Umbrella Gun/Loaded_5_Hand.png
-      1026: Resources/Evidence/KGB Investigation/Umbrella Gun/Mag_5_Hand.png
-      1027: Resources/Evidence/KGB Investigation/Data Suitcase/Evidence_Hand.png
-      1028: Resources/Evidence/KGB Investigation/Listening Device/Evidence_Hand.png
-      1029: Resources/Evidence/KGB Investigation/Transmitter/Evidence_Hand.png
+      1016: Resources/Evidence/KGB_Investigation/Data_Suitcase/Evidence_Hand.png
+      1024: Resources/Evidence/KGB_Investigation/Listening_Device/Evidence_Hand.png
+      1032: Resources/Evidence/KGB_Investigation/Transmitter/Evidence_Hand.png
+      1040: Resources/Evidence/KGB_Investigation/Camera_Gun/Loaded_1_Hand.png
+      1048: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Unloaded_Hand.png
+      1056: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Loaded_5_Hand.png
+      1064: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Mag_5_Hand.png
 
   - type: ResidualFluid1_spritesheet.PCK
     width: 256
@@ -1179,21 +1191,21 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Evidence/Crop Circles/Items/Units/ResidualFluid1_spritesheet.png
+      0: Resources/Evidence/Crop_Circles/Items/Units/ResidualFluid1_spritesheet.png
   - type: ResidualFluid2_spritesheet.PCK
     width: 256
     height: 120
     subX: 32
     subY: 40
     files:
-      0: Resources/Evidence/Crop Circles/Items/Units/ResidualFluid2_spritesheet.png
+      0: Resources/Evidence/Crop_Circles/Items/Units/ResidualFluid2_spritesheet.png
   - type: ResidualFluid3_spritesheet.PCK
     width: 256
     height: 120
     subX: 32
     subY: 40
     files:
-      0: Resources/Evidence/Crop Circles/Items/Units/ResidualFluid3_spritesheet.png
+      0: Resources/Evidence/Crop_Circles/Items/Units/ResidualFluid3_spritesheet.png
 ###################################
   - type: CattleOrgan1_spritesheet.PCK
     width: 256
@@ -1201,42 +1213,42 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Evidence/Cattle Mutilation/Units/CattleOrgan1_spritesheet.png
+      0: Resources/Evidence/Cattle_Mutilation/Units/CattleOrgan1_spritesheet.png
   - type: CattleOrgan2_spritesheet.PCK
     width: 256
     height: 120
     subX: 32
     subY: 40
     files:
-      0: Resources/Evidence/Cattle Mutilation/Units/CattleOrgan2_spritesheet.png
+      0: Resources/Evidence/Cattle_Mutilation/Units/CattleOrgan2_spritesheet.png
   - type: CattleOrgan3_spritesheet.PCK
     width: 256
     height: 120
     subX: 32
     subY: 40
     files:
-      0: Resources/Evidence/Cattle Mutilation/Units/CattleOrgan3_spritesheet.png
+      0: Resources/Evidence/Cattle_Mutilation/Units/CattleOrgan3_spritesheet.png
   - type: CattleBlood1_spritesheet.PCK
     width: 256
     height: 120
     subX: 32
     subY: 40
     files:
-      0: Resources/Evidence/Cattle Mutilation/Units/CattleBlood1_spritesheet.png
+      0: Resources/Evidence/Cattle_Mutilation/Units/CattleBlood1_spritesheet.png
   - type: CattleBlood2_spritesheet.PCK
     width: 256
     height: 120
     subX: 32
     subY: 40
     files:
-      0: Resources/Evidence/Cattle Mutilation/Units/CattleBlood2_spritesheet.png
+      0: Resources/Evidence/Cattle_Mutilation/Units/CattleBlood2_spritesheet.png
   - type: CattleBlood3_spritesheet.PCK
     width: 256
     height: 120
     subX: 32
     subY: 40
     files:
-      0: Resources/Evidence/Cattle Mutilation/Units/CattleBlood3_spritesheet.png
+      0: Resources/Evidence/Cattle_Mutilation/Units/CattleBlood3_spritesheet.png
 ################################
 
 
