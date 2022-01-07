@@ -225,33 +225,6 @@ armors:
     builtInWeapons:
       - INV_POWER_PACK_3X3
 
-ufopaedia:
-  - id: STR_AGENT_SUIT_UC
-    type_id: 5
-    section: STR_OUTFITS
-    listOrder: 101
-    text: STR_AGENT_SUIT_UC_UFOPEDIA
-  - id: STR_ARMY_UNIFORM_UC
-    type_id: 5
-    section: STR_OUTFITS
-    listOrder: 102
-    requires:
-      - STR_ARMY_VETERAN_RECRUITMENT
-    text: STR_ARMY_UNIFORM_UC_UFOPEDIA
-  - id: STR_OFFICER_COAT_UC
-    type_id: 5
-    section: STR_OUTFITS
-    listOrder: 103
-    requires:
-      - STR_KGB_OFFICER_RECRUITMENT
-    text: STR_OFFICER_COAT_UC_UFOPEDIA
-  - id: STR_AUGMENTATION_SUIT_UC
-    type_id: 5
-    section: STR_OUTFITS
-    listOrder: 103
-    requires:
-      - STR_AUGMENTATION_SUIT
-    text: STR_AUGMENTATION_SUIT_UC_UFOPEDIA
 
 research:
   - name: STR_AUGMENTATION_SUIT
@@ -446,33 +419,3 @@ extraSprites:
       # Augmentation Suit Corpse Floorob
       503: Resources/Outfits/Augmentation_Suit/Corpse/Corpse_Floor.png
 
-extraStrings:
-  - type: en-US
-    strings:
-      STR_MANA_POOL: "ENERGY RESERVE"
-      STR_OUTFITS: "ATTIRE AND ARMOR"
-      STR_AGENT_SUIT_UC: "AGENT SUIT"
-      STR_AGENT_SUIT_UC_UFOPEDIA: "This suit allows our agents to blend it with the general populace; at the cost of somewhat restricting movement."
-      STR_ARMY_UNIFORM_UC: "ARMY UNIFORM"
-      STR_ARMY_UNIFORM_UC_UFOPEDIA: "Standard issue US army uniform, used widely by our armed forces."
-      STR_OFFICER_COAT_UC: "OFFICER COAT"
-      STR_OFFICER_COAT_UC_UFOPEDIA: "This KGB officer coat provides a much needed morale boost, but restricts quick movement."
-      STR_AUGMENTATION_SUIT: "Augmentation Suit"
-      STR_AUGMENTATION_SUIT_UC: "AUGMENTATION SUIT"
-      STR_AUGMENTATION_SUIT_UC_UFOPEDIA: "The Augmentation suit has in-built motors powered by an external battery that augment the wearer's strength and mobility and generate an energy shield that blocks incoming attacks."
-      STR_SHIELD_S: "Shields At {0}%"
-      STR_SHIELD_DOWN: "Shields Down!"
-
-  - type: en-GB
-    strings:
-      STR_MANA_POOL: "ENERGY RESERVE"
-      STR_OUTFITS: "ATTIRE AND ARMOR"
-      STR_AGENT_SUIT_UC: "AGENT SUIT"
-      STR_AGENT_SUIT_UC_UFOPEDIA: "This suit allows our agents to blend it with the general populace; at the cost of somewhat restricting movement."
-      STR_ARMY_UNIFORM_UC: "ARMY UNIFORM"
-      STR_ARMY_UNIFORM_UC_UFOPEDIA: "Standard issue US army uniform, used widely by our armed forces."
-      STR_OFFICER_COAT_UC: "OFFICER COAT"
-      STR_OFFICER_COAT_UC_UFOPEDIA: "This KGB officer coat provides a much needed morale boost, but restricts quick movement."
-      STR_AUGMENTATION_SUIT: "Augmentation Suit"
-      STR_AUGMENTATION_SUIT_UC: "AUGMENTATION SUIT"
-      STR_AUGMENTATION_SUIT_UC_UFOPEDIA: "The Augmentation suit has in-built motors powered by an external battery that augment the wearer's strength and mobility and generate an energy shield that blocks incoming attacks."

@@ -1,0 +1,430 @@
+en-US:
+######################
+  STR_OPENXCOM: "UNEXCOM: Bureau 11"
+  STR_NEW_GAME: "Field Operations"
+  STR_NEW_BATTLE: "Investigations"
+  STR_MISSION_GENERATOR: "THE TRUTH IS OUT THERE"
+  STR_1_BEGINNER: "1> FADE OUT"
+  STR_2_EXPERIENCED: "2> DOUBLE TAKE"
+  STR_3_VETERAN: "3> ROUND HOUSE"
+  STR_4_GENIUS: "4> FAST PACE"
+  STR_5_SUPERHUMAN: "5> COCKED PISTOL"    
+  STR_UFOPAEDIA: "Blue Book"
+  STR_UFOPAEDIA_UC: "BLUE BOOK"
+  STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON SITE-TIME=5 SECS"
+  STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO LAST REPORTED ACTIVITY"
+  STR_UFO_IS_NOT_RECOVERED: "Site is not recovered"
+  STR_UFO_IS_RECOVERED: "Site is recovered"
+  STR_UFO_RECOVERY: "SITE RECOVERED"
+  STR_UFO_DESTROYED: "SITE DESTROYED"
+  STR_UFO_: "ACTIVITY SITE-{0}"
+  STR_TAILING_UFO: "SEARCHING FOR SITES"
+  STR_INTERCEPTING_UFO: "INTERCEPTING SITE-{0}"
+  STR_XCOM_PROJECT_MONTHLY_REPORT: "BUREAU 11 MONTHLY REPORT"
+  STR_XCOM_OPERATIVES_KILLED: "BUREAU 11 AGENTS KILLED"
+  STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "BUREAU 11 AGENTS M.I.A."
+  STR_XCOM_CRAFT_LOST: "BUREAU 11 VEHICLE LOST"
+  STR_ALIENS_KILLED: "EVIDENCE NEUTRALIZED"
+  STR_ALIEN_CORPSES_RECOVERED: "EVIDENCE DESTROYED"
+  STR_LIVE_ALIENS_RECOVERED: "EVIDENCE RECOVERED"
+  STR_ALIEN_ARTIFACTS_RECOVERED: "ARTEFACTS RECOVERED"
+  STR_CIVILIANS_KILLED_BY_ALIENS: "WITNESSES NEUTRALIZED BY ENEMIES"
+  STR_CIVILIANS_KILLED_BY_XCOM_OPERATIVES: "WITNESSES NEUTRALIZED BY BUREAU 11 AGENTS"
+  STR_CIVILIANS_SAVED: "WITNESSES RECOVERED"
+  STR_XCOM_CRAFT_ARMAMENT: "BUREAU 11 VEHICLES & ARMAMENT"
+  STR_COUNCIL_IS_GENERALLY_SATISFIED: "The CIA is generally satisfied with with your progress so far."
+  STR_COUNCIL_IS_VERY_PLEASED: "The CIA is very pleased with your excellent progress and has justified your continued funding."
+  STR_COUNCIL_IS_DISSATISFIED: "The CIA is dissatisfied with your performance and is considering discontinuing your funding."
+  STR_ALIEN_BASE_STILL_INTACT: "Evidence recovery halted"
+  STR_ALIEN_BASE_DESTROYED: "Evidence recovery successful"
+  STR_ALIEN_BASE_RECOVERY: "EVIDENCE RECOVERY"
+  STR_ALIEN_BASE_ASSAULT: "EVIDENCE RECOVERY OPERATION"
+  STR_ALIEN_BASE_ASSAULT_BRIEFING: "Our eyes in the sky have found a possible site of unknown activity. Our mission is to identify and collect all of the evidence found within the area. There are no confirmation of armed enemies nearby yet, but you must exercise caution and be prepared for anything. The mission will end once all evidence pieces are recovered (or any suspects eliminated)"
+##################################
+  STR_CIA_AGENT: "CIA Agent"
+  STR_FIELD_AGENT: "Field Agent"
+  STR_SENIOR_AGENT: "Senior Agent"
+  STR_ASSISTANT_A_I_C: "Assistant A-i-C"
+  STR_AGENT_IN_CHARGE: "Agent-in-Charge"
+  STR_DEPUTY_DIRECTOR: "Deputy Director"
+  STR_ARMY_VETERAN_RECRUITMENT: "Army Veteran Recruitment"
+  STR_ARMY_VETERAN: "Army Veteran"
+  STR_SERGEANT: "Sergeant"
+  STR_STAFF_SERGEANT: "Staff Sergeant"
+  STR_SERGEANT_FIRST_CLASS: "Sergeant First Class"
+  STR_MASTER_SERGEANT: "Master Sergeant"
+  STR_WARRANT_OFFICER: "Warrant Officer"
+  STR_KGB_OFFICER_RECRUITMENT: "KGB Officer Recruitment"
+  STR_LIEUTENANT: "Lieutenant"
+  STR_CAPTAIN: "Captain"
+  STR_MAJOR: "Major"
+  STR_LT_COLONEL: "Podpolkovnik"
+  STR_COLONEL: "Polkovnik"
+#################################
+  STR_WEAPONS: "ARMS AND AMMUNITION"
+  STR_FIREARMS: "FIREARMS"
+  STR_HANDGUNS: "HANDGUNS"
+  STR_SMGS: "SMGS"
+  STR_SHOTGUNS: "SHOTGUNS"
+  STR_CARBINES: "CARBINES"
+  STR_RIFLES: "RIFLES"
+  STR_SNIPER_RIFLES: "SNIPER RIFLES"
+  STR_LMGS: "LMGS"
+  STR_ARTILLERY: "ARTILLERY"
+  STR_MAGAZINES: "MAGAZINES"
+  STR_CLIPS: "CLIPS"
+  STR_SEMI_CONCEALED: "SEMI-CONCEALED"
+  STR_CONCEALED: "FULLY CONCEALED"
+  STR_MELEE: "MELEE"
+  STR_MEDICAL: "MEDICAL"
+  STR_GRENADES: "GRENADES"
+  STR_PROPRIETARY: "PROPRIETARY"
+  STR_SOVIET_TECHNOLOGY: "SOVIET TECHNOLOGY"
+  STR_ALIEN_ARTIFACT: "ALIEN ARTEFACT"
+###################################
+  STR_MANA_POOL: "ENERGY RESERVE"
+  STR_OUTFITS: "ATTIRE AND ARMOR"
+  STR_AGENT_SUIT_UC: "AGENT SUIT"
+  STR_AGENT_SUIT_UC_UFOPEDIA: "This suit allows our agents to blend it with the general populace; at the cost of somewhat restricting movement."
+  STR_ARMY_UNIFORM_UC: "ARMY UNIFORM"
+  STR_ARMY_UNIFORM_UC_UFOPEDIA: "Standard issue US army uniform, used widely by our armed forces."
+  STR_OFFICER_COAT_UC: "OFFICER COAT"
+  STR_OFFICER_COAT_UC_UFOPEDIA: "This KGB officer coat provides a much needed morale boost, but restricts quick movement."
+  STR_AUGMENTATION_SUIT: "Augmentation Suit"
+  STR_AUGMENTATION_SUIT_UC: "AUGMENTATION SUIT"
+  STR_AUGMENTATION_SUIT_UC_UFOPEDIA: "The Augmentation suit has in-built motors powered by an external battery that augment the wearer's strength and mobility and generate an energy shield that blocks incoming attacks."
+  STR_SHIELD_S: "Shields At {0}%"
+  STR_SHIELD_DOWN: "Shields Down!"
+####################################
+  STR_DAMAGE_ARMOR_PIERCING: "PIERCING"
+  STR_DAMAGE_STUN: "SHOCK"
+  STR_DAMAGE_MELEE: "CUTTING"
+  STR_DAMAGE_ACID: "TOXIN"
+  STR_DAMAGE_PLASMA_BEAM: "FLASH"
+###################################
+  STR_HIP_FIRE: "Hip Fire"
+  STR_STEADY_SHOT: "Steady Shot"
+  STR_DOUBLE_TAP: "Double Tap"
+  STR_SPRAY_N_PRAY: "Spray n' Pray"
+  STR_CONTROLLED_BURST: "Burst Fire"
+  STR_CONTROLLED_AUTO: "Auto Fire"
+  STR_SUPPRESSION: "Suppression"
+  STR_BOMBS_AWAY: "Bombs Away!"
+  STR_RAGE_FIRE: "Slam Fire"
+  STR_DEADEYE: "Deadeye"
+######################################
+  STR_SUPPRESSED_WEAPONS_AQUISITION: "Suppressed Weapon Acquisition"
+  STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Acquisition"
+  STR_SOVIET_WEAPON_AQUISITION: "Soviet Weapon Aquisition"
+  STR_ALIEN_WEAPON_OPERATION: "Alien Weapon Operation"
+  STR_LIGHT_ASSAULT_RIFLE_REQUISITION: "Light Assault Requisition"
+
+  STR_BROWNING_HP35: "Browning HP-35"
+  STR_BROWNING_HP35_MAG: "9x19mm Magazine (15x)"
+  STR_BROWNING_HP35_UFOPEDIA: "The Browning HP-35 is a reliable semi-automatic handgun chambered in {ALT}9x19mm Parabellum{ALT} used by many militaries and law enforcement agencies around the world."
+
+  STR_COLT_M1911: "Colt M1911"
+  STR_COLT_M1911_MAG: ".45 ACP Magazine (7x)"
+  STR_COLT_M1911_UFOPEDIA: "A mainstay of US army personnel, the Colt M1911, chambered in {ALT}.45 ACP{ALT} has seen action across almost every combat theatre. It is also popular among the civilian population and has seen wide distribution."
+
+  STR_LUPARA_M1897: "Lupara M1897"
+  STR_LUPARA_M1897_SHELLS: "12 Gauge Shells (2x)"
+  STR_LUPARA_M1897_UFOPEDIA: "This modified Winchester M1897 had its barrel sawn-off in exchange for easy transport and concealablility. Chambered in {ALT}12 Gauge Shells{ALT}, while small, still packs a considerable punch."
+
+  STR_UNITED_DEFENSE_M42: "United Defense M42"
+  STR_UNITED_DEFENSE_M42_20_MAG: "9x19mm Magazine (20x)"
+  STR_UNITED_DEFENSE_M42_50_MAG: "9x19mm Magazine (50x)"
+  STR_UNITED_DEFENSE_M42_UFOPEDIA: "Known coloquially as the Marlin, the United Defense M42 was designed as a replacement for the Thompson sub-machine gun, now chambered in {ALT}9x19mm Parabellum{ALT}. While it was to expensive to put into large-scale production, OSS agents rated its high preformace and reliability."
+
+  STR_SPRINGFIELD_M2: "Springfield M2"
+  STR_SPRINGFIELD_M2_15_MAG: ".30 Carbine Magazine (15x)"
+  STR_SPRINGFIELD_M2_30_MAG: ".30 Carbine Magazine (30x)"
+  STR_SPRINGFIELD_M2_UFOPEDIA: "The Springfield M2 is a personal defense weapon chambered in {ALT}.30 Carbine{ALT} meant for artillery crews, supply personnel and rear guard troops. It's valuable for its ease to use and low recoil, although it lacks stopping power."
+
+  STR_HIGH_STANDARD_HDM: "High Standard HDM"
+  STR_HIGH_STANDARD_HDM_MAG: ".22 LR Magazine (10x)"
+  STR_HIGH_STANDARD_HDM_UFOPEDIA: "While the High Standard HDM, chambered in {ALT}.22 LR{ALT}, is by all means outdated; it is still in use by our U-2 pilots and its integrated silencer could prove useful for covert operations. {NEWLINE}> Semi-Concealable"
+
+  STR_BERETTA_M12: "Beretta M12"
+  STR_BERETTA_M12_UFOPEDIA: "Variant of a light SMG designed by the Italian firm Beretta, used mostly by security staff of various diplomatic services (and by the CIA). This is equipped with a heavy suppressor that negates most of the noise and flash. Calibrated in {ALT}9x19 Parabellum{ALT} rounds, it has a manageable recoil on full auto. {NEWLINE}> Semi-Concealable"
+
+  STR_HEART_ATTACK_GUN: "Heart Attack Gun"
+  STR_HEART_ATTACK_GUN_MAG: ".45 ACP Toxin Magazine (7x)"
+  STR_HEART_ATTACK_GUN_UFOPEDIA: "The 'Heart Attack Gun' is a modified internally suppressed M1911 that fires ricin darts. The toxin darts dissolve on the skin and cause a heart attack, killing the target and leaving almost no trace of itself behind. However, it takes time to circulate throughout the body and may give the enemy time to react. We also have no idea of its effectiveness against alien biochemistry. {NEWLINE}> Semi-Concealable"
+
+  STR_M3_GREASEGUN: "M3 Greasegun"
+  STR_M3_GREASEGUN_MAG: ".45 ACP Magazine (30x)"
+  STR_M3_GREASEGUN_UFOPEDIA: "This famoous machine gun is known for its ability to be manufactured cheapily and easily since the beginning of this service in the Second World War. It fires {ALT}.45 ACP{ALT} rounds out of 30 rd. magazines."
+
+  STR_M60_HOG: "M60 Hog"
+  STR_M60_HOG_MAG: "7.62x51mm NATO Magazine (100x)"
+  STR_M60_HOG_UFOPEDIA: "A powerful light machine gun of recent design that uses {ALT}7.62x51mm NATO{ALT} which has such a high rate of fire that it risks melting the barrel. Its integrated bipod is {ALT}deployed{ALT} once loaded and grants a {ALT}kneelBonus{ALT} of {ALT}150{ALT} {NEWLINE}> Definitely Not Concealable"
+
+  STR_M79_THUMPER: "M79 Thumper"
+  STR_M79_THUMPER_GRENADE: "40mm AP Grenade"
+  STR_M79_THUMPER_UFOPEDIA: "A break-action shotgun grenade launcher about the size of a rifle, making it easy to operate. Chambered in {ALT}40mm Grenades{ALT}, we were only allowed to purchase Anti-Personnel grenades as the collateral damage of high explosives or incendiary rounds would compromise the secrecy of our operations."
+
+  STR_ITHACA_37: "Ithaca 37"
+  STR_ITHACA_37_SHELLS: "12 Gauge Shells (6x)"
+  STR_ITHACA_37_UFOPEDIA: "The Ithaca 37 is a {ALT}12 Gauge{ALT} pump-action shotgun renowned for its reliablility under harsh condictions, as well as for its 'slam-fire' capability. It has found a place in the military and many police forces."
+
+  STR_SPRINGFIELD_M14: "Springfield M14"
+  STR_SPRINGFIELD_M14_MAG: "7.62x51mm NATO Magazine (20x)"
+  STR_SPRINGFIELD_M14_UFOPEDIA: "The standard issue battle rifle of the United States armed forces. Calibrated in the powerful {ALT}7.62x51mm NATO{ALT} in 20 round magazines, while it is fully capable of sustained automatic fire it is reccomended to use this in semi-auto for greater accuracy."
+
+  STR_SPRINGFIELD_M1903A3: "Springfield M1903A3"
+  STR_SPRINGFIELD_M1903A3_CLIP: "30-06 Springfield (6x)"
+  STR_SPRINGFIELD_M1903A3_UFOPEDIA: "A {ALT}.30-06 caliber{ALT} bolt-action rifle used since the First World War which has stuck around for a reason. This most recent version has been upgraded for the modern era."
+
+  STR_COLT_AR15: "Colt AR-15"
+  STR_COLT_AR15_MAG: "5.56x45mm NATO Magazine (20x)"
+  STR_COLT_AR15_UFOPEDIA: "This lightweight, selective fire assault rifle is a model originally made by ArmaLite and now produced by Colt. Uses the new {ALT}5.56x45mm NATO{ALT} intermediate caliber, which is easy to control and quite accurate. A very liked weapon, it is expected to be the future rifle of the US Army in the next decades."
+
+  STR_STECHKIN_APS: "Stechkin APS"
+  STR_STECHKIN_APS_MAG: "9x18mm Magazine (20x)"
+  STR_STECHKIN_APS_UFOPEDIA: "This pistol, a select fire handgun chambered in {ALT}9x18mm Makarov{ALT}, originating from the Soviet Union was originally designed for tank crews, however it has been adopted by Directorate 17 agents as thier standard side-arm. {NEWLINE}> Semi-Concealable"
+
+  STR_SKORPION_VZ61: "Skorpion vz61"
+  STR_SKORPION_VZ61_UFOPEDIA: "A Personal Defense Weapon manufactured in Czechoslovakia. This rendition, chambered in {ALT}9x18mm Makarov{ALT} instead of the traditional 7.58mm rounds, has made its way into the common ranks of Directorate 17."
+
+  STR_AK_47: "AKM"
+  STR_AK_47_MAG: "7.62x39mm Magazine (30x)"
+  STR_AK_47_UFOPEDIA: "Possibly one of the most prolific and mass-produced weapons in the world, and for good reason. A reliable and resiliant assault rifle. Chambered in {ALT}7.62x39mm{ALT}"
+
+  STR_WINCHESTER_MODEL_12: "Winchester Model 12"
+  STR_WINCHESTER_MODEL_12_UFOPEDIA: "The Winchester Model 12 is a pump-action shotgun chambered in {ALT}12 Gauge{ALT} ammunition. Though it has seen action in WII and Korea, it has a special place in the heart of the American civilian populace. Aquiring this weapon should be no issue, although there are probrably better alternatives."
+
+  STR_FN_FAL: "FN FAL"
+  STR_FN_FAL_UFOPEDIA: "The FN FAL is a battle rifle of Belgian design chambered in {ALT}7.62x51mm{ALT}. Chrisined the 'right hand of the free world' it has a place in many NATO countries' armories. While a great rifle that we should have no trouble in obtaining, there are probrably better alternatives when it comes to sustained fire."
+
+  STR_CARL_GUSTAF_M45: "Carl Gustaf m/45"
+  STR_CARL_GUSTAF_M45_UFOPEDIA: "A {ALT}9x19mm{ALT} SMG of Swedish design adpoted at the tail-end of WWII. In that time, has become a mainstay of the Swedish Army. While we shouldn't have trouble obtaining some of these, there are probrably better alternatives."
+
+  STR_CHINA_LAKE_LASER_PROJECTOR: "China Lake Laser Projector"
+  STR_CHINA_LAKE_LASER_PROJECTOR_UFOPEDIA: "This is an advanced prototype of a direct energy weapon assembled in secrecy at the China Lake Naval Air Weapons Station. It is the product of reverse engineering after the study of the laser weapons fielded by the aliens. While originally intended to be an air-mounted weapon, it was eventually miniaturized into a small arm intended for deployment by Navy Special Forces on black ops. They have provided us with most of their samples."
+
+  STR_STURM_EKANONE: "Sturm Ekanone"
+  STR_STURM_EKANONE_BATTERY: "Sturm Ekanone Battery (10x)"
+  STR_STURM_EKANONE_UFOPEDIA: "The sterotype about German engineering holds true. This masterpiece, the Sturm Ekanone, a pormanteau of the German words for Cannon and Electricity, is an electric weapon designed to incapacitate both biological and mechanical targets. Designed by NATO engineers after sharing the prototype Laser Projectors provided by the China Lake staff. It launches a short burst of electricity that can spread out to multiplte targets."
+
+  STR_VIKHR_ELECTROMAGNETIC_RIFLE: "Vikhr EMR"
+  STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG: "Vikhr EMR Mag (10x)"
+  STR_VIKHR_ELECTROMAGNETIC_RIFLE_UFOPEDIA: "The Vikhr Electromagnetic Rifle is the mouthful from the East which that isn't any better in its native tounge. It is a prototype high powered railgun that launches tungsten alloy slugs at ludicrous speeds, penetrating through several feet of steel. While Directorate 17 has not been willing to share much about its planned applications, we theorize it will be used against mechanized infantry or even aerial vehicles such as helicopters."
+    
+  STR_ALIEN_LASER_PISTOL: "Alien Laser Pistol"
+  STR_ALIEN_LASER_PISTOL_BATTERY: "Alien Light Battery (15x)"
+  STR_ALIEN_LASER_PISTOL_UFOPEDIA: "This 'hand weapon' (named by our technicians, judging by the size and use of this weapon by the enemy) uses novel technology to emit a powerful beam of light. When passing a Geiger counter, we can see that it emits a small amount of radiation, so it is not recommended for analysis without adequate protection."
+
+  STR_ALIEN_LASER_RIFLE: "Alien Laser Rifle"
+  STR_ALIEN_LASER_RIFLE_BATTERY: "Alien Medium Battery (20x)"
+  STR_ALIEN_LASER_RIFLE_UFOPEDIA: "Our studies and field reports point to this weapon as the standard weaponry of the enemy infantry (similar to our doctrines). This 'rifle', if you can call it that, has a compact power generator, which emits a light beam powered by a crystal of unknown origin. The beam is capable of penetrating armor without problems."
+
+  STR_ALIEN_HEAVY_LASER: "Alien Heavy Laser"
+  STR_ALIEN_HEAVY_LASER_BATTERY: "Alien Heavy Battery (10x)"
+  STR_ALIEN_HEAVY_LASER_UFOPEDIA: "A really heavy weapon, but extremely powerful. This cannon uses the same concept of an energy source that emits a laser, amplified by an alien crystal. This crystal is quite large, more than in other enemy devices, which we believe contributes to give it a greater range. We have noticed that it has a tendency to overheat."
+
+  STR_ALIEN_SIEGE_LAUNCHER: "Alien Siege Launcher"
+  STR_ALIEN_SIEGE_LAUNCHER_SHELL: "Alien Siege Shell"
+  STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "Unlike the other weapons we have found so far, this one seems to employ some kind of ballistic principle to propel its projectiles at an angle, similar to the way our mortars work. We have not found the way in which this weapon is held. The projectile is one of our greatest concerns, because it is fundamentally a miniature atomic bomb. Any alien using this weapon should have priority to be eliminated."
+
+  STR_COLLAPSIBLE_SMG: "Collapsible SMG"
+  STR_COLLAPSIBLE_SMG_UFOPEDIA: "At first glance this weapon could be confused with a briefcase, however it can fold open to reveal a custom built integrally-suppressed {ALT}9x19mm Parabellum{ALT} SMG. Its design was heavily based off of the soviet counterpart our agents recovered in the field. Its unfamiliar shape may make it less accurate, but it is designed to be consistently accurate at longer ranges. {NEWLINE}>Concealable"
+#########################################
+  STR_GADGETS: "GADGETS AND GRENADES"
+  STR_BANDAGES: "Bandages"
+  STR_BANDAGES_UFOPEDIA: "A small pack of bandages encased in a plastic wrap, able to stop bleeding in life-threatening siuations."
+  STR_MEDICAL_BAG: "Medical Bag"
+  STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical items as well as a crude surgery kit. Utilized by paramedics on the field, it may be unweildy but it can save a man's life." 
+  STR_SNAP: "Snap Shot"
+  STR_SPY_CAMERA: "Spy Camera"
+  STR_SPY_CAMERA_UFOPEDIA: "A portable polaroid camera, used to take photos of evidence. It has a film roll large enough to take 8 photos, and due to its proprietary design and custom parts it must be replaced at the base. {NEWLINE}> Concealable{NEWLINE}"
+  STR_GRENADE: "Mk67 Frag Grenade"
+  STR_GRENADE_UFOPEDIA: "This hand-held fragmentation grenade that has seen use in World War II is a deadly weapon, however it will have trouble piercing heavily armored enemies and cover."
+  STR_SMOKE_GRENADE: "M18 Smoke Grenade"
+  STR_SMOKE_GRENADE_UFOPEDIA: "This device used has been used as a signaling device since World War II, however it has seen recent use as a way to conceal troop positions. Do not inhale for extended periods of time."
+  STR_KA_BAR: "KA-BAR"
+  STR_KA_BAR_UFOPEDIA: "The KA-BAR has been the standard issue utility knife used by the marine corps ever since World War II. Deadly and silent, it can be more dangerous than a gun in the wrong, or right depending on your perspective, hands. {NEWLINE}> Concealable"
+  STR_ALIEN_REACTIVE_GRENADE: "Alien Reactive Grenade"
+  STR_ALIEN_REACTIVE_GRENADE_UFOPEDIA: "This explosive device is an overcharged battery of a modified laser weapon with an activation fuze and a streamlined design, to be used as a throwing weapon. The spikes in the frame of the grenade allow it to embed itself in the ground (even in organic tissue) and remain stationary. The radiation it emitts makes it a dangerous artifact if not properly contained. Reacts to nearby movement and explodes."
+  STR_DEVIL_AXE: "Devil Axe"
+  STR_DEVIL_AXE_UFOPEDIA: "This ceremonial melee weapon is used by distinguished members of the alien ranks. It drains upon the mental energy and psi skill of the user to increase its power. It's a feared tool in the right hands and brains."
+
+
+###########################################
+  STR_VEHICLES: "VEHICLES AND ARMAMENT"
+
+  STR_AUTOCANNON: "AUTOCANNON"
+  STR_BVRAAM: "BVRAAM" #Beyond Visual Range Air to Air Missile	 
+  STR_AUXILLARY: "AUXILLARY"
+
+  STR_EXPERIMENTAL_AEROSPACE: "Experimental Transport"
+
+  STR_CADILLAC: "EL DORADO"
+  STR_CADILLAC_UFOPEDIA: "1960 Cadillac El Dorado, riding into battle in style! Used by our field agents to arrive to their destination after taking an airplane trip."
+
+  STR_U2_DRAGON_LADY: "DRAGON LADY"
+  STR_U2_DRAGON_LADY_UFOPEDIA: "U-2 Dragon Lady - Long-range, high-altitude airborne reconnaissance aircraft designed to stay in the air for numerous hours. Used by the CIA and USAF to obtain valuable intelligence info."
+
+  STR_FUEL_TANK_UC: "FUEL TANK"
+  STR_FUEL_TANK_UFOPEDIA: "External tank mounted under the wings, meant to increase the combat range of the aircraft. Produces some drag, thus reducing the acceleration and speed. fuelMax: 150, accel: -1, avoidBonus: -5"
+  STR_FUEL_TANK: "Fuel Tank"
+
+  STR_FLARE_DISPENSER_UC: "FLARE DISPENSER"
+  STR_FLARE_DISPENSER_UFOPEDIA: "Countermeasures designed to divert IR missiles fired at the aircraft. Created with pyrotechnic materials, they burn at temperatures much higher than an engine and can confuse the guidance system of many missiles. avoidBonus: 25"
+  STR_FLARE_DISPENSER: "Flare Dispenser"
+
+  STR_IMPROVED_SPY_CAMERA_UC: "IMPROVED SPY CAMERA"
+  STR_IMPROVED_SPY_CAMERA_UFOPEDIA: "Recon camera equipped with better lens and photo storage. It increases the view field of the aircraft, effectively increasing the opportunity to gather intel. sightRange: 150" 
+  STR_IMPROVED_SPY_CAMERA: "Improved Spy Camera"
+
+  STR_AFTERBURNER_UC: "EXPERIMENTAL JET THURSTER"
+  STR_AFTERBURNER_UFOPEDIA: "This prototype jet motor is used to greatly increase the acceleration and speed of the vehicle where it is mounted. However, the stress put on the motor reduces it's autonomy. accel: 5, speedMax: 150, fuelMax: -15"
+  STR_AFTERBURNER: "Experimental Jet Thurster"
+
+  STR_MUDRANGER: "MUDRANGER"
+  STR_MUDRANGER_UFOPEDIA: "XM115 Armored Cavalry Heavy Transport - Nicknamed 'Mudranger', this is a highly experimental US Army heavy troop carrier, meant to transport and protect large amounts of soldiers and even light vehicles."
+
+  STR_HUEY: "IROQUOIS"
+  STR_HUEY_UFOPEDIA: "UH-1A Iroquois - light transport helicopter, employed to insert and evacuate troops quickly in the battlefield. It has a short range, our troops must are taken on C-130s to mission sites before the deployment."
+
+  STR_STARFIGHTER: "STARFIGHTER"
+  STR_STARFIGHTER_UFOPEDIA: "F-104 Starfighter - 'The Manned Missile', top of the line USAF interceptor, meant for high altitude combat and fast encounters with enemy bombers."
+
+  STR_USAF_INTERCEPTOR_REQUISITION: "USAF Interceptor Requisition"
+  STR_GYRODYNE_TRANSPORT_HELICOPTER: "Gyrodone Transport Helicopter"
+
+  STR_SKYRANGER: "SKYRANGER"
+  STR_SKYRANGER_UFOPEDIA: "X-62 - Helicopter-airplane hybrid, it can take off vertically with the main rotor and navigate with its wing propellers. Robust design, designed for heavy troop transport over medium and long distances."
+
+  STR_SIDEWINDER: "SIDEWINDER"
+  STR_SIDEWINDER_UFOPEDIA: "AIM-9E Sidewinder - American short range air to air missile with IR guidance. It has a fragmentation warhead that shreds enemy aircrafts once it hits."
+  STR_SIDEWINDER_LAUNCHER: "Sidewinder Launcher"
+  STR_SIDEWINDER_MISSILES: "Sidewinder Missiles"
+
+  STR_VULCAN: "M61 VULCAN"
+  STR_VULCAN_UFOPEDIA: "M61 Vulcan - standard American air to air cannon, widely used by USAF aircrafts. Features an extremely high rate of fire (6000 rounds per minute) and is very reliable, but not very accurate - fires 20mm rounds. Gatling-like cannon"
+  STR_VULCAN_CANNON: "M61 Vulcan Cannon"
+  STR_VULCAN_CANNON_ROUNDS_X50: "M61 Vulcan Cannon Rounds(x50)"
+
+######################################
+
+  STR_EVIDENCE: "Evidence"
+  STR_CROP_CIRCLE_INVESTIGATION_RACE: "Crop Circle Samples"
+  STR_CATTLE_MUTILATION_INVESTIGATION_RACE: "Cattle Mutilation Samples"
+#################################
+######## CROP CIRCLES ##########
+###############################
+
+################################
+####### Initial Intel #########
+##############################
+  STR_PLASMA_RESIDUE_1: "Plasma Residue"
+  STR_PLASMA_RESIDUE_2: "Plasma Residue"
+  STR_PLASMA_RESIDUE_3: "Plasma Residue"
+  STR_PLASMA_RESIDUE_4: "Plasma Residue"
+  STR_PLASMA_RESIDUE_5: "Plasma Residue"
+  STR_PLASMA_RESIDUE_6: "Plasma Residue"
+  STR_RESIDUAL_FLUID: "Residual Fluid"
+  STR_CROP_CIRCLE_INVESTIGATION: "Crop Circle Investigation"
+  STR_CROP_CIRCLE_REPORT: "Report: Crop Circle Investigation"
+  STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence at one such site. Flammable chemical residue invasive to the environment was found at the scene. We theorize that this chemical was used to initiate a controlled burn that engraved the pattern. These patterns may be created by aliens to signal OETOs flying over head, though of what we are still unsure. While we suspect these are alien in nature, we have no conclusive evidence."
+################################
+####### Obtained Intel ########
+##############################
+  STR_BURNED_GROUND_INTEL_1: "Burned Ground Intel I"
+  STR_BURNED_GROUND_INTEL_1_UFOPEDIA: "The photograph of this stain on the floor reminds us of the trail left by a high-powered explosion. Our Geiger counter indicates residual traces of some kind of radiation. Our laboratory requests another photograph to compare and try to analyze the origin of this one."
+  STR_BURNED_GROUND_INTEL_2: "Burned Ground Intel II"
+  STR_BURNED_GROUND_INTEL_2_UFOPEDIA: "The photographic image we recovered from the research site is identical to the previous sample. Our scientists and technicians have concluded that this burn pattern is caused by the ignition of some type of engine (or machine). Our R&D staff requires a final photograph to complete the analysis."
+  STR_BURNED_GROUND_INTEL_3: "Burned Ground Intel III"
+  STR_BURNED_GROUND_INTEL_3_UFOPEDIA: "Our R&D team completed the analysis of the last delivered photograph of the research site. The result, compared to the information provided by the Geiger detectors, indicates that the soil burn was caused by an unknown operating tool, whose function is to cleanly cut organic and inorganic material. Whoever makes these circles employs high-tech tools."
+  STR_BURNED_GROUND_MAJOR_REPORT: "Burned Ground Final Report"
+  STR_BURNED_GROUND_MAJOR_REPORT_UFOPEDIA: "We can just guess the intention of the creators of those strange circles found on crops and farmlands across the world. Is it some kind of signal? A warning? The circles caught public attention and 'experts' around the world try to both explain them or get credits by claiming the creation of the figures. Whatever this may represent, we need to be ready for what comes next."
+  STR_RESIDUAL_FLUID_INTEL_1: "Residual Fluid Intel I"
+  STR_RESIDUAL_FLUID_INTEL_1_UFOPEDIA: "We found this sample close to the area where a 'bright light in the sky' was reported, prior to creating circles on the field. Its particular unnatural glow and stench leads us to think that it is some kind of toxin or toxic waste. Our field agents describe it as 'the smell of hell'. More tests are required to identify the origin and purpose of this fluid."
+  STR_RESIDUAL_FLUID_INTEL_2: "Residual Fluid Intel II"
+  STR_RESIDUAL_FLUID_INTEL_2_UFOPEDIA: "The analysis carried out in the laboratory ended with an incident. One of our technicians in charge of handling the samples that we retrieve, accidentally came into contact with the fluid recovered from the site of Investigation and fell unconscious immediately. After being hospitalized in an emergency and lasting several days in a coma-like state, we realized that perhaps this substance is a strong sedative. An additional sample is needed to finish the study. Extra caution is advised."
+  STR_RESIDUAL_FLUID_INTEL_3: "Residual Fluid Intel III"
+  STR_RESIDUAL_FLUID_INTEL_3_UFOPEDIA: "The recent image taken was conclusive: this viscous residue belongs to some type of very powerful drug, we believe it was used by external agents to knock out and potentially kidnap a group of individuals. We found no trace of any of these, but we do not rule out the idea that there was a civilian present at the time of the creation of this crop circle."
+  STR_RESIDUAL_FLUID_MAJOR_REPORT: "Residual Fluid Final Report"
+  STR_RESIDUAL_FLUID_MAJOR_REPORT_UFOPEDIA: "The combined results of the investigations concluded that the intruders are using toxic substances with the intention of sedate live beings. The species of those beings and the intention of the use of the foreign drug is not clear. Our scientists are going to try to repurpose it, they hope it may be useful to our operations."
+
+#####################################
+######## CATTLE MUTILATION #########
+###################################
+
+################################
+####### Initial Intel #########
+##############################
+  STR_MUTILATED_CATTLE: "Mutilated Cattle"
+  STR_SPLATTERED_BLOOD: "Splattered Blood"
+  STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
+  STR_CATTLE_MUTILATION_REPORT: "Report: Cattle Mutilation Investigation"
+  STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "An autopsy of the mutilated cattle, at least what was left of it when our agents arrived, indicates that despite the vicious outcome, the process of ripping these animals apart was meticulous. After reassembling what was left of the poor creature, we found burn marks at the seams. This would indicate that they were cut apart by a high powered laser. Several key organs were missing. Our current theory is that the aliens abducted these cattle and removed certain organs that they needed. For what, however, we remain unsure. Sustenance, scientific curiosity...as an aside, while they may have more sympathy for more intelligent life, this shows that they have the capacity for cruelty."
+#####################################
+######## COUNTER INTELLIGENCE #########
+###################################
+
+################################
+####### Initial Intel #########
+##############################
+  STR_DATA_BRIEFCASE: "KGB Data Briefcase"
+  STR_LISTENING_DEVICE: "KGB Listening Device"
+  STR_LISTENING_DEVICE_UFOPEDIA: "A recording radio with microphone, small enough to fit in the jacket without notice. It's used by Soviet agents to spy on private conversations and compile sensible information. It's overall appreance remembers a mix between a cigarette box and a phone "
+  STR_TRANSMITTER: "KGB Transmitter"
+  STR_KGB_TECH: "KGB Tech"
+  STR_KGB_TECH_INVESTIGATION: "KGB Tech Investigation"
+  STR_KGB_TECH_REPORT_UFOPEDIA: "We now have evidence that Soviet intelligence are both aware of Bureau 11's existence and OETOs, and that they have been covertly monitoring us on our own soil. More violent encounters with agents operating under this Directorate 17 would be regrettable, but easy to cover up considering they offically don't exist. The devices we've recovered are very advanced, though we have little use for the advanced monitoring devices against the aliens, we have already begun the process of implementing the same concealed weapon technique the Soviets are using."
+  STR_UMBRELLA_MOSIN_NAGANT: "Umbrella Mosin-Nagant"
+  STR_UMBRELLA_MOSIN_NAGANT_MAG: "7.62x54mmR Magazine (5x)"
+  STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA: "While examining it up close, the half-canibalized, half-mangled mechanisms of a Mosin-Nagant rifle are very clear, this weapon is quite innovative. When fully closed, it would be difficult to discern it from a real umbrella, especially at a distance. Other than the umbrella, this {ALT}7.62x54mmR{ALT} Mosin-Nagant otherwise operates normally. Very accurate and deadly, although it tends to fall off at longer ranges. {NEWLINE}>Concealable"
+  STR_CAMERA_GUN: "Camera Gun"
+  STR_CAMERA_GUN_UFOPEDIA: "Our agents in the field recovered this weapon from KGB sleeper agents operating within the US. While at first glance, it seems to be a camera it is actually a cleverly concealed single-shot .22LR pistol. It is deadly accurate in close quarters, but drastically falls off in accuracy with increased range. {NEWLINE}>Concealable"
+
+#####################################
+######## ALIEN ABDUCTION #########
+###################################
+
+################################
+####### Initial Intel #########
+##############################
+  STR_COMATOSE_ABDUCTEE_1: "Comatose Abductee"
+  STR_COMATOSE_ABDUCTEE_2: "Comatose Abductee"
+  STR_COMATOSE_ABDUCTEE_3: "Comatose Abductee"
+  STR_UNCONCIOUS_CIVILIAN: "Unconcious Civilian"
+
+  STR_RESEARCH_REPORTS_UC: "RESEARCH REPORTS"
+  STR_SUPPRESSED_MUNITIONS_REPORT: "Report: Suppressed Munitions"
+  STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA: "We have requisitioned sound suppressed weapons from the CIA for use in the field. While we are primarily a reconnissance group, we have had violent encounters with foreign intelligences both extraterrestrial and eastward directional. These should help for mission where we must remain undetected or there are too many witnessess, especially in populated urban areas. Otherwise, they are relatively inferior to the rest of our arsenal."
+  STR_ARMY_MUNITIONS_REPORT: "Report: US Army Munitions"
+  STR_ARMY_MUNITIONS_REPORT_UFOPEDIA: "Our aquisition of US Army munitions has been approved due to the rising scale of the alien incursions and violent encounters with the 17th Directorate. Our agents should already be familiar with thier operation, as they most likely have served before. These should be some of the most powerful weapons we have access to, however they are not suitable for stealth operations."
+  STR_SOVIET_MUNITIONS_REPORT: "Report: Soviet Munitions"
+  STR_SOVIET_MUNITIONS_REPORT_UFOPEDIA: "Though Washington may not be the best of friends with Moscow, we engaged in diplomatic talks and have come agree that they will provide us soviet combat equipment used by the 17th Directorate, as well as the necessary training to use them. While we have spent the past few decades trying to surpass the Soviets technology wise, these weapons excell at sustained automatic fire as well as close range encounters."
+  STR_ALLIED_MUNITIONS_REPORT: "Report: Allied Munitions"
+  STR_ALLIED_MUNITIONS_REPORT_UFOPEDIA: "We have obtained these weapons in the field and our agents have taken a liking to them, though they aren't produced in the US. Through some of our diplomatic channels, it shouldn't be hard to obtain more of them, although they are probrably directly inferior to US military hardware."
+  STR_PROTOTYPE_MUNITIONS_REPORT: "Report: Prototype Munitions"
+  STR_PROTOTYPE_MUNITIONS_REPORT_UFOPEDIA: "These weapons have been reverse engineered from the samples of alien weaponry obtained in the field. Instead of using a removable battery like the aliens, these weapons are powered by an external battery included in the Augmentation Suit. This has the advantage of enabling the weapons to be lighter and more powerful, at the cost of requiring the agent to bring specialized equipment with the suit."
+  STR_ALIEN_MUNITIONS_REPORT: "Report: Alien Munitions"
+  STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA: "After thorough examiniation of the weapons wielded by the aliens and obtained by our agents, we have finally found out how to operate them. The basic principles are understood to us and most parts are analogous to ones we can produce, but the central reflective crystal has properties that cannot be replicated. The weapons shockingly resemble to ours in operation, similar to operating a magazine loading gun."
+  STR_ALIEN_LASER_WEAPONS_REPORT_UFOPEDIA: "After carefully analyzing the fragments found of the laser weapons used by the invaders, we have concluded that they employ a large miniaturized power source that emits radiation. In other words, a mini nuclear reactor for each weapon. The minerals that power the reactor and the crystal that power the effect of the light beam emitted by the power source are not found in the periodic table and we consider them highly exotic. This radiation is not enough to kill a human being on contact, but a prolonged exposure will seriously increase the risk of cancer and poisoning."
+##########################
+  STR_FIELD_INVESTIGATIONS: "Field Investigations"
+  STR_FIELD_INVESTIGATIONS_UFOPEDIA: "Our job as agents of Bureau 11, a branch of the CIA, is to conduct field research and investigate all potential threats against the United States, from inside and outside our borders. And now, from outside our planet. After picking reports of unknown activities, we will be deployed. Our most powerful weapons in those missions are our cunning and our cameras."
+  STR_COMBAT_DEPLOYMENTS: "Combat Deployments"
+  STR_COMBAT_DEPLOYMENTS_UFOPEDIA: "While we are mostly investigators, we are trained on combat tactics as well. The assets and weaponry of our enemies are as unknown as their intentions; we use a range of diverse weaponry useful for different situations, however we cannot go guns blazing in every deployment. Some operations will require a more concealed approach, while in others we will have weapons free authorization."
+  STR_VEHICLES_REPORT: "Vehicles"
+  STR_VEHICLES_UFOPEDIA: "The nature of our mission both allows us and limits us to the use of transport crafts of diverse types. The most common is an uncovered deployment using public airlines, but if the situation gets grim, we can request our superiors for specialized transports. Also, we have access to aerial recon provided by Lookhed U-2 Dragon Lady spy crafts." 
+  STR_AERIAL_RECON: "Aerial Recon"
+  STR_AERIAL_RECON_UFOPEDIA: “The U-2 spy planes are used to get privileged access to intelligence otherwise impossible to obtain. Manned by USAF pilots working for the Agency, we can use the superior range and ability to get high resolution photos to find and identificate any potential invader activity or ground sites. Be especially careful in the deployment, though. The Soviets had already shot down an U-2 just a year before. Avoid entering the USSR as much as possible, they won't hesitate to launch Interceptors and SAMs.”
+
+  STR_ENEMIES: "INTERROGATIONS AND AUTOPSIES"
+  STR_HYBRID: "Hybrid"
+  STR_THIN_MAN: "Thin Man"
+  STR_THIN_MAN_CORPSE: "Thin Man Carcass"
+  STR_THIN_MAN_AUTOPSY: "Thin Man Autopsy"
+  STR_THIN_MAN_AUTOPSY_UFOPAEDIA: "This creature is clearly a product of genetic engineering. It appears to be an attempted replication of a human, down to the DNA level. However, it appears to be imperfect with some eerie features such as reptilian eyes. Reports from the field indicate that they exerted some sort of mental control over the troops. Perhaps this is to assist in the disguise, or to improve the creature's combat power. Nevertheless, this is a dangerous creature that should not be underestimated."
+  STR_THIN_MAN_INFILTRATOR: "Thin Man Infiltrator"
+  STR_THIN_MAN_UFOPAEDIA: "The 'Thin Man' as it has been christened by our troops, appears to be a gaunt Cacucasian man, but sports eerie features such as reptilian eyes. Interrogation proved to be futile as it seemed to have an unconcious control over our researchers. A person of a more unprofessional background may refer to it as...telepathy. Sadly, it was terminated after it tried to escape."
+  STR_D17: "KGB Directorate 17"
+  STR_D17_SOLDIER: "D17 Soldier"
+  STR_D17_OFFICER: "D17 Officer"
+################################
