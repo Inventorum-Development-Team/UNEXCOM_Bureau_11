@@ -242,7 +242,7 @@ alienDeployments:
     markerIcon: 7
 
   - type: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
-    customUfo: STR_SMALL_SCOUT
+    customUfo: STR_CATTLE_MUTILATION_UFO
     height: 10
     width: 40
     length: 40
@@ -312,10 +312,11 @@ alienMissions:
       9:
         STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
     waves:
-      - ufo: STR_SMALL_SCOUT
+      - ufo: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT # spawn this site directly
         count: 1
-        trajectory: P6
-        timer: 13500
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
 
   - type: STR_CATTLE_MUTILATION_INVESTIGATION_SITES
     points: 50
@@ -333,8 +334,26 @@ alienMissions:
         STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
       9:
         STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
+#    waves:
+#      - ufo: dummy #don't spawn a ufo, we only want the site
+#        count: 1
+#        trajectory: P10
+#        timer: 0
+#        objective: true
     waves:
-      - ufo: STR_SMALL_SCOUT
+      - ufo: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT # spawn this site directly
         count: 1
-        trajectory: P6
-        timer: 13500
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
+
+ufoTrajectories:
+  - id: STATIC_TRAJECTORY
+    groundTimer: 0
+    waypoints:
+      - [0, 0, 0]
+
+  - id: STATIC_TRAJECTORY_BASE
+    groundTimer: 0
+    waypoints:
+      - [4, 0, 0]
