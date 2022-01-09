@@ -252,6 +252,7 @@ en-US:
 
 ###########################################
   STR_VEHICLES: "VEHICLES AND ARMAMENT"
+  STR_VEHICLES1: "VEHICLES AND ARMAMENT"
 
   STR_AUTOCANNON: "AUTOCANNON"
   STR_BVRAAM: "BVRAAM" #Beyond Visual Range Air to Air Missile	 
