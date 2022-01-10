@@ -1,0 +1,42 @@
+extraSprites:
+  - delete: GlobeMarkers
+  - type: GlobeMarkers
+    width: 63
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      0: Resources/GlobeMarkers/BaseGlobeMarkers.png
+  - type: GlobeMarkers
+    width: 216
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      9: Resources/GlobeMarkers/CraftGlobeMarkers.png
+crafts:
+  - type: STR_CADILLAC # ignoreDuplicate
+    marker: 9
+  - type: STR_U2_DRAGON_LADY # ignoreDuplicate
+    marker: 10
+  - type: STR_HUEY # ignoreDuplicate
+    marker: 11
+  - type: STR_MUDRANGER # ignoreDuplicate
+    marker: 12
+  - type: STR_STARFIGHTER # ignoreDuplicate
+    marker: 13
+  - type: STR_SKYRANGER # ignoreDuplicate
+    marker: 14
+ufos:
+  - type: STR_SMALL_SCOUT # ignoreDuplicate
+    marker: 15
+    markerLand: 18
+    markerCrash: 21
+  - type: STR_MEDIUM_SCOUT  # ignoreDuplicate
+    marker: 16
+    markerLand: 19
+    markerCrash: 22
+  - type: STR_LARGE_SCOUT # ignoreDuplicate
+    marker: 17
+    markerLand: 20
+    markerCrash: 23

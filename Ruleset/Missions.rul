@@ -239,7 +239,7 @@ alienDeployments:
       desc: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION
       palette: 2
     markerName: STR_CROP_CIRCLE_INVESTIGATION
-    markerIcon: 7
+    markerIcon: 30
 
   - type: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
     customUfo: STR_CATTLE_MUTILATION_UFO
@@ -255,7 +255,7 @@ alienDeployments:
       desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
       palette: 5
     markerName: STR_CATTLE_MUTILATION_INVESTIGATION
-    markerIcon: 7
+    markerIcon: 31
 
 ufos:
 #<delete>
@@ -291,7 +291,7 @@ missionScripts:
       0:
         STR_CROP_CIRCLE_INVESTIGATION_SITES: 100
     startDelay: 150
-    targetBaseOdds: 50
+    targetBaseOdds: 100
     useTable: false
 
 alienMissions:
