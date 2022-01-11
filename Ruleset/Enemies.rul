@@ -29,6 +29,12 @@ items:
     liveAlien: true
     costSell: 40000
     listOrder: 1003
+  - type: STR_D17_AGENT
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 35000
+    listOrder: 1004
 
 armors:
   - type: THIN_MAN_ARMOR
@@ -80,6 +86,28 @@ armors:
   - type: D17_OFFICER
     spriteSheet: D17_OFFICER.PCK
     spriteInv: inventory_D17_OFFICER
+    corpseBattle:
+      - STR_CORPSE_KGB
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 4
+    visibilityAtDark: 18
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 2 ]
+  - type: D17_AGENT
+    spriteSheet: D17_AGENT.PCK
+    spriteInv: inventory_D17_AGENT
     corpseBattle:
       - STR_CORPSE_KGB
     frontArmor: 8
@@ -170,6 +198,29 @@ units:
     spotter: 2
     intelligence: 7
     aggression: 2
+  - type: STR_D17_AGENT
+    race: STR_D17
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 60
+      stamina: 60
+      health: 50
+      bravery: 90
+      reactions: 45
+      firing: 70
+      throwing: 60
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 70
+    armor: D17_AGENT
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: 41
+    spotter: 2
+    intelligence: 7
+    aggression: 2
 
 alienRaces:
   - delete: STR_FLOATER
@@ -191,7 +242,7 @@ alienRaces:
     members:
       - STR_D17_OFFICER
       - STR_D17_OFFICER
-      - STR_D17_SOLDIER
+      - STR_D17_AGENT
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
@@ -255,6 +306,13 @@ extraSprites:
     height: 720
     files:
       0: Resources/Enemies/D17 Officer/D17OfficerSpritesheet.png
+  - type: D17_AGENT.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Enemies/D17 Agent/D17AgentSpritesheet.png
   - type: inventory_THIN_MAN
     singleImage: true
     files:
@@ -267,16 +325,22 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Enemies/D17 Officer/Inventory/D17_Officer_Inventory.png
+  - type: inventory_D17_AGENT
+    singleImage: true
+    files:
+      0: Resources/Enemies/D17 Agent/Inventory/D17_Agent_Inventory.png
   - type: BIGOBS.PCK
     files:
       1000: Resources/Enemies/Thin Man/BIGOBS/bigOb_ThinMan_corpse.png
       1001: Resources/Enemies/D17 Soldier/BIGOBS/D17SoldierCorpseBigob.png
       1002: Resources/Enemies/D17 Officer/BIGOBS/D17OfficerCorpseBigob.png
+      1002: Resources/Enemies/D17 Agent/BIGOBS/bigob_coat_corpse.png
   - type: FLOOROB.PCK
     files:
       1000: Resources/Enemies/Thin Man/FLOOROBS/floorOb_ThinMan_corpse.png
       1001: Resources/Enemies/D17 Soldier/FLOOROBS/D17SoldierCorpseFloorob.png
       1002: Resources/Enemies/D17 Officer/FLOOROBS/D17OfficerCorpseFloorob.png
+      1002: Resources/Enemies/D17 Agent/FLOOROBS/floorob_coat_corpse.png
   - type: UFOPAEDIA_IMG_THIN_MAN
     singleImage: true
     width: 320

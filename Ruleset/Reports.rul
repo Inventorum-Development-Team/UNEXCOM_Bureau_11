@@ -1,4 +1,506 @@
 ufopaedia:
+  - delete: STR_SKYRANGER
+  - id: STR_CADILLAC
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_CADILLAC_UFOPEDIA
+    listOrder: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: CADILLAC_UFOPEDIA
+  - id: STR_U2_DRAGON_LADY
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_U2_DRAGON_LADY_UFOPEDIA
+    listOrder: 2
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: U2DRAGONLADY_UFOPEDIA
+  - id: STR_HUEY
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_HUEY_UFOPEDIA
+    listOrder: 3
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: HUEY_UFOPEDIA
+  - id: STR_MUDRANGER
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_MUDRANGER_UFOPEDIA
+    listOrder: 4
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: MUDRANGER_UFOPEDIA
+  - id: STR_STARFIGHTER
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_STARFIGHTER_UFOPEDIA
+    listOrder: 5
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: STARFIGHTER_UFOPEDIA
+  - id: STR_SKYRANGER
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_SKYRANGER_UFOPEDIA
+    listOrder: 6
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: SKYRANGER_UFOPEDIA
+
+#Autocannon
+  - id: STR_VULCAN
+    requires:
+      - STR_USAF_INTERCEPTOR_REQUISITION
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: VULCAN
+    text: STR_VULCAN_UFOPEDIA
+    listOrder: 7
+
+#BVRAAM
+  - id: STR_SIDEWINDER
+    requires:
+      - STR_USAF_INTERCEPTOR_REQUISITION
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: SIDEWINDER
+    text: STR_SIDEWINDER_UFOPEDIA
+    listOrder: 8
+
+# Aux
+  - id: STR_FUEL_TANK_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: FUEL_TANK
+    text: STR_FUEL_TANK_UFOPEDIA
+    listOrder: 9
+  - id: STR_AFTERBURNER_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: AFTERBURNER
+    requires:
+      - STR_EXPERIMENTAL_AEROSPACE
+    text: STR_AFTERBURNER_UFOPEDIA
+    listOrder: 10
+  - id: STR_FLARE_DISPENSER_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: FLARE_DISPENSER
+    requires:
+      - STR_EXPERIMENTAL_AEROSPACE
+    text: STR_FLARE_DISPENSER_UFOPEDIA
+    listOrder: 11
+  - id: STR_IMPROVED_SPY_CAMERA_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: IMPROVED_SPY_CAMERA
+    text: STR_IMPROVED_SPY_CAMERA_UFOPEDIA
+    listOrder: 12
+
+
+  - id: STR_BANDAGES
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_BANDAGES_UFOPEDIA
+    listOrder: 300
+  - id: STR_MEDICAL_BAG
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_MEDICAL_BAG_UFOPEDIA
+    listOrder: 301
+  - id: STR_SPY_CAMERA
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_SPY_CAMERA_UFOPEDIA
+    listOrder: 302
+  - id: STR_GRENADE
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_GRENADE_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 303
+  - id: STR_SMOKE_GRENADE
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_SMOKE_GRENADE_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 304
+  - id: STR_KA_BAR
+    type_id: 4
+    section: STR_GADGETS
+    text: STR_KA_BAR_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 305
+  - id: STR_ALIEN_REACTIVE_GRENADE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_ALIEN_REACTIVE_GRENADE_UFOPEDIA
+    requires:
+      - STR_ALIEN_REACTIVE_GRENADE
+    listOrder: 306
+  - id: STR_DEVIL_AXE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_DEVIL_AXE_UFOPEDIA
+    requires:
+      - STR_DEVIL_AXE
+    listOrder: 307
+
+  - id: STR_AGENT_SUIT_UC
+    type_id: 5
+    section: STR_OUTFITS
+    listOrder: 101
+    text: STR_AGENT_SUIT_UC_UFOPEDIA
+  - id: STR_ARMY_UNIFORM_UC
+    type_id: 5
+    section: STR_OUTFITS
+    listOrder: 102
+    requires:
+      - STR_ARMY_VETERAN_RECRUITMENT
+    text: STR_ARMY_UNIFORM_UC_UFOPEDIA
+  - id: STR_OFFICER_COAT_UC
+    type_id: 5
+    section: STR_OUTFITS
+    listOrder: 103
+    requires:
+      - STR_KGB_OFFICER_RECRUITMENT
+    text: STR_OFFICER_COAT_UC_UFOPEDIA
+  - id: STR_AUGMENTATION_SUIT_UC
+    type_id: 5
+    section: STR_OUTFITS
+    listOrder: 103
+    requires:
+      - STR_AUGMENTATION_SUIT
+    text: STR_AUGMENTATION_SUIT_UC_UFOPEDIA
+
+  - id: STR_BROWNING_HP35
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_BROWNING_HP35_UFOPEDIA
+    listOrder: 200
+  - id: STR_BROWNING_HP35_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_COLT_M1911
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_COLT_M1911_UFOPEDIA
+    listOrder: 201
+  - id: STR_COLT_M1911_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LUPARA_M1897
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_LUPARA_M1897_UFOPEDIA
+    listOrder: 203
+  - id: STR_LUPARA_M1897_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_UNITED_DEFENSE_M42
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_UNITED_DEFENSE_M42_UFOPEDIA
+    listOrder: 204
+  - id: STR_UNITED_DEFENSE_M42_20_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_UNITED_DEFENSE_M42_50_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_M2
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SPRINGFIELD_M2_UFOPEDIA
+    listOrder: 205
+  - id: STR_SPRINGFIELD_M2_15_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_M2_30_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HIGH_STANDARD_HDM
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_HIGH_STANDARD_HDM_UFOPEDIA
+    requires:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    listOrder: 206
+  - id: STR_HIGH_STANDARD_HDM_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BERETTA_M12
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_BERETTA_M12_UFOPEDIA
+    requires:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+    listOrder: 207
+  - id: STR_HEART_ATTACK_GUN
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_HEART_ATTACK_GUN_UFOPEDIA
+    requires:
+      - STR_HEART_ATTACK_GUN
+    listOrder: 208
+  - id: STR_HEART_ATTACK_GUN_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M3_GREASEGUN
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_M3_GREASEGUN_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 209
+  - id: STR_M3_GREASEGUN_MAG
+    type_id: 4
+  - id: STR_M3_GREASEGUN
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_M3_GREASEGUN_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 210
+  - id: STR_M3_GREASEGUN_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M60_HOG
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_M60_HOG_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 211
+  - id: STR_M60_HOG_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M79_THUMPER
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_M79_THUMPER_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 212
+  - id: STR_M79_THUMPER_GRENADE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ITHACA_37
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_ITHACA_37_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 213
+  - id: STR_ITHACA_37_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_M14
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SPRINGFIELD_M14_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 214
+  - id: STR_SPRINGFIELD_M14_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_M1903A3
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SPRINGFIELD_M1903A3_UFOPEDIA
+    requires:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+    listOrder: 215
+  - id: STR_SPRINGFIELD_M1903A3_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_COLT_AR15
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_COLT_AR15_UFOPEDIA
+    requires:
+      - STR_LIGHT_ASSAULT_RIFLE_REQUISITION
+    listOrder: 216
+  - id: STR_COLT_AR15_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_STECHKIN_APS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_STECHKIN_APS_UFOPEDIA
+    requires:
+      - STR_STECHKIN_APS
+    listOrder: 217
+  - id: STR_STECHKIN_APS_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SKORPION_VZ61
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SKORPION_VZ61_UFOPEDIA
+    requires:
+      - STR_SKORPION_VZ61
+    listOrder: 218
+  - id: STR_AK_47
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_AK_47_UFOPEDIA
+    requires:
+      - STR_AK_47
+    listOrder: 219
+  - id: STR_AK_47_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_WINCHESTER_MODEL_12
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_WINCHESTER_MODEL_12_UFOPEDIA
+    requires:
+      - STR_WINCHESTER_MODEL_12_BUY
+    listOrder: 220
+  - id: STR_FN_FAL
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_FN_FAL_UFOPEDIA
+    requires:
+      - STR_FN_FAL_BUY
+    listOrder: 221
+  - id: STR_CARL_GUSTAF_M45
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_CARL_GUSTAF_M45_UFOPEDIA
+    requires:
+      - STR_CARL_GUSTAF_M45_BUY
+    listOrder: 222
+  - id: STR_CHINA_LAKE_LASER_PROJECTOR
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_CHINA_LAKE_LASER_PROJECTOR_UFOPEDIA
+    requires:
+      - STR_CHINA_LAKE_LASER_PROJECTOR
+    listOrder: 223
+  - id: STR_STURM_EKANONE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_STURM_EKANONE_UFOPEDIA
+    requires:
+      - STR_STURM_EKANONE
+    listOrder: 224
+  - id: STR_STURM_EKANONE_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_VIKHR_ELECTROMAGNETIC_RIFLE_UFOPEDIA
+    requires:
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    listOrder: 225
+  - id: STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_LASER_PISTOL
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALIEN_LASER_PISTOL
+    text: STR_ALIEN_LASER_PISTOL_UFOPEDIA
+    listOrder: 226
+  - id: STR_ALIEN_LASER_PISTOL_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_LASER_RIFLE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALIEN_LASER_RIFLE
+    text: STR_ALIEN_LASER_RIFLE_UFOPEDIA
+    listOrder: 227
+  - id: STR_ALIEN_LASER_RIFLE_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_HEAVY_LASER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALIEN_HEAVY_LASER
+    text: STR_ALIEN_HEAVY_LASER_UFOPEDIA
+    listOrder: 228
+  - id: STR_ALIEN_HEAVY_LASER_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_SIEGE_LAUNCHER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ALIEN_SIEGE_LAUNCHER
+    text: STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA
+    listOrder: 229
+  - id: STR_ALIEN_SIEGE_LAUNCHER_SHELL
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_COLLAPSIBLE_SMG
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_COLLAPSIBLE_SMG
+    text: STR_COLLAPSIBLE_SMG_UFOPEDIA
+    listOrder: 230
+
   - id: STR_SUPPRESSED_MUNITIONS_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
@@ -44,44 +546,22 @@ ufopaedia:
     text: STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA
     listOrder: 226
 
-extraStrings:
-  - type: en-US
-    strings:
-      STR_RESEARCH_REPORTS_UC: "RESEARCH REPORTS"
-      STR_SUPPRESSED_MUNITIONS_REPORT: "Report: Suppressed Munitions"
-      STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA: "We have requisitioned sound suppressed weapons from the CIA for use in the field. While we are primarily a reconnissance group, we have had violent encounters with foreign intelligences both extraterrestrial and eastward directional. These should help for mission where we must remain undetected or there are too many witnessess, especially in populated urban areas. Otherwise, they are relatively inferior to the rest of our arsenal."
-      STR_ARMY_MUNITIONS_REPORT: "Report: US Army Munitions"
-      STR_ARMY_MUNITIONS_REPORT_UFOPEDIA: "Our aquisition of US Army munitions has been approved due to the rising scale of the alien incursions and violent encounters with the 17th Directorate. Our agents should already be familiar with thier operation, as they most likely have served before. These should be some of the most powerful weapons we have access to, however they are not suitable for stealth operations."
-      STR_SOVIET_MUNITIONS_REPORT: "Report: Soviet Munitions"
-      STR_SOVIET_MUNITIONS_REPORT_UFOPEDIA: "Though Washington may not be the best of friends with Moscow, we engaged in diplomatic talks and have come agree that they will provide us soviet combat equipment used by the 17th Directorate, as well as the necessary training to use them. While we have spent the past few decades trying to surpass the Soviets technology wise, these weapons excell at sustained automatic fire as well as close range encounters."
-      STR_ALLIED_MUNITIONS_REPORT: "Report: Allied Munitions"
-      STR_ALLIED_MUNITIONS_REPORT_UFOPEDIA: "We have obtained these weapons in the field and our agents have taken a liking to them, though they aren't produced in the US. Through some of our diplomatic channels, it shouldn't be hard to obtain more of them, although they are probrably directly inferior to US military hardware."
-      STR_PROTOTYPE_MUNITIONS_REPORT: "Report: Prototype Munitions"
-      STR_PROTOTYPE_MUNITIONS_REPORT_UFOPEDIA: "These weapons have been reverse engineered from the samples of alien weaponry obtained in the field. Instead of using a removable battery like the aliens, these weapons are powered by an external battery included in the Augmentation Suit. This has the advantage of enabling the weapons to be lighter and more powerful, at the cost of requiring the agent to bring specialized equipment with the suit."
-      STR_ALIEN_MUNITIONS_REPORT: "Report: Alien Munitions"
-      STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA: "After thorough examiniation of the weapons wielded by the aliens and obtained by our agents, we have finally found out how to operate them. The basic principles are understood to us and most parts are analogous to ones we can produce, but the central reflective crystal has properties that cannot be replicated. The weapons shockingly resemble to ours in operation, similar to operating a magazine loading gun."
-##########################
-      STR_FIELD_INVESTIGATIONS: "Field Investigations"
-      STR_FIELD_INVESTIGATIONS_UFOPEDIA: "Our job as agents of Bureau 11, a branch of the CIA, is to conduct field research and investigate all potential threats against the United States, from inside and outside our borders. And now, from outside our planet. After picking reports of unknown activities, we will be deployed. Our most powerful weapons in those missions are our cunning and our cameras."
-      STR_COMBAT_DEPLOYMENTS: "Combat Deployments"
-      STR_COMBAT_DEPLOYMENTS_UFOPEDIA: "While we are mostly investigators, we are trained on combat tactics as well. The assets and weaponry of our enemies are as unknown as their intentions; we use a range of diverse weaponry useful for different situations, however we cannot go guns blazing in every deployment. Some operations will require a more concealed approach, while in others we will have weapons free authorization."
-      STR_VEHICLES: "Vehicles"
-      STR_VEHICLES_UFOPEDIA: "The nature of our mission both allows us and limits us to the use of transport crafts of diverse types. The most common is an uncovered deployment using public airlines, but if the situation gets grim, we can request our superiors for specialized transports. Also, we have access to aerial recon provided by Lookhed U-2 Dragon Lady spy crafts." 
-      STR_AERIAL_RECON: "Aerial Recon"
-      STR_AERIAL_RECON_UFOPEDIA: “The U-2 spy planes are used to get privileged access to intelligence otherwise impossible to obtain. Manned by USAF pilots working for the Agency, we can use the superior range and ability to get high resolution photos to find and identificate any potential invader activity or ground sites. Be especially careful in the deployment, though. The Soviets had already shot down an U-2 just a year before. Avoid entering the USSR as much as possible, they won't hesitate to launch Interceptors and SAMs.”
+  - id: STR_THIN_MAN
+    type_id: 7
+    section: STR_ENEMIES
+    requires:
+      - STR_THIN_MAN_INFILTRATOR
+    image_id: UFOPAEDIA_IMG_THIN_MAN
+    text: STR_THIN_MAN_UFOPAEDIA
+    text_width: 158
+    listOrder: 1000
 
-  - type: en-GB
-    strings:
-      STR_RESEARCH_REPORTS_UC: "RESEARCH REPORTS"
-      STR_SUPPRESSED_MUNITIONS_REPORT: "Report: Suppressed Munitions"
-      STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA: "We have requisitioned sound suppressed weapons from the CIA for use in the field. While we are primarily a reconnissance group, we have had violent encounters with foreign intelligences both extraterrestrial and eastward directional. These should help for mission where we must remain undetected or there are too many witnessess, especially in populated urban areas. Otherwise, they are relatively inferior to the rest of our arsenal."
-      STR_ARMY_MUNITIONS_REPORT: "Report: US Army Munitions"
-      STR_ARMY_MUNITIONS_REPORT_UFOPEDIA: "Our aquisition of US Army munitions has been approved due to the rising scale of the alien incursions and violent encounters with the 17th Directorate. Our agents should already be familiar with thier operation, as they most likely have served before. These should be some of the most powerful weapons we have access to, however they are not suitable for stealth operations."
-      STR_SOVIET_MUNITIONS_REPORT: "Report: Soviet Munitions"
-      STR_SOVIET_MUNITIONS_REPORT_UFOPEDIA: "Though Washington may not be the best of friends with Moscow, we engaged in enough diplomatic talks and have come agree that they will provide us soviet combat equipment used by the 17th Directorate, as well as the necessary training to use them. While we have spent the past few decades trying to surpass the Soviets technology wise, these weapons excell at sustained automatic fire as well as close range encounters."
-      STR_ALLIED_MUNITIONS_REPORT: "Report: Allied Munitions"
-      STR_ALLIED_MUNITIONS_REPORT_UFOPEDIA: "We have obtained these weapons in the field and our agents have taken a liking to them, though they aren't produced in the US. Through some of our diplomatic channels, it shouldn't be hard to obtain more of them, although they are probrably directly inferior to US military hardware."
-      STR_PROTOTYPE_MUNITIONS_REPORT: "Report: Prototype Munitions"
-      STR_PROTOTYPE_MUNITIONS_REPORT_UFOPEDIA: "These weapons have been reverse engineered from the samples of alien weaponry obtained in the field. Instead of using a removable battery like the aliens, these weapons are powered by an external battery included in the Augmentation Suit. This has the advantage of enabling the weapons to be lighter and more powerful, at the cost of requiring the agent to bring specialized equipment with the suit."
-      STR_ALIEN_MUNITIONS_REPORT: "Report: Alien Munitions"
-      STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA: "After thorough examiniation of the weapons wielded by the aliens and obtained by our agents, we have finally found out how to operate them. The basic principles are understood to us and most parts are analogous to ones we can produce, but the central reflective crystal has properties that cannot be replicated. The weapons shockingly resemble to ours in operation, similar to operating a magazine loading gun."
+  - id: STR_THIN_MAN_AUTOPSY
+    type_id: 7
+    section: STR_ENEMIES
+    requires:
+      - STR_THIN_MAN_CORPSE
+    image_id: UFOPAEDIA_IMG_THIN_MAN_AUTOPSY
+    text: STR_THIN_MAN_AUTOPSY_UFOPAEDIA
+    text_width: 158
+    listOrder: 1001
