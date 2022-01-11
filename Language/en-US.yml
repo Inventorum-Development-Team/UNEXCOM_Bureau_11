@@ -90,6 +90,8 @@ en-US:
   STR_ARMY_UNIFORM_UC_UFOPEDIA: "Standard issue US army uniform, used widely by our armed forces."
   STR_OFFICER_COAT_UC: "OFFICER COAT"
   STR_OFFICER_COAT_UC_UFOPEDIA: "This KGB officer coat provides a much needed morale boost, but restricts quick movement."
+  STR_AGENT_COAT_UC: "AGENT COAT"
+  STR_AGENT_COAT_UC_UFOPEDIA: "This is a discrete leather coat with protective lining that KGB agents wear to be discrete."
   STR_AUGMENTATION_SUIT: "Augmentation Suit"
   STR_AUGMENTATION_SUIT_UC: "AUGMENTATION SUIT"
   STR_AUGMENTATION_SUIT_UC_UFOPEDIA: "The Augmentation suit has in-built motors powered by an external battery that augment the wearer's strength and mobility and generate an energy shield that blocks incoming attacks."
@@ -428,4 +430,5 @@ en-US:
   STR_D17: "KGB Directorate 17"
   STR_D17_SOLDIER: "D17 Soldier"
   STR_D17_OFFICER: "D17 Officer"
+  STR_D17_AGENT: "D17 Agent"
 ################################
