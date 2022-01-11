@@ -56,8 +56,22 @@ startingBase:
         fuel: 9999
         damage: 0
         status: STR_READY
+        items:
+          STR_SPY_CAMERA: 5
+          STR_BROWNING_HP35: 2
+          STR_BROWNING_HP35_MAG: 4
+          STR_UNITED_DEFENSE_M42: 1
+          STR_UNITED_DEFENSE_M42_20_MAG: 2
+          STR_SPRINGFIELD_M2: 1
+          STR_SPRINGFIELD_M2_15_MAG: 3
+          STR_BANDAGES: 5
       - type: STR_U2_DRAGON_LADY
         id: 1
+        fuel: 800
+        damage: 0
+        status: STR_READY
+      - type: STR_U2_DRAGON_LADY
+        id: 2
         fuel: 800
         damage: 0
         status: STR_READY

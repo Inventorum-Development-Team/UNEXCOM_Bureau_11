@@ -239,10 +239,10 @@ alienDeployments:
       desc: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION
       palette: 2
     markerName: STR_CROP_CIRCLE_INVESTIGATION
-    markerIcon: 7
+    markerIcon: 30
 
   - type: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
-    customUfo: STR_SMALL_SCOUT
+    customUfo: STR_CATTLE_MUTILATION_UFO
     height: 10
     width: 40
     length: 40
@@ -255,7 +255,7 @@ alienDeployments:
       desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
       palette: 5
     markerName: STR_CATTLE_MUTILATION_INVESTIGATION
-    markerIcon: 7
+    markerIcon: 31
 
 ufos:
 #<delete>
@@ -291,7 +291,7 @@ missionScripts:
       0:
         STR_CROP_CIRCLE_INVESTIGATION_SITES: 100
     startDelay: 150
-    targetBaseOdds: 50
+    targetBaseOdds: 100
     useTable: false
 
 alienMissions:
@@ -312,10 +312,11 @@ alienMissions:
       9:
         STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
     waves:
-      - ufo: STR_SMALL_SCOUT
+      - ufo: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT # spawn this site directly
         count: 1
-        trajectory: P6
-        timer: 13500
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
 
   - type: STR_CATTLE_MUTILATION_INVESTIGATION_SITES
     points: 50
@@ -333,8 +334,26 @@ alienMissions:
         STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
       9:
         STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
+#    waves:
+#      - ufo: dummy #don't spawn a ufo, we only want the site
+#        count: 1
+#        trajectory: P10
+#        timer: 0
+#        objective: true
     waves:
-      - ufo: STR_SMALL_SCOUT
+      - ufo: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT # spawn this site directly
         count: 1
-        trajectory: P6
-        timer: 13500
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
+
+ufoTrajectories:
+  - id: STATIC_TRAJECTORY
+    groundTimer: 0
+    waypoints:
+      - [0, 0, 0]
+
+  - id: STATIC_TRAJECTORY_BASE
+    groundTimer: 0
+    waypoints:
+      - [4, 0, 0]
