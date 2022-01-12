@@ -103,6 +103,7 @@ en-US:
   STR_DAMAGE_MELEE: "CUTTING"
   STR_DAMAGE_ACID: "TOXIN"
   STR_DAMAGE_PLASMA_BEAM: "FLASH"
+  STR_DAMAGE_11: "ELECTRIC"
 ###################################
   STR_HIP_FIRE: "Hip Fire"
   STR_STEADY_SHOT: "Steady Shot"
