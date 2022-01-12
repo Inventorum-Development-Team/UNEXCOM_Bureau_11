@@ -28,6 +28,7 @@ items:
     invHeight: 3
     armor: 50
     recover: false
+    battleType: 11
   - type: STR_CORPSE_KGBALT
     name: STR_CORPSE
     weight: 60
@@ -384,35 +385,35 @@ extraSprites:
   - type: MAN_KGBALTF0.SPK
     singleImage: true
     files:
-      0: Resources/Outfits/Officer_Coat/Inventory/MAN_F0.png
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_F0.png
   - type: MAN_KGBALTF1.SPK
     singleImage: true
     files:
-      0: Resources/Outfits/Officer_Coat/Inventory/MAN_F1.png
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_F1.png
   - type: MAN_KGBALTF2.SPK
     singleImage: true
     files:
-      0: Resources/Outfits/Officer_Coat/Inventory/MAN_F2.png
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_F2.png
   - type: MAN_KGBALTF3.SPK
     singleImage: true
     files:
-      0: Resources/Outfits/Officer_Coat/Inventory/MAN_F3.png
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_F3.png
   - type: MAN_KGBALTM0.SPK
     singleImage: true
     files:
-      0: Resources/Outfits/Officer_Coat/Inventory/MAN_M0.png
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_M0.png
   - type: MAN_KGBALTM1.SPK
     singleImage: true
     files:
-      0: Resources/Outfits/Officer_Coat/Inventory/MAN_M1.png
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_M1.png
   - type: MAN_KGBALTM2.SPK
     singleImage: true
     files:
-      0: Resources/Outfits/Officer_Coat/Inventory/MAN_M2.png
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_M2.png
   - type: MAN_KGBALTM3.SPK
     singleImage: true
     files:
-      0: Resources/Outfits/Officer_Coat/Inventory/MAN_M3.png
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_M3.png
   # Augmentation Suit Inv
   - type: MAN_AUGF0.SPK
     singleImage: true

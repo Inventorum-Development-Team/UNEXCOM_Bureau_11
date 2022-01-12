@@ -7,7 +7,7 @@ items:
     floorSprite: 1000
     invWidth: 2
     invHeight: 2
-    recoveryPoints: 10
+    recoveryPoints: 30
     battleType: 11
     armor: 40
     listOrder: 1000
@@ -17,24 +17,61 @@ items:
     liveAlien: true
     costSell: 50000
     listOrder: 1001
+#########################
   - type: STR_D17_SOLDIER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 1002
+  - type: STR_D17_SOLDIER_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1001
+    floorSprite: 1001
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
   - type: STR_D17_OFFICER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
     listOrder: 1003
+  - type: STR_D17_OFFICER_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1002
+    floorSprite: 1002
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 30
+    battleType: 11
+    armor: 40
+    listOrder: 1000
   - type: STR_D17_AGENT
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 35000
     listOrder: 1004
+  - type: STR_D17_AGENT_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1003
+    floorSprite: 1003
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 20
+    battleType: 11
+    armor: 40
+    listOrder: 1000
 
 armors:
   - type: THIN_MAN_ARMOR
@@ -60,12 +97,13 @@ armors:
       - 1.2
       - 1.6
       - 0.0
+      - 1.2
     loftempsSet: [ 2 ]
   - type: D17_SOLDIER
     spriteSheet: D17_SOLDIER.PCK
     spriteInv: inventory_D17_SOLDIER
     corpseBattle:
-      - STR_CORPSE_KGB
+      - STR_D17_SOLDIER_CORPSE
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -82,12 +120,13 @@ armors:
       - 1.0
       - 1.0
       - 1.0
+      - 1.5
     loftempsSet: [ 2 ]
   - type: D17_OFFICER
     spriteSheet: D17_OFFICER.PCK
     spriteInv: inventory_D17_OFFICER
     corpseBattle:
-      - STR_CORPSE_KGB
+      - STR_D17_OFFICER_CORPSE
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -104,12 +143,13 @@ armors:
       - 1.0
       - 1.0
       - 1.0
+      - 1.5
     loftempsSet: [ 2 ]
   - type: D17_AGENT
     spriteSheet: D17_AGENT.PCK
     spriteInv: inventory_D17_AGENT
     corpseBattle:
-      - STR_CORPSE_KGB
+      - STR_D17_AGENT_CORPSE
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -126,6 +166,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
+      - 1.5
     loftempsSet: [ 2 ]
 
 units:
@@ -248,6 +289,26 @@ alienRaces:
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
+  - id: STR_D17_INFILTRATION
+    members:
+      - STR_D17_OFFICER
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+  - id: STR_D17_AMBUSH
+    members:
+      - STR_D17_OFFICER
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
 
 research:
   - name: STR_THIN_MAN_INFILTRATOR
@@ -334,13 +395,13 @@ extraSprites:
       1000: Resources/Enemies/Thin Man/BIGOBS/bigOb_ThinMan_corpse.png
       1001: Resources/Enemies/D17 Soldier/BIGOBS/D17SoldierCorpseBigob.png
       1002: Resources/Enemies/D17 Officer/BIGOBS/D17OfficerCorpseBigob.png
-      1002: Resources/Enemies/D17 Agent/BIGOBS/bigob_coat_corpse.png
+      1003: Resources/Enemies/D17 Agent/BIGOBS/bigob_coat_corpse.png
   - type: FLOOROB.PCK
     files:
       1000: Resources/Enemies/Thin Man/FLOOROBS/floorOb_ThinMan_corpse.png
       1001: Resources/Enemies/D17 Soldier/FLOOROBS/D17SoldierCorpseFloorob.png
       1002: Resources/Enemies/D17 Officer/FLOOROBS/D17OfficerCorpseFloorob.png
-      1002: Resources/Enemies/D17 Agent/FLOOROBS/floorob_coat_corpse.png
+      1003: Resources/Enemies/D17 Agent/FLOOROBS/floorob_coat_corpse.png
   - type: UFOPAEDIA_IMG_THIN_MAN
     singleImage: true
     width: 320
