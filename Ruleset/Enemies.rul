@@ -7,7 +7,7 @@ items:
     floorSprite: 1000
     invWidth: 2
     invHeight: 2
-    recoveryPoints: 30
+    recoveryPoints: 10
     battleType: 11
     armor: 40
     listOrder: 1000
@@ -17,62 +17,44 @@ items:
     liveAlien: true
     costSell: 50000
     listOrder: 1001
-#########################
   - type: STR_D17_SOLDIER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 1002
-  - type: STR_D17_SOLDIER_CORPSE
-    size: 0.4
-    costSell: 1000
-    weight: 25
-    bigSprite: 1001
-    floorSprite: 1001
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 10
-    battleType: 11
-    armor: 40
-    listOrder: 1000
   - type: STR_D17_OFFICER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
     listOrder: 1003
-  - type: STR_D17_OFFICER_CORPSE
-    size: 0.4
-    costSell: 1000
-    weight: 25
-    bigSprite: 1002
-    floorSprite: 1002
-    invWidth: 2
-    invHeight: 3
-    recoveryPoints: 30
-    battleType: 11
-    armor: 40
-    listOrder: 1000
   - type: STR_D17_AGENT
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 35000
     listOrder: 1004
-  - type: STR_D17_AGENT_CORPSE
+  - type: STR_HYBRID_CORPSE
     size: 0.4
-    costSell: 1000
+    costSell: 30000
     weight: 25
-    bigSprite: 1003
-    floorSprite: 1003
+    bigSprite: 1004
+    floorSprite: 1004
     invWidth: 2
-    invHeight: 3
-    recoveryPoints: 20
+    invHeight: 2
+    recoveryPoints: 10
     battleType: 11
     armor: 40
-    listOrder: 1000
+    listOrder: 1005
+  - type: STR_HYBRID_SHAPESHIFTER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+    listOrder: 1006
 
+#Enemies Use Same Corpses As Agents...Oops
 armors:
   - type: THIN_MAN_ARMOR
     spriteSheet: THIN_MAN.PCK
@@ -92,18 +74,17 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-      - 1.0
+      - 0.0
       - 1.0
       - 1.2
       - 1.6
       - 0.0
-      - 1.2
     loftempsSet: [ 2 ]
   - type: D17_SOLDIER
     spriteSheet: D17_SOLDIER.PCK
     spriteInv: inventory_D17_SOLDIER
     corpseBattle:
-      - STR_D17_SOLDIER_CORPSE
+      - STR_CORPSE_KGB
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -120,13 +101,12 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-      - 1.5
     loftempsSet: [ 2 ]
   - type: D17_OFFICER
     spriteSheet: D17_OFFICER.PCK
     spriteInv: inventory_D17_OFFICER
     corpseBattle:
-      - STR_D17_OFFICER_CORPSE
+      - STR_CORPSE_KGB
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -143,13 +123,12 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-      - 1.5
     loftempsSet: [ 2 ]
   - type: D17_AGENT
     spriteSheet: D17_AGENT.PCK
     spriteInv: inventory_D17_AGENT
     corpseBattle:
-      - STR_D17_AGENT_CORPSE
+      - STR_CORPSE_KGBALT
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -166,13 +145,56 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-      - 1.5
+    loftempsSet: [ 2 ]
+  - type: HYBRID_SHAPESHIFTER_ARMOR
+    spriteSheet: HYBRID_SHAPESHIFTER.PCK
+    spriteInv: inventory_HYBRID_SHAPESHIFTER
+    corpseBattle:
+      - STR_HYBRID_CORPSE
+    frontArmor: 18
+    sideArmor: 14
+    rearArmor: 14
+    underArmor: 12
+    visibilityAtDark: 24
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: HYBRID_DISGUISE_F_ARMOR
+    spriteSheet: HYBRID_DISGUISE_F.PCK
+    spriteInv: inventory_HYBRID_DISGUISE_F
+    corpseBattle:
+      - STR_HYBRID_CORPSE
+    frontArmor: 2
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    visibilityAtDark: 18
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 30.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
     loftempsSet: [ 2 ]
 
 units:
   - type: STR_THIN_MAN_INFILTRATOR
     race: STR_HYBRID
-    rank: STR_LIVE_LEADER
+    rank: STR_LIVE_COMMANDER
     stats:
       tu: 55
       stamina: 70
@@ -188,7 +210,7 @@ units:
     armor: THIN_MAN_ARMOR
     standHeight: 24
     kneelHeight: 16
-    value: 10
+    value: 30
     deathSound: 10
     spotter: 2
     intelligence: 8
@@ -211,7 +233,7 @@ units:
     armor: D17_SOLDIER
     standHeight: 22
     kneelHeight: 14
-    value: 10
+    value: 5
     deathSound: 41
     spotter: 2
     intelligence: 5
@@ -234,7 +256,7 @@ units:
     armor: D17_OFFICER
     standHeight: 22
     kneelHeight: 14
-    value: 10
+    value: 5
     deathSound: 41
     spotter: 2
     intelligence: 7
@@ -257,10 +279,54 @@ units:
     armor: D17_AGENT
     standHeight: 22
     kneelHeight: 14
-    value: 10
+    value: 5
     deathSound: 41
     spotter: 2
     intelligence: 7
+    aggression: 2
+  - type: STR_HYBRID_SHAPESHIFTER
+    rank: STR_LIVE_LEADER
+    race: STR_HYBRID
+    stats:
+      tu: 60
+      stamina: 80
+      health: 25
+      bravery: 110
+      reactions: 70
+      firing: 75
+      throwing: 75
+      strength: 30
+      psiStrength: 55
+      psiSkill: 0
+      melee: 60
+    armor: HYBRID_SHAPESHIFTER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: 9
+    intelligence: 6
+    aggression: 2
+  - type: STR_HYBRID_DISGUISE_F
+    rank: STR_LIVE_NAVIGATOR
+    race: STR_HYBRID
+    stats:
+      tu: 50
+      stamina: 50
+      health: 80
+      bravery: 40
+      reactions: 45
+      firing: 50
+      throwing: 60
+      strength: 30
+      psiStrength: 55
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: HYBRID_DISGUISE_F_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    intelligence: 6
+    spawnUnit: STR_HYBRID_SHAPESHIFTER
     aggression: 2
 
 alienRaces:
@@ -273,38 +339,18 @@ alienRaces:
     members:
       - STR_THIN_MAN_INFILTRATOR
       - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
   - id: STR_D17
     members:
       - STR_D17_OFFICER
       - STR_D17_OFFICER
       - STR_D17_AGENT
       - STR_D17_SOLDIER
-      - STR_D17_SOLDIER
-      - STR_D17_SOLDIER
-      - STR_D17_SOLDIER
-      - STR_D17_SOLDIER
-  - id: STR_D17_INFILTRATION
-    members:
-      - STR_D17_OFFICER
-      - STR_D17_AGENT
-      - STR_D17_AGENT
-      - STR_D17_AGENT
-      - STR_D17_AGENT
-      - STR_D17_AGENT
-      - STR_D17_SOLDIER
-      - STR_D17_SOLDIER
-  - id: STR_D17_AMBUSH
-    members:
-      - STR_D17_OFFICER
-      - STR_D17_AGENT
-      - STR_D17_AGENT
-      - STR_D17_AGENT
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
@@ -374,6 +420,20 @@ extraSprites:
     height: 720
     files:
       0: Resources/Enemies/D17 Agent/D17AgentSpritesheet.png
+  - type: HYBRID_SHAPESHIFTER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Enemies/Hybrid/HybridSpritesheet.png
+  - type: HYBRID_DISGUISE_F.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Enemies/Hybrid/HybridFemaleCivilianSpritesheet.png
   - type: inventory_THIN_MAN
     singleImage: true
     files:
@@ -390,18 +450,28 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Enemies/D17 Agent/Inventory/D17_Agent_Inventory.png
+  - type: inventory_HYBRID_SHAPESHIFTER
+    singleImage: true
+    files:
+      0: Resources/Enemies/Hybrid/Inventory/HYBRID_INV.png
+  - type: inventory_HYBRID_DISGUISE_F
+    singleImage: true
+    files:
+      0: Resources/Enemies/Hybrid/Inventory/FEMALE_CIVILIAN_DISGUISE_INV.png
   - type: BIGOBS.PCK
     files:
       1000: Resources/Enemies/Thin Man/BIGOBS/bigOb_ThinMan_corpse.png
       1001: Resources/Enemies/D17 Soldier/BIGOBS/D17SoldierCorpseBigob.png
       1002: Resources/Enemies/D17 Officer/BIGOBS/D17OfficerCorpseBigob.png
       1003: Resources/Enemies/D17 Agent/BIGOBS/bigob_coat_corpse.png
+      1004: Resources/Enemies/Hybrid/BIGOBS/bigOb_Hybrid_corpse.png
   - type: FLOOROB.PCK
     files:
       1000: Resources/Enemies/Thin Man/FLOOROBS/floorOb_ThinMan_corpse.png
       1001: Resources/Enemies/D17 Soldier/FLOOROBS/D17SoldierCorpseFloorob.png
       1002: Resources/Enemies/D17 Officer/FLOOROBS/D17OfficerCorpseFloorob.png
       1003: Resources/Enemies/D17 Agent/FLOOROBS/floorob_coat_corpse.png
+      1004: Resources/Enemies/Hybrid/FLOOROBS/floorOb_Hybrid_corpse.png
   - type: UFOPAEDIA_IMG_THIN_MAN
     singleImage: true
     width: 320
@@ -429,6 +499,9 @@ extraStrings:
       STR_D17: "KGB Directorate 17"
       STR_D17_SOLDIER: "D17 Soldier"
       STR_D17_OFFICER: "D17 Officer"
+      STR_D17_AGENT: "D17 Agent"
+      STR_HYBRID_CORPSE: "Hybrid Corpse"
+      STR_HYBRID_SHAPESHIFTER: "Hybrid Shapeshifter"
 
   - type: en-GB
     strings:
@@ -443,3 +516,6 @@ extraStrings:
       STR_D17: "KGB Directorate 17"
       STR_D17_SOLDIER: "D17 Soldier"
       STR_D17_OFFICER: "D17 Officer"
+      STR_D17_AGENT: "D17 Agent"
+      STR_HYBRID_CORPSE: "Hybrid Corpse"
+      STR_HYBRID_SHAPESHIFTER: "Hybrid Shapeshifter"
