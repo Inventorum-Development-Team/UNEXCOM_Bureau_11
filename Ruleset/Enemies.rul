@@ -3,8 +3,8 @@ items:
     size: 0.4
     costSell: 30000
     weight: 25
-    bigSprite: 1000
-    floorSprite: 1000
+    bigSprite: 1500
+    floorSprite: 1500
     invWidth: 2
     invHeight: 2
     recoveryPoints: 10
@@ -25,11 +25,12 @@ items:
     costSell: 30000
     listOrder: 1002
   - type: STR_D17_SOLDIER_CORPSE
+    name: STR_KGB_CORPSE
     size: 0.4
     costSell: 1000
     weight: 25
-    bigSprite: 1001
-    floorSprite: 1001
+    bigSprite: 1501
+    floorSprite: 1501
     invWidth: 2
     invHeight: 3
     recoveryPoints: 10
@@ -43,11 +44,12 @@ items:
     costSell: 40000
     listOrder: 1003
   - type: STR_D17_OFFICER_CORPSE
+    name: STR_KGB_CORPSE
     size: 0.4
     costSell: 1000
     weight: 25
-    bigSprite: 1002
-    floorSprite: 1002
+    bigSprite: 1502
+    floorSprite: 1502
     invWidth: 2
     invHeight: 3
     recoveryPoints: 30
@@ -61,11 +63,12 @@ items:
     costSell: 35000
     listOrder: 1004
   - type: STR_D17_AGENT_CORPSE
+    name: STR_KGB_CORPSE
     size: 0.4
     costSell: 1000
     weight: 25
-    bigSprite: 1003
-    floorSprite: 1003
+    bigSprite: 1503
+    floorSprite: 1503
     invWidth: 2
     invHeight: 3
     recoveryPoints: 20
@@ -76,8 +79,8 @@ items:
     size: 0.4
     costSell: 30000
     weight: 25
-    bigSprite: 1004
-    floorSprite: 1004
+    bigSprite: 1504
+    floorSprite: 1504
     invWidth: 2
     invHeight: 2
     recoveryPoints: 10
@@ -517,18 +520,18 @@ extraSprites:
       0: Resources/Enemies/Hybrid/Inventory/FEMALE_CIVILIAN_DISGUISE_INV.png
   - type: BIGOBS.PCK
     files:
-      1000: Resources/Enemies/Thin Man/BIGOBS/bigOb_ThinMan_corpse.png
-      1001: Resources/Enemies/D17 Soldier/BIGOBS/D17SoldierCorpseBigob.png
-      1002: Resources/Enemies/D17 Officer/BIGOBS/D17OfficerCorpseBigob.png
-      1003: Resources/Enemies/D17 Agent/BIGOBS/bigob_coat_corpse.png
-      1004: Resources/Enemies/Hybrid/BIGOBS/bigOb_Hybrid_corpse.png
+      1500: Resources/Enemies/Thin Man/BIGOBS/bigOb_ThinMan_corpse.png
+      1501: Resources/Enemies/D17 Soldier/BIGOBS/D17SoldierCorpseBigob.png
+      1502: Resources/Enemies/D17 Officer/BIGOBS/D17OfficerCorpseBigob.png
+      1503: Resources/Enemies/D17 Agent/BIGOBS/bigob_coat_corpse.png
+      1504: Resources/Enemies/Hybrid/BIGOBS/bigOb_Hybrid_corpse.png
   - type: FLOOROB.PCK
     files:
-      1000: Resources/Enemies/Thin Man/FLOOROBS/floorOb_ThinMan_corpse.png
-      1001: Resources/Enemies/D17 Soldier/FLOOROBS/D17SoldierCorpseFloorob.png
-      1002: Resources/Enemies/D17 Officer/FLOOROBS/D17OfficerCorpseFloorob.png
-      1003: Resources/Enemies/D17 Agent/FLOOROBS/floorob_coat_corpse.png
-      1004: Resources/Enemies/Hybrid/FLOOROBS/floorOb_Hybrid_corpse.png
+      1500: Resources/Enemies/Thin Man/FLOOROBS/floorOb_ThinMan_corpse.png
+      1501: Resources/Enemies/D17 Soldier/FLOOROBS/D17SoldierCorpseFloorob.png
+      1502: Resources/Enemies/D17 Officer/FLOOROBS/D17OfficerCorpseFloorob.png
+      1503: Resources/Enemies/D17 Agent/FLOOROBS/floorob_coat_corpse.png
+      1504: Resources/Enemies/Hybrid/FLOOROBS/floorOb_Hybrid_corpse.png
   - type: UFOPAEDIA_IMG_THIN_MAN
     singleImage: true
     width: 320
