@@ -96,6 +96,78 @@ items:
 
 #Enemies Use Same Corpses As Agents...Oops
 armors:
+#######################
+##### SECTOIDS #######
+#####################
+  - type: SECTOID_ARMOR0
+    spriteSheet: SECTOID.PCK
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+    loftempsSet: [ 2 ]
+
+#####################
+##### HYBRIDS ######
+###################
+  - type: HYBRID_SHAPESHIFTER_ARMOR
+    spriteSheet: HYBRID_SHAPESHIFTER.PCK
+    spriteInv: inventory_HYBRID_SHAPESHIFTER
+    corpseBattle:
+      - STR_HYBRID_CORPSE
+    frontArmor: 18
+    sideArmor: 14
+    rearArmor: 14
+    underArmor: 12
+    visibilityAtDark: 24
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: HYBRID_DISGUISE_F_ARMOR
+    spriteSheet: HYBRID_DISGUISE_F.PCK
+    spriteInv: inventory_HYBRID_DISGUISE_F
+    corpseBattle:
+      - STR_HYBRID_CORPSE
+    frontArmor: 2
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    visibilityAtDark: 18
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 30.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 2 ]
+
   - type: THIN_MAN_ARMOR
     spriteSheet: THIN_MAN.PCK
     spriteInv: inventory_THIN_MAN
@@ -120,6 +192,11 @@ armors:
       - 1.6
       - 0.0
     loftempsSet: [ 2 ]
+
+####################
+##### KGB D17 #####
+##################
+
   - type: D17_SOLDIER
     spriteSheet: D17_SOLDIER.PCK
     spriteInv: inventory_D17_SOLDIER
@@ -186,52 +263,242 @@ armors:
       - 1.0
       - 1.0
     loftempsSet: [ 2 ]
-  - type: HYBRID_SHAPESHIFTER_ARMOR
-    spriteSheet: HYBRID_SHAPESHIFTER.PCK
-    spriteInv: inventory_HYBRID_SHAPESHIFTER
-    corpseBattle:
-      - STR_HYBRID_CORPSE
-    frontArmor: 18
-    sideArmor: 14
-    rearArmor: 14
-    underArmor: 12
-    visibilityAtDark: 24
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-    loftempsSet: [ 2 ]
-  - type: HYBRID_DISGUISE_F_ARMOR
-    spriteSheet: HYBRID_DISGUISE_F.PCK
-    spriteInv: inventory_HYBRID_DISGUISE_F
-    corpseBattle:
-      - STR_HYBRID_CORPSE
-    frontArmor: 2
-    sideArmor: 2
-    rearArmor: 2
-    underArmor: 2
-    visibilityAtDark: 18
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 30.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-    loftempsSet: [ 2 ]
+
 
 units:
+####################
+#### SECTOIDS #####
+##################
+
+  - type: STR_SECTOID_SOLDIER
+    race: STR_SECTOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 10
+    deathSound: 10
+    intelligence: 3
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_LASER_RIFLE
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+     -
+       - STR_ALIEN_LASER_RIFLE
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_LASER_RIFLE
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+  - type: STR_SECTOID_ENGINEER
+    race: STR_SECTOID
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 16
+    deathSound: 10
+    intelligence: 6
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_SIEGE_LAUNCHER
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+     -
+       - STR_ALIEN_SIEGE_LAUNCHER
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_SIEGE_LAUNCHER
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_REACTIVE_GRENADE
+  - type: STR_SECTOID_MEDIC
+    race: STR_SECTOID
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 14
+    deathSound: 10
+    intelligence: 5
+    aggression: 1
+    builtInWeaponSets:
+     -
+       - STR_DEVIL_AXE
+       - STR_ALIEN_REACTIVE_GRENADE
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_DEVIL_AXE
+       - STR_ALIEN_REACTIVE_GRENADE
+       - STR_ALIEN_REACTIVE_GRENADE
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+  - type: STR_SECTOID_NAVIGATOR
+    race: STR_SECTOID
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 12
+    deathSound: 10
+    intelligence: 4
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_LASER_RIFLE
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+     -
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+  - type: STR_SECTOID_LEADER
+    race: STR_SECTOID
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 50
+      psiSkill: 50
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 20
+    deathSound: 10
+    intelligence: 7
+    aggression: 1
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_HEAVY_LASER
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+     -
+       - STR_ALIEN_HEAVY_LASER
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_LASER_RIFLE
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+  - type: STR_SECTOID_COMMANDER
+    race: STR_SECTOID
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 50
+      psiSkill: 60
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 25
+    deathSound: 10
+    intelligence: 8
+    aggression: 0
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_HEAVY_LASER
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+     -
+       - STR_ALIEN_HEAVY_LASER
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_HEAVY_LASER
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+
+###################
+#### HYBRIDS #####
+#################
   - type: STR_THIN_MAN_INFILTRATOR
     race: STR_HYBRID
     rank: STR_LIVE_COMMANDER
@@ -255,6 +522,94 @@ units:
     spotter: 2
     intelligence: 8
     aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_COLT_M1911
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
+     -
+       - STR_SKORPION_VZ61
+       - STR_STECHKIN_APS_MAG
+       - STR_STECHKIN_APS_MAG
+     -
+       - STR_HIGH_STANDARD_HDM
+       - STR_HIGH_STANDARD_HDM_MAG
+       - STR_HIGH_STANDARD_HDM_MAG
+  - type: STR_HYBRID_SHAPESHIFTER
+    rank: STR_LIVE_LEADER
+    race: STR_HYBRID
+    stats:
+      tu: 60
+      stamina: 80
+      health: 25
+      bravery: 110
+      reactions: 70
+      firing: 75
+      throwing: 75
+      strength: 30
+      psiStrength: 55
+      psiSkill: 0
+      melee: 60
+    armor: HYBRID_SHAPESHIFTER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: 9
+    intelligence: 6
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_COLT_M1911
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
+     -
+       - STR_BROWNING_HP35
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+     -
+       - STR_BROWNING_HP35
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+  - type: STR_HYBRID_DISGUISE_F
+    rank: STR_LIVE_NAVIGATOR
+    race: STR_HYBRID
+    stats:
+      tu: 50
+      stamina: 50
+      health: 80
+      bravery: 40
+      reactions: 45
+      firing: 50
+      throwing: 60
+      strength: 30
+      psiStrength: 55
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: HYBRID_DISGUISE_F_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    intelligence: 6
+    spawnUnit: STR_HYBRID_SHAPESHIFTER
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_COLT_M1911
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
+     -
+       - STR_BROWNING_HP35
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+     -
+       - STR_BROWNING_HP35
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+
+####################
+##### KGB D17 #####
+##################
+
   - type: STR_D17_SOLDIER
     race: STR_D17
     rank: STR_LIVE_SOLDIER
@@ -278,6 +633,19 @@ units:
     spotter: 2
     intelligence: 5
     aggression: 3
+    builtInWeaponSets:
+     -
+       - STR_AK_47
+       - STR_AK_47_MAG
+       - STR_AK_47_MAG
+     -
+       - STR_AK_47
+       - STR_AK_47_MAG
+       - STR_AK_47_MAG
+     -
+       - STR_AK_47
+       - STR_AK_47_MAG
+       - STR_AK_47_MAG
   - type: STR_D17_OFFICER
     race: STR_D17
     rank: STR_LIVE_LEADER
@@ -301,6 +669,19 @@ units:
     spotter: 2
     intelligence: 7
     aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_SKORPION_VZ61
+       - STR_STECHKIN_APS_MAG
+       - STR_STECHKIN_APS_MAG
+     -
+       - STR_STECHKIN_APS
+       - STR_STECHKIN_APS_MAG
+       - STR_STECHKIN_APS_MAG
+     -
+       - STR_STECHKIN_APS
+       - STR_STECHKIN_APS_MAG
+       - STR_STECHKIN_APS_MAG
   - type: STR_D17_AGENT
     race: STR_D17
     rank: STR_LIVE_ENGINEER
@@ -324,50 +705,20 @@ units:
     spotter: 2
     intelligence: 7
     aggression: 2
-  - type: STR_HYBRID_SHAPESHIFTER
-    rank: STR_LIVE_LEADER
-    race: STR_HYBRID
-    stats:
-      tu: 60
-      stamina: 80
-      health: 25
-      bravery: 110
-      reactions: 70
-      firing: 75
-      throwing: 75
-      strength: 30
-      psiStrength: 55
-      psiSkill: 0
-      melee: 60
-    armor: HYBRID_SHAPESHIFTER_ARMOR
-    standHeight: 22
-    kneelHeight: 14
-    value: 10
-    deathSound: 9
-    intelligence: 6
-    aggression: 2
-  - type: STR_HYBRID_DISGUISE_F
-    rank: STR_LIVE_NAVIGATOR
-    race: STR_HYBRID
-    stats:
-      tu: 50
-      stamina: 50
-      health: 80
-      bravery: 40
-      reactions: 45
-      firing: 50
-      throwing: 60
-      strength: 30
-      psiStrength: 55
-      psiSkill: 0
-      melee: 45
-      mana: 0
-    armor: HYBRID_DISGUISE_F_ARMOR
-    standHeight: 22
-    kneelHeight: 14
-    intelligence: 6
-    spawnUnit: STR_HYBRID_SHAPESHIFTER
-    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_CAMERA_GUN
+       - STR_LISTENING_DEVICE
+     -
+       - STR_UMBRELLA_MOSIN_NAGANT
+       - STR_UMBRELLA_MOSIN_NAGANT_MAG
+       - STR_UMBRELLA_MOSIN_NAGANT_MAG
+       - STR_LISTENING_DEVICE
+     -
+       - STR_CAMERA_GUN
+       - STR_CAMERA_GUN
+       - STR_LISTENING_DEVICE
+
 
 alienRaces:
   - delete: STR_FLOATER

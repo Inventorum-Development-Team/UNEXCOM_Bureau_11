@@ -19,28 +19,14 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-          -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
+          -
             - STR_MIND_PROBE
   - type: STR_MEDIUM_SCOUT
     civilians: 3
@@ -53,29 +39,14 @@ alienDeployments:
         percentageOutsideUfo: 60
         itemSets:
           -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_HEAVY_LASER
-            - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_SIEGE_LAUNCHER
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
             - STR_MIND_PROBE
       - alienRank: 4
         lowQty: 1
@@ -84,29 +55,15 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_SIEGE_LAUNCHER
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_MIND_PROBE
   - type: STR_LARGE_SCOUT
     civilians: 4
     height: 10
@@ -118,33 +75,15 @@ alienDeployments:
         percentageOutsideUfo: 65
         itemSets:
           -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_SIEGE_LAUNCHER
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_HEAVY_LASER
-            - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_SIEGE_LAUNCHER
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_MIND_PROBE
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -152,27 +91,15 @@ alienDeployments:
         percentageOutsideUfo: 25
         itemSets:
           -
-            - STR_ALIEN_HEAVY_LASER
-            - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_ALIEN_HEAVY_LASER_BATTERY
-          -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_GRENADE
+            - STR_MIND_PROBE
           -
-            - STR_ALIEN_HEAVY_LASER
-            - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -180,29 +107,14 @@ alienDeployments:
         percentageOutsideUfo: 35
         itemSets:
           -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_PISTOL
-            - STR_ALIEN_LASER_PISTOL_BATTERY
-            - STR_ALIEN_LASER_PISTOL_BATTERY
             - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_LASER_RIFLE_BATTERY
             - STR_MIND_PROBE
           -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_LASER_RIFLE_BATTERY
             - STR_MIND_PROBE
 
 ###############################
