@@ -121,7 +121,7 @@ armors:
     spriteSheet: D17_SOLDIER.PCK
     spriteInv: inventory_D17_SOLDIER
     corpseBattle:
-      - STR_CORPSE_KGB
+      - STR_D17_SOLDIER_CORPSE
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -143,7 +143,7 @@ armors:
     spriteSheet: D17_OFFICER.PCK
     spriteInv: inventory_D17_OFFICER
     corpseBattle:
-      - STR_CORPSE_KGB
+      - STR_D17_OFFICER_CORPSE
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -165,7 +165,7 @@ armors:
     spriteSheet: D17_AGENT.PCK
     spriteInv: inventory_D17_AGENT
     corpseBattle:
-      - STR_CORPSE_KGBALT
+      - STR_D17_AGENT_CORPSE
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -372,7 +372,7 @@ alienRaces:
   - delete: STR_MUTON
   - delete: STR_ETHEREAL
   - delete: STR_MIXED
-  - id: STR_HYBRID
+  - id: STR_HYBRID_CIVILIAN
     members:
       - STR_THIN_MAN_INFILTRATOR
       - STR_THIN_MAN_INFILTRATOR
@@ -388,6 +388,26 @@ alienRaces:
       - STR_D17_OFFICER
       - STR_D17_AGENT
       - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+  - id: STR_D17_INFILTRATION
+    members:
+      - STR_D17_OFFICER
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+  - id: STR_D17_AMBUSH
+    members:
+      - STR_D17_OFFICER
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER

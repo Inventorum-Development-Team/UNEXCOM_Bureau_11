@@ -421,15 +421,30 @@ en-US:
   STR_AERIAL_RECON_UFOPEDIA: “The U-2 spy planes are used to get privileged access to intelligence otherwise impossible to obtain. Manned by USAF pilots working for the Agency, we can use the superior range and ability to get high resolution photos to find and identificate any potential invader activity or ground sites. Be especially careful in the deployment, though. The Soviets had already shot down an U-2 just a year before. Avoid entering the USSR as much as possible, they won't hesitate to launch Interceptors and SAMs.”
 
   STR_ENEMIES: "INTERROGATIONS AND AUTOPSIES"
+
+  STR_HYBRID_CIVILIAN: "Hybrid (Civilian)"
+  STR_D17: "KGB Directorate 17"
+  STR_D17_INFILTRATION: "KGB D17 Infiltration Team"
+  STR_D17_AMBUSH: "KGB D17 Ambush Specialists"
+
   STR_HYBRID: "Hybrid"
   STR_THIN_MAN: "Thin Man"
+  THIN_MAN_ARMOR: "Thin Man Outfit"
   STR_THIN_MAN_CORPSE: "Thin Man Carcass"
   STR_THIN_MAN_AUTOPSY: "Thin Man Autopsy"
   STR_THIN_MAN_AUTOPSY_UFOPAEDIA: "This creature is clearly a product of genetic engineering. It appears to be an attempted replication of a human, down to the DNA level. However, it appears to be imperfect with some eerie features such as reptilian eyes. Reports from the field indicate that they exerted some sort of mental control over the troops. Perhaps this is to assist in the disguise, or to improve the creature's combat power. Nevertheless, this is a dangerous creature that should not be underestimated."
   STR_THIN_MAN_INFILTRATOR: "Thin Man Infiltrator"
   STR_THIN_MAN_UFOPAEDIA: "The 'Thin Man' as it has been christened by our troops, appears to be a gaunt Cacucasian man, but sports eerie features such as reptilian eyes. Interrogation proved to be futile as it seemed to have an unconcious control over our researchers. A person of a more unprofessional background may refer to it as...telepathy. Sadly, it was terminated after it tried to escape."
-  STR_D17: "KGB Directorate 17"
+  STR_HYBRID_SHAPESHIFTER: "Hybrid Shapeshifter"
+  STR_HYBRID_CORPSE: "Hybrid Shapeshifter Carcass"
+  HYBRID_SHAPESHIFTER_ARMOR: "Shapeshifter Caparace"
+  HYBRID_DISGUISE_F_ARMOR: "Female Civiian"
+
+  STR_KGB_CORPSE: "KGB Corpse"
   STR_D17_SOLDIER: "D17 Soldier"
+  D17_SOLDIER: "Red Army Uniform"
   STR_D17_OFFICER: "D17 Officer"
+  D17_OFFICER: "KGB Officer Uniform"
   STR_D17_AGENT: "D17 Agent"
+  D17_AGENT: "D17 Undercover Attire"
 ################################
