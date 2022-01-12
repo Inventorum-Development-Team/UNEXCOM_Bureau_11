@@ -17,24 +17,61 @@ items:
     liveAlien: true
     costSell: 50000
     listOrder: 1001
+#########################
   - type: STR_D17_SOLDIER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 1002
+  - type: STR_D17_SOLDIER_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1001
+    floorSprite: 1001
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
   - type: STR_D17_OFFICER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
     listOrder: 1003
+  - type: STR_D17_OFFICER_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1002
+    floorSprite: 1002
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 30
+    battleType: 11
+    armor: 40
+    listOrder: 1000
   - type: STR_D17_AGENT
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 35000
     listOrder: 1004
+  - type: STR_D17_AGENT_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1003
+    floorSprite: 1003
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 20
+    battleType: 11
+    armor: 40
+    listOrder: 1000
   - type: STR_HYBRID_CORPSE
     size: 0.4
     costSell: 30000
