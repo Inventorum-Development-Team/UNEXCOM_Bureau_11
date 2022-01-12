@@ -206,6 +206,7 @@ items:
     tuAimed: 70
     maxRange: 10
     accuracyCloseQuarters: 100
+    hitAnimation: 26
     kneelBonus: 150
     battleType: 1
     invWidth: 2

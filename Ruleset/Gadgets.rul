@@ -53,6 +53,7 @@ items:
     floorSprite: 912
     handSprite: 912
     hitSound: 502
+    hitAnimation: 130
     power: 10
     damageType: 5
     clipSize: 8

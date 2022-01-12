@@ -1658,7 +1658,7 @@ items:
     floorSprite: 712
     handSprite: 712
     bulletSprite: 30
-    hitAnimation: 102
+    hitAnimation: 100
     power: 40
     shotgunBehavior: 1
     shotgunPellets: 8
@@ -1666,7 +1666,7 @@ items:
     damageAlter:
       ToStun: 1.25
       FixRadius: 0
-    damageType: 6
+    damageType: 11
     clipSize: 10
     battleType: 2
     armor: 200
@@ -1731,7 +1731,7 @@ items:
     floorSprite: 736
     handSprite: 736
     hitSound: 13
-    hitAnimation: 102
+    hitAnimation: 110
     power: 120
     damageAlter:
       RandomType: 7
@@ -2514,9 +2514,10 @@ extraSprites:
     subX: 32
     subY: 40
     files: # Yellow Laser = 36
-      101: Resources/Weapons/HitAnimations/HumanElectric_Hit.png
-      102: Resources/Weapons/HitAnimations/Railgun_Hit.png
-      103: Resources/Weapons/HitAnimations/RedLaser_Hit.png
+      100: Resources/Weapons/HitAnimations/HumanElectric_Hit.png
+      110: Resources/Weapons/HitAnimations/Railgun_Hit.png
+      120: Resources/Weapons/HitAnimations/RedLaser_Hit.png
+      130: Resources/Weapons/HitAnimations/CameraFlash_Hit.png
   - type: Projectiles
     height: 3
     width: 105
