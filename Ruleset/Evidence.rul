@@ -890,6 +890,8 @@ ufopaedia:
   - id: STR_CROP_CIRCLE_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_RESIDUAL_FLUID_MAJOR_REPORT
     listOrder: 400
     text: STR_CROP_CIRCLE_REPORT_UFOPEDIA
   - id: STR_RESIDUAL_FLUID_INTEL_1
