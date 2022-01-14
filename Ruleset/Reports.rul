@@ -199,33 +199,6 @@ ufopaedia:
       - STR_DEVIL_AXE
     listOrder: 307
 
-  - id: STR_AGENT_SUIT_UC
-    type_id: 5
-    section: STR_OUTFITS
-    listOrder: 101
-    text: STR_AGENT_SUIT_UC_UFOPEDIA
-  - id: STR_ARMY_UNIFORM_UC
-    type_id: 5
-    section: STR_OUTFITS
-    listOrder: 102
-    requires:
-      - STR_ARMY_VETERAN_RECRUITMENT
-    text: STR_ARMY_UNIFORM_UC_UFOPEDIA
-  - id: STR_OFFICER_COAT_UC
-    type_id: 5
-    section: STR_OUTFITS
-    listOrder: 103
-    requires:
-      - STR_KGB_OFFICER_RECRUITMENT
-    text: STR_OFFICER_COAT_UC_UFOPEDIA
-  - id: STR_AUGMENTATION_SUIT_UC
-    type_id: 5
-    section: STR_OUTFITS
-    listOrder: 103
-    requires:
-      - STR_AUGMENTATION_SUIT
-    text: STR_AUGMENTATION_SUIT_UC_UFOPEDIA
-
   - id: STR_BROWNING_HP35
     type_id: 4
     section: STR_WEAPONS
