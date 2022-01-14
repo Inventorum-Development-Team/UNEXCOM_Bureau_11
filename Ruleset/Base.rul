@@ -2,8 +2,9 @@ facilities:
   - delete: STR_LARGE_RADAR_SYSTEM
   - delete: STR_ALIEN_CONTAINMENT
   - delete: STR_MISSILE_DEFENSES
-  - type: STR_SMALL_RADAR_SYSTEM
-    radarChance: 10
+  - delete: STR_SMALL_RADAR_SYSTEM
+//  - type: STR_SMALL_RADAR_SYSTEM
+//    radarChance: 10
 
 
 ufopaedia:
@@ -15,10 +16,10 @@ ufopaedia:
     type_id: 6
     section: STR_BASE
     text: STR_HANGAR_UFOPEDIA
-  - id: STR_SMALL_RADAR_SYSTEM
-    type_id: 6
-    section: STR_BASE
-    text: STR_SMALL_RADAR_SYSTEM_UFOPEDIA
+//  - id: STR_SMALL_RADAR_SYSTEM
+//    type_id: 6
+//    section: STR_BASE
+//    text: STR_SMALL_RADAR_SYSTEM_UFOPEDIA
   - id: STR_GENERAL_STORES
     type_id: 6
     section: STR_BASE
