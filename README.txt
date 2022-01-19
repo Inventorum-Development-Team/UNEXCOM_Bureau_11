@@ -12,8 +12,9 @@ Credits by name:
 *Andr: original creator of F-104 Starfighter, Beretta M12, AR-15, Sawed-off Shotgun, Winchester M1897, Flask, Field Dressing, Cigarettes, Medical Pouch
 *Brother^2: lead design, ruleset creator
 *efrenespartano: lead design, sprite & ruleset creator
-*Dioxine: M79 Thumper sprites
-*RamoZ: D17, B11 and US Army rulesets
+*Gifty: original Calcium Man spritesheet (adapted and expanded into Shapeshifter)
 *Hans Woofington: B11 and US Army unit sprites
+*NeoWorm: Sectoid inventory sprites
+*RamoZ: D17, B11 and US Army rulesets
 *The Martian: D17 unit sprites
 *wolwerin: Alien Lasers, Model 1900, sprite creator
