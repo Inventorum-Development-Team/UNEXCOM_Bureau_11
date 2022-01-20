@@ -42,8 +42,8 @@ items:
   - type: STR_CORPSE_AUG
     name: STR_CORPSE
     weight: 60
-    bigSprite: 504
-    floorSprite: 504
+    bigSprite: 505
+    floorSprite: 505
     invWidth: 2
     invHeight: 3
     armor: 50
@@ -499,7 +499,7 @@ extraSprites:
       # Agent Coat Corpse Bigob
       503: Resources/Outfits/KGB_Agent_Coat/Corpse/bigob_coat_corpse.png
       # Augmentation Suit Corpse Bigob
-      504: Resources/Outfits/Augmentation_Suit/Corpse/Corpse_Big.png
+      804: Resources/Outfits/Augmentation_Suit/Corpse/Corpse_Big.png
       955: Resources/Outfits/Augmentation_Suit/Backpack_Big.png
   - type: FLOOROB.PCK
     files:
@@ -512,5 +512,5 @@ extraSprites:
       # Agent Coat Corpse Bigob
       503: Resources/Outfits/KGB_Agent_Coat/Corpse/floorob_coat_corpse.png
       # Augmentation Suit Corpse Floorob
-      504: Resources/Outfits/Augmentation_Suit/Corpse/Corpse_Floor.png
+      505: Resources/Outfits/Augmentation_Suit/Corpse/Corpse_Floor.png
 
