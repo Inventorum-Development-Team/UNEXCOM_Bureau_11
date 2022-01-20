@@ -376,6 +376,7 @@ en-US:
   STR_LISTENING_DEVICE_UFOPEDIA: "A recording radio with microphone, small enough to fit in the jacket without notice. It's used by Soviet agents to spy on private conversations and compile sensible information. It's overall appreance remembers a mix between a cigarette box and a phone "
   STR_TRANSMITTER: "KGB Transmitter"
   STR_KGB_TECH: "KGB Tech"
+  STR_KGB_TECH_REPORT: "Report: KGB Covert Ops Equipment"
   STR_KGB_TECH_INVESTIGATION: "KGB Tech Investigation"
   STR_KGB_TECH_REPORT_UFOPEDIA: "We now have evidence that Soviet intelligence are both aware of Bureau 11's existence and OETOs, and that they have been covertly monitoring us on our own soil. More violent encounters with agents operating under this Directorate 17 would be regrettable, but easy to cover up considering they offically don't exist. The devices we've recovered are very advanced, though we have little use for the advanced monitoring devices against the aliens, we have already begun the process of implementing the same concealed weapon technique the Soviets are using."
   STR_UMBRELLA_MOSIN_NAGANT: "Umbrella Mosin-Nagant"
@@ -395,6 +396,8 @@ en-US:
   STR_COMATOSE_ABDUCTEE_2: "Comatose Abductee"
   STR_COMATOSE_ABDUCTEE_3: "Comatose Abductee"
   STR_UNCONCIOUS_CIVILIAN: "Unconcious Civilian"
+  STR_MINOR_ABDUCTION_REPORT: "Report: Minor Abduction Incident"
+  STR_MINOR_ABDUCTION_REPORT_UFOPEDIA: "Placeholder"
 
   STR_RESEARCH_REPORTS_UC: "RESEARCH REPORTS"
   STR_SUPPRESSED_MUNITIONS_REPORT: "Report: Suppressed Munitions"
