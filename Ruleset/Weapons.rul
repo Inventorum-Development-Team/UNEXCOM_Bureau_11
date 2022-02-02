@@ -1792,7 +1792,7 @@ items:
     floorSprite: 760
     handSprite: 760
     hitSound: 19
-    hitAnimation: 103
+    hitAnimation: 120
     power: 65
     damageType: 4
     damageAlter:
@@ -1861,7 +1861,7 @@ items:
     floorSprite: 784
     handSprite: 784
     hitSound: 19
-    hitAnimation: 103
+    hitAnimation: 120
     power: 90
     damageType: 4
     damageAlter:
@@ -1922,7 +1922,7 @@ items:
     floorSprite: 808
     handSprite: 808
     hitSound: 19
-    hitAnimation: 103
+    hitAnimation: 120
     power: 125
     damageType: 4
     damageAlter:
@@ -2336,6 +2336,14 @@ extraSprites:
       848: Resources/Weapons/Collapsible SMG/Loaded_20_Big.png
       872: Resources/Weapons/Collapsible SMG/UnloadedFolded_Big.png
       880: Resources/Weapons/Collapsible SMG/LoadedFolded_20_Big.png
+      888: Resources/Weapons/Welrod/Loaded_15_Big.png
+      896: Resources/Weapons/Welrod/Unloaded_Big.png
+      904: Resources/Weapons/DeLisleCarbine_Sniper/Loaded_7_Big.png
+      912: Resources/Weapons/DeLisleCarbine_Sniper/Unloaded_Big.png
+      920: Resources/Weapons/DeLisleCarbine_Para/Unloaded_Big.png
+      928: Resources/Weapons/DeLisleCarbine_Para/Loaded_7_Big.png
+      952: Resources/Weapons/DeLisleCarbine_Para/UnloadedFolded_Big.png
+      960: Resources/Weapons/DeLisleCarbine_Para/LoadedFolded_7_Big.png
   - type: FLOOROB.PCK
     files:
       200: Resources/Weapons/Browning HP35/Unloaded_Floor.png
@@ -2420,6 +2428,14 @@ extraSprites:
       832: Resources/Weapons/Alien Siege Launcher/Mag_1_Floor.png
       840: Resources/Weapons/Collapsible SMG/Unloaded_Floor.png
       848: Resources/Weapons/Collapsible SMG/Loaded_20_Floor.png
+      888: Resources/Weapons/Welrod/Loaded_15_Floor.png
+      896: Resources/Weapons/Welrod/Unloaded_Floor.png
+      904: Resources/Weapons/DeLisleCarbine_Sniper/Loaded_7_Floor.png
+      912: Resources/Weapons/DeLisleCarbine_Sniper/Unloaded_Floor.png
+      920: Resources/Weapons/DeLisleCarbine_Para/Unloaded_Floor.png
+      928: Resources/Weapons/DeLisleCarbine_Para/Loaded_7_Floor.png
+      #952: Resources/Weapons/DeLisleCarbine_Para/UnloadedFolded_Floor.png
+      #960: Resources/Weapons/DeLisleCarbine_Para/LoadedFolded_7_Floor.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -2508,6 +2524,14 @@ extraSprites:
       832: Resources/Weapons/Alien Siege Launcher/Mag_1_Hand.png
       840: Resources/Weapons/Collapsible SMG/Unloaded_Hand.png
       848: Resources/Weapons/Collapsible SMG/Loaded_20_Hand.png
+      888: Resources/Weapons/Welrod/Loaded_15_Hand.png
+      896: Resources/Weapons/Welrod/Unloaded_Hand.png
+      904: Resources/Weapons/DeLisleCarbine_Sniper/Loaded_7_Hand.png
+      912: Resources/Weapons/DeLisleCarbine_Sniper/Unloaded_Hand.png
+      920: Resources/Weapons/DeLisleCarbine_Para/Unloaded_Hand.png
+      928: Resources/Weapons/DeLisleCarbine_Para/Loaded_7_Hand.png
+      #952: Resources/Weapons/DeLisleCarbine_Para/UnloadedFolded_Hand.png
+      #960: Resources/Weapons/DeLisleCarbine_Para/LoadedFolded_7_Hand.png
   - type: SMOKE.PCK
     height: 80
     width: 160
