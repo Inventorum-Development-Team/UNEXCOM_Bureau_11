@@ -232,6 +232,16 @@ en-US:
 
   STR_COLLAPSIBLE_SMG: "Collapsible SMG"
   STR_COLLAPSIBLE_SMG_UFOPEDIA: "At first glance this weapon could be confused with a briefcase, however it can fold open to reveal a custom built integrally-suppressed {ALT}9x19mm Parabellum{ALT} SMG. Its design was heavily based off of the soviet counterpart our agents recovered in the field. Its unfamiliar shape may make it less accurate, but it is designed to be consistently accurate at longer ranges. {NEWLINE}>Concealable"
+
+  STR_WELROD: "Welrod"
+  STR_WELROD_UFOPEDIA: "This suppressed bolt-action {ALT}9x19mm Parabellum{ALT} pistol comes from our old friends from across the pond. It was intended to be used by resistance forces in Nazi occupied territories during World War II but has now found a place in Gladio counter-Soviet stay-behind forces in Europe, for better...or for worse. {NEWLINE}>Concealable"
+
+  STR_DELISLE_CARBINE_SNIPER: "DeLisle Sniper Carbine"
+  STR_DELISLE_CARBINE_SNIPER_UFOPEDIA: "The DeLisle Carbine is quite possibly one of the quietest firearms ever produced. The British carbine fires {ALT}.45 ACP{ALT} sub-sonic ammunition through a specially designed interal suppressor. This DeLisle Carbine has been specialized for long range sniping with a high-powered scope. {NEWLINE}>Concealable"
+
+  STR_DELISLE_CARBINE_PARATROOPER: "DeLisle Paratrooper Carbine"
+  STR_DELISLE_CARBINE_PARATROOPER_UFOPEDIA: "The DeLisle Carbine is quite possibly one of the quietest firearms ever produced. The British carbine fires {ALT}.45 ACP{ALT} sub-sonic ammunition through a specially designed interal suppressor. This compact DeLisle Carbine, modified with a folding stock, was orginally intended for use by Paratroopers. {NEWLINE}>Concealable"
+
 #########################################
   STR_GADGETS: "GADGETS AND GRENADES"
   STR_BANDAGES: "Bandages"
@@ -413,6 +423,9 @@ en-US:
   STR_ALIEN_MUNITIONS_REPORT: "Report: Alien Munitions"
   STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA: "After thorough examiniation of the weapons wielded by the aliens and obtained by our agents, we have finally found out how to operate them. The basic principles are understood to us and most parts are analogous to ones we can produce, but the central reflective crystal has properties that cannot be replicated. The weapons shockingly resemble to ours in operation, similar to operating a magazine loading gun."
   STR_ALIEN_LASER_WEAPONS_REPORT_UFOPEDIA: "After carefully analyzing the fragments found of the laser weapons used by the invaders, we have concluded that they employ a large miniaturized power source that emits radiation. In other words, a mini nuclear reactor for each weapon. The minerals that power the reactor and the crystal that power the effect of the light beam emitted by the power source are not found in the periodic table and we consider them highly exotic. This radiation is not enough to kill a human being on contact, but a prolonged exposure will seriously increase the risk of cancer and poisoning."
+  STR_GLADIO_MUNITIONS_REPORT: "Report: Gladio Munitions"
+  STR_GLADIO_MUNITIONS_REPORT_UFOPEDIA: "The Weapons Gladio were supplied by the CIA and various other intelligence agencies and were intended to be used in the scenario of a Soviet invasion of Western Europe. These silenced weapons are designed to be used on clandestine operations where discretion is impreative. While they may look antique, these weapons are as deadly as ever in the right, or wrong hands."
+
 ##########################
   STR_FIELD_INVESTIGATIONS: "Field Investigations"
   STR_FIELD_INVESTIGATIONS_UFOPEDIA: "Our job as agents of Bureau 11, a branch of the CIA, is to conduct field research and investigate all potential threats against the United States, from inside and outside our borders. And now, from outside our planet. After picking reports of unknown activities, we will be deployed. Our most powerful weapons in those missions are our cunning and our cameras."
