@@ -5,9 +5,9 @@ items:
     costBuy: 600
     costSell: 450
     weight: 1
-    bigSprite: 896
-    floorSprite: 896
-    handSprite: 896
+    bigSprite: 1896
+    floorSprite: 1896
+    handSprite: 1896
     heal: 2
     woundRecovery: 1
     healthRecovery: 1
@@ -49,9 +49,9 @@ items:
     twoHanded: true
     blockBothHands: true
     weight: 6
-    bigSprite: 912
-    floorSprite: 912
-    handSprite: 912
+    bigSprite: 1912
+    floorSprite: 1912
+    handSprite: 1912
     hitSound: 502
     hitAnimation: 130
     power: 10
@@ -99,9 +99,9 @@ items:
     costBuy: 300
     costSell: 200
     weight: 3
-    bigSprite: 920
-    floorSprite: 920
-    handSprite: 920
+    bigSprite: 1920
+    floorSprite: 1920
+    handSprite: 1920
 #    meleeHitSound: 500
 #    meleeAnimation: 8
     power: 20
@@ -135,9 +135,9 @@ items:
       - STR_ALIEN_WEAPON_OPERATION
     costSell: 7600
     weight: 3
-    bigSprite: 928
-    floorSprite: 928
-    handSprite: 928
+    bigSprite: 1928
+    floorSprite: 1928
+    handSprite: 1928
     power: 150
     damageType: 3
     battleType: 5
@@ -204,32 +204,32 @@ manufacture:
 extraSprites:
   - type: BIGOBS.PCK
     files:
-      896: Resources/Gadgets/Bandages/Gadget_Big.png
-      904: Resources/Gadgets/Medical_Bag/Gadget_Big.png
-      912: Resources/Gadgets/Spy_Camera/Gadget_Big.png
-      920: Resources/Gadgets/KA-BAR/Gadget_Big.png
-      928: Resources/Gadgets/Alien_Reactive_Grenade/Gadget_Big.png
-      936: Resources/Gadgets/Devil_Axe/Gadget_Big.png
+      1896: Resources/Gadgets/Bandages/Gadget_Big.png
+      1904: Resources/Gadgets/Medical_Bag/Gadget_Big.png
+      1912: Resources/Gadgets/Spy_Camera/Gadget_Big.png
+      1920: Resources/Gadgets/KA-BAR/Gadget_Big.png
+      1928: Resources/Gadgets/Alien_Reactive_Grenade/Gadget_Big.png
+      1936: Resources/Gadgets/Devil_Axe/Gadget_Big.png
   - type: FLOOROB.PCK
     files:
-      896: Resources/Gadgets/Bandages/Gadget_Floor.png
-      904: Resources/Gadgets/Medical_Bag/Gadget_Floor.png
-      912: Resources/Gadgets/Spy_Camera/Gadget_Floor.png
-      920: Resources/Gadgets/KA-BAR/Gadget_Floor.png
-      928: Resources/Gadgets/Alien_Reactive_Grenade/Gadget_Floor.png
-      936: Resources/Gadgets/Devil_Axe/Gadget_Floor.png
+      1896: Resources/Gadgets/Bandages/Gadget_Floor.png
+      1904: Resources/Gadgets/Medical_Bag/Gadget_Floor.png
+      1912: Resources/Gadgets/Spy_Camera/Gadget_Floor.png
+      1920: Resources/Gadgets/KA-BAR/Gadget_Floor.png
+      1928: Resources/Gadgets/Alien_Reactive_Grenade/Gadget_Floor.png
+      1936: Resources/Gadgets/Devil_Axe/Gadget_Floor.png
   - type: HANDOB.PCK
     width: 256
     height: 40
     subX: 32
     subY: 40
     files:
-      896: Resources/Gadgets/Bandages/Gadget_Hand.png
-      904: Resources/Gadgets/Medical_Bag/Gadget_Hand.png
-      912: Resources/Gadgets/Spy_Camera/Gadget_Hand.png
-      920: Resources/Gadgets/KA-BAR/Gadget_Hand.png
-      928: Resources/Gadgets/Alien_Reactive_Grenade/Gadget_Hand.png
-      936: Resources/Gadgets/Devil_Axe/Gadget_Hand.png
+      1896: Resources/Gadgets/Bandages/Gadget_Hand.png
+      1904: Resources/Gadgets/Medical_Bag/Gadget_Hand.png
+      1912: Resources/Gadgets/Spy_Camera/Gadget_Hand.png
+      1920: Resources/Gadgets/KA-BAR/Gadget_Hand.png
+      1928: Resources/Gadgets/Alien_Reactive_Grenade/Gadget_Hand.png
+      1936: Resources/Gadgets/Devil_Axe/Gadget_Hand.png
   - type: MEDIKIT_BACKGROUND
     singleImage: true
     width: 320
