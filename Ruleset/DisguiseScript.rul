@@ -1,0 +1,325 @@
+alienDeployments:
+
+  - type: STR_TEST_TERROR_MISSION
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 4
+    terrains:
+      - URBAN
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    civiliansByType:
+      DISGUISED_FEMALE_CIVILIAN: 16
+    despawnPenalty: 1000
+
+units:
+
+  - type: DISGUISED_FEMALE_CIVILIAN
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: DISGUISE_FEMALE_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 0
+    intelligence: 4
+    spawnUnit: STR_HYBRID_SHAPESHIFTER
+    energyRecovery: 20
+    deathSound: [44, 45, 46]
+
+armors:
+
+  - type: DISGUISE_FEMALE_ARMOR
+    spriteSheet: HYBRID_DISGUISE_F.PCK
+    spriteInv: inventory_HYBRID_DISGUISE_F
+    corpseBattle:
+      - STR_HYBRID_CORPSE
+    frontArmor: 2
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    visibilityAtDark: 18
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 30.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 2 ]
+    tags:
+      Proximity_Radius: 7
+
+  - type: HYBRID_SHAPESHIFTER_ARMOR
+    tags:
+      Full_Tu_Reveal: 1
+
+extended:
+  tags:
+   RuleArmor:
+    Proximity_Radius: int
+    Full_Tu_Reveal: int
+  scripts:
+
+
+    createUnit: #Gives diguised units full Tu:s on their first turn, though AI still refuses to move
+      - offset: 99 
+        code: |
+          var int x;
+          var int turnside;
+          var int max_tu;
+          var int tu;
+          
+          var ptr RuleArmor armor;
+          
+          unit.getRuleArmor armor;
+          armor.getTag x Tag.Full_Tu_Reveal;
+
+          battle_game.getTurnSide turnside; #Check if enemy turn so that enemies revealed on player turn can't reaction fire
+
+          if and eq x 1 eq turnside FACTION_HOSTILE;
+            unit.getTimeUnits tu;
+            debug_log "Before: " tu;
+            unit.getTimeUnitsMax max_tu;
+            unit.setTimeUnits max_tu;
+            debug_log max_tu;
+            unit.getTimeUnits tu;
+            debug_log "After: " tu;
+          end;
+
+
+          return;
+
+
+    newTurnUnit:
+      - offset: 1 
+        code: |
+         var int proximity_radius;
+         var int unit_x;
+         var int unit_y;
+         var int unit_z;
+         var int cord_x;
+         var int cord_y;
+         var int cord_z;
+         var int radius_doubled;
+         var int loop_lenght;
+         var int faction;
+         var int distance;
+         var int turnside;
+
+         var ptr RuleArmor armor;
+         var ptr BattleUnit target;
+         var ptr Tile unit_tile;
+         var ptr Tile tile;
+
+         unit.getRuleArmor armor;
+         armor.getTag proximity_radius Tag.Proximity_Radius;
+
+         battle_game.getTurnSide turnside;
+     
+         
+         if and gt proximity_radius 0 eq turnside FACTION_HOSTILE;
+          BattleUnit.getPosition.getX unit unit_x;
+          BattleUnit.getPosition.getY unit unit_y;
+          BattleUnit.getPosition.getZ unit unit_z;
+
+          battle_game.getTile unit_tile unit_x unit_y unit_z;
+
+          set cord_x unit_x;
+          set cord_y unit_y;
+          set cord_z unit_z;
+
+          set radius_doubled proximity_radius;
+          mul radius_doubled 2;
+          add radius_doubled 1;
+
+          set loop_lenght 2;
+
+          if neq cord_z 0;
+           sub cord_z 1;
+           add loop_lenght 1;
+          end;
+
+          sub cord_x proximity_radius;
+          sub cord_y proximity_radius;
+
+          loop var loop_z loop_lenght;
+           loop var loop_y radius_doubled;
+            loop var loop_x radius_doubled;
+             battle_game.getTile tile cord_x cord_y cord_z;
+             #debug_log "x: "  cord_x;
+             #debug_log "y: "  cord_y;
+             #debug_log "z: "  cord_z;
+
+             tile.getUnit target;
+             if neq target null;
+              BattleUnit.getFaction target faction;
+              if eq faction 0;
+               tile.getDistanceTile distance unit_tile;
+               #debug_log "distance: " distance;
+               #debug_log "radius: " proximity_radius;
+               if le distance proximity_radius;
+                BattleUnit.setSpawnUnitFaction unit FACTION_HOSTILE;
+                BattleUnit.setSpawnUnitInstantRespawn unit 1;
+                #debug_log "unit killed";
+                return;
+               end;
+              end;
+             end;
+
+             add cord_x 1;
+            end;
+            sub cord_x radius_doubled;
+            add cord_y 1;
+           end;
+           sub cord_y radius_doubled;
+           add cord_z 1;
+          end;
+
+
+         end;
+         return;
+      
+
+    
