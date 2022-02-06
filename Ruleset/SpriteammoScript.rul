@@ -218,6 +218,16 @@ items:
   - type: STR_UMBRELLA_MOSIN_NAGANT_MAG
     tags:
       AmmoNo: 1
+  - type: STR_WELROD
+    tags:
+      AmmoReSprite: 1
+  - type: STR_DELISLE_CARBINE_SNIPER
+    tags:
+      AmmoReSprite: 1
+  - type: STR_DELISLE_CARBINE_PARATROOPER
+    tags:
+      FoldStock: 1
+      AmmoReSprite: 1
 
 extended:
   tags:

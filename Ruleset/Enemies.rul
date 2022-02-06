@@ -75,6 +75,7 @@ items:
     battleType: 11
     armor: 40
     listOrder: 1000
+#########################
   - type: STR_HYBRID_CORPSE
     size: 0.4
     costSell: 30000
@@ -93,6 +94,20 @@ items:
     liveAlien: true
     costSell: 50000
     listOrder: 1006
+#########################
+  - type: STR_GLADIO_OPERATIVE_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1505
+    floorSprite: 1505
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
 
 #Enemies Use Same Corpses As Agents...Oops
 armors:
@@ -113,7 +128,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-      - 1.0
+      - 0.0
       - 1.0
       - 1.2
       - 1.6
@@ -196,7 +211,6 @@ armors:
 ####################
 ##### KGB D17 #####
 ##################
-
   - type: D17_SOLDIER
     spriteSheet: D17_SOLDIER.PCK
     spriteInv: inventory_D17_SOLDIER
@@ -263,7 +277,55 @@ armors:
       - 1.0
       - 1.0
     loftempsSet: [ 2 ]
-
+####################
+##### GLADIO #####
+##################
+  - type: GLADIO_OPERATIVE_M
+    spriteSheet: GLADIO_OPERATIVE.PCK
+    spriteInv: inventory_GLADIO_OPREATIVE_M
+    forcedTorso: 1
+    corpseBattle:
+      - STR_GLADIO_OPERATIVE_CORPSE
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 4
+    visibilityAtDark: 18
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 2 ]
+  - type: GLADIO_OPERATIVE_F
+    spriteSheet: GLADIO_OPERATIVE.PCK
+    spriteInv: inventory_GLADIO_OPREATIVE_F
+    forcedTorso: 2
+    corpseBattle:
+      - STR_GLADIO_OPERATIVE_CORPSE
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 4
+    visibilityAtDark: 18
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 2 ]
 
 units:
 ####################
@@ -524,17 +586,9 @@ units:
     aggression: 2
     builtInWeaponSets:
      -
-       - STR_COLT_M1911
-       - STR_COLT_M1911_MAG
-       - STR_COLT_M1911_MAG
-     -
-       - STR_SKORPION_VZ61
-       - STR_STECHKIN_APS_MAG
-       - STR_STECHKIN_APS_MAG
-     -
-       - STR_HIGH_STANDARD_HDM
-       - STR_HIGH_STANDARD_HDM_MAG
-       - STR_HIGH_STANDARD_HDM_MAG
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_LASER_PISTOL_BATTERY
   - type: STR_HYBRID_SHAPESHIFTER
     rank: STR_LIVE_LEADER
     race: STR_HYBRID
@@ -719,6 +773,79 @@ units:
        - STR_CAMERA_GUN
        - STR_LISTENING_DEVICE
 
+######################
+#####   GLADIO   #####
+######################
+  - type: STR_GLADIO_OPERATIVE_M
+    race: STR_OPERATION_GLADIO
+    stats:
+      tu: 60
+      stamina: 60
+      health: 60
+      bravery: 40
+      reactions: 65
+      firing: 55
+      throwing: 65
+      strength: 30
+      psiStrength: 100
+      psiSkill: 16
+      melee: 65
+    armor: GLADIO_OPERATIVE_M
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: 41
+    spotter: 2
+    intelligence: 6
+    aggression: 1
+    builtInWeaponSets:
+     -
+       - STR_WELROD
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+     -
+       - STR_DELISLE_CARBINE_SNIPER
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
+     -
+       - STR_DELISLE_CARBINE_PARATROOPER
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
+  - type: STR_GLADIO_OPERATIVE_F
+    race: STR_OPERATION_GLADIO
+    stats:
+      tu: 60
+      stamina: 60
+      health: 60
+      bravery: 40
+      reactions: 65
+      firing: 55
+      throwing: 65
+      strength: 30
+      psiStrength: 100
+      psiSkill: 16
+      melee: 65
+    armor: GLADIO_OPERATIVE_F
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: 44
+    spotter: 2
+    intelligence: 6
+    aggression: 1
+    builtInWeaponSets:
+     -
+       - STR_WELROD
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+     -
+       - STR_DELISLE_CARBINE_SNIPER
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
+     -
+       - STR_DELISLE_CARBINE_PARATROOPER
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
 
 alienRaces:
   - delete: STR_FLOATER
@@ -766,6 +893,16 @@ alienRaces:
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
+  - id: STR_OPERATION_GLADIO
+    members:
+      - STR_GLADIO_OPERATIVE_M
+      - STR_GLADIO_OPERATIVE_F
+      - STR_GLADIO_OPERATIVE_M
+      - STR_GLADIO_OPERATIVE_F
+      - STR_GLADIO_OPERATIVE_M
+      - STR_GLADIO_OPERATIVE_F
+      - STR_GLADIO_OPERATIVE_M
+      - STR_GLADIO_OPERATIVE_F
 
 research:
   - name: STR_THIN_MAN_INFILTRATOR
@@ -845,6 +982,13 @@ extraSprites:
     height: 720
     files:
       0: Resources/Enemies/Hybrid/HybridFemaleCivilianSpritesheet.png
+  - type: GLADIO_OPERATIVE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Enemies/Gladio/GladioOperativeSuitSpritesheet.png
   - type: inventory_THIN_MAN
     singleImage: true
     files:
@@ -869,6 +1013,14 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Enemies/Hybrid/Inventory/FEMALE_CIVILIAN_DISGUISE_INV.png
+  - type: inventory_GLADIO_OPREATIVE_M
+    singleImage: true
+    files:
+      0: Resources/Enemies/Gladio/Inventory/GLADIO_MALE_OPERATIVE_INV.png
+  - type: inventory_GLADIO_OPREATIVE_F
+    singleImage: true
+    files:
+      0: Resources/Enemies/Gladio/Inventory/GLADIO_FEMALE_OPERATIVE_INV.png
   - type: BIGOBS.PCK
     files:
       1500: Resources/Enemies/Thin Man/BIGOBS/bigOb_ThinMan_corpse.png
@@ -876,6 +1028,7 @@ extraSprites:
       1502: Resources/Enemies/D17 Officer/BIGOBS/D17OfficerCorpseBigob.png
       1503: Resources/Enemies/D17 Agent/BIGOBS/bigob_coat_corpse.png
       1504: Resources/Enemies/Hybrid/BIGOBS/bigOb_Hybrid_corpse.png
+      1505: Resources/Enemies/Gladio/BIGOBS/bigOb_Gladio_corpse.png
   - type: FLOOROB.PCK
     files:
       1500: Resources/Enemies/Thin Man/FLOOROBS/floorOb_ThinMan_corpse.png
@@ -883,6 +1036,7 @@ extraSprites:
       1502: Resources/Enemies/D17 Officer/FLOOROBS/D17OfficerCorpseFloorob.png
       1503: Resources/Enemies/D17 Agent/FLOOROBS/floorob_coat_corpse.png
       1504: Resources/Enemies/Hybrid/FLOOROBS/floorOb_Hybrid_corpse.png
+      1505: Resources/Enemies/Gladio/FLOOROBS/floorOb_Gladio_corpse.png
   - type: UFOPAEDIA_IMG_THIN_MAN
     singleImage: true
     width: 320
@@ -913,6 +1067,10 @@ extraStrings:
       STR_D17_AGENT: "D17 Agent"
       STR_HYBRID_CORPSE: "Hybrid Corpse"
       STR_HYBRID_SHAPESHIFTER: "Hybrid Shapeshifter"
+      STR_GLADIO_OPERATIVE_CORPSE: "Gladio Operative Corpse"
+      STR_GLADIO_OPERATIVE_M: "Male Gladio Operative"
+      STR_GLADIO_OPERATIVE_F: "Female Gladio Operative"
+      STR_OPERATION_GLADIO: "Operation: Gladio"
 
   - type: en-GB
     strings:
@@ -930,3 +1088,8 @@ extraStrings:
       STR_D17_AGENT: "D17 Agent"
       STR_HYBRID_CORPSE: "Hybrid Corpse"
       STR_HYBRID_SHAPESHIFTER: "Hybrid Shapeshifter"
+      STR_GLADIO_OPERATIVE_CORPSE: "Gladio Operative Corpse"
+      STR_GLADIO_OPERATIVE_M: "Male Gladio Operative"
+      STR_GLADIO_OPERATIVE_F: "Female Gladio Operative"
+      STR_OPERATION_GLADIO: "Operation: Gladio"
+
