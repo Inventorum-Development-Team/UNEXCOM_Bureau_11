@@ -2090,13 +2090,13 @@ items:
 
 # DeLisle Carbine Sniper
   - type: STR_DELISLE_CARBINE_SNIPER
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SNIPER_RIFLES, STR_SEMI_CONCEALED, STR_CONCEALED]
     size: 0.2
     requiresBuy:
       - STR_DELISLE_CARBINE_SNIPER
     costBuy: 4000
     costSell: 3400
-    weight: 9
+    weight: 10
     bigSprite: 904
     floorSprite: 904
     handSprite: 904
@@ -2138,7 +2138,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SEMI_CONCEALED, STR_CONCEALED]
     size: 0.2
     costSell: 4150
-    weight: 9
+    weight: 8
     bigSprite: 920
     floorSprite: 920
     handSprite: 920
