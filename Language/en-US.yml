@@ -41,6 +41,7 @@ en-US:
   STR_ALIEN_BASE_ASSAULT: "EVIDENCE RECOVERY OPERATION"
   STR_ALIEN_BASE_ASSAULT_BRIEFING: "Our eyes in the sky have found a possible site of unknown activity. Our mission is to identify and collect all of the evidence found within the area. There are no confirmation of armed enemies nearby yet, but you must exercise caution and be prepared for anything. The mission will end once all evidence pieces are recovered (or any suspects eliminated)"
 ##################################
+  STR_SPRING_ISLAND_BASE: "Spring Island"
   STR_CIA_AGENT: "CIA Agent"
   STR_FIELD_AGENT: "Field Agent"
   STR_SENIOR_AGENT: "Senior Agent"
@@ -322,9 +323,31 @@ en-US:
 
 ######################################
 
-  STR_EVIDENCE: "Evidence"
+#################################
+######## SIDE MISSIONS #########
+###############################
+
+  STR_CROP_CIRCLE_INVESTIGATION: "Crop Circle Investigation"
+  STR_CROP_CIRCLE_INVESTIGATION_SITES: "Crop Circle Investigation Sites"
+  STR_CROP_CIRCLES_UFO: "Crop Circle"
+  STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: "Crop Circle Investigation Site"
+  STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "We've been called to a local farm to conduct research on a mysterious figure made on the ground. The area has been cordoned by the State Police and we've given full jurisdiction."
   STR_CROP_CIRCLE_INVESTIGATION_RACE: "Crop Circle Samples"
+
+  STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
+  STR_CATTLE_MUTILATION_INVESTIGATION_SITES: "Crop Circle Investigation Sites"
+  STR_CATTLE_MUTILATION_UFO: "Cattle Mutilation Scene"
+  STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: "Crop Circle Investigation Site"
+  STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "A report of mauled cattle in a local area has been forwarded to us by the State autorities. We've called to investigate the area where livestock was found mutilated. Local police forces are looking for suspects around the zone."
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE: "Cattle Mutilation Samples"
+
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION: "Counter-Intelligence Operation"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: "Counter-Intelligence Op. Sites"
+  STR_KGB_HIDEOUT_UFO: "Suspected Hideout"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT: "Counter-Intelligence Op. Sites"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_DESCRIPTION: "A survilliance report conducted by FBI units has detected a suspected foreign 'hideout' inside an urban area. We've been deployed to detect said hideout, locate the building and determinate if the dwellers pose a threaht to national security. Be careful, they may be armed."
+
+  STR_EVIDENCE: "Evidence"
 #################################
 ######## CROP CIRCLES ##########
 ###############################
@@ -339,7 +362,6 @@ en-US:
   STR_PLASMA_RESIDUE_5: "Plasma Residue"
   STR_PLASMA_RESIDUE_6: "Plasma Residue"
   STR_RESIDUAL_FLUID: "Residual Fluid"
-  STR_CROP_CIRCLE_INVESTIGATION: "Crop Circle Investigation"
   STR_CROP_CIRCLE_REPORT: "Report: Crop Circle Investigation"
   STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence at one such site. Flammable chemical residue invasive to the environment was found at the scene. We theorize that this chemical was used to initiate a controlled burn that engraved the pattern. These patterns may be created by aliens to signal OETOs flying over head, though of what we are still unsure. While we suspect these are alien in nature, we have no conclusive evidence."
 ################################
@@ -371,7 +393,6 @@ en-US:
 ##############################
   STR_MUTILATED_CATTLE: "Mutilated Cattle"
   STR_SPLATTERED_BLOOD: "Splattered Blood"
-  STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
   STR_CATTLE_MUTILATION_REPORT: "Report: Cattle Mutilation Investigation"
   STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "An autopsy of the mutilated cattle, at least what was left of it when our agents arrived, indicates that despite the vicious outcome, the process of ripping these animals apart was meticulous. After reassembling what was left of the poor creature, we found burn marks at the seams. This would indicate that they were cut apart by a high powered laser. Several key organs were missing. Our current theory is that the aliens abducted these cattle and removed certain organs that they needed. For what, however, we remain unsure. Sustenance, scientific curiosity...as an aside, while they may have more sympathy for more intelligent life, this shows that they have the capacity for cruelty."
 #####################################
@@ -408,7 +429,7 @@ en-US:
   STR_UNCONCIOUS_CIVILIAN: "Unconcious Civilian"
   STR_MINOR_ABDUCTION_REPORT: "Report: Minor Abduction Incident"
   STR_MINOR_ABDUCTION_REPORT_UFOPEDIA: "Placeholder"
-
+#################################
   STR_RESEARCH_REPORTS_UC: "RESEARCH REPORTS"
   STR_SUPPRESSED_MUNITIONS_REPORT: "Report: Suppressed Munitions"
   STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA: "We have requisitioned sound suppressed weapons from the CIA for use in the field. While we are primarily a reconnissance group, we have had violent encounters with foreign intelligences both extraterrestrial and eastward directional. These should help for mission where we must remain undetected or there are too many witnessess, especially in populated urban areas. Otherwise, they are relatively inferior to the rest of our arsenal."

@@ -28,6 +28,13 @@ alienDeployments:
             - STR_MIND_PROBE
           -
             - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+      #desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 6
   - type: STR_MEDIUM_SCOUT
     civilians: 3
     height: 10
@@ -64,6 +71,13 @@ alienDeployments:
             - STR_MIND_PROBE
           -
             - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+      #desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 6
   - type: STR_LARGE_SCOUT
     civilians: 4
     height: 10
@@ -116,7 +130,13 @@ alienDeployments:
             - STR_MIND_PROBE
           -
             - STR_MIND_PROBE
-
+    briefing:
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+      #desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 6
 ###############################
 #### INVESTIGATION SITES #####
 #############################
@@ -160,7 +180,7 @@ alienDeployments:
     length: 40
     data: *EvidenceData
     briefing:
-      textOffset: -16
+      #textOffset: -16
       background: BACK01.SCR
       showTarget: true
       showCraft: true
@@ -168,6 +188,72 @@ alienDeployments:
       palette: 5
     markerName: STR_CATTLE_MUTILATION_INVESTIGATION
     markerIcon: 31
+
+  - type: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT
+    customUfo: STR_KGB_HIDEOUT_UFO
+    height: 10
+    width: 40
+    length: 40
+    data: 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+    terrains:
+      - EXPANDED_TERROR_UFO
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DESCRIPTION
+      palette: 2
+    markerName: STR_COUNTER_INTELLIGENCE_INVESTIGATION
+    markerIcon: 32
 
 ufos:
 #<delete>
@@ -202,7 +288,15 @@ missionScripts:
     missionWeights:
       0:
         STR_CROP_CIRCLE_INVESTIGATION_SITES: 100
-    startDelay: 150
+    startDelay: 10080 # 7 Days
+    targetBaseOdds: 100
+    useTable: false
+
+  - type: CounterIntelligenceInvestigationSitesScript
+    missionWeights:
+      0:
+        STR_CROP_CIRCLE_INVESTIGATION_SITES: 100
+    startDelay: 21600 # 15 Days
     targetBaseOdds: 100
     useTable: false
 
@@ -254,6 +348,29 @@ alienMissions:
 #        objective: true
     waves:
       - ufo: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT # spawn this site directly
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
+
+  - type: STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES
+    points: 50
+    objective: 2
+    siteType: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_D17_INFILTRATION: 100
+      1:
+        STR_D17_INFILTRATION: 100
+      3:
+        STR_D17_INFILTRATION: 100
+      6:
+        STR_D17_INFILTRATION: 100
+      9:
+        STR_D17_INFILTRATION: 100
+    waves:
+      - ufo: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT # spawn this site directly
         count: 1
         trajectory: STATIC_TRAJECTORY_BASE
         timer: 0

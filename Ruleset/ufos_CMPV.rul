@@ -93,12 +93,21 @@ ufos:
         - name: KGB_HIDEOUT01
           width: 10
           length: 10
-        - name: KGB_HIDEOUT01
+          items:
+            STR_TRANSMITTER:
+              - [ 2, 4, 0]
+        - name: KGB_HIDEOUT02
           width: 10
           length: 10
-        - name: KGB_HIDEOUT01
+          items:
+            STR_TRANSMITTER:
+              - [ 5, 4, 2]
+        - name: KGB_HIDEOUT03
           width: 10
           length: 10
+          items:
+            STR_TRANSMITTER:
+              - [ 3, 6, 2]
 
 #BEGIN MEDIUM SCOUT
   - type: STR_MEDIUM_SCOUT

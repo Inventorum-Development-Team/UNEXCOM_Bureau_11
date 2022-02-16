@@ -880,7 +880,7 @@ alienRaces:
       - STR_D17_AGENT
       - STR_D17_AGENT
       - STR_D17_AGENT
-      - STR_D17_AGENT
+      - STR_D17_SOLDIER
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
   - id: STR_D17_AMBUSH

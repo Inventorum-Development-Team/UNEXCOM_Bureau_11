@@ -25,7 +25,7 @@ ufopaedia:
 startingBase:
     lon: 5.077544745436402
     lat: -0.80112569599770145
-    name: Spring Island
+    name: STR_SPRING_ISLAND_BASE
     scientists: 5
     engineers: 5
     facilities:
