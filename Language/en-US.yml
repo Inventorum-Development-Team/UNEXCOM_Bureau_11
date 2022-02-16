@@ -20,6 +20,7 @@ en-US:
   STR_UFO_: "ACTIVITY SITE-{0}"
   STR_TAILING_UFO: "SEARCHING FOR SITES"
   STR_INTERCEPTING_UFO: "INTERCEPTING SITE-{0}"
+  STR_OPERATION_UC: "CASE CODENAME> {0}"
   STR_XCOM_PROJECT_MONTHLY_REPORT: "BUREAU 11 MONTHLY REPORT"
   STR_XCOM_OPERATIVES_KILLED: "BUREAU 11 AGENTS KILLED"
   STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "BUREAU 11 AGENTS M.I.A."
@@ -40,6 +41,8 @@ en-US:
   STR_ALIEN_BASE_RECOVERY: "EVIDENCE RECOVERY"
   STR_ALIEN_BASE_ASSAULT: "EVIDENCE RECOVERY OPERATION"
   STR_ALIEN_BASE_ASSAULT_BRIEFING: "Our eyes in the sky have found a possible site of unknown activity. Our mission is to identify and collect all of the evidence found within the area. There are no confirmation of armed enemies nearby yet, but you must exercise caution and be prepared for anything. The mission will end once all evidence pieces are recovered (or any suspects eliminated)"
+  STR_TERROR_CONTINUES: "Case still open"
+  STR_ALIENS_DEFEATED: "Case closed"
 ##################################
   STR_SPRING_ISLAND_BASE: "Spring Island"
   STR_CIA_AGENT: "CIA Agent"
@@ -335,9 +338,9 @@ en-US:
   STR_CROP_CIRCLE_INVESTIGATION_RACE: "Crop Circle Samples"
 
   STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
-  STR_CATTLE_MUTILATION_INVESTIGATION_SITES: "Crop Circle Investigation Sites"
+  STR_CATTLE_MUTILATION_INVESTIGATION_SITES: "Cattle Mutilation Investigation Sites"
   STR_CATTLE_MUTILATION_UFO: "Cattle Mutilation Scene"
-  STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: "Crop Circle Investigation Site"
+  STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: "Cattle Mutilation Investigation Site"
   STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "A report of mauled cattle in a local area has been forwarded to us by the State autorities. We've called to investigate the area where livestock was found mutilated. Local police forces are looking for suspects around the zone."
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE: "Cattle Mutilation Samples"
 
