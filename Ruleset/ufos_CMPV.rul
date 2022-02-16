@@ -81,6 +81,25 @@ ufos:
           width: 10
           length: 10
 
+  - type: STR_KGB_HIDEOUT_UFO
+    battlescapeTerrainData:
+      name: KGB_HIDEOUT_UFO
+      mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - SOVIET_FLAG
+        - URBAN
+      mapBlocks:
+        - name: KGB_HIDEOUT01
+          width: 10
+          length: 10
+        - name: KGB_HIDEOUT01
+          width: 10
+          length: 10
+        - name: KGB_HIDEOUT01
+          width: 10
+          length: 10
+
 #BEGIN MEDIUM SCOUT
   - type: STR_MEDIUM_SCOUT
     battlescapeTerrainData:
