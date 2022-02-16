@@ -151,9 +151,9 @@ items:
       - STR_ALIEN_WEAPON_OPERATION
     weight: 10
     costSell: 254080
-    bigSprite: 936
-    floorSprite: 936
-    handSprite: 936
+    bigSprite: 1936
+    floorSprite: 1936
+    handSprite: 1936
     meleeSound: 49
     power: 50
     damageType: 4
