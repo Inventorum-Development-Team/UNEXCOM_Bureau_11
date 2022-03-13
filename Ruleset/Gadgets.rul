@@ -62,12 +62,7 @@ items:
       name: STR_SNAP
       ammoSlot: 0
       arcing: false
-    damageAlter:
-      RandomType: 2
-      ToWound: 0.0
-      ToHealth: 0.0
-      ToStun: 1.0
-    snapRange: 2
+    snapRange: 6
     accuracySnap: 90
     tuSnap: 55
     battleType: 1
