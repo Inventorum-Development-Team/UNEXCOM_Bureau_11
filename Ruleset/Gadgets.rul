@@ -23,9 +23,9 @@ items:
     costBuy: 1800
     costSell: 1500
     weight: 8
-    bigSprite: 904
-    floorSprite: 904
-    handSprite: 904
+    bigSprite: 1904
+    floorSprite: 1904
+    handSprite: 1904
     painKiller: 6
     heal: 6
     stimulant: 6   
