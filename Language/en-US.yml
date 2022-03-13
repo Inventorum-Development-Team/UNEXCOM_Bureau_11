@@ -189,7 +189,7 @@ en-US:
 
   STR_STECHKIN_APS: "Stechkin APS"
   STR_STECHKIN_APS_MAG: "9x18mm Magazine (20x)"
-  STR_STECHKIN_APS_UFOPEDIA: "This pistol, a select fire handgun chambered in {ALT}9x18mm Makarov{ALT}, originating from the Soviet Union was originally designed for tank crews, however it has been adopted by Directorate 17 agents as thier standard side-arm. {NEWLINE}> Semi-Concealable"
+  STR_STECHKIN_APS_UFOPEDIA: "This pistol, a select fire handgun chambered in {ALT}9x18mm Makarov{ALT}, originating from the Soviet Union was originally designed for tank crews, however it has been adopted by Directorate 17 agents as thier standard side-arm."
 
   STR_SKORPION_VZ61: "Skorpion vz61"
   STR_SKORPION_VZ61_UFOPEDIA: "A Personal Defense Weapon manufactured in Czechoslovakia. This rendition, chambered in {ALT}9x18mm Makarov{ALT} instead of the traditional 7.58mm rounds, has made its way into the common ranks of Directorate 17."
