@@ -64,6 +64,9 @@ items:
       arcing: false
     damageAlter:
       RandomType: 2
+      ToWound: 0.0
+      ToHealth: 0.0
+      ToStun: 1.0
     snapRange: 2
     accuracySnap: 90
     tuSnap: 55
