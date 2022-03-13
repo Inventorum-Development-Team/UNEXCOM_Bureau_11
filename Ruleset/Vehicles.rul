@@ -90,7 +90,7 @@ crafts:
     costRent: 25000
     weapons: 1
     weaponTypes: 
-      - 3
+      - 1
     weaponStrings:
       - STR_AUXILLARY
     refuelRate: 75
