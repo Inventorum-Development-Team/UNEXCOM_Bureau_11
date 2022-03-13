@@ -281,7 +281,7 @@ craftWeapons:
     stats:
       avoidBonus: 25
   - type: STR_IMPROVED_SPY_CAMERA_UC
-    weaponType: 5
+    weaponType: 1
     sprite: 232
     hidePediaInfo: true
     sound: 0
