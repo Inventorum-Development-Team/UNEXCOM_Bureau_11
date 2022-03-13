@@ -278,7 +278,8 @@ items:
   - type: STR_LUPARA_M1897_SHELLS
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
-    costSell: 200
+    costBuy: 120
+    costSell: 100
     weight: 1
     bigSprite: 264
     floorSprite: 264
