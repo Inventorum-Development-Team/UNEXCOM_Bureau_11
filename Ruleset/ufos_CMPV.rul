@@ -1,6 +1,115 @@
-#BEGIN MEDIUM SCOUT
-ufos:
 
+ufos:
+#STORY UFOS
+  - type: STR_PROVING_GROUNDS_LARGE_SCOUT
+    battlescapeTerrainData:
+      name: PROVING_GROUNDS_LARGE_SCOUT
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - CRASHED_UFO_TILES
+      mapBlocks:
+        - name: UFO_CRASH_1_01
+          width: 30
+          length: 20
+  - type: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
+    battlescapeTerrainData:
+      name: NORISKA_KRASCHEN_MEDIUM_SCOUT
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - CRASHED_UFO_TILES
+      mapBlocks:
+        - name: UFO_CRASH_1_02
+          width: 10
+          length: 20
+  - type: STR_DISCOVERIES_LARGE_SCOUT
+    battlescapeTerrainData:
+      name: DISCOVERIES_LARGE_SCOUT
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - CRASHED_UFO_TILES
+      mapBlocks:
+        - name: UFO_CRASH_1_00
+          width: 20
+          length: 30
+            
+
+#SIDE MISSION UFOS
+
+  - type: STR_CROP_CIRCLES_UFO
+    battlescapeTerrainData:
+      name: CROP_CIRCLES_UFO
+      mapDataSets:
+        - BLANKS
+        - CROP_CIRCLE_EVIDENCE
+      mapBlocks:
+        - name: CROP_CIRCLES_UFO00
+          width: 10
+          length: 10
+        - name: CROP_CIRCLES_UFO01
+          width: 10
+          length: 10
+        - name: CROP_CIRCLES_UFO02
+          width: 10
+          length: 10
+        - name: CROP_CIRCLES_UFO03
+          width: 10
+          length: 10
+
+  - type: STR_CATTLE_MUTILATION_UFO
+    battlescapeTerrainData:
+      name: CATTLE_MUTILATION_UFO
+      mapDataSets:
+        - BLANKS
+        - CATTLE_MUTILATION_EVIDENCE
+      mapBlocks:
+        - name: CATTLE_MUTILATION_UFO00
+          width: 10
+          length: 10
+        - name: CATTLE_MUTILATION_UFO01
+          width: 10
+          length: 10
+        - name: CATTLE_MUTILATION_UFO02
+          width: 10
+          length: 10
+
+  - type: STR_KGB_HIDEOUT_UFO
+    battlescapeTerrainData:
+      name: KGB_HIDEOUT_UFO
+      mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - SOVIET_FLAG
+        - URBAN
+      mapBlocks:
+        - name: KGB_HIDEOUT01
+          width: 10
+          length: 10
+          items:
+            STR_TRANSMITTER:
+              - [ 2, 4, 0]
+        - name: KGB_HIDEOUT02
+          width: 10
+          length: 10
+          items:
+            STR_TRANSMITTER:
+              - [ 5, 4, 2]
+        - name: KGB_HIDEOUT03
+          width: 10
+          length: 10
+          items:
+            STR_TRANSMITTER:
+              - [ 3, 6, 2]
+
+#BEGIN MEDIUM SCOUT
   - type: STR_MEDIUM_SCOUT
     battlescapeTerrainData:
       name: UFO_110
@@ -131,162 +240,4 @@ ufos:
           length: 20
 #END LARGE SCOUT
 
-#BEGIN HARVESTER
-  - type: STR_CROP_CIRCLES_UFO
-    battlescapeTerrainData:
-      name: CROP_CIRCLES_UFO
-      mapDataSets:
-        - BLANKS
-        - CROP_CIRCLE_EVIDENCE
-      mapBlocks:
-        - name: CROP_CIRCLES_UFO00
-          width: 10
-          length: 10
-        - name: CROP_CIRCLES_UFO01
-          width: 10
-          length: 10
-        - name: CROP_CIRCLES_UFO02
-          width: 10
-          length: 10
-        - name: CROP_CIRCLES_UFO03
-          width: 10
-          length: 10
-#END HARVESTER
-
-#BEGIN ABDUCTOR
-  - type: STR_ABDUCTOR
-    battlescapeTerrainData:
-      name: UFO_140
-      mapDataSets:
-        - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_OPER2
-        - U_BITS
-        - UFOL83
-      mapBlocks:
-        - name: UFO_140
-          width: 20
-          length: 20
-        - name: UFO_140a
-          width: 20
-          length: 20
-        - name: UFO_140b
-          width: 20
-          length: 20
-        - name: UFO_140c
-          width: 20
-          length: 20
-        - name: UFO_140d
-          width: 20
-          length: 20
-        - name: UFO_140e
-          width: 20
-          length: 20
-        - name: UFO_140f
-          width: 20
-          length: 20
-        - name: UFO_140g
-          width: 20
-          length: 20
-        - name: UFO_140h
-          width: 20
-          length: 20
-        - name: UFO_140i
-          width: 20
-          length: 20
-#END ABDUCTOR
-
-#BEGIN TERROR SHIP
-  - type: STR_TERROR_SHIP
-    battlescapeTerrainData:
-      name: UFO_150
-      mapDataSets:
-        - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_PODS
-        - U_BITS
-        - UFOL83
-      mapBlocks:
-        - name: UFO_150
-          width: 30
-          length: 20
-        - name: UFO_150a
-          width: 20
-          length: 30
-        - name: UFO_150b
-          width: 30
-          length: 20
-        - name: UFO_150c
-          width: 20
-          length: 30
-        - name: UFO_150d
-          width: 30
-          length: 20
-        - name: UFO_150e
-          width: 20
-          length: 30
-        - name: UFO_150f
-          width: 30
-          length: 20
-        - name: UFO_150g
-          width: 20
-          length: 30
-#END TERROR SHIP
-
-#BEGIN BATTLESHIP
-  - type: STR_BATTLESHIP
-    battlescapeTerrainData:
-      name: UFO_160
-      mapDataSets:
-        - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_PODS
-        - U_BITS
-        - UFOL83
-      mapBlocks:
-        - name: UFO_160
-          width: 30
-          length: 30
-        - name: UFO_160a
-          width: 30
-          length: 30
-        - name: UFO_160b
-          width: 30
-          length: 30
-        - name: UFO_160c
-          width: 30
-          length: 30
-        - name: UFO_160d
-          width: 30
-          length: 30
-        - name: UFO_160e
-          width: 30
-          length: 30
-        - name: UFO_160f
-          width: 30
-          length: 30
-#END BATTLESHIP
-
-#BEGIN SUPPLY SHIP
-  - type: STR_SUPPLY_SHIP
-    battlescapeTerrainData:
-      name: UFO_170
-      mapDataSets:
-        - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_DISEC2
-        - U_BITS
-        - UFOL83
-      mapBlocks:
-        - name: UFO_170
-          width: 30
-          length: 20
-        - name: UFO_170a
-          width: 20
-          length: 30
-#END SUPPLY SHIP
 ##END UFOS

@@ -218,10 +218,17 @@ ufopaedia:
     requires:
       - STR_KGB_OFFICER_RECRUITMENT
     text: STR_OFFICER_COAT_UC_UFOPEDIA
+  - id: STR_AGENT_COAT_UC
+    type_id: 5
+    section: STR_OUTFITS
+    listOrder: 104
+    requires:
+      - STR_KGB_OFFICER_RECRUITMENT
+    text: STR_AGENT_COAT_UC_UFOPEDIA
   - id: STR_AUGMENTATION_SUIT_UC
     type_id: 5
     section: STR_OUTFITS
-    listOrder: 103
+    listOrder: 105
     requires:
       - STR_AUGMENTATION_SUIT
     text: STR_AUGMENTATION_SUIT_UC_UFOPEDIA
@@ -500,6 +507,27 @@ ufopaedia:
       - STR_COLLAPSIBLE_SMG
     text: STR_COLLAPSIBLE_SMG_UFOPEDIA
     listOrder: 230
+  - id: STR_WELROD
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_WELROD
+    text: STR_WELROD_UFOPEDIA
+    listOrder: 231
+  - id: STR_DELISLE_CARBINE_SNIPER
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_DELISLE_CARBINE_SNIPER
+    text: STR_DELISLE_CARBINE_SNIPER_UFOPEDIA
+    listOrder: 232
+  - id: STR_DELISLE_CARBINE_PARATROOPER
+    type_id: 4
+    section: STR_WEAPONS
+    requires:
+      - STR_DELISLE_CARBINE_PARATROOPER
+    text: STR_DELISLE_CARBINE_PARATROOPER_UFOPEDIA
+    listOrder: 233
 
   - id: STR_SUPPRESSED_MUNITIONS_REPORT
     type_id: 8
@@ -545,6 +573,15 @@ ufopaedia:
       - STR_ALIEN_WEAPON_OPERATION
     text: STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA
     listOrder: 226
+  - id: STR_GLADIO_MUNITIONS_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_WELROD
+      - STR_DELISLE_CARBINE_SNIPER
+#      - STR_DELISLE_CARBINE_PARATROOPER
+    text: STR_GLADIO_MUNITIONS_REPORT_UFOPEDIA
+    listOrder: 231
 
   - id: STR_THIN_MAN
     type_id: 7

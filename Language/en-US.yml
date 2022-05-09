@@ -20,6 +20,7 @@ en-US:
   STR_UFO_: "ACTIVITY SITE-{0}"
   STR_TAILING_UFO: "SEARCHING FOR SITES"
   STR_INTERCEPTING_UFO: "INTERCEPTING SITE-{0}"
+  STR_OPERATION_UC: "CASE CODENAME> {0}"
   STR_XCOM_PROJECT_MONTHLY_REPORT: "BUREAU 11 MONTHLY REPORT"
   STR_XCOM_OPERATIVES_KILLED: "BUREAU 11 AGENTS KILLED"
   STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "BUREAU 11 AGENTS M.I.A."
@@ -41,7 +42,10 @@ en-US:
   STR_ALIEN_BASE_RECOVERY: "EVIDENCE RECOVERY"
   STR_ALIEN_BASE_ASSAULT: "EVIDENCE RECOVERY OPERATION"
   STR_ALIEN_BASE_ASSAULT_BRIEFING: "Our eyes in the sky have found a possible site of unknown activity. Our mission is to identify and collect all of the evidence found within the area. There are no confirmation of armed enemies nearby yet, but you must exercise caution and be prepared for anything. The mission will end once all evidence pieces are recovered (or any suspects eliminated)"
+  STR_TERROR_CONTINUES: "Case still open"
+  STR_ALIENS_DEFEATED: "Case closed"
 ##################################
+  STR_SPRING_ISLAND_BASE: "Spring Island"
   STR_CIA_AGENT: "CIA Agent"
   STR_FIELD_AGENT: "Field Agent"
   STR_SENIOR_AGENT: "Senior Agent"
@@ -91,6 +95,8 @@ en-US:
   STR_ARMY_UNIFORM_UC_UFOPEDIA: "Standard issue US army uniform, used widely by our armed forces."
   STR_OFFICER_COAT_UC: "OFFICER COAT"
   STR_OFFICER_COAT_UC_UFOPEDIA: "This KGB officer coat provides a much needed morale boost, but restricts quick movement."
+  STR_AGENT_COAT_UC: "AGENT COAT"
+  STR_AGENT_COAT_UC_UFOPEDIA: "This is a discrete leather coat with protective lining that KGB agents wear to be discrete."
   STR_AUGMENTATION_SUIT: "Augmentation Suit"
   STR_AUGMENTATION_SUIT_UC: "AUGMENTATION SUIT"
   STR_AUGMENTATION_SUIT_UC_UFOPEDIA: "The Augmentation suit has in-built motors powered by an external battery that augment the wearer's strength and mobility and generate an energy shield that blocks incoming attacks."
@@ -102,6 +108,7 @@ en-US:
   STR_DAMAGE_MELEE: "CUTTING"
   STR_DAMAGE_ACID: "TOXIN"
   STR_DAMAGE_PLASMA_BEAM: "FLASH"
+  STR_DAMAGE_11: "ELECTRIC"
 ###################################
   STR_HIP_FIRE: "Hip Fire"
   STR_STEADY_SHOT: "Steady Shot"
@@ -183,7 +190,7 @@ en-US:
 
   STR_STECHKIN_APS: "Stechkin APS"
   STR_STECHKIN_APS_MAG: "9x18mm Magazine (20x)"
-  STR_STECHKIN_APS_UFOPEDIA: "This pistol, a select fire handgun chambered in {ALT}9x18mm Makarov{ALT}, originating from the Soviet Union was originally designed for tank crews, however it has been adopted by Directorate 17 agents as thier standard side-arm. {NEWLINE}> Semi-Concealable"
+  STR_STECHKIN_APS_UFOPEDIA: "This pistol, a select fire handgun chambered in {ALT}9x18mm Makarov{ALT}, originating from the Soviet Union was originally designed for tank crews, however it has been adopted by Directorate 17 agents as thier standard side-arm."
 
   STR_SKORPION_VZ61: "Skorpion vz61"
   STR_SKORPION_VZ61_UFOPEDIA: "A Personal Defense Weapon manufactured in Czechoslovakia. This rendition, chambered in {ALT}9x18mm Makarov{ALT} instead of the traditional 7.58mm rounds, has made its way into the common ranks of Directorate 17."
@@ -230,6 +237,16 @@ en-US:
 
   STR_COLLAPSIBLE_SMG: "Collapsible SMG"
   STR_COLLAPSIBLE_SMG_UFOPEDIA: "At first glance this weapon could be confused with a briefcase, however it can fold open to reveal a custom built integrally-suppressed {ALT}9x19mm Parabellum{ALT} SMG. Its design was heavily based off of the soviet counterpart our agents recovered in the field. Its unfamiliar shape may make it less accurate, but it is designed to be consistently accurate at longer ranges. {NEWLINE}>Concealable"
+
+  STR_WELROD: "Welrod"
+  STR_WELROD_UFOPEDIA: "This suppressed bolt-action {ALT}9x19mm Parabellum{ALT} pistol comes from our old friends from across the pond. It was intended to be used by resistance forces in Nazi occupied territories during World War II but has now found a place in Gladio counter-Soviet stay-behind forces in Europe, for better...or for worse. {NEWLINE}>Concealable"
+
+  STR_DELISLE_CARBINE_SNIPER: "DeLisle Sniper Carbine"
+  STR_DELISLE_CARBINE_SNIPER_UFOPEDIA: "The DeLisle Carbine is quite possibly one of the quietest firearms ever produced. The British carbine fires {ALT}.45 ACP{ALT} sub-sonic ammunition through a specially designed interal suppressor. This DeLisle Carbine has been specialized for long range sniping with a high-powered scope. {NEWLINE}>Concealable"
+
+  STR_DELISLE_CARBINE_PARATROOPER: "DeLisle Paratrooper Carbine"
+  STR_DELISLE_CARBINE_PARATROOPER_UFOPEDIA: "The DeLisle Carbine is quite possibly one of the quietest firearms ever produced. The British carbine fires {ALT}.45 ACP{ALT} sub-sonic ammunition through a specially designed interal suppressor. This compact DeLisle Carbine, modified with a folding stock, was orginally intended for use by Paratroopers. {NEWLINE}>Concealable"
+
 #########################################
   STR_GADGETS: "GADGETS AND GRENADES"
   STR_BANDAGES: "Bandages"
@@ -310,9 +327,31 @@ en-US:
 
 ######################################
 
-  STR_EVIDENCE: "Evidence"
+#################################
+######## SIDE MISSIONS #########
+###############################
+
+  STR_CROP_CIRCLE_INVESTIGATION: "Crop Circle Investigation"
+  STR_CROP_CIRCLE_INVESTIGATION_SITES: "Crop Circle Investigation Sites"
+  STR_CROP_CIRCLES_UFO: "Crop Circle"
+  STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: "Crop Circle Investigation Site"
+  STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "We've been called to a local farm to conduct research on a mysterious figure made on the ground. The area has been cordoned by the State Police and we've given full jurisdiction."
   STR_CROP_CIRCLE_INVESTIGATION_RACE: "Crop Circle Samples"
+
+  STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
+  STR_CATTLE_MUTILATION_INVESTIGATION_SITES: "Cattle Mutilation Investigation Sites"
+  STR_CATTLE_MUTILATION_UFO: "Cattle Mutilation Scene"
+  STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: "Cattle Mutilation Investigation Site"
+  STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "A report of mauled cattle in a local area has been forwarded to us by the State autorities. We've called to investigate the area where livestock was found mutilated. Local police forces are looking for suspects around the zone."
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE: "Cattle Mutilation Samples"
+
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION: "Counter-Intelligence Operation"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: "Counter-Intelligence Op. Sites"
+  STR_KGB_HIDEOUT_UFO: "Suspected Hideout"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT: "Counter-Intelligence Op. Sites"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_DESCRIPTION: "A survilliance report conducted by FBI units has detected a suspected foreign 'hideout' inside an urban area. We've been deployed to detect said hideout, locate the building and determinate if the dwellers pose a threaht to national security. Be careful, they may be armed."
+
+  STR_EVIDENCE: "Evidence"
 #################################
 ######## CROP CIRCLES ##########
 ###############################
@@ -327,7 +366,6 @@ en-US:
   STR_PLASMA_RESIDUE_5: "Plasma Residue"
   STR_PLASMA_RESIDUE_6: "Plasma Residue"
   STR_RESIDUAL_FLUID: "Residual Fluid"
-  STR_CROP_CIRCLE_INVESTIGATION: "Crop Circle Investigation"
   STR_CROP_CIRCLE_REPORT: "Report: Crop Circle Investigation"
   STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence at one such site. Flammable chemical residue invasive to the environment was found at the scene. We theorize that this chemical was used to initiate a controlled burn that engraved the pattern. These patterns may be created by aliens to signal OETOs flying over head, though of what we are still unsure. While we suspect these are alien in nature, we have no conclusive evidence."
 ################################
@@ -359,7 +397,6 @@ en-US:
 ##############################
   STR_MUTILATED_CATTLE: "Mutilated Cattle"
   STR_SPLATTERED_BLOOD: "Splattered Blood"
-  STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
   STR_CATTLE_MUTILATION_REPORT: "Report: Cattle Mutilation Investigation"
   STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "An autopsy of the mutilated cattle, at least what was left of it when our agents arrived, indicates that despite the vicious outcome, the process of ripping these animals apart was meticulous. After reassembling what was left of the poor creature, we found burn marks at the seams. This would indicate that they were cut apart by a high powered laser. Several key organs were missing. Our current theory is that the aliens abducted these cattle and removed certain organs that they needed. For what, however, we remain unsure. Sustenance, scientific curiosity...as an aside, while they may have more sympathy for more intelligent life, this shows that they have the capacity for cruelty."
 #####################################
@@ -374,6 +411,7 @@ en-US:
   STR_LISTENING_DEVICE_UFOPEDIA: "A recording radio with microphone, small enough to fit in the jacket without notice. It's used by Soviet agents to spy on private conversations and compile sensible information. It's overall appreance remembers a mix between a cigarette box and a phone "
   STR_TRANSMITTER: "KGB Transmitter"
   STR_KGB_TECH: "KGB Tech"
+  STR_KGB_TECH_REPORT: "Report: KGB Covert Ops Equipment"
   STR_KGB_TECH_INVESTIGATION: "KGB Tech Investigation"
   STR_KGB_TECH_REPORT_UFOPEDIA: "We now have evidence that Soviet intelligence are both aware of Bureau 11's existence and OETOs, and that they have been covertly monitoring us on our own soil. More violent encounters with agents operating under this Directorate 17 would be regrettable, but easy to cover up considering they offically don't exist. The devices we've recovered are very advanced, though we have little use for the advanced monitoring devices against the aliens, we have already begun the process of implementing the same concealed weapon technique the Soviets are using."
   STR_UMBRELLA_MOSIN_NAGANT: "Umbrella Mosin-Nagant"
@@ -393,7 +431,9 @@ en-US:
   STR_COMATOSE_ABDUCTEE_2: "Comatose Abductee"
   STR_COMATOSE_ABDUCTEE_3: "Comatose Abductee"
   STR_UNCONCIOUS_CIVILIAN: "Unconcious Civilian"
-
+  STR_MINOR_ABDUCTION_REPORT: "Report: Minor Abduction Incident"
+  STR_MINOR_ABDUCTION_REPORT_UFOPEDIA: "Placeholder"
+#################################
   STR_RESEARCH_REPORTS_UC: "RESEARCH REPORTS"
   STR_SUPPRESSED_MUNITIONS_REPORT: "Report: Suppressed Munitions"
   STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA: "We have requisitioned sound suppressed weapons from the CIA for use in the field. While we are primarily a reconnissance group, we have had violent encounters with foreign intelligences both extraterrestrial and eastward directional. These should help for mission where we must remain undetected or there are too many witnessess, especially in populated urban areas. Otherwise, they are relatively inferior to the rest of our arsenal."
@@ -408,6 +448,9 @@ en-US:
   STR_ALIEN_MUNITIONS_REPORT: "Report: Alien Munitions"
   STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA: "After thorough examiniation of the weapons wielded by the aliens and obtained by our agents, we have finally found out how to operate them. The basic principles are understood to us and most parts are analogous to ones we can produce, but the central reflective crystal has properties that cannot be replicated. The weapons shockingly resemble to ours in operation, similar to operating a magazine loading gun."
   STR_ALIEN_LASER_WEAPONS_REPORT_UFOPEDIA: "After carefully analyzing the fragments found of the laser weapons used by the invaders, we have concluded that they employ a large miniaturized power source that emits radiation. In other words, a mini nuclear reactor for each weapon. The minerals that power the reactor and the crystal that power the effect of the light beam emitted by the power source are not found in the periodic table and we consider them highly exotic. This radiation is not enough to kill a human being on contact, but a prolonged exposure will seriously increase the risk of cancer and poisoning."
+  STR_GLADIO_MUNITIONS_REPORT: "Report: Gladio Munitions"
+  STR_GLADIO_MUNITIONS_REPORT_UFOPEDIA: "The weapons Gladio were stockpiled by the CIA and various other intelligence agencies were intended to be used in the scenario of a Soviet invasion of Western Europe. These silenced weapons are designed to be used on clandestine operations where discretion is impreative. While they may look antique, these weapons are as deadly as ever in the right, or wrong hands."
+
 ##########################
   STR_FIELD_INVESTIGATIONS: "Field Investigations"
   STR_FIELD_INVESTIGATIONS_UFOPEDIA: "Our job as agents of Bureau 11, a branch of the CIA, is to conduct field research and investigate all potential threats against the United States, from inside and outside our borders. And now, from outside our planet. After picking reports of unknown activities, we will be deployed. Our most powerful weapons in those missions are our cunning and our cameras."
@@ -419,14 +462,30 @@ en-US:
   STR_AERIAL_RECON_UFOPEDIA: “The U-2 spy planes are used to get privileged access to intelligence otherwise impossible to obtain. Manned by USAF pilots working for the Agency, we can use the superior range and ability to get high resolution photos to find and identificate any potential invader activity or ground sites. Be especially careful in the deployment, though. The Soviets had already shot down an U-2 just a year before. Avoid entering the USSR as much as possible, they won't hesitate to launch Interceptors and SAMs.”
 
   STR_ENEMIES: "INTERROGATIONS AND AUTOPSIES"
+
+  STR_HYBRID_CIVILIAN: "Hybrid (Civilian)"
+  STR_D17: "KGB Directorate 17"
+  STR_D17_INFILTRATION: "KGB D17 Infiltration Team"
+  STR_D17_AMBUSH: "KGB D17 Ambush Specialists"
+
   STR_HYBRID: "Hybrid"
   STR_THIN_MAN: "Thin Man"
+  THIN_MAN_ARMOR: "Thin Man Outfit"
   STR_THIN_MAN_CORPSE: "Thin Man Carcass"
   STR_THIN_MAN_AUTOPSY: "Thin Man Autopsy"
   STR_THIN_MAN_AUTOPSY_UFOPAEDIA: "This creature is clearly a product of genetic engineering. It appears to be an attempted replication of a human, down to the DNA level. However, it appears to be imperfect with some eerie features such as reptilian eyes. Reports from the field indicate that they exerted some sort of mental control over the troops. Perhaps this is to assist in the disguise, or to improve the creature's combat power. Nevertheless, this is a dangerous creature that should not be underestimated."
   STR_THIN_MAN_INFILTRATOR: "Thin Man Infiltrator"
   STR_THIN_MAN_UFOPAEDIA: "The 'Thin Man' as it has been christened by our troops, appears to be a gaunt Cacucasian man, but sports eerie features such as reptilian eyes. Interrogation proved to be futile as it seemed to have an unconcious control over our researchers. A person of a more unprofessional background may refer to it as...telepathy. Sadly, it was terminated after it tried to escape."
-  STR_D17: "KGB Directorate 17"
+  STR_HYBRID_SHAPESHIFTER: "Hybrid Shapeshifter"
+  STR_HYBRID_CORPSE: "Hybrid Shapeshifter Carcass"
+  HYBRID_SHAPESHIFTER_ARMOR: "Shapeshifter Caparace"
+  HYBRID_DISGUISE_F_ARMOR: "Female Civiian"
+
+  STR_KGB_CORPSE: "KGB Corpse"
   STR_D17_SOLDIER: "D17 Soldier"
+  D17_SOLDIER: "Red Army Uniform"
   STR_D17_OFFICER: "D17 Officer"
+  D17_OFFICER: "KGB Officer Uniform"
+  STR_D17_AGENT: "D17 Agent"
+  D17_AGENT: "D17 Undercover Attire"
 ################################

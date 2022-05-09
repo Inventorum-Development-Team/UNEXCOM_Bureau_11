@@ -82,7 +82,7 @@ crafts:
       - [4, 2, 0, 0]
   - type: STR_U2_DRAGON_LADY
     sprite: 101
-    fuelMax: 800
+    fuelMax: 1800
     damageMax: 40
     speedMax: 420
     accel: 2
@@ -90,13 +90,13 @@ crafts:
     costRent: 25000
     weapons: 1
     weaponTypes: 
-      - 3
+      - 1
     weaponStrings:
       - STR_AUXILLARY
     refuelRate: 75
-    radarRange: 600
-    sightRange: 600
-    radarChance: 15
+    radarRange: 1000
+    sightRange: 1000
+    radarChance: 35
     transferTime: 96
     score: 250
   - type: STR_HUEY
@@ -281,7 +281,7 @@ craftWeapons:
     stats:
       avoidBonus: 25
   - type: STR_IMPROVED_SPY_CAMERA_UC
-    weaponType: 5
+    weaponType: 1
     sprite: 232
     hidePediaInfo: true
     sound: 0

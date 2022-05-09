@@ -48,7 +48,7 @@ itemCategories:
   - type: STR_ALIEN_ARTIFACT
     listOrder: 24
   - type: STR_VEHICLES
-    listOrder: 24
+    listOrder: 25
   - type: STR_BLANKS
     listOrder: 26
     hidden: true
@@ -278,7 +278,8 @@ items:
   - type: STR_LUPARA_M1897_SHELLS
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
-    costSell: 200
+    costBuy: 120
+    costSell: 100
     weight: 1
     bigSprite: 264
     floorSprite: 264
@@ -1658,7 +1659,7 @@ items:
     floorSprite: 712
     handSprite: 712
     bulletSprite: 30
-    hitAnimation: 102
+    hitAnimation: 100
     power: 40
     shotgunBehavior: 1
     shotgunPellets: 8
@@ -1666,7 +1667,7 @@ items:
     damageAlter:
       ToStun: 1.25
       FixRadius: 0
-    damageType: 6
+    damageType: 11
     clipSize: 10
     battleType: 2
     armor: 200
@@ -1731,7 +1732,7 @@ items:
     floorSprite: 736
     handSprite: 736
     hitSound: 13
-    hitAnimation: 102
+    hitAnimation: 110
     power: 120
     damageAlter:
       RandomType: 7
@@ -1792,7 +1793,7 @@ items:
     floorSprite: 760
     handSprite: 760
     hitSound: 19
-    hitAnimation: 103
+    hitAnimation: 120
     power: 65
     damageType: 4
     damageAlter:
@@ -1861,7 +1862,7 @@ items:
     floorSprite: 784
     handSprite: 784
     hitSound: 19
-    hitAnimation: 103
+    hitAnimation: 120
     power: 90
     damageType: 4
     damageAlter:
@@ -1922,7 +1923,7 @@ items:
     floorSprite: 808
     handSprite: 808
     hitSound: 19
-    hitAnimation: 103
+    hitAnimation: 120
     power: 125
     damageType: 4
     damageAlter:
@@ -2042,7 +2043,138 @@ items:
     twoHanded: false
     listOrder: 206
 
+# Welrod
+  - type: STR_WELROD
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    size: 0.1
+    requiresBuy:
+      - STR_WELROD
+    costBuy: 1100
+    costSell: 940
+    weight: 6
+    bigSprite: 888
+    floorSprite: 888
+    handSprite: 888
+    bulletSprite: 1
+    fireSound: 210 # HDM Sound; Maybe Get A Replacement?
+    reloadSound: 201
+    compatibleAmmo:
+      - STR_BROWNING_HP35_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 15
+    accuracyAimed: 110
+    tuAimed: 60
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 9
+    accuracySnap: 85
+    tuSnap: 35
+    accuracyCloseQuarters: 100
+    tuLoad: 20
+    maxRange: 60
+    dropoff: 1
+    kneelBonus: 115
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    listOrder: 200
 
+# DeLisle Carbine Sniper
+  - type: STR_DELISLE_CARBINE_SNIPER
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SNIPER_RIFLES, STR_SEMI_CONCEALED, STR_CONCEALED]
+    size: 0.2
+    requiresBuy:
+      - STR_DELISLE_CARBINE_SNIPER
+    costBuy: 4000
+    costSell: 3400
+    weight: 10
+    bigSprite: 904
+    floorSprite: 904
+    handSprite: 904
+    bulletSprite: 1
+    fireSound: 212
+    reloadSound: 209
+    compatibleAmmo:
+      - STR_COLT_M1911_MAG
+    confAimed:
+      shots: 1
+      name: STR_DEADEYE
+      ammoSlot: 0
+      arcing: false
+    aimRange: 20
+    accuracyAimed: 150
+    tuAimed: 65
+    confSnap:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    snapRange: 15
+    accuracySnap: 120
+    tuSnap: 40
+    accuracyCloseQuarters: 70
+    tuLoad: 20
+    maxRange: 60
+    kneelBonus: 125
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    listOrder: 202
+
+# DeLisle Carbine Paratrooper
+  - type: STR_DELISLE_CARBINE_PARATROOPER
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SEMI_CONCEALED, STR_CONCEALED]
+    size: 0.2
+    costSell: 4150
+    weight: 8
+    bigSprite: 920
+    floorSprite: 920
+    handSprite: 920
+    bulletSprite: 1
+    fireSound: 212
+    reloadSound: 209
+    compatibleAmmo:
+      - STR_COLT_M1911_MAG
+    confSnap:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    snapRange: 15
+    accuracySnap: 110
+    tuSnap: 45
+    confAuto:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      ammoSlot: 0
+      arcing: false
+    autoRange: 12
+    accuracyAuto: 80
+    tuAuto: 35
+    accuracyCloseQuarters: 90
+    tuLoad: 20
+    maxRange: 60
+    kneelBonus: 125
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    twoHanded: true
+    listOrder: 202
 
 manufacture:
   - delete: STR_TANK_LASER_CANNON
@@ -2100,6 +2232,18 @@ manufacture:
       STR_COLT_M1911_MAG: 1
     producedItems:
       STR_HEART_ATTACK_GUN_MAG: 1
+
+  - name: STR_DELISLE_CARBINE_PARATROOPER
+    category: STR_WEAPONS
+    space: 4
+    time: 30
+    cost: 10
+    requires:
+      - STR_DELISLE_CARBINE_PARATROOPER
+    requiredItems:
+      STR_DELISLE_CARBINE_SNIPER: 1
+    producedItems:
+      STR_DELISLE_CARBINE_PARATROOPER: 1
 
 research:
   - name: STR_LASER_WEAPONS
@@ -2249,6 +2393,25 @@ research:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
 #      - STR_SOVIET_BRIEFCASE_SMG
 
+  - name: STR_WELROD
+    cost: 50
+    points: 10
+    needItem: true
+
+  - name: STR_DELISLE_CARBINE_SNIPER
+    cost: 50
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_DELISLE_CARBINE_PARATROOPER
+
+  - name: STR_DELISLE_CARBINE_PARATROOPER
+    cost: 50
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_DELISLE_CARBINE_SNIPER
+
 extraSprites:
   - type: BIGOBS.PCK
     files:
@@ -2336,6 +2499,14 @@ extraSprites:
       848: Resources/Weapons/Collapsible SMG/Loaded_20_Big.png
       872: Resources/Weapons/Collapsible SMG/UnloadedFolded_Big.png
       880: Resources/Weapons/Collapsible SMG/LoadedFolded_20_Big.png
+      888: Resources/Weapons/Welrod/Unloaded_Big.png
+      896: Resources/Weapons/Welrod/Loaded_15_Big.png
+      904: Resources/Weapons/DeLisleCarbine_Sniper/Unloaded_Big.png
+      912: Resources/Weapons/DeLisleCarbine_Sniper/Loaded_7_Big.png
+      920: Resources/Weapons/DeLisleCarbine_Para/Unloaded_Big.png
+      928: Resources/Weapons/DeLisleCarbine_Para/Loaded_7_Big.png
+      952: Resources/Weapons/DeLisleCarbine_Para/UnloadedFolded_Big.png
+      960: Resources/Weapons/DeLisleCarbine_Para/LoadedFolded_7_Big.png
   - type: FLOOROB.PCK
     files:
       200: Resources/Weapons/Browning HP35/Unloaded_Floor.png
@@ -2420,6 +2591,14 @@ extraSprites:
       832: Resources/Weapons/Alien Siege Launcher/Mag_1_Floor.png
       840: Resources/Weapons/Collapsible SMG/Unloaded_Floor.png
       848: Resources/Weapons/Collapsible SMG/Loaded_20_Floor.png
+      888: Resources/Weapons/Welrod/Unloaded_Floor.png
+      896: Resources/Weapons/Welrod/Loaded_15_Floor.png
+      904: Resources/Weapons/DeLisleCarbine_Sniper/Unloaded_Floor.png
+      912: Resources/Weapons/DeLisleCarbine_Sniper/Loaded_7_Floor.png
+      920: Resources/Weapons/DeLisleCarbine_Para/Unloaded_Floor.png
+      928: Resources/Weapons/DeLisleCarbine_Para/Loaded_7_Floor.png
+#      952: Resources/Weapons/DeLisleCarbine_Para/UnloadedFolded_Floor.png
+#      960: Resources/Weapons/DeLisleCarbine_Para/LoadedFolded_7_Floor.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -2508,15 +2687,24 @@ extraSprites:
       832: Resources/Weapons/Alien Siege Launcher/Mag_1_Hand.png
       840: Resources/Weapons/Collapsible SMG/Unloaded_Hand.png
       848: Resources/Weapons/Collapsible SMG/Loaded_20_Hand.png
+      888: Resources/Weapons/Welrod/Unloaded_Hand.png
+      896: Resources/Weapons/Welrod/Loaded_15_Hand.png
+      904: Resources/Weapons/DeLisleCarbine_Sniper/Unloaded_Hand.png
+      912: Resources/Weapons/DeLisleCarbine_Sniper/Loaded_7_Hand.png
+      920: Resources/Weapons/DeLisleCarbine_Para/Unloaded_Hand.png
+      928: Resources/Weapons/DeLisleCarbine_Para/Loaded_7_Hand.png
+#      952: Resources/Weapons/DeLisleCarbine_Para/UnloadedFolded_Hand.png
+#      960: Resources/Weapons/DeLisleCarbine_Para/LoadedFolded_7_Hand.png
   - type: SMOKE.PCK
     height: 80
     width: 160
     subX: 32
     subY: 40
     files: # Yellow Laser = 36
-      101: Resources/Weapons/HitAnimations/HumanElectric_Hit.png
-      102: Resources/Weapons/HitAnimations/Railgun_Hit.png
-      103: Resources/Weapons/HitAnimations/RedLaser_Hit.png
+      100: Resources/Weapons/HitAnimations/HumanElectric_Hit.png
+      110: Resources/Weapons/HitAnimations/Railgun_Hit.png
+      120: Resources/Weapons/HitAnimations/RedLaser_Hit.png
+      130: Resources/Weapons/HitAnimations/CameraFlash_Hit.png
   - type: Projectiles
     height: 3
     width: 105

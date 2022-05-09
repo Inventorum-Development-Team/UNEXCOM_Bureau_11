@@ -3,8 +3,8 @@ items:
     size: 0.4
     costSell: 30000
     weight: 25
-    bigSprite: 1000
-    floorSprite: 1000
+    bigSprite: 1500
+    floorSprite: 1500
     invWidth: 2
     invHeight: 2
     recoveryPoints: 10
@@ -17,20 +17,172 @@ items:
     liveAlien: true
     costSell: 50000
     listOrder: 1001
+#########################
   - type: STR_D17_SOLDIER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 30000
     listOrder: 1002
+  - type: STR_D17_SOLDIER_CORPSE
+    name: STR_KGB_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1501
+    floorSprite: 1501
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
   - type: STR_D17_OFFICER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
     listOrder: 1003
+  - type: STR_D17_OFFICER_CORPSE
+    name: STR_KGB_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1502
+    floorSprite: 1502
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 30
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+  - type: STR_D17_AGENT
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 35000
+    listOrder: 1004
+  - type: STR_D17_AGENT_CORPSE
+    name: STR_KGB_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1503
+    floorSprite: 1503
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 20
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+#########################
+  - type: STR_HYBRID_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 1504
+    floorSprite: 1504
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1005
+  - type: STR_HYBRID_SHAPESHIFTER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+    listOrder: 1006
+#########################
+  - type: STR_GLADIO_OPERATIVE_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1505
+    floorSprite: 1505
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
 
+#Enemies Use Same Corpses As Agents...Oops
 armors:
+#######################
+##### SECTOIDS #######
+#####################
+  - type: SECTOID_ARMOR0
+    spriteSheet: SECTOID.PCK
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+    loftempsSet: [ 2 ]
+
+#####################
+##### HYBRIDS ######
+###################
+  - type: HYBRID_SHAPESHIFTER_ARMOR
+    spriteSheet: HYBRID_SHAPESHIFTER.PCK
+    spriteInv: inventory_HYBRID_SHAPESHIFTER
+    corpseBattle:
+      - STR_HYBRID_CORPSE
+    frontArmor: 18
+    sideArmor: 14
+    rearArmor: 14
+    underArmor: 12
+    visibilityAtDark: 24
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: HYBRID_DISGUISE_F_ARMOR
+    spriteSheet: HYBRID_DISGUISE_F.PCK
+    spriteInv: inventory_HYBRID_DISGUISE_F
+    corpseBattle:
+      - STR_HYBRID_CORPSE
+    frontArmor: 2
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    visibilityAtDark: 18
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 30.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 2 ]
+
   - type: THIN_MAN_ARMOR
     spriteSheet: THIN_MAN.PCK
     spriteInv: inventory_THIN_MAN
@@ -49,17 +201,21 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-      - 1.0
+      - 0.0
       - 1.0
       - 1.2
       - 1.6
       - 0.0
     loftempsSet: [ 2 ]
+
+####################
+##### KGB D17 #####
+##################
   - type: D17_SOLDIER
     spriteSheet: D17_SOLDIER.PCK
     spriteInv: inventory_D17_SOLDIER
     corpseBattle:
-      - STR_CORPSE_KGB
+      - STR_D17_SOLDIER_CORPSE
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -81,7 +237,78 @@ armors:
     spriteSheet: D17_OFFICER.PCK
     spriteInv: inventory_D17_OFFICER
     corpseBattle:
-      - STR_CORPSE_KGB
+      - STR_D17_OFFICER_CORPSE
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 4
+    visibilityAtDark: 18
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 2 ]
+  - type: D17_AGENT
+    spriteSheet: D17_AGENT.PCK
+    spriteInv: inventory_D17_AGENT
+    corpseBattle:
+      - STR_D17_AGENT_CORPSE
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 4
+    visibilityAtDark: 18
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 2 ]
+####################
+##### GLADIO #####
+##################
+  - type: GLADIO_OPERATIVE_M
+    spriteSheet: GLADIO_OPERATIVE.PCK
+    spriteInv: inventory_GLADIO_OPREATIVE_M
+    forcedTorso: 1
+    corpseBattle:
+      - STR_GLADIO_OPERATIVE_CORPSE
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 4
+    visibilityAtDark: 18
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 2 ]
+  - type: GLADIO_OPERATIVE_F
+    spriteSheet: GLADIO_OPERATIVE.PCK
+    spriteInv: inventory_GLADIO_OPREATIVE_F
+    forcedTorso: 2
+    corpseBattle:
+      - STR_GLADIO_OPERATIVE_CORPSE
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -101,9 +328,242 @@ armors:
     loftempsSet: [ 2 ]
 
 units:
+####################
+#### SECTOIDS #####
+##################
+
+  - type: STR_SECTOID_SOLDIER
+    race: STR_SECTOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 10
+    deathSound: 10
+    intelligence: 3
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_LASER_RIFLE
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+     -
+       - STR_ALIEN_LASER_RIFLE
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_LASER_RIFLE
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+  - type: STR_SECTOID_ENGINEER
+    race: STR_SECTOID
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 16
+    deathSound: 10
+    intelligence: 6
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_SIEGE_LAUNCHER
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+     -
+       - STR_ALIEN_SIEGE_LAUNCHER
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_SIEGE_LAUNCHER
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+       - STR_ALIEN_REACTIVE_GRENADE
+  - type: STR_SECTOID_MEDIC
+    race: STR_SECTOID
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 14
+    deathSound: 10
+    intelligence: 5
+    aggression: 1
+    builtInWeaponSets:
+     -
+       - STR_DEVIL_AXE
+       - STR_ALIEN_REACTIVE_GRENADE
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_DEVIL_AXE
+       - STR_ALIEN_REACTIVE_GRENADE
+       - STR_ALIEN_REACTIVE_GRENADE
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+  - type: STR_SECTOID_NAVIGATOR
+    race: STR_SECTOID
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 12
+    deathSound: 10
+    intelligence: 4
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_LASER_RIFLE
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+     -
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+  - type: STR_SECTOID_LEADER
+    race: STR_SECTOID
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 50
+      psiSkill: 50
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 20
+    deathSound: 10
+    intelligence: 7
+    aggression: 1
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_HEAVY_LASER
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+     -
+       - STR_ALIEN_HEAVY_LASER
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_LASER_RIFLE
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_LASER_RIFLE_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+  - type: STR_SECTOID_COMMANDER
+    race: STR_SECTOID
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 50
+      psiSkill: 60
+      melee: 76
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 25
+    deathSound: 10
+    intelligence: 8
+    aggression: 0
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_HEAVY_LASER
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+     -
+       - STR_ALIEN_HEAVY_LASER
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+     -
+       - STR_ALIEN_HEAVY_LASER
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_HEAVY_LASER_BATTERY
+       - STR_ALIEN_REACTIVE_GRENADE
+
+###################
+#### HYBRIDS #####
+#################
   - type: STR_THIN_MAN_INFILTRATOR
     race: STR_HYBRID
-    rank: STR_LIVE_LEADER
+    rank: STR_LIVE_COMMANDER
     stats:
       tu: 55
       stamina: 70
@@ -119,11 +579,91 @@ units:
     armor: THIN_MAN_ARMOR
     standHeight: 24
     kneelHeight: 16
-    value: 10
+    value: 30
     deathSound: 10
     spotter: 2
     intelligence: 8
     aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+  - type: STR_HYBRID_SHAPESHIFTER
+    rank: STR_LIVE_LEADER
+    race: STR_HYBRID
+    stats:
+      tu: 60
+      stamina: 80
+      health: 25
+      bravery: 110
+      reactions: 70
+      firing: 75
+      throwing: 75
+      strength: 30
+      psiStrength: 55
+      psiSkill: 0
+      melee: 60
+    armor: HYBRID_SHAPESHIFTER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: 9
+    intelligence: 6
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_COLT_M1911
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
+     -
+       - STR_BROWNING_HP35
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+     -
+       - STR_BROWNING_HP35
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+  - type: STR_HYBRID_DISGUISE_F
+    rank: STR_LIVE_NAVIGATOR
+    race: STR_HYBRID
+    stats:
+      tu: 50
+      stamina: 50
+      health: 80
+      bravery: 40
+      reactions: 45
+      firing: 50
+      throwing: 60
+      strength: 30
+      psiStrength: 55
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: HYBRID_DISGUISE_F_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    intelligence: 6
+    spawnUnit: STR_HYBRID_SHAPESHIFTER
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_COLT_M1911
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
+     -
+       - STR_BROWNING_HP35
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+     -
+       - STR_BROWNING_HP35
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+
+####################
+##### KGB D17 #####
+##################
+
   - type: STR_D17_SOLDIER
     race: STR_D17
     rank: STR_LIVE_SOLDIER
@@ -142,11 +682,24 @@ units:
     armor: D17_SOLDIER
     standHeight: 22
     kneelHeight: 14
-    value: 10
+    value: 5
     deathSound: 41
     spotter: 2
     intelligence: 5
     aggression: 3
+    builtInWeaponSets:
+     -
+       - STR_AK_47
+       - STR_AK_47_MAG
+       - STR_AK_47_MAG
+     -
+       - STR_AK_47
+       - STR_AK_47_MAG
+       - STR_AK_47_MAG
+     -
+       - STR_AK_47
+       - STR_AK_47_MAG
+       - STR_AK_47_MAG
   - type: STR_D17_OFFICER
     race: STR_D17
     rank: STR_LIVE_LEADER
@@ -165,11 +718,134 @@ units:
     armor: D17_OFFICER
     standHeight: 22
     kneelHeight: 14
-    value: 10
+    value: 5
     deathSound: 41
     spotter: 2
     intelligence: 7
     aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_SKORPION_VZ61
+       - STR_STECHKIN_APS_MAG
+       - STR_STECHKIN_APS_MAG
+     -
+       - STR_STECHKIN_APS
+       - STR_STECHKIN_APS_MAG
+       - STR_STECHKIN_APS_MAG
+     -
+       - STR_STECHKIN_APS
+       - STR_STECHKIN_APS_MAG
+       - STR_STECHKIN_APS_MAG
+  - type: STR_D17_AGENT
+    race: STR_D17
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 60
+      stamina: 60
+      health: 50
+      bravery: 90
+      reactions: 45
+      firing: 70
+      throwing: 60
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 70
+    armor: D17_AGENT
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: 41
+    spotter: 2
+    intelligence: 7
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_CAMERA_GUN
+       - STR_LISTENING_DEVICE
+     -
+       - STR_UMBRELLA_MOSIN_NAGANT
+       - STR_UMBRELLA_MOSIN_NAGANT_MAG
+       - STR_UMBRELLA_MOSIN_NAGANT_MAG
+       - STR_LISTENING_DEVICE
+     -
+       - STR_CAMERA_GUN
+       - STR_CAMERA_GUN
+       - STR_LISTENING_DEVICE
+
+######################
+#####   GLADIO   #####
+######################
+  - type: STR_GLADIO_OPERATIVE_M
+    race: STR_OPERATION_GLADIO
+    stats:
+      tu: 60
+      stamina: 60
+      health: 60
+      bravery: 40
+      reactions: 65
+      firing: 55
+      throwing: 65
+      strength: 30
+      psiStrength: 100
+      psiSkill: 16
+      melee: 65
+    armor: GLADIO_OPERATIVE_M
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: 41
+    spotter: 2
+    intelligence: 6
+    aggression: 1
+    builtInWeaponSets:
+     -
+       - STR_WELROD
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+     -
+       - STR_DELISLE_CARBINE_SNIPER
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
+     -
+       - STR_DELISLE_CARBINE_PARATROOPER
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
+  - type: STR_GLADIO_OPERATIVE_F
+    race: STR_OPERATION_GLADIO
+    stats:
+      tu: 60
+      stamina: 60
+      health: 60
+      bravery: 40
+      reactions: 65
+      firing: 55
+      throwing: 65
+      strength: 30
+      psiStrength: 100
+      psiSkill: 16
+      melee: 65
+    armor: GLADIO_OPERATIVE_F
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: 44
+    spotter: 2
+    intelligence: 6
+    aggression: 1
+    builtInWeaponSets:
+     -
+       - STR_WELROD
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+     -
+       - STR_DELISLE_CARBINE_SNIPER
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
+     -
+       - STR_DELISLE_CARBINE_PARATROOPER
+       - STR_COLT_M1911_MAG
+       - STR_COLT_M1911_MAG
 
 alienRaces:
   - delete: STR_FLOATER
@@ -177,26 +853,56 @@ alienRaces:
   - delete: STR_MUTON
   - delete: STR_ETHEREAL
   - delete: STR_MIXED
-  - id: STR_HYBRID
+  - id: STR_HYBRID_CIVILIAN
     members:
       - STR_THIN_MAN_INFILTRATOR
       - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
   - id: STR_D17
     members:
       - STR_D17_OFFICER
       - STR_D17_OFFICER
+      - STR_D17_AGENT
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
       - STR_D17_SOLDIER
+  - id: STR_D17_INFILTRATION
+    members:
+      - STR_D17_OFFICER
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
       - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+  - id: STR_D17_AMBUSH
+    members:
+      - STR_D17_OFFICER
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+  - id: STR_OPERATION_GLADIO
+    members:
+      - STR_GLADIO_OPERATIVE_M
+      - STR_GLADIO_OPERATIVE_F
+      - STR_GLADIO_OPERATIVE_M
+      - STR_GLADIO_OPERATIVE_F
+      - STR_GLADIO_OPERATIVE_M
+      - STR_GLADIO_OPERATIVE_F
+      - STR_GLADIO_OPERATIVE_M
+      - STR_GLADIO_OPERATIVE_F
 
 research:
   - name: STR_THIN_MAN_INFILTRATOR
@@ -212,7 +918,26 @@ research:
     needItem: true
     listOrder: 1001
 
+ufopaedia:
+  - id: STR_THIN_MAN
+    type_id: 7
+    section: STR_ENEMIES
+    requires:
+      - STR_THIN_MAN_INFILTRATOR
+    image_id: UFOPAEDIA_IMG_THIN_MAN
+    text: STR_THIN_MAN_UFOPAEDIA
+    text_width: 158
+    listOrder: 1000
 
+  - id: STR_THIN_MAN_AUTOPSY
+    type_id: 7
+    section: STR_ENEMIES
+    requires:
+      - STR_THIN_MAN_CORPSE
+    image_id: UFOPAEDIA_IMG_THIN_MAN_AUTOPSY
+    text: STR_THIN_MAN_AUTOPSY_UFOPAEDIA
+    text_width: 158
+    listOrder: 1001
 
 extraSprites:
   - type: THIN_MAN.PCK
@@ -236,6 +961,34 @@ extraSprites:
     height: 720
     files:
       0: Resources/Enemies/D17 Officer/D17OfficerSpritesheet.png
+  - type: D17_AGENT.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Enemies/D17 Agent/D17AgentSpritesheet.png
+  - type: HYBRID_SHAPESHIFTER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Enemies/Hybrid/HybridSpritesheet.png
+  - type: HYBRID_DISGUISE_F.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Enemies/Hybrid/HybridFemaleCivilianSpritesheet.png
+  - type: GLADIO_OPERATIVE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Enemies/Gladio/GladioOperativeSuitSpritesheet.png
   - type: inventory_THIN_MAN
     singleImage: true
     files:
@@ -248,16 +1001,42 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Enemies/D17 Officer/Inventory/D17_Officer_Inventory.png
+  - type: inventory_D17_AGENT
+    singleImage: true
+    files:
+      0: Resources/Enemies/D17 Agent/Inventory/D17_Agent_Inventory.png
+  - type: inventory_HYBRID_SHAPESHIFTER
+    singleImage: true
+    files:
+      0: Resources/Enemies/Hybrid/Inventory/HYBRID_INV.png
+  - type: inventory_HYBRID_DISGUISE_F
+    singleImage: true
+    files:
+      0: Resources/Enemies/Hybrid/Inventory/FEMALE_CIVILIAN_DISGUISE_INV.png
+  - type: inventory_GLADIO_OPREATIVE_M
+    singleImage: true
+    files:
+      0: Resources/Enemies/Gladio/Inventory/GLADIO_MALE_OPERATIVE_INV.png
+  - type: inventory_GLADIO_OPREATIVE_F
+    singleImage: true
+    files:
+      0: Resources/Enemies/Gladio/Inventory/GLADIO_FEMALE_OPERATIVE_INV.png
   - type: BIGOBS.PCK
     files:
-      1000: Resources/Enemies/Thin Man/BIGOBS/bigOb_ThinMan_corpse.png
-      1001: Resources/Enemies/D17 Soldier/BIGOBS/D17SoldierCorpseBigob.png
-      1002: Resources/Enemies/D17 Officer/BIGOBS/D17OfficerCorpseBigob.png
+      1500: Resources/Enemies/Thin Man/BIGOBS/bigOb_ThinMan_corpse.png
+      1501: Resources/Enemies/D17 Soldier/BIGOBS/D17SoldierCorpseBigob.png
+      1502: Resources/Enemies/D17 Officer/BIGOBS/D17OfficerCorpseBigob.png
+      1503: Resources/Enemies/D17 Agent/BIGOBS/bigob_coat_corpse.png
+      1504: Resources/Enemies/Hybrid/BIGOBS/bigOb_Hybrid_corpse.png
+      1505: Resources/Enemies/Gladio/BIGOBS/bigOb_Gladio_corpse.png
   - type: FLOOROB.PCK
     files:
-      1000: Resources/Enemies/Thin Man/FLOOROBS/floorOb_ThinMan_corpse.png
-      1001: Resources/Enemies/D17 Soldier/FLOOROBS/D17SoldierCorpseFloorob.png
-      1002: Resources/Enemies/D17 Officer/FLOOROBS/D17OfficerCorpseFloorob.png
+      1500: Resources/Enemies/Thin Man/FLOOROBS/floorOb_ThinMan_corpse.png
+      1501: Resources/Enemies/D17 Soldier/FLOOROBS/D17SoldierCorpseFloorob.png
+      1502: Resources/Enemies/D17 Officer/FLOOROBS/D17OfficerCorpseFloorob.png
+      1503: Resources/Enemies/D17 Agent/FLOOROBS/floorob_coat_corpse.png
+      1504: Resources/Enemies/Hybrid/FLOOROBS/floorOb_Hybrid_corpse.png
+      1505: Resources/Enemies/Gladio/FLOOROBS/floorOb_Gladio_corpse.png
   - type: UFOPAEDIA_IMG_THIN_MAN
     singleImage: true
     width: 320
@@ -271,4 +1050,46 @@ extraSprites:
     files: 
       0: Resources/Enemies/Thin Man/Ufopaedia/THIN_MAN_AUTOPSY.png
 
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ENEMIES: "INTERROGATIONS AND AUTOPSIES"
+      STR_HYBRID: "Hybrid"
+      STR_THIN_MAN: "Thin Man"
+      STR_THIN_MAN_CORPSE: "Thin Man Carcass"
+      STR_THIN_MAN_AUTOPSY: "Thin Man Autopsy"
+      STR_THIN_MAN_AUTOPSY_UFOPAEDIA: "This creature is clearly a product of genetic engineering. It appears to be an attempted replication of a human, down to the DNA level. However, it appears to be imperfect with some eerie features such as reptilian eyes. Reports from the field indicate that they exerted some sort of mental control over the troops. Perhaps this is to assist in the disguise, or to improve the creature's combat power. Nevertheless, this is a dangerous creature that should not be underestimated."
+      STR_THIN_MAN_INFILTRATOR: "Thin Man Infiltrator"
+      STR_THIN_MAN_UFOPAEDIA: "The 'Thin Man' as it has been christened by our troops, appears to be a gaunt Cacucasian man, but sports eerie features such as reptilian eyes. Interrogation proved to be futile as it seemed to have an unconcious control over our researchers. A person of a more unprofessional background may refer to it as...telepathy. Sadly, it was terminated after it tried to escape."
+      STR_D17: "KGB Directorate 17"
+      STR_D17_SOLDIER: "D17 Soldier"
+      STR_D17_OFFICER: "D17 Officer"
+      STR_D17_AGENT: "D17 Agent"
+      STR_HYBRID_CORPSE: "Hybrid Corpse"
+      STR_HYBRID_SHAPESHIFTER: "Hybrid Shapeshifter"
+      STR_GLADIO_OPERATIVE_CORPSE: "Gladio Operative Corpse"
+      STR_GLADIO_OPERATIVE_M: "Male Gladio Operative"
+      STR_GLADIO_OPERATIVE_F: "Female Gladio Operative"
+      STR_OPERATION_GLADIO: "Operation: Gladio"
+
+  - type: en-GB
+    strings:
+      STR_ENEMIES: "INTERROGATIONS AND AUTOPSIES"
+      STR_HYBRID: "Hybrid"
+      STR_THIN_MAN: "Thin Man"
+      STR_THIN_MAN_CORPSE: "Thin Man Carcass"
+      STR_THIN_MAN_AUTOPSY: "Thin Man Autopsy"
+      STR_THIN_MAN_AUTOPSY_UFOPAEDIA: "This creature is clearly a product of genetic engineering. It appears to be an attempted replication of a human, down to the DNA level. However, it appears to be imperfect with some eerie features such as reptilian eyes. Reports from the field indicate that they exerted some sort of mental control over the troops. Perhaps this is to assist in the disguise, or to improve the creature's combat power. Nevertheless, this is a dangerous creature that should not be underestimated."
+      STR_THIN_MAN_INFILTRATOR: "Thin Man Infiltrator"
+      STR_THIN_MAN_UFOPAEDIA: "The 'Thin Man' as it has been christened by our troops, appears to be a gaunt Cacucasian man, but sports eerie features such as reptilian eyes. Interrogation proved to be futile as it seemed to have an unconcious control over our researchers. A person of a more unprofessional background may refer to it as...telepathy. Sadly, it was terminated after it tried to escape."
+      STR_D17: "KGB Directorate 17"
+      STR_D17_SOLDIER: "D17 Soldier"
+      STR_D17_OFFICER: "D17 Officer"
+      STR_D17_AGENT: "D17 Agent"
+      STR_HYBRID_CORPSE: "Hybrid Corpse"
+      STR_HYBRID_SHAPESHIFTER: "Hybrid Shapeshifter"
+      STR_GLADIO_OPERATIVE_CORPSE: "Gladio Operative Corpse"
+      STR_GLADIO_OPERATIVE_M: "Male Gladio Operative"
+      STR_GLADIO_OPERATIVE_F: "Female Gladio Operative"
+      STR_OPERATION_GLADIO: "Operation: Gladio"
 

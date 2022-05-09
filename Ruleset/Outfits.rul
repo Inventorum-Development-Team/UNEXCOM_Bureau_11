@@ -29,11 +29,21 @@ items:
     armor: 50
     recover: false
     battleType: 11
-  - type: STR_CORPSE_AUG
+  - type: STR_CORPSE_KGBALT
     name: STR_CORPSE
     weight: 60
     bigSprite: 503
     floorSprite: 503
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
+    battleType: 11
+  - type: STR_CORPSE_AUG
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 804
+    floorSprite: 804
     invWidth: 2
     invHeight: 3
     armor: 50
@@ -145,6 +155,46 @@ armors:
     storeItem: STR_NONE
     corpseBattle:
       - STR_CORPSE_KGB
+    loftempsSet: [ 3 ]
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166]
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: -5
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    units:
+      - STR_KGB_OFFICER
+  - type: STR_AGENT_COAT_UC
+    spriteSheet: AGENT_COAT.PCK
+    spriteInv: MAN_KGBALT
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_KGBALT
     loftempsSet: [ 3 ]
     frontArmor: 8
     sideArmor: 8
@@ -331,6 +381,39 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Outfits/Officer_Coat/Inventory/MAN_M3.png
+  # Agent Coat
+  - type: MAN_KGBALTF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_F0.png
+  - type: MAN_KGBALTF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_F1.png
+  - type: MAN_KGBALTF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_F2.png
+  - type: MAN_KGBALTF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_F3.png
+  - type: MAN_KGBALTM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_M0.png
+  - type: MAN_KGBALTM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_M1.png
+  - type: MAN_KGBALTM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_M2.png
+  - type: MAN_KGBALTM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Outfits/KGB_Agent_Coat/Inventory/MAN_M3.png
   # Augmentation Suit Inv
   - type: MAN_AUGF0.SPK
     singleImage: true
@@ -389,6 +472,14 @@ extraSprites:
     files:
       # Agent Suit Spritesheet
       0: Resources/Outfits/Officer_Coat/Coat.png
+  - type: AGENT_COAT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      # Agent Suit Spritesheet
+      0: Resources/Outfits/KGB_Agent_Coat/CoatSpritesheet.png
   - type: AUGMENTATION_SUIT.PCK
     width: 512
     height: 720
@@ -405,8 +496,10 @@ extraSprites:
       501: Resources/Outfits/Army_Uniform/Corpse/Uniform_Big.png
       # Officer Coat Corpse Bigob
       502: Resources/Outfits/Officer_Coat/Corpse/Coat_Big.png
+      # Agent Coat Corpse Bigob
+      503: Resources/Outfits/KGB_Agent_Coat/Corpse/bigob_coat_corpse.png
       # Augmentation Suit Corpse Bigob
-      503: Resources/Outfits/Augmentation_Suit/Corpse/Corpse_Big.png
+      804: Resources/Outfits/Augmentation_Suit/Corpse/Corpse_Big.png
       955: Resources/Outfits/Augmentation_Suit/Backpack_Big.png
   - type: FLOOROB.PCK
     files:
@@ -416,6 +509,8 @@ extraSprites:
       501: Resources/Outfits/Army_Uniform/Corpse/Uniform_Floor.png
       # Officer Coat Corpse Floorob
       502: Resources/Outfits/Officer_Coat/Corpse/Coat_Floor.png
+      # Agent Coat Corpse Bigob
+      503: Resources/Outfits/KGB_Agent_Coat/Corpse/floorob_coat_corpse.png
       # Augmentation Suit Corpse Floorob
-      503: Resources/Outfits/Augmentation_Suit/Corpse/Corpse_Floor.png
+      804: Resources/Outfits/Augmentation_Suit/Corpse/Corpse_Floor.png
 
