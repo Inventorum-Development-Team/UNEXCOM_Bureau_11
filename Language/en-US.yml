@@ -35,6 +35,7 @@ en-US:
   STR_COUNCIL_IS_GENERALLY_SATISFIED: "The CIA is generally satisfied with with your progress so far."
   STR_COUNCIL_IS_VERY_PLEASED: "The CIA is very pleased with your excellent progress and has justified your continued funding."
   STR_COUNCIL_IS_DISSATISFIED: "The CIA is dissatisfied with your performance and is considering discontinuing your funding."
+  STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Bureau 11 agents in {0} have located a site of interest."
   STR_ALIEN_BASE_STILL_INTACT: "Evidence recovery halted"
   STR_ALIEN_BASE_DESTROYED: "Evidence recovery successful"
   STR_ALIEN_BASE_RECOVERY: "EVIDENCE RECOVERY"
