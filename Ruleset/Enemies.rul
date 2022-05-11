@@ -853,6 +853,28 @@ alienRaces:
   - delete: STR_MUTON
   - delete: STR_ETHEREAL
   - delete: STR_MIXED
+################################
+  - id: STR_WHISPERS_TEAM
+    members:
+      - STR_SECTOID_LEADER
+      - STR_THIN_MAN_INFILTRATOR
+      - STR_THIN_MAN_INFILTRATOR
+      - STR_THIN_MAN_INFILTRATOR
+      - STR_THIN_MAN_INFILTRATOR
+      - STR_THIN_MAN_INFILTRATOR
+      - STR_GLADIO_OPERATIVE_M
+      - STR_GLADIO_OPERATIVE_F
+  - id: STR_WHISPERS_TEAM
+    members:
+      - STR_SECTOID_LEADER
+      - STR_THIN_MAN_INFILTRATOR
+      - STR_THIN_MAN_INFILTRATOR
+      - STR_THIN_MAN_INFILTRATOR
+      - STR_THIN_MAN_INFILTRATOR
+      - STR_THIN_MAN_INFILTRATOR
+      - STR_GLADIO_OPERATIVE_M
+      - STR_GLADIO_OPERATIVE_F
+################################
   - id: STR_HYBRID_CIVILIAN
     members:
       - STR_THIN_MAN_INFILTRATOR
@@ -903,6 +925,7 @@ alienRaces:
       - STR_GLADIO_OPERATIVE_F
       - STR_GLADIO_OPERATIVE_M
       - STR_GLADIO_OPERATIVE_F
+
 
 research:
   - name: STR_THIN_MAN_INFILTRATOR

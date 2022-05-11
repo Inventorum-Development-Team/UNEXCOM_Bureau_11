@@ -60,171 +60,171 @@
 # Example of a mod where the script is used: https://github.com/Inventorum-Development-Team/CTO
 
 items:
-  - type: STR_BROWNING_HP35
+  - type: STR_BROWNING_HP35 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_BROWNING_HP35_MAG
+  - type: STR_BROWNING_HP35_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_COLT_M1911
+  - type: STR_COLT_M1911 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_COLT_M1911_MAG
+  - type: STR_COLT_M1911_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_LUPARA_M1897
+  - type: STR_LUPARA_M1897 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_LUPARA_M1897_SHELLS
+  - type: STR_LUPARA_M1897_SHELLS # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_UNITED_DEFENSE_M42
+  - type: STR_UNITED_DEFENSE_M42 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_UNITED_DEFENSE_M42_20_MAG
+  - type: STR_UNITED_DEFENSE_M42_20_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_UNITED_DEFENSE_M42_50_MAG
+  - type: STR_UNITED_DEFENSE_M42_50_MAG # ignoreDuplicate
     tags:
       AmmoNo: 2
-  - type: STR_SPRINGFIELD_M2
+  - type: STR_SPRINGFIELD_M2 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_SPRINGFIELD_M2_15_MAG
+  - type: STR_SPRINGFIELD_M2_15_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_SPRINGFIELD_M2_30_MAG
+  - type: STR_SPRINGFIELD_M2_30_MAG # ignoreDuplicate
     tags:
       AmmoNo: 2
-  - type: STR_HIGH_STANDARD_HDM
+  - type: STR_HIGH_STANDARD_HDM # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_HIGH_STANDARD_HDM_MAG
+  - type: STR_HIGH_STANDARD_HDM_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_BERETTA_M12
+  - type: STR_BERETTA_M12 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_M3_GREASEGUN
+  - type: STR_M3_GREASEGUN # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_M3_GREASEGUN_MAG
+  - type: STR_M3_GREASEGUN_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_M60_HOG
+  - type: STR_M60_HOG # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_M60_HOG_MAG
+  - type: STR_M60_HOG_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_M79_THUMPER
+  - type: STR_M79_THUMPER # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_M79_THUMPER_GRENADE
+  - type: STR_M79_THUMPER_GRENADE # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_ITHACA_37
+  - type: STR_ITHACA_37 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_ITHACA_37_SHELLS
+  - type: STR_ITHACA_37_SHELLS # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_SPRINGFIELD_M14
+  - type: STR_SPRINGFIELD_M14 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_SPRINGFIELD_M14_MAG
+  - type: STR_SPRINGFIELD_M14_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_SPRINGFIELD_M1903A3
+  - type: STR_SPRINGFIELD_M1903A3 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_SPRINGFIELD_M1903A3_CLIP
+  - type: STR_SPRINGFIELD_M1903A3_CLIP # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_COLT_AR15
+  - type: STR_COLT_AR15 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_COLT_AR15_MAG
+  - type: STR_COLT_AR15_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
 
-  - type: STR_STECHKIN_APS
+  - type: STR_STECHKIN_APS # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_STECHKIN_APS_MAG
+  - type: STR_STECHKIN_APS_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_SKORPION_VZ61
+  - type: STR_SKORPION_VZ61 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_AK_47
+  - type: STR_AK_47 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_AK_47_MAG
+  - type: STR_AK_47_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_WINCHESTER_MODEL_12
+  - type: STR_WINCHESTER_MODEL_12 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_FN_FAL
+  - type: STR_FN_FAL # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_CARL_GUSTAF_M45
+  - type: STR_CARL_GUSTAF_M45 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_STURM_EKANONE
+  - type: STR_STURM_EKANONE # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_STURM_EKANONE_BATTERY
+  - type: STR_STURM_EKANONE_BATTERY # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_VIKHR_ELECTROMAGNETIC_RIFLE
+  - type: STR_VIKHR_ELECTROMAGNETIC_RIFLE # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+  - type: STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG # ignoreDuplicate
     tags: 
       AmmoNo: 1
-  - type: STR_ALIEN_LASER_PISTOL
+  - type: STR_ALIEN_LASER_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_ALIEN_LASER_PISTOL_BATTERY
+  - type: STR_ALIEN_LASER_PISTOL_BATTERY # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_ALIEN_LASER_RIFLE
+  - type: STR_ALIEN_LASER_RIFLE # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_ALIEN_LASER_RIFLE_BATTERY
+  - type: STR_ALIEN_LASER_RIFLE_BATTERY # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_HEAVY_ALIEN_LASER
+  - type: STR_HEAVY_ALIEN_LASER # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_HEAVY_ALIEN_LASER_BATTERY
+  - type: STR_HEAVY_ALIEN_LASER_BATTERY # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_ALIEN_SIEGE_LAUNCHER
+  - type: STR_ALIEN_SIEGE_LAUNCHER # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_ALIEN_SIEGE_LAUNCHER_SHELL
+  - type: STR_ALIEN_SIEGE_LAUNCHER_SHELL # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_COLLAPSIBLE_SMG
+  - type: STR_COLLAPSIBLE_SMG # ignoreDuplicate
     tags:
       FoldStock: 1
       AmmoReSprite: 1
-  - type: STR_UMBRELLA_MOSIN_NAGANT
+  - type: STR_UMBRELLA_MOSIN_NAGANT # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_UMBRELLA_MOSIN_NAGANT_MAG
+  - type: STR_UMBRELLA_MOSIN_NAGANT_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_WELROD
+  - type: STR_WELROD # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_DELISLE_CARBINE_SNIPER
+  - type: STR_DELISLE_CARBINE_SNIPER # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_DELISLE_CARBINE_PARATROOPER
+  - type: STR_DELISLE_CARBINE_PARATROOPER # ignoreDuplicate
     tags:
       FoldStock: 1
       AmmoReSprite: 1

@@ -120,7 +120,7 @@ items:
     battleType: 11
     invWidth: 1
     invHeight: 1
-  - type: STR_COMATOSE_ABDUCTEE_1
+  - type: STR_COMATOSE_ABDUCTEE_2
     name: STR_UNCONCIOUS_CIVILIAN
     weight: 10
     bigSprite: 1010
@@ -131,7 +131,7 @@ items:
     battleType: 11
     invWidth: 1
     invHeight: 1
-  - type: STR_COMATOSE_ABDUCTEE_1
+  - type: STR_COMATOSE_ABDUCTEE_3
     name: STR_UNCONCIOUS_CIVILIAN
     weight: 10
     bigSprite: 1011

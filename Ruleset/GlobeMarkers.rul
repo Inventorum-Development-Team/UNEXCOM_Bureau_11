@@ -7,7 +7,7 @@ extraSprites:
     subY: 7
     files:
       0: Resources/GlobeMarkers/BaseGlobeMarkers.png
-  - type: GlobeMarkers
+  - type: GlobeMarkers # ignoreDuplicate
     width: 216
     height: 7
     subX: 7

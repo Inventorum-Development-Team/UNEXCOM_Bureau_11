@@ -37,10 +37,150 @@ ufos:
         - U_BITS
         - CRASHED_UFO_TILES
       mapBlocks:
-        - name: UFO_CRASH_1_00
+        - name: UFO_CRASH_1_03
+          width: 30
+          length: 30
+
+  - type: STR_HIDE_AND_SEEK_VAN
+    battlescapeTerrainData:
+      name: HIDE_AND_SEEK_VAN
+      mapDataSets:
+        - BLANKS
+        - GMC_Van2
+      mapBlocks:
+        - name: HIDE_AND_SEEK_VAN
+          width: 10
+          length: 10
+
+  - type: STR_SPIDERWEB_LARGE_SCOUT
+    battlescapeTerrainData:
+      name: SPIDERWEB_LARGE_SCOUT
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - SPIDERWEB_DEVICE1
+        - SPIDERWEB_DEVICE2
+        - GRAVLIFT_BEAM
+      mapBlocks:
+        - name: UFO_SPIDERWEB
+          width: 20
+          length: 20
+
+  - type: STR_WHISPERS_SAFEHOUSE_UFO
+    battlescapeTerrainData:
+      name: WHISPERS_SAFEHOUSE_UFO
+      mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - URBAN
+        - Cadillac
+      mapBlocks:
+        - name: WHISPERS_SAFEHOUSE
+          width: 20
+          length: 10
+          items:
+            STR_CORPSE_SUIT_DUMMY:
+              - [ 4, 3, 0]
+              - [ 5, 3, 1]
+              - [ 1, 2, 1]
+              - [ 7, 4, 1]
+              - [ 6, 4, 2]
+              - [ 7, 0, 2]
+              - [ 1, 5, 2]
+              - [ 7, 4, 3]
+              - [ 1, 1, 3]
+              - [ 5, 3, 4]
+            STR_GLADIO_OPERATIVE_CORPSE_DUMMY:
+              - [ 5, 3, 1]
+              - [ 1, 3, 1]
+              - [ 4, 2, 2]
+              - [ 4, 3, 3]
+              - [ 7, 6, 1]
+            STR_ALIEN_LASER_PISTOL:
+              - [ 1, 3, 1]
+              - [ 4, 2, 2]
+              - [ 4, 3, 3]
+            STR_ALIEN_LASER_PISTOL_BATTERY:
+              - [ 1, 3, 1]
+              - [ 4, 2, 2]
+              - [ 4, 3, 3]
+            STR_WELROD:
+              - [ 5, 3, 1]
+              - [ 7, 6, 1]
+              - [ 7, 5, 2]
+              - [ 6, 4, 2]
+            STR_BROWNING_HP35_MAG:
+              - [ 5, 3, 1]
+              - [ 7, 6, 1]
+              - [ 7, 5, 2]
+              - [ 6, 4, 2]
+            STR_HEART_ATTACK_GUN:
+              - [ 5, 3, 1]
+              - [ 7, 6, 1]
+              - [ 1, 1, 3]
+              - [ 1, 1, 3]
+            STR_HEART_ATTACK_GUN_MAG:
+              - [ 5, 3, 1]
+              - [ 7, 6, 1]
+              - [ 1, 1, 3]
+              - [ 1, 1, 3]
+            STR_HIGH_STANDARD_HDM:
+              - [ 4, 3, 0]
+              - [ 7, 1, 2]
+              - [ 0, 6, 3]
+            STR_HIGH_STANDARD_HDM_MAG:
+              - [ 4, 3, 0]
+              - [ 7, 1, 2]
+              - [ 0, 6, 3]
+            STR_M60_HOG:
+              - [ 1, 4, 0]
+            STR_M60_HOG_MAG:
+              - [ 1, 4, 0]
+            STR_LUPARA_M1897:
+              - [ 0, 3, 3]
+            STR_LUPARA_M1897_SHELLS:
+              - [ 0, 3, 3]
+            STR_DELISLE_CARBINE_SNIPER:
+              - [ 4, 3, 4]
+            STR_COLT_M1911_MAG:
+              - [ 4, 3, 4]
+
+  - type: STR_INVASION_FORTRESS
+    battlescapeTerrainData:
+      name: INVASION_FORTRESS
+      mapDataSets:
+        - BLANKS
+        - U_EXT01
+        - U_WALL01
+        - U_DISEC1
+        - U_OPER1
+        - PUFOL83
+        - PUFOL83-B
+        - BEACON_LIGHT_BEAM
+      mapBlocks:
+        - name: INVASION_FORTRESS
           width: 20
           length: 30
-            
+
+  - type: STR_INVASION_BEACON
+    battlescapeTerrainData:
+      name: INVASION_BEACON
+      mapDataSets:
+        - BLANKS
+        - U_EXT01
+        - U_WALL01
+        - U_DISEC1
+        - U_OPER1
+        - PUFOL83
+        - PUFOL83-B
+        - BEACON_LIGHT_BEAM
+      mapBlocks:
+        - name: INVASION_BEACON
+          width: 10
+          length: 10
+
 
 #SIDE MISSION UFOS
 

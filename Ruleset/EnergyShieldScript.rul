@@ -82,7 +82,7 @@
 #   nonzero tag by the amount in the tag, within the limits of 0 to the max
 #   possible value.
 armors:
-  - type: STR_AUGMENTATION_SUIT_UC
+  - type: STR_AUGMENTATION_SUIT_UC # ignoreDuplicate
     tags:
       ARMOR_ENERGY_SHIELD_CAPACITY: 100
       ARMOR_ENERGY_SHIELD_PER_TURN: 5

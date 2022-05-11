@@ -5,6 +5,749 @@ alienDeployments:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
 
+############################
+##### STORY MISSIONS ######
+##########################
+
+#################
+#### ACT 1 #####
+###############
+
+  - type: STR_PROVING_GROUNDS_DEPLOYMENT
+    customUfo: STR_PROVING_GROUNDS_LARGE_SCOUT
+    height: 10
+    width: 40
+    length: 40
+    data: 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_PROVING_GROUNDS_DESCRIPTION
+      palette: 2
+    markerName: STR_PROVING_GROUNDS_MARKER
+    markerIcon: 32
+
+  - type: STR_NORISKA_KRASCHEN_DEPLOYMENT
+    customUfo: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
+    height: 10
+    width: 50
+    length: 50
+    data: 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+    terrains:
+      - IDT_FOREST
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_NORISKA_KRASCHEN_DESCRIPTION
+      palette: 2
+    markerName: STR_NORISKA_KRASCHEN_MARKER
+    markerIcon: 32
+    missionBountyItem: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+
+#################
+#### ACT 2 #####
+###############
+
+  - type: STR_DISCOVERIES_DEPLOYMENT
+    customUfo: STR_DISCOVERIES_LARGE_SCOUT
+    height: 10
+    width: 60
+    length: 60
+    data: 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    terrains:
+      - DISCOVERIES_CUSTOM_TERRAIN
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_DISCOVERIES_DESCRIPTION
+      palette: 2
+    markerName: STR_DISCOVERIES_MARKER
+    markerIcon: 32
+    missionBountyItem: STR_DISCOVERIES_SIGNAL_RELAY
+
+  - type: STR_HIDE_AND_SEEK_DEPLOYMENT
+    customUfo: STR_HIDE_AND_SEEK_VAN
+    height: 10
+    width: 50
+    length: 50
+    data: 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+    terrains:
+      - EXPANDED_TERROR_UFO
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_HIDE_AND_SEEK_DESCRIPTION
+      palette: 2
+    markerName: STR_HIDE_AND_SEEK_MARKER
+    markerIcon: 32
+    missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+
+  - type: STR_SPIDERWEB_MISSION_DEPLOYMENT
+    customUfo: STR_SPIDERWEB_LARGE_SCOUT
+    #civilians: 4
+    height: 10
+    width: 50
+    length: 50
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 5
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_SPIDERWEB_DESCRIPTION
+      palette: 2
+    markerName: STR_SPIDERWEB_MARKER
+    markerIcon: 32
+    missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+
+#################
+#### ACT 3 #####
+###############
+
+  - type: STR_WHISPERS_MISSION_DEPLOYMENT
+    customUfo: STR_WHISPERS_SAFEHOUSE_UFO
+    terrains:
+      - EXPANDED_TERROR_UFO
+    #civilians: 4
+    height: 10
+    width: 50
+    length: 50
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 5
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_WHISPERS_DESCRIPTION
+      palette: 2
+    markerName: STR_WHISPERS_MARKER
+    markerIcon: 32
+    #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+
+  - type: STR_THE_ENEMY_OF_MY_ENEMY_MISSION_DEPLOYMENT
+    #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
+    terrains:
+      - IDT_AIRPORT
+    #civilians: 4
+    height: 10
+    width: 50
+    length: 50
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 5
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_THE_ENEMY_OF_MY_ENEMY_DESCRIPTION
+      palette: 2
+    markerName: STR_THE_ENEMY_OF_MY_ENEMY_MARKER
+    markerIcon: 32
+    #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+
+  - type: STR_OPERATION_HARBINGER_MISSION_DEPLOYMENT
+    #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
+    terrains:
+      - OPERATION_HARBINGER_CUSTOM_TERRAIN
+    #civilians: 4
+    height: 10
+    width: 50
+    length: 50
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 5
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_OPERATION_HARBINGER_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_HARBINGER_MARKER
+    markerIcon: 32
+    #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+
 ##################
 ##### UFOS ######
 ################
@@ -255,6 +998,37 @@ alienDeployments:
     markerName: STR_COUNTER_INTELLIGENCE_INVESTIGATION
     markerIcon: 32
 
+items:
+  - type: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+    size: 0.1
+  - type: STR_DISCOVERIES_SIGNAL_RELAY
+    size: 0.1
+  - type: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    size: 0.1
+  - type: STR_CORPSE_SUIT_DUMMY
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 500
+    floorSprite: 500
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
+    #battleType: 11
+  - type: STR_GLADIO_OPERATIVE_CORPSE_DUMMY
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1505
+    floorSprite: 1505
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    #battleType: 11
+    armor: 40
+    listOrder: 1000
+
 ufos:
 #<delete>
   - delete: STR_ABDUCTOR
@@ -276,6 +1050,14 @@ missionScripts:
   - delete: superhumanRetaliation
   - delete: recurringTerror
 
+#########################
+#### STORY MISSIONS #####
+#######################
+
+
+#########################
+#### SIDE MISSIONS #####
+#######################
   - type: CropCirclesInvestigationSitesScript
     missionWeights:
       0:
@@ -386,3 +1168,153 @@ ufoTrajectories:
     groundTimer: 0
     waypoints:
       - [4, 0, 0]
+
+terrains:
+  - name: DISCOVERIES_CUSTOM_TERRAIN 
+    script: DISCOVERIES_CUSTOM_TERRAIN_SCRIPT
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - BARN
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+      - name: CULTA13
+        width: 10
+        length: 10
+      - name: CULTA14
+        width: 10
+        length: 10
+      - name: CULTA15
+        width: 10
+        length: 10
+      - name: CULTA16
+        width: 10
+        length: 10
+      - name: CULTA17
+        width: 10
+        length: 10
+      - name: CULTA18
+        width: 10
+        length: 10
+
+  - name: OPERATION_HARBINGER_CUSTOM_TERRAIN
+    mapDataSets:
+      - BLANKS
+      - JUNGLE
+    script: OPERATION_HARBINGER_CUSTOM_TERRAIN_SCRIPT
+    mapBlocks:
+      - name: JUNGLE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE02
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE03
+        width: 10
+        length: 10
+      - name: JUNGLE04
+        width: 10
+        length: 10
+      - name: JUNGLE05
+        width: 10
+        length: 10
+      - name: JUNGLE06
+        width: 10
+        length: 10
+      - name: JUNGLE07
+        width: 10
+        length: 10
+      - name: JUNGLE08
+        width: 10
+        length: 10
+      - name: JUNGLE09
+        width: 10
+        length: 10
+      - name: JUNGLE10
+        width: 10
+        length: 10
+      - name: JUNGLE11
+        width: 10
+        length: 10
+
+mapScripts:
+  - type: DISCOVERIES_CUSTOM_TERRAIN_SCRIPT
+    commands:
+    - type: addCraft
+      groups: 1
+    - type: addUFO
+      groups: 1
+    - type: addBlock
+      terrain: FOREST
+      size: 1
+      executions: 4
+    - type: addBlock
+      terrain: IDT_RED_FARM
+      size: 1
+      executions: 4
+    - type: fillArea
+
+  - type: OPERATION_HARBINGER_CUSTOM_TERRAIN_SCRIPT
+    commands:
+    - type: addCraft
+      groups: 1
+    - type: addUFO
+      groups: 1
+      executions: 1
+      UFOName: STR_INVASION_FORTRESS
+    - type: addUFO
+      groups: 1
+      executions: 1
+      UFOName: STR_INVASION_BEACON
+    - type: addBlock
+      terrain: IDT_VILLAGE
+      size: 1
+      executions: 2
+    - type: fillArea
