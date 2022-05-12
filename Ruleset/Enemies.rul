@@ -75,6 +75,17 @@ items:
     battleType: 11
     armor: 40
     listOrder: 1000
+  - type: STR_D17_SCIENTIST_CORPSE
+    name: STR_KGB_CORPSE
+    weight: 25
+    bigSprite: 429
+    floorSprite: 479
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 50
+    armor: 35
+    costSell: 1000
 #########################
   - type: STR_HYBRID_CORPSE
     size: 0.4
@@ -260,6 +271,28 @@ armors:
     spriteInv: inventory_D17_AGENT
     corpseBattle:
       - STR_D17_AGENT_CORPSE
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 4
+    visibilityAtDark: 18
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.3
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 2 ]
+  - type: D17_SCIENTIST
+    spriteSheet: HUMAN_SUIT_RED_2.PCK
+    spriteInv: inventory_D17_SCIENTIST
+    corpseBattle:
+      - STR_D17_SCIENTIST_CORPSE
     frontArmor: 8
     sideArmor: 8
     rearArmor: 6
@@ -773,6 +806,43 @@ units:
        - STR_CAMERA_GUN
        - STR_LISTENING_DEVICE
 
+  - type: STR_D17_SCIENTIST
+    race: STR_D17
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 50
+      stamina: 50
+      health: 80
+      bravery: 90
+      reactions: 45
+      firing: 50
+      throwing: 20
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 50
+    armor: D17_SCIENTIST
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: 41
+    spotter: 2
+    intelligence: 10
+    aggression: 0
+    builtInWeaponSets:
+     -
+       - STR_CAMERA_GUN
+       - STR_LISTENING_DEVICE
+     -
+       - STR_UMBRELLA_MOSIN_NAGANT
+       - STR_UMBRELLA_MOSIN_NAGANT_MAG
+       - STR_UMBRELLA_MOSIN_NAGANT_MAG
+       - STR_LISTENING_DEVICE
+     -
+       - STR_CAMERA_GUN
+       - STR_CAMERA_GUN
+       - STR_LISTENING_DEVICE
+
 ######################
 #####   GLADIO   #####
 ######################
@@ -854,17 +924,17 @@ alienRaces:
   - delete: STR_ETHEREAL
   - delete: STR_MIXED
 ################################
-  - id: STR_WHISPERS_TEAM
+  - id: STR_D17_HIDE_AND_SEEK
     members:
-      - STR_SECTOID_LEADER
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_GLADIO_OPERATIVE_M
-      - STR_GLADIO_OPERATIVE_F
-  - id: STR_WHISPERS_TEAM
+      - STR_D17_SCIENTIST
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_AGENT
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+      - STR_D17_SOLDIER
+  - id: STR_THIN_MEN_WHISPERS
     members:
       - STR_SECTOID_LEADER
       - STR_THIN_MAN_INFILTRATOR
@@ -940,6 +1010,15 @@ research:
 #    lookup: STR_THIN_MAN_AUTOPSY
     needItem: true
     listOrder: 1001
+
+  - name: STR_D17_SCIENTIST
+    cost: 400
+    points: 100
+#    lookup: STR_THIN_MAN
+    needItem: true
+    listOrder: 1000
+
+
 
 ufopaedia:
   - id: STR_THIN_MAN
@@ -1028,6 +1107,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Enemies/D17 Agent/Inventory/D17_Agent_Inventory.png
+  - type: inventory_D17_SCIENTIST
+    singleImage: true
+    files:
+      0: Resources/Enemies/D17 Scientist/Inventory/D17_Scientist_Inventory.png
   - type: inventory_HYBRID_SHAPESHIFTER
     singleImage: true
     files:

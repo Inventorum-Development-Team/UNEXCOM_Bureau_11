@@ -1023,7 +1023,7 @@ items:
   - type: STR_SPRINGFIELD_M14_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_MAGAZINES]
     requiresBuy:
-      - STR_FN_FAL_BUY
+      - STR_MILITARY_EQUIPMENT_AQUISITION
     size: 0.1
     costBuy: 500
     costSell: 420
