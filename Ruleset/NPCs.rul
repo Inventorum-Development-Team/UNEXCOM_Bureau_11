@@ -12,8 +12,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 428
-    floorSprite: 428
+    bigSprite: 2428
+    floorSprite: 2428
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -22,8 +22,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 429
-    floorSprite: 429
+    bigSprite: 2429
+    floorSprite: 2429
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -32,8 +32,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 430
-    floorSprite: 430
+    bigSprite: 2430
+    floorSprite: 2430
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -42,8 +42,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 431
-    floorSprite: 431
+    bigSprite: 2431
+    floorSprite: 2431
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -52,8 +52,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 432
-    floorSprite: 432
+    bigSprite: 2432
+    floorSprite: 2432
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -62,8 +62,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 433
-    floorSprite: 433
+    bigSprite: 2433
+    floorSprite: 2433
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -72,8 +72,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 434
-    floorSprite: 434
+    bigSprite: 2434
+    floorSprite: 2434
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -82,8 +82,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 435
-    floorSprite: 435
+    bigSprite: 2435
+    floorSprite: 2435
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -92,8 +92,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 472
-    floorSprite: 495
+    bigSprite: 2472
+    floorSprite: 2495
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -102,8 +102,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 436
-    floorSprite: 436
+    bigSprite: 2436
+    floorSprite: 2436
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -112,8 +112,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 437
-    floorSprite: 437
+    bigSprite: 2437
+    floorSprite: 2437
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -122,8 +122,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 438
-    floorSprite: 438
+    bigSprite: 2438
+    floorSprite: 2438
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -132,8 +132,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 439
-    floorSprite: 439
+    bigSprite: 2439
+    floorSprite: 2439
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -142,8 +142,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 440
-    floorSprite: 440
+    bigSprite: 2440
+    floorSprite: 2440
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -152,8 +152,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 437
-    floorSprite: 486
+    bigSprite: 2437
+    floorSprite: 2486
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -162,8 +162,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 437
-    floorSprite: 487
+    bigSprite: 2437
+    floorSprite: 2487
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -172,8 +172,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 436
-    floorSprite: 488
+    bigSprite: 2436
+    floorSprite: 2488
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -182,8 +182,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 436
-    floorSprite: 489
+    bigSprite: 2436
+    floorSprite: 2489
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -192,8 +192,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 473
-    floorSprite: 490
+    bigSprite: 2473
+    floorSprite: 2490
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -202,8 +202,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 474
-    floorSprite: 491
+    bigSprite: 2474
+    floorSprite: 2491
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -212,8 +212,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 475
-    floorSprite: 492
+    bigSprite: 2475
+    floorSprite: 2492
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -222,8 +222,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 476
-    floorSprite: 493
+    bigSprite: 2476
+    floorSprite: 2493
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -232,8 +232,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 25
-    bigSprite: 477
-    floorSprite: 494
+    bigSprite: 2477
+    floorSprite: 2494
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -242,8 +242,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 470
-    floorSprite: 470
+    bigSprite: 2470
+    floorSprite: 2470
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -252,8 +252,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 30
-    bigSprite: 471
-    floorSprite: 471
+    bigSprite: 2471
+    floorSprite: 2471
     invWidth: 2
     invHeight: 3
     armor: 12
@@ -261,8 +261,8 @@ items:
   - type: STR_HUMAN_SUIT_RED_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 429
-    floorSprite: 479
+    bigSprite: 2429
+    floorSprite: 2479
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -271,8 +271,8 @@ items:
   - type: STR_HUMAN_SUIT_GREEN_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 429
-    floorSprite: 480
+    bigSprite: 2429
+    floorSprite: 2480
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -281,8 +281,8 @@ items:
   - type: STR_HUMAN_SUIT_PINK_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 429
-    floorSprite: 481
+    bigSprite: 2429
+    floorSprite: 2481
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -291,8 +291,8 @@ items:
   - type: STR_HUMAN_SUIT_PURPLE_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 429
-    floorSprite: 482
+    bigSprite: 2429
+    floorSprite: 2482
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -301,8 +301,8 @@ items:
   - type: STR_HUMAN_SUIT_BLUE_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 429
-    floorSprite: 483
+    bigSprite: 2429
+    floorSprite: 2483
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -311,8 +311,8 @@ items:
   - type: STR_HUMAN_SUIT_GREY_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 429
-    floorSprite: 484
+    bigSprite: 2429
+    floorSprite: 2484
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -321,8 +321,8 @@ items:
   - type: STR_HUMAN_SUIT_BLACK_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 429
-    floorSprite: 485
+    bigSprite: 2429
+    floorSprite: 2485
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -331,8 +331,8 @@ items:
   - type: STR_MALE_FARMER_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 478
-    floorSprite: 496
+    bigSprite: 2478
+    floorSprite: 2496
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -341,8 +341,8 @@ items:
   - type: STR_FEMALE_FARMER_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 479
-    floorSprite: 497
+    bigSprite: 2479
+    floorSprite: 2497
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -352,8 +352,8 @@ items:
   - type: STR_AMERICAN_SOLDIER_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 400
-    floorSprite: 400
+    bigSprite: 2400
+    floorSprite: 2400
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -362,8 +362,8 @@ items:
   - type: STR_SWEDISH_SOLDIER_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 401
-    floorSprite: 401
+    bigSprite: 2401
+    floorSprite: 2401
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -372,8 +372,8 @@ items:
   - type: STR_SOVIET_SOLDIER_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 402
-    floorSprite: 402
+    bigSprite: 2402
+    floorSprite: 2402
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -382,8 +382,8 @@ items:
   - type: STR_CUBAN_SOLDIER_CORPSE
     name: STR_CORPSE
     weight: 25
-    bigSprite: 403
-    floorSprite: 403
+    bigSprite: 2403
+    floorSprite: 2403
     invWidth: 2
     invHeight: 3
     battleType: 11
