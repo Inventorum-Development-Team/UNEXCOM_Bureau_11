@@ -2461,9 +2461,8 @@ units:
         - STR_M79_THUMPER_GRENADE
         - STR_M79_THUMPER_GRENADE
         - STR_M79_THUMPER_GRENADE
-        - STR_40MM_SMOKE
       -
-        - STR_M60
+        - STR_M60_HOG
         - STR_M60_HOG_MAG
         - STR_M60_HOG_MAG
         - STR_GRENADE

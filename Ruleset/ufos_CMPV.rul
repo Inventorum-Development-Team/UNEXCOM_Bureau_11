@@ -11,6 +11,9 @@ ufos:
         - U_BITS
         - CRASHED_UFO_TILES
       mapBlocks:
+        - name: UFO_CRASH_1_00
+          width: 20
+          length: 30
         - name: UFO_CRASH_1_01
           width: 30
           length: 20
@@ -36,10 +39,67 @@ ufos:
         - U_WALL02
         - U_BITS
         - CRASHED_UFO_TILES
+        - US_ARMY_BARRICADE_TILES
       mapBlocks:
         - name: UFO_CRASH_1_03
           width: 30
           length: 30
+          items:
+            STR_CORPSE_BDU_DUMMY:
+              - [ 3, 15, 0]
+              - [ 6, 19, 0]
+              - [ 5, 11, 0]
+              - [ 4, 27, 0]
+              - [ 13, 23, 0]
+              - [ 17, 16, 0]
+              - [ 14, 10, 0]
+              - [ 18, 11, 0]
+              - [ 24, 20, 0]
+              - [ 13, 18, 0]
+              - [ 24, 22, 0]
+            STR_COLT_M1911:
+              - [ 3, 15, 0]
+              - [ 6, 19, 0]
+              - [ 16, 18, 0]
+              - [ 7, 18, 0]
+            STR_COLT_M1911_MAG:
+              - [ 3, 15, 0]
+              - [ 6, 19, 0]
+              - [ 16, 18, 0]
+              - [ 7, 18, 0]
+            STR_M60_HOG:
+              - [ 13, 18, 0]
+            STR_M60_HOG_MAG:
+              - [ 13, 18, 0]
+            STR_M3_GREASEGUN:
+              - [ 5, 11, 0]
+              - [ 4, 27, 0]
+              - [ 14, 26, 0]
+            STR_M3_GREASEGUN_MAG:
+              - [ 5, 11, 0]
+              - [ 4, 27, 0]
+              - [ 14, 26, 0]
+            STR_ITHACA_37:
+              - [ 13, 23, 0]
+              - [ 17, 16, 0]
+            STR_ITHACA_37_SHELLS:
+              - [ 13, 23, 0]
+              - [ 17, 16, 0]
+            STR_SPRINGFIELD_M14:
+              - [ 14, 10, 0]
+              - [ 18, 11, 0]
+              - [ 24, 20, 0]
+              - [ 24, 22, 0]
+              - [ 25, 20, 0]
+              - [ 20, 10, 0]
+            STR_SPRINGFIELD_M14_MAG:
+              - [ 14, 10, 0]
+              - [ 18, 11, 0]
+              - [ 24, 20, 0]
+              - [ 24, 22, 0]
+              - [ 25, 20, 0]
+              - [ 20, 10, 0]
+
 
   - type: STR_HIDE_AND_SEEK_VAN
     battlescapeTerrainData:
@@ -161,8 +221,8 @@ ufos:
         - BEACON_LIGHT_BEAM
       mapBlocks:
         - name: INVASION_FORTRESS
-          width: 20
-          length: 30
+          width: 30
+          length: 20
 
   - type: STR_INVASION_BEACON
     battlescapeTerrainData:

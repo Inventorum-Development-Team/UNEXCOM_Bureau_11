@@ -18,6 +18,9 @@ alienDeployments:
     height: 10
     width: 40
     length: 40
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_MALE_FARMER: 2
     data: 
       - alienRank: 5
         lowQty: 2
@@ -86,18 +89,22 @@ alienDeployments:
     briefing:
       #textOffset: -16
       background: BACK01.SCR
-      showTarget: true
+      showTarget: false
       showCraft: true
       desc: STR_PROVING_GROUNDS_DESCRIPTION
       palette: 2
     markerName: STR_PROVING_GROUNDS_MARKER
-    markerIcon: 32
+    markerIcon: 27
 
   - type: STR_NORISKA_KRASCHEN_DEPLOYMENT
     customUfo: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
     height: 10
     width: 50
     length: 50
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_SWEDISH_ASSAULT: 3
+      STR_SWEDISH_RIFLEMAN: 2
     data: 
       - alienRank: 5
         lowQty: 2
@@ -168,12 +175,12 @@ alienDeployments:
     briefing:
       #textOffset: -16
       background: BACK01.SCR
-      showTarget: true
+      showTarget: false
       showCraft: true
       desc: STR_NORISKA_KRASCHEN_DESCRIPTION
       palette: 2
     markerName: STR_NORISKA_KRASCHEN_MARKER
-    markerIcon: 32
+    markerIcon: 27
     missionBountyItem: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
 
 #################
@@ -185,10 +192,15 @@ alienDeployments:
     height: 10
     width: 60
     length: 60
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_AMERICAN_ASSAULT: 3
+      STR_AMERICAN_RIFLEMAN: 3
+      STR_AMERICAN_SUPPORT: 2
     data: 
       - alienRank: 5
-        lowQty: 2
-        highQty: 3
+        lowQty: 3
+        highQty: 6
         dQty: 0
         percentageOutsideUfo: 100
         itemSets:
@@ -203,8 +215,8 @@ alienDeployments:
           -
             - STR_MIND_PROBE
       - alienRank: 4
-        lowQty: 1
-        highQty: 2
+        lowQty: 2
+        highQty: 4
         dQty: 0
         percentageOutsideUfo: 100
         itemSets:
@@ -255,23 +267,24 @@ alienDeployments:
     briefing:
       #textOffset: -16
       background: BACK01.SCR
-      showTarget: true
+      showTarget: false
       showCraft: true
       desc: STR_DISCOVERIES_DESCRIPTION
       palette: 2
     markerName: STR_DISCOVERIES_MARKER
-    markerIcon: 32
-    missionBountyItem: STR_DISCOVERIES_SIGNAL_RELAY
+    markerIcon: 28
+    missionBountyItem: STR_DISCOVERIES_SECTOID_ENGINEER
 
   - type: STR_HIDE_AND_SEEK_DEPLOYMENT
     customUfo: STR_HIDE_AND_SEEK_VAN
     height: 10
     width: 50
     length: 50
+    civilians: 10
     data: 
       - alienRank: 5
-        lowQty: 2
-        highQty: 3
+        lowQty: 4
+        highQty: 8
         dQty: 0
         percentageOutsideUfo: 100
         itemSets:
@@ -286,8 +299,8 @@ alienDeployments:
           -
             - STR_BANDAGES
       - alienRank: 4
-        lowQty: 1
-        highQty: 2
+        lowQty: 2
+        highQty: 4
         dQty: 0
         percentageOutsideUfo: 100
         itemSets:
@@ -319,7 +332,7 @@ alienDeployments:
             - STR_LISTENING_DEVICE
       - alienRank: 0
         lowQty: 1
-        highQty: 2
+        highQty: 1
         dQty: 0
         percentageOutsideUfo: 50
         itemSets:
@@ -338,26 +351,30 @@ alienDeployments:
     briefing:
       #textOffset: -16
       background: BACK01.SCR
-      showTarget: true
+      showTarget: false
       showCraft: true
       desc: STR_HIDE_AND_SEEK_DESCRIPTION
       palette: 2
     markerName: STR_HIDE_AND_SEEK_MARKER
-    markerIcon: 32
+    markerIcon: 28
     missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
   - type: STR_SPIDERWEB_MISSION_DEPLOYMENT
     customUfo: STR_SPIDERWEB_LARGE_SCOUT
-    #civilians: 4
     height: 10
     width: 50
     length: 50
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_AMERICAN_ASSAULT: 3
+      STR_AMERICAN_RIFLEMAN: 3
+      STR_AMERICAN_SUPPORT: 2
     data:
       - alienRank: 5
         lowQty: 2
         highQty: 5
         dQty: 5
-        percentageOutsideUfo: 30
+        percentageOutsideUfo: 0
         itemSets:
           -
             - STR_MIND_PROBE
@@ -373,7 +390,7 @@ alienDeployments:
         lowQty: 2
         highQty: 4
         dQty: 1
-        percentageOutsideUfo: 10
+        percentageOutsideUfo: 0
         itemSets:
           -
             - STR_MIND_PROBE
@@ -389,7 +406,7 @@ alienDeployments:
         lowQty: 1
         highQty: 2
         dQty: 1
-        percentageOutsideUfo: 10
+        percentageOutsideUfo: 0
         itemSets:
           -
             - STR_MIND_PROBE
@@ -436,13 +453,13 @@ alienDeployments:
     briefing:
       #textOffset: -16
       background: BACK01.SCR
-      showTarget: true
+      showTarget: false
       showCraft: true
       desc: STR_SPIDERWEB_DESCRIPTION
       palette: 2
     markerName: STR_SPIDERWEB_MARKER
-    markerIcon: 32
-    missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    markerIcon: 28
+    #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
 #################
 #### ACT 3 #####
@@ -452,7 +469,8 @@ alienDeployments:
     customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     terrains:
       - EXPANDED_TERROR_UFO
-    #civilians: 4
+    civilians: 10
+    civilianSpawnNodeRank: 0
     height: 10
     width: 50
     length: 50
@@ -540,27 +558,32 @@ alienDeployments:
     briefing:
       #textOffset: -16
       background: BACK01.SCR
-      showTarget: true
+      showTarget: false
       showCraft: true
       desc: STR_WHISPERS_DESCRIPTION
       palette: 2
     markerName: STR_WHISPERS_MARKER
-    markerIcon: 32
+    markerIcon: 29
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
   - type: STR_THE_ENEMY_OF_MY_ENEMY_MISSION_DEPLOYMENT
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     terrains:
       - IDT_AIRPORT
-    #civilians: 4
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_SOVIET_RIFLEMAN: 3
+      STR_SOVIET_ASSAULT: 3
+      STR_D17_AGENT: 4
+      STR_D17_OFFICER: 2
     height: 10
     width: 50
     length: 50
     data:
       - alienRank: 5
-        lowQty: 2
-        highQty: 5
-        dQty: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 2
         percentageOutsideUfo: 30
         itemSets:
           -
@@ -640,22 +663,27 @@ alienDeployments:
     briefing:
       #textOffset: -16
       background: BACK01.SCR
-      showTarget: true
+      showTarget: false
       showCraft: true
       desc: STR_THE_ENEMY_OF_MY_ENEMY_DESCRIPTION
       palette: 2
     markerName: STR_THE_ENEMY_OF_MY_ENEMY_MARKER
-    markerIcon: 32
+    markerIcon: 29
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
   - type: STR_OPERATION_HARBINGER_MISSION_DEPLOYMENT
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     terrains:
       - OPERATION_HARBINGER_CUSTOM_TERRAIN
-    #civilians: 4
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_SOVIET_RIFLEMAN: 2
+      STR_SOVIET_ASSAULT: 2
+      STR_CUBAN_RIFLEMAN: 3
+      STR_CUBAN_ASSAULT: 3
     height: 10
-    width: 50
-    length: 50
+    width: 60
+    length: 60
     data:
       - alienRank: 5
         lowQty: 2
@@ -740,12 +768,12 @@ alienDeployments:
     briefing:
       #textOffset: -16
       background: BACK01.SCR
-      showTarget: true
+      showTarget: false
       showCraft: true
       desc: STR_OPERATION_HARBINGER_DESCRIPTION
       palette: 2
     markerName: STR_OPERATION_HARBINGER_MARKER
-    markerIcon: 32
+    markerIcon: 29
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
 ##################
@@ -880,6 +908,7 @@ alienDeployments:
       showCraft: true
       #desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
       palette: 6
+    
 ###############################
 #### INVESTIGATION SITES #####
 #############################
@@ -1001,7 +1030,7 @@ alienDeployments:
 items:
   - type: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
     size: 0.1
-  - type: STR_DISCOVERIES_SIGNAL_RELAY
+  - type: STR_DISCOVERIES_SECTOID_ENGINEER
     size: 0.1
   - type: STR_HIDE_AND_SEEK_DATA_SUITCASE
     size: 0.1
@@ -1024,10 +1053,19 @@ items:
     floorSprite: 1505
     invWidth: 2
     invHeight: 3
-    recoveryPoints: 10
+    recover: false
     #battleType: 11
     armor: 40
     listOrder: 1000
+  - type: STR_CORPSE_BDU_DUMMY
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 501
+    floorSprite: 501
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
 
 ufos:
 #<delete>
