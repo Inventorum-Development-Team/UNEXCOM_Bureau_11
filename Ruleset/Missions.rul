@@ -5,6 +5,44 @@ alienDeployments:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
 
+research:
+  - name: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_ACT_2_START
+    cost: 0
+    points: 5
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_DISCOVERIES_SECTOID_ENGINEER
+    cost: 200
+    points: 100
+    needItem: true
+    dependencies:
+      - STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+
+  - name: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_OPERATION_SPIDERWEB
+    cost: 50
+    points: 150
+    dependencies:
+      - STR_DISCOVERIES_SECTOID_ENGINEER
+      - STR_HIDE_AND_SEEK_DATA_SUITCASE
+      - STR_ACT_2_START
+
+  - name: STR_ACT_3_START
+    cost: 0
+    points: 15
+    dependencies:
+      - STR_COMMANDER_PLUS
+
 ############################
 ##### STORY MISSIONS ######
 ##########################
@@ -98,6 +136,7 @@ alienDeployments:
     unlockedResearch: STR_NORISKA_KRASCHEN_MISSION_TRIGGER
 
   - type: STR_NORISKA_KRASCHEN_DEPLOYMENT
+    unlockedResearch: STR_ACT_2_START
     customUfo: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
     height: 10
     width: 50
@@ -573,6 +612,7 @@ alienDeployments:
     unlockedResearch: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
 
   - type: STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT
+    unlockedResearch: STR_ACT_3_START
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     terrains:
       - IDT_AIRPORT
