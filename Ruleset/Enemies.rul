@@ -78,8 +78,8 @@ items:
   - type: STR_D17_SCIENTIST_CORPSE
     name: STR_KGB_CORPSE
     weight: 25
-    bigSprite: 429
-    floorSprite: 479
+    bigSprite: 2429
+    floorSprite: 2479
     invWidth: 2
     invHeight: 3
     battleType: 11
@@ -944,6 +944,16 @@ alienRaces:
       - STR_THIN_MAN_INFILTRATOR
       - STR_GLADIO_OPERATIVE_M
       - STR_GLADIO_OPERATIVE_F
+  - id: STR_OPERATION_GLADIO_HYBRIDS
+    members:
+      - STR_THIN_MAN_INFILTRATOR
+      - STR_GLADIO_OPERATIVE_F
+      - STR_GLADIO_OPERATIVE_M
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
+      - STR_HYBRID_DISGUISE_F
+      - STR_GLADIO_OPERATIVE_M
 ################################
   - id: STR_HYBRID_CIVILIAN
     members:
@@ -995,16 +1005,7 @@ alienRaces:
       - STR_GLADIO_OPERATIVE_F
       - STR_GLADIO_OPERATIVE_M
       - STR_GLADIO_OPERATIVE_F
-  - id: STR_OPERATION_GLADIO_HYBRIDS
-    members:
-      - STR_THIN_MAN_INFILTRATOR
-      - STR_GLADIO_OPERATIVE_F
-      - STR_GLADIO_OPERATIVE_M
-      - STR_HYBRID_DISGUISE_F
-      - STR_HYBRID_DISGUISE_F
-      - STR_HYBRID_DISGUISE_F
-      - STR_HYBRID_DISGUISE_F
-      - STR_GLADIO_OPERATIVE_M
+
 
 research:
   - name: STR_THIN_MAN_INFILTRATOR

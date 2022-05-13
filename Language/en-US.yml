@@ -467,6 +467,9 @@ en-US:
   STR_D17: "KGB Directorate 17"
   STR_D17_INFILTRATION: "KGB D17 Infiltration Team"
   STR_D17_AMBUSH: "KGB D17 Ambush Specialists"
+  STR_D17_HIDE_AND_SEEK: "KGB D17 Escorts"
+  STR_THIN_MEN_WHISPERS: "Thin Men Attackers"
+  STR_OPERATION_GLADIO_HYBRIDS: "Gladio+Hybrid Attackers"
 
   STR_HYBRID: "Hybrid"
   STR_THIN_MAN: "Thin Man"

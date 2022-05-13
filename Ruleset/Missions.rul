@@ -1148,11 +1148,10 @@ missionScripts:
       #STR_TERRORISTS_OPERATIONS: true
       #STR_END_OF_TERRORISTS: false
     useTable: false
-    startDelay: 100
-    randomDelay: 43200
+    startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 0
-    lastMonth: 2
+    lastMonth: 0
+    maxRuns: 1
 
   - type: noriskaKraschen
     varName: noriskaKraschen
@@ -1164,13 +1163,13 @@ missionScripts:
         REGION_NORISKA_KRASCHEN: 100
     researchTriggers:
       STR_NORISKA_KRASCHEN_MISSION_TRIGGER: true
+      
       STR_NORISKA_KRASCHEN_SECTOID_CORPSE: false
     useTable: false
-    startDelay: 100
-    randomDelay: 43200
+    startDelay: 21600 # 15 Days
     executionOdds: 100
     firstMonth: 5
-    lastMonth: 6
+    maxRuns: 1
 
   - type: discoveries
     varName: discoveries
@@ -1184,11 +1183,10 @@ missionScripts:
       STR_NORISKA_KRASCHEN_SECTOID_CORPSE: true
       STR_DISCOVERIES_SECTOID_ENGINEER: false
     useTable: false
-    startDelay: 100
-    randomDelay: 43200
+    startDelay: 21600 # 15 Days
     executionOdds: 100
     firstMonth: 10
-    lastMonth: 11
+    maxRuns: 1
 
   - type: hide_and_Seek
     varName: hide_and_seek
@@ -1202,11 +1200,10 @@ missionScripts:
       STR_DISCOVERIES_SECTOID_ENGINEER: true
       STR_HIDE_AND_SEEK_DATA_SUITCASE: false
     useTable: false
-    startDelay: 100
-    randomDelay: 43200
+    startDelay: 21600 # 15 Days
     executionOdds: 100
     firstMonth: 12
-    lastMonth: 13
+    maxRuns: 1
 
   - type: spiderweb
     varName: spiderweb
@@ -1220,11 +1217,10 @@ missionScripts:
       #STR_DISCOVERIES_SECTOID_ENGINEER: true
       STR_HIDE_AND_SEEK_DATA_SUITCASE: true
     useTable: false
-    startDelay: 100
-    randomDelay: 43200
+    startDelay: 21600 # 15 Days
     executionOdds: 100
     firstMonth: 15
-    lastMonth: 16
+    maxRuns: 1
 
   - type: whispers
     varName: whispers
@@ -1241,8 +1237,6 @@ missionScripts:
     startDelay: 100
     randomDelay: 43200
     executionOdds: 100
-    firstMonth: 18
-    lastMonth: 19
 
   - type: enemy_of_my_enemy
     varName: enemy_of_my_enemy
@@ -1256,11 +1250,10 @@ missionScripts:
       STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER: true
       STR_OPERATION_HARBINGER_MISSION_TRIGGER: false
     useTable: false
-    startDelay: 100
-    randomDelay: 43200
+    startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 20
-    lastMonth: 21
+    firstMonth: 19
+    maxRuns: 1
 
   - type: operation_Harbinger
     varName: operation_Harbinger
@@ -1274,11 +1267,10 @@ missionScripts:
       STR_OPERATION_HARBINGER_MISSION_TRIGGER: true
       #STR_END_OF_TERRORISTS: false
     useTable: false
-    startDelay: 100
-    randomDelay: 43200
+    startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 24
-    lastMonth: 24
+    firstMonth: 21
+    maxRuns: 1
 
 #########################
 #### SIDE MISSIONS #####
@@ -1321,10 +1313,10 @@ alienMissions:
       0:
           STR_D17_INFILTRATION: 100
     waves:
-      - ufo: dummy
+      - ufo: STR_PROVING_GROUNDS_DEPLOYMENT
         count: 1
         trajectory: STATIC_TRAJECTORY
-        timer: 100
+        timer: 0
         objective: true
   - type: STR_NORISKA_KRASCHEN_MISSION
     objective: 3
@@ -1334,10 +1326,10 @@ alienMissions:
       0:
           STR_D17_AMBUSH: 100
     waves:
-      - ufo: dummy
+      - ufo: STR_NORISKA_KRASCHEN_DEPLOYMENT
         count: 1
         trajectory: STATIC_TRAJECTORY
-        timer: 100
+        timer: 0
         objective: true
   - type: STR_DISCOVERIES_MISSION
     objective: 3
@@ -1347,10 +1339,10 @@ alienMissions:
       0:
           STR_SECTOID: 100
     waves:
-      - ufo: dummy
+      - ufo: STR_DISCOVERIES_DEPLOYMENT
         count: 1
         trajectory: STATIC_TRAJECTORY
-        timer: 100
+        timer: 0
         objective: true
   - type: STR_HIDE_AND_SEEK_MISSION
     objective: 3
@@ -1360,10 +1352,10 @@ alienMissions:
       0:
           STR_D17_HIDE_AND_SEEK: 100
     waves:
-      - ufo: dummy
+      - ufo: STR_HIDE_AND_SEEK_DEPLOYMENT
         count: 1
         trajectory: STATIC_TRAJECTORY
-        timer: 100
+        timer: 0
         objective: true
   - type: STR_SPIDERWEB_MISSION
     objective: 3
@@ -1373,10 +1365,10 @@ alienMissions:
       0:
           STR_SECTOID: 100
     waves:
-      - ufo: dummy
+      - ufo: STR_SPIDERWEB_DEPLOYMENT
         count: 1
         trajectory: STATIC_TRAJECTORY
-        timer: 100
+        timer: 0
         objective: true
   - type: STR_WHISPERS_MISSION
     objective: 3
@@ -1386,10 +1378,10 @@ alienMissions:
       0:
           STR_THIN_MEN_WHISPERS: 100
     waves:
-      - ufo: dummy
+      - ufo: STR_WHISPERS_DEPLOYMENT
         count: 1
         trajectory: STATIC_TRAJECTORY
-        timer: 100
+        timer: 0
         objective: true
   - type: STR_THE_ENEMY_OF_MY_ENEMY_MISSION
     objective: 3
@@ -1399,10 +1391,10 @@ alienMissions:
       0:
           STR_OPERATION_GLADIO_HYBRIDS: 100
     waves:
-      - ufo: dummy
+      - ufo: STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT
         count: 1
         trajectory: STATIC_TRAJECTORY
-        timer: 100
+        timer: 0
         objective: true
   - type: STR_OPERATION_HARBINGER_MISSION
     objective: 3
@@ -1410,12 +1402,12 @@ alienMissions:
     spawnZone: 0
     raceWeights:
       0:
-          STR_SECTOIDS: 100
+          STR_SECTOID: 100
     waves:
-      - ufo: dummy
+      - ufo: STR_OPERATION_HARBINGER_DEPLOYMENT
         count: 1
         trajectory: STATIC_TRAJECTORY
-        timer: 100
+        timer: 0
         objective: true
 
 
