@@ -1071,15 +1071,25 @@ research:
     points: 15
     needItem: true
 
+  - name: STR_CONCEALED_WEAPONS_PREQ
+    cost: 0
+    points: 5
+    dependencies:
+      - STR_COMMANDER_PLUS
+
   - name: STR_CAMERA_GUN
     cost: 150
     points: 50
     needItem: true
+    unlocks:
+      - STR_CONCEALED_WEAPONS_PREQ
 
   - name: STR_UMBRELLA_MOSIN_NAGANT
     cost: 150
     points: 50
     needItem: true
+    unlocks:
+      - STR_CONCEALED_WEAPONS_PREQ
 
   - name: STR_DATA_BRIEFCASE
     cost: 20
