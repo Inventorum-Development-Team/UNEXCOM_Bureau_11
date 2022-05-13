@@ -198,10 +198,14 @@ research:
   - name: STR_ARMY_VETERAN_RECRUITMENT
     cost: 150
     points: 25
+    dependencies:
+      - STR_ACT_2_START
 
   - name: STR_KGB_OFFICER_RECRUITMENT
     cost: 300
     points: 50
+    dependencies:
+      - STR_ACT_3_START
 
 extraSprites:
   - type: BASEBITS.PCK
