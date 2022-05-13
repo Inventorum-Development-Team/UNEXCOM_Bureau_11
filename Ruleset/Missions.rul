@@ -95,6 +95,7 @@ alienDeployments:
       palette: 2
     markerName: STR_PROVING_GROUNDS_MARKER
     markerIcon: 27
+    unlockedResearch: STR_NORISKA_KRASCHEN_MISSION_TRIGGER
 
   - type: STR_NORISKA_KRASCHEN_DEPLOYMENT
     customUfo: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
@@ -463,6 +464,7 @@ alienDeployments:
     markerName: STR_SPIDERWEB_MARKER
     markerIcon: 28
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    unlockedResearch: STR_WHISPERS_MISSION_TRIGGER
 
 #################
 #### ACT 3 #####
@@ -568,6 +570,7 @@ alienDeployments:
     markerName: STR_WHISPERS_MARKER
     markerIcon: 29
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    unlockedResearch: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
 
   - type: STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
@@ -672,6 +675,7 @@ alienDeployments:
       palette: 2
     markerName: STR_THE_ENEMY_OF_MY_ENEMY_MARKER
     markerIcon: 29
+    unlockedResearch: STR_OPERATION_HARBINGER_MISSION_TRIGGER
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
   - type: STR_OPERATION_HARBINGER_DEPLOYMENT
@@ -1070,6 +1074,43 @@ items:
     armor: 50
     recover: false
 
+research:
+  - name: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+    cost: 400
+    points: 100
+    needItem: false
+    listOrder: 1000
+  - name: STR_DISCOVERIES_SECTOID_ENGINEER
+    cost: 400
+    points: 100
+    needItem: false
+    listOrder: 1000
+  - name: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    cost: 400
+    points: 100
+    needItem: false
+    listOrder: 1000
+  - name: STR_NORISKA_KRASCHEN_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: false
+    listOrder: 1000
+  - name: STR_WHISPERS_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: false
+    listOrder: 1000
+  - name: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: false
+    listOrder: 1000
+  - name: STR_OPERATION_HARBINGER_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: false
+    listOrder: 1000
+
 ufos:
 #<delete>
   - delete: STR_ABDUCTOR
@@ -1110,20 +1151,20 @@ missionScripts:
     startDelay: 100
     randomDelay: 43200
     executionOdds: 100
-    firstMonth: 1
+    firstMonth: 0
     lastMonth: 2
 
-  - type: noridskaKraschen
-    varName: noridskaKraschen
+  - type: noriskaKraschen
+    varName: noriskaKraschen
     missionWeights:
       0:
-        STR_NORIDSKA_KRASCHEN_MISSION: 100
+        STR_NORISKA_KRASCHEN_MISSION: 100
     regionWeights:
       0:
-        REGION_NORIDSKA_KRASCHEN: 100
-    #researchTriggers:
-      #STR_TERRORISTS_OPERATIONS: true
-      #STR_END_OF_TERRORISTS: false
+        REGION_NORISKA_KRASCHEN: 100
+    researchTriggers:
+      STR_NORISKA_KRASCHEN_MISSION_TRIGGER: true
+      STR_NORISKA_KRASCHEN_SECTOID_CORPSE: false
     useTable: false
     startDelay: 100
     randomDelay: 43200
@@ -1139,9 +1180,9 @@ missionScripts:
     regionWeights:
       0:
         REGION_DISCOVERIES: 100
-    #researchTriggers:
-      #STR_TERRORISTS_OPERATIONS: true
-      #STR_END_OF_TERRORISTS: false
+    researchTriggers:
+      STR_NORISKA_KRASCHEN_SECTOID_CORPSE: true
+      STR_DISCOVERIES_SECTOID_ENGINEER: false
     useTable: false
     startDelay: 100
     randomDelay: 43200
@@ -1157,9 +1198,9 @@ missionScripts:
     regionWeights:
       0:
         REGION_HIDE_AND_SEEK: 100
-    #researchTriggers:
-      #STR_TERRORISTS_OPERATIONS: true
-      #STR_END_OF_TERRORISTS: false
+    researchTriggers:
+      STR_DISCOVERIES_SECTOID_ENGINEER: true
+      STR_HIDE_AND_SEEK_DATA_SUITCASE: false
     useTable: false
     startDelay: 100
     randomDelay: 43200
@@ -1175,9 +1216,9 @@ missionScripts:
     regionWeights:
       0:
         REGION_SPIDERWEB: 100
-    #researchTriggers:
-      #STR_TERRORISTS_OPERATIONS: true
-      #STR_END_OF_TERRORISTS: false
+    researchTriggers:
+      #STR_DISCOVERIES_SECTOID_ENGINEER: true
+      STR_HIDE_AND_SEEK_DATA_SUITCASE: true
     useTable: false
     startDelay: 100
     randomDelay: 43200
@@ -1193,9 +1234,9 @@ missionScripts:
     regionWeights:
       0:
         REGION_WHISPERS: 100
-    #researchTriggers:
-      #STR_TERRORISTS_OPERATIONS: true
-      #STR_END_OF_TERRORISTS: false
+    researchTriggers:
+      STR_WHISPERS_MISSION_TRIGGER: true
+      STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER: false
     useTable: false
     startDelay: 100
     randomDelay: 43200
@@ -1211,9 +1252,9 @@ missionScripts:
     regionWeights:
       0:
         REGION_HIDE_AND_SEEK: 100
-    #researchTriggers:
-      #STR_TERRORISTS_OPERATIONS: true
-      #STR_END_OF_TERRORISTS: false
+    researchTriggers:
+      STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER: true
+      STR_OPERATION_HARBINGER_MISSION_TRIGGER: false
     useTable: false
     startDelay: 100
     randomDelay: 43200
@@ -1229,8 +1270,8 @@ missionScripts:
     regionWeights:
       0:
         REGION_OPERATION_HARBINGER: 100
-    #researchTriggers:
-      #STR_TERRORISTS_OPERATIONS: true
+    researchTriggers:
+      STR_OPERATION_HARBINGER_MISSION_TRIGGER: true
       #STR_END_OF_TERRORISTS: false
     useTable: false
     startDelay: 100

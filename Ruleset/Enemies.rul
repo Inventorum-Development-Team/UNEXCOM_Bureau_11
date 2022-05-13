@@ -1027,8 +1027,6 @@ research:
     needItem: true
     listOrder: 1000
 
-
-
 ufopaedia:
   - id: STR_THIN_MAN
     type_id: 7
