@@ -212,3 +212,27 @@ globe:
     - id: -1
       deployments:
         STR_TERROR_MISSION: 100
+    - id: -100
+      deployments:
+        STR_PROVING_GROUNDS_DEPLOYMENT: 100
+    - id: -101
+      deployments:
+        STR_NORISKA_KRASCHEN_DEPLOYMENT: 100
+    - id: -102
+      deployments:
+        STR_DISCOVERIES_DEPLOYMENT: 100
+    - id: -103
+      deployments:
+        STR_HIDE_AND_SEEK_DEPLOYMENT: 100
+    - id: -104
+      deployments:
+        STR_SPIDERWEB_MISSION_DEPLOYMENT: 100
+    - id: -105
+      deployments:
+        STR_WHISPERS_MISSION_DEPLOYMENT: 100
+    - id: -106
+      deployments:
+        STR_THE_ENEMY_OF_MY_ENEMY_MISSION_DEPLOYMENT: 100
+    - id: -107
+      deployments:
+        STR_OPERATION_HARBINGER_MISSION_DEPLOYMENT: 100

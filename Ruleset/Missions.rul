@@ -281,6 +281,9 @@ alienDeployments:
     width: 50
     length: 50
     civilians: 10
+    civiliansByType:
+      STR_GLADIO_OPERATIVE_M: 2
+      STR_GLADIO_OPERATIVE_F: 2
     data: 
       - alienRank: 5
         lowQty: 4
@@ -359,7 +362,7 @@ alienDeployments:
     markerIcon: 28
     missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
-  - type: STR_SPIDERWEB_MISSION_DEPLOYMENT
+  - type: STR_SPIDERWEB_DEPLOYMENT
     customUfo: STR_SPIDERWEB_LARGE_SCOUT
     height: 10
     width: 50
@@ -465,7 +468,7 @@ alienDeployments:
 #### ACT 3 #####
 ###############
 
-  - type: STR_WHISPERS_MISSION_DEPLOYMENT
+  - type: STR_WHISPERS_DEPLOYMENT
     customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     terrains:
       - EXPANDED_TERROR_UFO
@@ -476,7 +479,7 @@ alienDeployments:
     length: 50
     data:
       - alienRank: 5
-        lowQty: 2
+        lowQty: 3
         highQty: 5
         dQty: 5
         percentageOutsideUfo: 30
@@ -495,7 +498,7 @@ alienDeployments:
         lowQty: 2
         highQty: 4
         dQty: 1
-        percentageOutsideUfo: 10
+        percentageOutsideUfo: 0
         itemSets:
           -
             - STR_MIND_PROBE
@@ -510,8 +513,8 @@ alienDeployments:
       - alienRank: 2
         lowQty: 1
         highQty: 2
-        dQty: 1
-        percentageOutsideUfo: 10
+        dQty: 2
+        percentageOutsideUfo: 0
         itemSets:
           -
             - STR_MIND_PROBE
@@ -566,7 +569,7 @@ alienDeployments:
     markerIcon: 29
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
-  - type: STR_THE_ENEMY_OF_MY_ENEMY_MISSION_DEPLOYMENT
+  - type: STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     terrains:
       - IDT_AIRPORT
@@ -597,9 +600,9 @@ alienDeployments:
           -
             - STR_MIND_PROBE
       - alienRank: 4
-        lowQty: 2
-        highQty: 4
-        dQty: 1
+        lowQty: 4
+        highQty: 6
+        dQty: 2
         percentageOutsideUfo: 10
         itemSets:
           -
@@ -615,7 +618,7 @@ alienDeployments:
       - alienRank: 2
         lowQty: 1
         highQty: 2
-        dQty: 1
+        dQty: 2
         percentageOutsideUfo: 10
         itemSets:
           -
@@ -631,7 +634,7 @@ alienDeployments:
       - alienRank: 1
         lowQty: 1
         highQty: 1
-        dQty: 0
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -647,7 +650,7 @@ alienDeployments:
       - alienRank: 0
         lowQty: 1
         highQty: 1
-        dQty: 0
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -671,7 +674,7 @@ alienDeployments:
     markerIcon: 29
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
-  - type: STR_OPERATION_HARBINGER_MISSION_DEPLOYMENT
+  - type: STR_OPERATION_HARBINGER_DEPLOYMENT
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     terrains:
       - OPERATION_HARBINGER_CUSTOM_TERRAIN
@@ -1092,6 +1095,149 @@ missionScripts:
 #### STORY MISSIONS #####
 #######################
 
+  - type: provingGrounds
+    varName: provingGrounds
+    missionWeights:
+      0:
+        STR_PROVING_GROUNDS_MISSION: 100
+    regionWeights:
+      0:
+        REGION_PROVING_GROUNDS: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 100
+    randomDelay: 43200
+    executionOdds: 100
+    firstMonth: 1
+    lastMonth: 2
+
+  - type: noridskaKraschen
+    varName: noridskaKraschen
+    missionWeights:
+      0:
+        STR_NORIDSKA_KRASCHEN_MISSION: 100
+    regionWeights:
+      0:
+        REGION_NORIDSKA_KRASCHEN: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 100
+    randomDelay: 43200
+    executionOdds: 100
+    firstMonth: 5
+    lastMonth: 6
+
+  - type: discoveries
+    varName: discoveries
+    missionWeights:
+      0:
+        STR_DISCOVERIES_MISSION: 100
+    regionWeights:
+      0:
+        REGION_DISCOVERIES: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 100
+    randomDelay: 43200
+    executionOdds: 100
+    firstMonth: 10
+    lastMonth: 11
+
+  - type: hide_and_Seek
+    varName: hide_and_seek
+    missionWeights:
+      0:
+        STR_HIDE_AND_SEEK_MISSION: 100
+    regionWeights:
+      0:
+        REGION_HIDE_AND_SEEK: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 100
+    randomDelay: 43200
+    executionOdds: 100
+    firstMonth: 12
+    lastMonth: 13
+
+  - type: spiderweb
+    varName: spiderweb
+    missionWeights:
+      0:
+        STR_SPIDERWEB_MISSION: 100
+    regionWeights:
+      0:
+        REGION_SPIDERWEB: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 100
+    randomDelay: 43200
+    executionOdds: 100
+    firstMonth: 15
+    lastMonth: 16
+
+  - type: whispers
+    varName: whispers
+    missionWeights:
+      0:
+        STR_WHISPERS_MISSION: 100
+    regionWeights:
+      0:
+        REGION_WHISPERS: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 100
+    randomDelay: 43200
+    executionOdds: 100
+    firstMonth: 18
+    lastMonth: 19
+
+  - type: enemy_of_my_enemy
+    varName: enemy_of_my_enemy
+    missionWeights:
+      0:
+        STR_HIDE_AND_SEEK_MISSION: 100
+    regionWeights:
+      0:
+        REGION_HIDE_AND_SEEK: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 100
+    randomDelay: 43200
+    executionOdds: 100
+    firstMonth: 20
+    lastMonth: 21
+
+  - type: operation_Harbinger
+    varName: operation_Harbinger
+    missionWeights:
+      0:
+        STR_OPERATION_HARBINGER_MISSION: 100
+    regionWeights:
+      0:
+        REGION_OPERATION_HARBINGER: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 100
+    randomDelay: 43200
+    executionOdds: 100
+    firstMonth: 24
+    lastMonth: 24
 
 #########################
 #### SIDE MISSIONS #####
@@ -1121,6 +1267,122 @@ missionScripts:
     useTable: false
 
 alienMissions:
+
+#############################
+###### STORY MISSIONS ######
+###########################
+
+  - type: STR_PROVING_GROUNDS_MISSION
+    objective: 3
+    siteType: STR_PROVING_GROUNDS_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_D17_INFILTRATION: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 100
+        objective: true
+  - type: STR_NORISKA_KRASCHEN_MISSION
+    objective: 3
+    siteType: STR_NORISKA_KRASCHEN_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_D17_AMBUSH: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 100
+        objective: true
+  - type: STR_DISCOVERIES_MISSION
+    objective: 3
+    siteType: STR_DISCOVERIES_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_SECTOID: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 100
+        objective: true
+  - type: STR_HIDE_AND_SEEK_MISSION
+    objective: 3
+    siteType: STR_HIDE_AND_SEEK_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_D17_HIDE_AND_SEEK: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 100
+        objective: true
+  - type: STR_SPIDERWEB_MISSION
+    objective: 3
+    siteType: STR_SPIDERWEB_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_SECTOID: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 100
+        objective: true
+  - type: STR_WHISPERS_MISSION
+    objective: 3
+    siteType: STR_WHISPERS_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_THIN_MEN_WHISPERS: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 100
+        objective: true
+  - type: STR_THE_ENEMY_OF_MY_ENEMY_MISSION
+    objective: 3
+    siteType: STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_OPERATION_GLADIO_HYBRIDS: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 100
+        objective: true
+  - type: STR_OPERATION_HARBINGER_MISSION
+    objective: 3
+    siteType: STR_OPERATION_HARBINGER_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_SECTOIDS: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 100
+        objective: true
+
+
+
+############################
+###### SIDE MISSIONS ######
+##########################
+
   - type: STR_CROP_CIRCLE_INVESTIGATION_SITES
     points: 50
     objective: 2
