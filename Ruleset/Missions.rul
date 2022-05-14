@@ -762,7 +762,7 @@ alienDeployments:
     markerIcon: 29
     alert: STR_SPECIAL_CASE_OPEN
     alertBackground: BACK13.SCR
-    #unlockedResearch: STR_OPERATION_HARBINGER_MISSION_TRIGGER
+    unlockedResearch: STR_OPERATION_HARBINGER_MISSION_TRIGGER
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
   - type: STR_OPERATION_HARBINGER_DEPLOYMENT
