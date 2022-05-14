@@ -1,11 +1,33 @@
-alienDeployments:
-  - delete: STR_HARVESTER
-  - delete: STR_ABDUCTOR
-  - delete: STR_TERROR_SHIP
-  - delete: STR_BATTLESHIP
-  - delete: STR_SUPPLY_SHIP
+
 
 research:
+
+  - name: STR_DISCOVERIES_SECTOID_ENGINEER
+    cost: 400
+    points: 100
+    needItem: true
+    listOrder: 1000
+  - name: STR_NORISKA_KRASCHEN_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: true
+    listOrder: 1000
+  - name: STR_WHISPERS_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: true
+    listOrder: 1000
+  - name: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: true
+    listOrder: 1000
+  - name: STR_OPERATION_HARBINGER_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: false
+    listOrder: 1000
+
   - name: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
     cost: 200
     points: 50
@@ -17,12 +39,12 @@ research:
     dependencies:
       - STR_COMMANDER_PLUS
 
-  - name: STR_DISCOVERIES_SECTOID_ENGINEER
-    cost: 200
-    points: 100
-    needItem: true
-    dependencies:
-      - STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+  #- name: STR_DISCOVERIES_SECTOID_ENGINEER
+  #  cost: 200
+  #  points: 100
+  #  needItem: true
+  #  dependencies:
+  #    - STR_NORISKA_KRASCHEN_SECTOID_CORPSE
 
   - name: STR_HIDE_AND_SEEK_DATA_SUITCASE
     cost: 200
@@ -50,12 +72,19 @@ research:
 #################
 #### ACT 1 #####
 ###############
+alienDeployments:
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
 
   - type: STR_PROVING_GROUNDS_DEPLOYMENT
     customUfo: STR_PROVING_GROUNDS_LARGE_SCOUT
     height: 10
     width: 40
     length: 40
+    duration: [999, 999]
     civilianSpawnNodeRank: 0
     civiliansByType:
       STR_MALE_FARMER: 2
@@ -133,6 +162,8 @@ research:
       palette: 2
     markerName: STR_PROVING_GROUNDS_MARKER
     markerIcon: 27
+    alert: STR_SPECIAL_CASE_OPEN
+    alertBackground: BACK13.SCR
     unlockedResearch: STR_NORISKA_KRASCHEN_MISSION_TRIGGER
 
   - type: STR_NORISKA_KRASCHEN_DEPLOYMENT
@@ -141,6 +172,7 @@ research:
     height: 10
     width: 50
     length: 50
+    duration: [999, 999]
     civilianSpawnNodeRank: 0
     civiliansByType:
       STR_SWEDISH_ASSAULT: 3
@@ -230,13 +262,14 @@ research:
   - type: STR_DISCOVERIES_DEPLOYMENT
     customUfo: STR_DISCOVERIES_LARGE_SCOUT
     height: 10
-    width: 60
-    length: 60
+    width: 40
+    length: 40
+    duration: [999, 999]
     civilianSpawnNodeRank: 0
     civiliansByType:
-      STR_AMERICAN_ASSAULT: 3
-      STR_AMERICAN_RIFLEMAN: 3
-      STR_AMERICAN_SUPPORT: 2
+      STR_AMERICAN_ASSAULT: 4
+      STR_AMERICAN_RIFLEMAN: 4
+      STR_AMERICAN_SUPPORT: 3
     data: 
       - alienRank: 5
         lowQty: 3
@@ -313,6 +346,8 @@ research:
       palette: 2
     markerName: STR_DISCOVERIES_MARKER
     markerIcon: 28
+    alert: STR_SPECIAL_CASE_OPEN
+    alertBackground: BACK13.SCR
     missionBountyItem: STR_DISCOVERIES_SECTOID_ENGINEER
 
   - type: STR_HIDE_AND_SEEK_DEPLOYMENT
@@ -320,6 +355,7 @@ research:
     height: 10
     width: 50
     length: 50
+    duration: [999, 999]
     civilians: 10
     civiliansByType:
       STR_GLADIO_OPERATIVE_M: 2
@@ -400,6 +436,8 @@ research:
       palette: 2
     markerName: STR_HIDE_AND_SEEK_MARKER
     markerIcon: 28
+    alert: STR_SPECIAL_CASE_OPEN
+    alertBackground: BACK13.SCR
     missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
   - type: STR_SPIDERWEB_DEPLOYMENT
@@ -407,6 +445,7 @@ research:
     height: 10
     width: 50
     length: 50
+    duration: [999, 999]
     civilianSpawnNodeRank: 0
     civiliansByType:
       STR_AMERICAN_ASSAULT: 3
@@ -502,6 +541,8 @@ research:
       palette: 2
     markerName: STR_SPIDERWEB_MARKER
     markerIcon: 28
+    alert: STR_SPECIAL_CASE_OPEN
+    alertBackground: BACK13.SCR
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
     unlockedResearch: STR_WHISPERS_MISSION_TRIGGER
 
@@ -518,6 +559,7 @@ research:
     height: 10
     width: 50
     length: 50
+    duration: [999, 999]
     data:
       - alienRank: 5
         lowQty: 3
@@ -608,6 +650,8 @@ research:
       palette: 2
     markerName: STR_WHISPERS_MARKER
     markerIcon: 29
+    alert: STR_SPECIAL_CASE_OPEN
+    alertBackground: BACK13.SCR
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
     unlockedResearch: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
 
@@ -625,6 +669,7 @@ research:
     height: 10
     width: 50
     length: 50
+    duration: [999, 999]
     data:
       - alienRank: 5
         lowQty: 4
@@ -715,7 +760,9 @@ research:
       palette: 2
     markerName: STR_THE_ENEMY_OF_MY_ENEMY_MARKER
     markerIcon: 29
-    unlockedResearch: STR_OPERATION_HARBINGER_MISSION_TRIGGER
+    alert: STR_SPECIAL_CASE_OPEN
+    alertBackground: BACK13.SCR
+    #unlockedResearch: STR_OPERATION_HARBINGER_MISSION_TRIGGER
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
   - type: STR_OPERATION_HARBINGER_DEPLOYMENT
@@ -731,6 +778,7 @@ research:
     height: 10
     width: 60
     length: 60
+    duration: [999, 999]
     data:
       - alienRank: 5
         lowQty: 2
@@ -821,6 +869,8 @@ research:
       palette: 2
     markerName: STR_OPERATION_HARBINGER_MARKER
     markerIcon: 29
+    alert: STR_OPERATION_APPROVED
+    alertBackground: BACK12.SCR
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
 ##################
@@ -1114,42 +1164,7 @@ items:
     armor: 50
     recover: false
 
-research:
-  - name: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
-    cost: 400
-    points: 100
-    needItem: false
-    listOrder: 1000
-  - name: STR_DISCOVERIES_SECTOID_ENGINEER
-    cost: 400
-    points: 100
-    needItem: false
-    listOrder: 1000
-  - name: STR_HIDE_AND_SEEK_DATA_SUITCASE
-    cost: 400
-    points: 100
-    needItem: false
-    listOrder: 1000
-  - name: STR_NORISKA_KRASCHEN_MISSION_TRIGGER
-    cost: 400
-    points: 100
-    needItem: false
-    listOrder: 1000
-  - name: STR_WHISPERS_MISSION_TRIGGER
-    cost: 400
-    points: 100
-    needItem: false
-    listOrder: 1000
-  - name: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
-    cost: 400
-    points: 100
-    needItem: false
-    listOrder: 1000
-  - name: STR_OPERATION_HARBINGER_MISSION_TRIGGER
-    cost: 400
-    points: 100
-    needItem: false
-    listOrder: 1000
+
 
 ufos:
 #<delete>
@@ -1208,7 +1223,7 @@ missionScripts:
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 5
+    firstMonth: 4
     maxRuns: 1
 
   - type: discoveries
@@ -1225,7 +1240,7 @@ missionScripts:
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 10
+    firstMonth: 9
     maxRuns: 1
 
   - type: hide_and_Seek
@@ -1242,7 +1257,7 @@ missionScripts:
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 12
+    firstMonth: 11
     maxRuns: 1
 
   - type: spiderweb
@@ -1254,12 +1269,12 @@ missionScripts:
       0:
         REGION_SPIDERWEB: 100
     researchTriggers:
-      #STR_DISCOVERIES_SECTOID_ENGINEER: true
-      STR_HIDE_AND_SEEK_DATA_SUITCASE: true
+      STR_OPERATION_SPIDERWEB: true
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 15
+    firstMonth: 14
+    lastMonth: 16
     maxRuns: 1
 
   - type: whispers
@@ -1274,25 +1289,27 @@ missionScripts:
       STR_WHISPERS_MISSION_TRIGGER: true
       STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER: false
     useTable: false
-    startDelay: 100
-    randomDelay: 43200
+    startDelay: 21600 # 15 Days
+    firstMonth: 16
+    lastMonth: 17
     executionOdds: 100
 
   - type: enemy_of_my_enemy
     varName: enemy_of_my_enemy
     missionWeights:
       0:
-        STR_HIDE_AND_SEEK_MISSION: 100
+        STR_THE_ENEMY_OF_MY_ENEMY_MISSION: 100
     regionWeights:
       0:
-        REGION_HIDE_AND_SEEK: 100
+        REGION_THE_ENEMY_OF_MY_ENEMY: 100
     researchTriggers:
       STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER: true
       STR_OPERATION_HARBINGER_MISSION_TRIGGER: false
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 19
+    firstMonth: 18
+    lastMonth: 19
     maxRuns: 1
 
   - type: operation_Harbinger
@@ -1309,7 +1326,8 @@ missionScripts:
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 21
+    firstMonth: 20
+    lastMonth: 21
     maxRuns: 1
 
 #########################
@@ -1326,16 +1344,16 @@ missionScripts:
   - type: CattleMutilationInvestigationSitesScript
     missionWeights:
       0:
-        STR_CROP_CIRCLE_INVESTIGATION_SITES: 100
-    startDelay: 10080 # 7 Days
+        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 100
+    startDelay: 150  # 10080 7 Days
     targetBaseOdds: 100
     useTable: false
 
   - type: CounterIntelligenceInvestigationSitesScript
     missionWeights:
       0:
-        STR_CROP_CIRCLE_INVESTIGATION_SITES: 100
-    startDelay: 21600 # 15 Days
+        STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: 100
+    startDelay: 150 # 21600 15 Days
     targetBaseOdds: 100
     useTable: false
 
@@ -1457,7 +1475,7 @@ alienMissions:
 ##########################
 
   - type: STR_CROP_CIRCLE_INVESTIGATION_SITES
-    points: 50
+    points: 100
     objective: 2
     siteType: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT
     spawnZone: 4 #Mission zone for alien bases
@@ -1480,7 +1498,7 @@ alienMissions:
         objective: true
 
   - type: STR_CATTLE_MUTILATION_INVESTIGATION_SITES
-    points: 50
+    points: 100
     objective: 2
     siteType: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
     spawnZone: 4 #Mission zone for alien bases
@@ -1509,7 +1527,7 @@ alienMissions:
         objective: true
 
   - type: STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES
-    points: 50
+    points: 100
     objective: 2
     siteType: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT
     spawnZone: 4 #Mission zone for alien bases

@@ -492,6 +492,8 @@ en-US:
   STR_D17_AGENT: "D17 Agent"
   D17_AGENT: "D17 Undercover Attire"
 ################################
+  STR_SPECIAL_CASE_OPEN: "SPECIAL CASE OPEN"
+  STR_OPERATION_APPROVED: "OPERATION HARBINGER APPROVED"
   STR_PROVING_GROUNDS_DEPLOYMENT: "Proving Grounds"
   STR_PROVING_GROUNDS_LARGE_SCOUT: "Crashed Large Scout"
   STR_PROVING_GROUNDS_DESCRIPTION: "Field agents from Bureau 11 are sent to investigate a OETO that suffered an accident and crashed near the border. There are reports of unidentified individuals near the crash site. Our task is to secure the zone and wait till recovery teams arrive. Identify the identity of the people near the area and their intentions. If they are armed, you have permission to engage."
