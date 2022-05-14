@@ -25,7 +25,7 @@ research:
   - name: STR_OPERATION_HARBINGER_MISSION_TRIGGER
     cost: 400
     points: 100
-    needItem: false
+    needItem: true
     listOrder: 1000
 
   - name: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
