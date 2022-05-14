@@ -607,7 +607,7 @@ units:
       throwing: 60
       strength: 30
       psiStrength: 80
-      psiSkill: 45
+      psiSkill: 35
       melee: 60
     armor: THIN_MAN_ARMOR
     standHeight: 24
@@ -746,7 +746,7 @@ units:
       throwing: 60
       strength: 40
       psiStrength: 100
-      psiSkill: 16
+      psiSkill: 0
       melee: 70
     armor: D17_OFFICER
     standHeight: 22
@@ -782,7 +782,7 @@ units:
       throwing: 60
       strength: 40
       psiStrength: 100
-      psiSkill: 16
+      psiSkill: 0
       melee: 70
     armor: D17_AGENT
     standHeight: 22
@@ -819,7 +819,7 @@ units:
       throwing: 20
       strength: 40
       psiStrength: 100
-      psiSkill: 16
+      psiSkill: 0
       melee: 50
     armor: D17_SCIENTIST
     standHeight: 22
