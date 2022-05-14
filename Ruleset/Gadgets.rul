@@ -47,7 +47,6 @@ items:
     size: 0.1
     costSell: 2100
     twoHanded: true
-    blockBothHands: true
     weight: 6
     bigSprite: 1912
     floorSprite: 1912
@@ -62,8 +61,10 @@ items:
       name: STR_SNAP
       ammoSlot: 0
       arcing: false
+    damageAlter:
+      RandomType: 7
     snapRange: 6
-    accuracySnap: 90
+    accuracySnap: 180
     tuSnap: 55
     battleType: 1
     invWidth: 2
