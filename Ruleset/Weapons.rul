@@ -55,7 +55,7 @@ itemCategories:
 
 items:
   - delete: STR_TANK_CANNON
-  - delete: STR_HWP_SHELLS
+  - delete: STR_HWP_CANNON_SHELLS
   - delete: STR_TANK_ROCKET_LAUNCHER
   - delete: STR_HWP_ROCKETS
   - delete: STR_TANK_LASER_CANNON
