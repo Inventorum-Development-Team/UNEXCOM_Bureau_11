@@ -12,9 +12,9 @@ startingTime:
   month: 1
   year: 1961
 
-initialFunding: 2000
-costEngineer: 45000
-costScientist: 80000
+initialFunding: 2600
+costEngineer: 25000
+costScientist: 40000
 crewEmergencyEvacuationSurvivalChance: 65
 pilotsEmergencyEvacuationSurvivalChance: 75
 drawEnemyRadarCircles: 2
