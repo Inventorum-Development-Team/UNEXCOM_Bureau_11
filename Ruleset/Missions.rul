@@ -1344,7 +1344,7 @@ missionScripts:
   - type: CattleMutilationInvestigationSitesScript
     missionWeights:
       0:
-        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 100
+        STR_CATTLE_MUTILATION_INVESTIGATION_SITES: 100
     startDelay: 150  # 10080 7 Days
     targetBaseOdds: 100
     useTable: false
