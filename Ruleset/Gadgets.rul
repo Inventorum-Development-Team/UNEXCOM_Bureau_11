@@ -72,8 +72,8 @@ items:
     listOrder: 402
   - type: STR_GRENADE
     categories: [STR_GADGETS, STR_GRENADES]
-#    requiresBuy:
-#      - STR_MILITARY_EQUIPMENT_AQUISITION
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
     damageType: 1
     power: 20
     damageAlter:
