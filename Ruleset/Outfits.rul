@@ -281,7 +281,7 @@ research:
   - name: STR_AUGMENTATION_SUIT
     cost: 150
     points: 25
-    needsItem: true
+    needItem: true
 
 extraSprites:
   # Agent Suit Inv
