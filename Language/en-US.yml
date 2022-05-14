@@ -125,7 +125,7 @@ en-US:
   STR_MILITARY_EQUIPMENT_AQUISITION: "Military Equipment Acquisition"
   STR_SOVIET_WEAPON_AQUISITION: "Soviet Weapon Aquisition"
   STR_ALIEN_WEAPON_OPERATION: "Alien Weapon Operation"
-  STR_LIGHT_ASSAULT_RIFLE_REQUISITION: "Light Assault Requisition"
+  STR_LIGHT_ASSAULT_RIFLE_REQUISITION: "Light Assault Rifle Requisition"
 
   STR_BROWNING_HP35: "Browning HP-35"
   STR_BROWNING_HP35_MAG: "9x19mm Magazine (15x)"
@@ -359,12 +359,9 @@ en-US:
 ################################
 ####### Initial Intel #########
 ##############################
-  STR_PLASMA_RESIDUE_1: "Plasma Residue"
-  STR_PLASMA_RESIDUE_2: "Plasma Residue"
-  STR_PLASMA_RESIDUE_3: "Plasma Residue"
-  STR_PLASMA_RESIDUE_4: "Plasma Residue"
-  STR_PLASMA_RESIDUE_5: "Plasma Residue"
-  STR_PLASMA_RESIDUE_6: "Plasma Residue"
+  STR_PLASMA_RESIDUE_1: "Residual Fluid"
+  STR_PLASMA_RESIDUE_2: "Residual Fluid"
+  STR_PLASMA_RESIDUE_3: "Residual Fluid"
   STR_RESIDUAL_FLUID: "Residual Fluid"
   STR_CROP_CIRCLE_REPORT: "Report: Crop Circle Investigation"
   STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence at one such site. Flammable chemical residue invasive to the environment was found at the scene. We theorize that this chemical was used to initiate a controlled burn that engraved the pattern. These patterns may be created by aliens to signal OETOs flying over head, though of what we are still unsure. While we suspect these are alien in nature, we have no conclusive evidence."
@@ -395,6 +392,12 @@ en-US:
 ################################
 ####### Initial Intel #########
 ##############################
+  STR_USELESS_ORGANS_1: "Splattered Organs"
+  STR_USELESS_ORGANS_2: "Splattered Organs"
+  STR_USELESS_ORGANS_3: "Splattered Organs"
+  STR_USELESS_ORGANS_4: "Splattered Organs"
+  STR_USELESS_ORGANS_5: "Splattered Organs"
+  STR_USELESS_ORGANS_6: "Splattered Organs"
   STR_MUTILATED_CATTLE: "Mutilated Cattle"
   STR_SPLATTERED_BLOOD: "Splattered Blood"
   STR_CATTLE_MUTILATION_REPORT: "Report: Cattle Mutilation Investigation"
@@ -406,6 +409,14 @@ en-US:
 ################################
 ####### Initial Intel #########
 ##############################
+  STR_D17_SOLDIER: "D17 Soldier"
+  STR_D17_SOLDIER_CORPSE: "D17 Soldier Corpse"
+  STR_D17_OFFICER: "D17 Officer"
+  STR_D17_OFFICER_CORPSE: "D17 Officer Corpse"
+  STR_D17_AGENT: "D17 Agent"
+  STR_D17_AGENT_CORPSE: "D17 Agent Corpse"
+  STR_D17_SCIENTIST: "D17 Scientist"
+  STR_D17_SCIENTIST_CORPSE: "D17 Scientist Corpse"
   STR_DATA_BRIEFCASE: "KGB Data Briefcase"
   STR_LISTENING_DEVICE: "KGB Listening Device"
   STR_LISTENING_DEVICE_UFOPEDIA: "A recording radio with microphone, small enough to fit in the jacket without notice. It's used by Soviet agents to spy on private conversations and compile sensible information. It's overall appreance remembers a mix between a cigarette box and a phone "
