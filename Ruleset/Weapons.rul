@@ -1811,7 +1811,7 @@ items:
     costSell: 126500
     requires:
      - STR_ALIEN_WEAPON_OPERATION
-    weight: 5
+    weight: 11
     bigSprite: 768
     floorSprite: 768
     handSprite: 768
@@ -1880,7 +1880,7 @@ items:
     costSell: 171600
     requires:
      - STR_ALIEN_WEAPON_OPERATION
-    weight: 8
+    weight: 24
     bigSprite: 792
     floorSprite: 792
     handSprite: 792
