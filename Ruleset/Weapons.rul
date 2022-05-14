@@ -583,25 +583,25 @@ items:
       name: STR_STEADY_SHOT
       ammoSlot: 0
       arcing: false
-    aimRange: 20
-    accuracyAimed: 110
+    aimRange: 18
+    accuracyAimed: 100
     tuAimed: 55
     confSnap:
       shots: 2
       name: STR_DOUBLE_TAP
       ammoSlot: 0
       arcing: false
-    snapRange: 16
-    accuracySnap: 70
+    snapRange: 14
+    accuracySnap: 65
     tuSnap: 40
     confAuto:
       shots: 8
       name: STR_SPRAY_N_PRAY
       ammoSlot: 0
       arcing: false
-    autoRange: 8
-    accuracyAuto: 55
-    tuAuto: 30
+    autoRange: 7
+    accuracyAuto: 45
+    tuAuto: 35
     accuracyCloseQuarters: 100
     tuLoad: 20
     maxRange: 60
@@ -1996,7 +1996,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SEMI_CONCEALED, STR_CONCEALED]
     size: 0.2
     costSell: 8000
-    weight: 12
+    weight: 9
     bigSprite: 840
     floorSprite: 840
     handSprite: 840
@@ -2010,24 +2010,24 @@ items:
       name: STR_STEADY_SHOT
       ammoSlot: 0
       arcing: false
-    aimRange: 30
+    aimRange: 35
     accuracyAimed: 90
-    tuAimed: 48
+    tuAimed: 45
     confSnap:
       shots: 2
       name: STR_DOUBLE_TAP
       ammoSlot: 0
       arcing: false
-    snapRange: 20
+    snapRange: 25
     accuracySnap: 65
-    tuSnap: 45
+    tuSnap: 40
     confAuto:
-      shots: 5
+      shots: 8
       name: STR_SPRAY_N_PRAY
       ammoSlot: 0
       arcing: false
-    autoRange: 15
-    accuracyAuto: 30
+    autoRange: 18
+    accuracyAuto: 45
     tuAuto: 35
     accuracyCloseQuarters: 100
     tuLoad: 20
