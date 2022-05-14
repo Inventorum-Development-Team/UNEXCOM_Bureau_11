@@ -281,6 +281,26 @@ ufos:
           width: 10
           length: 10
 
+  - type: STR_MAJOR_CATTLE_MUTILATION_UFO
+    battlescapeTerrainData:
+      name: MAJOR_CATTLE_MUTILATION_UFO
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - CATTLE_MUTILATION_EVIDENCE
+      mapBlocks:
+        - name: MAJOR_CATTLE_MUTILATION_UFO00
+          width: 20
+          length: 20
+        - name: MAJOR_CATTLE_MUTILATION_UFO01
+          width: 20
+          length: 20
+        - name: MAJOR_CATTLE_MUTILATION_UFO02
+          width: 20
+          length: 20
+
   - type: STR_KGB_HIDEOUT_UFO
     battlescapeTerrainData:
       name: KGB_HIDEOUT_UFO

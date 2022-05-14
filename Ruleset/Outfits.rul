@@ -276,7 +276,7 @@ armors:
       - INV_POWER_PACK_3X3
 
 research:
-  - remove: STR_PERSONAL_ARMOR
+  - delete: STR_PERSONAL_ARMOR
 
   - name: STR_AUGMENTATION_SUIT
     cost: 150

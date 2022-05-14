@@ -348,7 +348,7 @@ alienDeployments:
     markerIcon: 28
     alert: STR_SPECIAL_CASE_OPEN
     alertBackground: BACK13.SCR
-    missionBountyItem: STR_DISCOVERIES_SECTOID_ENGINEER
+    unlockedResearch: STR_DISCOVERIES_SECTOID_ENGINEER
 
   - type: STR_HIDE_AND_SEEK_DEPLOYMENT
     customUfo: STR_HIDE_AND_SEEK_VAN
@@ -438,7 +438,7 @@ alienDeployments:
     markerIcon: 28
     alert: STR_SPECIAL_CASE_OPEN
     alertBackground: BACK13.SCR
-    missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    unlockedResearch: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
   - type: STR_SPIDERWEB_DEPLOYMENT
     customUfo: STR_SPIDERWEB_LARGE_SCOUT
@@ -541,7 +541,7 @@ alienDeployments:
       palette: 2
     markerName: STR_SPIDERWEB_MARKER
     markerIcon: 28
-    alert: STR_SPECIAL_CASE_OPEN
+    alert: STR_OPERATION_SPIDERWEB_APPROVED
     alertBackground: BACK13.SCR
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
     unlockedResearch: STR_WHISPERS_MISSION_TRIGGER
@@ -650,7 +650,7 @@ alienDeployments:
       palette: 2
     markerName: STR_WHISPERS_MARKER
     markerIcon: 29
-    alert: STR_SPECIAL_CASE_OPEN
+    alert: STR_DISTRESS_SIGNAL_RECIEVED
     alertBackground: BACK13.SCR
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
     unlockedResearch: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
@@ -760,10 +760,10 @@ alienDeployments:
       palette: 2
     markerName: STR_THE_ENEMY_OF_MY_ENEMY_MARKER
     markerIcon: 29
-    alert: STR_SPECIAL_CASE_OPEN
+    alert: STR_DISTRESS_SIGNAL_RECIEVED
     alertBackground: BACK13.SCR
-    unlockedResearch: STR_OPERATION_HARBINGER_MISSION_TRIGGER
-    #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    #unlockedResearch: STR_OPERATION_HARBINGER_MISSION_TRIGGER
+    
 
   - type: STR_OPERATION_HARBINGER_DEPLOYMENT
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
@@ -1032,6 +1032,22 @@ alienDeployments:
             - STR_DUMMY_EVIDENCE_ITEM
           -
             - STR_DUMMY_EVIDENCE_ITEM
+      - alienRank: 4
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
     briefing:
       #textOffset: -16
       background: BACK01.SCR
@@ -1123,14 +1139,104 @@ alienDeployments:
       palette: 2
     markerName: STR_COUNTER_INTELLIGENCE_INVESTIGATION
     markerIcon: 32
+#############################################
 
+  - type: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
+    customUfo: STR_MAJOR_CATTLE_MUTILATION_UFO
+    height: 10
+    width: 40
+    length: 40
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: true
+      showCraft: true
+      desc: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 5
+    markerName: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION
+    markerIcon: 34
+
+#############################################
 items:
   - type: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
     size: 0.1
   - type: STR_DISCOVERIES_SECTOID_ENGINEER
     size: 0.1
   - type: STR_HIDE_AND_SEEK_DATA_SUITCASE
-    size: 0.1
+    categories: [STR_SOVIET_TECHNOLOGY]
+    #name: STR_KGB_TECH
+    weight: 10
+    bigSprite: 1016
+    floorSprite: 1016
+    handSprite: 1016
+    armor: 999
+    recoveryPoints: 50
+    recover: true
   - type: STR_CORPSE_SUIT_DUMMY
     name: STR_CORPSE
     weight: 60
@@ -1321,7 +1427,7 @@ missionScripts:
       0:
         REGION_OPERATION_HARBINGER: 100
     researchTriggers:
-      STR_OPERATION_HARBINGER_MISSION_TRIGGER: true
+      STR_ACT_3_START: true
       #STR_END_OF_TERRORISTS: false
     useTable: false
     startDelay: 21600 # 15 Days
@@ -1356,7 +1462,20 @@ missionScripts:
     startDelay: 150 # 21600 15 Days
     targetBaseOdds: 100
     useTable: false
+########################################
 
+  - type: MajorCattleMutilationInvestigationSitesScript
+    missionWeights:
+      0:
+        STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_SITES: 100
+    startDelay: 150  # 10080 7 Days
+    targetBaseOdds: 100
+    useTable: false
+    researchTriggers:
+      STR_ACT_2_START: true
+
+
+#############################
 alienMissions:
 
 #############################
@@ -1481,22 +1600,24 @@ alienMissions:
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
       0:
-        STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_1: 100
       1:
-        STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_1: 100
       3:
-        STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_2: 100
+      4:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_2: 100
+      5:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_3: 100
       6:
-        STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
-      9:
-        STR_CROP_CIRCLE_INVESTIGATION_RACE: 100
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_3: 100
     waves:
       - ufo: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT # spawn this site directly
         count: 1
         trajectory: STATIC_TRAJECTORY_BASE
         timer: 0
         objective: true
-
+##########################################
   - type: STR_CATTLE_MUTILATION_INVESTIGATION_SITES
     points: 100
     objective: 2
@@ -1504,15 +1625,17 @@ alienMissions:
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
       0:
-        STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_1: 100
       1:
-        STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_1: 100
       3:
-        STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_2: 100
+      4:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_2: 100
+      5:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_3: 100
       6:
-        STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
-      9:
-        STR_CATTLE_MUTILATION_INVESTIGATION_RACE: 100
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_3: 100
 #    waves:
 #      - ufo: dummy #don't spawn a ufo, we only want the site
 #        count: 1
@@ -1525,6 +1648,7 @@ alienMissions:
         trajectory: STATIC_TRAJECTORY_BASE
         timer: 0
         objective: true
+####################################################
 
   - type: STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES
     points: 100
@@ -1548,6 +1672,39 @@ alienMissions:
         trajectory: STATIC_TRAJECTORY_BASE
         timer: 0
         objective: true
+###################################
+
+  - type: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_SITES
+    points: 100
+    objective: 2
+    siteType: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_THIN_MEN: 100
+      1:
+        STR_THIN_MEN: 100
+      3:
+        STR_THIN_MEN: 100
+      4:
+        STR_THIN_MEN: 100
+      5:
+        STR_SECTOID: 100
+      6:
+        STR_SECTOID: 100
+#    waves:
+#      - ufo: dummy #don't spawn a ufo, we only want the site
+#        count: 1
+#        trajectory: P10
+#        timer: 0
+#        objective: true
+    waves:
+      - ufo: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT # spawn this site directly
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
+
 
 ufoTrajectories:
   - id: STATIC_TRAJECTORY
