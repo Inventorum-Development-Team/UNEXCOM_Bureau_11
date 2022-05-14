@@ -930,48 +930,6 @@ ufopaedia:
     requires:
       - STR_CATTLE_MUTILATION_INVESTIGATION
     text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
-  - id: STR_CATTLE_MUTILATION_REPORT
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 401
-    requires:
-      - STR_USELESS_ORGANS_1
-    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
-  - id: STR_CATTLE_MUTILATION_REPORT
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 401
-    requires:
-      - STR_USELESS_ORGANS_2
-    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
-  - id: STR_CATTLE_MUTILATION_REPORT
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 401
-    requires:
-      - STR_USELESS_ORGANS_3
-    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
-  - id: STR_CATTLE_MUTILATION_REPORT
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 401
-    requires:
-      - STR_USELESS_ORGANS_4
-    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
-  - id: STR_CATTLE_MUTILATION_REPORT
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 401
-    requires:
-      - STR_USELESS_ORGANS_5
-    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
-  - id: STR_CATTLE_MUTILATION_REPORT
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 401
-    requires:
-      - STR_USELESS_ORGANS_6
-    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
 ######################
   - id: STR_CAMERA_GUN
     type_id: 4
