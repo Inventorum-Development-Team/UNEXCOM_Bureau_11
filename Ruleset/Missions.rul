@@ -1461,7 +1461,7 @@ missionScripts:
     useTable: false
     lastMonth: 6
 
-  - type: CounterIntelligenceInvestigationSitesScript
+  - type: CounterIntelligenceInvestigationSitesScript1
     missionWeights:
       0:
         STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: 100
@@ -1469,6 +1469,15 @@ missionScripts:
     targetBaseOdds: 100
     useTable: false
     lastMonth: 6
+ 
+  - type: CounterIntelligenceInvestigationSitesScript2
+    missionWeights:
+      0:
+        STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: 100
+    startDelay: 150 # 21600 15 Days
+    targetBaseOdds: 25
+    useTable: false
+    firstMonth: 7
  
 ########################################
   - type: AbductionInvestigationSitesScript
