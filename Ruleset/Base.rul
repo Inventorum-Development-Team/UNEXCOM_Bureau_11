@@ -4,23 +4,7 @@ facilities:
   - delete: STR_MISSILE_DEFENSES
   - delete: STR_SMALL_RADAR_SYSTEM
 
-ufopaedia:
-  - id: STR_ACCESS_LIFT
-    type_id: 6
-    section: STR_BASE
-    text: STR_ACCESS_LIFT_UFOPEDIA
-  - id: STR_HANGAR
-    type_id: 6
-    section: STR_BASE
-    text: STR_HANGAR_UFOPEDIA
-  - id: STR_GENERAL_STORES
-    type_id: 6
-    section: STR_BASE
-    text: STR_GENERAL_STORES_UFOPEDIA
-  - id: STR_LIVING_QUARTERS
-    type_id: 6
-    section: STR_BASE
-    text: STR_LIVING_QUARTERS_UFOPEDIA
+
 
 startingBase:
     lon: 5.077544745436402

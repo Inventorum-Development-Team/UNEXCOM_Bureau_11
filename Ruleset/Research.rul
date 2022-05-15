@@ -1,0 +1,311 @@
+research:
+#########################
+###### VEHICLES ########
+######################
+
+  - name: STR_EXPERIMENTAL_AEROSPACE
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+
+  - name: STR_USAF_INTERCEPTOR_REQUISITION
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_EXPERIMENTAL_AEROSPACE
+      - STR_ACT_3_START
+
+  - name: STR_GYRODYNE_TRANSPORT_HELICOPTER
+    cost: 300
+    points: 100
+    dependencies:
+      - STR_EXPERIMENTAL_AEROSPACE
+      - STR_ACT_3_START
+
+#########################
+####### AGENTS #########
+######################
+
+  - name: STR_ARMY_VETERAN_RECRUITMENT
+    cost: 150
+    points: 25
+    dependencies:
+      - STR_ACT_2_START
+
+  - name: STR_KGB_OFFICER_RECRUITMENT
+    cost: 300
+    points: 50
+    dependencies:
+      - STR_ACT_3_START
+
+  - name: STR_AUGMENTATION_SUIT
+    cost: 150
+    points: 25
+    needItem: true
+#############################
+######### ENEMIES ##########
+###########################
+  - name: STR_THIN_MAN_INFILTRATOR
+    cost: 200
+    points: 50
+#    lookup: STR_THIN_MAN
+    needItem: true
+    listOrder: 1000
+  - name: STR_THIN_MAN_CORPSE
+    cost: 200
+    points: 50
+#    lookup: STR_THIN_MAN_AUTOPSY
+    needItem: true
+    listOrder: 1001
+
+  - name: STR_D17_SCIENTIST
+    cost: 400
+    points: 100
+#    lookup: STR_THIN_MAN
+    needItem: true
+    listOrder: 1000
+
+##########################
+###### EVIDENCE #########
+########################
+
+  - delete: STR_POWER_SUIT
+  - delete: STR_PERSONAL_ARMOR
+  - delete: STR_FLYING_SUIT
+ 
+##################################
+##### SIDE MISSION RESEARCH #####
+################################
+  - name: STR_RESIDUAL_FLUID_MAJOR_REPORT
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_PLASMA_RESIDUE_1
+      - STR_PLASMA_RESIDUE_2
+      - STR_PLASMA_RESIDUE_3
+
+  - name: STR_PLASMA_RESIDUE_1
+    cost: 50
+    points: 25
+    needItem: true
+
+  - name: STR_PLASMA_RESIDUE_2
+    cost: 50
+    points: 25
+    needItem: true
+
+  - name: STR_PLASMA_RESIDUE_3
+    cost: 50
+    points: 25
+    needItem: true
+#########################
+  - name: STR_CATTLE_ORGANS_MAJOR_REPORT
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_USELESS_ORGANS_1
+      - STR_USELESS_ORGANS_2
+      - STR_USELESS_ORGANS_3
+
+  - name: STR_CATTLE_BLOOD_MAJOR_REPORT
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_USELESS_ORGANS_4
+      - STR_USELESS_ORGANS_5
+      - STR_USELESS_ORGANS_6
+
+  - name: STR_USELESS_ORGANS_1
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_USELESS_ORGANS_2
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_USELESS_ORGANS_3
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_USELESS_ORGANS_4
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_USELESS_ORGANS_5
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_USELESS_ORGANS_6
+    cost: 20
+    points: 15
+    needItem: true
+####################################
+  - name: STR_CONCEALED_WEAPONS_PREQ
+    cost: 0
+    points: 5
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_CAMERA_GUN
+    cost: 150
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_CONCEALED_WEAPONS_PREQ
+
+  - name: STR_UMBRELLA_MOSIN_NAGANT
+    cost: 150
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_CONCEALED_WEAPONS_PREQ
+
+  - name: STR_DATA_BRIEFCASE
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_LISTENING_DEVICE
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_TRANSMITTER
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_KGB_TECH_INVESTIGATION
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_DATA_BRIEFCASE
+      - STR_LISTENING_DEVICE
+      - STR_TRANSMITTER
+####################################
+  - name: STR_COMATOSE_ABDUCTEE_MAJOR_REPORT
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_COMATOSE_ABDUCTEE_1
+      - STR_COMATOSE_ABDUCTEE_2
+      - STR_COMATOSE_ABDUCTEE_3
+  - name: STR_COMATOSE_ABDUCTEE_1
+    cost: 20
+    points: 15
+    needItem: true
+  - name: STR_COMATOSE_ABDUCTEE_2
+    cost: 20
+    points: 15
+    needItem: true
+  - name: STR_COMATOSE_ABDUCTEE_3
+    cost: 20
+    points: 15
+    needItem: true
+
+  - name: STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_ALIEN_SAMPLE_FLASK_1
+      - STR_ALIEN_SAMPLE_FLASK_2
+      - STR_ALIEN_SAMPLE_FLASK_3
+  - name: STR_ALIEN_SAMPLE_FLASK_1
+    cost: 20
+    points: 15
+    needItem: true
+  - name: STR_ALIEN_SAMPLE_FLASK_2
+    cost: 20
+    points: 15
+    needItem: true
+  - name: STR_ALIEN_SAMPLE_FLASK_3
+    cost: 20
+    points: 15
+    needItem: true
+
+
+#######################
+###### GADGETS #######
+#####################
+  - name: STR_ALIEN_REACTIVE_GRENADE
+    cost: 300
+    points: 50
+    needItem: true
+  - name: STR_DEVIL_AXE
+    cost: 300
+    points: 50
+    needItem: true
+
+
+##########################
+####### MISSIONS ########
+########################
+
+  - name: STR_DISCOVERIES_SECTOID_ENGINEER
+    cost: 400
+    points: 100
+    needItem: true
+    listOrder: 1000
+  - name: STR_NORISKA_KRASCHEN_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: true
+    listOrder: 1000
+  - name: STR_WHISPERS_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: true
+    listOrder: 1000
+  - name: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: true
+    listOrder: 1000
+  - name: STR_OPERATION_HARBINGER_MISSION_TRIGGER
+    cost: 400
+    points: 100
+    needItem: true
+    listOrder: 1000
+
+  - name: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_ACT_2_START
+    cost: 0
+    points: 5
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  #- name: STR_DISCOVERIES_SECTOID_ENGINEER
+  #  cost: 200
+  #  points: 100
+  #  needItem: true
+  #  dependencies:
+  #    - STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+
+  - name: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_OPERATION_SPIDERWEB
+    cost: 50
+    points: 150
+    dependencies:
+      - STR_DISCOVERIES_SECTOID_ENGINEER
+      - STR_HIDE_AND_SEEK_DATA_SUITCASE
+      - STR_ACT_2_START
+
+  - name: STR_ACT_3_START
+    cost: 0
+    points: 15
+    dependencies:
+      - STR_COMMANDER_PLUS

@@ -275,13 +275,6 @@ armors:
     builtInWeapons:
       - INV_POWER_PACK_3X3
 
-research:
-  - delete: STR_PERSONAL_ARMOR
-
-  - name: STR_AUGMENTATION_SUIT
-    cost: 150
-    points: 25
-    needItem: true
 
 extraSprites:
   # Agent Suit Inv

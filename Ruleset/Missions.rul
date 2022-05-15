@@ -1,70 +1,4 @@
 
-
-research:
-
-  - name: STR_DISCOVERIES_SECTOID_ENGINEER
-    cost: 400
-    points: 100
-    needItem: true
-    listOrder: 1000
-  - name: STR_NORISKA_KRASCHEN_MISSION_TRIGGER
-    cost: 400
-    points: 100
-    needItem: true
-    listOrder: 1000
-  - name: STR_WHISPERS_MISSION_TRIGGER
-    cost: 400
-    points: 100
-    needItem: true
-    listOrder: 1000
-  - name: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
-    cost: 400
-    points: 100
-    needItem: true
-    listOrder: 1000
-  - name: STR_OPERATION_HARBINGER_MISSION_TRIGGER
-    cost: 400
-    points: 100
-    needItem: true
-    listOrder: 1000
-
-  - name: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
-    cost: 200
-    points: 50
-    needItem: true
-
-  - name: STR_ACT_2_START
-    cost: 0
-    points: 5
-    dependencies:
-      - STR_COMMANDER_PLUS
-
-  #- name: STR_DISCOVERIES_SECTOID_ENGINEER
-  #  cost: 200
-  #  points: 100
-  #  needItem: true
-  #  dependencies:
-  #    - STR_NORISKA_KRASCHEN_SECTOID_CORPSE
-
-  - name: STR_HIDE_AND_SEEK_DATA_SUITCASE
-    cost: 200
-    points: 50
-    needItem: true
-
-  - name: STR_OPERATION_SPIDERWEB
-    cost: 50
-    points: 150
-    dependencies:
-      - STR_DISCOVERIES_SECTOID_ENGINEER
-      - STR_HIDE_AND_SEEK_DATA_SUITCASE
-      - STR_ACT_2_START
-
-  - name: STR_ACT_3_START
-    cost: 0
-    points: 15
-    dependencies:
-      - STR_COMMANDER_PLUS
-
 ############################
 ##### STORY MISSIONS ######
 ##########################
@@ -77,7 +11,7 @@ alienDeployments:
   - delete: STR_ABDUCTOR
   - delete: STR_TERROR_SHIP
   - delete: STR_BATTLESHIP
-  - delete: STR_SUPPLY_SHIP
+  - delete: STR_SUPPLY_wSHIP
 
   - type: STR_PROVING_GROUNDS_DEPLOYMENT
     customUfo: STR_PROVING_GROUNDS_LARGE_SCOUT

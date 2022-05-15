@@ -352,27 +352,6 @@ craftWeapons:
     projectileType: 2
     projectileSpeed: 8
 
-research:
-  - name: STR_EXPERIMENTAL_AEROSPACE
-    cost: 200
-    points: 50
-    dependencies:
-      - STR_MILITARY_EQUIPMENT_AQUISITION
-
-  - name: STR_USAF_INTERCEPTOR_REQUISITION
-    cost: 200
-    points: 50
-    dependencies:
-      - STR_EXPERIMENTAL_AEROSPACE
-      - STR_ACT_3_START
-
-  - name: STR_GYRODYNE_TRANSPORT_HELICOPTER
-    cost: 300
-    points: 100
-    dependencies:
-      - STR_EXPERIMENTAL_AEROSPACE
-      - STR_ACT_3_START
-
 manufacture:
   - delete: STR_FIRESTORM
   - delete: STR_LIGHTNING

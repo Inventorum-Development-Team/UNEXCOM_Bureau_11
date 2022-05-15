@@ -242,15 +242,15 @@ en-US:
   STR_WELROD_UFOPEDIA: "This suppressed bolt-action {ALT}9x19mm Parabellum{ALT} pistol comes from our old friends from across the pond. It was intended to be used by resistance forces in Nazi occupied territories during World War II but has now found a place in Gladio counter-Soviet stay-behind forces in Europe, for better...or for worse. {NEWLINE}>Concealable"
 
   STR_DELISLE_CARBINE_SNIPER: "DeLisle Sniper Carbine"
-  STR_DELISLE_CARBINE_SNIPER_UFOPEDIA: "The DeLisle Carbine is quite possibly one of the quietest firearms ever produced. The British carbine fires {ALT}.45 ACP{ALT} sub-sonic ammunition through a specially designed interal suppressor. This DeLisle Carbine has been specialized for long range sniping with a high-powered scope. {NEWLINE}>Concealable"
+  STR_DELISLE_CARBINE_SNIPER_UFOPEDIA: "The DeLisle Carbine is quite possibly one of the quietest firearms ever produced. The British carbine fires {ALT}.45 ACP{ALT} sub-sonic ammunition through a specially designed integral suppressor. This DeLisle Carbine has been specialized for long range sniping with a high-powered scope. {NEWLINE}>Concealable"
 
   STR_DELISLE_CARBINE_PARATROOPER: "DeLisle Paratrooper Carbine"
-  STR_DELISLE_CARBINE_PARATROOPER_UFOPEDIA: "The DeLisle Carbine is quite possibly one of the quietest firearms ever produced. The British carbine fires {ALT}.45 ACP{ALT} sub-sonic ammunition through a specially designed interal suppressor. This compact DeLisle Carbine, modified with a folding stock, was orginally intended for use by Paratroopers. {NEWLINE}>Concealable"
+  STR_DELISLE_CARBINE_PARATROOPER_UFOPEDIA: "The DeLisle Carbine is quite possibly one of the quietest firearms ever produced. The British carbine fires {ALT}.45 ACP{ALT} sub-sonic ammunition through a specially designed integral suppressor. This compact DeLisle Carbine, modified with a folding stock, was originally intended for use by Paratroopers. {NEWLINE}>Concealable"
 
 #########################################
   STR_GADGETS: "GADGETS AND GRENADES"
   STR_BANDAGES: "Bandages"
-  STR_BANDAGES_UFOPEDIA: "A small pack of bandages encased in a plastic wrap, able to stop bleeding in life-threatening siuations."
+  STR_BANDAGES_UFOPEDIA: "A small pack of bandages encased in a plastic wrap, able to stop bleeding in life-threatening situations."
   STR_MEDICAL_BAG: "Medical Bag"
   STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical items as well as a crude surgery kit. Utilized by paramedics on the field, it may be unweildy but it can save a man's life." 
   STR_SNAP: "Snap Shot"
@@ -372,6 +372,7 @@ en-US:
   STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3: "Minor Abduction Victims III"
 
   STR_EVIDENCE: "Evidence"
+  STR_INVESTIGATION_EVIDENCE: "INVESTIGATIONS EVIDENCE"
 #################################
 ######## CROP CIRCLES ##########
 ###############################
@@ -383,7 +384,7 @@ en-US:
   STR_PLASMA_RESIDUE_2: "Residual Fluid"
   STR_PLASMA_RESIDUE_3: "Residual Fluid"
   STR_RESIDUAL_FLUID: "Residual Fluid"
-  STR_CROP_CIRCLE_REPORT: "Report: Crop Circle Investigation"
+  STR_CROP_CIRCLE_REPORT: "Starting Report: Crop Circle Investigation"
   STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Crop Circles, unexplained patterns found in crop fields across the world, have never had a blanket explanation. As their mysterious nature has been attributed to extraterrestrials, we dispatched agents to collect evidence at one such site. Flammable chemical residue invasive to the environment was found at the scene. We theorize that this chemical was used to initiate a controlled burn that engraved the pattern. These patterns may be created by aliens to signal OETOs flying over head, though of what we are still unsure. While we suspect these are alien in nature, we have no conclusive evidence."
 ################################
 ####### Obtained Intel ########
@@ -394,7 +395,7 @@ en-US:
   STR_BURNED_GROUND_INTEL_2_UFOPEDIA: "The photographic image we recovered from the research site is identical to the previous sample. Our scientists and technicians have concluded that this burn pattern is caused by the ignition of some type of engine (or machine). Our R&D staff requires a final photograph to complete the analysis."
   STR_BURNED_GROUND_INTEL_3: "Burned Ground Intel III"
   STR_BURNED_GROUND_INTEL_3_UFOPEDIA: "Our R&D team completed the analysis of the last delivered photograph of the research site. The result, compared to the information provided by the Geiger detectors, indicates that the soil burn was caused by an unknown operating tool, whose function is to cleanly cut organic and inorganic material. Whoever makes these circles employs high-tech tools."
-  STR_BURNED_GROUND_MAJOR_REPORT: "Burned Ground Final Report"
+  STR_BURNED_GROUND_MAJOR_REPORT: "Final Report: Burned Ground"
   STR_BURNED_GROUND_MAJOR_REPORT_UFOPEDIA: "We can just guess the intention of the creators of those strange circles found on crops and farmlands across the world. Is it some kind of signal? A warning? The circles caught public attention and 'experts' around the world try to both explain them or get credits by claiming the creation of the figures. Whatever this may represent, we need to be ready for what comes next."
   STR_RESIDUAL_FLUID_INTEL_1: "Residual Fluid Intel I"
   STR_RESIDUAL_FLUID_INTEL_1_UFOPEDIA: "We found this sample close to the area where a 'bright light in the sky' was reported, prior to creating circles on the field. Its particular unnatural glow and stench leads us to think that it is some kind of toxin or toxic waste. Our field agents describe it as 'the smell of hell'. More tests are required to identify the origin and purpose of this fluid."
@@ -402,7 +403,7 @@ en-US:
   STR_RESIDUAL_FLUID_INTEL_2_UFOPEDIA: "The analysis carried out in the laboratory ended with an incident. One of our technicians in charge of handling the samples that we retrieve, accidentally came into contact with the fluid recovered from the site of Investigation and fell unconscious immediately. After being hospitalized in an emergency and lasting several days in a coma-like state, we realized that perhaps this substance is a strong sedative. An additional sample is needed to finish the study. Extra caution is advised."
   STR_RESIDUAL_FLUID_INTEL_3: "Residual Fluid Intel III"
   STR_RESIDUAL_FLUID_INTEL_3_UFOPEDIA: "The recent image taken was conclusive: this viscous residue belongs to some type of very powerful drug, we believe it was used by external agents to knock out and potentially kidnap a group of individuals. We found no trace of any of these, but we do not rule out the idea that there was a civilian present at the time of the creation of this crop circle."
-  STR_RESIDUAL_FLUID_MAJOR_REPORT: "Residual Fluid Final Report"
+  STR_RESIDUAL_FLUID_MAJOR_REPORT: "Final Report: Residual Fluid"
   STR_RESIDUAL_FLUID_MAJOR_REPORT_UFOPEDIA: "The combined results of the investigations concluded that the intruders are using toxic substances with the intention of sedate live beings. The species of those beings and the intention of the use of the foreign drug is not clear. Our scientists are going to try to repurpose it, they hope it may be useful to our operations."
 
 #####################################
@@ -420,8 +421,37 @@ en-US:
   STR_USELESS_ORGANS_6: "Splattered Organs"
   STR_MUTILATED_CATTLE: "Mutilated Cattle"
   STR_SPLATTERED_BLOOD: "Splattered Blood"
-  STR_CATTLE_MUTILATION_REPORT: "Report: Cattle Mutilation Investigation"
-  STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "An autopsy of the mutilated cattle, at least what was left of it when our agents arrived, indicates that despite the vicious outcome, the process of ripping these animals apart was meticulous. After reassembling what was left of the poor creature, we found burn marks at the seams. This would indicate that they were cut apart by a high powered laser. Several key organs were missing. Our current theory is that the aliens abducted these cattle and removed certain organs that they needed. For what, however, we remain unsure. Sustenance, scientific curiosity...as an aside, while they may have more sympathy for more intelligent life, this shows that they have the capacity for cruelty."
+  STR_CATTLE_MUTILATION_REPORT: "Starting Report: Cattle Mutilation Investigation"
+  STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "Cattle is recently a target of foreign agents operating within our borders. Despite the vicious outcome, the process of ripping these animals apart was meticulous. After reassembling what was left of the poor creature, we found burn marks at the seams. This would indicate that they were cut apart by a high powered laser. Several key organs were missing. Our current theory is that the aliens abducted these cattle and removed certain organs that they needed. For what, however, we remain unsure. Sustenance, scientific curiosity... as an aside, while they may have more sympathy for more intelligent life, this shows that they have the capacity for cruelty."
+################################
+####### Obtained Intel ########
+##############################
+  STR_CATTLE_CORPSE_INTEL_1: "Cattle Corpse Intel I"
+  STR_CATTLE_CORPSE_INTEL_1_UFOPEDIA: "A shocking finding, our agents have found the rotten and empty carcass of a dead cattle. Photographic evidence was taken, along with some tissue samples. This particular corpse is FUBAR, we need to get another one to continue the investigation."
+  STR_CATTLE_CORPSE_INTEL_2: "Cattle Corpse Intel II"
+  STR_CATTLE_CORPSE_INTEL_2_UFOPEDIA: "This corpse is in a better state than the previous one we have found. As with other evidence we have photographed, our Geiger counters started to report the presence of radiation near the body. Examination of the photos showed a clean cut on the belly of the animal, as well small cuts all over the legs and back. Our staff requires another report to generate further Intel."
+  STR_CATTLE_CORPSE_INTEL_3: "Cattle Corpse Intel III"
+  STR_CATTLE_CORPSE_INTEL_3_UFOPEDIA: "The last required evidence is being analyzed right now. Both the photos and physical samples we have retrieved from the investigation zone gave us more insights into this strange activity. The fact that all the cuts and organs were removed with clean accuracy, we suggest they are collecting them for science purposes."
+  STR_CATTLE_CORPSE_MAJOR_REPORT: "Final Report: Cattle Corpse"
+  STR_CATTLE_CORPSE_MAJOR_REPORT_UFOPEDIA: "The outsiders are collecting organic samples from our planet. They have special interest in the cattle probably because it's easier to abduct and exact the organs and skin samples than a human, very likely due the large size. We suppose they do this either for science purposes or to get food, but this generates another question... where do they store the samples?"
+  STR_CATTLE_BLOOD_INTEL_1: "Cattle Blood Intel I"
+  STR_CATTLE_BLOOD_INTEL_1_UFOPEDIA: "Blood splats were found in the area where the reported phenomena had taken place. Photographic evidence suggests the splat was generated by some kind of slice. After doing analysis, we have identified a probable animal origin. We need to research other evidence of this kind in order to acquire more Intel information about the perpetrator."
+  STR_CATTLE_BLOOD_INTEL_2: "Cattle Blood Intel II"
+  STR_CATTLE_BLOOD_INTEL_2_UFOPEDIA: "Another blood splat was found on the investigation site. This time, our forensics team was able to pinpoint the exact origin, cattle. And not just one, but DNA of at least 15 different animals is mixed in the puddle. This raises the question, why would someone or something pour so much animal blood in one place? Another sample of this evidence may help our staff to unveil the mystery." 
+  STR_CATTLE_BLOOD_INTEL_3: "Cattle Blood Intel III"
+  STR_CATTLE_BLOOD_INTEL_3_UFOPEDIA: "Yet another sample of cattle blood has arrived at the labs. But this time we have identified something else inside it small particles. These particles seem to contain some kind of energy, probably to fuel an artifact or to feed something. The science staff will be working on the final report on this topic."
+  STR_CATTLE_BLOOD_MAJOR_REPORT: "Final Report: Cattle Blood"
+  STR_CATTLE_BLOOD_MAJOR_REPORT_UFOPEDIA: "Based on our previous studies, we came to the conclusion that the outsiders are draining the blood of farm cattle, most likely to feed themselves. They add some kind of additives (like the vitamins of our food) to process the nutrients. We have found only animal blood so far, but our scientists don't scrap the idea of finding human blood in the future."
+  STR_CATTLE_ORGANS_INTEL_1: "Cattle Organs Intel I"
+  STR_CATTLE_ORGANS_INTEL_1_UFOPEDIA: "We have found what looks like the severed guts of an unknown living being. They are almost irreconocible, likely extracted by brute force. We couldn't find the corpse these organs belong to. Our science team requested another sample in better shape to be able to conduct proper research."
+  STR_CATTLE_ORGANS_INTEL_2: "Cattle Organs Intel II"
+  STR_CATTLE_ORGANS_INTEL_2_UFOPEDIA: "A fresh sample has arrived. The purpose is yet unknown. However, we have found small bite-like lacerations over the surface of the organ. Was it bitter by someone? Was it ruptured with a tool? We don't know yet, but we do know the being who did this is actively looking for more organs. The forensic team thinks they can expand their research if we bring in another sample."
+  STR_CATTLE_ORGANS_INTEL_3: "Cattle Organs Intel III"
+  STR_CATTLE_ORGANS_INTEL_3_UFOPEDIA: "The last organ sample was in excellent condition. It looks so clean and perfectly preserved, almost as if it was meant to be used as a recipe ingredient of some sorts. Our Agents even report it looks like it wasn’t removed from the creature it belonged to, like it was still alive. With this final analysis, we have finished the investigation on this topic."
+  STR_CATTLE_ORGANS_MAJOR_REPORT: "Final Report: Cattle Organs"
+  STR_CATTLE_ORGANS_MAJOR_REPORT_UFOPEDIA: "The methods of the invaders to obtain organ samples improved greatly over the course of the time. At first, they were highly violent but the last samples we were able to retrieve were in better condition. Maybe the first ones were useless for their cause? Our staff theorize a foreign power is collecting DNA and tissue samples from cattle in order to create some kind of biological weapon, probably aimed at disrupting the Western food supply chains. Or even worse, experiments to create drugs for purposes yet unknown."
+
+
 #####################################
 ######## COUNTER INTELLIGENCE #########
 ###################################
@@ -467,8 +497,38 @@ en-US:
   STR_COMATOSE_ABDUCTEE_3: "Comatose Abductee"
   COMATOSE_ABDUCTEE_EVIDENCE_UNIT_3: "Abductee III"
   STR_UNCONCIOUS_CIVILIAN: "Unconcious Civilian"
-  STR_MINOR_ABDUCTION_REPORT: "Report: Minor Abduction Incident"
-  STR_MINOR_ABDUCTION_REPORT_UFOPEDIA: "Placeholder"
+  STR_MINOR_ABDUCTION_REPORT: "Starting Report: Minor Abduction Incident"
+  STR_MINOR_ABDUCTION_REPORT_UFOPEDIA: "Recently, an increase on the number of the disappereance of civilians outside rural and urban zones has taken by suprise all the local authorities. Some may propose an increase in criminal activities. Others, foreign preparations for an invasion in American soil. One thing is sure, most of the missing person are vanished without clue. The reasons why, are unclear."
+
+################################
+####### Obtained Intel ########
+##############################
+  STR_COMATOSE_ABDUCTEE_INTEL_1: "Comatose Abductee Intel I"
+  STR_COMATOSE_ABDUCTEE_INTEL_1_UFOPEDIA: "We have found this person in the área of the field investigation. Both to learn more about the incident and to silence them, we have retrieved them to the base. When the person woke up, they were so confused and didn't know what happened. It was released after signing some papers, but their memory is clean as water. The physical analysis found a high amount of an unknown substance within the person's body. If we find another abducted, we must recover it and bring it to the base."
+  STR_COMATOSE_ABDUCTEE_INTEL_2: "Comatose Abductee Intel II"
+  STR_COMATOSE_ABDUCTEE_INTEL_2_UFOPEDIA: "We were luck with this abducted person. It's life signs were almost non-existent, but our medical staff managed to save them. After it's recovery, the person managed to tell us what happened: the patient was driving it's car on a lone road when a multicolored light appeared on the sky, a high pitched noise was heard and the person saw dark, small shadows coming from both sides of the road. The next thing the abductee recalled was some kind of surgery, more dark figures and later the patient woke up in our medical bay. We have released the person and the FBI will have a eye on it. The incidents are more and more violent. If we find another abducted citizen we must retrieve them ASAP. We just need another one to finish our studies."
+  STR_COMATOSE_ABDUCTEE_INTEL_3: "Comatose Abductee Intel III"
+  STR_COMATOSE_ABDUCTEE_INTEL_3_UFOPEDIA: "Yet another abducted citizen was found on the investigation site. This one was badly injured, but managed to hold on until the MEDEVAC arrived. On our base, the person told us a similar story of the later abductee, but this one was fully aware during the surgery. The patient told us that it see when some of its organs were removed and placed on a white, immobile body with facial traits 'like a mix of the aliens and us'. Shortly after the interview, it's health state become critical. The person died of its injuries. "
+  STR_COMATOSE_ABDUCTEE_MAJOR_REPORT: "Final Report: Comatose Abductee"
+  STR_COMATOSE_ABDUCTEE_MAJOR_REPORT_UFOPEDIA: "It's clear that the aliens are trying to get samples from alive human beings. It's purpose remains a mystery, but we have some hints that they may be trying to use our DNA on their experiments. One common trait of all the abductions were the alien substance (it seems that is the same we have found on previous investigations) used to drug the subjects and the increase on the violence used to abduct them."
+  STR_ALIEN_SAMPLE_FLASK_INTEL_1: "Alien Sample Flask Intel I"
+  STR_ALIEN_SAMPLE_FLASK_INTEL_1_UFOPEDIA: "A small metallic container with a glowing red goo inside was found near the abduction site. Several tries to open it in the laboratory resulted in failure. Seems to react near other alien artefacts, perhaps is some kind of battery of sorts. Lab staff suggest trying to recover another sample. "
+  STR_ALIEN_SAMPLE_FLASK_INTEL_2: "Alien Sample Flask Intel II"
+  STR_ALIEN_SAMPLE_FLASK_INTEL_2_UFOPEDIA: "Another alien flask was retrieved from the incident site. This time, the lab staff placed alien tissue directly over the container and it opened. This allowed us to perform test on the substance. It began to decompose rather quickly, but before it we could identify some vague traces of genetic material of Earth origin. Perphaps animal. We need to adquire another same to conduct additional more tests."
+  STR_ALIEN_SAMPLE_FLASK_INTEL_3: "Alien Sample Flask Intel III"
+  STR_ALIEN_SAMPLE_FLASK_INTEL_3_UFOPEDIA: "Using the same method obtained before, we were able to open this flask as well. The tests ran on the red goo confirmed the presence of human DNA of at least 30 different individuals. All of them, are reported as missing persons. This confirms the aliens are directly using us for their nefarious purposes."
+  STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT: "Final Report: Alien Sample Flask"
+  STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT_UFOPEDIA: "The most accepted theory about the strange containers found inside the area where the abduction took place is they are some kind of 'energy drink' or nutrimental suppliment specifically for aliens. It contains human DNA samples and several other unknown additives, probably meant to be used to help any infiltrators to slowly become more human-like."
+
+
+
+  
+
+
+
+
+
+
 #################################
   STR_RESEARCH_REPORTS_UC: "RESEARCH REPORTS"
   STR_SUPPRESSED_MUNITIONS_REPORT: "Report: Suppressed Munitions"
@@ -495,7 +555,7 @@ en-US:
   STR_VEHICLES_REPORT: "Vehicles"
   STR_VEHICLES_UFOPEDIA: "The nature of our mission both allows us and limits us to the use of transport crafts of diverse types. The most common is an uncovered deployment using public airlines, but if the situation gets grim, we can request our superiors for specialized transports. Also, we have access to aerial recon provided by Lookhed U-2 Dragon Lady spy crafts." 
   STR_AERIAL_RECON: "Aerial Recon"
-  STR_AERIAL_RECON_UFOPEDIA: “The U-2 spy planes are used to get privileged access to intelligence otherwise impossible to obtain. Manned by USAF pilots working for the Agency, we can use the superior range and ability to get high resolution photos to find and identificate any potential invader activity or ground sites. Be especially careful in the deployment, though. The Soviets had already shot down an U-2 just a year before. Avoid entering the USSR as much as possible, they won't hesitate to launch Interceptors and SAMs.”
+  STR_AERIAL_RECON_UFOPEDIA: "The U-2 spy planes are used to get privileged access to intelligence otherwise impossible to obtain. Manned by USAF pilots working for the Agency, we can use the superior range and ability to get high resolution photos to find and identificate any potential invader activity or ground sites. Be especially careful in the deployment, though. The Soviets had already shot down an U-2 just a year before. Avoid entering the USSR as much as possible, they won't hesitate to launch Interceptors and SAMs."
 
   STR_ENEMIES: "INTERROGATIONS AND AUTOPSIES"
 

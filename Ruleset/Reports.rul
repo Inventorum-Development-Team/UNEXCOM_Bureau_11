@@ -1,5 +1,134 @@
 ufopaedia:
+  - delete: STR_TANK_CANNON
+  - delete: STR_TANK_ROCKET_LAUNCHER
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_GRENADE
+  - delete: STR_SMOKE_GRENADE
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_ELECTRO_FLARE
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_STUN_ROD
+  - delete: STR_PSI_AMP
+  - delete: STR_MEDI_KIT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_MIND_PROBE
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_ELERIUM_115
+  - delete: STR_AVENGER
+  - delete: STR_LIGHTNING
+  - delete: STR_INTERCEPTOR
+  - delete: STR_FIRESTORM
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+  - delete: STR_FUSION_BALL_UC
+  - delete: STR_LASER_CANNON_UC
+  - delete: STR_PLASMA_BEAM_UC
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_ABDUCTOR
+  - delete: STR_HARVESTER
+  - delete: STR_BATTLESHIP
+  - delete: STR_TERROR_SHIP
+  - delete: STR_SUPPLY_SHIP
+  - delete: STR_ACCESS_LIFT
+  - delete: STR_LIVING_QUARTERS
+  - delete: STR_LABORATORY
+  - delete: STR_WORKSHOP
+  - delete: STR_SMALL_RADAR_SYSTEM
+  - delete: STR_LARGE_RADAR_SYSTEM
+  - delete: STR_MISSILE_DEFENSES
+  - delete: STR_GENERAL_STORES
+  - delete: STR_ALIEN_CONTAINMENT
+  - delete: STR_LASER_DEFENSES
+  - delete: STR_PLASMA_DEFENSES
+  - delete: STR_FUSION_BALL_DEFENSES
+  - delete: STR_GRAV_SHIELD
+  - delete: STR_MIND_SHIELD
+  - delete: STR_PSIONIC_LABORATORY
+  - delete: STR_HYPER_WAVE_DECODER
+  - delete: STR_HANGAR
+  - delete: STR_SECTOID
+  - delete: STR_SECTOID_AUTOPSY
+  - delete: STR_CYBERDISC
+  - delete: STR_CYBERDISC_AUTOPSY
+  - delete: STR_FLOATER
+  - delete: STR_FLOATER_AUTOPSY
+  - delete: STR_REAPER
+  - delete: STR_REAPER_AUTOPSY
+  - delete: STR_SNAKEMAN
+  - delete: STR_SNAKEMAN_AUTOPSY
+  - delete: STR_CHRYSSALID
+  - delete: STR_CHRYSSALID_AUTOPSY
+  - delete: STR_MUTON
+  - delete: STR_MUTON_AUTOPSY
+  - delete: STR_CELATID
+  - delete: STR_CELATID_AUTOPSY
+  - delete: STR_SILACOID
+  - delete: STR_SILACOID_AUTOPSY
+  - delete: STR_ETHEREAL
+  - delete: STR_ETHEREAL_AUTOPSY
+  - delete: STR_SECTOPOD
+  - delete: STR_SECTOPOD_AUTOPSY
+  - delete: STR_ALIEN_ORIGINS
+  - delete: STR_THE_MARTIAN_SOLUTION
+  - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_SUPPLY
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_UFO_CONSTRUCTION
+  - delete: STR_ALIEN_FOOD
+  - delete: STR_ALIEN_REPRODUCTION
+  - delete: STR_ALIEN_ENTERTAINMENT
+  - delete: STR_ALIEN_SURGERY
+  - delete: STR_EXAMINATION_ROOM
+  - delete: STR_ALIEN_ALLOYS
   - delete: STR_SKYRANGER
+##############################
+######### VEHICLES ##########
+############################
   - id: STR_CADILLAC
     type_id: 1
     section: STR_VEHICLES
@@ -147,6 +276,9 @@ ufopaedia:
     text: STR_IMPROVED_SPY_CAMERA_UFOPEDIA
     listOrder: 12
 
+#######################
+###### GADGETS #######
+#####################
 
   - id: STR_BANDAGES
     type_id: 4
@@ -199,6 +331,10 @@ ufopaedia:
       - STR_DEVIL_AXE
     listOrder: 307
 
+##########################
+####### OUTFITS #########
+########################
+
   - id: STR_AGENT_SUIT_UC
     type_id: 5
     section: STR_OUTFITS
@@ -232,6 +368,10 @@ ufopaedia:
     requires:
       - STR_AUGMENTATION_SUIT
     text: STR_AUGMENTATION_SUIT_UC_UFOPEDIA
+
+##########################
+####### WEAPONS #########
+########################
 
   - id: STR_BROWNING_HP35
     type_id: 4
@@ -529,6 +669,10 @@ ufopaedia:
     text: STR_DELISLE_CARBINE_PARATROOPER_UFOPEDIA
     listOrder: 233
 
+##################################
+####### RESEARCH REPORTS ########
+################################
+
   - id: STR_SUPPRESSED_MUNITIONS_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
@@ -583,6 +727,10 @@ ufopaedia:
     text: STR_GLADIO_MUNITIONS_REPORT_UFOPEDIA
     listOrder: 231
 
+#############################
+######### ENEMIES ##########
+###########################
+
   - id: STR_THIN_MAN
     type_id: 7
     section: STR_ENEMIES
@@ -602,3 +750,222 @@ ufopaedia:
     text: STR_THIN_MAN_AUTOPSY_UFOPAEDIA
     text_width: 158
     listOrder: 1001
+
+##########################
+###### EVIDENCE #########
+########################
+  - id: STR_CROP_CIRCLE_REPORT
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    #requires:
+    #  - STR_RESIDUAL_FLUID_MAJOR_REPORT
+    listOrder: 400
+    text: STR_CROP_CIRCLE_REPORT_UFOPEDIA
+  - id: STR_RESIDUAL_FLUID_INTEL_1
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 400
+    requires:
+      - STR_PLASMA_RESIDUE_1
+    text: STR_RESIDUAL_FLUID_INTEL_1_UFOPEDIA
+  - id: STR_RESIDUAL_FLUID_INTEL_2
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 400
+    requires:
+      - STR_PLASMA_RESIDUE_2
+    text: STR_RESIDUAL_FLUID_INTEL_2_UFOPEDIA
+  - id: STR_RESIDUAL_FLUID_INTEL_3
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 400
+    requires:
+      - STR_PLASMA_RESIDUE_3
+    text: STR_RESIDUAL_FLUID_INTEL_3_UFOPEDIA
+  - id: STR_RESIDUAL_FLUID_MAJOR_REPORT
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 400
+    requires:
+      - STR_RESIDUAL_FLUID_MAJOR_REPORT
+    text: STR_RESIDUAL_FLUID_MAJOR_REPORT_UFOPEDIA
+#######################
+  - id: STR_CATTLE_MUTILATION_REPORT
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 401
+    #requires:
+    #  - STR_CATTLE_MUTILATION_INVESTIGATION
+    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
+
+  - id: STR_CATTLE_ORGANS_INTEL_1
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_1
+    text: STR_CATTLE_ORGANS_INTEL_1_UFOPEDIA
+  - id: STR_CATTLE_ORGANS_INTEL_2
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_2
+    text: STR_CATTLE_ORGANS_INTEL_2_UFOPEDIA
+  - id: STR_CATTLE_ORGANS_INTEL_3
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_3
+    text: STR_CATTLE_ORGANS_INTEL_3
+  - id: STR_CATTLE_ORGANS_MAJOR_REPORT
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 401
+    requires:
+      - STR_CATTLE_ORGANS_MAJOR_REPORT
+    text: STR_CATTLE_ORGANS_MAJOR_REPORT_UFOPEDIA
+
+  - id: STR_CATTLE_BLOOD_INTEL_1
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_4
+    text: STR_CATTLE_BLOOD_INTEL_1_UFOPEDIA
+  - id: STR_CATTLE_BLOOD_INTEL_2
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_5
+    text: STR_CATTLE_BLOOD_INTEL_2_UFOPEDIA
+  - id: STR_CATTLE_BLOOD_INTEL_3
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 401
+    requires:
+      - STR_USELESS_ORGANS_6
+    text: STR_CATTLE_BLOOD_INTEL_3_UFOPEDIA
+  - id: STR_CATTLE_BLOOD_MAJOR_REPORT
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 401
+    requires:
+      - STR_CATTLE_BLOOD_MAJOR_REPORT
+    text: STR_CATTLE_BLOOD_MAJOR_REPORT_UFOPEDIA
+
+######################
+  - id: STR_CAMERA_GUN
+    type_id: 4
+    section: STR_INVESTIGATION_EVIDENCE
+    requires:
+      - STR_CAMERA_GUN
+    text: STR_CAMERA_GUN_UFOPEDIA
+    listOrder: 231
+  - id: STR_UMBRELLA_MOSIN_NAGANT
+    type_id: 4
+    section: STR_INVESTIGATION_EVIDENCE
+    requires:
+      - STR_UMBRELLA_MOSIN_NAGANT
+    text: STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA
+    listOrder: 231
+  - id: STR_UMBRELLA_MOSIN_NAGANT_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_KGB_TECH_REPORT
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 402
+    requires:
+      - STR_KGB_TECH_INVESTIGATION
+    text: STR_KGB_TECH_REPORT_UFOPEDIA
+######################
+  - id: STR_MINOR_ABDUCTION_REPORT
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 402
+    #requires:
+    #  - STR_MINOR_ABDUCTION_INVESTIGATION
+    text: STR_MINOR_ABDUCTION_REPORT_UFOPEDIA
+
+  - id: STR_COMATOSE_ABDUCTEE_INTEL_1
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 402
+    requires:
+      - STR_COMATOSE_ABDUCTEE_1
+    text: STR_COMATOSE_ABDUCTEE_INTEL_1_UFOPEDIA
+  - id: STR_COMATOSE_ABDUCTEE_INTEL_2
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 402
+    requires:
+      - STR_COMATOSE_ABDUCTEE_2
+    text: STR_COMATOSE_ABDUCTEE_INTEL_2_UFOPEDIA
+  - id: STR_COMATOSE_ABDUCTEE_INTEL_3
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 402
+    requires:
+      - STR_COMATOSE_ABDUCTEE_3
+    text: STR_COMATOSE_ABDUCTEE_INTEL_3_UFOPEDIA
+  - id: STR_COMATOSE_ABDUCTEE_MAJOR_REPORT
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 402
+    requires:
+      - STR_COMATOSE_ABDUCTEE_MAJOR_REPORT
+    text: STR_COMATOSE_ABDUCTEE_MAJOR_REPORT_UFOPEDIA
+
+  - id: STR_ALIEN_SAMPLE_FLASK_INTEL_1
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 402
+    requires:
+      - STR_ALIEN_SAMPLE_FLASK_1
+    text: STR_ALIEN_SAMPLE_FLASK_INTEL_1_UFOPEDIA
+  - id: STR_ALIEN_SAMPLE_FLASK_INTEL_2
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 402
+    requires:
+      - STR_ALIEN_SAMPLE_FLASK_2
+    text: STR_ALIEN_SAMPLE_FLASK_INTEL_1_UFOPEDIA
+  - id: STR_ALIEN_SAMPLE_FLASK_INTEL_3
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 402
+    requires:
+      - STR_ALIEN_SAMPLE_FLASK_3
+    text: STR_ALIEN_SAMPLE_FLASK_INTEL_3_UFOPEDIA
+  - id: STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    listOrder: 402
+    requires:
+      - STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
+    text: STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT_UFOPEDIA
+###########################
+#### BASE FACILITIES #####
+#########################
+
+  - id: STR_ACCESS_LIFT
+    type_id: 6
+    section: STR_BASE
+    text: STR_ACCESS_LIFT_UFOPEDIA
+  - id: STR_HANGAR
+    type_id: 6
+    section: STR_BASE
+    text: STR_HANGAR_UFOPEDIA
+  - id: STR_GENERAL_STORES
+    type_id: 6
+    section: STR_BASE
+    text: STR_GENERAL_STORES_UFOPEDIA
+  - id: STR_LIVING_QUARTERS
+    type_id: 6
+    section: STR_BASE
+    text: STR_LIVING_QUARTERS_UFOPEDIA
+
+

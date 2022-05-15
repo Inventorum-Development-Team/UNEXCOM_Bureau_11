@@ -142,7 +142,29 @@ items:
     recoveryPoints: 50
     recover: true
     battleType: 11
-  - type: STR_ALIEN_SAMPLE_FLASK
+  - type: STR_ALIEN_SAMPLE_FLASK_1
+    #name: STR_UNCONCIOUS_CIVILIAN
+    weight: 10
+    bigSprite: 1065
+    floorSprite: 1065
+    invWidth: 1
+    invHeight: 2
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+    battleType: 11
+  - type: STR_ALIEN_SAMPLE_FLASK_3
+    #name: STR_UNCONCIOUS_CIVILIAN
+    weight: 10
+    bigSprite: 1065
+    floorSprite: 1065
+    invWidth: 1
+    invHeight: 2
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+    battleType: 11
+  - type: STR_ALIEN_SAMPLE_FLASK_2
     #name: STR_UNCONCIOUS_CIVILIAN
     weight: 10
     bigSprite: 1065
@@ -847,6 +869,133 @@ armors:
       - 0.0
       - 0.0
 
+  - type: ALIEN_SAMPLE_FLASK_EVIDENCE_ARMOR_1
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: AlienSampleFlask_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_ALIEN_SAMPLE_FLASK_1
+    loftempsSet: [ 3 ]
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 99.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: ALIEN_SAMPLE_FLASK_EVIDENCE_ARMOR_2
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: AlienSampleFlask_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_ALIEN_SAMPLE_FLASK_2
+    loftempsSet: [ 3 ]
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 99.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: ALIEN_SAMPLE_FLASK_EVIDENCE_ARMOR_3
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: AlienSampleFlask_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_ALIEN_SAMPLE_FLASK_3
+    loftempsSet: [ 3 ]
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 99.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+
 units:
 #######################################
 ##### CROP CIRCLES INVESTIGATION #####
@@ -1045,7 +1194,7 @@ units:
     energyRecovery: 1
 ###########################################
 
-  - type: ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT
+  - type: ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT_1
     race: STR_EVIDENCE
     stats:
       tu: 1
@@ -1060,6 +1209,48 @@ units:
       psiSkill: 0
       melee: 0
     armor: ALIEN_SAMPLE_FLASK_EVIDENCE_ARMOR_1
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT_2
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 1
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: ALIEN_SAMPLE_FLASK_EVIDENCE_ARMOR_2
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT_3
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 1
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: ALIEN_SAMPLE_FLASK_EVIDENCE_ARMOR_3
     standHeight: 3
     kneelHeight: 3
     value: 25
@@ -1200,7 +1391,7 @@ alienRaces:
       - CATTLE_ORGAN_EVIDENCE_UNIT_1 # NOT USED
       - CATTLE_ORGAN_EVIDENCE_UNIT_1 # NOT USED
       - CATTLE_ORGAN_EVIDENCE_UNIT_1 # NOT USED
-      - ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT
+      - ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT_1
       - COMATOSE_ABDUCTEE_EVIDENCE_UNIT_1
       - CATTLE_ORGAN_EVIDENCE_UNIT_1 # NOT USED
       - CATTLE_ORGAN_EVIDENCE_UNIT_1 # NOT USED
@@ -1210,7 +1401,7 @@ alienRaces:
       - CATTLE_ORGAN_EVIDENCE_UNIT_2 # NOT USED
       - CATTLE_ORGAN_EVIDENCE_UNIT_2 # NOT USED
       - CATTLE_ORGAN_EVIDENCE_UNIT_2 # NOT USED
-      - COMATOSE_ABDUCTEE_EVIDENCE_UNIT_1
+      - ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT_2
       - COMATOSE_ABDUCTEE_EVIDENCE_UNIT_2
       - CATTLE_ORGAN_EVIDENCE_UNIT_2 # NOT USED
       - CATTLE_ORGAN_EVIDENCE_UNIT_2 # NOT USED
@@ -1220,230 +1411,17 @@ alienRaces:
       - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
       - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
       - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
-      - ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT
+      - ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT_3
       - COMATOSE_ABDUCTEE_EVIDENCE_UNIT_3
       - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
       - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
-ufopaedia:
-  - id: STR_CROP_CIRCLE_REPORT
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    requires:
-      - STR_RESIDUAL_FLUID_MAJOR_REPORT
-    listOrder: 400
-    text: STR_CROP_CIRCLE_REPORT_UFOPEDIA
-  - id: STR_RESIDUAL_FLUID_INTEL_1
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 400
-    requires:
-      - STR_PLASMA_RESIDUE_1
-    text: STR_RESIDUAL_FLUID_INTEL_1_UFOPEDIA
-  - id: STR_RESIDUAL_FLUID_INTEL_2
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 400
-    requires:
-      - STR_PLASMA_RESIDUE_2
-    text: STR_RESIDUAL_FLUID_INTEL_2_UFOPEDIA
-  - id: STR_RESIDUAL_FLUID_INTEL_3
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 400
-    requires:
-      - STR_PLASMA_RESIDUE_3
-    text: STR_RESIDUAL_FLUID_INTEL_3_UFOPEDIA
-  - id: STR_RESIDUAL_FLUID_MAJOR_REPORT
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 400
-    requires:
-      - STR_RESIDUAL_FLUID_MAJOR_REPORT
-    text: STR_RESIDUAL_FLUID_MAJOR_REPORT_UFOPEDIA
-#######################
-  - id: STR_CATTLE_MUTILATION_REPORT
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 401
-    requires:
-      - STR_CATTLE_MUTILATION_INVESTIGATION
-    text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
-######################
-  - id: STR_CAMERA_GUN
-    type_id: 4
-    section: STR_WEAPONS
-    requires:
-      - STR_CAMERA_GUN
-    text: STR_CAMERA_GUN_UFOPEDIA
-    listOrder: 231
-  - id: STR_UMBRELLA_MOSIN_NAGANT
-    type_id: 4
-    section: STR_WEAPONS
-    requires:
-      - STR_UMBRELLA_MOSIN_NAGANT
-    text: STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA
-    listOrder: 231
-  - id: STR_UMBRELLA_MOSIN_NAGANT_MAG
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_KGB_TECH_REPORT
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 402
-    requires:
-      - STR_KGB_TECH_INVESTIGATION
-    text: STR_KGB_TECH_REPORT_UFOPEDIA
-######################
-  - id: STR_MINOR_ABDUCTION_REPORT
-    type_id: 8
-    section: STR_RESEARCH_REPORTS_UC
-    listOrder: 402
-    requires:
-      - STR_MINOR_ABDUCTION_INVESTIGATION
-    text: STR_MINOR_ABDUCTION_REPORT_UFOPEDIA
 
 manufacture:
   - delete: STR_POWER_SUIT
   - delete: STR_PERSONAL_ARMOR
   - delete: STR_FLYING_SUIT
 
-research:
-  - delete: STR_POWER_SUIT
-  - delete: STR_PERSONAL_ARMOR
-  - delete: STR_FLYING_SUIT
- 
-##################################
-##### SIDE MISSION RESEARCH #####
-################################
-  - name: STR_RESIDUAL_FLUID_MAJOR_REPORT
-    cost: 10
-    points: 100
-    dependencies:
-      - STR_PLASMA_RESIDUE_1
-      - STR_PLASMA_RESIDUE_2
-      - STR_PLASMA_RESIDUE_3
 
-  - name: STR_PLASMA_RESIDUE_1
-    cost: 50
-    points: 25
-    needItem: true
-
-  - name: STR_PLASMA_RESIDUE_2
-    cost: 50
-    points: 25
-    needItem: true
-
-  - name: STR_PLASMA_RESIDUE_3
-    cost: 50
-    points: 25
-    needItem: true
-
-  - name: STR_CATTLE_MUTILATION_INVESTIGATION
-    cost: 10
-    points: 100
-    dependencies:
-      - STR_USELESS_ORGANS_1
-      - STR_USELESS_ORGANS_2
-      - STR_USELESS_ORGANS_3
-      - STR_USELESS_ORGANS_4
-      - STR_USELESS_ORGANS_5
-      - STR_USELESS_ORGANS_6
-
-  - name: STR_USELESS_ORGANS_1
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_USELESS_ORGANS_2
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_USELESS_ORGANS_3
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_USELESS_ORGANS_4
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_USELESS_ORGANS_5
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_USELESS_ORGANS_6
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_CONCEALED_WEAPONS_PREQ
-    cost: 0
-    points: 5
-    dependencies:
-      - STR_COMMANDER_PLUS
-
-  - name: STR_CAMERA_GUN
-    cost: 150
-    points: 50
-    needItem: true
-    unlocks:
-      - STR_CONCEALED_WEAPONS_PREQ
-
-  - name: STR_UMBRELLA_MOSIN_NAGANT
-    cost: 150
-    points: 50
-    needItem: true
-    unlocks:
-      - STR_CONCEALED_WEAPONS_PREQ
-
-  - name: STR_DATA_BRIEFCASE
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_LISTENING_DEVICE
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_TRANSMITTER
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_KGB_TECH_INVESTIGATION
-    cost: 10
-    points: 100
-    dependencies:
-      - STR_DATA_BRIEFCASE
-      - STR_LISTENING_DEVICE
-      - STR_TRANSMITTER
-
-  - name: STR_COMATOSE_ABDUCTEE_1
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_COMATOSE_ABDUCTEE_2
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_COMATOSE_ABDUCTEE_3
-    cost: 20
-    points: 15
-    needItem: true
-
-  - name: STR_MINOR_ABDUCTION_INVESTIGATION
-    cost: 10
-    points: 100
-    dependencies:
-      - STR_COMATOSE_ABDUCTEE_1
-      - STR_COMATOSE_ABDUCTEE_2
-      - STR_COMATOSE_ABDUCTEE_3
 
 extraSprites:
   - type: BIGOBS.PCK

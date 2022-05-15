@@ -179,17 +179,6 @@ items:
     armor: 999
     listOrder: 504
 
-research:
-  - name: STR_ALIEN_REACTIVE_GRENADE
-    cost: 300
-    points: 50
-    needItem: true
-  - name: STR_DEVIL_AXE
-    cost: 300
-    points: 50
-    needItem: true
-
-
 
 manufacture:
   - name: STR_SPY_CAMERA
