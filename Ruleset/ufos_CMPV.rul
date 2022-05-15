@@ -252,17 +252,17 @@ ufos:
         - CROP_CIRCLE_EVIDENCE
       mapBlocks:
         - name: CROP_CIRCLES_UFO00
-          width: 10
-          length: 10
+          width: 20
+          length: 20
         - name: CROP_CIRCLES_UFO01
-          width: 10
-          length: 10
+          width: 20
+          length: 20
         - name: CROP_CIRCLES_UFO02
-          width: 10
-          length: 10
+          width: 20
+          length: 20
         - name: CROP_CIRCLES_UFO03
-          width: 10
-          length: 10
+          width: 20
+          length: 20
 
   - type: STR_CATTLE_MUTILATION_UFO
     battlescapeTerrainData:
