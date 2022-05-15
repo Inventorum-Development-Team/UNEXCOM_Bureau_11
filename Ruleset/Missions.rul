@@ -1448,6 +1448,9 @@ missionScripts:
     startDelay: 150
     targetBaseOdds: 100
     useTable: false
+    researchTriggers:
+      STR_ACT_2_START: false
+    lastMonth: 6
 
   - type: CattleMutilationInvestigationSitesScript
     missionWeights:
@@ -1456,6 +1459,7 @@ missionScripts:
     startDelay: 150  # 10080 7 Days
     targetBaseOdds: 100
     useTable: false
+    lastMonth: 6
 
   - type: CounterIntelligenceInvestigationSitesScript
     missionWeights:
@@ -1464,6 +1468,8 @@ missionScripts:
     startDelay: 150 # 21600 15 Days
     targetBaseOdds: 100
     useTable: false
+    lastMonth: 6
+ 
 ########################################
   - type: AbductionInvestigationSitesScript
     missionWeights:
