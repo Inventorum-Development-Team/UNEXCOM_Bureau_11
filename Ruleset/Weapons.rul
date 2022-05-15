@@ -2177,6 +2177,9 @@ items:
     listOrder: 202
 
 manufacture:
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_UFO_POWER_SOURCE
   - delete: STR_TANK_LASER_CANNON
   - delete: STR_HOVERTANK_PLASMA
   - delete: STR_HOVERTANK_LAUNCHER
