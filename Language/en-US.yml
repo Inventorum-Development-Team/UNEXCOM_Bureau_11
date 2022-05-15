@@ -334,6 +334,7 @@ en-US:
   STR_CROP_CIRCLE_INVESTIGATION: "Crop Circle Investigation"
   STR_CROP_CIRCLE_INVESTIGATION_SITES: "Crop Circle Investigation Sites"
   STR_CROP_CIRCLES_UFO: "Crop Circle"
+  STR_CROP_CIRCLE_INVESTIGATION_: "Crop Circle Investigation Site"
   STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: "Crop Circle Investigation Site"
   STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "We've been called to a local farm to conduct research on a mysterious figure made on the ground. The area has been cordoned by the State Police and we've given full jurisdiction. We need photos of any evidence of alien activities, for the archives."
   STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_1: "Crop Circle Samples I"
@@ -343,6 +344,7 @@ en-US:
   STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
   STR_CATTLE_MUTILATION_INVESTIGATION_SITES: "Cattle Mutilation Investigation Sites"
   STR_CATTLE_MUTILATION_UFO: "Cattle Mutilation Scene"
+  STR_CATTLE_MUTILATION_INVESTIGATION_: "Cattle Mutilation Investigation Site"
   STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: "Cattle Mutilation Investigation Site"
   STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "A report of mauled cattle in a local area has been forwarded to us by the State autorities. We have been called to investigate the area where livestock was found mutilated. Local police forces are looking for suspects around the zone. We need pictures as proof of the alien involvement, for the archives."
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_1: "Cattle Mutilation Samples I"
@@ -352,6 +354,7 @@ en-US:
   STR_COUNTER_INTELLIGENCE_INVESTIGATION: "Counter-Intelligence Operation"
   STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: "Counter-Intelligence Op. Sites"
   STR_KGB_HIDEOUT_UFO: "Suspected Hideout"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_: "Counter-Intelligence Op. Site"
   STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT: "Counter-Intelligence Op. Site"
   STR_COUNTER_INTELLIGENCE_INVESTIGATION_DESCRIPTION: "A survilliance report conducted by FBI units has detected a suspected hideout of foreign agents inside an urban area. We've been deployed to detect said hideout, locate the building and determinate if the dwellers pose a threaht to national security. Be careful, they may be armed."
 
@@ -522,15 +525,6 @@ en-US:
   STR_ALIEN_SAMPLE_FLASK_INTEL_3_UFOPEDIA: "Using the same method obtained before, we were able to open this flask as well. The tests ran on the red goo confirmed the presence of human DNA of at least 30 different individuals. All of them, are reported as missing persons. This confirms the aliens are directly using us for their nefarious purposes."
   STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT: "Final Report: Alien Sample Flask"
   STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT_UFOPEDIA: "The most accepted theory about the strange containers found inside the area where the abduction took place is they are some kind of 'energy drink' or nutrimental suppliment specifically for aliens. It contains human DNA samples and several other unknown additives, probably meant to be used to help any infiltrators to slowly become more human-like."
-
-
-
-  
-
-
-
-
-
 
 #################################
   STR_RESEARCH_REPORTS_UC: "RESEARCH REPORTS"
