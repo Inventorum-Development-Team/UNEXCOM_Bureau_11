@@ -31,7 +31,7 @@ research:
     cost: 150
     points: 25
     dependencies:
-      - STR_ACT_2_START
+      - STR_OPERATION_SPIDERWEB
 
   - name: STR_KGB_OFFICER_RECRUITMENT
     cost: 300

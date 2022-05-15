@@ -15,6 +15,8 @@ alienDeployments:
 
   - type: STR_PROVING_GROUNDS_DEPLOYMENT
     customUfo: STR_PROVING_GROUNDS_LARGE_SCOUT
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     height: 10
     width: 40
     length: 40
@@ -102,6 +104,8 @@ alienDeployments:
 
   - type: STR_NORISKA_KRASCHEN_DEPLOYMENT
     unlockedResearch: STR_ACT_2_START
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     customUfo: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
     height: 10
     width: 50
@@ -185,6 +189,8 @@ alienDeployments:
       showCraft: true
       desc: STR_NORISKA_KRASCHEN_DESCRIPTION
       palette: 2
+    alert: STR_SPECIAL_CASE_OPEN
+    alertBackground: BACK13.SCR
     markerName: STR_NORISKA_KRASCHEN_MARKER
     markerIcon: 27
     missionBountyItem: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
@@ -195,6 +201,8 @@ alienDeployments:
 
   - type: STR_DISCOVERIES_DEPLOYMENT
     customUfo: STR_DISCOVERIES_LARGE_SCOUT
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     height: 10
     width: 40
     length: 40
@@ -286,6 +294,8 @@ alienDeployments:
 
   - type: STR_HIDE_AND_SEEK_DEPLOYMENT
     customUfo: STR_HIDE_AND_SEEK_VAN
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     height: 10
     width: 50
     length: 50
@@ -376,6 +386,8 @@ alienDeployments:
 
   - type: STR_SPIDERWEB_DEPLOYMENT
     customUfo: STR_SPIDERWEB_LARGE_SCOUT
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     height: 10
     width: 50
     length: 50
@@ -486,6 +498,8 @@ alienDeployments:
 
   - type: STR_WHISPERS_DEPLOYMENT
     customUfo: STR_WHISPERS_SAFEHOUSE_UFO
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     terrains:
       - EXPANDED_TERROR_UFO
     civilians: 10
@@ -591,6 +605,8 @@ alienDeployments:
 
   - type: STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT
     unlockedResearch: STR_ACT_3_START
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     terrains:
       - IDT_AIRPORT
@@ -701,6 +717,9 @@ alienDeployments:
 
   - type: STR_OPERATION_HARBINGER_DEPLOYMENT
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
+    winCutscene: winGame
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     terrains:
       - OPERATION_HARBINGER_CUSTOM_TERRAIN
     civilianSpawnNodeRank: 0
@@ -1411,7 +1430,7 @@ missionScripts:
         REGION_OPERATION_HARBINGER: 100
     researchTriggers:
       STR_ACT_3_START: true
-      #STR_END_OF_TERRORISTS: false
+      #STR_OPERATION_HARBINGER_MISSION_TRIGGER: true
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100

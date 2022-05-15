@@ -133,7 +133,7 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_CADILLAC_UFOPEDIA
-    listOrder: 1
+    #listOrder: 1
     rect_stats:
       x: 5
       y: 125
@@ -149,7 +149,7 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_U2_DRAGON_LADY_UFOPEDIA
-    listOrder: 2
+    #listOrder: 2
     rect_stats:
       x: 5
       y: 125
@@ -165,7 +165,7 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_HUEY_UFOPEDIA
-    listOrder: 3
+    #listOrder: 3
     rect_stats:
       x: 5
       y: 125
@@ -181,7 +181,7 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_MUDRANGER_UFOPEDIA
-    listOrder: 4
+    #listOrder: 4
     rect_stats:
       x: 5
       y: 125
@@ -197,7 +197,7 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_STARFIGHTER_UFOPEDIA
-    listOrder: 5
+    #listOrder: 5
     rect_stats:
       x: 5
       y: 125
@@ -213,7 +213,7 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_SKYRANGER_UFOPEDIA
-    listOrder: 6
+    #listOrder: 6
     rect_stats:
       x: 5
       y: 125
@@ -234,7 +234,7 @@ ufopaedia:
     section: STR_VEHICLES
     image_id: VULCAN
     text: STR_VULCAN_UFOPEDIA
-    listOrder: 7
+    #listOrder: 7
 
 #BVRAAM
   - id: STR_SIDEWINDER
@@ -244,7 +244,7 @@ ufopaedia:
     section: STR_VEHICLES
     image_id: SIDEWINDER
     text: STR_SIDEWINDER_UFOPEDIA
-    listOrder: 8
+    #listOrder: 8
 
 # Aux
   - id: STR_FUEL_TANK_UC
@@ -252,7 +252,7 @@ ufopaedia:
     section: STR_VEHICLES
     image_id: FUEL_TANK
     text: STR_FUEL_TANK_UFOPEDIA
-    listOrder: 9
+    #listOrder: 9
   - id: STR_AFTERBURNER_UC
     type_id: 2
     section: STR_VEHICLES
@@ -260,7 +260,7 @@ ufopaedia:
     requires:
       - STR_EXPERIMENTAL_AEROSPACE
     text: STR_AFTERBURNER_UFOPEDIA
-    listOrder: 10
+    #listOrder: 10
   - id: STR_FLARE_DISPENSER_UC
     type_id: 2
     section: STR_VEHICLES
@@ -268,13 +268,13 @@ ufopaedia:
     requires:
       - STR_EXPERIMENTAL_AEROSPACE
     text: STR_FLARE_DISPENSER_UFOPEDIA
-    listOrder: 11
+    #listOrder: 11
   - id: STR_IMPROVED_SPY_CAMERA_UC
     type_id: 2
     section: STR_VEHICLES
     image_id: IMPROVED_SPY_CAMERA
     text: STR_IMPROVED_SPY_CAMERA_UFOPEDIA
-    listOrder: 12
+    #listOrder: 12
 
 #######################
 ###### GADGETS #######
@@ -284,52 +284,52 @@ ufopaedia:
     type_id: 4
     section: STR_GADGETS
     text: STR_BANDAGES_UFOPEDIA
-    listOrder: 300
+    #listOrder: 300
   - id: STR_MEDICAL_BAG
     type_id: 4
     section: STR_GADGETS
     text: STR_MEDICAL_BAG_UFOPEDIA
-    listOrder: 301
+    #listOrder: 301
   - id: STR_SPY_CAMERA
     type_id: 4
     section: STR_GADGETS
     text: STR_SPY_CAMERA_UFOPEDIA
-    listOrder: 302
+    #listOrder: 302
   - id: STR_GRENADE
     type_id: 4
     section: STR_GADGETS
     text: STR_GRENADE_UFOPEDIA
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
-    listOrder: 303
+    #listOrder: 303
   - id: STR_SMOKE_GRENADE
     type_id: 4
     section: STR_GADGETS
     text: STR_SMOKE_GRENADE_UFOPEDIA
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
-    listOrder: 304
+    #listOrder: 304
   - id: STR_KA_BAR
     type_id: 4
     section: STR_GADGETS
     text: STR_KA_BAR_UFOPEDIA
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
-    listOrder: 305
+    #listOrder: 305
   - id: STR_ALIEN_REACTIVE_GRENADE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     text: STR_ALIEN_REACTIVE_GRENADE_UFOPEDIA
     requires:
       - STR_ALIEN_REACTIVE_GRENADE
-    listOrder: 306
+    #listOrder: 306
   - id: STR_DEVIL_AXE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     text: STR_DEVIL_AXE_UFOPEDIA
     requires:
       - STR_DEVIL_AXE
-    listOrder: 307
+    #listOrder: 307
 
 ##########################
 ####### OUTFITS #########
@@ -338,33 +338,33 @@ ufopaedia:
   - id: STR_AGENT_SUIT_UC
     type_id: 5
     section: STR_OUTFITS
-    listOrder: 101
+    #listOrder: 101
     text: STR_AGENT_SUIT_UC_UFOPEDIA
   - id: STR_ARMY_UNIFORM_UC
     type_id: 5
     section: STR_OUTFITS
-    listOrder: 102
+    #listOrder: 102
     requires:
       - STR_ARMY_VETERAN_RECRUITMENT
     text: STR_ARMY_UNIFORM_UC_UFOPEDIA
   - id: STR_OFFICER_COAT_UC
     type_id: 5
     section: STR_OUTFITS
-    listOrder: 103
+    #listOrder: 103
     requires:
       - STR_KGB_OFFICER_RECRUITMENT
     text: STR_OFFICER_COAT_UC_UFOPEDIA
   - id: STR_AGENT_COAT_UC
     type_id: 5
     section: STR_OUTFITS
-    listOrder: 104
+    #listOrder: 104
     requires:
       - STR_KGB_OFFICER_RECRUITMENT
     text: STR_AGENT_COAT_UC_UFOPEDIA
   - id: STR_AUGMENTATION_SUIT_UC
     type_id: 5
     section: STR_OUTFITS
-    listOrder: 105
+    #listOrder: 105
     requires:
       - STR_AUGMENTATION_SUIT
     text: STR_AUGMENTATION_SUIT_UC_UFOPEDIA
@@ -377,7 +377,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS
     text: STR_BROWNING_HP35_UFOPEDIA
-    listOrder: 200
+    #listOrder: 200
   - id: STR_BROWNING_HP35_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -385,7 +385,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS
     text: STR_COLT_M1911_UFOPEDIA
-    listOrder: 201
+    #listOrder: 201
   - id: STR_COLT_M1911_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -393,7 +393,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS
     text: STR_LUPARA_M1897_UFOPEDIA
-    listOrder: 203
+    #listOrder: 203
   - id: STR_LUPARA_M1897_SHELLS
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -401,7 +401,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS
     text: STR_UNITED_DEFENSE_M42_UFOPEDIA
-    listOrder: 204
+    #listOrder: 204
   - id: STR_UNITED_DEFENSE_M42_20_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -412,7 +412,7 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS
     text: STR_SPRINGFIELD_M2_UFOPEDIA
-    listOrder: 205
+    #listOrder: 205
   - id: STR_SPRINGFIELD_M2_15_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -425,7 +425,7 @@ ufopaedia:
     text: STR_HIGH_STANDARD_HDM_UFOPEDIA
     requires:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
-    listOrder: 206
+    #listOrder: 206
   - id: STR_HIGH_STANDARD_HDM_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -435,14 +435,14 @@ ufopaedia:
     text: STR_BERETTA_M12_UFOPEDIA
     requires:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
-    listOrder: 207
+    #listOrder: 207
   - id: STR_HEART_ATTACK_GUN
     type_id: 4
     section: STR_WEAPONS
     text: STR_HEART_ATTACK_GUN_UFOPEDIA
     requires:
       - STR_HEART_ATTACK_GUN
-    listOrder: 208
+    #listOrder: 208
   - id: STR_HEART_ATTACK_GUN_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -452,7 +452,7 @@ ufopaedia:
     text: STR_M3_GREASEGUN_UFOPEDIA
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
-    listOrder: 209
+    #listOrder: 209
   - id: STR_M3_GREASEGUN_MAG
     type_id: 4
   - id: STR_M3_GREASEGUN
@@ -461,7 +461,7 @@ ufopaedia:
     text: STR_M3_GREASEGUN_UFOPEDIA
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
-    listOrder: 210
+    #listOrder: 210
   - id: STR_M3_GREASEGUN_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -471,7 +471,7 @@ ufopaedia:
     text: STR_M60_HOG_UFOPEDIA
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
-    listOrder: 211
+    #listOrder: 211
   - id: STR_M60_HOG_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -481,7 +481,7 @@ ufopaedia:
     text: STR_M79_THUMPER_UFOPEDIA
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
-    listOrder: 212
+    #listOrder: 212
   - id: STR_M79_THUMPER_GRENADE
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -491,7 +491,7 @@ ufopaedia:
     text: STR_ITHACA_37_UFOPEDIA
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
-    listOrder: 213
+    #listOrder: 213
   - id: STR_ITHACA_37_SHELLS
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -501,7 +501,7 @@ ufopaedia:
     text: STR_SPRINGFIELD_M14_UFOPEDIA
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
-    listOrder: 214
+    #listOrder: 214
   - id: STR_SPRINGFIELD_M14_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -511,7 +511,7 @@ ufopaedia:
     text: STR_SPRINGFIELD_M1903A3_UFOPEDIA
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
-    listOrder: 215
+    #listOrder: 215
   - id: STR_SPRINGFIELD_M1903A3_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -521,7 +521,7 @@ ufopaedia:
     text: STR_COLT_AR15_UFOPEDIA
     requires:
       - STR_LIGHT_ASSAULT_RIFLE_REQUISITION
-    listOrder: 216
+    #listOrder: 216
   - id: STR_COLT_AR15_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -531,7 +531,7 @@ ufopaedia:
     text: STR_STECHKIN_APS_UFOPEDIA
     requires:
       - STR_STECHKIN_APS
-    listOrder: 217
+    #listOrder: 217
   - id: STR_STECHKIN_APS_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -541,14 +541,14 @@ ufopaedia:
     text: STR_SKORPION_VZ61_UFOPEDIA
     requires:
       - STR_SKORPION_VZ61
-    listOrder: 218
+    #listOrder: 218
   - id: STR_AK_47
     type_id: 4
     section: STR_WEAPONS
     text: STR_AK_47_UFOPEDIA
     requires:
       - STR_AK_47
-    listOrder: 219
+    #listOrder: 219
   - id: STR_AK_47_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -558,35 +558,35 @@ ufopaedia:
     text: STR_WINCHESTER_MODEL_12_UFOPEDIA
     requires:
       - STR_WINCHESTER_MODEL_12_BUY
-    listOrder: 220
+    #listOrder: 220
   - id: STR_FN_FAL
     type_id: 4
     section: STR_WEAPONS
     text: STR_FN_FAL_UFOPEDIA
     requires:
       - STR_FN_FAL_BUY
-    listOrder: 221
+    #listOrder: 221
   - id: STR_CARL_GUSTAF_M45
     type_id: 4
     section: STR_WEAPONS
     text: STR_CARL_GUSTAF_M45_UFOPEDIA
     requires:
       - STR_CARL_GUSTAF_M45_BUY
-    listOrder: 222
+    #listOrder: 222
   - id: STR_CHINA_LAKE_LASER_PROJECTOR
     type_id: 4
     section: STR_WEAPONS
     text: STR_CHINA_LAKE_LASER_PROJECTOR_UFOPEDIA
     requires:
       - STR_CHINA_LAKE_LASER_PROJECTOR
-    listOrder: 223
+    #listOrder: 223
   - id: STR_STURM_EKANONE
     type_id: 4
     section: STR_WEAPONS
     text: STR_STURM_EKANONE_UFOPEDIA
     requires:
       - STR_STURM_EKANONE
-    listOrder: 224
+    #listOrder: 224
   - id: STR_STURM_EKANONE_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -596,7 +596,7 @@ ufopaedia:
     text: STR_VIKHR_ELECTROMAGNETIC_RIFLE_UFOPEDIA
     requires:
       - STR_VIKHR_ELECTROMAGNETIC_RIFLE
-    listOrder: 225
+    #listOrder: 225
   - id: STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -606,7 +606,7 @@ ufopaedia:
     requires:
       - STR_ALIEN_LASER_PISTOL
     text: STR_ALIEN_LASER_PISTOL_UFOPEDIA
-    listOrder: 226
+    #listOrder: 226
   - id: STR_ALIEN_LASER_PISTOL_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -616,7 +616,7 @@ ufopaedia:
     requires:
       - STR_ALIEN_LASER_RIFLE
     text: STR_ALIEN_LASER_RIFLE_UFOPEDIA
-    listOrder: 227
+    #listOrder: 227
   - id: STR_ALIEN_LASER_RIFLE_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -626,7 +626,7 @@ ufopaedia:
     requires:
       - STR_ALIEN_HEAVY_LASER
     text: STR_ALIEN_HEAVY_LASER_UFOPEDIA
-    listOrder: 228
+    #listOrder: 228
   - id: STR_ALIEN_HEAVY_LASER_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -636,7 +636,7 @@ ufopaedia:
     requires:
       - STR_ALIEN_SIEGE_LAUNCHER
     text: STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA
-    listOrder: 229
+    #listOrder: 229
   - id: STR_ALIEN_SIEGE_LAUNCHER_SHELL
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -646,32 +646,53 @@ ufopaedia:
     requires:
       - STR_COLLAPSIBLE_SMG
     text: STR_COLLAPSIBLE_SMG_UFOPEDIA
-    listOrder: 230
+    #listOrder: 230
   - id: STR_WELROD
     type_id: 4
     section: STR_WEAPONS
     requires:
       - STR_WELROD
     text: STR_WELROD_UFOPEDIA
-    listOrder: 231
+    #listOrder: 231
   - id: STR_DELISLE_CARBINE_SNIPER
     type_id: 4
     section: STR_WEAPONS
     requires:
       - STR_DELISLE_CARBINE_SNIPER
     text: STR_DELISLE_CARBINE_SNIPER_UFOPEDIA
-    listOrder: 232
+    #listOrder: 232
   - id: STR_DELISLE_CARBINE_PARATROOPER
     type_id: 4
     section: STR_WEAPONS
     requires:
       - STR_DELISLE_CARBINE_PARATROOPER
     text: STR_DELISLE_CARBINE_PARATROOPER_UFOPEDIA
-    listOrder: 233
+    #listOrder: 233
 
 ##################################
 ####### RESEARCH REPORTS ########
 ################################
+
+  - id: STR_STRATEGIC_PLANNING
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    text: STR_STRATEGIC_PLANNING_UFOPEDIA
+  - id: STR_FIELD_INVESTIGATIONS
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    text: STR_FIELD_INVESTIGATIONS_UFOPEDIA
+  - id: STR_COMBAT_DEPLOYMENTS
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    text: STR_COMBAT_DEPLOYMENTS_UFOPEDIA
+  - id: STR_VEHICLES_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    text: STR_VEHICLES_UFOPEDIA
+  - id: STR_AERIAL_RECON
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    text: STR_AERIAL_RECON_UFOPEDIA
 
   - id: STR_SUPPRESSED_MUNITIONS_REPORT
     type_id: 8
@@ -679,21 +700,21 @@ ufopaedia:
     requires:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
     text: STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA
-    listOrder: 206
+    #listOrder: 206
   - id: STR_ARMY_MUNITIONS_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
     requires:
       - STR_MILITARY_EQUIPMENT_AQUISITION
     text: STR_ARMY_MUNITIONS_REPORT_UFOPEDIA
-    listOrder: 209
+    #listOrder: 209
   - id: STR_SOVIET_MUNITIONS_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
     requires:
       - STR_SOVIET_WEAPON_AQUISITION
     text: STR_SOVIET_MUNITIONS_REPORT_UFOPEDIA
-    listOrder: 217
+    #listOrder: 217
   - id: STR_ALLIED_MUNITIONS_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
@@ -702,21 +723,21 @@ ufopaedia:
       - STR_WINCHESTER_MODEL_12_BUY
       - STR_FN_FAL_BUY
       - STR_CARL_GUSTAF_M45_BUY
-    listOrder: 220
+    #listOrder: 220
   - id: STR_PROTOTYPE_MUNITIONS_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
     text: STR_PROTOTYPE_MUNITIONS_REPORT_UFOPEDIA
     requires:
       - STR_AUGMENTATION_SUIT
-    listOrder: 223
+    #listOrder: 223
   - id: STR_ALIEN_MUNITIONS_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
     requires:
       - STR_ALIEN_WEAPON_OPERATION
     text: STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA
-    listOrder: 226
+    #listOrder: 226
   - id: STR_GLADIO_MUNITIONS_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
@@ -725,7 +746,7 @@ ufopaedia:
       - STR_DELISLE_CARBINE_SNIPER
 #      - STR_DELISLE_CARBINE_PARATROOPER
     text: STR_GLADIO_MUNITIONS_REPORT_UFOPEDIA
-    listOrder: 231
+    #listOrder: 231
 
 #############################
 ######### ENEMIES ##########
@@ -739,7 +760,7 @@ ufopaedia:
     image_id: UFOPAEDIA_IMG_THIN_MAN
     text: STR_THIN_MAN_UFOPAEDIA
     text_width: 158
-    listOrder: 1000
+    #listOrder: 1000
 
   - id: STR_THIN_MAN_AUTOPSY
     type_id: 7
@@ -749,43 +770,58 @@ ufopaedia:
     image_id: UFOPAEDIA_IMG_THIN_MAN_AUTOPSY
     text: STR_THIN_MAN_AUTOPSY_UFOPAEDIA
     text_width: 158
-    listOrder: 1001
+    #listOrder: 1001
 
 ##########################
 ###### EVIDENCE #########
 ########################
+  - id: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    requires:
+      - STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+    #listOrder: 400
+    text: STR_NORISKA_KRASCHEN_SECTOID_CORPSE_UFOPEDIA
+  - id: STR_DISCOVERIES_SECTOID_ENGINEER
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    requires:
+      - STR_DISCOVERIES_SECTOID_ENGINEER
+    #listOrder: 400
+    text: STR_DISCOVERIES_SECTOID_ENGINEER_UFOPEDIA
+
   - id: STR_CROP_CIRCLE_REPORT
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
     #requires:
     #  - STR_RESIDUAL_FLUID_MAJOR_REPORT
-    listOrder: 400
+    #listOrder: 400
     text: STR_CROP_CIRCLE_REPORT_UFOPEDIA
   - id: STR_RESIDUAL_FLUID_INTEL_1
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 400
+    #listOrder: 400
     requires:
       - STR_PLASMA_RESIDUE_1
     text: STR_RESIDUAL_FLUID_INTEL_1_UFOPEDIA
   - id: STR_RESIDUAL_FLUID_INTEL_2
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 400
+    #listOrder: 400
     requires:
       - STR_PLASMA_RESIDUE_2
     text: STR_RESIDUAL_FLUID_INTEL_2_UFOPEDIA
   - id: STR_RESIDUAL_FLUID_INTEL_3
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 400
+    #listOrder: 400
     requires:
       - STR_PLASMA_RESIDUE_3
     text: STR_RESIDUAL_FLUID_INTEL_3_UFOPEDIA
   - id: STR_RESIDUAL_FLUID_MAJOR_REPORT
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 400
+    #listOrder: 400
     requires:
       - STR_RESIDUAL_FLUID_MAJOR_REPORT
     text: STR_RESIDUAL_FLUID_MAJOR_REPORT_UFOPEDIA
@@ -793,7 +829,7 @@ ufopaedia:
   - id: STR_CATTLE_MUTILATION_REPORT
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 401
+    #listOrder: 401
     #requires:
     #  - STR_CATTLE_MUTILATION_INVESTIGATION
     text: STR_CATTLE_MUTILATION_REPORT_UFOPEDIA
@@ -801,28 +837,28 @@ ufopaedia:
   - id: STR_CATTLE_ORGANS_INTEL_1
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 401
+    #listOrder: 401
     requires:
       - STR_USELESS_ORGANS_1
     text: STR_CATTLE_ORGANS_INTEL_1_UFOPEDIA
   - id: STR_CATTLE_ORGANS_INTEL_2
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 401
+    #listOrder: 401
     requires:
       - STR_USELESS_ORGANS_2
     text: STR_CATTLE_ORGANS_INTEL_2_UFOPEDIA
   - id: STR_CATTLE_ORGANS_INTEL_3
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 401
+    #listOrder: 401
     requires:
       - STR_USELESS_ORGANS_3
-    text: STR_CATTLE_ORGANS_INTEL_3
+    text: STR_CATTLE_ORGANS_INTEL_3_UFOPEDIA
   - id: STR_CATTLE_ORGANS_MAJOR_REPORT
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 401
+    #listOrder: 401
     requires:
       - STR_CATTLE_ORGANS_MAJOR_REPORT
     text: STR_CATTLE_ORGANS_MAJOR_REPORT_UFOPEDIA
@@ -830,28 +866,28 @@ ufopaedia:
   - id: STR_CATTLE_BLOOD_INTEL_1
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 401
+    #listOrder: 401
     requires:
       - STR_USELESS_ORGANS_4
     text: STR_CATTLE_BLOOD_INTEL_1_UFOPEDIA
   - id: STR_CATTLE_BLOOD_INTEL_2
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 401
+    #listOrder: 401
     requires:
       - STR_USELESS_ORGANS_5
     text: STR_CATTLE_BLOOD_INTEL_2_UFOPEDIA
   - id: STR_CATTLE_BLOOD_INTEL_3
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 401
+    #listOrder: 401
     requires:
       - STR_USELESS_ORGANS_6
     text: STR_CATTLE_BLOOD_INTEL_3_UFOPEDIA
   - id: STR_CATTLE_BLOOD_MAJOR_REPORT
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 401
+    #listOrder: 401
     requires:
       - STR_CATTLE_BLOOD_MAJOR_REPORT
     text: STR_CATTLE_BLOOD_MAJOR_REPORT_UFOPEDIA
@@ -863,21 +899,21 @@ ufopaedia:
     requires:
       - STR_CAMERA_GUN
     text: STR_CAMERA_GUN_UFOPEDIA
-    listOrder: 231
+    #listOrder: 231
   - id: STR_UMBRELLA_MOSIN_NAGANT
     type_id: 4
     section: STR_INVESTIGATION_EVIDENCE
     requires:
       - STR_UMBRELLA_MOSIN_NAGANT
     text: STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA
-    listOrder: 231
+    #listOrder: 231
   - id: STR_UMBRELLA_MOSIN_NAGANT_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_KGB_TECH_REPORT
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 402
+    #listOrder: 402
     requires:
       - STR_KGB_TECH_INVESTIGATION
     text: STR_KGB_TECH_REPORT_UFOPEDIA
@@ -885,7 +921,7 @@ ufopaedia:
   - id: STR_MINOR_ABDUCTION_REPORT
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 402
+    #listOrder: 402
     #requires:
     #  - STR_MINOR_ABDUCTION_INVESTIGATION
     text: STR_MINOR_ABDUCTION_REPORT_UFOPEDIA
@@ -893,28 +929,28 @@ ufopaedia:
   - id: STR_COMATOSE_ABDUCTEE_INTEL_1
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 402
+    #listOrder: 402
     requires:
       - STR_COMATOSE_ABDUCTEE_1
     text: STR_COMATOSE_ABDUCTEE_INTEL_1_UFOPEDIA
   - id: STR_COMATOSE_ABDUCTEE_INTEL_2
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 402
+    #listOrder: 402
     requires:
       - STR_COMATOSE_ABDUCTEE_2
     text: STR_COMATOSE_ABDUCTEE_INTEL_2_UFOPEDIA
   - id: STR_COMATOSE_ABDUCTEE_INTEL_3
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 402
+    #listOrder: 402
     requires:
       - STR_COMATOSE_ABDUCTEE_3
     text: STR_COMATOSE_ABDUCTEE_INTEL_3_UFOPEDIA
   - id: STR_COMATOSE_ABDUCTEE_MAJOR_REPORT
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 402
+    #listOrder: 402
     requires:
       - STR_COMATOSE_ABDUCTEE_MAJOR_REPORT
     text: STR_COMATOSE_ABDUCTEE_MAJOR_REPORT_UFOPEDIA
@@ -922,28 +958,28 @@ ufopaedia:
   - id: STR_ALIEN_SAMPLE_FLASK_INTEL_1
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 402
+    #listOrder: 402
     requires:
       - STR_ALIEN_SAMPLE_FLASK_1
     text: STR_ALIEN_SAMPLE_FLASK_INTEL_1_UFOPEDIA
   - id: STR_ALIEN_SAMPLE_FLASK_INTEL_2
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 402
+    #listOrder: 402
     requires:
       - STR_ALIEN_SAMPLE_FLASK_2
     text: STR_ALIEN_SAMPLE_FLASK_INTEL_1_UFOPEDIA
   - id: STR_ALIEN_SAMPLE_FLASK_INTEL_3
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 402
+    #listOrder: 402
     requires:
       - STR_ALIEN_SAMPLE_FLASK_3
     text: STR_ALIEN_SAMPLE_FLASK_INTEL_3_UFOPEDIA
   - id: STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
-    listOrder: 402
+    #listOrder: 402
     requires:
       - STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
     text: STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT_UFOPEDIA

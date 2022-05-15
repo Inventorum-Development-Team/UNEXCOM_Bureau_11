@@ -548,6 +548,8 @@ en-US:
   STR_GLADIO_MUNITIONS_REPORT_UFOPEDIA: "The weapons Gladio were stockpiled by the CIA and various other intelligence agencies were intended to be used in the scenario of a Soviet invasion of Western Europe. These silenced weapons are designed to be used on clandestine operations where discretion is impreative. While they may look antique, these weapons are as deadly as ever in the right, or wrong hands."
 
 ##########################
+  STR_STRATEGIC_PLANNING: "Strategic Planning"
+  STR_STRATEGIC_PLANNING_UFOPEDIA: In order to ease the titanic task of monitoring both Soviet and unknown activities, a special computer array was established in our base. This computer is based on the prototype Naval Tactical Data System (NTDS), which collects and processes activity reports and converts it into a single unified map of the battlespace. This is perhaps one of the most advanced computers in the world.
   STR_FIELD_INVESTIGATIONS: "Field Investigations"
   STR_FIELD_INVESTIGATIONS_UFOPEDIA: "Our job as agents of Bureau 11, a branch of the CIA, is to conduct field research and investigate all potential threats against the United States, from inside and outside our borders. And now, from outside our planet. After picking reports of unknown activities, we will be deployed. Our most powerful weapons in those missions are our cunning and our cameras."
   STR_COMBAT_DEPLOYMENTS: "Combat Deployments"
