@@ -1691,17 +1691,11 @@ alienMissions:
     siteType: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
-      0:
-        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1: 100
-      1:
-        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1: 100
-      3:
-        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2: 100
-      4:
-        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2: 100
       5:
-        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3: 100
-      6:
+        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1: 100
+      8:
+        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2: 100
+      11:
         STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3: 100
 #    waves:
 #      - ufo: dummy #don't spawn a ufo, we only want the site
@@ -1723,18 +1717,14 @@ alienMissions:
     siteType: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
-      0:
-        STR_THIN_MEN: 100
-      1:
-        STR_THIN_MEN: 100
-      3:
-        STR_THIN_MEN: 100
-      4:
-        STR_THIN_MEN: 100
       5:
-        STR_SECTOID: 100
-      6:
-        STR_SECTOID: 100
+        STR_THIN_MEN: 100
+      8:
+        STR_THIN_MEN: 80
+        STR_SECTOID: 20
+      11:
+        STR_THIN_MEN: 50
+        STR_SECTOID: 50
 #    waves:
 #      - ufo: dummy #don't spawn a ufo, we only want the site
 #        count: 1
