@@ -188,6 +188,37 @@ extraSprites:
     files:
       0: Resources/Misc/Backgrounds/BACK17.PNG
 
+  - type: ABDUCTION_BACKGROUND #Manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/ABDUCTION_BACKGROUND.PNG
+  - type: COUNTER_INTELLIGENCE_BACKGROUND #Manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/COUNTER_INTELLIGENCE_BACKGROUND.PNG
+  - type: CROP_CIRCLES_BACKGROUND #Manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/CROP_CIRCLES_BACKGROUND.PNG
+  - type: CATTLE_MUTILATION_BACKGROUND #Manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/CATTLE_MUTILATION_BACKGROUND.PNG
+  - type: MAJOR_CATTLE_MUTILATION_BACKGROUND #Manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/MAJOR_CATTLE_MUTILATION_BACKGROUND.PNG
+
 ### Turn Hidden movement background
 
   - type: TACTICBACK00.SCR #In-mission Hidden movement background

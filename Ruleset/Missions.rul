@@ -1050,7 +1050,7 @@ alienDeployments:
             - STR_DUMMY_EVIDENCE_ITEM
     briefing:
       #textOffset: -16
-      background: BACK01.SCR
+      background: CROP_CIRCLES_BACKGROUND
       showTarget: true
       showCraft: true
       desc: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION
@@ -1066,7 +1066,7 @@ alienDeployments:
     data: *EvidenceData
     briefing:
       #textOffset: -16
-      background: BACK01.SCR
+      background: CATTLE_MUTILATION_BACKGROUND
       showTarget: true
       showCraft: true
       desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
@@ -1132,7 +1132,7 @@ alienDeployments:
       - EXPANDED_TERROR_UFO
     briefing:
       #textOffset: -16
-      background: BACK01.SCR
+      background: COUNTER_INTELLIGENCE_BACKGROUND
       showTarget: true
       showCraft: true
       desc: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DESCRIPTION
@@ -1140,6 +1140,55 @@ alienDeployments:
     markerName: STR_COUNTER_INTELLIGENCE_INVESTIGATION
     markerIcon: 32
 #############################################
+
+  - type: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT
+    customUfo: STR_ABDUCTION_CAR_UFO
+    height: 10
+    width: 40
+    length: 40
+    data: &AbdctionData
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+      - alienRank: 4
+        lowQty: 1
+        highQty: 0
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+    briefing:
+      #textOffset: -16
+      background: ABDUCTION_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 5
+    markerName: STR_ABDUCTION_INVESTIGATION
+    markerIcon: 33
+
 
   - type: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
     customUfo: STR_MAJOR_CATTLE_MUTILATION_UFO
@@ -1213,7 +1262,7 @@ alienDeployments:
             - STR_MIND_PROBE
     briefing:
       #textOffset: -16
-      background: BACK01.SCR
+      background: MAJOR_CATTLE_MUTILATION_BACKGROUND
       showTarget: true
       showCraft: true
       desc: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
@@ -1463,6 +1512,15 @@ missionScripts:
     targetBaseOdds: 100
     useTable: false
 ########################################
+  - type: AbductionInvestigationSitesScript
+    missionWeights:
+      0:
+        STR_ABDUCTION_INVESTIGATION_SITES: 100
+    startDelay: 150  # 10080 7 Days
+    targetBaseOdds: 100
+    useTable: false
+    researchTriggers:
+      STR_ACT_2_START: true
 
   - type: MajorCattleMutilationInvestigationSitesScript
     missionWeights:
@@ -1674,6 +1732,38 @@ alienMissions:
         objective: true
 ###################################
 
+  - type: STR_ABDUCTION_INVESTIGATION_SITES
+    points: 100
+    objective: 2
+    siteType: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1: 100
+      1:
+        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1: 100
+      3:
+        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2: 100
+      4:
+        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2: 100
+      5:
+        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3: 100
+      6:
+        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3: 100
+#    waves:
+#      - ufo: dummy #don't spawn a ufo, we only want the site
+#        count: 1
+#        trajectory: P10
+#        timer: 0
+#        objective: true
+    waves:
+      - ufo: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT # spawn this site directly
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
+
+###################################
   - type: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_SITES
     points: 100
     objective: 2

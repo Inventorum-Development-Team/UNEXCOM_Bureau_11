@@ -118,8 +118,8 @@ items:
     recoveryPoints: 50
     recover: true
     battleType: 11
-    invWidth: 1
-    invHeight: 1
+    invWidth: 2
+    invHeight: 3
   - type: STR_COMATOSE_ABDUCTEE_2
     name: STR_UNCONCIOUS_CIVILIAN
     weight: 10
@@ -129,15 +129,26 @@ items:
     recoveryPoints: 50
     recover: true
     battleType: 11
-    invWidth: 1
-    invHeight: 1
+    invWidth: 2
+    invHeight: 3
   - type: STR_COMATOSE_ABDUCTEE_3
     name: STR_UNCONCIOUS_CIVILIAN
     weight: 10
     bigSprite: 1011
     floorSprite: 1011
+    invWidth: 2
+    invHeight: 3
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+    battleType: 11
+  - type: STR_ALIEN_SAMPLE_FLASK
+    #name: STR_UNCONCIOUS_CIVILIAN
+    weight: 10
+    bigSprite: 1065
+    floorSprite: 1065
     invWidth: 1
-    invHeight: 1
+    invHeight: 2
     armor: 999
     recoveryPoints: 50
     recover: true
@@ -664,6 +675,177 @@ armors:
       - 0.0
       - 0.0
       - 0.0
+############################################
+######### ABDUCTION INVESTIGATION #########
+##########################################
+  - type: ALIEN_SAMPLE_FLASK_EVIDENCE_ARMOR_1
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: AlienSampleFlask_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_ALIEN_SAMPLE_FLASK
+    loftempsSet: [ 3 ]
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 99.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: COMATOSE_ABDUCTEE_EVIDENCE_ARMOR_1
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: ComatoseAbductee1_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_COMATOSE_ABDUCTEE_1
+    loftempsSet: [ 3 ]
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 99.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: COMATOSE_ABDUCTEE_EVIDENCE_ARMOR_2
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: ComatoseAbductee2_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_COMATOSE_ABDUCTEE_2
+    loftempsSet: [ 3 ]
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 99.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  - type: COMATOSE_ABDUCTEE_EVIDENCE_ARMOR_3
+    allowsKneeling: false
+    allowsRunning: false
+    allowsMoving: false
+    spriteSheet: ComatoseAbductee3_spritesheet.PCK
+    allowInv: false
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    corpseBattle:
+     - STR_COMATOSE_ABDUCTEE_3
+    loftempsSet: [ 3 ]
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    movementType: 1
+    drawingRoutine: 19
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 99.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
 
 units:
 #######################################
@@ -861,7 +1043,94 @@ units:
     intelligence: 1
     aggression: 1
     energyRecovery: 1
+###########################################
 
+  - type: ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 1
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: ALIEN_SAMPLE_FLASK_EVIDENCE_ARMOR_1
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: COMATOSE_ABDUCTEE_EVIDENCE_UNIT_1
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 1
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: COMATOSE_ABDUCTEE_EVIDENCE_ARMOR_1
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: COMATOSE_ABDUCTEE_EVIDENCE_UNIT_2
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 1
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: COMATOSE_ABDUCTEE_EVIDENCE_ARMOR_2
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+  - type: COMATOSE_ABDUCTEE_EVIDENCE_UNIT_3
+    race: STR_EVIDENCE
+    stats:
+      tu: 1
+      stamina: 0
+      health: 1
+      bravery: 100
+      reactions: 100
+      firing: 1
+      throwing: 0
+      strength: 90
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: COMATOSE_ABDUCTEE_EVIDENCE_ARMOR_3
+    standHeight: 3
+    kneelHeight: 3
+    value: 25
+    intelligence: 1
+    aggression: 1
+    energyRecovery: 1
+
+########################################
 alienRaces:
   - id: STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_1
     members:
@@ -925,6 +1194,36 @@ alienRaces:
       - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
       - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
 
+  - id: STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1
+    members:
+      - CATTLE_ORGAN_EVIDENCE_UNIT_1 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_1 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_1 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_1 # NOT USED
+      - ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT
+      - COMATOSE_ABDUCTEE_EVIDENCE_UNIT_1
+      - CATTLE_ORGAN_EVIDENCE_UNIT_1 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_1 # NOT USED
+  - id: STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2
+    members:
+      - CATTLE_ORGAN_EVIDENCE_UNIT_2 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_2 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_2 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_2 # NOT USED
+      - COMATOSE_ABDUCTEE_EVIDENCE_UNIT_1
+      - COMATOSE_ABDUCTEE_EVIDENCE_UNIT_2
+      - CATTLE_ORGAN_EVIDENCE_UNIT_2 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_2 # NOT USED
+  - id: STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3
+    members:
+      - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
+      - ALIEN_SAMPLE_FLASK_EVIDENCE_UNIT
+      - COMATOSE_ABDUCTEE_EVIDENCE_UNIT_3
+      - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
+      - CATTLE_ORGAN_EVIDENCE_UNIT_3 # NOT USED
 ufopaedia:
   - id: STR_CROP_CIRCLE_REPORT
     type_id: 8
@@ -1158,9 +1457,9 @@ extraSprites:
       1006: Resources/Evidence/Cattle_Mutilation/Items/BigCattleBlood1.png
       1007: Resources/Evidence/Cattle_Mutilation/Items/BigCattleBlood2.png
       1008: Resources/Evidence/Cattle_Mutilation/Items/BigCattleBlood3.png
-      1009: Resources/Evidence/Alien_Abduction/Items/BigComatoseAbductee1.gif
-      1010: Resources/Evidence/Alien_Abduction/Items/BigComatoseAbductee2.gif
-      1011: Resources/Evidence/Alien_Abduction/Items/BigComatoseAbductee3.gif
+      1009: Resources/Evidence/Alien_Abduction/Items/BigComatoseAbductee1.png
+      1010: Resources/Evidence/Alien_Abduction/Items/BigComatoseAbductee2.png
+      1011: Resources/Evidence/Alien_Abduction/Items/BigComatoseAbductee3.png
       1016: Resources/Evidence/KGB_Investigation/Data_Suitcase/Evidence_Big.png
       1024: Resources/Evidence/KGB_Investigation/Listening_Device/Evidence_Big.png
       1032: Resources/Evidence/KGB_Investigation/Transmitter/Evidence_Big.png
@@ -1168,6 +1467,7 @@ extraSprites:
       1048: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Unloaded_Big.png
       1056: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Loaded_5_Big.png
       1064: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Mag_5_Big.png
+      1065: Resources/Evidence/Alien_Abduction/Items/BigAlienSampleFlask.png
 
 
   - type: FLOOROB.PCK
@@ -1181,9 +1481,9 @@ extraSprites:
       1006: Resources/Evidence/Cattle_Mutilation/Items/FloorCattleBlood1.png
       1007: Resources/Evidence/Cattle_Mutilation/Items/FloorCattleBlood2.png
       1008: Resources/Evidence/Cattle_Mutilation/Items/FloorCattleBlood3.png
-      1009: Resources/Evidence/Alien_Abduction/Items/FloorComatoseAbductee1.gif
-      1010: Resources/Evidence/Alien_Abduction/Items/FloorComatoseAbductee2.gif
-      1011: Resources/Evidence/Alien_Abduction/Items/FloorComatoseAbductee3.gif
+      1009: Resources/Evidence/Alien_Abduction/Items/FloorComatoseAbductee1.png
+      1010: Resources/Evidence/Alien_Abduction/Items/FloorComatoseAbductee2.png
+      1011: Resources/Evidence/Alien_Abduction/Items/FloorComatoseAbductee3.png
       1016: Resources/Evidence/KGB_Investigation/Data_Suitcase/Evidence_Floor.png
       1024: Resources/Evidence/KGB_Investigation/Listening_Device/Evidence_Floor.png
       1032: Resources/Evidence/KGB_Investigation/Transmitter/Evidence_Floor.png
@@ -1191,6 +1491,7 @@ extraSprites:
       1048: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Unloaded_Floor.png
       1056: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Loaded_5_Floor.png
       1064: Resources/Evidence/KGB_Investigation/Umbrella_Gun/Mag_5_Floor.png
+      1065: Resources/Evidence/Alien_Abduction/Items/FloorAlienSampleFlask.png
 
 
   - type: HANDOB.PCK
@@ -1272,5 +1573,33 @@ extraSprites:
     files:
       0: Resources/Evidence/Cattle_Mutilation/Units/CattleBlood3_spritesheet.png
 ################################
-
+###################################
+  - type: AlienSampleFlask_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Alien_Abduction/Units/AlienSampleFlask_spritesheet.png
+  - type: ComatoseAbductee1_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Alien_Abduction/Units/ComatoseAbductee1_spritesheet.png
+  - type: ComatoseAbductee2_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Alien_Abduction/Units/ComatoseAbductee2_spritesheet.png
+  - type: ComatoseAbductee3_spritesheet.PCK
+    width: 256
+    height: 120
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Evidence/Alien_Abduction/Units/ComatoseAbductee3_spritesheet.png
 

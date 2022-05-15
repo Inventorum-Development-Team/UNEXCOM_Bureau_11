@@ -335,7 +335,7 @@ en-US:
   STR_CROP_CIRCLE_INVESTIGATION_SITES: "Crop Circle Investigation Sites"
   STR_CROP_CIRCLES_UFO: "Crop Circle"
   STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: "Crop Circle Investigation Site"
-  STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "We've been called to a local farm to conduct research on a mysterious figure made on the ground. The area has been cordoned by the State Police and we've given full jurisdiction."
+  STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "We've been called to a local farm to conduct research on a mysterious figure made on the ground. The area has been cordoned by the State Police and we've given full jurisdiction. We need photos of any evidence of alien activities, for the archives."
   STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_1: "Crop Circle Samples I"
   STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_2: "Crop Circle Samples II"
   STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_3: "Crop Circle Samples III"
@@ -344,7 +344,7 @@ en-US:
   STR_CATTLE_MUTILATION_INVESTIGATION_SITES: "Cattle Mutilation Investigation Sites"
   STR_CATTLE_MUTILATION_UFO: "Cattle Mutilation Scene"
   STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: "Cattle Mutilation Investigation Site"
-  STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "A report of mauled cattle in a local area has been forwarded to us by the State autorities. We've called to investigate the area where livestock was found mutilated. Local police forces are looking for suspects around the zone."
+  STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "A report of mauled cattle in a local area has been forwarded to us by the State autorities. We've called to investigate the area where livestock was found mutilated. Local police forces are looking for suspects around the zone. We need pictures as proof of the alien involvement, for the archives."
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_1: "Cattle Mutilation Samples I"
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_2: "Cattle Mutilation Samples II"
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_3: "Cattle Mutilation Samples III"
@@ -352,7 +352,7 @@ en-US:
   STR_COUNTER_INTELLIGENCE_INVESTIGATION: "Counter-Intelligence Operation"
   STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: "Counter-Intelligence Op. Sites"
   STR_KGB_HIDEOUT_UFO: "Suspected Hideout"
-  STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT: "Counter-Intelligence Op. Sites"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT: "Counter-Intelligence Op. Site"
   STR_COUNTER_INTELLIGENCE_INVESTIGATION_DESCRIPTION: "A survilliance report conducted by FBI units has detected a suspected foreign 'hideout' inside an urban area. We've been deployed to detect said hideout, locate the building and determinate if the dwellers pose a threaht to national security. Be careful, they may be armed."
 
   STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION: "Major Cattle Mutilation Investigation"
@@ -362,6 +362,14 @@ en-US:
   STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "We've just recieved a urgent report: there are a group of unknown individuals performing some kind of ritual in a local farm. The landowners informed they heard screams coming from the animal pens, it's likely they are being attacked. The individuals are expected to be armed, you have permission to engage if needed."
   STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_RACE: "Major Cattle Mutilation Samples"
 
+  STR_ABDUCTION_INVESTIGATION: "Minor Abduction Investigation"
+  STR_ABDUCTION_INVESTIGATION_SITES: "Minor Abduction Investigation Sites"
+  STR_ABDUCTION_UFO: "Minor Abduction Scene"
+  STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: "Minor Abduction Investigation Site"
+  STR_ABDUCTION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "State authorities inform of missing persons who were driving in the highway since a couple of days. Their relatives asked for support and we were called to investigate the incident. There are reports of strange lights around the area where the person went missing, we suspect of alien involvement. Search the vehicle and the victims, analize if they are still alive and recover them to base for interrogation. We need pictures of the possible abductees for the archives."
+  STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1: "Minor Abduction Victims I"
+  STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2: "Minor Abduction Victims II"
+  STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3: "Minor Abduction Victims III"
 
   STR_EVIDENCE: "Evidence"
 #################################
@@ -450,9 +458,14 @@ en-US:
 ################################
 ####### Initial Intel #########
 ##############################
+  ALIEN_SAMPLE_FLASK_EVIDENCE_ARMOR_1: "Alien Flask Sample"
+  STR_ALIEN_SAMPLE_FLASK: "Alien Flask Sample"
   STR_COMATOSE_ABDUCTEE_1: "Comatose Abductee"
+  COMATOSE_ABDUCTEE_EVIDENCE_UNIT_1: "Abductee I"
   STR_COMATOSE_ABDUCTEE_2: "Comatose Abductee"
+  COMATOSE_ABDUCTEE_EVIDENCE_UNIT_2: "Abductee II"
   STR_COMATOSE_ABDUCTEE_3: "Comatose Abductee"
+  COMATOSE_ABDUCTEE_EVIDENCE_UNIT_3: "Abductee III"
   STR_UNCONCIOUS_CIVILIAN: "Unconcious Civilian"
   STR_MINOR_ABDUCTION_REPORT: "Report: Minor Abduction Incident"
   STR_MINOR_ABDUCTION_REPORT_UFOPEDIA: "Placeholder"

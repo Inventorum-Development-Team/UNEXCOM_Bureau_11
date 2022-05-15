@@ -281,6 +281,23 @@ ufos:
           width: 10
           length: 10
 
+  - type: STR_ABDUCTION_CAR_UFO
+    battlescapeTerrainData:
+      name: ABDUCTION_CAR_UFO
+      mapDataSets:
+        - BLANKS
+        - CADILLAC_BLUE
+      mapBlocks:
+        - name: ABDUCTION_UFO00
+          width: 10
+          length: 10
+        - name: ABDUCTION_UFO01
+          width: 10
+          length: 10
+        - name: ABDUCTION_UFO02
+          width: 10
+          length: 10
+
   - type: STR_MAJOR_CATTLE_MUTILATION_UFO
     battlescapeTerrainData:
       name: MAJOR_CATTLE_MUTILATION_UFO
