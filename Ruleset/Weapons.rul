@@ -674,8 +674,8 @@ items:
     power: 15
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false
-      ToWound: 30.0
+      IgnoreOverKill: true
+      ToWound: 999.0
       RandomWound: false
     damageType: 8
     clipSize: 7
