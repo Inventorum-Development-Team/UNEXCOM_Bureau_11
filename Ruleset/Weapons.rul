@@ -373,6 +373,8 @@ items:
   - type: STR_UNITED_DEFENSE_M42_50_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SEMI_CONCEALED]
     size: 0.1
+    invWidth: 1
+    invHeight: 2 
     costBuy: 300
     costSell: 250
     weight: 5
