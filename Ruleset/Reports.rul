@@ -177,6 +177,8 @@ ufopaedia:
       width: 205
       height: 80
     image_id: HUEY_UFOPEDIA
+    requires:
+      - STR_EXPERIMENTAL_AEROSPACE
   - id: STR_MUDRANGER
     type_id: 1
     section: STR_VEHICLES
@@ -193,6 +195,8 @@ ufopaedia:
       width: 205
       height: 80
     image_id: MUDRANGER_UFOPEDIA
+    requires:
+      - STR_EXPERIMENTAL_AEROSPACE
   - id: STR_STARFIGHTER
     type_id: 1
     section: STR_VEHICLES
@@ -209,6 +213,8 @@ ufopaedia:
       width: 205
       height: 80
     image_id: STARFIGHTER_UFOPEDIA
+    requires:
+      - STR_USAF_INTERCEPTOR_REQUISITION
   - id: STR_SKYRANGER
     type_id: 1
     section: STR_VEHICLES
@@ -225,6 +231,8 @@ ufopaedia:
       width: 205
       height: 80
     image_id: SKYRANGER_UFOPEDIA
+    requires:
+      - STR_GYRODYNE_TRANSPORT_HELICOPTER
 
 #Autocannon
   - id: STR_VULCAN
