@@ -360,6 +360,7 @@ en-US:
 
   STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION: "Major Cattle Mutilation Investigation"
   STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_SITES: "Major Cattle Mutilation Investigation Sites"
+  STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_: "Major Cattle Mutilation Site"
   STR_MAJOR_CATTLE_MUTILATION_UFO: "Major Cattle Mutilation Scene"
   STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: "Major Cattle Mutilation Investigation Site"
   STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "We've just recieved a urgent report: there are a group of unknown individuals performing some kind of ritual in a local farm. The landowners informed that they heard screams coming from the animal pens, it's likely they are being attacked. The individuals are expected to be armed, you have permission to engage if needed."
@@ -368,6 +369,7 @@ en-US:
   STR_ABDUCTION_INVESTIGATION: "Minor Abduction Investigation"
   STR_ABDUCTION_INVESTIGATION_SITES: "Minor Abduction Investigation Sites"
   STR_ABDUCTION_UFO: "Minor Abduction Scene"
+  STR_ABDUCTION_INVESTIGATION_: "Minor Abduction Investigation Site"
   STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: "Minor Abduction Investigation Site"
   STR_ABDUCTION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "State authorities inform of missing persons who were driving on the highway a couple of days ago. Their relatives reached out to state authorities for support and we intercepted the reports. There are reports of strange lights around the area where the person went missing, we suspect of alien involvement. Search the vehicle and the victims, analize if they are still alive and recover them to base for interrogation. We need pictures of the possible abductees for the archives."
   STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1: "Minor Abduction Victims I"
