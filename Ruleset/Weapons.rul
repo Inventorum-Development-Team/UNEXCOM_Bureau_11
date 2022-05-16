@@ -1750,7 +1750,7 @@ items:
   - type: STR_ALIEN_LASER_PISTOL
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT]
     size: 0.1
-    costSell: 84000
+    costSell: 21000
     requires:
      - STR_ALIEN_WEAPON_OPERATION
     weight: 3
@@ -1787,7 +1787,7 @@ items:
   - type: STR_ALIEN_LASER_PISTOL_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
-    costSell: 4440
+    costSell: 1110
     requires:
      - STR_ALIEN_WEAPON_OPERATION
     weight: 3
@@ -1810,7 +1810,7 @@ items:
   - type: STR_ALIEN_LASER_RIFLE
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
-    costSell: 126500
+    costSell: 31600
     requires:
      - STR_ALIEN_WEAPON_OPERATION
     weight: 11
@@ -1856,7 +1856,7 @@ items:
   - type: STR_ALIEN_LASER_RIFLE_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.1
-    costSell: 6290
+    costSell: 1575
     requires:
      - STR_ALIEN_WEAPON_OPERATION
     weight: 3
@@ -1879,7 +1879,7 @@ items:
   - type: STR_ALIEN_HEAVY_LASER
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT]
     size: 0.2
-    costSell: 171600
+    costSell: 43500
     requires:
      - STR_ALIEN_WEAPON_OPERATION
     weight: 24
@@ -1917,7 +1917,7 @@ items:
   - type: STR_ALIEN_HEAVY_LASER_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_ALIEN_ARTIFACT, STR_MAGAZINES]
     size: 0.3
-    costSell: 9590
+    costSell: 2400
     requires:
      - STR_ALIEN_WEAPON_OPERATION
     weight: 3
@@ -1940,7 +1940,7 @@ items:
   - type: STR_ALIEN_SIEGE_LAUNCHER
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_ALIEN_ARTIFACT]
     size: 0.3
-    costSell: 144000
+    costSell: 55400
     requires:
      - STR_ALIEN_WEAPON_OPERATION
     weight: 16
@@ -1964,7 +1964,7 @@ items:
   - type: STR_ALIEN_SIEGE_LAUNCHER_SHELL
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_ALIEN_ARTIFACT, STR_GRENADES]
     size: 0.2
-    costSell: 17028
+    costSell: 18500
     requires:
      - STR_ALIEN_WEAPON_OPERATION
     weight: 3
