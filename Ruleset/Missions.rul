@@ -1,3 +1,11 @@
+startingConditions:
+  - type: STR_SEMI_CONCEALED
+    allowedItemCategories:
+      - STR_CONCEALED
+      - STR_SEMI_CONCEALED
+  - type: STR_CONCEALED
+    allowedItemCategories:
+      - STR_CONCEALED
 
 ############################
 ##### STORY MISSIONS ######
@@ -104,6 +112,7 @@ alienDeployments:
 
   - type: STR_NORISKA_KRASCHEN_DEPLOYMENT
     unlockedResearch: STR_ACT_2_START
+    startingCondition: STR_SEMI_CONCEALED
     loseCutscene: loseGame
     abortCutscene: loseGame
     customUfo: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
@@ -294,6 +303,7 @@ alienDeployments:
 
   - type: STR_HIDE_AND_SEEK_DEPLOYMENT
     customUfo: STR_HIDE_AND_SEEK_VAN
+    startingCondition: STR_CONCEALED
     loseCutscene: loseGame
     abortCutscene: loseGame
     height: 10
@@ -497,6 +507,7 @@ alienDeployments:
 ###############
 
   - type: STR_WHISPERS_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     loseCutscene: loseGame
     abortCutscene: loseGame
@@ -964,6 +975,7 @@ alienDeployments:
 #############################
 
   - type: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CROP_CIRCLES_UFO
     height: 10
     width: 40
@@ -1012,6 +1024,7 @@ alienDeployments:
     markerIcon: 30
 
   - type: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CATTLE_MUTILATION_UFO
     height: 10
     width: 40
@@ -1028,6 +1041,7 @@ alienDeployments:
     markerIcon: 31
 
   - type: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_KGB_HIDEOUT_UFO
     height: 10
     width: 40
@@ -1095,6 +1109,7 @@ alienDeployments:
 #############################################
 
   - type: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_ABDUCTION_CAR_UFO
     height: 10
     width: 40
