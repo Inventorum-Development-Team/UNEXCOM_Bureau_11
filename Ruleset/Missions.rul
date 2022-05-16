@@ -27,8 +27,8 @@ alienDeployments:
 
   - type: STR_PROVING_GROUNDS_DEPLOYMENT
     customUfo: STR_PROVING_GROUNDS_LARGE_SCOUT
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     height: 10
     width: 40
     length: 40
@@ -117,8 +117,8 @@ alienDeployments:
   - type: STR_NORISKA_KRASCHEN_DEPLOYMENT
     unlockedResearch: STR_ACT_2_START
     startingCondition: STR_SEMI_CONCEALED
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     customUfo: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
     height: 10
     width: 50
@@ -214,8 +214,8 @@ alienDeployments:
 
   - type: STR_DISCOVERIES_DEPLOYMENT
     customUfo: STR_DISCOVERIES_LARGE_SCOUT
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     height: 10
     width: 40
     length: 40
@@ -308,8 +308,8 @@ alienDeployments:
   - type: STR_HIDE_AND_SEEK_DEPLOYMENT
     customUfo: STR_HIDE_AND_SEEK_VAN
     startingCondition: STR_CONCEALED
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     height: 10
     width: 50
     length: 50
@@ -400,8 +400,8 @@ alienDeployments:
 
   - type: STR_SPIDERWEB_DEPLOYMENT
     customUfo: STR_SPIDERWEB_LARGE_SCOUT
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     height: 10
     width: 60
     length: 60
@@ -513,8 +513,8 @@ alienDeployments:
   - type: STR_WHISPERS_DEPLOYMENT
     startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_WHISPERS_SAFEHOUSE_UFO
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     terrains:
       - EXPANDED_TERROR_UFO
     civilians: 10
@@ -620,8 +620,8 @@ alienDeployments:
 
   - type: STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT
     unlockedResearch: STR_ACT_3_START
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     terrains:
       - IDT_AIRPORT
@@ -733,8 +733,8 @@ alienDeployments:
   - type: STR_OPERATION_HARBINGER_DEPLOYMENT
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     winCutscene: winGame
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameFinal
+    abortCutscene: loseGameFinal
     terrains:
       - OPERATION_HARBINGER_CUSTOM_TERRAIN
     civilianSpawnNodeRank: 0
@@ -1218,7 +1218,7 @@ alienDeployments:
             - STR_MIND_PROBE
       - alienRank: 2
         lowQty: 1
-        highQty: 2
+        highQty: 1
         dQty: 0
         percentageOutsideUfo: 20
         itemSets:
@@ -1246,8 +1246,8 @@ alienDeployments:
     startingCondition: STR_CONCEALED
     customUfo: STR_KGB_HIDEOUT_UFO
     civiliansByType:
-      STR_GLADIO_OPERATIVE_M: 3
-      STR_GLADIO_OPERATIVE_F: 3
+      STR_GLADIO_OPERATIVE_M: 2
+      STR_GLADIO_OPERATIVE_F: 2
     height: 10
     width: 40
     length: 40
@@ -1965,48 +1965,51 @@ terrains:
   - name: OPERATION_HARBINGER_CUSTOM_TERRAIN
     mapDataSets:
       - BLANKS
-      - JUNGLE
+      - MOUNTTROP
     script: OPERATION_HARBINGER_CUSTOM_TERRAIN_SCRIPT
     mapBlocks:
-      - name: JUNGLE00
+      - name: PLAINS00
         width: 10
         length: 10
         groups: 1
-      - name: JUNGLE01
+      - name: PLAINS01
         width: 10
         length: 10
         groups: 1
-      - name: JUNGLE02
+      - name: PLAINS02
         width: 10
         length: 10
         groups: 1
-      - name: JUNGLE03
+      - name: PLAINS03
         width: 10
         length: 10
-      - name: JUNGLE04
+      - name: PLAINS04
         width: 10
         length: 10
-      - name: JUNGLE05
+      - name: PLAINS05
         width: 10
         length: 10
-      - name: JUNGLE06
+      - name: PLAINS06
         width: 10
         length: 10
-      - name: JUNGLE07
+      - name: PLAINS07
         width: 10
         length: 10
-      - name: JUNGLE08
+      - name: PLAINS08
         width: 10
         length: 10
-      - name: JUNGLE09
+      - name: PLAINS09
         width: 10
         length: 10
-      - name: JUNGLE10
+      - name: PLAINS10
         width: 10
         length: 10
-      - name: JUNGLE11
-        width: 10
-        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
 
 mapScripts:
   - type: DISCOVERIES_CUSTOM_TERRAIN_SCRIPT
@@ -2040,5 +2043,9 @@ mapScripts:
     - type: addBlock
       terrain: IDT_VILLAGE
       size: 1
-      executions: 2
+      executions: 4
+    - type: addBlock
+      terrain: MOUNTTROP
+      size: 1
+      executions: 4
     - type: fillArea
