@@ -232,7 +232,7 @@ armors:
   - type: STR_AUGMENTATION_SUIT_UC
     spriteSheet: AUGMENTATION_SUIT.PCK
     spriteInv: MAN_AUG
-    storeItem: STR_NONE
+    storeItem: STR_AUGMENTATION_SUIT
     corpseBattle:
       - STR_CORPSE_AUG
     loftempsSet: [ 3 ]
