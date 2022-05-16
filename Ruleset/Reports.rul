@@ -463,15 +463,6 @@ ufopaedia:
     #listOrder: 209
   - id: STR_M3_GREASEGUN_MAG
     type_id: 4
-  - id: STR_M3_GREASEGUN
-    type_id: 4
-    section: STR_WEAPONS
-    text: STR_M3_GREASEGUN_UFOPEDIA
-    requires:
-      - STR_MILITARY_EQUIPMENT_AQUISITION
-    #listOrder: 210
-  - id: STR_M3_GREASEGUN_MAG
-    type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_M60_HOG
     type_id: 4
