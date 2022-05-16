@@ -115,7 +115,7 @@ items:
       arcing: false
     aimRange: 18
     accuracyAimed: 90
-    tuAimed: 55
+    tuAimed: 25
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
@@ -123,7 +123,7 @@ items:
       arcing: false
     snapRange: 12
     accuracySnap: 70
-    tuSnap: 25
+    tuSnap: 15
     confAuto:
       shots: 2
       name: STR_DOUBLE_TAP
@@ -131,7 +131,7 @@ items:
       arcing: false
     autoRange: 9
     accuracyAuto: 55
-    tuAuto: 40
+    tuAuto: 20
     accuracyCloseQuarters: 100
     tuLoad: 15
     maxRange: 60
@@ -185,7 +185,7 @@ items:
       arcing: false
     aimRange:  18
     accuracyAimed: 85
-    tuAimed: 60
+    tuAimed: 30
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
@@ -193,7 +193,7 @@ items:
       arcing: false
     snapRange: 12
     accuracySnap: 60
-    tuSnap: 30
+    tuSnap: 20
     confAuto:
       shots: 2
       name: STR_DOUBLE_TAP
@@ -201,7 +201,7 @@ items:
       arcing: false
     autoRange: 7
     accuracyAuto: 55
-    tuAuto: 40
+    tuAuto: 25
     accuracyCloseQuarters: 100
     tuLoad: 15
     maxRange: 60
@@ -257,7 +257,7 @@ items:
       arcing: false
     aimRange: 6
     accuracyAimed: 110
-    tuAimed: 90
+    tuAimed: 55
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
@@ -265,7 +265,7 @@ items:
       arcing: false
     snapRange: 4
     accuracySnap: 70
-    tuSnap: 25
+    tuSnap: 20
     accuracyCloseQuarters: 90
     dropoff: 4
     shotgunChoke: 50
@@ -512,7 +512,7 @@ items:
       arcing: false
     aimRange: 18
     accuracyAimed: 90
-    tuAimed: 55
+    tuAimed: 25
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
@@ -520,7 +520,7 @@ items:
       arcing: false
     snapRange: 12
     accuracySnap: 70
-    tuSnap: 25
+    tuSnap: 15
     confAuto:
       shots: 2
       name: STR_DOUBLE_TAP
@@ -528,7 +528,7 @@ items:
       arcing: false
     autoRange: 9
     accuracyAuto: 55
-    tuAuto: 40
+    tuAuto: 20
     accuracyCloseQuarters: 100
     tuLoad: 15
     maxRange: 60
@@ -641,7 +641,7 @@ items:
       arcing: false
     aimRange:  18
     accuracyAimed: 110
-    tuAimed: 60
+    tuAimed: 30
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
@@ -649,7 +649,7 @@ items:
       arcing: false
     snapRange: 12
     accuracySnap: 75
-    tuSnap: 30
+    tuSnap: 20
     accuracyCloseQuarters: 100
     tuLoad: 15
     maxRange: 60
@@ -1218,7 +1218,7 @@ items:
       arcing: false
     aimRange: 16
     accuracyAimed: 80
-    tuAimed: 50
+    tuAimed: 30
     confSnap:
       shots: 2
       name: STR_DOUBLE_TAP
@@ -1226,7 +1226,7 @@ items:
       arcing: false
     snapRange: 12
     accuracySnap: 65
-    tuSnap: 30
+    tuSnap: 20
     confAuto:
       shots: 5
       name: STR_CONTROLLED_BURST
@@ -1234,7 +1234,7 @@ items:
       arcing: false
     autoRange: 9
     accuracyAuto: 60
-    tuAuto: 45
+    tuAuto: 25
     accuracyCloseQuarters: 100
     tuLoad: 15
     maxRange: 60
@@ -1260,7 +1260,7 @@ items:
     handSprite: 592
     hitSound: 22
     hitAnimation: 26
-    power: 30
+    power: 26
     damageType: 1
     clipSize: 20
     battleType: 2
