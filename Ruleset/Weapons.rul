@@ -875,7 +875,7 @@ items:
     handSprite: 472
     hitSound: 0
     hitAnimation: 0
-    power: 30
+    power: 60
     damageAlter:
       RandomType: 6
       IgnoreSelfDestruct: true
@@ -887,7 +887,7 @@ items:
     clipSize: 1
     battleType: 2
     armor: 20
-    blastRadius: 5
+    blastRadius: 9
     bulletSprite: 0
     listOrder: 222
 
