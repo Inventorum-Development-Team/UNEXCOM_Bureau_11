@@ -42,7 +42,183 @@ research:
   - name: STR_AUGMENTATION_SUIT
     cost: 150
     points: 25
+    dependencies:
+      - STR_ACT_3_START
+
+##################################
+########### WEAPONS #############
+################################
+  - name: STR_LASER_WEAPONS
+    dependencies:
+      - STR_COMMANDER_PLUS
+  - name: STR_MOTION_SCANNER
+    dependencies:
+      - STR_COMMANDER_PLUS
+  - name: STR_MEDI_KIT
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_SUPPRESSED_WEAPONS_AQUISITION
+    cost: 100
+    points: 50
+
+  - name: STR_HEART_ATTACK_GUN
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+
+  - name: STR_MILITARY_EQUIPMENT_AQUISITION
+    cost: 300
+    points: 100
+    unlocks:
+      - STR_WINCHESTER_MODEL_12_BUY
+      - STR_FN_FAL_BUY
+      - STR_CARL_GUSTAF_M45_BUY
+    dependencies:
+      - STR_ACT_2_START
+
+  - name: STR_WINCHESTER_MODEL_12
+    cost: 50
+    points: 10
     needItem: true
+    unlocks:
+      - STR_WINCHESTER_MODEL_12_BUY
+
+  - name: STR_FN_FAL
+    cost: 50
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_FN_FAL_BUY
+
+  - name: STR_CARL_GUSTAF_M45
+    cost: 50
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_CARL_GUSTAF_M45_BUY
+
+  - name: STR_WINCHESTER_MODEL_12_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_FN_FAL_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_CARL_GUSTAF_M45_BUY
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_LIGHT_ASSAULT_RIFLE_REQUISITION
+    cost: 100
+    points: 25
+    dependencies:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
+
+  - name: STR_SOVIET_WEAPON_AQUISITION
+    cost: 400
+    points: 50
+    unlocks:
+      - STR_STECHKIN_APS
+      - STR_SKORPION_VZ61
+      - STR_AK_47
+    dependencies:
+      - STR_ACT_3_START
+
+  - name: STR_STECHKIN_APS
+    cost: 100
+    points: 25
+    needItem: true
+
+  - name: STR_SKORPION_VZ61
+    cost: 100
+    points: 25
+    needItem: true
+
+  - name: STR_AK_47
+    cost: 100
+    points: 25
+    needItem: true
+
+  - name: STR_ALIEN_WEAPON_OPERATION
+    cost: 100
+    points: 25
+    dependencies:
+      - STR_ALIEN_LASER_PISTOL
+      - STR_ALIEN_LASER_RIFLE
+      - STR_ALIEN_HEAVY_LASER
+      - STR_ALIEN_SIEGE_LAUNCHER
+
+  - name: STR_ALIEN_LASER_PISTOL
+    cost: 300
+    points: 50
+    needItem: true
+
+  - name: STR_ALIEN_LASER_RIFLE
+    cost: 300
+    points: 50
+    needItem: true
+
+  - name: STR_ALIEN_HEAVY_LASER
+    cost: 300
+    points: 50
+    needItem: true
+
+  - name: STR_ALIEN_SIEGE_LAUNCHER
+    cost: 300
+    points: 50
+    needItem: true
+
+  - name: STR_CHINA_LAKE_LASER_PROJECTOR
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_STURM_EKANONE
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_VIKHR_ELECTROMAGNETIC_RIFLE
+    cost: 200
+    points: 50
+    needItem: true
+
+  - name: STR_COLLAPSIBLE_SMG
+    cost: 100
+    points: 25
+    dependencies:
+      - STR_SUPPRESSED_WEAPONS_AQUISITION
+      - STR_CONCEALED_WEAPONS_PREQ
+
+  - name: STR_WELROD
+    cost: 50
+    points: 10
+    needItem: true
+
+  - name: STR_DELISLE_CARBINE_SNIPER
+    cost: 50
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_DELISLE_CARBINE_PARATROOPER
+
+  - name: STR_DELISLE_CARBINE_PARATROOPER
+    cost: 50
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_DELISLE_CARBINE_SNIPER
+
+
 #############################
 ######### ENEMIES ##########
 ###########################
@@ -309,3 +485,4 @@ research:
     points: 15
     dependencies:
       - STR_COMMANDER_PLUS
+

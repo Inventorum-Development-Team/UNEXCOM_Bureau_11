@@ -223,7 +223,7 @@ alienDeployments:
     civilianSpawnNodeRank: 0
     civiliansByType:
       STR_AMERICAN_ASSAULT: 4
-      STR_AMERICAN_RIFLEMAN: 4
+      STR_AMERICAN_RIFLEMAN: 5
       STR_AMERICAN_SUPPORT: 3
     data: 
       - alienRank: 5
@@ -316,8 +316,8 @@ alienDeployments:
     duration: [999, 999]
     civilians: 10
     civiliansByType:
-      STR_GLADIO_OPERATIVE_M: 2
-      STR_GLADIO_OPERATIVE_F: 2
+      STR_GLADIO_OPERATIVE_M: 3
+      STR_GLADIO_OPERATIVE_F: 3
     data: 
       - alienRank: 5
         lowQty: 4
@@ -408,9 +408,9 @@ alienDeployments:
     duration: [999, 999]
     civilianSpawnNodeRank: 0
     civiliansByType:
-      STR_AMERICAN_ASSAULT: 3
-      STR_AMERICAN_RIFLEMAN: 3
-      STR_AMERICAN_SUPPORT: 2
+      STR_AMERICAN_ASSAULT: 4
+      STR_AMERICAN_RIFLEMAN: 5
+      STR_AMERICAN_SUPPORT: 3
     data:
       - alienRank: 5
         lowQty: 2
@@ -627,7 +627,7 @@ alienDeployments:
       - IDT_AIRPORT
     civilianSpawnNodeRank: 0
     civiliansByType:
-      STR_SOVIET_RIFLEMAN: 3
+      STR_SOVIET_RIFLEMAN: 5
       STR_SOVIET_ASSAULT: 3
       STR_D17_AGENT: 4
       STR_D17_OFFICER: 2
@@ -1524,8 +1524,8 @@ missionScripts:
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100
-    firstMonth: 20
-    lastMonth: 21
+    firstMonth: 21
+    lastMonth: 22
     maxRuns: 1
 
 #########################
@@ -1606,6 +1606,26 @@ missionScripts:
     researchTriggers:
       STR_ACT_2_START: true
       STR_WHISPERS_MISSION_TRIGGER: false
+
+################################
+
+  #- type: invasionStart
+   # missionWeights:
+    #  0:
+     #   STR_INVASION_START: 100
+  #  firstMonth: 18
+   # lastMonth: 24
+    #executionOdds: 100
+    #targetBaseOdds: 100
+    #researchTriggers:
+    #  STR_ACT_3_START: true
+    #raceWeights:
+      #0:
+        #STR_SECTOID: 100
+    #maxRuns: 2
+    #varName: InvasionStart
+    #startDelay: 30
+    #randomDelay: 13500
 
 #############################
 alienMissions:
@@ -1881,7 +1901,44 @@ alienMissions:
         trajectory: STATIC_TRAJECTORY_BASE
         timer: 0
         objective: true
+#############################################
 
+  - type: STR_INVASION_START
+    points: 50
+    raceWeights:
+      18:
+        STR_SECTOID: 50
+        STR_THIN_MEN: 50
+        #STR_HYBRID_CIVILIAN: 25
+      19:
+        STR_SECTOID: 50
+        STR_THIN_MEN: 25
+        STR_HYBRID_CIVILIAN: 25
+      20:
+        STR_SECTOID: 50
+        STR_THIN_MEN: 25
+        STR_HYBRID_CIVILIAN: 25
+      22:
+        STR_SECTOID: 50
+        STR_THIN_MEN: 25
+        STR_HYBRID_CIVILIAN: 25
+    waves:
+      - ufo: STR_MEDIUM_SCOUT
+        count: 3
+        trajectory: P2
+        timer: 5000
+        huntBehavior: 0
+        hunterKillerPercentage: 75
+        huntMode: 2
+      - ufo: STR_LARGE_SCOUT
+        count: 3
+        trajectory: P4
+        timer: 5000
+        huntBehavior: 0
+        hunterKillerPercentage: 100
+        huntMode: 0
+
+####################################################
 ufoTrajectories:
   - id: STATIC_TRAJECTORY
     groundTimer: 0

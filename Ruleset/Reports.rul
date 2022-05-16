@@ -747,6 +747,33 @@ ufopaedia:
     text: STR_GLADIO_MUNITIONS_REPORT_UFOPEDIA
     #listOrder: 231
 
+  - id: STR_USAF_INTERCEPTOR_REQUISITION
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_USAF_INTERCEPTOR_REQUISITION
+    text: STR_USAF_INTERCEPTOR_REQUISITION_UFOPEDIA
+  - id: STR_EXPERIMENTAL_AEROSPACE
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_EXPERIMENTAL_AEROSPACE
+    text: STR_EXPERIMENTAL_AEROSPACE_UFOPEDIA
+
+  - id: STR_AUGMENTATION_SUIT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_AUGMENTATION_SUIT
+    text: STR_AUGMENTATION_SUIT_UFOPEDIA
+
+  - id: STR_OPERATION_SPIDERWEB
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_OPERATION_SPIDERWEB
+    text: STR_OPERATION_SPIDERWEB_UFOPEDIA
+
 #############################
 ######### ENEMIES ##########
 ###########################

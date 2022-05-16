@@ -649,14 +649,6 @@ units:
        - STR_COLT_M1911
        - STR_COLT_M1911_MAG
        - STR_COLT_M1911_MAG
-     -
-       - STR_BROWNING_HP35
-       - STR_BROWNING_HP35_MAG
-       - STR_BROWNING_HP35_MAG
-     -
-       - STR_BROWNING_HP35
-       - STR_BROWNING_HP35_MAG
-       - STR_BROWNING_HP35_MAG
   - type: STR_HYBRID_DISGUISE_F
     rank: STR_LIVE_NAVIGATOR
     race: STR_HYBRID
@@ -684,14 +676,6 @@ units:
        - STR_COLT_M1911
        - STR_COLT_M1911_MAG
        - STR_COLT_M1911_MAG
-     -
-       - STR_BROWNING_HP35
-       - STR_BROWNING_HP35_MAG
-       - STR_BROWNING_HP35_MAG
-     -
-       - STR_BROWNING_HP35
-       - STR_BROWNING_HP35_MAG
-       - STR_BROWNING_HP35_MAG
 
 ####################
 ##### KGB D17 #####
