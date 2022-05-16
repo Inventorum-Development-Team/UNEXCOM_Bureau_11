@@ -12,6 +12,9 @@ startingTime:
   month: 1
   year: 1961
 
+ai:
+  useDelayPsionic: 2
+
 initialFunding: 2600
 costEngineer: 25000
 costScientist: 40000
