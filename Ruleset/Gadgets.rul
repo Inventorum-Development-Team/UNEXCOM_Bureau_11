@@ -76,16 +76,16 @@ items:
     requiresBuy:
       - STR_MILITARY_EQUIPMENT_AQUISITION
     damageType: 1
-    power: 20
+    power: 50
     damageAlter:
       RandomType: 6
       ArmorEffectiveness: 1.5
       ToTile: 0.2
-      ToWound: 3.0
-      ToHealth: 1.25
+      ToWound: 1.5
+      ToHealth: 1.5
       RandomWound: false
     battleType: 4
-    blastRadius: 5
+    blastRadius: 13
     listOrder: 500
   - type: STR_SMOKE_GRENADE
     categories: [STR_GADGETS, STR_GRENADES]
