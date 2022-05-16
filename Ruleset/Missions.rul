@@ -217,8 +217,8 @@ alienDeployments:
     loseCutscene: loseGameMidCampaign
     abortCutscene: loseGameMidCampaign
     height: 10
-    width: 40
-    length: 40
+    width: 60
+    length: 60
     duration: [999, 999]
     civilianSpawnNodeRank: 0
     civiliansByType:
@@ -2016,8 +2016,12 @@ mapScripts:
     commands:
     - type: addCraft
       groups: 1
+      executions: 1
+      executionChances: 100
     - type: addUFO
       groups: 1
+      executions: 1
+      executionChances: 100
     - type: addBlock
       terrain: FOREST
       size: 1
