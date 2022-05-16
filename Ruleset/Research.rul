@@ -16,6 +16,13 @@ research:
       - STR_EXPERIMENTAL_AEROSPACE
       - STR_ACT_3_START
 
+  - name: STR_CIA_RECON_CRAFT_REQUISITION
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_EXPERIMENTAL_AEROSPACE
+      - STR_ACT_3_START
+
   - name: STR_GYRODYNE_TRANSPORT_HELICOPTER
     cost: 300
     points: 100

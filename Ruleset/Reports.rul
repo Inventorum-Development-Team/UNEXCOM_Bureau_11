@@ -215,6 +215,24 @@ ufopaedia:
     image_id: STARFIGHTER_UFOPEDIA
     requires:
       - STR_USAF_INTERCEPTOR_REQUISITION
+  - id: STR_OXCART
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_OXCART_UFOPEDIA
+    #listOrder: 6
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: OXCART_UFOPEDIA
+    requires:
+      - STR_CIA_RECON_CRAFT_REQUISITION_UFOPEDIA
   - id: STR_SKYRANGER
     type_id: 1
     section: STR_VEHICLES
@@ -233,6 +251,7 @@ ufopaedia:
     image_id: SKYRANGER_UFOPEDIA
     requires:
       - STR_GYRODYNE_TRANSPORT_HELICOPTER
+
 
 #Autocannon
   - id: STR_VULCAN
@@ -753,6 +772,12 @@ ufopaedia:
     requires:
       - STR_USAF_INTERCEPTOR_REQUISITION
     text: STR_USAF_INTERCEPTOR_REQUISITION_UFOPEDIA
+  - id: STR_CIA_RECON_CRAFT_REQUISITION
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_CIA_RECON_CRAFT_REQUISITION
+    text: STR_CIA_RECON_CRAFT_REQUISITION_UFOPEDIA
   - id: STR_EXPERIMENTAL_AEROSPACE
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC

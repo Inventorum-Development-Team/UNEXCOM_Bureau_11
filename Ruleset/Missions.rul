@@ -1535,7 +1535,7 @@ missionScripts:
     missionWeights:
       0:
         STR_CROP_CIRCLE_INVESTIGATION_SITES: 100
-    startDelay: 150
+    startDelay: 10080 # 7 Days
     targetBaseOdds: 100
     useTable: false
     researchTriggers:
@@ -1546,7 +1546,7 @@ missionScripts:
     missionWeights:
       0:
         STR_CATTLE_MUTILATION_INVESTIGATION_SITES: 100
-    startDelay: 150  # 10080 7 Days
+    startDelay: 10080 # 7 Days
     targetBaseOdds: 100
     useTable: false
     lastMonth: 6
@@ -1555,7 +1555,7 @@ missionScripts:
     missionWeights:
       0:
         STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: 100
-    startDelay: 150 # 21600 15 Days
+    startDelay: 21600 # 15 Days
     targetBaseOdds: 100
     useTable: false
     lastMonth: 6
@@ -1564,7 +1564,7 @@ missionScripts:
     missionWeights:
       0:
         STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: 100
-    startDelay: 150 # 21600 15 Days
+    startDelay: 21600 # 15 Days
     targetBaseOdds: 100
     executionOdds: 40
     useTable: false
@@ -1575,7 +1575,7 @@ missionScripts:
     missionWeights:
       0:
         STR_ABDUCTION_INVESTIGATION_SITES: 100
-    startDelay: 150  # 10080 7 Days
+    startDelay: 10080 # 7 Days
     targetBaseOdds: 100
     useTable: false
     researchTriggers:
@@ -1585,7 +1585,7 @@ missionScripts:
     missionWeights:
       0:
         STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_SITES: 100
-    startDelay: 150  # 10080 7 Days
+    startDelay: 10080 # 7 Days
     targetBaseOdds: 100
     useTable: false
     researchTriggers:
@@ -1598,7 +1598,7 @@ missionScripts:
     regionWeights:
       0:
         STR_EUROPE: 100
-    startDelay: 150 # 21600 15 Days
+    startDelay: 21600 # 15 Days
     #targetBaseOdds: 100
     executionOdds: 40
     useTable: false
@@ -1609,22 +1609,22 @@ missionScripts:
 
 ################################
 
-  #- type: invasionStart
-   # missionWeights:
-    #  0:
-     #   STR_INVASION_START: 100
-  #  firstMonth: 18
-   # lastMonth: 24
-    #executionOdds: 100
-    #targetBaseOdds: 100
-    #researchTriggers:
-    #  STR_ACT_3_START: true
+  - type: invasionStart
+    missionWeights:
+      0:
+        STR_INVASION_START: 100
+    firstMonth: 18
+    lastMonth: 24
+    executionOdds: 100
+    targetBaseOdds: 100
+    researchTriggers:
+      STR_ACT_3_START: true
     #raceWeights:
       #0:
         #STR_SECTOID: 100
-    #maxRuns: 2
-    #varName: InvasionStart
-    #startDelay: 30
+    maxRuns: 2
+    varName: InvasionStart
+    startDelay: 21600 # 15 Days
     #randomDelay: 13500
 
 #############################
@@ -1924,14 +1924,14 @@ alienMissions:
         STR_HYBRID_CIVILIAN: 25
     waves:
       - ufo: STR_MEDIUM_SCOUT
-        count: 3
+        count: 2
         trajectory: P2
         timer: 5000
         huntBehavior: 0
         hunterKillerPercentage: 75
         huntMode: 2
       - ufo: STR_LARGE_SCOUT
-        count: 3
+        count: 1
         trajectory: P4
         timer: 5000
         huntBehavior: 0

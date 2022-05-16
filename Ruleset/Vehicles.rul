@@ -48,6 +48,7 @@ crafts:
   - delete: STR_FIRESTORM
   - delete: STR_LIGHTNING
   - delete: STR_AVENGER
+
   - type: STR_CADILLAC
     sprite: 100
     fuelMax: 9999
@@ -207,6 +208,33 @@ crafts:
     radarRange: 134
     radarChance: 15
     score: 400
+
+  - type: STR_Oxcart
+    sprite: 935
+    fuelMax: 1500
+    damageMax: 80
+    speedMax: 2540
+    accel: 7
+    weapons: 1
+    weaponTypes:
+      - 1
+#AUX Systems
+    weaponStrings:
+      - STR_AUXILLARY
+    costBuy: 500000
+    refuelRate: 1000
+    repairRate: 5
+    radarRange: 500
+    sightRange: 500
+    radarChance: 90
+    transferTime: 96
+    soldiers: 2
+    pilots: 2
+    allowLanding: false
+    undetectable: true
+    score: 100
+    listOrder: 150
+    autoPatrol: true
 
   - type: STR_SKYRANGER
     requires:
@@ -403,6 +431,7 @@ extraSprites:
       136: Resources/Vehicles/Mudranger/Mudranger_base.png
       137: Resources/Vehicles/Starfighter/Starfighter_base.png
       138: Resources/Vehicles/Skyranger/Skyranger_base.png
+      968: Resources/Vehicles/Oxcart/Oxcart_base.png
 
       248: Resources/Vehicles/BVRAAM/Sidewinder_basebits.png
       249: Resources/Vehicles/Autocannon/Vulcan_basebits.png
@@ -422,6 +451,8 @@ extraSprites:
       116: Resources/Vehicles/Skyranger/Skyranger_dogfight.png
       104: Resources/Vehicles/Starfighter/Starfighter_minimised.png
       105: Resources/Vehicles/Skyranger/Skyranger_minimised.png
+      935: Resources/Vehicles/Oxcart/Oxcart_minimised.png
+      946: Resources/Vehicles/Oxcart/Oxcart_dogfight.png
 
       205: Resources/Vehicles/BVRAAM/Sidewinder_dogfight.png
       206: Resources/Vehicles/Autocannon/Vulcan_dogfight.png
@@ -465,6 +496,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Vehicles/Skyranger/SKYRANGER_UFOPEDIA.PNG
+  - type: OXCART_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Vehicles/Oxcart/OXCART_UFOPEDIA.png
   - type: SIDEWINDER
     singleImage: true
     width: 320

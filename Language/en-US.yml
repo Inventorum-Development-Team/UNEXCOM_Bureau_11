@@ -310,14 +310,21 @@ en-US:
 
   STR_STARFIGHTER: "STARFIGHTER"
   STR_STARFIGHTER_UFOPEDIA: "F-104 Starfighter - 'The Manned Missile', top of the line USAF interceptor, meant for high altitude combat and fast encounters with enemy bombers."
-
-  STR_USAF_INTERCEPTOR_REQUISITION: "USAF Interceptor Requisition"
-  STR_USAF_INTERCEPTOR_REQUISITION_UFOPEDIA: "Ground observers and airborne recon crafts have detected a large buildup of alien craft activity over the North America. In order to escort our transports into investigation sites we have requested some F-104 Starfighter to the USAF, a state-of-the-art high-altitude Interceptor. It's range is limited but is compensated by its incredible speed. It will be crewed by USAF pilots, but rearming and repairs will be done on our bases."
-  STR_GYRODYNE_TRANSPORT_HELICOPTER: "Gyrodone Transport Helicopter"
+  
+  STR_OXCART: "OXCART"
+  STR_OXCART_UFOPEDIA: "A-12 Oxcart - Superb recon craft built for CIA, meant to replace the slower U-2 in long-range survilliance tasks. It can fly faster and higher than most modern aircrafts."
 
   STR_SKYRANGER: "SKYRANGER"
   STR_SKYRANGER_UFOPEDIA: "X-62 - Helicopter-airplane hybrid, it can take off vertically with the main rotor and navigate with its wing propellers. Robust design, designed for heavy troop transport over medium and long distances."
 
+
+  STR_USAF_INTERCEPTOR_REQUISITION: "USAF Interceptor Requisition"
+  STR_USAF_INTERCEPTOR_REQUISITION_UFOPEDIA: "Ground observers and airborne recon crafts have detected a large buildup of alien craft activity over the North America. In order to escort our transports into investigation sites we have requested some F-104 Starfighter to the USAF, a state-of-the-art high-altitude Interceptor. It's range is limited but is compensated by its incredible speed. It will be crewed by USAF pilots, but rearming and repairs will be done on our bases. Coordinate Starfighters with recon planes like Oxcarts and Dragon Ladies to track down OETOs."
+  STR_GYRODYNE_TRANSPORT_HELICOPTER: "Gyrodone Transport Helicopter"
+
+  STR_CIA_RECON_CRAFT_REQUISITION: "CIA Recon Craft Requisition"
+  STR_CIA_RECON_CRAFT_REQUISITION_UFOPEDIA: "The increase on the alien activity over the skies of North America and the inability of ground based radars to track them severely cripple our defense capacities. We cannot engage any craft we cannot see. In order to bolster our interceptor chances, we have requested the autorization of using the secret A-12 Oxcart extremely high-altitude, supersonic recon craft. It's the fastest plane we have available in our arsenal and will help to watch the skies. Coordinate Oxcarts with Starfighters intercept alien crafts."
+  
   STR_SIDEWINDER: "SIDEWINDER"
   STR_SIDEWINDER_UFOPEDIA: "AIM-9E Sidewinder - American short range air to air missile with IR guidance. It has a fragmentation warhead that shreds enemy aircrafts once it hits."
   STR_SIDEWINDER_LAUNCHER: "Sidewinder Launcher"
