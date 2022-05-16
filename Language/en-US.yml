@@ -376,6 +376,13 @@ en-US:
   STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2: "Minor Abduction Victims II"
   STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3: "Minor Abduction Victims III"
 
+  STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION: "Counter-Intelligence Operation, Europe"
+  STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_SITES: "Counter-Intelligence Op. Sites, Europe"
+  STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_: "Counter-Intelligence Op. Site, Europe"
+  STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DEPLOYMENT: "Counter-Intelligence Op. Site, Europe"
+  STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DESCRIPTION: "Gladio Operatives working undercover in Europe have located a possible KGB hideout in their area of operations. There is a high chance they are using their compound as a listening post to disrupt our extraterrestrial survilliance efforts. This needs to stop now. A Gladio squad is deployed to assist us in the ground. The suspects are expected to be armed."
+
+
   STR_EVIDENCE: "Evidence"
   STR_INVESTIGATION_EVIDENCE: "INVESTIGATIONS EVIDENCE"
 #################################

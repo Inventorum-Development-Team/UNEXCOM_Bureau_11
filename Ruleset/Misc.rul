@@ -200,6 +200,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Misc/Backgrounds/COUNTER_INTELLIGENCE_BACKGROUND.PNG
+  - type: COUNTER_INTELLIGENCE_EUROPE_BACKGROUND #Manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/COUNTER_INTELLIGENCE_EUROPE_BACKGROUND.PNG
   - type: CROP_CIRCLES_BACKGROUND #Manufacture
     singleImage: true
     width: 320
