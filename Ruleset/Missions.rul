@@ -2030,6 +2030,8 @@ mapScripts:
       terrain: IDT_RED_FARM
       size: 1
       executions: 4
+      groups:
+        - 6
     - type: fillArea
 
   - type: OPERATION_HARBINGER_CUSTOM_TERRAIN_SCRIPT
