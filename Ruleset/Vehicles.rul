@@ -99,6 +99,8 @@ crafts:
     sightRange: 1000
     radarChance: 35
     transferTime: 96
+    autoPatrol: true
+    undetectable: true
     score: 250
   - type: STR_HUEY
     requires:
@@ -184,7 +186,8 @@ crafts:
     sprite: 104
     fuelMax: 192
     damageMax: 130
-    speedMax: 1258
+    speedMax: 1458
+    avoidBonus: 25
     accel: 4
     weapons: 4
     weaponTypes: 
@@ -197,19 +200,21 @@ crafts:
       - STR_BVRAAM
       - STR_BVRAAM
       - STR_AUTOCANNON
+    fixedWeapons: ["", "STR_SIDEWINDER", "STR_SIDEWINDER", "STR_VULCAN"]
     allowLanding: false
     costBuy: 750000
     costSell: 600000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    avoidBonus: 20
     sightRange: 0
     radarRange: 134
     radarChance: 15
     score: 400
 
-  - type: STR_Oxcart
+  - type: STR_OXCART
+    requires:
+      - STR_CIA_RECON_CRAFT_REQUISITION
     sprite: 935
     fuelMax: 1500
     damageMax: 80
@@ -228,8 +233,8 @@ crafts:
     sightRange: 500
     radarChance: 90
     transferTime: 96
-    soldiers: 2
-    pilots: 2
+    #soldiers: 2
+    #pilots: 2
     allowLanding: false
     undetectable: true
     score: 100

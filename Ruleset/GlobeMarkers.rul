@@ -8,7 +8,7 @@ extraSprites:
     files:
       0: Resources/GlobeMarkers/BaseGlobeMarkers.png
   - type: GlobeMarkers # ignoreDuplicate
-    width: 216
+    width: 224
     height: 7
     subX: 7
     subY: 7
@@ -27,6 +27,8 @@ crafts:
     marker: 13
   - type: STR_SKYRANGER # ignoreDuplicate
     marker: 14
+  - type: STR_OXCART # ignoreDuplicate
+    marker: 40
 ufos:
   - type: STR_SMALL_SCOUT # ignoreDuplicate
     marker: 15
