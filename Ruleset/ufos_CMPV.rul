@@ -346,8 +346,37 @@ ufos:
             STR_TRANSMITTER:
               - [ 3, 6, 2]
 
+#BEGIN SMALL SCOUT
+  - type: STR_SMALL_SCOUT
+    size: STR_VERY_SMALL
+    sprite: 0
+    damageMax: 50
+    speedMax: 1800
+    accel: 12
+    avoidBonus: 10
+    power: 15
+    range: 20
+    score: 50
+    reload: 10
+    breakOffTime: 200
+
 #BEGIN MEDIUM SCOUT
   - type: STR_MEDIUM_SCOUT
+    sprite: 1
+    damageMax: 200
+    speedMax: 1200
+    accel: 9
+    power: 40
+    range: 30
+    score: 75
+    reload: 15
+    avoidBonus: 10
+    shieldCapacity: 50
+    shieldRechargeInGeoscape: 5
+    shieldBleedThrough: 100
+    breakOffTime: 250
+    radarRange: 20
+    radarChance: 30
     battlescapeTerrainData:
       name: UFO_110
       mapDataSets:
@@ -385,6 +414,22 @@ ufos:
 
 #BEGIN LARGE SCOUT
   - type: STR_LARGE_SCOUT
+    size: STR_SMALL
+    sprite: 2
+    damageMax: 250
+    speedMax: 1000
+    accel: 9
+    power: 50
+    hitBonus: 10
+    range: 30
+    score: 125
+    reload: 15
+    shieldCapacity: 100
+    shieldRechargeInGeoscape: 5
+    shieldBleedThrough: 100
+    breakOffTime: 300
+    radarRange: 300
+    radarChance: 45
     battlescapeTerrainData:
       name: UFO_120
       mapDataSets:

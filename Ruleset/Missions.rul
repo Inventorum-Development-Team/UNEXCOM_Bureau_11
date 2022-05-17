@@ -1923,6 +1923,13 @@ alienMissions:
         STR_THIN_MEN: 25
         STR_HYBRID_CIVILIAN: 25
     waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 3
+        trajectory: P2
+        timer: 5000
+        huntBehavior: 0
+        hunterKillerPercentage: 75
+        huntMode: 2
       - ufo: STR_MEDIUM_SCOUT
         count: 2
         trajectory: P2
