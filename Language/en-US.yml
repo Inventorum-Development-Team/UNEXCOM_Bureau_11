@@ -576,7 +576,8 @@ en-US:
   STR_AERIAL_RECON_UFOPEDIA: "The U-2 spy planes are used to get privileged access to intelligence otherwise impossible to obtain. Manned by USAF pilots working for the Agency, we can use the superior range and ability to get high resolution photos to find and identificate any potential invader activity or ground sites. Be especially careful in the deployment, though. The Soviets had already shot down an U-2 just a year before. Avoid entering the USSR as much as possible, they won't hesitate to launch Interceptors and SAMs."
 ###############################################
 
-
+  STR_EVIDENCE_FINAL_REPORT: "Evidence Conclusive Report"
+  STR_EVIDENCE_FINAL_REPORT_UFOPEDIA: "Based on the evidence we've been collecting on the past months, we can confirm there is an active extraterrestrial presence trying to invade our planet. The reason why they are so active in our country is not clear enough, but we belive they are targeting the United States because one of their crafts crashed in our soil, back in the '47. But we are sure on something: they will become more active. Less subtle, more aggressive. We'll need to deploy recon crafts and engage in air combat against the enemy craft if we want to prevent them to fully invade our country."
 
 #####################################
   STR_ENEMIES: "INTERROGATIONS AND AUTOPSIES"

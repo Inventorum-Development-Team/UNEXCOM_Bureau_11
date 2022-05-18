@@ -799,6 +799,7 @@ ufopaedia:
       - STR_OPERATION_SPIDERWEB
     text: STR_OPERATION_SPIDERWEB_UFOPEDIA
 
+
 #############################
 ######### ENEMIES ##########
 ###########################
@@ -1034,6 +1035,16 @@ ufopaedia:
     requires:
       - STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
     text: STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT_UFOPEDIA
+
+  - id: STR_EVIDENCE_FINAL_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_EVIDENCE_FINAL_REPORT
+    text: STR_EVIDENCE_FINAL_REPORT_UFOPEDIA
+
+
+
 ###########################
 #### BASE FACILITIES #####
 #########################

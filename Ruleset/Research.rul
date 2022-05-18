@@ -260,6 +260,18 @@ research:
 ##################################
 ##### SIDE MISSION RESEARCH #####
 ################################
+
+  - name: STR_EVIDENCE_FINAL_REPORT
+    cost: 100
+    points: 500
+    dependencies:
+      - STR_RESIDUAL_FLUID_MAJOR_REPORT
+      - STR_CATTLE_ORGANS_MAJOR_REPORT
+      - STR_COMATOSE_ABDUCTEE_MAJOR_REPORT
+      - STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
+      - STR_KGB_TECH_INVESTIGATION
+
+
   - name: STR_RESIDUAL_FLUID_MAJOR_REPORT
     cost: 10
     points: 100
