@@ -577,7 +577,7 @@ en-US:
 ###############################################
 
   STR_EVIDENCE_FINAL_REPORT: "Evidence Conclusive Report"
-  STR_EVIDENCE_FINAL_REPORT_UFOPEDIA: "Based on the evidence we've been collecting on the past months, we can confirm there is an active extraterrestrial presence trying to invade our planet. The reason why they are so active in our country is not clear enough, but we belive they are targeting the United States because one of their crafts crashed in our soil, back in the '47. But we are sure on something: they will become more active. Less subtle, more aggressive. We'll need to deploy recon crafts and engage in air combat against the enemy craft if we want to prevent them to fully invade our country."
+  STR_EVIDENCE_FINAL_REPORT_UFOPEDIA: "Following the conclusion of our investigations, we must admit that there are Objects of Extraterrestrial Origins (OETOs) present over American soil that must be detected and shot down. We are completely sure there is an active extraterrestrial presence trying to invade our planet. The reason why they are so active in our country is not clear enough, but we belive they are targeting the United States because one of their crafts crashed in our soil, back in the '47. But we are sure on something: they will become more active. Less subtle, more aggressive. We'll need to deploy recon crafts and engage in air combat against the enemy craft if we want to prevent them to fully invade our country."
 
 #####################################
   STR_ENEMIES: "INTERROGATIONS AND AUTOPSIES"
@@ -749,3 +749,46 @@ en-US:
   STR_WARSAW: "Warsaw"
   STR_ZAGREB: "Zagreb"
   STR_VORKUTA: "Vorkuta"
+###################################
+  STR_PATRICE_LUMUMBA_DEATH_EVENT: "Patrice Lumumba was killed"
+  STR_PATRICE_LUMUMBA_DEATH_EVENT_DESCRIPTION: "Lumumba, the first Prime Minister of the newborn Democratic Republic of Congo, was killed by firing squad. This was the result of a series of political struggles against President Kasavubu, Col. Mobutu and the rebel province Katanga's leader Tshombe. Despite Katanga's official report of 'angry villagers killed Lumumba', we belive there are strong ties of the Belgian officers with the perpetrators. Even when his ties with the USSR were dangerous, this is a tragedy. Worldwide protests are reported. It's likely this will increase the violence of the ongoing Congo Crisis."
+  STR_JFK_BECOMES_35TH_PRESIDENT_EVENT: "John Fitzgerald Kennedy, 35th President of the US"
+  STR_JFK_BECOMES_35TH_PRESIDENT_EVENT_DESCRIPTION: "Today, JFK was sworn President. The day was clear, with snow of the previous night. His inauguration was marked with several 'firsts', as he is the first Catholic president, the first born in the 20th Century and the youngest elected President in the history of the United States. We expect to work alongside him on our future projects."
+  STR_BAY_OF_PIGS_FIASCO_EVENT: "Bay of Pigs Fiasco"
+  STR_BAY_OF_PIGS_FIASCO_DESCRIPTION: "The CIA recently sent a trained army of Cuban exiles to assualt and try to reclaim Cuba from the communists. This action failed miserably, sir, and has became publically known as the Bay of Pigs. That department's misfortune is our gain, funding wise."
+  STR_OPERATION_NORTHWOODS_POSTPONED_EVENT: "Operation Northwoods Postponed"
+  STR_OPERATION_NORTHWOODS_POSTPONED_EVENT_DESCRIPTION: "In light of recent discoveries made by Bureau 11 of the CIA, your department Sir, the DoD and other departments of the CIA have decided to postpone, and are considering out right cancelling Operation Northwood."
+  STR_FIRST_MAN_ON_SPACE_EVENT: "Yuri Gagarin, first man on space"
+  STR_FIRST_MAN_ON_SPACE_EVENT_DESCRIPTION: "Earlier today, we have received notice of the first manned mission to space. Gagarin, a Soviet cosmonaut onboard Vostok-1, completed one orbit around the planet on a 108 minutes flight. 'Earth is blue', he said."
+  STR_FIRST_AMERICAN_IN_SPACE_EVENT: "Alan Shepard, first American in space"
+  STR_FIRST_AMERICAN_IN_SPACE_EVENT_DESCRIPTION: "Astronaut Shepard, onboard Freedom 7 capsule launched on top Mercury-Redstone 3. Shepard made the very first controlled suborbital flight, as Gagarin didn't had control of his capsule. The American pride may be hurt because we couldn't be the first, but this is a really important moment for human history."
+  STR_JFK_ASKS_FOR_CONGRESS_FUNDING_EVENT: "President Kennedy wants a man on the moon"
+  STR_JFK_ASKS_FOR_CONGRESS_FUNDING_EVENT_DESCRIPTION: "During a speech in the Rice University, President Kennedy says that going to the Moon is a challenge 'which we intend to win' and vows that the Moon will not be 'governed by a hostile flag of conquest.' The Congress is considering the funding required to put a man on the Moon by the end of the decade. Our liasion withing the Congress has managed to get us additional funding to continue our investigations."
+  STR_BERLIN_CRISIS_EVENT: "Berlin Crisis"
+  STR_BERLIN_CRISIS_EVENT_DESCRIPTION: "Berlin has been the center of a myriad of political issues between the Western allies and the Soviet Union. Premier Khrushchev repetely demanded the Allies to abandon their ocupation zones and they seem quite willing to use military force to archive said goals. After a series of misunderstandings related to the free pass of American diplomats from West to East Berlin, along with the incessant flow of East Berliners escaping throught the Allied-occupied half of the city lead to a tense standoff between US and Soviet tanks just outside Checkpoint Charlie. After a while, the armored forces retreated back. A Wall splitting both halves of the city was erected. This is perhaps the closest call we had to World War III yet."
+  STR_UN_SECRETARY_GENERAL_SHOT_DOWN_EVENT: "UN Secretary-General's plane is shot down"
+  STR_UN_SECRETARY_GENERAL_SHOT_DOWN_EVENT_DESCRIPTION: "Dag Hammarskjöld, UN Secretary-General was traveling by airplane to meet the leaders of secessionist Congo province, Katanga. Based on the intelligence we got, the intention of Mr. Hammarskjöld was to seek an alternate solution to the on-going crisis in the central African country. The official causes aren't known yet, but there is speculation it could be intercepted by a European mercenary group employed by a Belgian mining company with interests on the mineral-rich region."
+  STR_SIEGE_OF_JADOTVILLE_EVENT: "Siege of Jadotville"
+  STR_SIEGE_OF_JADOTVILLE_EVENT_DESCRIPTION:
+  STR_UN_FORCES_HEAVY_COMBAT_CONGO_EVENT: ""
+  STR_UN_FORCES_HEAVY_COMBAT_CONGO_EVENT_DESCRIPTION:
+  STR_FIRST_AMERICAN_IN_ORBIT_EVENT: "John Glenn, first American to orbit Earth"
+  STR_FIRST_AMERICAN_IN_ORBIT_EVENT_DESCRIPTION: "Astronaut John H. Glenn became the first American to orbit our planet during the three-orbit Mercury-Atlas 6 mission, aboard the spacecraft he named Friendship 7. This is an historical moment where mankind begins to conquer the stars."  
+  STR_RANGER_4_REACH_MOON_EVENT:
+  STR_RANGER_4_REACH_MOON_EVENT_DESCRIPTION:
+  STR_MARYLIN_MONROE_SINGS_JFK_EVENT:
+  STR_MARYLIN_MONROE_SINGS_JFK_EVENT_DESCRIPTION:
+  STR_MARYLIN_MONROE_DIES_EVENT: "Marylin Monroe Kills Self"
+  STR_MARYLIN_MONROE_DIES_EVENT_DESCRIPTION: "Earlier this morning, the press announced Mrs. Monroe was found dead on her home located in Los Angeles. She had overdosed on sedative drugs the night before. Or, that's what the public opinion knows. She became too close to the Kennedy Brothers, thus a potential danger to their public image. She was abducted by CIA agents the night before and sent to the local Agency outpost. We have plans to induce her into our force, identity reasignation efforts are in progress."  
+  STR_SOVIET_ACTIVITY_IN_CUBA_EVENT: "Suspicious increase of Soviet activity in Cuba"
+  STR_SOVIET_ACTIVITY_IN_CUBA_EVENT_DESCRIPTION: "Sir, reconnaissance aircraft has detected several communist freightliners coming to Cuba from Warsaw Pact countries. We suspect the Soviets are trying to establish a military presence on the island. US Representatives in the United Nations protested this, but the Russian diplomats refuted the accusations. We should keep an eye on them, sir."
+  STR_UN_OPERATION_GRANSLAM_EVENT:
+  STR_UN_OPERATION_GRANSLAM_EVENT_DESCRIPTION:
+  STR_BOND_MOVIE_RELEASED_EVENT: "Bond Movie Released"
+  STR_BOND_MOVIE_RELEASED_EVENT_DESCRIPTION: "In October this year a spy movie, James Bond, was released and taken the nation by storm. The main character, 007, paints spies as suave and charismatic. This, sir, should increase application numbers to the CIA."
+  STR_SOVIETS_APPROACH_BUREAU_11_EVENT: "Soviets Approach Bureau 11"
+  STR_SOVIETS_APPROACH_BUREAU_11_EVENT_DESCRIPTION: "A series of Soviet spies have come forth recently, as well as several transmissions in english, claiming that the Soviets have detected an alien presence in Cuba and are preparing to deal with it. They kindly request our bureau assists with fabricating a crisis and sending manpower to deal with the alien incursion. What should we do, sir?"
+  STR_ALIEN_PRESENCE_ON_CUBA_CONFIRMED_EVENT: "U-2 flyby confirm alien presence on Cuba"
+  STR_ALIEN_PRESENCE_ON_CUBA_CONFIRMED_EVENT_DESCRIPTION: "Well, turns out the Russians told us the truth after all. Fellow CIA pilots photographed feasible proof of alien activity in Cuba. It seems they are building something. Also, we have captured images of skirmishes between the invaders and what seems Cuban militia near the mountains outside Havanna. President Kennedy has been informed of this. All military forces have gone to DEFCON 3. We should prepare ourselves to help the Soviets, sir."
+  STR_DEFCON_2_CONFIRMED_EVENT: "DEFCON 2 confirmed"
+  STR_DEFCON_2_CONFIRMED_EVENT_DESCRIPTION: "President Kennedy has contacted Premier Khrushchev and have agreed on a plan. US Navy will mount a 'naval quarantine' around Cuba. This will give us time to land naval forces and help the Soviets to fight back the alien base established in the island. Also, to defend American soil of enemy craft. USAF is ready to rain hell if the aliens aren't stopped. The President announced the world of the 'presence of Soviet missiles'. No one will suspect our movements. We're almost ready to go."
