@@ -43,6 +43,7 @@ research:
   - name: STR_KGB_OFFICER_RECRUITMENT
     cost: 300
     points: 50
+    spawnedEvent: STR_SOVIET_PROTOTYPE_WEAPONS_EVENT
     dependencies:
       - STR_ACT_3_START
 
@@ -156,8 +157,9 @@ research:
     needItem: true
 
   - name: STR_ALIEN_WEAPON_OPERATION
-    cost: 100
-    points: 25
+    cost: 500
+    points: 50
+    spawnedEvent: STR_USA_PROTOTYPE_WEAPONS_EVENT
     dependencies:
       - STR_ALIEN_LASER_PISTOL
       - STR_ALIEN_LASER_RIFLE
@@ -262,8 +264,9 @@ research:
 ################################
 
   - name: STR_EVIDENCE_FINAL_REPORT
-    cost: 100
+    cost: 300
     points: 500
+    spawnedEvent: STR_OPERATION_NORTHWOODS_POSTPONED_EVENT
     dependencies:
       - STR_RESIDUAL_FLUID_MAJOR_REPORT
       - STR_CATTLE_ORGANS_MAJOR_REPORT
@@ -273,8 +276,9 @@ research:
 
 
   - name: STR_RESIDUAL_FLUID_MAJOR_REPORT
-    cost: 10
+    cost: 300
     points: 100
+    spawnedEvent: STR_COMPLETE_EVIDENCE_FUNDING_REWARD_EVENT
     dependencies:
       - STR_PLASMA_RESIDUE_1
       - STR_PLASMA_RESIDUE_2
@@ -296,48 +300,50 @@ research:
     needItem: true
 #########################
   - name: STR_CATTLE_ORGANS_MAJOR_REPORT
-    cost: 10
+    cost: 300
     points: 100
+    spawnedEvent: STR_COMPLETE_EVIDENCE_FUNDING_REWARD_EVENT
     dependencies:
       - STR_USELESS_ORGANS_1
       - STR_USELESS_ORGANS_2
       - STR_USELESS_ORGANS_3
 
   - name: STR_CATTLE_BLOOD_MAJOR_REPORT
-    cost: 10
+    cost: 30
     points: 100
+    spawnedEvent: STR_COMPLETE_EVIDENCE_FUNDING_REWARD_EVENT
     dependencies:
       - STR_USELESS_ORGANS_4
       - STR_USELESS_ORGANS_5
       - STR_USELESS_ORGANS_6
 
   - name: STR_USELESS_ORGANS_1
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
 
   - name: STR_USELESS_ORGANS_2
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
 
   - name: STR_USELESS_ORGANS_3
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
 
   - name: STR_USELESS_ORGANS_4
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
 
   - name: STR_USELESS_ORGANS_5
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
 
   - name: STR_USELESS_ORGANS_6
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
 ####################################
@@ -362,65 +368,68 @@ research:
       - STR_CONCEALED_WEAPONS_PREQ
 
   - name: STR_DATA_BRIEFCASE
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
 
   - name: STR_LISTENING_DEVICE
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
 
   - name: STR_TRANSMITTER
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
 
   - name: STR_KGB_TECH_INVESTIGATION
-    cost: 10
+    cost: 300
     points: 100
+    spawnedEvent: STR_COMPLETE_EVIDENCE_FUNDING_REWARD_EVENT
     dependencies:
       - STR_DATA_BRIEFCASE
       - STR_LISTENING_DEVICE
       - STR_TRANSMITTER
 ####################################
   - name: STR_COMATOSE_ABDUCTEE_MAJOR_REPORT
-    cost: 10
+    cost: 300
     points: 100
+    spawnedEvent: STR_COMPLETE_EVIDENCE_FUNDING_REWARD_EVENT
     dependencies:
       - STR_COMATOSE_ABDUCTEE_1
       - STR_COMATOSE_ABDUCTEE_2
       - STR_COMATOSE_ABDUCTEE_3
   - name: STR_COMATOSE_ABDUCTEE_1
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
   - name: STR_COMATOSE_ABDUCTEE_2
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
   - name: STR_COMATOSE_ABDUCTEE_3
-    cost: 20
+    cost: 150
     points: 15
     needItem: true
 
   - name: STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
-    cost: 10
+    cost: 300
     points: 100
+    spawnedEvent: STR_COMPLETE_EVIDENCE_FUNDING_REWARD_EVENT
     dependencies:
       - STR_ALIEN_SAMPLE_FLASK_1
       - STR_ALIEN_SAMPLE_FLASK_2
       - STR_ALIEN_SAMPLE_FLASK_3
   - name: STR_ALIEN_SAMPLE_FLASK_1
-    cost: 20
+    cost: 100
     points: 15
     needItem: true
   - name: STR_ALIEN_SAMPLE_FLASK_2
-    cost: 20
+    cost: 100
     points: 15
     needItem: true
   - name: STR_ALIEN_SAMPLE_FLASK_3
-    cost: 20
+    cost: 100
     points: 15
     needItem: true
 
@@ -457,16 +466,19 @@ research:
     points: 100
     needItem: true
     listOrder: 1000
+    spawnedEvent: STR_SPIDERWEB_SUCCESSFUL_EVENT
   - name: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
     cost: 400
     points: 100
     needItem: true
     listOrder: 1000
+    spawnedEvent: STR_NATO_PROTOTYPE_WEAPONS_EVENT
   - name: STR_OPERATION_HARBINGER_MISSION_TRIGGER
     cost: 400
     points: 100
     needItem: true
     listOrder: 1000
+    spawnedEvent: STR_GLADIO_REVEALED_EVENT_DESCRIPTION
 
   - name: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
     cost: 200

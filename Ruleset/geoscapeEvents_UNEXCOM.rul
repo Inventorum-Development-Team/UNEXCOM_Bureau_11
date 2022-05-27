@@ -1,0 +1,630 @@
+# spellchecker:words Stratofortress Skyhawks Thunderchiefs Leonov
+eventScripts:
+  - type: STR_JANUARY_1961_EVENT_SCRIPTS
+    oneTimeSequentialEvents:      # sequentially generated one-time events (cannot repeat)
+      - STR_JFK_BECOMES_35TH_PRESIDENT_EVENT
+    firstMonth: 0
+    lastMonth: 1
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+
+  - type: STR_FEBRUARY_1961_EVENT_SCRIPTS
+    oneTimeSequentialEvents:
+     - STR_PATRICE_LUMUMBA_DEATH_EVENT
+    firstMonth: 1
+    lastMonth: 1
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_APRIL_1961_EVENT_SCRIPTS_1
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        STR_BAY_OF_PIGS_FIASCO_EVENT: 100
+        #STR_FIRST_MAN_ON_SPACE_EVENT: 100
+    firstMonth: 3
+    lastMonth: 3
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: STR_APRIL_1961_EVENT_SCRIPTS_2
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        #STR_BAY_OF_PIGS_FIASCO_EVENT: 100
+        STR_FIRST_MAN_ON_SPACE_EVENT: 100
+    firstMonth: 3
+    lastMonth: 3
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_MAY_1961_EVENT_SCRIPTS
+    oneTimeSequentialEvents:
+     - STR_FIRST_AMERICAN_IN_SPACE_EVENT
+    firstMonth: 4
+    lastMonth: 4
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_JUNE_1961_EVENT_SCRIPTS
+    oneTimeSequentialEvents:
+     - STR_JFK_ASKS_FOR_CONGRESS_FUNDING_EVENT
+    firstMonth: 5
+    lastMonth: 5
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_AUGUST_1961_EVENT_SCRIPTS
+    oneTimeSequentialEvents:
+     - STR_BERLIN_WALL_EVENT
+    firstMonth: 7
+    lastMonth: 7
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_SEPTEMBER_1961_EVENT_SCRIPTS_1
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        STR_UN_SECRETARY_GENERAL_SHOT_DOWN_EVENT: 100
+    firstMonth: 8
+    lastMonth: 8
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: STR_SEPTEMBER_1961_EVENT_SCRIPTS_2
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        STR_SIEGE_OF_JADOTVILLE_EVENT: 100
+    firstMonth: 8
+    lastMonth: 8
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_OCTOBER_1961_EVENT_SCRIPTS
+    oneTimeSequentialEvents:
+     - STR_BERLIN_CRISIS_EVENT
+    firstMonth: 9
+    lastMonth: 9
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_DECEMBER_1961_EVENT_SCRIPTS
+    oneTimeSequentialEvents:
+     - STR_UN_FORCES_HEAVY_COMBAT_CONGO_EVENT
+    firstMonth: 11
+    lastMonth: 11
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_FEBRUARY_1962_EVENT_SCRIPTS
+    oneTimeSequentialEvents:
+     - STR_FIRST_AMERICAN_IN_ORBIT_EVENT
+    firstMonth: 13
+    lastMonth: 13
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_APRIL_1962_EVENT_SCRIPTS
+    oneTimeSequentialEvents:
+     - STR_RANGER_4_LANDS_ON_MOON_EVENT
+    firstMonth: 15
+    lastMonth: 15
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_MAY_1962_EVENT_SCRIPTS
+    oneTimeSequentialEvents:
+     - STR_MARYLIN_MONROE_SINGS_JFK_EVENT
+    firstMonth: 16
+    lastMonth: 16
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_AUGUST_1962_EVENT_SCRIPTS_1
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        STR_MARYLIN_MONROE_DIES_EVENT: 100
+    firstMonth: 19
+    lastMonth: 19
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: STR_AUGUST_1962_EVENT_SCRIPTS_2
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        STR_SOVIET_ACTIVITY_IN_CUBA_EVENT: 100
+    firstMonth: 19
+    lastMonth: 19
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: STR_AUGUST_1962_EVENT_SCRIPTS_3
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        STR_OPERATION_GRANDSLAM_EVENT: 100
+    firstMonth: 19
+    lastMonth: 19
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_SEPTEMBER_1962_EVENT_SCRIPTS
+    oneTimeSequentialEvents:
+     - STR_SOVIETS_APPROACH_BUREAU_11_EVENT
+    firstMonth: 20
+    lastMonth: 20
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_OCTOBER_1962_EVENT_SCRIPTS_1
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        STR_BOND_MOVIE_RELEASED_EVENT: 100
+    firstMonth: 21
+    lastMonth: 21
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: STR_OCTOBER_1962_EVENT_SCRIPTS_2
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        STR_ALIEN_PRESENCE_ON_CUBA_CONFIRMED_EVENT: 100
+    firstMonth: 21
+    lastMonth: 21
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: STR_OCTOBER_1962_EVENT_SCRIPTS_3
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        STR_DEFCON_2_CONFIRMED_EVENT: 100
+    firstMonth: 21
+    lastMonth: 21
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+  - type: STR_OCTOBER_1962_EVENT_SCRIPTS_4
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        STR_CRUSADERS_ENGAGE_UFOS_CUBA_EVENT: 100
+    firstMonth: 21
+    lastMonth: 21
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+# - type: STR_TEST_EVENT_SCRIPT
+#    eventWeights:                 # randomly generated repeatable events
+#      0:
+#        STR_TEST_EVENT_A: 100
+#        STR_TEST_EVENT_B: 100
+#    oneTimeSequentialEvents:      # sequentially generated one-time events (cannot repeat)
+#      - STR_TEST_EVENT2
+#      - STR_TEST_EVENT3
+#    oneTimeRandomEvents:          # randomly generated one-time events (cannot repeat)
+#      STR_TEST_EVENT1R: 100
+#      STR_TEST_EVENT1R: 100
+#    timerRandom: 150
+
+events:
+#    regionList: [STR_ARCTIC, STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA, STR_NORTH_PACIFIC, STR_SOUTH_PACIFIC, STR_NORTH_ATLANTIC, STR_SOUTH_ATLANTIC, STR_INDIAN_OCEAN]
+#############################
+###### STORY EVENTS ########
+###########################
+  - name: STR_PATRICE_LUMUMBA_DEATH_EVENT
+    description: STR_PATRICE_LUMUMBA_DEATH_EVENT_DESCRIPTION
+    background: PATRICE_LUMUMBA_DEATH_EVENT_BACKGROUND
+    timer: 21600 # 15 days
+    #timerRandom: 43500
+
+  - name: STR_JFK_BECOMES_35TH_PRESIDENT_EVENT
+    description: STR_JFK_BECOMES_35TH_PRESIDENT_EVENT_DESCRIPTION
+    background: JFK_BECOMES_35TH_PRESIDENT_EVENT_BACKGROUND
+    timer: 28800 # 20 days
+    #timerRandom: 43500
+
+  - name: STR_BAY_OF_PIGS_FIASCO_EVENT
+    description: STR_BAY_OF_PIGS_FIASCO_EVENT_DESCRIPTION
+    background: BAY_OF_PIGS_FIASCO_EVENT_BACKGROUND
+    #regionList: [STR_SOUTH_EAST_ASIA]
+    #points: 500
+    timer: 24480 # 17 days
+    #timerRandom: 43500
+
+  - name: STR_FIRST_MAN_ON_SPACE_EVENT
+    description: STR_FIRST_MAN_ON_SPACE_EVENT_DESCRIPTION
+    background: FIRST_MAN_ON_SPACE_EVENT_BACKGROUND
+    timer: 17280 # 12 days
+    #timerRandom: 43500
+
+  - name: STR_OPERATION_NORTHWOODS_POSTPONED_EVENT
+    description: STR_OPERATION_NORTHWOODS_POSTPONED_EVENT_DESCRIPTION
+    background: GENERIC_EVENT_BACKGROUND
+    timer: 10080 # 7 days
+    #timerRandom: 43500
+
+  - name: STR_FIRST_AMERICAN_IN_SPACE_EVENT
+    description: STR_FIRST_AMERICAN_IN_SPACE_EVENT_DESCRIPTION
+    background: FIRST_AMERICAN_IN_SPACE_EVENT_BACKGROUND
+    timer: 7200 # 5 days
+    #timerRandom: 43500
+
+  - name: STR_JFK_ASKS_FOR_CONGRESS_FUNDING_EVENT
+    description: STR_JFK_ASKS_FOR_CONGRESS_FUNDING_EVENT_DESCRIPTION
+    background: JFK_ASKS_FOR_CONGRESS_FUNDING_EVENT_BACKGROUND
+    timer: 21600 # 15 days
+    #timerRandom: 43500
+    funds: 150000
+
+  - name: STR_BERLIN_WALL_EVENT
+    description: STR_BERLIN_WALL_EVENT_DESCRIPTION
+    background: BERLIN_WALL_EVENT_BACKGROUND
+    timer: 41700 # 29 Days
+    #timerRandom: 20500
+
+  - name: STR_SIEGE_OF_JADOTVILLE_EVENT
+    description: STR_SIEGE_OF_JADOTVILLE_EVENT_DESCRIPTION
+    background: SIEGE_OF_JADOTVILLE_EVENT_BACKGROUND
+    #points: 1000
+    timer: 24480 # 17 days
+    #timerRandom: 43500
+
+  - name: STR_UN_SECRETARY_GENERAL_SHOT_DOWN_EVENT
+    description: STR_UN_SECRETARY_GENERAL_SHOT_DOWN_EVENT_DESCRIPTION
+    background: UN_SECRETARY_GENERAL_DIES_EVENT_BACKGROUND
+    #points: 1000
+    timer: 25920 # 18 days
+    #timerRandom: 45500
+
+  - name: STR_BERLIN_CRISIS_EVENT
+    description: STR_BERLIN_CRISIS_EVENT_DESCRIPTION
+    background: BERLIN_CRISIS_EVENT_BACKGROUND
+    timer: 38880 # 27 Days
+    #timerRandom: 20500
+
+  - name: STR_UN_FORCES_HEAVY_COMBAT_CONGO_EVENT
+    description: STR_UN_FORCES_HEAVY_COMBAT_CONGO_EVENT_DESCRIPTION
+    background: UN_FORCES_HEAVY_COMBAT_CONGO_EVENT_BACKGROUND
+    #points: -10
+    timer: 7200 # 5 days
+    #timerRandom: 45500
+
+  - name: STR_FIRST_AMERICAN_IN_ORBIT_EVENT
+    description: STR_FIRST_AMERICAN_IN_ORBIT_EVENT_DESCRIPTION
+    background: FIRST_AMERICAN_IN_ORBIT_EVENT_BACKGROUND
+    timer: 28800 # 20 days
+    #timerRandom: 43500
+
+  - name: STR_RANGER_4_LANDS_ON_MOON_EVENT
+    description: STR_RANGER_4_LANDS_ON_MOON_EVENT_DESCRIPTION
+    background: RANGER_4_LANDS_ON_MOON_EVENT_BACKGROUND
+    timer: 37440 # 26 days
+    #timerRandom: 43500
+
+  - name: STR_MARYLIN_MONROE_SINGS_JFK_EVENT
+    description: STR_MARYLIN_MONROE_SINGS_JFK_EVENT_DESCRIPTION
+    background: MARYLIN_MONROE_SINGS_JFK_EVENT_BACKGROUND
+    timer: 27360 # 19 days
+    #timerRandom: 43500
+
+  - name: STR_MARYLIN_MONROE_DIES_EVENT
+    description: STR_MARYLIN_MONROE_DIES_EVENT_DESCRIPTION
+    background: MARYLIN_MONROE_DIES_EVENT_BACKGROUND
+    timer: 7200 # 5 days
+    #timerRandom: 43500
+    spawnedPersons: 1
+    spawnedPersonType: STR_CIA_AGENT
+    spawnedPersonName: STR_AGENT_MARYLIN
+    spawnedSoldier:
+      nationality: 0
+      rank: 1
+      gender: 1
+      look: 0
+      lookVariant: 15
+      stuns: 0
+      armor: STR_AGENT_SUIT_UC
+      currentStats:
+        tu: 56
+        stamina: 60
+        health: 40
+        bravery: 80
+        reactions: 65
+        firing: 50
+        throwing: 35
+        strength: 30
+        psiStrength: 68
+        psiSkill: 0
+        melee: 55
+        mana: 0
+
+
+  - name: STR_SOVIET_ACTIVITY_IN_CUBA_EVENT
+    description: STR_SOVIET_ACTIVITY_IN_CUBA_EVENT_DESCRIPTION
+    background: SOVIET_ACTIVITY_ON_CUBA_EVENT_BACKGROUND
+    timer: 10080 # 7 days
+    #timerRandom: 43500
+
+  - name: STR_OPERATION_GRANDSLAM_EVENT
+    description: STR_OPERATION_GRANDSLAM_EVENT_DESCRIPTION
+    background: OPERATION_GRANDSLAM_EVENT_BACKGROUND
+    #points: -10
+    timer: 40320 # 28 days
+    #timerRandom: 45500
+
+  - name: STR_SOVIETS_APPROACH_BUREAU_11_EVENT
+    description: STR_SOVIETS_APPROACH_BUREAU_11_EVENT_DESCRIPTION
+    background: SOVIETS_APPROACH_BUREAU_11_EVENT_BACKGROUND
+    timer: 24480 # 17 days
+    #timerRandom: 43500
+
+  - name: STR_BOND_MOVIE_RELEASED_EVENT
+    description: STR_BOND_MOVIE_RELEASED_EVENT_DESCRIPTION
+    background: BOND_MOVIE_RELEASED_EVENT_BACKGROUND
+    timer: 7200 # 5 days
+    #timerRandom: 43500
+    spawnedPersons: 3
+    spawnedPersonType: STR_CIA_AGENT
+
+  - name: STR_ALIEN_PRESENCE_ON_CUBA_CONFIRMED_EVENT
+    description: STR_ALIEN_PRESENCE_ON_CUBA_CONFIRMED_EVENT_DESCRIPTION
+    background: ALIEN_PRESENCE_ON_CUBA_CONFIRMED_EVENT_BACKGROUND
+    timer: 20160 # 14
+    #timerRandom: 43500
+
+  - name: STR_DEFCON_2_CONFIRMED_EVENT
+    description: STR_DEFCON_2_CONFIRMED_EVENT_DESCRIPTION
+    background: DEFCON2_EVENT_BACKGROUND
+    timer: 34560 # 24 days
+    #timerRandom: 43500
+
+  - name: STR_CRUSADERS_ENGAGE_UFOS_CUBA_EVENT
+    description: STR_CRUSADERS_ENGAGE_UFOS_CUBA_EVENT_DESCRIPTION
+    background: CRUSADERS_ENGAGE_UFOS_CUBA_EVENT_BACKGROUND
+    timer: 35000 # 25 days
+    #timerRandom: 43500
+
+  - name: STR_GLADIO_REVEALED_EVENT
+    description: STR_GLADIO_REVEALED_EVENT_DESCRIPTION
+    background: GENERIC_EVENT_BACKGROUND
+    timer: 20160 # 14 days
+    timerRandom: 43500
+
+  - name: STR_COMPLETE_EVIDENCE_FUNDING_REWARD_EVENT
+    description: STR_COMPLETE_EVIDENCE_FUNDING_REWARD_EVENT_DESCRIPTION
+    background: GENERIC_EVENT_BACKGROUND
+    timer: 180
+    timerRandom: 20160 # 14 days
+    funds: 250000
+    randomItemList:
+      - STR_MEDICAL_BAG
+      - STR_SPY_CAMERA
+      - STR_BANDAGES
+
+  - name: STR_SPIDERWEB_SUCCESSFUL_EVENT
+    description: STR_SPIDERWEB_SUCCESSFUL_EVENT_DESCRIPTION
+    background: BACK02.SCR
+    timer: 2880 # 2 days
+
+  - name: STR_USA_PROTOTYPE_WEAPONS_EVENT
+    description: STR_USA_PROTOTYPE_WEAPONS_EVENT_DESCRIPTION
+    background: BACK04.SCR
+    timer: 180
+    timerRandom: 20160 # 14 days
+    everyItemList:
+      - STR_CHINA_LAKE_LASER_PROJECTOR
+      - STR_CHINA_LAKE_LASER_PROJECTOR
+      - STR_CHINA_LAKE_LASER_PROJECTOR
+      - STR_CHINA_LAKE_LASER_PROJECTOR
+      - STR_CHINA_LAKE_LASER_PROJECTOR
+      - STR_AUGMENTATION_SUIT
+      - STR_AUGMENTATION_SUIT
+      - STR_AUGMENTATION_SUIT
+      - STR_AUGMENTATION_SUIT
+      - STR_AUGMENTATION_SUIT
+
+  - name: STR_NATO_PROTOTYPE_WEAPONS_EVENT
+    description: STR_NATO_PROTOTYPE_WEAPONS_EVENT_DESCRIPTION
+    background: BACK04.SCR
+    timer: 180
+    timerRandom: 20160 # 14 days
+    everyItemList:
+      - STR_STURM_EKANONE
+      - STR_STURM_EKANONE
+      - STR_STURM_EKANONE
+      - STR_STURM_EKANONE
+      - STR_STURM_EKANONE
+      - STR_STURM_EKANONE_BATTERY
+      - STR_STURM_EKANONE_BATTERY
+      - STR_STURM_EKANONE_BATTERY
+      - STR_STURM_EKANONE_BATTERY
+      - STR_STURM_EKANONE_BATTERY
+
+  - name: STR_SOVIET_PROTOTYPE_WEAPONS_EVENT
+    description: STR_SOVIET_PROTOTYPE_WEAPONS_EVENT_DESCRIPTION
+    background: BACK04.SCR
+    timer: 180
+    timerRandom: 20160 # 14 days
+    everyItemList:
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+      - STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
+
+
+extraSprites:
+##########################################
+############ BACKGROUNDS #################
+##########################################
+  - type: ALIEN_PRESENCE_ON_CUBA_CONFIRMED_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/ALIEN_PRESENCE_ON_CUBA_CONFIRMED_EVENT_BACKGROUND.PNG
+  - type: BAY_OF_PIGS_FIASCO_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/BAY_OF_PIGS_FIASCO_EVENT_BACKGROUND.PNG
+  - type: BERLIN_CRISIS_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/BERLIN_CRISIS_EVENT_BACKGROUND.PNG
+  - type: BERLIN_WALL_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/BERLIN_WALL_EVENT_BACKGROUND.PNG
+  - type: BOND_MOVIE_RELEASED_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/BOND_MOVIE_RELEASED_EVENT_BACKGROUND.PNG
+  - type: CIA_GIFT_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/CIA_GIFT_EVENT_BACKGROUND.PNG
+  - type: CRUSADERS_ENGAGE_UFOS_CUBA_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/CRUSADERS_ENGAGE_UFOS_CUBA_EVENT_BACKGROUND.PNG
+  - type: DEFCON2_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/DEFCON2_EVENT_BACKGROUND.PNG
+  - type: FIRST_AMERICAN_IN_ORBIT_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/FIRST_AMERICAN_IN_ORBIT_EVENT_BACKGROUND.PNG
+  - type: FIRST_AMERICAN_IN_SPACE_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/FIRST_AMERICAN_IN_SPACE_EVENT_BACKGROUND.PNG
+######################################
+  - type: FIRST_MAN_ON_SPACE_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/FIRST_MAN_ON_SPACE_EVENT_BACKGROUND.PNG
+######################################
+  - type: GENERIC_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/GENERIC_EVENT_BACKGROUND.PNG
+  - type: JFK_ASKS_FOR_CONGRESS_FUNDING_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/JFK_ASKS_FOR_CONGRESS_FUNDING_EVENT_BACKGROUND.PNG
+  - type: JFK_BECOMES_35TH_PRESIDENT_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/JFK_BECOMES_35TH_PRESIDENT_EVENT_BACKGROUND.PNG
+  - type: MARYLIN_MONROE_DIES_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/MARYLIN_MONROE_DIES_EVENT_BACKGROUND.PNG
+###################################
+  - type: MARYLIN_MONROE_SINGS_JFK_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/MARYLIN_MONROE_SINGS_JFK_EVENT_BACKGROUND.PNG
+  - type: NAVAL_BLOCKADE_CUBA_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/NAVAL_BLOCKADE_CUBA_EVENT_BACKGROUND.PNG
+  - type: OPERATION_GRANDSLAM_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/OPERATION_GRANDSLAM_EVENT_BACKGROUND.PNG
+  - type: RANGER_4_LANDS_ON_MOON_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/RANGER_4_LANDS_ON_MOON_EVENT_BACKGROUND.PNG
+#################################
+  - type: SIEGE_OF_JADOTVILLE_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/SIEGE_OF_JADOTVILLE_EVENT_BACKGROUND.PNG
+  - type: SOVIET_ACTIVITY_ON_CUBA_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/SOVIET_ACTIVITY_ON_CUBA_EVENT_BACKGROUND.PNG
+  - type: SOVIETS_APPROACH_BUREAU_11_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/SOVIETS_APPROACH_BUREAU_11_EVENT_BACKGROUND.PNG
+  - type: UN_FORCES_HEAVY_COMBAT_CONGO_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/UN_FORCES_HEAVY_COMBAT_CONGO_EVENT_BACKGROUND.PNG
+  - type: UN_SECRETARY_GENERAL_DIES_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/UN_SECRETARY_GENERAL_DIES_EVENT_BACKGROUND.PNG
+
+  - type: PATRICE_LUMUMBA_DEATH_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/PATRICE_LUMUMBA_DEATH_EVENT_BACKGROUND.PNG

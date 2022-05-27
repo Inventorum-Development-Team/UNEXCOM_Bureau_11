@@ -1522,7 +1522,7 @@ missionScripts:
       STR_ACT_3_START: true
       #STR_OPERATION_HARBINGER_MISSION_TRIGGER: true
     useTable: false
-    startDelay: 21600 # 15 Days
+    startDelay: 37440 # 26 Days
     executionOdds: 100
     firstMonth: 21
     lastMonth: 22
