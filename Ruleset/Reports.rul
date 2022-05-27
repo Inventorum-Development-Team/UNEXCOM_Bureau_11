@@ -1036,6 +1036,25 @@ ufopaedia:
       - STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
     text: STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT_UFOPEDIA
 
+  - id: STR_ALIEN_ALLOYS
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_ALIEN_ALLOYS
+    text: STR_ALIEN_ALLOYS_UFOPEDIA
+  - id: STR_UFO_POWER_SOURCE
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_UFO_POWER_SOURCE
+    text: STR_UFO_POWER_SOURCE_UFOPEDIA
+  - id: STR_UFO_NAVIGATION
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_UFO_NAVIGATION
+    text: STR_UFO_NAVIGATION_UFOPEDIA
+
   - id: STR_EVIDENCE_FINAL_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
