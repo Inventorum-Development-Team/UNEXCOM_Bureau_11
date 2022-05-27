@@ -7,14 +7,16 @@ This DLC is a prequel of the mod for OpenXcom, UNEXCOM. Set in the same timeline
 Based on the original ideas of Ace009, made by Brother^2 and efrenespartano.
 
 Credits by name:
-*Ace009: original background idea
+*Ace009: original concept idea
 *Alex_D: Cadillac El Dorado sprites and ruleset
 *Andr: original creator of F-104 Starfighter, Beretta M12, AR-15, Sawed-off Shotgun, Winchester M1897, Flask, Field Dressing, Cigarettes, Medical Pouch
 *Brother^2: lead design, ruleset creator
 *efrenespartano: lead design, sprite & ruleset creator
+*Filip-H: A-12 Oxcart sprites, ideas and script support
 *Gifty: original Calcium Man spritesheet (adapted and expanded into Shapeshifter)
 *Hans Woofington: B11 and US Army unit sprites
+*Kael Schwabauer: IDT beta tester, several Geoscape events
 *NeoWorm: Sectoid inventory sprites
 *RamoZ: D17, B11 and US Army rulesets
 *The Martian: D17 unit sprites
-*wolwerin: Alien Lasers, Model 1900, sprite creator
+*wolwerin: Crashed alien craft maps, Alien Lasers, Model 1900, sprite creator

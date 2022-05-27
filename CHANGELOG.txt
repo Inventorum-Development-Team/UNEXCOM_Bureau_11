@@ -1,3 +1,42 @@
+May-2022 v0.2 Work of a Nation 
+Changes made:
+*Added all the Story missions
+*Added Act 1 Side missions
+- Cattle Mutilation
+- Crop Circles
+- Counter-Intelligence
+*Added Act 2 Side missions
+- Major Cattle Mutilation
+- Abduction
+- Counter-Intelligence, Europe
+*Major rebalance on weapons and mission conditions, by Brother^2
+*Modified and expanded tech tree, by Brother^2 & efrenespartano
+*Added new faction: GLADIO
+*Added new weapons:
+- Welrod
+- DeLise Paratrooper Carbine
+- DeLise Sniper Carbine
+*Added 30 Geoscape events, written by efrenespartano, Brother^2 and Kael Schwabauer
+*Added new craft
+- A-12 Oxcart, sprites by Filip-H
+*Added Faceless Shapeshifter unit, sprites by efrenespartano & Gifty, rulesets by efrenespartano, Brother^2 & Filip-H
+*New UI and GlobeMarkers, by efrenespartano
+
+
+July-2021 v0.1.2 Proving Grounds
+Changes made:
+*Added Collapsible SMG, sprites by efrenspartano, rulesets by Brother^2
+
+June-2021 v0.1.1 Proving Grounds
+Changes made:
+*Fixed Heart-Attack Gun manufacturing bug, reported by Black Onix (Виталий)#2140
+*Fixed bug with Starfighter Equipment, reported by various
+*Added en-GB Strings. It's still english, innit? by Brother^2
+*Fixed Various Research Bugs, Typos & Slight Rebalancing, by Brother^2
+*Added Research Reports to the Blue Book, Added Munitions Reports, by Brother^2
+*Added Revised Heart-Attack Gun Blue Book and Rebalanced The Weapon, by Brother^2
+*Added Weapon Compatible Spritesheet, sprites by The Martian
+
 October-2020 v0.1 Proving Grounds
 Changes made:
 *Removed vanilla content
@@ -31,17 +70,3 @@ Changes made:
     - Directorate 17 Agent
 *Added D17 unit, ruleset by Brother^2, sprites by The Martian & efrenespartano
 *Added US Army unit ruleset by Brother^2, sprites by Hans Woofington & efrenespartano
-
-June-2021 v0.1.1 Proving Grounds
-Changes made:
-*Fixed Heart-Attack Gun manufacturing bug, reported by Black Onix (Виталий)#2140
-*Fixed bug with Starfighter Equipment, reported by various
-*Added en-GB Strings. It's still english, innit? by Brother^2
-*Fixed Various Research Bugs, Typos & Slight Rebalancing, by Brother^2
-*Added Research Reports to the Blue Book, Added Munitions Reports, by Brother^2
-*Added Revised Heart-Attack Gun Blue Book and Rebalanced The Weapon, by Brother^2
-*Added Weapon Compatible Spritesheet, sprites by The Martian
-
-July-2021 v0.1.2 Proving Grounds
-Changes made:
-*Added Collapsible SMG, sprites by efrenspartano, rulesets by Brother^2
