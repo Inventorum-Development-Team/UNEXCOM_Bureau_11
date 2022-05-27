@@ -843,7 +843,7 @@ units:
       throwing: 65
       strength: 30
       psiStrength: 100
-      psiSkill: 16
+      psiSkill: 0
       melee: 65
     armor: GLADIO_OPERATIVE_M
     standHeight: 22
@@ -852,7 +852,7 @@ units:
     deathSound: 41
     spotter: 2
     intelligence: 6
-    aggression: 1
+    aggression: 3
     builtInWeaponSets:
      -
        - STR_WELROD
@@ -878,7 +878,7 @@ units:
       throwing: 65
       strength: 30
       psiStrength: 100
-      psiSkill: 16
+      psiSkill: 0
       melee: 65
     armor: GLADIO_OPERATIVE_F
     standHeight: 22
@@ -887,7 +887,7 @@ units:
     deathSound: 44
     spotter: 2
     intelligence: 6
-    aggression: 1
+    aggression: 3
     builtInWeaponSets:
      -
        - STR_WELROD
