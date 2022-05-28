@@ -145,7 +145,7 @@ items:
     armor: 35
     listOrder: 200
   - type: STR_BROWNING_HP35_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED, STR_CONCEALED]
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -215,7 +215,7 @@ items:
     armor: 35
     listOrder: 202
   - type: STR_COLT_M1911_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED, STR_CONCEALED]
     size: 0.1
     costBuy: 200
     costSell: 150
