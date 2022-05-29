@@ -3,6 +3,12 @@ research:
 ###### VEHICLES ########
 ######################
 
+  - name: STR_UFO_CONSTRUCTION
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_COMMANDER_PLUS
+
   - name: STR_EXPERIMENTAL_AEROSPACE
     cost: 200
     points: 50
