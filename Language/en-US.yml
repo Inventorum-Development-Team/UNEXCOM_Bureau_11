@@ -60,6 +60,7 @@ en-US:
   STR_MASTER_SERGEANT: "Master Sergeant"
   STR_WARRANT_OFFICER: "Warrant Officer"
   STR_KGB_OFFICER_RECRUITMENT: "KGB Officer Recruitment"
+  STR_KGB_OFFICER: "KGB Officer"
   STR_LIEUTENANT: "Lieutenant"
   STR_CAPTAIN: "Captain"
   STR_MAJOR: "Major"
@@ -597,6 +598,7 @@ en-US:
   STR_THIN_MEN_WHISPERS: "Thin Men Attackers"
   STR_OPERATION_GLADIO_HYBRIDS: "Gladio + Hybrid Attackers"
 
+  STR_HYBRID_DISGUISE_F: "Disguised Hybrid"
   STR_HYBRID: "Hybrid"
   STR_THIN_MAN: "Thin Man"
   THIN_MAN_ARMOR: "Thin Man Outfit"
