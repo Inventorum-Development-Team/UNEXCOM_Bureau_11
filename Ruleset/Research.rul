@@ -467,7 +467,7 @@ research:
     cost: 100
     points: 200
     dependencies:
-      - STR_D17_BRIEFING
+      - STR_D17_BRIEFING_PREQ
 
   - name: STR_GLADIO_BRIEFING_PREQ
     cost: 0
