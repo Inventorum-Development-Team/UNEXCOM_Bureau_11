@@ -26,6 +26,7 @@ alienDeployments:
   - delete: STR_SUPPLY_wSHIP
 
   - type: STR_PROVING_GROUNDS_DEPLOYMENT
+    unlockedResearch: STR_D17_BRIEFING
     customUfo: STR_PROVING_GROUNDS_LARGE_SCOUT
     loseCutscene: loseGameMidCampaign
     abortCutscene: loseGameMidCampaign
@@ -306,6 +307,7 @@ alienDeployments:
     unlockedResearch: STR_DISCOVERIES_SECTOID_ENGINEER
 
   - type: STR_HIDE_AND_SEEK_DEPLOYMENT
+    unlockedResearch: STR_GLADIO_BRIEFING
     customUfo: STR_HIDE_AND_SEEK_VAN
     startingCondition: STR_CONCEALED
     loseCutscene: loseGameMidCampaign
