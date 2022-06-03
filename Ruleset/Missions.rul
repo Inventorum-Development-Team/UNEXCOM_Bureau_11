@@ -401,6 +401,7 @@ alienDeployments:
     unlockedResearch: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
   - type: STR_SPIDERWEB_DEPLOYMENT
+    unlockedResearch: STR_AR_15_PREQ
     customUfo: STR_SPIDERWEB_LARGE_SCOUT
     loseCutscene: loseGameMidCampaign
     abortCutscene: loseGameMidCampaign
