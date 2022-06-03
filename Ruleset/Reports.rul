@@ -712,6 +712,19 @@ ufopaedia:
     section: STR_RESEARCH_REPORTS_UC
     text: STR_AERIAL_RECON_UFOPEDIA
 
+  - id: STR_D17_BRIEFING_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_D17_BRIEFING
+    text: STR_D17_BRIEFING_REPORT_UFOPEDIA
+  - id: STR_GLADIO_BRIEFING_REPORT
+    type_id: 8
+    section: STR_RESEARCH_REPORTS_UC
+    requires:
+      - STR_GLADIO_BRIEFING
+    text: STR_GLADIO_BRIEFING_REPORT_UFOPEDIA
+
   - id: STR_SUPPRESSED_MUNITIONS_REPORT
     type_id: 8
     section: STR_RESEARCH_REPORTS_UC
