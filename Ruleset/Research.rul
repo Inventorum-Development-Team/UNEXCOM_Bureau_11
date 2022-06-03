@@ -457,6 +457,18 @@ research:
 ####### MISSIONS ########
 ########################
 
+  - name: STR_D17_BRIEFING
+    cost: 0
+    points: 10
+    dependencies:
+      - STR_COMMANDER_PLUS
+
+  - name: STR_GLADIO_BRIEFING
+    cost: 0
+    points: 10
+    dependencies:
+      - STR_COMMANDER_PLUS
+
   - name: STR_DISCOVERIES_SECTOID_ENGINEER
     cost: 400
     points: 100
