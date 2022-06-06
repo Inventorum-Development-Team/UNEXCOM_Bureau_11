@@ -1,0 +1,298 @@
+﻿invs:
+  - id: STR_GROUND
+    costs:
+      STR_QD_SLOT: 20
+      STR_BACK_PACK: 20
+      STR_BELT: 18
+      STR_LEFT_HAND: 14
+      STR_LEFT_LEG: 16
+      STR_LEFT_SHOULDER: 22
+      STR_RIGHT_HAND: 14
+      STR_RIGHT_LEG: 16
+      STR_RIGHT_SHOULDER: 22
+  - id: STR_RIGHT_HAND
+    costs:
+      STR_QD_SLOT: 5
+      STR_BACK_PACK: 10
+      STR_BELT: 6
+      STR_GROUND: 2
+      STR_LEFT_HAND: 2
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 8
+      STR_RIGHT_LEG: 8
+      STR_RIGHT_SHOULDER: 10
+  - id: STR_LEFT_HAND
+    costs:
+      STR_QD_SLOT: 5
+      STR_BACK_PACK: 10
+      STR_BELT: 6
+      STR_GROUND: 2
+      STR_LEFT_LEG: 8
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 2
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 8
+  - id: STR_BELT
+    x: 200
+    y: 104
+    slots:
+      - [0, 0]
+      - [1, 0]
+      - [2, 0]
+      - [3, 0]
+      - [2, 1]
+      - [3, 1]
+    costs:
+      STR_QD_SLOT: 8
+      STR_BACK_PACK: 22
+      STR_GROUND: 14
+      STR_LEFT_HAND: 18
+      STR_LEFT_LEG: 12
+      STR_LEFT_SHOULDER: 14
+      STR_RIGHT_HAND: 18
+      STR_RIGHT_LEG: 12
+      STR_RIGHT_SHOULDER: 14
+  - id: STR_RIGHT_LEG
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 16
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 8
+      STR_LEFT_LEG: 12
+      STR_LEFT_SHOULDER: 14
+      STR_RIGHT_HAND: 6
+      STR_RIGHT_SHOULDER: 16
+  - id: STR_LEFT_LEG
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 16
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 6
+      STR_LEFT_SHOULDER: 16
+      STR_RIGHT_HAND: 8
+      STR_RIGHT_LEG: 12
+      STR_RIGHT_SHOULDER: 14
+  - id: STR_RIGHT_SHOULDER
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 14
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 4
+      STR_LEFT_LEG: 14
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 6
+      STR_RIGHT_LEG: 12
+  - id: STR_LEFT_SHOULDER
+    costs:
+      STR_QD_SLOT: 10
+      STR_BACK_PACK: 14
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 6
+      STR_LEFT_LEG: 12
+      STR_RIGHT_HAND: 4
+      STR_RIGHT_LEG: 14
+      STR_RIGHT_SHOULDER: 10
+  - id: STR_BACK_PACK
+    costs:
+      STR_QD_SLOT: 26
+      STR_BELT: 26
+      STR_GROUND: 24
+      STR_LEFT_HAND: 22
+      STR_LEFT_LEG: 26
+      STR_LEFT_SHOULDER: 26
+      STR_RIGHT_HAND: 22
+      STR_RIGHT_LEG: 26
+      STR_RIGHT_SHOULDER: 26
+  - id: STR_QD_SLOT
+    x: 176
+    y: 104
+    slots:
+      - [0, 0]
+      - [0, 1]
+    costs:
+      STR_BACK_PACK: 14
+      STR_BELT: 8
+      STR_GROUND: 5
+      STR_LEFT_HAND: 3
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 3
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 10
+
+armors:
+  - type: STR_AGENT_SUIT_UC
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
+      - INV_NULL_4X2_BELT
+      - INV_NULL_1X2_QD_SLOT
+  - type: STR_ARMY_UNIFORM_UC
+    builtInWeapons:
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_2X1_LEFT_LEG
+      - INV_NULL_1X2_QD_SLOT
+  - type: STR_OFFICER_COAT_UC
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_2X1_LEFT_LEG
+
+items:
+  - type: INV_NULL_HAND_L
+    weight: 0
+    bigSprite: 2007
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
+    recover: false
+  - type: INV_NULL_HAND_R
+    weight: 0
+    bigSprite: 2007
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_HAND
+    recover: false
+  - type: INV_NULL_2X1_LEFT_LEG
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2001
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_LEG
+    recover: false
+  - type: INV_NULL_2X1_RIGHT_LEG
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2001
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_LEG
+    recover: false
+  - type: INV_NULL_2X1_LEFT_SHOULDER
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2001
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_SHOULDER
+    recover: false
+  - type: INV_NULL_2X1_RIGHT_SHOULDER
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2001
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_SHOULDER
+    recover: false
+  - type: INV_NULL_1X1_LEFT_HAND
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
+    recover: false
+  - type: INV_NULL_3X3_BACK_PACK
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2000
+    invWidth: 3
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+  - type: INV_NULL_4X2_BELT
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2002
+    invWidth: 4
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_BELT
+    recover: false
+  - type: INV_NULL_1X2_QD_SLOT
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2003
+    invWidth: 1
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_QD_SLOT
+    recover: false
+  - type: INV_NULL_1X1_QD_SLOT
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_QD_SLOT
+    recover: false
+  - type: INV_NULL_1X1_RIGHT_SHOULDER
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_SHOULDER
+    recover: false
+  - type: INV_NULL_1X1_LEFT_SHOULDER
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_SHOULDER
+    recover: false
+  - type: INV_NULL_1X1_RIGHT_LEG
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_LEG
+    recover: false
+  - type: INV_NULL_1X1_LEFT_LEG
+    categories: [STR_BLANKS]
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_LEG
+    recover: false
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      2000: Resources/UI/Blanks/Null_Void_3x3.png
+      2001: Resources/UI/Blanks/Null_Void_2x1.png
+      2002: Resources/UI/Blanks/Null_Void_4x2.png
+      2003: Resources/UI/Blanks/Null_Void_1x2.png
+      2004: Resources/UI/Blanks/Null_Void_1x1.png
+      2005: Resources/UI/Blanks/Null_Void_2x3.png
+      2006: Resources/UI/Blanks/Null_Void_Belt.png
+      2007: Resources/UI/Blanks/Null_Void_transparent_3x3.png
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_QD_SLOT: QD
