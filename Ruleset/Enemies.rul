@@ -106,6 +106,18 @@ items:
     costSell: 50000
     listOrder: 1006
 #########################
+  - type: STR_GLADIO_OPERATIVE_M
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 25000
+    listOrder: 1007
+  - type: STR_GLADIO_OPERATIVE_M
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 25000
+    listOrder: 1008
   - type: STR_GLADIO_OPERATIVE_CORPSE
     name: STR_CORPSE
     size: 0.4
