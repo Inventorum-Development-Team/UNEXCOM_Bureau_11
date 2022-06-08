@@ -153,8 +153,7 @@ items:
     bigSprite: 216
     floorSprite: 216
     handSprite: 216
-    hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSpeed: 15
     power: 28
     damageType: 1
@@ -223,8 +222,7 @@ items:
     bigSprite: 240
     floorSprite: 240
     handSprite: 240
-    hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSpeed: 10
     power: 40
     damageAlter:
@@ -286,7 +284,6 @@ items:
     bigSprite: 264
     floorSprite: 264
     handSprite: 264
-    hitSound: 22
     hitAnimation: 26
     power: 20
     shotgunBehavior: 1
@@ -383,7 +380,6 @@ items:
     bigSprite: 304
     floorSprite: 304
     handSprite: 304
-    hitSound: 22
     hitAnimation: 26
     bulletSpeed: 10
     power: 28
@@ -454,8 +450,7 @@ items:
     bigSprite: 336
     floorSprite: 336
     handSprite: 336
-    hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSpeed: 12
     power: 42
     damageAlter:
@@ -475,8 +470,7 @@ items:
     bigSprite: 344
     floorSprite: 344
     handSprite: 344
-    hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSpeed: 12
     power: 42
     damageAlter:
@@ -552,8 +546,7 @@ items:
     bigSprite: 368
     floorSprite: 368
     handSprite: 368
-    hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSpeed: 14
     power: 18
     damageAlter:
@@ -670,14 +663,13 @@ items:
     bigSprite: 400
     floorSprite: 400
     handSprite: 400
-    hitSound: 22
     hitAnimation: 26
     bulletSpeed: 5
     power: 15
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
-      ToWound: 999.0
+      ToWound: 30.0
       RandomWound: false
     damageType: 8
     clipSize: 7
@@ -750,8 +742,7 @@ items:
     bigSprite: 424
     floorSprite: 424
     handSprite: 424
-    hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSpeed: 10
     power: 40
     damageAlter:
@@ -819,8 +810,7 @@ items:
     bigSprite: 448
     floorSprite: 448
     handSprite: 448
-    hitSound: 13
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSpeed: 14
     power: 60
     damageAlter:
@@ -956,7 +946,6 @@ items:
     bigSprite: 496
     floorSprite: 496
     handSprite: 496
-    hitSound: 22
     hitAnimation: 26
     power: 20
     shotgunBehavior: 1
@@ -1035,8 +1024,7 @@ items:
     bigSprite: 520
     floorSprite: 520
     handSprite: 520
-    hitSound: 13
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSpeed: 14
     power: 60
     damageAlter:
@@ -1105,7 +1093,6 @@ items:
     bigSprite: 544
     floorSprite: 544
     handSprite: 544
-    hitSound: 13
     hitAnimation: 26
     power: 60
     damageAlter:
@@ -1181,8 +1168,7 @@ items:
     bigSprite: 568
     floorSprite: 568
     handSprite: 568
-    hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSpeed: 16
     power: 50
     damageAlter:
@@ -1258,8 +1244,7 @@ items:
     bigSprite: 592
     floorSprite: 592
     handSprite: 592
-    hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     power: 26
     damageType: 1
     clipSize: 20
@@ -1379,8 +1364,8 @@ items:
       flatHundred: 0.5
       melee: 0.5
     costMelee:
-      time: 20
-      energy: 8
+      time: 8
+      energy: 6
     flatMelee:
       time: true
 # Bayonet End
@@ -1396,8 +1381,7 @@ items:
     bigSprite: 632
     floorSprite: 632
     handSprite: 632
-    hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     power: 60
     damageAlter:
       ToWound: 0.6
