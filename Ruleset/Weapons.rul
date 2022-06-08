@@ -256,7 +256,7 @@ items:
       ammoSlot: 0
       arcing: false
     aimRange: 6
-    accuracyAimed: 110
+    accuracyAimed: 120
     tuAimed: 55
     confSnap:
       shots: 1
@@ -264,10 +264,10 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 4
-    accuracySnap: 70
+    accuracySnap: 60
     tuSnap: 20
     accuracyCloseQuarters: 90
-    dropoff: 4
+    dropoff: 8
     shotgunChoke: 50
     tuLoad: 20
     battleType: 1
@@ -1442,8 +1442,8 @@ items:
     accuracySnap: 90
     tuSnap: 35
     accuracyCloseQuarters: 90
-    dropoff: 9
-    shotgunChoke: 60
+    dropoff: 4
+    shotgunChoke: 70
     tuLoad: 30
     battleType: 1
     twoHanded: true
