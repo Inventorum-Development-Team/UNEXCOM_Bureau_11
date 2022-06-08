@@ -138,6 +138,8 @@ armors:
 ##### SECTOIDS #######
 #####################
   - type: SECTOID_ARMOR0
+    allowInv: true
+    spriteInv: inventory_SECTOID.SPK
     spriteSheet: SECTOID.PCK
     corpseBattle:
       - STR_SECTOID_CORPSE
@@ -1101,6 +1103,12 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Enemies/Gladio/Inventory/GLADIO_FEMALE_OPERATIVE_INV.png
+  - type: inventory_SECTOID.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Enemies/Sectoid/Inventory/SECTOID_INV.png
   - type: BIGOBS.PCK
     files:
       1500: Resources/Enemies/Thin Man/BIGOBS/bigOb_ThinMan_corpse.png
