@@ -619,7 +619,6 @@ alienDeployments:
     unlockedResearch: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
 
   - type: STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT
-    unlockedResearch: STR_ACT_3_START
     loseCutscene: loseGameMidCampaign
     abortCutscene: loseGameMidCampaign
     #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
