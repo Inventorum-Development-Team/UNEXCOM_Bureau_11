@@ -529,7 +529,7 @@ research:
     points: 100
     needItem: true
     listOrder: 1000
-    spawnedEvent: STR_GLADIO_REVEALED_EVENT_DESCRIPTION
+    spawnedEvent: STR_GLADIO_REVEALED_EVENT
 
   - name: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
     cost: 200
