@@ -698,8 +698,8 @@ items:
     floorSprite: 408
     handSprite: 408
     bulletSprite: 1
-    fireSound: 217
-    reloadSound: 218
+    fireSound: 216
+    reloadSound: 217
     compatibleAmmo:
       - STR_M3_GREASEGUN_MAG
     confAimed:
