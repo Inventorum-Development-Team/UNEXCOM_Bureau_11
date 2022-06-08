@@ -1518,8 +1518,7 @@ missionScripts:
       0:
         REGION_OPERATION_HARBINGER: 100
     researchTriggers:
-      STR_ACT_3_START: true
-      #STR_OPERATION_HARBINGER_MISSION_TRIGGER: true
+      STR_OPERATION_HARBINGER_MISSION_TRIGGER: true
     useTable: false
     startDelay: 37440 # 26 Days
     executionOdds: 100
