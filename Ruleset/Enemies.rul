@@ -142,8 +142,8 @@ armors:
       - 0.0
       - 1.0
       - 1.2
-      - 1.6
       - 0.0
+      - 1.0
     loftempsSet: [ 2 ]
 
 #####################
@@ -168,8 +168,8 @@ armors:
       - 0.0
       - 1.0
       - 1.0
-      - 1.0
       - 0.0
+      - 1.0
     loftempsSet: [ 2 ]
   - type: HYBRID_DISGUISE_F_ARMOR
     spriteSheet: HYBRID_DISGUISE_F.PCK
@@ -191,7 +191,7 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-      - 0.0
+      - 1.0
     loftempsSet: [ 2 ]
 
   - type: THIN_MAN_ARMOR
@@ -215,8 +215,8 @@ armors:
       - 0.0
       - 1.0
       - 1.2
-      - 1.6
       - 0.0
+      - 1.0
     loftempsSet: [ 2 ]
 
 ####################
