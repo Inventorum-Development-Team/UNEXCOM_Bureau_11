@@ -525,9 +525,9 @@ alienDeployments:
     duration: [999, 999]
     data:
       - alienRank: 5
-        lowQty: 3
-        highQty: 5
-        dQty: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 1
         percentageOutsideUfo: 30
         itemSets:
           -
@@ -541,8 +541,8 @@ alienDeployments:
           -
             - STR_MIND_PROBE
       - alienRank: 4
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -559,7 +559,7 @@ alienDeployments:
       - alienRank: 2
         lowQty: 1
         highQty: 2
-        dQty: 2
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           -
