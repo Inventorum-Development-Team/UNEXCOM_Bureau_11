@@ -360,8 +360,7 @@ items:
     bigSprite: 296
     floorSprite: 296
     handSprite: 296
-    hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSpeed: 15
     power: 28
     damageType: 1
@@ -380,7 +379,7 @@ items:
     bigSprite: 304
     floorSprite: 304
     handSprite: 304
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSpeed: 10
     power: 28
     damageType: 1
