@@ -5,7 +5,7 @@ regions:
     cost: 99999999
 countries:
   - type: STR_USA
-    fundingBase: 1000
+    fundingBase: 2600
     fundingCap: 10000
   - delete: STR_RUSSIA
   - delete: STR_UK
