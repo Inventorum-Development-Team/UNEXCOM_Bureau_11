@@ -935,7 +935,7 @@ items:
     accuracyAuto: 50
     tuAuto: 45
     accuracyCloseQuarters: 90
-    dropoff: 8
+    dropoff: 4
     shotgunChoke: 70
     tuLoad: 30
     battleType: 1
