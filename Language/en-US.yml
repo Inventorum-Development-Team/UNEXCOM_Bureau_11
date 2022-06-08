@@ -429,6 +429,8 @@ en-US:
   STR_RESIDUAL_FLUID_MAJOR_REPORT: "Final Report: Residual Fluid"
   STR_RESIDUAL_FLUID_MAJOR_REPORT_UFOPEDIA: "The combined results of the investigations concluded that the invaders are using toxic substances with the intention to sedate live beings. The species of the living beings and the intention of the foreign drug's usage is not clear. Our scientists are going to try to repurpose it, they hope it may be useful to our operations."
 
+  STR_DELETE_CROP_CIRCLES_SITES: "Delegate Jurisdiction - Crop Circles"
+  STR_DELETE_CROP_CIRCLES_SITES_UFOPEDIA: "We have collected all the required data on the creation of the Crop Circles in the country. We no longer require to deploy our agents, so we've delegated the responsability of idenfiying and securing any reported circle from now onwards. The State authorities will take care of them now."
 #####################################
 ######## CATTLE MUTILATION #########
 ###################################
@@ -474,11 +476,16 @@ en-US:
   STR_CATTLE_ORGANS_MAJOR_REPORT: "Final Report: Cattle Organs"
   STR_CATTLE_ORGANS_MAJOR_REPORT_UFOPEDIA: "The methods of the invaders to obtain organ samples improved greatly over the course of the time. At first, they were highly violent but the last samples we were able to retrieve were in better condition. Perhaps the first ones were useless for their cause? Our staff theorize a foreign power is collecting DNA and tissue samples from cattle in order to create some kind of biological weapon, probably aimed at disrupting the Western food supply chains. Or even worse, experiments to create drugs for purposes yet unknown."
 
+  STR_DELETE_CATTLE_MUTILATION_SITES: "Delegate Jurisdiction - Cattle Mutilation"
+  STR_DELETE_CATTLE_MUTILATION_SITES_UFOPEDIA: "We've allowed the State authorities to identify and secure any additional events where the local cattle and other farm animals are attacked by the extraterrestrials. So far, none have included alien active forces, so we consider it's safe for the law enforcement units to take care of them."
 
+  STR_DELETE_MAJOR_CATTLE_MUTILATION_SITES: "Delegate Jurisdiction - Major Cattle Mutilation"
+  STR_DELETE_MAJOR_CATTLE_MUTILATION_SITES_UFOPEDIA: "As the danger of a invasion increases, we need to focus our efforts on adquiring more info about the purpose of the intruders. We already have collected all the evidence related to cattle mutilation and the local law enforcement forces already take care of the minor reports. But the major attacks often involve alien active forces, that's why we cannot allow the local police departments to become involved. Our friends in Area 51 will take care of the Major Mutilations from now, as the Bureau 11 is the only Federal agency with enough experience and skills to engage any foreign intruder."
 #####################################
 ######## COUNTER INTELLIGENCE #########
 ###################################
-
+  STR_DELETE_COUNTER_INTELLIGENCE_SITES: "Delegate Jurisdiction - Counter-Intelligence"
+  STR_DELETE_COUNTER_INTELLIGENCE_SITES_UFOPEDIA: "We believe we have collected all the required proof of the activity of Soviet agents within our borders. But we need to focus to counter the real threat, the alien forces. So, we have resolved to delegate any further counter-intelligence operations to our fellow Bureau 11 agents in Area 51. We are sure they will take care of the infiltrated KGB units, as we are confident in their abilities."
 ################################
 ####### Initial Intel #########
 ##############################
@@ -546,6 +553,8 @@ en-US:
   STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT: "Final Report: Alien Sample Flask"
   STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT_UFOPEDIA: "The most accepted theory about the strange containers found inside the area where the abduction took place is they are some kind of 'energy drink' or nutrimental suppliment specifically for aliens. It contains human DNA samples and several other unknown additives, probably meant to be used to help any infiltrators to slowly become more human-like."
 
+  STR_DELETE_ABDUCTION_SITES: "Delegate Jurisdiction - Minor Abduction"
+  STR_DELETE_ABDUCTION_SITES_UFOPEDIA: "This is a serious threat to the homeland security, but we need to continue to identify and engage any further alien activity in the country. So, we have delegated the jurisdiction of the investigation (and hopefully, the recovery) of abducted victims to both the Bureau 11 branch of Area 51 and the FBI. They will take care of this with efficiency."
 #################################
   STR_RESEARCH_REPORTS_UC: "RESEARCH REPORTS"
   STR_D17_BRIEFING: "Directorate 17 Briefing"
@@ -615,8 +624,10 @@ en-US:
   STR_THIN_MAN_UFOPAEDIA: "The 'Thin Man' as it has been christened by our troops, appears to be a gaunt Cacucasian man, but sports eerie features such as reptilian eyes. Interrogation proved to be futile as it seemed to have an unconcious control over our researchers. A person of a more unprofessional background may refer to it as...telepathy. Sadly, it was terminated after it tried to escape."
   STR_HYBRID_SHAPESHIFTER: "Hybrid Shapeshifter"
   STR_HYBRID_CORPSE: "Hybrid Shapeshifter Carcass"
-  HYBRID_SHAPESHIFTER_ARMOR: "Shapeshifter Caparace"
+  HYBRID_SHAPESHIFTER_ARMOR: "Shapeshifter Organic Tissue"
   HYBRID_DISGUISE_F_ARMOR: "Female Civiian"
+  STR_HYBRID_AUTOPSY: "Hybrid Shapeshifter Autopsy"
+  STR_HYBRID_AUTOPSY_UFOPEDIA: "The retrieved corpse of this strange alien being is uncanny. The skin is almost human-like, but tougher. Upon dissection, the internal distribution looks like a mess of quasi-human organs and clearly alien tissue. We have identified traces of DNA of several individuals, even cattle. Some bits of actual human organs, like liver and sections of the digestive track can be identified, although its purpose remains unknown, as they aren't really connected to anything. What is really disturbing, the unnatural face of the alien. It remained with the eyes wide open, as it could still see us. The blood has unknown chemical elements and, for some reason, large concentrations of human white cells... which seem to be killing the host body."
 
   STR_KGB_CORPSE: "KGB Corpse"
   #STR_D17_SOLDIER: "D17 Soldier"

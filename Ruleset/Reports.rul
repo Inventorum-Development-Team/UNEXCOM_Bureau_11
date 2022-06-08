@@ -228,7 +228,7 @@ ufopaedia:
       height: 80
     image_id: OXCART_UFOPEDIA
     requires:
-      - STR_CIA_RECON_CRAFT_REQUISITION_UFOPEDIA
+      - STR_CIA_RECON_CRAFT_REQUISITION
   - id: STR_SKYRANGER
     type_id: 1
     section: STR_VEHICLES
@@ -886,6 +886,13 @@ ufopaedia:
     requires:
       - STR_RESIDUAL_FLUID_MAJOR_REPORT
     text: STR_RESIDUAL_FLUID_MAJOR_REPORT_UFOPEDIA
+  - id: STR_DELETE_CROP_CIRCLES_SITES
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    #listOrder: 400
+    requires:
+      - STR_DELETE_CROP_CIRCLES_SITES
+    text: STR_DELETE_CROP_CIRCLES_SITES_UFOPEDIA
 #######################
   - id: STR_CATTLE_MUTILATION_REPORT
     type_id: 8
@@ -952,7 +959,20 @@ ufopaedia:
     requires:
       - STR_CATTLE_BLOOD_MAJOR_REPORT
     text: STR_CATTLE_BLOOD_MAJOR_REPORT_UFOPEDIA
-
+  - id: STR_DELETE_CATTLE_MUTILATION_SITES
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    #listOrder: 400
+    requires:
+      - STR_DELETE_CATTLE_MUTILATION_SITES
+    text: STR_DELETE_CATTLE_MUTILATION_SITES_UFOPEDIA
+  - id: STR_DELETE_MAJOR_CATTLE_MUTILATION_SITES
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    #listOrder: 400
+    requires:
+      - STR_DELETE_MAJOR_CATTLE_MUTILATION_SITES
+    text: STR_DELETE_MAJOR_CATTLE_MUTILATION_SITES_UFOPEDIA
 ######################
   - id: STR_CAMERA_GUN
     type_id: 4
@@ -978,6 +998,13 @@ ufopaedia:
     requires:
       - STR_KGB_TECH_INVESTIGATION
     text: STR_KGB_TECH_REPORT_UFOPEDIA
+  - id: STR_DELETE_COUNTER_INTELLIGENCE_SITES
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    #listOrder: 400
+    requires:
+      - STR_DELETE_COUNTER_INTELLIGENCE_SITES
+    text: STR_DELETE_COUNTER_INTELLIGENCE_SITES_UFOPEDIA
 ######################
   - id: STR_MINOR_ABDUCTION_REPORT
     type_id: 8
@@ -1044,6 +1071,14 @@ ufopaedia:
     requires:
       - STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
     text: STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT_UFOPEDIA
+  - id: STR_DELETE_ABDUCTION_SITES
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    #listOrder: 400
+    requires:
+      - STR_DELETE_ABDUCTION_SITES
+    text: STR_DELETE_ABDUCTION_SITES_UFOPEDIA
+
 
   - id: STR_ALIEN_ALLOYS
     type_id: 8

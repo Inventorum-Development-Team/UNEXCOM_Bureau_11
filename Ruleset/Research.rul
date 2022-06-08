@@ -280,6 +280,12 @@ research:
       - STR_COMATOSE_ABDUCTEE_MAJOR_REPORT
       - STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
       - STR_KGB_TECH_INVESTIGATION
+################################################
+  - name: STR_DELETE_CROP_CIRCLES_SITES
+    cost: 200
+    points: 200
+    dependencies:
+      - STR_RESIDUAL_FLUID_MAJOR_REPORT
 
 
   - name: STR_RESIDUAL_FLUID_MAJOR_REPORT
@@ -306,6 +312,19 @@ research:
     points: 25
     needItem: true
 #########################
+  - name: STR_DELETE_CATTLE_MUTILATION_SITES
+    cost: 200
+    points: 200
+    dependencies:
+      - STR_CATTLE_BLOOD_MAJOR_REPORT
+      - STR_CATTLE_ORGANS_MAJOR_REPORT
+
+  - name: STR_DELETE_MAJOR_CATTLE_MUTILATION_SITES
+    cost: 500
+    points: 200
+    dependencies:
+      - STR_DELETE_CATTLE_MUTILATION_SITES
+
   - name: STR_CATTLE_ORGANS_MAJOR_REPORT
     cost: 300
     points: 100
@@ -389,6 +408,12 @@ research:
     points: 15
     needItem: true
 
+  - name: STR_DELETE_COUNTER_INTELLIGENCE_SITES
+    cost: 200
+    points: 200
+    dependencies:
+      - STR_KGB_TECH_INVESTIGATION
+
   - name: STR_KGB_TECH_INVESTIGATION
     cost: 300
     points: 100
@@ -398,6 +423,13 @@ research:
       - STR_LISTENING_DEVICE
       - STR_TRANSMITTER
 ####################################
+  - name: STR_DELETE_ABDUCTION_SITES
+    cost: 200
+    points: 200
+    dependencies:
+      - STR_COMATOSE_ABDUCTEE_MAJOR_REPORT
+      - STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT
+
   - name: STR_COMATOSE_ABDUCTEE_MAJOR_REPORT
     cost: 300
     points: 100

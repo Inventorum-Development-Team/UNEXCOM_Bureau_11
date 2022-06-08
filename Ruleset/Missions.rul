@@ -980,6 +980,7 @@ alienDeployments:
   - type: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT
     startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CROP_CIRCLES_UFO
+    baseSelfDestructCode: STR_DELETE_CROP_CIRCLES_SITES
     height: 10
     width: 40
     length: 40
@@ -1029,6 +1030,7 @@ alienDeployments:
   - type: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
     startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CATTLE_MUTILATION_UFO
+    baseSelfDestructCode: STR_DELETE_CATTLE_MUTILATION_SITES
     height: 10
     width: 40
     length: 40
@@ -1046,6 +1048,7 @@ alienDeployments:
   - type: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT
     startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_KGB_HIDEOUT_UFO
+    baseSelfDestructCode: STR_DELETE_COUNTER_INTELLIGENCE_SITES
     height: 10
     width: 40
     length: 40
@@ -1114,6 +1117,7 @@ alienDeployments:
   - type: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT
     startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_ABDUCTION_CAR_UFO
+    baseSelfDestructCode: STR_DELETE_ABDUCTION_SITES
     height: 10
     width: 40
     length: 40
@@ -1163,6 +1167,7 @@ alienDeployments:
 
   - type: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
     customUfo: STR_MAJOR_CATTLE_MUTILATION_UFO
+    baseSelfDestructCode: STR_DELETE_MAJOR_CATTLE_MUTILATION_SITES
     height: 10
     width: 40
     length: 40
@@ -1244,6 +1249,7 @@ alienDeployments:
   - type: STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DEPLOYMENT
     startingCondition: STR_CONCEALED
     customUfo: STR_KGB_HIDEOUT_UFO
+    baseSelfDestructCode: STR_DELETE_COUNTER_INTELLIGENCE_SITES
     civiliansByType:
       STR_GLADIO_OPERATIVE_M: 2
       STR_GLADIO_OPERATIVE_F: 2
@@ -1616,7 +1622,7 @@ missionScripts:
     executionOdds: 100
     targetBaseOdds: 100
     researchTriggers:
-      STR_ACT_3_START: true
+      STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER: true
     #raceWeights:
       #0:
         #STR_SECTOID: 100
