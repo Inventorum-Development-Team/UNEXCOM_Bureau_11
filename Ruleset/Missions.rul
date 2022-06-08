@@ -399,7 +399,6 @@ alienDeployments:
     unlockedResearch: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
   - type: STR_SPIDERWEB_DEPLOYMENT
-    unlockedResearch: STR_AR_15_PREQ
     customUfo: STR_SPIDERWEB_LARGE_SCOUT
     loseCutscene: loseGameMidCampaign
     abortCutscene: loseGameMidCampaign
@@ -728,7 +727,7 @@ alienDeployments:
     markerIcon: 29
     alert: STR_DISTRESS_SIGNAL_RECIEVED
     alertBackground: BACK13.SCR
-    #unlockedResearch: STR_OPERATION_HARBINGER_MISSION_TRIGGER
+    unlockedResearch: STR_OPERATION_HARBINGER_MISSION_TRIGGER
     
 
   - type: STR_OPERATION_HARBINGER_DEPLOYMENT
