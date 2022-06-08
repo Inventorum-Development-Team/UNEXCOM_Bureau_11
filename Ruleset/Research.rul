@@ -146,7 +146,7 @@ research:
       - STR_SKORPION_VZ61
       - STR_AK_47
     dependencies:
-      - STR_ACT_3_START
+      - STR_OPERATION_HARBINGER_MISSION_TRIGGER
 
   - name: STR_STECHKIN_APS
     cost: 100
