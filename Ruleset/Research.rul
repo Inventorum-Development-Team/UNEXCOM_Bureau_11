@@ -20,21 +20,21 @@ research:
     points: 50
     dependencies:
       - STR_EXPERIMENTAL_AEROSPACE
-      - STR_ACT_3_START
+      - STR_OPERATION_HARBINGER_MISSION_TRIGGER
 
   - name: STR_CIA_RECON_CRAFT_REQUISITION
     cost: 200
     points: 50
     dependencies:
       - STR_EXPERIMENTAL_AEROSPACE
-      - STR_ACT_3_START
+      - STR_OPERATION_HARBINGER_MISSION_TRIGGER
 
   - name: STR_GYRODYNE_TRANSPORT_HELICOPTER
     cost: 300
     points: 100
     dependencies:
       - STR_EXPERIMENTAL_AEROSPACE
-      - STR_ACT_3_START
+      - STR_OPERATION_HARBINGER_MISSION_TRIGGER
 
 #########################
 ####### AGENTS #########
@@ -51,13 +51,13 @@ research:
     points: 50
     spawnedEvent: STR_SOVIET_PROTOTYPE_WEAPONS_EVENT
     dependencies:
-      - STR_ACT_3_START
+      - STR_OPERATION_HARBINGER_MISSION_TRIGGER
 
   - name: STR_AUGMENTATION_SUIT
     cost: 150
     points: 25
     dependencies:
-      - STR_ACT_3_START
+      - STR_OPERATION_HARBINGER_MISSION_TRIGGER
 
 ##################################
 ########### WEAPONS #############
@@ -529,10 +529,3 @@ research:
       - STR_DISCOVERIES_SECTOID_ENGINEER
       - STR_HIDE_AND_SEEK_DATA_SUITCASE
       - STR_ACT_2_START
-
-  - name: STR_ACT_3_START
-    cost: 0
-    points: 15
-    dependencies:
-      - STR_COMMANDER_PLUS
-
