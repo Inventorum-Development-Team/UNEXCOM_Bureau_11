@@ -15,8 +15,8 @@ items:
   - type: CYBERDISC_WEAPON
     power: 85
     damageType: 4
-    bulletSpeed: 15
     bulletSprite: 29
+    bulletSpeed: 10
     hitAnimation: 36
     fireSound: 242
     accuracySnap: 60
@@ -27,8 +27,8 @@ items:
     damageType: 4
     battleType: 1
     weight: 6
-    bulletSpeed: 30
     bulletSprite: 29
+    bulletSpeed: 20
     hitAnimation: 36
     fireSound: 242
     accuracySnap: 55
