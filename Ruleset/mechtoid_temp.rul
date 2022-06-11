@@ -1,0 +1,192 @@
+# spellchecker:words Tingcat Thinman
+alienRaces:
+  - id: STR_SECTOID
+    members:
+      - STR_SECTOID_COMMANDER
+      - STR_SECTOID_LEADER
+      - STR_SECTOID_ENGINEER
+      - STR_SECTOID_MEDIC
+      - STR_SECTOID_NAVIGATOR
+      - STR_SECTOID_SOLDIER
+      - STR_MECHTOID_TERRORIST
+      - STR_CYBERDISC_TERRORIST
+
+items:
+  - type: CYBERDISC_WEAPON
+    power: 85
+    damageType: 4
+    bulletSpeed: 15
+    bulletSprite: 29
+    hitAnimation: 36
+    fireSound: 242
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuSnap: 35
+    tuAimed: 70
+  - type: MECHTOID_WEAPON
+    damageType: 4
+    battleType: 1
+    weight: 6
+    bulletSpeed: 30
+    bulletSprite: 29
+    hitAnimation: 36
+    fireSound: 242
+    accuracySnap: 55
+    accuracyAuto: 45
+    snapRange: 14
+    autoRange: 9
+    tuSnap: 50
+    confSnap:
+      shots: 2
+    confAuto:
+      shots: 5
+    clipSize: -1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    power: 60
+    vaporColorSurface: 3
+    vaporDensitySurface: 30
+  - type: STR_MECHTOID_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+  - type: MECHTOID_CORPSE_1
+    name: STR_MECHTOID_CORPSE
+    floorSprite: 2124
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+  - type: MECHTOID_CORPSE_2
+    floorSprite: 2125
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: MECHTOID_CORPSE_3
+    floorSprite: 2126
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: MECHTOID_CORPSE_4
+    floorSprite: 2127
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_MECHTOID_TERRORIST
+    size: 0.0
+    costSell: 80000
+    recover: false
+    liveAlien: true
+
+armors:
+  - type: CYBERDISC_ARMOR
+    allowInv: false
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.3
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+  - type: MECHTOID_ARMOR
+    spriteSheet: MECHTOID_SPRITESHEET.PCK
+    allowInv: false
+    corpseBattle:
+      - MECHTOID_CORPSE_1
+      - MECHTOID_CORPSE_2
+      - MECHTOID_CORPSE_3
+      - MECHTOID_CORPSE_4
+    corpseGeo: STR_MECHTOID_CORPSE
+    frontArmor: 44
+    sideArmor: 40
+    rearArmor: 32
+    underArmor: 30
+    drawingRoutine: 5
+    painImmune: true
+    size: 2
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 0.3
+      - 1.2
+      - 0.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+units:
+  - type: STR_CYBERDISC_TERRORIST
+    stats:
+      tu: 62
+      stamina: 90
+      health: 90
+      bravery: 110
+      reactions: 40
+      firing: 60
+      throwing: 0
+      strength: 90
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+  - type: STR_MECHTOID_TERRORIST
+    race: STR_SECTOID
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 80
+      stamina: 150
+      health: 150
+      bravery: 110
+      reactions: 30
+      firing: 70
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 24
+      melee: 80
+    armor: MECHTOID_ARMOR
+    deathSound: 23
+    standHeight: 23
+    kneelHeight: 16
+    value: 30
+    deathSound: 910
+    intelligence: 3
+    aggression: 5
+    energyRecovery: 50
+    livingWeapon: true
+    capturable: false
+    spotter: 5
+
+extraSprites:
+  - type: MECHTOID_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/Enemies/Mechtoid/MECHTOID_SPRITESHEET.png
+  - type: BIGOBS.PCK
+    files:
+      2124: Resources/Enemies/Mechtoid/MECHTOID_CORPSE_1.png
+      2125: Resources/Enemies/Mechtoid/MECHTOID_CORPSE_2.png
+      2126: Resources/Enemies/Mechtoid/MECHTOID_CORPSE_3.png
+      2127: Resources/Enemies/Mechtoid/MECHTOID_CORPSE_4.png
+  - type: FLOOROB.PCK
+    files:
+      2124: Resources/Enemies/Mechtoid/MECHTOID_CORPSE_1.png
+      2125: Resources/Enemies/Mechtoid/MECHTOID_CORPSE_2.png
+      2126: Resources/Enemies/Mechtoid/MECHTOID_CORPSE_3.png
+      2127: Resources/Enemies/Mechtoid/MECHTOID_CORPSE_4.png
