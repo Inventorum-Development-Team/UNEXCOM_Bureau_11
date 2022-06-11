@@ -410,7 +410,7 @@ items:
       ammoSlot: 0
       arcing: false
     aimRange: 24
-    accuracyAimed: 130
+    accuracyAimed: 115
     tuAimed: 70
     confSnap:
       shots: 3
@@ -418,7 +418,7 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 14
-    accuracySnap: 90
+    accuracySnap: 75
     tuSnap: 40
     confAuto:
       shots: 5
@@ -426,7 +426,7 @@ items:
       ammoSlot: 0
       arcing: false
     autoRange: 9
-    accuracyAuto: 70
+    accuracyAuto: 50
     tuAuto: 30
     accuracyCloseQuarters: 90
     tuLoad: 20
@@ -983,23 +983,23 @@ items:
       arcing: false
     aimRange: 22
     accuracyAimed: 100
-    tuAimed: 75
+    tuAimed: 65
     confSnap:
       shots: 3
       name: STR_CONTROLLED_BURST
       ammoSlot: 0
       arcing: false
-    snapRange: 18
-    accuracySnap: 80
-    tuSnap: 40
+    snapRange: 22
+    accuracySnap: 85
+    tuSnap: 30
     confAuto:
       shots: 5
       name: STR_CONTROLLED_AUTO
       ammoSlot: 0
       arcing: false
-    autoRange: 11
-    accuracyAuto: 60
-    tuAuto: 45
+    autoRange: 15
+    accuracyAuto: 70
+    tuAuto: 35
     accuracyCloseQuarters: 90
     tuLoad: 20
     maxRange: 60
@@ -1330,7 +1330,7 @@ items:
       arcing: false
     snapRange: 18
     accuracySnap: 85
-    tuSnap: 35
+    tuSnap: 30
     confAuto:
       shots: 6
       name: STR_CONTROLLED_AUTO
@@ -1338,7 +1338,7 @@ items:
       arcing: false
     autoRange: 11
     accuracyAuto: 60
-    tuAuto: 40
+    tuAuto: 35
     accuracyCloseQuarters: 90
     tuLoad: 20
     maxRange: 60
@@ -1459,10 +1459,10 @@ items:
       ammoSlot: 0
       arcing: false
     aimRange: 30
-    accuracyAimed: 120
+    accuracyAimed: 140
     tuAimed: 65
     confSnap:
-      shots: 2
+      shots: 3
       name: STR_CONTROLLED_BURST
       ammoSlot: 0
       arcing: false
@@ -1474,7 +1474,7 @@ items:
       name: STR_CONTROLLED_AUTO
       ammoSlot: 0
       arcing: false
-    autoRange: 7
+    autoRange: 9
     accuracyAuto: 40
     tuAuto: 35
     accuracyCloseQuarters: 90
