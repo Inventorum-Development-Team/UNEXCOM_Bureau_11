@@ -229,8 +229,8 @@ crafts:
     costBuy: 500000
     refuelRate: 1000
     repairRate: 5
-    radarRange: 500
-    sightRange: 500
+    radarRange: 700
+    sightRange: 700
     radarChance: 90
     transferTime: 96
     #soldiers: 2
