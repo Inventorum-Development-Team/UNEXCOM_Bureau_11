@@ -827,6 +827,30 @@ alienDeployments:
             - STR_MIND_PROBE
           -
             - STR_MIND_PROBE
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
     briefing:
       #textOffset: -16
       background: BACK01.SCR
