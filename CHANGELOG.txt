@@ -1,3 +1,13 @@
+June-2022 v0.2.1 The Work of a Nation 
+Changes made:
+*Added Custom Inventory Restrictions, by efrenspartano and Brother^2
+*Removed Hit Sounds and Animations from Automatic Weapons
+*Fixed Spiderweb Elevator, by efrenspartano
+*Fixed Missing Event Text
+*Rebalanced Operation Harbinger
+ - Added Mechtoid Units, sprites by Jackstaw2323
+*Revised Language Files
+
 May-2022 v0.2 The Work of a Nation 
 Changes made:
 *Added all the Story missions
