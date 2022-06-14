@@ -1,17 +1,4 @@
 startingConditions:
-    defaultArmor:
-      STR_CIA_AGENT:
-        STR_AGENT_SUIT_UC: 100
-      STR_ARMY_VETERAN:
-        STR_AGENT_SUIT_UC: 100
-      STR_KGB_OFFICER:
-        STR_AGENT_COAT_UC: 100
-    allowedArmors:
-      - STR_AGENT_SUIT_UC
-      - STR_AGENT_COAT_UC
-    allowedItemCategories:
-      - STR_CONCEALED
-      - STR_SEMI_CONCEALED
   - type: STR_SEMI_CONCEALED
     defaultArmor:
       STR_CIA_AGENT:
@@ -26,12 +13,19 @@ startingConditions:
     allowedItemCategories:
       - STR_CONCEALED
       - STR_SEMI_CONCEALED
-    allowedItemCategories:
-      - STR_CONCEALED
-      - STR_SEMI_CONCEALED
     allowedCraft:
       - STR_CADILLAC
   - type: STR_CONCEALED
+    defaultArmor:
+      STR_CIA_AGENT:
+        STR_AGENT_SUIT_UC: 100
+      STR_ARMY_VETERAN:
+        STR_AGENT_SUIT_UC: 100
+      STR_KGB_OFFICER:
+        STR_AGENT_COAT_UC: 100
+    allowedArmors:
+      - STR_AGENT_SUIT_UC
+      - STR_AGENT_COAT_UC
     allowedItemCategories:
       - STR_CONCEALED
     allowedCraft:
