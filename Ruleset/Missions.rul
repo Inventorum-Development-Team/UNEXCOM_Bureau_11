@@ -13,9 +13,6 @@ startingConditions:
     allowedItemCategories:
       - STR_CONCEALED
       - STR_SEMI_CONCEALED
-    allowedItemCategories:
-      - STR_CONCEALED
-      - STR_SEMI_CONCEALED
     allowedCraft:
       - STR_CADILLAC
   - type: STR_CONCEALED
@@ -29,9 +26,6 @@ startingConditions:
     allowedArmors:
       - STR_AGENT_SUIT_UC
       - STR_AGENT_COAT_UC
-    allowedItemCategories:
-      - STR_CONCEALED
-      - STR_SEMI_CONCEALED
     allowedItemCategories:
       - STR_CONCEALED
     allowedCraft:
