@@ -109,6 +109,7 @@ armors:
       - 1.0
     units:
       - STR_CIA_AGENT
+      - STR_ARMY_VETERAN
   - type: STR_ARMY_UNIFORM_UC
     spriteSheet: ARMY_UNIFORM.PCK
     spriteInv: MAN_BDU
@@ -156,10 +157,10 @@ armors:
     corpseBattle:
       - STR_CORPSE_KGB
     loftempsSet: [ 3 ]
-    frontArmor: 8
+    frontArmor: 12
     sideArmor: 8
-    rearArmor: 6
-    underArmor: 4
+    rearArmor: 8
+    underArmor: 6
     spriteFaceGroup: 6
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
     spriteHairGroup: 9
@@ -169,7 +170,7 @@ armors:
       stamina: 0
       health: 0
       bravery: 10
-      reactions: -5
+      reactions: 0
       firing: 0
       throwing: 0
       strength: 0
@@ -178,7 +179,7 @@ armors:
       melee: 0
     damageModifier:
       - 1.0
-      - 1.0
+      - 0.8
       - 1.0
       - 1.0
       - 1.0
