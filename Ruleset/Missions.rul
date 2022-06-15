@@ -1219,7 +1219,7 @@ alienDeployments:
       - alienRank: 5
         lowQty: 2
         highQty: 4
-        dQty: 2
+        dQty: 0
         percentageOutsideUfo: 60
         itemSets:
           -
@@ -1233,9 +1233,9 @@ alienDeployments:
           -
             - STR_MIND_PROBE
       - alienRank: 4
-        lowQty: 2
-        highQty: 4
-        dQty: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
         percentageOutsideUfo: 20
         itemSets:
           -
@@ -1251,7 +1251,7 @@ alienDeployments:
       - alienRank: 3
         lowQty: 1
         highQty: 3
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 20
         itemSets:
           -
@@ -1907,13 +1907,14 @@ alienMissions:
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
       5:
-        STR_THIN_MEN: 100
+        STR_HYBRID_CIVILIAN: 100
       8:
-        STR_THIN_MEN: 80
-        STR_SECTOID: 20
+        STR_HYBRID_CIVILIAN: 80
+        STR_THIN_MAN: 20
       11:
-        STR_THIN_MEN: 50
-        STR_SECTOID: 50
+        STR_HYBRID_CIVILIAN: 50
+        STR_THIN_MAN: 30
+        STR_SECTOID: 20
 #    waves:
 #      - ufo: dummy #don't spawn a ufo, we only want the site
 #        count: 1
