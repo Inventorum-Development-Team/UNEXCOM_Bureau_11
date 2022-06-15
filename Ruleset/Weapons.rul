@@ -1640,7 +1640,7 @@ items:
   - type: STR_STURM_EKANONE_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
-    costSell: 15000
+    costSell: 35000
     weight: 3
     bigSprite: 712
     floorSprite: 712
@@ -1663,10 +1663,8 @@ items:
 # Vikhr Electromagnetic Rifle
   - type: STR_VIKHR_ELECTROMAGNETIC_RIFLE
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES]
-    requiresBuy:
-      - STR_VIKHR_ELECTROMAGNETIC_RIFLE
     size: 0.2
-    costSell: 14000
+    costSell: 240000
     weight: 13
     bigSprite: 720
     floorSprite: 720
@@ -1678,7 +1676,6 @@ items:
       - STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
     costAimed:
       time: 55
-      mana: 2
     confAimed:
       shots: 1
       name: STR_DEADEYE
@@ -1688,7 +1685,6 @@ items:
     accuracyAimed: 200
     costSnap:
       time: 40
-      mana: 2
     confSnap:
       shots: 1
       name: STR_STEADY_SHOT
@@ -1709,10 +1705,7 @@ items:
     listOrder: 239
   - type: STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_CLIPS]
-    requiresBuy:
-      - STR_VIKHR_ELECTROMAGNETIC_RIFLE
     size: 0.1
-    costBuy: 500
     costSell: 420
     weight: 4
     bigSprite: 736
