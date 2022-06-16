@@ -658,6 +658,7 @@ units:
     deathSound: 9
     intelligence: 6
     aggression: 2
+    builtInWeaponSets:
      -
        - STR_ALIEN_LASER_PISTOL
        - STR_ALIEN_LASER_PISTOL_BATTERY
