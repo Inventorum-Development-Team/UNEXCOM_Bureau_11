@@ -16,6 +16,8 @@ maleLast:
   - Brewster
   - Bryant
   - Burroughs
+  - Burns
+  - Blake
   - Carlton
   - Carr
   - Carter
@@ -36,6 +38,7 @@ maleLast:
   - Gutierrez
   - Harding
   - Harper
+  - Hawkeye
   - Hicks
   - Horton
   - Hudson
@@ -48,8 +51,11 @@ maleLast:
   - Kendrick
   - King
   - Kirk
+  - Klinger
   - Lawson
   - Machado
+  - Mulcahy
+  - McIntyre 
   - McNeil
   - Meador
   - Miller
@@ -57,6 +63,7 @@ maleLast:
   - Morris
   - Nash
   - North
+  - O'Reilly
   - O'Connell
   - Ortiz
   - Palacios
@@ -118,6 +125,7 @@ femaleLast:
   - Harper
   - Hicks
   - Horton
+  - Houlihan
   - Hudson
   - Hunt
   - Johnson
