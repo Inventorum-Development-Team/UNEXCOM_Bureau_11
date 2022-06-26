@@ -1025,6 +1025,23 @@ alienDeployments:
     startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CROP_CIRCLES_UFO
     baseSelfDestructCode: STR_DELETE_CROP_CIRCLES_SITES
+    alienBaseUpgrades:
+      0:
+        STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: 100
+      1:
+        STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: 80
+        STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: 20
+      2:
+        STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: 60
+        STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: 40
+      3:
+        STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: 40
+        STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: 60
+      4:
+        STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: 20
+        STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: 80
+      5:
+        STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: 100
     height: 10
     width: 40
     length: 40
@@ -1075,6 +1092,23 @@ alienDeployments:
     startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CATTLE_MUTILATION_UFO
     baseSelfDestructCode: STR_DELETE_CATTLE_MUTILATION_SITES
+    alienBaseUpgrades:
+      0:
+        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 100
+      1:
+        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 80
+        STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: 20
+      2:
+        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 60
+        STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: 40
+      3:
+        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 40
+        STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: 60
+      4:
+        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 20
+        STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: 80
+      5:
+        STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: 100
     height: 10
     width: 40
     length: 40
@@ -1162,6 +1196,23 @@ alienDeployments:
     startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_ABDUCTION_CAR_UFO
     baseSelfDestructCode: STR_DELETE_ABDUCTION_SITES
+    alienBaseUpgrades:
+      0:
+        STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: 100
+      1:
+        STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: 80
+        STR_ABDUCTION_AMBUSH_DEPLOYMENT: 20
+      2:
+        STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: 60
+        STR_ABDUCTION_AMBUSH_DEPLOYMENT: 40
+      3:
+        STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: 40
+        STR_ABDUCTION_AMBUSH_DEPLOYMENT: 60
+      4:
+        STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: 20
+        STR_ABDUCTION_AMBUSH_DEPLOYMENT: 80
+      5:
+        STR_ABDUCTION_AMBUSH_DEPLOYMENT: 100
     height: 10
     width: 40
     length: 40
@@ -1361,6 +1412,298 @@ alienDeployments:
       palette: 2
     markerName: STR_COUNTER_INTELLIGENCE_INVESTIGATION
     markerIcon: 32
+
+#############################################
+  - type: STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
+    customUfo: STR_CROP_CIRCLES_UFO
+    baseSelfDestructCode: STR_DELETE_CROP_CIRCLES_SITES
+    height: 10
+    width: 40
+    length: 40
+    data: &EvidenceData 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+      - alienRank: 4
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM  
+    reinforcements: &KGBAmbush
+      - type: kgb_ambush
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 1
+            customUnitType: STR_D17_SCIENTIST
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+          - alienRank: 2
+            customUnitType: STR_D17_AGENT
+            lowQty: 3
+            highQty: 5
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+    briefing:
+      #textOffset: -16
+      background: CROP_CIRCLES_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT_DESCRIPTION
+      palette: 2
+    markerName: STR_CROP_CIRCLE_INVESTIGATION
+    markerIcon: 30
+
+  - type: STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
+    customUfo: STR_CATTLE_MUTILATION_UFO
+    baseSelfDestructCode: STR_DELETE_CATTLE_MUTILATION_SITES
+    height: 10
+    width: 40
+    length: 40
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+      - alienRank: 4
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+    reinforcements: &KGBAmbush
+      - type: kgb_ambush
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 1
+            customUnitType: STR_D17_SCIENTIST
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+          - alienRank: 2
+            customUnitType: STR_D17_AGENT
+            lowQty: 3
+            highQty: 5
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+    briefing:
+      #textOffset: -16
+      background: CATTLE_MUTILATION_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT_DESCRIPTION
+      palette: 5
+    markerName: STR_CATTLE_MUTILATION_INVESTIGATION
+    markerIcon: 31
+
+  - type: STR_ABDUCTION_AMBUSH_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
+    customUfo: STR_ABDUCTION_CAR_UFO
+    baseSelfDestructCode: STR_DELETE_ABDUCTION_SITES
+    height: 10
+    width: 40
+    length: 40
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+      - alienRank: 4
+        lowQty: 1
+        highQty: 0
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+    reinforcements: &KGBAmbush
+      - type: kgb_ambush
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 1
+            customUnitType: STR_D17_SCIENTIST
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+          - alienRank: 2
+            customUnitType: STR_D17_AGENT
+            lowQty: 3
+            highQty: 5
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+    briefing:
+      #textOffset: -16
+      background: ABDUCTION_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_ABDUCTION_INVESTIGATION_AMBUSH_DESCRIPTION
+      palette: 5
+    markerName: STR_ABDUCTION_INVESTIGATION
+    markerIcon: 33
 
 #############################################
 items:
