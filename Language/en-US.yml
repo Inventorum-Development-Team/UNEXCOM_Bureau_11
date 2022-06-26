@@ -351,6 +351,8 @@ en-US:
   STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_1: "Crop Circle Samples I"
   STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_2: "Crop Circle Samples II"
   STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_3: "Crop Circle Samples III"
+  STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: "Crop Circle Investigation Site"
+  STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT_DESCRIPTION: "This local farm came to our attention when a mysterious pattern appeared on the ground. We still need to take photos of the evidence for our archives. Be advised, the site may be compromised. A group of armed and potentially hostile individuals has been spotted nearby."
 
   STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
   STR_CATTLE_MUTILATION_INVESTIGATION_SITES: "Cattle Mutilation Investigation Sites"
@@ -361,6 +363,8 @@ en-US:
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_1: "Cattle Mutilation Samples I"
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_2: "Cattle Mutilation Samples II"
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_3: "Cattle Mutilation Samples III"
+  STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: "Cattle Mutilation Investigation Site"
+  STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT_DESCRIPTION: "Mutilated cattle in the area was reported to us. We should collect photos of the evidence for our archives. Be advised, the site may be compromised. A group of armed and potentially hostile individuals has been spotted nearby."
 
   STR_COUNTER_INTELLIGENCE_INVESTIGATION: "Counter-Intelligence Operation"
   STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: "Counter-Intelligence Op. Sites"
@@ -386,6 +390,8 @@ en-US:
   STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1: "Minor Abduction Victims I"
   STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2: "Minor Abduction Victims II"
   STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3: "Minor Abduction Victims III"
+  STR_ABDUCTION_AMBUSH_DEPLOYMENT: "Minor Abduction Investigation Site"
+  STR_ABDUCTION_AMBUSH_DEPLOYMENT_DESCRIPTION: "A missing persons report sent to state authorities was intercepted by us. They dissappeared while driving on the highway following a strange lights in the sky. We believe we have located the vehicle, we should take photos of any potential abductees and evidence for the archives. Be advised, the site may be compromised. A group of armed and potentially hostile individuals has been spotted nearby."
 
   STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION: "Counter-Intelligence Operation, Europe"
   STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_SITES: "Counter-Intelligence Op. Sites, Europe"
