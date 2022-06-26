@@ -1700,7 +1700,7 @@ alienDeployments:
       background: ABDUCTION_BACKGROUND
       showTarget: true
       showCraft: true
-      desc: STR_ABDUCTION_AMBUSH_DESCRIPTION
+      desc: STR_ABDUCTION_AMBUSH_DEPLOYMENT_DESCRIPTION
       palette: 5
     markerName: STR_ABDUCTION_INVESTIGATION
     markerIcon: 33
