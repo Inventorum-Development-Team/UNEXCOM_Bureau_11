@@ -4,9 +4,12 @@ Changes made:
 *Removed Hit Sounds and Animations from Automatic Weapons
 *Fixed Spiderweb Elevator, by efrenspartano
 *Fixed Missing Event Text
+*Rebalanced Whispers Mission
 *Rebalanced Operation Harbinger
  - Added Mechtoid Units, sprites by Jackstaw2323
 *Revised Language Files
+*Fixed Grandslam Event reported by Rclipse
+*Added KGB Ambush Missions by Brother^2
 
 May-2022 v0.2 The Work of a Nation 
 Changes made:
