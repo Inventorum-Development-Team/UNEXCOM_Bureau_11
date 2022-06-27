@@ -660,9 +660,8 @@ units:
     aggression: 2
     builtInWeaponSets:
      -
-       - STR_COLT_M1911
-       - STR_COLT_M1911_MAG
-       - STR_COLT_M1911_MAG
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
   - type: STR_HYBRID_DISGUISE_F
     rank: STR_LIVE_NAVIGATOR
     race: STR_HYBRID
@@ -687,9 +686,17 @@ units:
     aggression: 2
     builtInWeaponSets:
      -
+       - STR_BROWNING_HP35
+       - STR_BROWNING_HP35_MAG
+       - STR_BROWNING_HP35_MAG
+     -
        - STR_COLT_M1911
        - STR_COLT_M1911_MAG
        - STR_COLT_M1911_MAG
+     -
+       - STR_WINCHESTER_MODEL_12
+       - STR_ITHACA_37_SHELLS
+       - STR_ITHACA_37_SHELLS
 
 ####################
 ##### KGB D17 #####

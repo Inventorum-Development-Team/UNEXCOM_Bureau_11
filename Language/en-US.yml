@@ -351,6 +351,8 @@ en-US:
   STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_1: "Crop Circle Samples I"
   STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_2: "Crop Circle Samples II"
   STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_3: "Crop Circle Samples III"
+  STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: "Crop Circle Investigation Site"
+  STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT_DESCRIPTION: "This local farm came to our attention when a mysterious pattern appeared on the ground. We still need to take photos of the evidence for our archives. Be advised, the site may be compromised. A group of armed and potentially hostile individuals has been spotted nearby."
 
   STR_CATTLE_MUTILATION_INVESTIGATION: "Cattle Mutilation Investigation"
   STR_CATTLE_MUTILATION_INVESTIGATION_SITES: "Cattle Mutilation Investigation Sites"
@@ -361,6 +363,8 @@ en-US:
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_1: "Cattle Mutilation Samples I"
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_2: "Cattle Mutilation Samples II"
   STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_3: "Cattle Mutilation Samples III"
+  STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: "Cattle Mutilation Investigation Site"
+  STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT_DESCRIPTION: "Mutilated cattle in the area was reported to us. We should collect photos of the evidence for our archives. Be advised, the site may be compromised. A group of armed and potentially hostile individuals has been spotted nearby."
 
   STR_COUNTER_INTELLIGENCE_INVESTIGATION: "Counter-Intelligence Operation"
   STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: "Counter-Intelligence Op. Sites"
@@ -386,6 +390,8 @@ en-US:
   STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1: "Minor Abduction Victims I"
   STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2: "Minor Abduction Victims II"
   STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3: "Minor Abduction Victims III"
+  STR_ABDUCTION_AMBUSH_DEPLOYMENT: "Minor Abduction Investigation Site"
+  STR_ABDUCTION_AMBUSH_DEPLOYMENT_DESCRIPTION: "A missing persons report sent to state authorities was intercepted by us. They dissappeared while driving on the highway following a strange lights in the sky. We believe we have located the vehicle, we should take photos of any potential abductees and evidence for the archives. Be advised, the site may be compromised. A group of armed and potentially hostile individuals has been spotted nearby."
 
   STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION: "Counter-Intelligence Operation, Europe"
   STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_SITES: "Counter-Intelligence Op. Sites, Europe"
@@ -778,7 +784,7 @@ en-US:
   STR_VORKUTA: "Vorkuta"
 ###################################
   STR_PATRICE_LUMUMBA_DEATH_EVENT: "Patrice Lumumba was killed"
-  STR_PATRICE_LUMUMBA_DEATH_EVENT_DESCRIPTION: ""Patrice Lumumba, the Prime Minister of the newborn Dem. Rep. of Congo, was killed by firing squad. This was the result of a series of political struggles against President Kasavubu, Col. Mobutu and the rebel province Katanga's leader Tshombe. Despite the official report of 'angry villagers' killing Lumumba, we belive there are strong ties of the Belgian officers with the perpetrators. Worldwide protests are reported. It's likely this will increase the violence of the ongoing Congo Crisis."
+  STR_PATRICE_LUMUMBA_DEATH_EVENT_DESCRIPTION: "Patrice Lumumba, the Prime Minister of the newborn Dem. Rep. of Congo, was killed by firing squad. This was the result of a series of political struggles against President Kasavubu, Col. Mobutu and the rebel province Katanga's leader Tshombe. Despite the official report of 'angry villagers' killing Lumumba, we belive there are strong ties of the Belgian officers with the perpetrators. Worldwide protests are reported. It's likely this will increase the violence of the ongoing Congo Crisis."
   STR_JFK_BECOMES_35TH_PRESIDENT_EVENT: "John Fitzgerald Kennedy, 35th President of the US"
   STR_JFK_BECOMES_35TH_PRESIDENT_EVENT_DESCRIPTION: "Today, JFK was sworn President. The day was clear, with snow of the previous night. His inauguration was marked with several 'firsts', as he is the first Catholic president, the first born in the 20th Century and the youngest elected President in the history of the United States. He has yet to be briefed on the aliens and Bureau 11, but will be soon."
   STR_BAY_OF_PIGS_FIASCO_EVENT: "Bay of Pigs Fiasco"
