@@ -2253,10 +2253,10 @@ alienMissions:
         STR_HYBRID_CIVILIAN: 100
       8:
         STR_HYBRID_CIVILIAN: 80
-        STR_THIN_MAN: 20
+        STR_THIN_MEN: 20
       11:
         STR_HYBRID_CIVILIAN: 50
-        STR_THIN_MAN: 30
+        STR_THIN_MEN: 30
         STR_SECTOID: 20
 #    waves:
 #      - ufo: dummy #don't spawn a ufo, we only want the site
