@@ -75,6 +75,12 @@ items:
     battleType: 11
     armor: 40
     listOrder: 1000
+  - type: STR_D17_SCIENTIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+    listOrder: 1000
   - type: STR_D17_SCIENTIST_CORPSE
     name: STR_KGB_CORPSE
     weight: 25
