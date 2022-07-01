@@ -6,7 +6,7 @@ cutscenes:
     winGame: true
     slideshow:
       transitionSeconds: 21
-      musicId: GMMARS
+      musicId: GMNEWMAR 
       slides:
         - imagePath: Resources/Misc/Cutscenes/GoodEnding_1.png
           caption: STR_GOOD_ENDING_1
