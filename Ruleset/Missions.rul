@@ -2020,6 +2020,7 @@ missionScripts:
 
 #############################
 alienMissions:
+  - delete: STR_ALIEN_RETALIATION
 
 #############################
 ###### STORY MISSIONS ######
@@ -2329,6 +2330,22 @@ alienMissions:
         huntBehavior: 0
         hunterKillerPercentage: 75
         huntMode: 2
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P4
+        timer: 5000
+        huntBehavior: 0
+        hunterKillerPercentage: 100
+        huntMode: 0
+
+  - type: STR_ALIEN_RETALIATION
+    points: 50
+    raceWeights:
+      0:
+        STR_SECTOID: 50
+        STR_THIN_MEN: 25
+        STR_HYBRID_CIVILIAN: 25
+    waves:
       - ufo: STR_LARGE_SCOUT
         count: 1
         trajectory: P4
