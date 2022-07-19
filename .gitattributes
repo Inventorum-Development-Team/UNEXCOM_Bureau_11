@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+*.md text=auto
+*.txt text=auto
+*.rul text=auto
+*.yml text=auto
+Ruleset/** text=auto
+# correct language types
+Ruleset/*.rul linguist-language=YAML
+# ignore stuff
+GEODATA/** linguist-vendored
+MAPS/** linguist-vendored
+ROUTES/** linguist-vendored
+TERRAIN/** linguist-vendored
