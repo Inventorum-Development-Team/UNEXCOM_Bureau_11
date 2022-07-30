@@ -1,0 +1,1032 @@
+fr:
+######################
+  STR_OPENXCOM: "UNEXCOM: Bureau 11"
+  STR_NEW_GAME: "Opérations de terrain"
+  STR_NEW_BATTLE: "Investigations"
+  STR_MISSION_GENERATOR: "LA VÉRITÉ EST AILLEURS"
+  STR_1_BEGINNER: "1> DÉBUTANT"
+  STR_2_EXPERIENCED: "2> EXPÉRIMENTÉ"
+  STR_3_VETERAN: "3> VÉTÉRAN"
+  STR_4_GENIUS: "4> GÉNIE"
+  STR_5_SUPERHUMAN: "5> SURHUMAIN"    
+  STR_UFOPAEDIA: "Base de Données"
+  STR_UFOPAEDIA_UC: "BASE DE DONNÉES"
+  STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTRER SUR SIGNAL-TEMPS=5 SECS"
+  STR_GO_TO_LAST_KNOWN_UFO_POSITION: "ALLER À LA DERNIÈRE ACTIVITÉ SIGNALÉE"
+  STR_UFO_IS_NOT_RECOVERED: "Le signal n'est pas récupéré"
+  STR_UFO_IS_RECOVERED: "Le signal est récupéré"
+  STR_UFO_RECOVERY: "SIGNAL RÉCUPÉRÉ"
+  STR_UFO_DESTROYED: "SIGNAL DÉTRUIT"
+  STR_UFO_: "SIGNAL D'ACTIVITÉ-{0}"
+  STR_TAILING_UFO: "RECHERCHE DE SIGNAL"
+  STR_INTERCEPTING_UFO: "INTERCEPTER SIGNAL-{0}"
+  STR_OPERATION_UC: "NOM DE CODE> {0}"
+  STR_XCOM_PROJECT_MONTHLY_REPORT: "RAPPORT MENSUEL DU BUREAU 11"
+  STR_XCOM_OPERATIVES_KILLED: "AGENTS DU BUREAU 11 TUÉS"
+  STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "AGENTS DU BUREAU 11 DISPARUS"
+  STR_XCOM_CRAFT_LOST: "VÉHICULE DU BUREAU 11 PERDU"
+  STR_ALIENS_KILLED: "PREUVES NEUTRALISÉES"
+  STR_ALIEN_CORPSES_RECOVERED: "PREUVES DÉTRUITES"
+  STR_LIVE_ALIENS_RECOVERED: "PREUVES RÉCUPÉRÉES"
+  STR_ALIEN_ARTIFACTS_RECOVERED: "ARTEFACTS RÉCUPÉRÉS"
+  STR_CIVILIANS_KILLED_BY_ALIENS: "TÉMOINS NEUTRALISÉS PAR LES ENNEMIS"
+  STR_CIVILIANS_KILLED_BY_XCOM_OPERATIVES: "TÉMOINS NEUTRALISÉS PAR NOS AGENTS"
+  STR_CIVILIANS_SAVED: "TÉMOINS SAUVÉS"
+  STR_XCOM_CRAFT_ARMAMENT: "VÉHICULES ET ARMEMENT BUREAU 11"
+  STR_COUNCIL_IS_GENERALLY_SATISFIED: "La CIA est globalement satisfaite de vos progrès jusqu'à présent."
+  STR_COUNCIL_IS_VERY_PLEASED: "La CIA est très satisfaite de vos excellents progrès et a justifié la poursuite de votre financement."
+  STR_COUNCIL_IS_DISSATISFIED: "La CIA n'est pas satisfaite de vos performances et envisage d'interrompre votre financement."
+  STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Les agents du Bureau 11 à {0} ont localisé un site d'intérêt."
+  STR_ALIEN_BASE_STILL_INTACT: "Récupération de preuves interrompue"
+  STR_ALIEN_BASE_DESTROYED: "Récupération de preuves réussie"
+  STR_ALIEN_BASE_RECOVERY: "RÉCUPÉRATION DE PREUVES"
+  STR_ALIEN_BASE_ASSAULT: "OPÉRATION DE RÉCUPÉRATION DE PREUVES"
+  STR_ALIEN_BASE_ASSAULT_BRIEFING: "Nos yeux dans le ciel ont trouvé un site possible d'activité inconnue. Notre mission est d'identifier et de collecter toutes les preuves trouvées dans la zone. Il n'y a pas encore de confirmation d'ennemis armés à proximité, mais vous devez faire preuve de prudence et être prêts à tout. La mission se terminera une fois que tous les éléments de preuve auront été récupérés (ou que tous les suspects auront été éliminés)"
+  STR_TERROR_CONTINUES: "L'affaire est toujours en cours"
+  STR_ALIENS_DEFEATED: "Affaire classée"
+  
+##################################
+
+  STR_SPRING_ISLAND_BASE: "Spring Island"
+  STR_CIA_AGENT: "Agent de la CIA"
+  STR_FIELD_AGENT: "Agent de terrain"
+  STR_SENIOR_AGENT: "Agent Senior"
+  STR_ASSISTANT_A_I_C: "Assistant A-i-C"
+  STR_AGENT_IN_CHARGE: "Agent en charge"
+  STR_DEPUTY_DIRECTOR: "Directeur adjoint"
+  STR_ARMY_VETERAN_RECRUITMENT: "Recrutement de vétérans de l'armée"
+  STR_ARMY_VETERAN: "Vétéran de l'armée"
+  STR_SERGEANT: "Sergent"
+  STR_STAFF_SERGEANT: "Sergent-chef"
+  STR_SERGEANT_FIRST_CLASS: "Sergent de 1ère Classe"
+  STR_MASTER_SERGEANT: "Sergent Major"
+  STR_WARRANT_OFFICER: "Adjudant"
+  STR_KGB_OFFICER_RECRUITMENT: "Officier Recrutement KGB"
+  STR_KGB_OFFICER: "Officier du KGB"
+  STR_LIEUTENANT: "Lieutenant"
+  STR_CAPTAIN: "Captaine"
+  STR_MAJOR: "Major"
+  STR_LT_COLONEL: "Podpolkovnik"
+  STR_COLONEL: "Polkovnik"
+  
+#################################
+
+  STR_WEAPONS: "ARMES ET MUNITIONS"
+  STR_FIREARMS: "ARMES À FEU"
+  STR_HANDGUNS: "ARMES DE POING"
+  STR_SMGS: "PISTOLETS-MITRAILLEURS"
+  STR_SHOTGUNS: "FUSILS DE CHASSE"
+  STR_CARBINES: "CARABINES"
+  STR_RIFLES: "FUSILS"
+  STR_SNIPER_RIFLES: "FUSILS DE PRÉCISION"
+  STR_LMGS: "LMGS"
+  STR_ARTILLERY: "ARTILLERIE"
+  STR_MAGAZINES: "MAGAZINS"
+  STR_CLIPS: "CHARGEURS"
+  STR_SEMI_CONCEALED: "À DEMI-DISSIMULÉ"
+  STR_CONCEALED: "ENTIÈREMENT DISSIMULÉ"
+  STR_MELEE: "MELÉE"
+  STR_MEDICAL: "MÉDICAL"
+  STR_GRENADES: "GRENADES"
+  STR_PROPRIETARY: "PROPRIÉTAIRE"
+  STR_SOVIET_TECHNOLOGY: "TECHNOLOGIE SOVIÉTIQUE"
+  STR_ALIEN_ARTIFACT: "ARTEFACT ALIEN"
+  
+###################################
+
+  STR_MANA_POOL: "RÉSERVE D'ÉNERGIE"
+  STR_OUTFITS: "TENUES ET ARMURES"
+  STR_AGENT_SUIT_UC: "COSTUME D'AGENT"
+  STR_AGENT_SUIT_UC_UFOPEDIA: "Ce costume permet à nos agents de se fondre dans la population générale, au prix d'une certaine restriction des mouvements."
+  STR_ARMY_UNIFORM_UC: "UNIFORME DE L'ARMÉE"
+  STR_ARMY_UNIFORM_UC_UFOPEDIA: "Uniforme standard de l'armée américaine, largement utilisé par nos forces armées."
+  STR_OFFICER_COAT_UC: "MANTEAU D'OFFICIER"
+  STR_OFFICER_COAT_UC_UFOPEDIA: "Ce manteau protecteur d'officier a également une valeur sentimentale pour les officiers du KGB qui le portent."
+  STR_AGENT_COAT_UC: "MANTEAU D'AGENT"
+  STR_AGENT_COAT_UC_UFOPEDIA: "Il s'agit d'un manteau discret en cuir avec une doublure protectrice que les agents du KGB portent pour mener des opérations sur le terrain sans se faire remarquer, mais qui limite les mouvements rapides."
+  STR_AUGMENTATION_SUIT: "Combinaison d'augmentation"
+  STR_AUGMENTATION_SUIT_UFOPEDIA: "Les expériences sur les servomoteurs hydrauliques ont abouti à ce prototype d'exosquelette. Il est dérivé des recherches effectuées sur l'exosuit Hardiman I de General Electric avec une amélioration substantielle. Alimenté par un sac à dos doté d'un puissant moteur miniature hautement expérimental et relié aux membres par des tubes, des câbles et des barres en titane, cet exosquelette améliore la vitesse et la force de son porteur. En raison de la nature du projet, il est extrêmement coûteux et ne devrait pas faire l'objet d'une production de masse. Cependant, nous nous sommes portés volontaires pour tester ces combinaisons sur le terrain. Les données de recherche seront plus précieuses que tout prix potentiel."
+  STR_AUGMENTATION_SUIT_UC: "COMBINAISON D'AUGMENTATION"
+  STR_AUGMENTATION_SUIT_UC_UFOPEDIA: "La combinaison d'augmentation possède des servomoteurs intégrés alimentés par une batterie externe qui augmentent la force et la mobilité du porteur et génèrent un bouclier énergétique qui bloque les attaques entrantes."
+  STR_SHIELD_S: "Boucliers à {0}%"
+  STR_SHIELD_DOWN: "Boucliers baissés !"
+  
+####################################
+
+  STR_DAMAGE_ARMOR_PIERCING: "PERFORANT"
+  STR_DAMAGE_STUN: "CHOC"
+  STR_DAMAGE_MELEE: "TRANCHER"
+  STR_DAMAGE_ACID: "TOXINE"
+  STR_DAMAGE_PLASMA_BEAM: "ÉCLAIR"
+  STR_DAMAGE_11: "ÉLECTRIQUE"
+  
+###################################
+
+  STR_HIP_FIRE: "Tir rapide"
+  STR_STEADY_SHOT: "Tir normal"
+  STR_DOUBLE_TAP: "Tir Doublé"
+  STR_SPRAY_N_PRAY: "Arrosé & Prier"
+  STR_CONTROLLED_BURST: "Tir en rafale"
+  STR_CONTROLLED_AUTO: "Tir automatique"
+  STR_SUPPRESSION: "Suppression"
+  STR_BOMBS_AWAY: "Bombes à volonté!"
+  STR_RAGE_FIRE: "Tir intense"
+  STR_DEADEYE: "Tir rageur"
+  
+######################################
+
+  STR_SUPPRESSED_WEAPONS_AQUISITION: "Acquisition d'armes déclassées"
+  STR_MILITARY_EQUIPMENT_AQUISITION: "Acquisition d'équipement militaire"
+  STR_SOVIET_WEAPON_AQUISITION: "Acquisition d'armes soviétiques"
+  STR_ALIEN_WEAPON_OPERATION: "Opération d'armement alien"
+  STR_LIGHT_ASSAULT_RIFLE_REQUISITION: "Réquisition fusil d'assaut léger"
+
+  STR_BROWNING_HP35: "Browning HP-35"
+  STR_BROWNING_HP35_MAG: "Chargeur 9x19mm (15x)"
+  STR_BROWNING_HP35_UFOPEDIA: "Le Browning HP-35 est un pistolet semi-automatique fiable chambré en {ALT}9x19mm Parabellum{ALT} utilisé par de nombreuses armées et agences de maintien de l'ordre dans le monde entier."
+
+  STR_COLT_M1911: "Colt M1911"
+  STR_COLT_M1911_MAG: "Chargeur .45 ACP (7x)"
+  STR_COLT_M1911_UFOPEDIA: "Pilier du personnel de l'armée américaine, le Colt M1911, chambré en {ALT}.45 ACP{ALT} a été utilisé sur presque tous les théâtres de combat. Il est également populaire auprès de la population civile et a connu une large diffusion."
+
+  STR_LUPARA_M1897: "Lupara M1897"
+  STR_LUPARA_M1897_SHELLS: "Cartouches calibre 12 (2x)"
+  STR_LUPARA_M1897_UFOPEDIA: "Ce Winchester M1897 modifié a eu son canon scié en échange d'un transport facile et d'une dissimulation. Chambré en cartouches de calibre 12, bien que petit, il a un punch considérable."
+
+  STR_UNITED_DEFENSE_M42: "United Defense M42"
+  STR_UNITED_DEFENSE_M42_20_MAG: "Chargeur 9x19mm (20x)"
+  STR_UNITED_DEFENSE_M42_50_MAG: "Chargeur 9x19mm (50x)"
+  STR_UNITED_DEFENSE_M42_UFOPEDIA: "Connu sous le nom de Marlin, le United Defense M42 a été conçu pour remplacer la mitraillette Thompson, désormais chambrée en {ALT}9x19mm Parabellum{ALT}. Bien qu'il ait été trop coûteux pour être produit à grande échelle, les agents de l'OSS ont estimé qu'il était très performant et fiable."
+
+  STR_SPRINGFIELD_M2: "Springfield M2"
+  STR_SPRINGFIELD_M2_15_MAG: "Chargeur calibre .30 (15x)"
+  STR_SPRINGFIELD_M2_30_MAG: "Chargeur calibre .30 (30x)"
+  STR_SPRINGFIELD_M2_UFOPEDIA: "Le Springfield M2 est une arme de défense personnelle chambrée en {ALT}calibre .30{ALT} destinée aux équipes d'artillerie, au personnel d'approvisionnement et aux troupes d'arrière-garde. Elle est appréciée pour sa facilité d'utilisation et son faible recul, bien qu'elle manque de puissance d'arrêt."
+  
+  STR_HIGH_STANDARD_HDM: "High Standard HDM"
+  STR_HIGH_STANDARD_HDM_MAG: "Chargeur .22 LR (10x)"
+  STR_HIGH_STANDARD_HDM_UFOPEDIA: "Bien que le High Standard HDM, chambré en {ALT}calibre .22 LR{ALT}, soit en aucun cas dépassé, il est toujours utilisé par nos pilotes de U-2 et son silencieux intégré pourrait s'avérer utile pour les opérations secrètes.{NEWLINE}> Semi-cachable"
+  
+  STR_BERETTA_M12: "Beretta M12"
+  STR_BERETTA_M12_UFOPEDIA: "Variante d'un SMG léger conçu par la firme italienne Beretta, utilisé principalement par le personnel de sécurité de divers services diplomatiques (et par la CIA). Il est équipé d'un suppresseur lourd qui annule la plupart du bruit et du flash. Calibré en cartouches {ALT}9x19 Parabellum{ALT}, il a un recul gérable en mode automatique.{NEWLINE}> Semi-cachable"
+  
+  STR_HEART_ATTACK_GUN: "Pistolet d'attaque cardiaque"
+  STR_HEART_ATTACK_GUN_MAG: "Chargeur Toxine .45 ACP (7x)"
+  STR_HEART_ATTACK_GUN_UFOPEDIA: "Le 'Heart Attack Gun' est un M1911 modifié à suppression interne qui tire des fléchettes de ricin. Les fléchettes de toxine se dissolvent sur la peau et provoquent une crise cardiaque, tuant la cible et ne laissant presque aucune trace d'elle-même derrière elle. Cependant, elle met du temps à circuler dans le corps et peut donner à l'ennemi le temps de réagir. Nous n'avons également aucune idée de son efficacité contre la biochimie alienne.{NEWLINE}> Semi-cachable"
+  
+  STR_M3_GREASEGUN: "M3 Greasegun"
+  STR_M3_GREASEGUN_MAG: "Chargeur .45 ACP (30x)"
+  STR_M3_GREASEGUN_UFOPEDIA: "Cette célèbre mitraillette est connue pour sa capacité à être fabriquée facilement et à bon marché pendant la Seconde Guerre mondiale. Elle tire des cartouches {ALT}.45 ACP{ALT} à partir de chargeurs de 30 cartouches."
+  
+  STR_M60_HOG: "M60 Hog"
+  STR_M60_HOG_MAG: "Bande 7.62x51mm NATO (100x)"
+  STR_M60_HOG_UFOPEDIA: "Puissante mitrailleuse légère de conception récente qui utilise du {ALT}7,62x51mm NATO{ALT} dont la cadence de tir est si élevée qu'elle risque de faire fondre le canon. Son bipied intégré est {ALT}déployé{ALT} une fois chargé et octroie un {ALT}Bonus à genoux{ALT} de {ALT}150{ALT}.{NEWLINE}> Définitivement non dissimulable"
+  
+  STR_M79_THUMPER: "M79 Thumper"
+  STR_M79_THUMPER_GRENADE: "Grenade AP 40mm"
+  STR_M79_THUMPER_UFOPEDIA: "Un lance-grenades à canon brisé de la taille d'un fusil, ce qui le rend facile à utiliser. Chambré en grenades {ALT}40mm{ALT}, nous n'étions autorisés à acheter que des grenades anti-personnel car les dommages collatéraux des explosifs puissants ou des balles incendiaires compromettraient le secret de nos opérations."
+  
+  STR_ITHACA_37: "Ithaca 37"
+  STR_ITHACA_37_SHELLS: "Cartouches calibre 12 (6x)"
+  STR_ITHACA_37_UFOPEDIA: "L'Ithaca 37 est un fusil à pompe {ALT}calibre 12{ALT} réputé pour sa fiabilité dans des conditions difficiles, ainsi que pour sa capacité à tirer en un clin d'œil. Il a trouvé sa place dans l'armée et dans de nombreuses forces de police."
+  
+  STR_SPRINGFIELD_M14: "Springfield M14"
+  STR_SPRINGFIELD_M14_MAG: "Chargeur 7.62x51mm NATO (20x)"
+  STR_SPRINGFIELD_M14_UFOPEDIA: "Le fusil de combat standard des forces armées américaines. Calibré au puissant {ALT}7.62x51mm NATO{ALT} dans des chargeurs de 20 cartouches, bien qu'il soit tout à fait capable d'un tir automatique soutenu, il est reccomandé de l'utiliser en semi-auto pour une plus grande précision."
+  
+  STR_SPRINGFIELD_M1903A3: "Springfield M1903A3"
+  STR_SPRINGFIELD_M1903A3_CLIP: "Chargeur Springfield 30-06 (6x)"
+  STR_SPRINGFIELD_M1903A3_UFOPEDIA: "Un fusil à verrou de calibre {ALT}.30-06{ALT} utilisé depuis la Première Guerre mondiale et qui est resté en place pour une bonne raison. Cette version la plus récente a été améliorée pour l'ère moderne."
+  
+  STR_COLT_AR15: "Colt AR-15"
+  STR_COLT_AR15_MAG: "Chargeur 5.56x45mm NATO (20x)"
+  STR_COLT_AR15_UFOPEDIA: "Ce fusil d'assaut léger à tir sélectif est un modèle initialement fabriqué par ArmaLite et désormais produit par Colt. Il utilise le nouveau calibre intermédiaire {ALT}5,56x45mm NATO{ALT}, qui est facile à contrôler et assez précis. Arme très appréciée, elle devrait être le futur fusil de l'armée américaine dans les prochaines décennies."
+  
+  STR_STECHKIN_APS: "Stechkin APS"
+  STR_STECHKIN_APS_MAG: "Chargeur 9x18mm (20x)"
+  STR_STECHKIN_APS_UFOPEDIA: "Ce pistolet, une arme de poing à tir sélectif chambrée en {ALT}9x18mm Makarov{ALT}, originaire de l'Union soviétique a été conçu à l'origine pour les équipages de chars, mais il a été adopté par les agents de la Direction 17 comme leur arme de poing standard."
+  
+  STR_SKORPION_VZ61: "Skorpion vz61"
+  STR_SKORPION_VZ61_UFOPEDIA: "Fabriquée en Tchécoslovaquie. Cette version, chambrée en {ALT}9x18mm Makarov{ALT} au lieu des traditionnelles balles de 7,58mm, a fait son chemin dans les rangs communs de la Direction 17."
+
+  STR_AK_47: "AK-47"
+  STR_AK_47_MAG: "Chargeur 7.62x39mm (30x)"
+  STR_AK_47_UFOPEDIA: "L'AK-47, chambré en {ALT}7,62x39mm soviétique{ALT}, est probablement l'une des armes les plus prolifiques et produites en masse dans le monde, et ce pour une bonne raison. C'est un fusil d'assaut fiable et résistant."
+
+  STR_WINCHESTER_MODEL_12: "Winchester Model 12"
+  STR_WINCHESTER_MODEL_12_UFOPEDIA: "Le modèle 12 de Winchester est un fusil à pompe chambré pour des munitions de {ALT}calibre 12{ALT}. Bien qu'il ait été utilisé pendant la Seconde Guerre mondiale et en Corée, il occupe une place particulière dans le cœur de la population civile américaine. L'acquisition de cette arme ne devrait pas poser de problème, bien qu'il y ait probablement de meilleures alternatives."
+  
+  STR_FN_FAL: "FN FAL"
+  STR_FN_FAL_UFOPEDIA: "Le FN FAL est un fusil de combat de conception belge chambré en {ALT}7,62x51mm{ALT}. Considéré comme le 'bras droit du monde libre', il a sa place dans les armureries de nombreux pays de l'OTAN. Bien qu'il s'agisse d'un excellent fusil que nous ne devrions pas avoir de mal à obtenir, il existe probablement de meilleures alternatives en matière de tir soutenu."
+  
+  STR_CARL_GUSTAF_M45: "Carl Gustaf m/45"
+  STR_CARL_GUSTAF_M45_UFOPEDIA: "Un pistolet SMG {ALT}9x19mm{ALT} de conception suédoise adopté à la fin de la Seconde Guerre mondiale. Depuis, il est devenu un pilier de l'armée suédoise. Nous ne devrions pas avoir de mal à nous en procurer, mais il y a probablement de meilleures alternatives."
+  
+  STR_CHINA_LAKE_LASER_PROJECTOR: "Projecteur laser China Lake"
+  STR_CHINA_LAKE_LASER_PROJECTOR_UFOPEDIA: "Il s'agit d'un prototype avancé d'arme à énergie directe assemblé en secret à la station d'armement aéronavale de China Lake. C'est le produit d'une ingénierie inverse après l'étude des armes laser utilisées par les aliens. Bien qu'il ait été conçu à l'origine pour être une arme aérienne, il a finalement été miniaturisé en une petite arme destinée à être déployée par les forces spéciales de la marine lors d'opérations secrètes. Ils nous ont fourni la plupart de leurs échantillons."
+  
+  STR_STURM_EKANONE: "Sturm Ekanone"
+  STR_STURM_EKANONE_BATTERY: "Batterie de Sturm Ekanone (10x)"
+  STR_STURM_EKANONE_UFOPEDIA: "Le stéréotype sur l'ingénierie allemande est vrai. Ce chef-d'œuvre, le Sturm Ekanone, des mots allemands pour Canon et Électricité, est une arme électrique conçue pour neutraliser les cibles biologiques et mécaniques. Conçue par les ingénieurs de l'OTAN après avoir partagé les prototypes de projecteurs laser fournis par le personnel de China Lake. Elle lance une courte rafale d'électricité qui peut s'étendre à plusieurs cibles."
+
+  STR_VIKHR_ELECTROMAGNETIC_RIFLE: "Vikhr EMR"
+  STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG: "Chargeur Vikhr EMR (10x)"
+  STR_VIKHR_ELECTROMAGNETIC_RIFLE_UFOPEDIA: "Le fusil électromagnétique Vikhr est un prototype de railgun à haute puissance qui lance des balles en alliage de tungstène à des vitesses hallucinantes, pénétrant à travers plusieurs pieds d'acier. Bien que la Direction 17 n'ait pas été disposée à partager beaucoup d'informations sur ses applications prévues, nous pensons qu'il sera utilisé contre l'infanterie mécanisée ou même les véhicules aériens tels que les hélicoptères."
+    
+  STR_ALIEN_LASER_PISTOL: "Pistolet laser alien"
+  STR_ALIEN_LASER_PISTOL_BATTERY: "Batterie légère alienne (15x)"
+  STR_ALIEN_LASER_PISTOL_UFOPEDIA: "Cette 'arme de poing' utilise une technologie inédite pour émettre un puissant faisceau lumineux. En passant devant un compteur Geiger, nous pouvons constater qu'elle émet une petite quantité de radiations, elle n'est donc pas recommandée pour une utilisation sans protection adéquate."
+  
+  STR_ALIEN_LASER_RIFLE: "Fusil laser alien"
+  STR_ALIEN_LASER_RIFLE_BATTERY: "Batterie moyenne alienne (20x)"
+  STR_ALIEN_LASER_RIFLE_UFOPEDIA: "Nos études et rapports de terrain indiquent que cette arme est l'armement standard de l'infanterie ennemie (similaire à nos doctrines). Ce 'fusil', si l'on peut l'appeler ainsi, dispose d'un générateur d'énergie compact, qui émet un faisceau lumineux alimenté par un cristal d'origine inconnue. Ce faisceau est capable de pénétrer les armures sans problème."
+
+  STR_ALIEN_HEAVY_LASER: "Laser lourd alien"
+  STR_ALIEN_HEAVY_LASER_BATTERY: "Batterie lourde alienne (10x)"
+  STR_ALIEN_HEAVY_LASER_UFOPEDIA: "Une arme vraiment lourde, mais extrêmement puissante. Ce canon utilise le même concept d'une source d'énergie qui émet un laser, amplifié par un cristal alien. Ce cristal est assez grand, plus que dans les autres appareils ennemis, ce qui, selon nous, contribue à lui donner une plus grande portée. Nous avons remarqué qu'il a tendance à surchauffer."
+
+  STR_ALIEN_SIEGE_LAUNCHER: "Lanceur lourd alien"
+  STR_ALIEN_SIEGE_LAUNCHER_SHELL: "Munition Lanceur lourd"
+  STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "Contrairement aux autres armes que nous avons trouvées jusqu'à présent, celle-ci semble employer une sorte de principe balistique pour propulser ses projectiles à un angle, similaire à la façon dont nos mortiers fonctionnent. Nous n'avons pas trouvé la façon dont cette arme est tenue. Le projectile est l'une de nos plus grandes préoccupations, car il s'agit fondamentalement d'une bombe atomique miniature. Tout alien utilisant cette arme doit être éliminé en priorité."
+
+  STR_COLLAPSIBLE_SMG: "Pistolet-mitrailleur pliable"
+  STR_COLLAPSIBLE_SMG_UFOPEDIA: "Cette arme peut être confondue avec une mallette, mais elle s'ouvre pour révéler un pistolet à répétition {ALT}9x19mm Parabellum{ALT} à suppression intégrale. Sa conception est inspirée de l'homologue soviétique que nos agents ont récupéré sur le terrain. Sa forme peut le rendre moins précis, mais il est conçu pour être toujours précis à longue portée.{NEWLINE}>Cachable"
+  
+  STR_WELROD: "Welrod"
+  STR_WELROD_UFOPEDIA: "Ce pistolet à verrou {ALT}9x19mm Parabellum{ALT} nous vient de nos vieux amis d'outre-Atlantique. Il était destiné à être utilisé par les forces de résistance dans les territoires occupés par les nazis pendant la Seconde Guerre mondiale, mais il a maintenant trouvé sa place dans les forces antisoviétiques de Gladio en Europe, pour le meilleur... ou pour le pire.{NEWLINE}>Cachable"
+  
+  STR_DELISLE_CARBINE_SNIPER: "Carabine de sniper DeLisle"
+  STR_DELISLE_CARBINE_SNIPER_UFOPEDIA: "La carabine DeLisle est très probablement l'une des armes à feu les plus silencieuses jamais produites. Cette carabine britannique tire des munitions sub-soniques {ALT}.45 ACP{ALT} à travers un suppresseur intégral spécialement conçu. Cette carabine DeLisle a été spécialisée pour le sniping à longue distance avec une lunette de visée de grande puissance.{NEWLINE}>Cachable"
+  
+  STR_DELISLE_CARBINE_PARATROOPER: "Carabine de parachutiste DeLisle"
+  STR_DELISLE_CARBINE_PARATROOPER_UFOPEDIA: "La carabine DeLisle est très probablement l'une des armes à feu les plus silencieuses jamais produites. La carabine britannique tire des munitions sub-soniques {ALT}.45 ACP{ALT} à travers un suppresseur intégral spécialement conçu. Cette carabine DeLisle compacte, modifiée avec une crosse pliante, était à l'origine destinée aux parachutistes.{NEWLINE}>Cachable"
+
+#########################################
+
+  STR_GADGETS: "GADGETS ET GRENADES"
+  STR_BANDAGES: "Bandages"
+  STR_BANDAGES_UFOPEDIA: "Petit paquet de bandages enfermé dans une enveloppe plastique, capable de stopper les hémorragies dans les situations de danger de mort."
+  STR_MEDICAL_BAG: "Sac médical"
+  STR_MEDICAL_BAG_UFOPEDIA: "Sac de premiers secours contenant divers articles médicaux ainsi qu'un kit de chirurgie rudimentaire. Utilisé par les ambulanciers sur le terrain, il n'est peut-être pas très lourd mais il peut sauver la vie d'un homme." 
+  STR_SNAP: "Appareil Photo"
+  STR_SPY_CAMERA: "Caméra espionne"
+  STR_SPY_CAMERA_UFOPEDIA: "Un appareil photo polaroid portable, utilisé pour prendre des photos de preuves. Il possède un rouleau de film assez grand pour prendre 8 photos, et en raison de sa conception propriétaire et de ses pièces personnalisées, il doit être remplacé à la base.{NEWLINE}> Cachable"
+  STR_GRENADE: "Grenade fragmentation Mk67"
+  STR_GRENADE_UFOPEDIA: "Cette grenade à fragmentation à main qui a vu le jour pendant la Seconde Guerre mondiale est une arme mortelle, cependant elle aura du mal à percer les ennemis lourdement blindés ou à couvert."
+  STR_SMOKE_GRENADE: "Grenade fumigène M18"
+  STR_SMOKE_GRENADE_UFOPEDIA: "A été utilisé comme dispositif de signalisation depuis la Seconde Guerre mondiale, cependant il a vu une utilisation récente comme un moyen de dissimuler les positions des troupes. Ne pas inhaler pendant de longues périodes de temps."
+  STR_KA_BAR: "KA-BAR"
+  STR_KA_BAR_UFOPEDIA: "Le KA-BAR est le couteau utilitaire standard utilisé par le corps des Marines depuis la Seconde Guerre mondiale. Mortel et silencieux, il peut être plus dangereux qu'une arme à feu dans les mauvaises, ou les bonnes, mains, selon le point de vue.{NEWLINE}> Cachable"
+  
+  STR_ALIEN_REACTIVE_GRENADE: "Grenade réactive alienne"
+  STR_ALIEN_REACTIVE_GRENADE_UFOPEDIA: "Cet engin explosif est une batterie surchargée d'une arme laser modifiée avec une fusée d'activation et un design épuré, pour être utilisé comme une arme de jet. Les pointes dans le cadre de la grenade lui permettent de s'enfoncer dans le sol (même dans les tissus organiques) et de rester immobile. Les radiations qu'elle émet en font un artefact dangereux s'il n'est pas correctement contenu. Elle réagit aux mouvements à proximité et explose."
+
+  STR_DEVIL_AXE: "Hache diabolique"
+  STR_DEVIL_AXE_UFOPEDIA: "Cette arme de mêlée cérémoniale est utilisée par les membres distingués des rangs aliens. Elle puise dans l'énergie mentale et les compétences psi de l'utilisateur pour augmenter sa puissance. C'est un outil redouté dans les bonnes mains et les bons cerveaux."
+  
+###########################################
+  STR_VEHICLES: "VÉHICULES ET ARMEMENT"
+  STR_VEHICLES1: "VÉHICULES ET ARMEMENT"
+
+  STR_AUTOCANNON: "AUTOCANNON" #
+  STR_BVRAAM: "BVRAAM" # Missile air-air à portée visuelle supérieure
+  STR_AUXILLARY: "AUX."
+
+  STR_EXPERIMENTAL_AEROSPACE: "Le transport expérimental"
+  STR_EXPERIMENTAL_AEROSPACE_UFOPEDIA: "Nos mouvements clandestins utilisant des compagnies aériennes civiles sont très efficaces, mais comme la situation s'aggrave et que les combats directs deviennent plus fréquents, nous devons passer à la vitesse supérieure et obtenir de nouveaux moyens de transport. Des transports plus grands signifient des armes plus grandes. L'armée nous a donné un accès au nouvel hélicoptère UH-1A Iroquois et au véhicule expérimental de transport de troupes de cavalerie blindée XM115 ACTC, déployé sur place par des transporteurs C-5 Galaxy."
+  
+  STR_CADILLAC: "EL DORADO"
+  STR_CADILLAC_UFOPEDIA: "Cadillac El Dorado 1960, pour aller au combat avec style ! Utilisée par nos agents de terrain pour arriver à leur destination après un voyage en avion."
+
+  STR_U2_DRAGON_LADY: "DRAGON LADY"
+  STR_U2_DRAGON_LADY_UFOPEDIA: "U-2 Dragon Lady - Avion de reconnaissance aéroporté à longue portée et à haute altitude, conçu pour rester en l'air pendant de nombreuses heures. Utilisé par la CIA et l'USAF pour obtenir de précieuses informations de renseignement."
+
+  STR_FUEL_TANK_UC: "RÉSERVOIR DE CARBURANT"
+  STR_FUEL_TANK_UFOPEDIA: "Réservoir externe monté sous les ailes, destiné à augmenter la portée de combat de l'avion. Produit une certaine traînée, réduisant ainsi l'accélération et la vitesse. FuelMax: 150, accel: -1, Bonus d'évitement: -5"
+  STR_FUEL_TANK: "Réservoir de carburant"
+
+  STR_FLARE_DISPENSER_UC: "LANCEUR DE FUSÉES ÉCLAIRANTES"
+  STR_FLARE_DISPENSER_UFOPEDIA: "Contre-mesures destinées à détourner les missiles IR tirés sur l'avion. Créées à partir de matériaux pyrotechniques, elles brûlent à des températures bien plus élevées qu'un moteur et peuvent confondre le système de guidage de nombreux missiles. Bonus d'évitement: 25"
+  STR_FLARE_DISPENSER: "Lanceur de fusées éclairantes"
+
+  STR_IMPROVED_SPY_CAMERA_UC: "CAMÉRA ESPIONNE AMÉLIORÉE"
+  STR_IMPROVED_SPY_CAMERA_UFOPEDIA: "Caméra de reconnaissance équipée d'un meilleur objectif et d'un meilleur stockage de photos. Elle augmente le champ de vision de l'appareil, augmentant ainsi efficacement les possibilités de collecter des informations. Portée de vue: 150" 
+  STR_IMPROVED_SPY_CAMERA: "Caméra espionne améliorée"
+
+  STR_AFTERBURNER_UC: "JET THURSTER EXPÉRIMENTAL"
+  STR_AFTERBURNER_UFOPEDIA: "Ce prototype de moteur à réaction est utilisé pour augmenter considérablement l'accélération et la vitesse du véhicule où il est monté. Cependant, le stress imposé au moteur réduit son autonomie. accel: 5, speedMax: 150, fuelMax: -15"
+  STR_AFTERBURNER: "Jet thurster expérimental"
+
+  STR_MUDRANGER: "MUDRANGER"
+  STR_MUDRANGER_UFOPEDIA: "Transport lourd de cavalerie blindée XM115 - Surnommé 'Mudranger', il s'agit d'un transporteur de troupes lourdes très expérimental de l'armée américaine, destiné à transporter et protéger de grandes quantités de soldats et même de véhicules légers."
+
+  STR_HUEY: "IROQUOIS"
+  STR_HUEY_UFOPEDIA: "UH-1A Iroquois - hélicoptère de transport léger, utilisé pour larguer ou évacuer rapidement des troupes sur le champ de bataille. Il a une courte portée, nos troupes doivent être emmenées sur des C-130 vers les sites de mission avant le déploiement."
+
+  STR_STARFIGHTER: "STARFIGHTER"
+  STR_STARFIGHTER_UFOPEDIA: "F-104 Starfighter - Le 'Missile habité', intercepteur haut de gamme de l'USAF, destiné au combat à haute altitude et aux rencontres rapides avec les bombardiers ennemis."
+  
+  STR_OXCART: "OXCART"
+  STR_OXCART_UFOPEDIA: "A-12 Oxcart - Superbe avion de reconnaissance construit pour la CIA, destiné à remplacer l'U-2, plus lent, dans les missions de surveillance. Il peut voler plus vite et plus haut que la plupart des avions modernes."
+
+  STR_SKYRANGER: "SKYRANGER"
+  STR_SKYRANGER_UFOPEDIA: "X-62 - Hybride hélicoptère-avion, il peut décoller verticalement avec le rotor principal et naviguer avec ses hélices d'ailes. De conception robuste, il est conçu pour le transport de troupes lourdes sur des moyennes et longues distances."
+
+  STR_USAF_INTERCEPTOR_REQUISITION: "Réquisition intercepteur USAF"
+  STR_USAF_INTERCEPTOR_REQUISITION_UFOPEDIA: "Les observateurs au sol et les engins de reconnaissance aéroportés ont détecté une forte augmentation de l'activité des engins aliens au-dessus de l'espace aérien nord-américain. Afin d'escorter nos transports vers les sites d'investigation, nous avons demandé à l'USAF des F-104 Starfighter, un intercepteur de pointe à haute altitude. Sa portée est limitée mais est compensée par son incroyable vitesse. Son équipage sera composé de pilotes de l'USAF, mais le réarmement et les réparations seront effectués sur nos bases. Coordonnez les Starfighters avec des avions de reconnaissance comme les Oxcarts et les Dragon Ladies pour traquer les OVNI."
+  
+  STR_GYRODYNE_TRANSPORT_HELICOPTER: "Hélicoptère de transport Gyrodone"
+
+  STR_CIA_RECON_CRAFT_REQUISITION: "Réquisition avions reconnaissance CIA"
+  STR_CIA_RECON_CRAFT_REQUISITION_UFOPEDIA: "L'augmentation de l'activité alienne dans le ciel de l'Amérique du Nord et l'incapacité des radars au sol à les suivre paralysent gravement nos capacités de défense. Nous ne pouvons pas engager un vaisseau que nous ne pouvons pas voir. Afin d'augmenter nos chances d'interception, nous avons demandé l'autorisation d'utiliser l'avion secret de reconnaissance A-12 Oxcart à très haute altitude et supersonique. C'est l'avion le plus rapide dont nous disposons dans notre arsenal et il nous aidera à surveiller le ciel. Il a une portée radar plus courte que l'U-2, mais une efficacité accrue dans la détection des vaisseaux ennemis. Coordonnez les Oxcarts avec les Starfighters pour intercepter les vaisseaux étrangers."
+  
+  STR_SIDEWINDER: "SIDEWINDER"
+  STR_SIDEWINDER_UFOPEDIA: "AIM-9E Sidewinder - Missile air-air américain à courte portée avec guidage IR. Il est doté d'une ogive à fragmentation qui déchiquette les aéronefs ennemis une fois qu'elle les a touchés."
+  STR_SIDEWINDER_LAUNCHER: "Lanceur Sidewinder"
+  STR_SIDEWINDER_MISSILES: "Missiles Sidewinder"
+
+  STR_VULCAN: "M61 VULCAN"
+  STR_VULCAN_UFOPEDIA: "M61 Vulcan - canon air-air américain standard, largement utilisé par les avions de l'USAF. Il possède une cadence de tir extrêmement élevée (6000 cps par minute) et est très fiable, mais pas très précis - il tire des balles de 20mm. Canon de type Gatling"
+  STR_VULCAN_CANNON: "Canon M61 Vulcan"
+  STR_VULCAN_CANNON_ROUNDS_X50: "Munitions Canon M61 Vulcan (x50)"
+
+###############################
+######## SIDE MISSIONS ########
+###############################
+
+  STR_CROP_CIRCLE_INVESTIGATION: "Enquête sur les cercles de culture"
+  STR_CROP_CIRCLE_INVESTIGATION_SITES: "Sites d'investigation des cercles de culture"
+  STR_CROP_CIRCLES_UFO: "Cercle de culture"
+  STR_CROP_CIRCLE_INVESTIGATION_: "Site d'investigation d'un cercle de culture"
+  STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: "Site d'investigation d'un cercle de culture"
+  STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "Nous avons été appelés dans une ferme locale pour mener des recherches sur une figure mystérieuse faite sur le sol. La zone a été bouclée par la police d'État et nous avons reçu pleine juridiction. Nous avons besoin de photos de toute preuve d'activités extraterrestres, pour les archives."
+  STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_1: "Échantillons de cercles de culture I"
+  STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_2: "Échantillons de cercles de culture II"
+  STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_3: "Échantillons de cercles de culture III"
+  STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT : "Site d'enquête de cercles de culture"
+  STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT_DESCRIPTION : "Cette ferme locale a attiré notre attention lorsqu'un motif mystérieux est apparu sur le sol. Nous devons encore prendre des photos des preuves pour nos archives. Soyez avertis, le site peut être compromis. Un groupe d'individus armés et potentiellement hostiles a été repéré à proximité."
+  
+  STR_CATTLE_MUTILATION_INVESTIGATION: "Enquête sur la mutilation du bétail"
+  STR_CATTLE_MUTILATION_INVESTIGATION_SITES: "Sites d'enquête sur la mutilation du bétail"
+  STR_CATTLE_MUTILATION_UFO: "Scène de mutilation de bétail"
+  STR_CATTLE_MUTILATION_INVESTIGATION_: "Site d'enquête sur la mutilation du bétail"
+  STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: "Site d'enquête sur les mutilations de bétail"
+  STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "Les autorités de l'État nous ont signalé la présence de bovins mutilés dans une zone locale. Nous avons été appelés à enquêter dans la zone où le bétail a été retrouvé mutilé. Les forces de police locales recherchent des suspects dans la zone. Nous avons besoin de photos comme preuve de l'implication des aliens, pour les archives."
+  STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_1: "Échantillons de mutilation du bétail I"
+  STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_2: "Échantillons de mutilation du bétail II"
+  STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_3: "Échantillons de mutilation du bétail III"
+  STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: "Site d'enquête sur la mutilation du bétail"
+  STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT_DESCRIPTION: "On nous a signalé la présence de bétail mutilé dans la région. Nous devrions recueillir des photos des preuves pour nos archives. Soyez avertis, le site peut être compromis. Un groupe d'individus armés et potentiellement hostiles a été repéré à proximité."
+
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION: "Opération de contre-espionnage"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: "Sites d'opérations de contre-espionnage"
+  STR_KGB_HIDEOUT_UFO: "Cachette suspectée"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_: "Site d'opération de contre-espionnage"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT: "Site d'opération de contre-espionnage"
+  STR_COUNTER_INTELLIGENCE_INVESTIGATION_DESCRIPTION: "Un rapport effectué par des unités du FBI a détecté une cachette présumée d'agents étrangers dans une zone urbaine. Nous avons été déployés pour détecter cette cachette, localiser le bâtiment et déterminer si les habitants représentent une menace pour la sécurité nationale. Soyez prudents, ils peuvent être armés."
+
+  STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION: "Enquête sur les mutilations majeures du bétail"
+  STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_SITES: "Sites d'enquête sur les mutilations majeures de bétail"
+  STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_: "Site de mutilation majeure du bétail"
+  STR_MAJOR_CATTLE_MUTILATION_UFO: "Scène de mutilation majeure de bétail"
+  STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: "Site d'enquête sur les mutilations majeures de bétail"
+  STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "Nous venons de recevoir un rapport urgent : un groupe d'individus inconnus accomplit une sorte de rituel dans une ferme locale. Les propriétaires ont informé qu'ils ont entendu des cris venant des enclos des animaux, il est probable qu'ils soient attaqués. Les individus sont probablement armés, vous avez la permission d'engager le combat si nécessaire."
+  STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_RACE: "Échantillons de mutilation majeure du bétail"
+
+  STR_ABDUCTION_INVESTIGATION: "Enquête sur les enlèvements mineurs"
+  STR_ABDUCTION_INVESTIGATION_SITES: "Sites d'enquête sur un enlèvement mineur"
+  STR_ABDUCTION_UFO: "Scène d'enlèvement mineur"
+  STR_ABDUCTION_INVESTIGATION_: "Site d'enquête sur un enlèvement mineur"
+  STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: "Site d'enquête sur un enlèvement mineur"
+  STR_ABDUCTION_INVESTIGATION_DEPLOYMENT_DESCRIPTION: "Les autorités de l'État signalent la disparition de personnes qui circulaient sur l'autoroute il y a quelques jours. Leurs proches ont contacté les autorités de l'État pour obtenir du soutien et nous avons intercepté les rapports. Il y a des rapports de lumières étranges autour de la zone où la personne a disparu, nous soupçonnons une implication alienne. Fouillez le véhicule et les victimes, analysez si elles sont encore en vie et ramenez-les à la base pour les interroger. Nous avons besoin de photos des possibles personnes enlevées pour les archives."
+  STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1: "Victimes d'enlèvements mineurs I"
+  STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2: "Victimes d'enlèvements mineurs II"
+  STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3: "Victimes d'enlèvements mineurs III"
+  STR_ABDUCTION_AMBUSH_DEPLOYMENT: "Site d'enquête sur un enlèvement mineur"
+  STR_ABDUCTION_AMBUSH_DEPLOYMENT_DESCRIPTION: "Un rapport de personnes disparues envoyé aux autorités de l'état a été intercepté par nous. Ils ont disparu alors qu'ils roulaient sur l'autoroute en suivant une étrange lumière dans le ciel. Nous pensons avoir localisé le véhicule, nous devrions prendre des photos de tout enlèvement potentiel et des preuves pour les archives. Soyez avertis, le site peut être compromis. Un groupe d'individus armés et potentiellement hostiles a été repéré à proximité."
+  
+  STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION: "Opération de contre-espionnage, Europe"
+  STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_SITES: "Sites d'opérations de contre-espionnage, Europe"
+  STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_: "Site d'opération de contre-espionnage en Europe"
+  STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DEPLOYMENT: "Site d'opération de contre-espionnage, Europe"
+  STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DESCRIPTION: "Les agents Gladio travaillant sous couverture en Europe ont localisé une possible cachette du KGB dans leur zone d'opération. Il y a de fortes chances qu'ils utilisent leur complexe comme poste d'écoute pour perturber nos efforts de surveillance alienne. Il faut que cela cesse maintenant. Une équipe Gladio est déployée pour nous aider sur le terrain. On s'attend à ce que les suspects soient armés."
+
+  STR_EVIDENCE: "Preuves"
+  STR_INVESTIGATION_EVIDENCE: "PREUVES DE L'ENQUÊTE"
+  
+###############################
+######## CROP CIRCLES #########
+###############################
+
+##############################
+####### Initial Intel ########
+##############################
+  STR_PLASMA_RESIDUE_1: "Liquide résiduel 1"
+  STR_PLASMA_RESIDUE_2: "Liquide résiduel 2"
+  STR_PLASMA_RESIDUE_3: "Liquide résiduel 3"
+  STR_RESIDUAL_FLUID: "Liquide résiduel"
+  STR_CROP_CIRCLE_REPORT: "Rapport de départ: cercles de culture"
+  STR_CROP_CIRCLE_REPORT_UFOPEDIA: "Les cercles de culture, motifs inexpliqués trouvés dans les champs de culture à travers le monde, n'ont jamais eu d'explication globale. Comme leur nature mystérieuse a été attribuée à des aliens, nous avons envoyé des agents pour recueillir des preuves sur l'un de ces sites. Un résidu chimique inflammable et nocif pour l'environnement a été trouvé sur les lieux. Nous pensons que ce produit chimique a été utilisé pour initier une combustion contrôlée qui a gravé le motif. Ces motifs peuvent être créés par des aliens pour signaler les OVNIs volant au-dessus de leur tête, bien que nous ne sachions toujours pas de quoi il s'agit. Bien que nous soupçonnions qu'ils soient de nature alienne, nous n'avons aucune preuve concluante."
+  
+##############################
+####### Obtained Intel #######
+##############################
+  STR_BURNED_GROUND_INTEL_1: "Infos sur le sol brûlé I"
+  STR_BURNED_GROUND_INTEL_1_UFOPEDIA: "La photographie de cette tache sur le sol nous rappelle la trace laissée par une explosion de forte puissance. Notre compteur Geiger indique des traces résiduelles d'un certain type de radiation. Notre laboratoire demande une autre photographie pour la comparer et tenter d'analyser l'origine de celle-ci."
+  
+  STR_BURNED_GROUND_INTEL_2: "Infos sur le sol brûlé II"
+  STR_BURNED_GROUND_INTEL_2_UFOPEDIA: "L'image photographique que nous avons récupérée sur le site est identique à l'échantillon précédent. Nos scientifiques et techniciens ont conclu que ce motif de brûlure est causé par l'allumage d'un certain type de moteur ou de machine. Notre personnel R&D a besoin d'une dernière photographie pour compléter l'analyse."
+  
+  STR_BURNED_GROUND_INTEL_3: "Infos sur le sol brûlé III"
+  STR_BURNED_GROUND_INTEL_3_UFOPEDIA: "Notre équipe R&D a terminé l'analyse de la dernière photographie livrée du site de recherche. Le résultat, comparé aux informations fournies par les détecteurs Geiger, indique que la brûlure du sol a été causée par un outil d'exploitation inconnu, dont la fonction est de couper proprement les matières organiques et inorganiques. Celui qui fabrique ces cercles utilise des outils de haute technologie."
+  
+  STR_BURNED_GROUND_MAJOR_REPORT: "Rapport final: Terre brûlée"
+  STR_BURNED_GROUND_MAJOR_REPORT_UFOPEDIA: "On ne peut que deviner l'intention des créateurs de ces étranges cercles que l'on retrouve sur les cultures et les terres agricoles à travers le monde. S'agit-il d'une sorte de signal ? Un avertissement ? Les cercles ont attiré l'attention du public et les 'experts' du monde entier tentent à la fois de les expliquer ou d'obtenir des crédits en revendiquant la création de ces figures. Quoi que cela puisse représenter, nous devons être prêts pour la suite."
+  
+  STR_RESIDUAL_FLUID_INTEL_1: "Infos sur le Liquide résiduel I"
+  STR_RESIDUAL_FLUID_INTEL_1_UFOPEDIA: "Nous avons trouvé cet échantillon près de la zone où une 'lumière brillante dans le ciel' a été signalée, avant de créer des cercles sur le terrain. Sa lueur particulière non naturelle et sa puanteur nous amènent à penser qu'il s'agit d'une sorte de toxine ou de déchet toxique. Nos agents de terrain la décrivent comme 'l'odeur de l'enfer'. D'autres tests sont nécessaires pour identifier l'origine et le but de ce fluide."
+  
+  STR_RESIDUAL_FLUID_INTEL_2: "Infos sur le Liquide résiduel II"
+  STR_RESIDUAL_FLUID_INTEL_2_UFOPEDIA: "L'analyse réalisée en laboratoire s'est terminée par un incident. Un de nos techniciens chargé de manipuler les échantillons que nous récupérons, est entré accidentellement en contact avec le fluide récupéré sur le site d'investigation et a immédiatement perdu connaissance. Après avoir été hospitalisé en urgence et être resté plusieurs jours dans un état comateux, nous avons réalisé que cette substance était peut-être un sédatif puissant. Un échantillon supplémentaire est nécessaire pour terminer l'étude. La plus grande prudence est recommandée."
+  
+  STR_RESIDUAL_FLUID_INTEL_3: "Infos sur le Liquide résiduel III"
+  STR_RESIDUAL_FLUID_INTEL_3_UFOPEDIA: "La récente prise de vue a été concluante : ce résidu visqueux appartient à un type de drogue très puissante, nous pensons qu'il a été utilisé par des agents extérieurs pour assommer et potentiellement kidnapper un groupe d'individus. Nous n'avons trouvé aucune trace de ces derniers, mais nous n'excluons pas l'idée qu'un civil était présent au moment de la création de cet agroglyphe."
+  
+  STR_RESIDUAL_FLUID_MAJOR_REPORT: "Rapport final: Fluide résiduel"
+  STR_RESIDUAL_FLUID_MAJOR_REPORT_UFOPEDIA: "Les résultats combinés des investigations ont permis de conclure que les envahisseurs utilisent des substances toxiques dans l'intention d'endormir des êtres vivants. L'espèce des êtres vivants et l'intention de l'utilisation de la drogue étrangère ne sont pas claires. Nos scientifiques vont essayer de la réutiliser, ils espèrent qu'elle pourra être utile à nos opérations."
+
+  STR_DELETE_CROP_CIRCLES_SITES: "Juridiction déléguée - Cercles de culture"
+  STR_DELETE_CROP_CIRCLES_SITES_UFOPEDIA: "Nous avons collecté toutes les données nécessaires sur la création des Cercles de culture dans le pays. Nous n'avons plus besoin de déployer nos agents, nous avons donc délégué la responsabilité d'identifier et de sécuriser tout cercle signalé à partir de maintenant. Les autorités de l'État s'en occuperont désormais."
+
+###################################
+######## CATTLE MUTILATION ########
+###################################
+
+##############################
+####### Initial Intel ########
+##############################
+  STR_USELESS_ORGANS_1: "Organes dispersés 1"
+  STR_USELESS_ORGANS_2: "Organes dispersés 2"
+  STR_USELESS_ORGANS_3: "Organes dispersés 3"
+  STR_USELESS_ORGANS_4: "Organes dispersés 4"
+  STR_USELESS_ORGANS_5: "Organes dispersés 5"
+  STR_USELESS_ORGANS_6: "Organes dispersés 6"
+  STR_MUTILATED_CATTLE: "Bovins mutilés"
+  STR_SPLATTERED_BLOOD: "Sang répandu"
+  STR_CATTLE_MUTILATION_REPORT: "Rapport de départ: mutilation du bétail"
+  STR_CATTLE_MUTILATION_REPORT_UFOPEDIA: "Le bétail est depuis peu la cible d'agents étrangers opérant à l'intérieur de nos frontières. Le processus de mise en pièces de ces animaux a été méticuleux. Après avoir réassemblé ce qui restait de la pauvre créature, nous avons trouvé des marques de brûlures. Cela indique qu'ils ont été découpés par un laser à haute puissance. Plusieurs organes clés étaient manquants. Notre théorie actuelle est que les auteurs ont enlevé ces bovins et prélevé certains organes dont ils avaient besoin. Pour quoi ? Nous restons incertains. La subsistance, la curiosité scientifique..., bien qu'ils puissent avoir plus de sympathie pour une vie plus intelligente, ceci montre qu'ils sont capables de cruauté."
+  
+##############################
+####### Obtained Intel #######
+##############################
+  STR_CATTLE_CORPSE_INTEL_1: "Infos sur les cadavres de bovins I"
+  STR_CATTLE_CORPSE_INTEL_1_UFOPEDIA: "Une découverte choquante, nos agents ont trouvé la carcasse pourrie et vide d'un bovin mort. Des preuves photographiques ont été prises, ainsi que des échantillons de tissus. Ce cadavre particulier est FUBAR, nous devons en trouver un autre pour continuer l'enquête."
+  
+  STR_CATTLE_CORPSE_INTEL_2: "Infos sur les cadavres de bovins II"
+  STR_CATTLE_CORPSE_INTEL_2_UFOPEDIA: "Ce cadavre est dans un meilleur état que le précédent que nous avons trouvé. Comme pour les autres preuves que nous avons photographiées, nos compteurs Geiger ont commencé à signaler la présence de radiations près du corps. L'examen des photos a montré une coupure nette sur le ventre de l'animal, ainsi que de petites coupures sur les jambes et le dos. Notre personnel a besoin d'un autre rapport pour générer d'autres renseignements."
+  
+  STR_CATTLE_CORPSE_INTEL_3: "Infors sur les cadavres de bovins III"
+  STR_CATTLE_CORPSE_INTEL_3_UFOPEDIA: "Les dernières preuves requises sont en cours d'analyse. Les photos et les échantillons physiques que nous avons récupérés dans la zone d'investigation nous ont permis d'en savoir plus sur cette étrange activité. Le fait que toutes les coupures et les organes aient été retirés avec une précision propre, nous suggérons qu'ils les collectent à des fins scientifiques."
+  
+  STR_CATTLE_CORPSE_MAJOR_REPORT: "Rapport final: cadavres de bovins"
+  STR_CATTLE_CORPSE_MAJOR_REPORT_UFOPEDIA: "Les étrangers collectent des échantillons organiques de notre planète. Ils s'intéressent particulièrement au bétail, probablement parce qu'il est plus facile de l'enlever et de prélever des échantillons d'organes et de peau qu'un humain, très probablement en raison de sa grande taille. Nous supposons qu'ils font cela soit à des fins scientifiques, soit pour obtenir de la nourriture, mais cela génère une autre question... où stockent-ils les échantillons ?"
+  
+  STR_CATTLE_BLOOD_INTEL_1: "Infos sur le sang de bovin I"
+  STR_CATTLE_BLOOD_INTEL_1_UFOPEDIA: "Des éclaboussures de sang ont été trouvées dans la zone où les phénomènes rapportés ont eu lieu. Les preuves photographiques suggèrent que l'éclaboussure a été générée par une sorte de tranche. Après analyse, nous avons identifié une probable origine animale. Nous devons rechercher d'autres preuves de ce type afin d'obtenir des informations plus précises sur l'auteur du crime."
+  
+  STR_CATTLE_BLOOD_INTEL_2: "Infos sur le sang de bovin II"
+  STR_CATTLE_BLOOD_INTEL_2_UFOPEDIA: "Une autre tache de sang a été trouvée sur le site de l'enquête. Cette fois, notre équipe médico-légale a pu en déterminer l'origine exacte, du bétail. Et pas seulement un, mais l'ADN d'au moins 15 animaux différents est mélangé dans la flaque. Cela soulève la question suivante : pourquoi quelqu'un ou quelque chose verserait-il autant de sang animal en un seul endroit ? Un autre échantillon de cette preuve pourrait aider notre personnel à dévoiler le mystère."
+   
+  STR_CATTLE_BLOOD_INTEL_3: "Infos sur le sang de bovin III"
+  STR_CATTLE_BLOOD_INTEL_3_UFOPEDIA: "Un autre échantillon de sang de bovin est arrivé au laboratoire. Mais cette fois, nous avons identifié quelque chose d'autre à l'intérieur : de petites particules. Ces particules semblent contenir une sorte d'énergie, probablement pour alimenter un artefact ou pour nourrir quelque chose. L'équipe scientifique va travailler sur le rapport final à ce sujet."
+  
+  STR_CATTLE_BLOOD_MAJOR_REPORT: "Rapport final: Sang de bovins"
+  STR_CATTLE_BLOOD_MAJOR_REPORT_UFOPEDIA: "Sur la base de nos études précédentes, nous sommes arrivés à la conclusion que les étrangers drainent le sang du bétail de ferme, très probablement pour se nourrir. Ils ajoutent des sortes d'additifs (comme les vitamines de notre nourriture) pour transformer les nutriments. Nous n'avons trouvé que du sang animal jusqu'à présent, mais nos scientifiques ne rejettent pas l'idée de trouver du sang humain à l'avenir."
+  
+  STR_CATTLE_ORGANS_INTEL_1: "Infos sur les organes de bovins I"
+  STR_CATTLE_ORGANS_INTEL_1_UFOPEDIA: "Nous avons trouvé ce qui ressemble aux entrailles sectionnées d'un être vivant inconnu. Ils sont presque irréconciliables, probablement extraits par la force brute. Nous n'avons pas pu trouver le cadavre auquel ces organes appartiennent. Notre équipe scientifique a demandé un autre échantillon en meilleur état pour pouvoir mener des recherches appropriées."
+  
+  STR_CATTLE_ORGANS_INTEL_2: "Infos sur les organes de bovins II"
+  STR_CATTLE_ORGANS_INTEL_2_UFOPEDIA: "Un nouvel échantillon est arrivé. Son but est encore inconnu. Cependant, nous avons trouvé de petites lacérations semblables à des morsures sur la surface de l'organe. A-t-il été mordu par quelqu'un ? A-t-il été rompu avec un outil ? Nous ne le savons pas encore, mais nous savons que l'être qui a fait ça cherche activement d'autres organes. L'équipe médico-légale pense pouvoir étendre ses recherches si nous apportons un autre échantillon."
+  
+  STR_CATTLE_ORGANS_INTEL_3: "Infos sur les organes de bovins III"
+  STR_CATTLE_ORGANS_INTEL_3_UFOPEDIA: "Le dernier échantillon d'organe était en excellente condition. Il semble si propre et parfaitement préservé, presque comme s'il était destiné à être utilisé comme un ingrédient de recette de cuisine. Nos agents rapportent même qu'il semble qu'il n'ait pas été retiré de la créature à laquelle il appartenait, comme si elle était encore vivante. Avec cette analyse finale, nous avons terminé l'enquête sur ce sujet."
+  
+  STR_CATTLE_ORGANS_MAJOR_REPORT: "Rapport final: Organes de bovins"
+  STR_CATTLE_ORGANS_MAJOR_REPORT_UFOPEDIA: "Les méthodes des envahisseurs pour obtenir des échantillons d'organes se sont beaucoup améliorées au fil du temps. Au début, elles étaient très violentes mais les derniers échantillons que nous avons pu récupérer étaient en meilleur état. Peut-être les premiers étaient-ils inutiles à leur cause ? Notre personnel pense qu'une puissance étrangère collecte des échantillons d'ADN et de tissus sur le bétail afin de créer une sorte d'arme biologique, probablement destinée à perturber les chaînes d'approvisionnement alimentaire occidentales. Ou pire encore, des expériences pour créer des médicaments à des fins encore inconnues."
+
+  STR_DELETE_CATTLE_MUTILATION_SITES: "Compétence déléguée - Mutilation du bétail"
+  STR_DELETE_CATTLE_MUTILATION_SITES_UFOPEDIA: "Nous avons autorisé les autorités de l'État à identifier et à sécuriser tout site supplémentaire où le bétail local et d'autres animaux de ferme ont été attaqués par les aliens. Jusqu'à présent, aucun n'a comporté de forces actives aliennes, nous considérons donc que les unités de maintien de l'ordre peuvent s'en occuper en toute sécurité."
+
+  STR_DELETE_MAJOR_CATTLE_MUTILATION_SITES: "Juridiction déléguée - Mutilation majeure du bétail"
+  STR_DELETE_MAJOR_CATTLE_MUTILATION_SITES_UFOPEDIA: "Comme le danger d'une invasion augmente, nous devons concentrer nos efforts sur l'acquisition de plus d'informations sur le but des intrus. Nous avons déjà recueilli toutes les preuves liées à la mutilation du bétail et les forces de l'ordre locales s'occupent déjà des rapports mineurs. Mais les attaques majeures impliquent souvent des forces actives aliens, c'est pourquoi nous ne pouvons pas permettre aux services de police locaux d'être impliqués. Nos amis de la zone 51 s'occuperont désormais des mutilations majeures."
+  
+###################################
+######## COUNTER INTELLIGENCE #####
+###################################
+  STR_DELETE_COUNTER_INTELLIGENCE_SITES: "Compétence déléguée - Contre-espionnage"
+  STR_DELETE_COUNTER_INTELLIGENCE_SITES_UFOPEDIA: "Nous pensons avoir rassemblé toutes les preuves nécessaires de l'activité d'agents soviétiques à l'intérieur de nos frontières. Mais nous devons nous concentrer pour contrer la véritable menace, les forces aliennes. Nous avons donc décidé de déléguer toute autre opération de contre-espionnage à nos collègues de la Zone 51."
+
+##############################
+####### Initial Intel ########
+##############################
+  STR_D17_SOLDIER_CORPSE: "Corps Soldat D17"
+  STR_D17_OFFICER_CORPSE: "Corps Officier D17"
+  STR_D17_AGENT_CORPSE: "Corps Agent D17"
+  STR_D17_SCIENTIST: "Scientifique D17"
+  STR_D17_SCIENTIST_CORPSE: "Corps Scientifique D17"
+  STR_DATA_BRIEFCASE: "Mallette de données du KGB"
+  STR_LISTENING_DEVICE: "Dispositif d'écoute du KGB"
+  STR_LISTENING_DEVICE_UFOPEDIA: "Un magnétophone avec microphone, assez petite pour être glissé dans la veste sans être remarqué. Il est utilisé par les agents soviétiques pour espionner les conversations privées et compiler des informations sensibles. Son apparence générale rappelle un mélange entre une boîte à cigarettes et un téléphone."
+  
+  STR_TRANSMITTER: "Émetteur du KGB"
+  STR_KGB_TECH: "Technologie du KGB"
+  STR_KGB_TECH_REPORT: "Rapport: Équipement opérations secrètes KGB"
+  STR_KGB_TECH_INVESTIGATION: "Enquête sur les technologies du KGB"
+  STR_KGB_TECH_REPORT_UFOPEDIA: "Nous avons maintenant la preuve que les services de renseignement soviétiques sont à la fois conscients de l'existence du Bureau 11 et des OVNI, et qu'ils nous ont secrètement surveillés sur notre propre sol. Des rencontres plus violentes avec des agents opérant sous cette Direction 17 seraient regrettables, mais faciles à dissimuler vu qu'ils n'existent officiellement pas. Les dispositifs que nous avons récupérés sont très avancés, bien que nous ayons peu d'utilité pour les dispositifs de surveillance avancés contre les aliens, nous avons déjà commencé le processus de mise en œuvre de la même technique d'armes dissimulées que les Soviétiques utilisent."
+  
+  STR_UMBRELLA_MOSIN_NAGANT: "Parapluie Mosin-Nagant"
+  STR_UMBRELLA_MOSIN_NAGANT_MAG: "Chargeur 7.62x54mmR (5x)"
+  STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA: "En l'examinant de près, les mécanismes mi-canibalisés, mi-mangés d'un fusil Mosin-Nagant sont très clairs, cette arme est assez innovante. Lorsqu'elle est entièrement fermée, il serait difficile de la discerner d'un véritable parapluie, surtout à distance. A part le parapluie, ce {ALT}7.62x54mmR{ALT} Mosin-Nagant fonctionne normalement. Très précis et mortel, bien qu'il ait tendance à être moins précis à longue portée.{NEWLINE}>Cachable"
+  
+  STR_CAMERA_GUN: "Caméra-Canon"
+  STR_CAMERA_GUN_UFOPEDIA: "Nos agents sur le terrain ont récupéré cette arme auprès d'agents dormants du KGB opérant aux États-Unis. Alors qu'à première vue, il semble s'agir d'un appareil photo, il s'agit en fait d'un pistolet 22LR à un coup habilement dissimulé. Il est d'une précision redoutable à courte distance, mais sa précision diminue considérablement lorsque la distance augmente.{NEWLINE}>Cachable"
+
+##################################
+######## ALIEN ABDUCTION #########
+##################################
+
+##############################
+####### Initial Intel ########
+##############################
+  ALIEN_SAMPLE_FLASK_EVIDENCE_ARMOR_1: "Echantillon d'une flasque alienne"
+  STR_ALIEN_SAMPLE_FLASK: "Echantillon d'une flasque alienne"
+  STR_COMATOSE_ABDUCTEE_1: "Victime comateuse 1"
+  STR_ALIEN_SAMPLE_FLASK_1: "Flasque alienne 1"
+  COMATOSE_ABDUCTEE_EVIDENCE_UNIT_1: "Victime comateuse I"
+  STR_ALIEN_SAMPLE_FLASK_2: "Flasque alienne 2"
+  STR_COMATOSE_ABDUCTEE_2: "Victime comateuse 2"
+  COMATOSE_ABDUCTEE_EVIDENCE_UNIT_2: "Victime comateuse II"
+  STR_ALIEN_SAMPLE_FLASK_3: "Flasque alienne 3"
+  STR_COMATOSE_ABDUCTEE_3: "Victime comateuse 3"
+  COMATOSE_ABDUCTEE_EVIDENCE_UNIT_3: "Victime comateuse III"
+  STR_UNCONCIOUS_CIVILIAN: "Civil inconscient"
+  STR_MINOR_ABDUCTION_REPORT: "Rapport de départ: enlèvement mineur"
+  STR_MINOR_ABDUCTION_REPORT_UFOPEDIA: "Récemment, une augmentation du nombre de disparition de civils en dehors des zones urbaines dans les zones rurales a pris de court les autorités locales. Certains peuvent proposer une augmentation des activités criminelles. D'autres, des préparatifs étrangers pour une invasion sur le sol américain. Une chose est sûre, la plupart des personnes disparues le sont sans indice. Les raisons pour lesquelles, ne sont pas claires."
+
+##############################
+####### Obtained Intel #######
+##############################
+  STR_COMATOSE_ABDUCTEE_INTEL_1: "Infos sur les victimes comateuses I"
+  STR_COMATOSE_ABDUCTEE_INTEL_1_UFOPEDIA: "Nous avons trouvé cette personne dans la zone d'enquête. Pour en savoir plus sur l'incident et pour la faire taire, nous l'avons ramenée à la base. Quand la personne s'est réveillée, elle était très confuse et ne savait pas ce qui s'était passé. Ils ont été libérés après avoir signé quelques papiers, mais leur mémoire est aussi claire que de l'eau. L'analyse physique a révélé une grande quantité d'une substance inconnue dans le corps de la personne. Si nous trouvons d'autres personnes enlevées, nous devons les récupérer et les amener à la base."
+  
+  STR_COMATOSE_ABDUCTEE_INTEL_2: "Infos sur les victimes comateuses II"
+  STR_COMATOSE_ABDUCTEE_INTEL_2_UFOPEDIA: "Nous avons eu de la chance avec cet enlèvement. Ses signes vitaux étaient presque inexistants, mais notre personnel médical a réussi à les sauver. Après son rétablissement, la personne a réussi à nous raconter ce qui s'est passé : elle conduisait sa voiture sur une route de campagne quand une lumière multicolore est apparue dans le ciel, suivie d'un bruit aigu. Ensuite, la personne a vu de petites ombres noires venant des deux côtés de la route. La personne enlevée s'est ensuite souvenue d'une sorte d'opération chirurgicale, d'autres silhouettes sombres et, plus tard, elle s'est réveillée dans notre infirmerie. Nous avons relâché la personne et le FBI gardera un œil sur elle. Les incidents sont de plus en plus violents. Si nous trouvons un autre citoyen enlevé, nous devons le récupérer au plus vite. Nous avons juste besoin d'un autre pour finir nos études."
+  
+  STR_COMATOSE_ABDUCTEE_INTEL_3: "Infos sur les victimes comateuses III"
+  STR_COMATOSE_ABDUCTEE_INTEL_3_UFOPEDIA: "Un autre citoyen enlevé a été trouvé sur le site de l'enquête. Celui-ci était gravement blessé, mais a réussi à tenir jusqu'à l'arrivée du MEDEVAC. Sur notre base, la personne nous a raconté une histoire similaire à celle du dernier enlevé, mais celui-ci était pleinement conscient pendant l'opération. Le patient nous a dit qu'il voyait quand certains de ses organes étaient retirés et placés sur un corps blanc, immobile, avec des traits faciaux 'comme un mélange d'aliens et de nous'. Peu après l'entretien, son état de santé est devenu critique. La personne a succombé à ses blessures."
+  
+  STR_COMATOSE_ABDUCTEE_MAJOR_REPORT: "Rapport final: Victimes comateuses"
+  STR_COMATOSE_ABDUCTEE_MAJOR_REPORT_UFOPEDIA: "Il est clair que les aliens essaient d'obtenir des échantillons d'êtres humains vivants. Leur but reste un mystère, mais nous avons quelques indices qu'ils essaient peut-être d'utiliser notre ADN dans leurs expériences. Un trait commun à tous les enlèvements était la substance alienne (il semble que ce soit la même que celle que nous avons trouvée lors de précédentes enquêtes) utilisée pour droguer les sujets et l'augmentation de la violence utilisée pour les enlever."
+  
+  STR_ALIEN_SAMPLE_FLASK_INTEL_1: "Infos sur une flasque alienne I"
+  STR_ALIEN_SAMPLE_FLASK_INTEL_1_UFOPEDIA: "Un petit récipient métallique avec une substance rougeoyante à l'intérieur a été trouvé près du site d'enlèvement. Plusieurs tentatives pour l'ouvrir dans le laboratoire ont échoué. Il semble réagir à proximité d'autres artefacts aliens, il s'agit peut-être d'une sorte de batterie. Le personnel du laboratoire suggère d'essayer de récupérer un autre échantillon."
+  
+  STR_ALIEN_SAMPLE_FLASK_INTEL_2: "Infos sur une flasque alienne II"
+  STR_ALIEN_SAMPLE_FLASK_INTEL_2_UFOPEDIA: "Une autre flasque alienne a été récupérée sur le site de l'incident. Cette fois, le personnel du laboratoire a placé du tissu alien directement sur le récipient et celui-ci s'est ouvert. Cela nous a permis d'effectuer des tests sur la substance. Elle a commencé à se décomposer assez rapidement, mais nous avons pu identifier quelques vagues traces de matériel génétique d'origine terrestre, peut-être animale. Nous devons en acquérir une autre pour effectuer d'autres tests supplémentaires."
+  
+  STR_ALIEN_SAMPLE_FLASK_INTEL_3: "Infos sur une flasque alienne III"
+  STR_ALIEN_SAMPLE_FLASK_INTEL_3_UFOPEDIA: "En utilisant la même méthode que précédemment, nous avons pu ouvrir cette flasque également. Les tests effectués sur la gelée rouge ont confirmé la présence d'ADN humain d'au moins 30 individus différents. Tous, sont signalés comme personnes disparues. Cela confirme que les aliens nous utilisent directement à des fins néfastes."
+  
+  STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT: "Rapport final: Flasque alienne"
+  STR_ALIEN_SAMPLE_FLASK_MAJOR_REPORT_UFOPEDIA: "La théorie la plus acceptée concernant les étranges récipients trouvés dans la zone où l'enlèvement est qu'il s'agit d'une sorte de 'boisson énergétique' ou de complément nutritif spécifiquement destiné aux aliens. Il contient des échantillons d'ADN humain et plusieurs autres additifs inconnus, probablement destinés à être utilisés pour aider les éventuels infiltrés à devenir lentement plus humains."
+
+  STR_DELETE_ABDUCTION_SITES: "Compétence déléguée - Enlèvement mineur"
+  STR_DELETE_ABDUCTION_SITES_UFOPEDIA: "Il s'agit d'une menace sérieuse pour la sécurité intérieure, mais nous devons continuer à identifier et à engager toute autre activité étrangère dans le pays. Nous avons donc délégué la compétence de l'enquête (et, nous l'espérons, de la récupération) des victimes d'enlèvement à la fois à la branche du Bureau 11 de la Zone 51 et au FBI. Ils s'en occuperont avec efficacité."
+
+#################################
+
+  STR_RESEARCH_REPORTS_UC: "RAPPORTS DE RECHERCHE"
+  
+  STR_D17_BRIEFING: "Briefing Direction 17"
+  STR_D17_BRIEFING_REPORT: "Rapport: Briefing de la Direction 17"
+  STR_D17_BRIEFING_REPORT_UFOPEDIA: "Le Comité pour la sécurité de l'État (KGB), est l'agence de renseignement soviétique. Il est divisé en plusieurs directions, chacune avec une spécialité individuelle (renseignement extérieur et contre-espionnage, cryptographie, protection des VIP...etc). Cependant, nos agents ont été confrontés aux membres de la mystérieuse 17ème Direction, qui se consacre à l'investigation et à la collecte d'artefacts aliens. Ces objectifs sont en conflit avec les nôtres, et ils vont activement essayer de nous empêcher de les obtenir. Pire encore, la D17 a plusieurs cellules secrètes qui mènent des opérations en Amérique du Nord. Nous pouvons envoyer nos avions espions U-2 pour les localiser, mais les saisies flagrantes de technologies aliennes seront détectées de toute façon."
+
+  STR_GLADIO_BRIEFING: "Briefing Opération Gladio"
+  STR_GLADIO_BRIEFING_REPORT: "Rapport: Briefing Opération Gladio"
+  STR_GLADIO_BRIEFING_REPORT_UFOPEDIA: "Nous, les agences de renseignement alliées et l'OTAN avons mis en place plusieurs contingences pour contrer l'invasion soviétique. Gladio est l'une de ces opérations, une opération d'infiltration basée en Italie, mais qui englobe la plupart de l'Europe occidentale. En cas d'invasion réussie par les Soviétiques, les agents dormants de Gladio deviendront actifs. Leurs membres proviennent de la mafia, et nous leur avons fourni une formation et des stocks d'armes. Afin de faciliter leurs opérations, ils sont restés indépendants de nous et n'ont pas de loyauté particulière. Beaucoup à la CIA craignent que Gladio soit vulnérable à la compromission. Alors qu'ils aideront à chasser le KGB D17 d'Europe, nous devrons rester vigilants."
+
+  STR_SUPPRESSED_MUNITIONS_REPORT: "Rapport: Munitions déclassées"
+  STR_SUPPRESSED_MUNITIONS_REPORT_UFOPEDIA: "Nous avons réquisitionné des armes déclassées auprès de la CIA pour les utiliser sur le terrain. Bien que nous soyons avant tout un groupe de reconnaissance, nous avons eu de violentes rencontres avec des intelligences étrangères à la fois aliennes et orientées vers l'est. Cela devrait nous aider pour les missions où nous devons rester très discrets. Sinon, elles sont relativement inférieures au reste de notre arsenal."
+
+  STR_ARMY_MUNITIONS_REPORT: "Rapport: Munitions de l'US Army"
+  STR_ARMY_MUNITIONS_REPORT_UFOPEDIA: "Notre acquisition de munitions de l'US Army a été approuvée en raison de l'ampleur croissante des incursions aliennes et des rencontres violentes avec la Direction 17. Nos agents devraient déjà être familiarisés avec leur fonctionnement. Ces armes devraient être parmi les plus puissantes auxquelles nous avons accès, mais elles ne sont pas adaptées aux opérations furtives."
+
+  STR_SOVIET_MUNITIONS_REPORT: "Rapport: Munitions soviétiques"
+  STR_SOVIET_MUNITIONS_REPORT_UFOPEDIA: "Nous avons engagé des pourparlers diplomatiques et sommes parvenus à un accord pour que Moscou nous fournisse des équipements de combat soviétiques utilisés par la Direction 17. Bien que nous ayons passé les dernières décennies à essayer de surpasser les Soviétiques sur le plan technologique, ces armes excellent dans les tirs automatiques soutenus ainsi que dans les affrontements à courte distance."
+
+  STR_ALLIED_MUNITIONS_REPORT: "Rapport: Munitions alliées"
+  STR_ALLIED_MUNITIONS_REPORT_UFOPEDIA: "Nous avons obtenu ces armes sur le terrain et nos agents les ont appréciées, bien qu'elles ne soient pas produites aux États-Unis. Grâce à certains de nos canaux diplomatiques, il ne devrait pas être difficile d'en obtenir davantage, bien qu'elles soient probablement directement inférieures à l'équipement militaire américain."
+
+  STR_PROTOTYPE_MUNITIONS_REPORT: "Rapport: Munitions Prototypes"
+  STR_PROTOTYPE_MUNITIONS_REPORT_UFOPEDIA: "Ces armes ont fait l'objet d'une rétroconception à partir d'échantillons d'armes aliens obtenus sur le terrain. Au lieu d'utiliser une batterie amovible comme les aliens, ces armes sont alimentées par une batterie externe incluse dans la combinaison d'augmentation. Cela a l'avantage de permettre aux armes d'être plus légères et plus puissantes, au prix de l'obligation pour l'agent d'emporter un équipement spécialisé avec la combinaison."
+
+  STR_ALIEN_MUNITIONS_REPORT: "Rapport: Munitions aliennes"
+  STR_ALIEN_MUNITIONS_REPORT_UFOPEDIA: "Après un examen approfondi des armes des aliens et obtenues par nos agents, nous avons enfin trouvé comment les faire fonctionner. Nous comprenons les principes de base et la plupart des pièces sont analogues à celles que nous pouvons produire, mais le cristal central réfléchissant a des propriétés qui ne peuvent être reproduites. Les armes ressemblent étonnamment aux nôtres dans leur fonctionnement, un peu comme le fonctionnement d'un pistolet à chargeur."
+
+  STR_ALIEN_LASER_WEAPONS_REPORT_UFOPEDIA: "Après avoir soigneusement analysé les fragments retrouvés des armes laser utilisées par les envahisseurs, nous avons conclu qu'elles emploient une grande source d'énergie miniaturisée qui émet des radiations. En d'autres termes, un mini réacteur nucléaire pour chaque arme. Les minéraux qui alimentent le réacteur et le cristal qui alimente l'effet du faisceau lumineux émis par la source d'énergie ne se trouvent pas dans le tableau périodique et nous les considérons comme exotiques. Ce rayonnement n'est pas suffisant pour tuer un être humain au contact, mais une exposition prolongée augmentera sérieusement le risque de cancer et d'empoisonnement."
+
+  STR_GLADIO_MUNITIONS_REPORT: "Rapport: Munitions Gladio"
+  STR_GLADIO_MUNITIONS_REPORT_UFOPEDIA: "Les armes utilisées par Gladio ont été stockées par la CIA et diverses autres agences occidentales. Elles étaient destinées à être utilisées dans le scénario d'une invasion soviétique de l'Europe occidentale. Ces armes sont conçues pour être utilisées lors d'opérations clandestines où la discrétion est impérative. Bien qu'elles soient anciennes, ces armes sont aussi mortelles que jamais dans les bonnes, ou mauvaises, mains."
+
+##########################
+
+  STR_STRATEGIC_PLANNING: "La planification stratégique"
+  STR_STRATEGIC_PLANNING_UFOPEDIA: "Afin de faciliter la tâche titanesque de surveillance des activités soviétiques et inconnues, un réseau informatique spécial a été établi dans notre base. Cet ordinateur est basé sur le prototype du système de données tactiques de la marine (NTDS), qui recueille et traite les rapports d'activité et les convertit en une seule carte unifiée de l'espace de combat. C'est peut-être l'un des ordinateurs les plus avancés au monde."
+  
+  STR_FIELD_INVESTIGATIONS: "Enquêtes sur le terrain"
+  STR_FIELD_INVESTIGATIONS_UFOPEDIA: "Notre travail en tant qu'agents du Bureau 11, une branche de la CIA, est de mener des recherches sur le terrain et d'enquêter sur toutes les menaces potentielles contre les États-Unis, à l'intérieur et à l'extérieur de nos frontières. Et maintenant, de l'extérieur de notre planète. Après avoir repéré des rapports d'activités inconnues, nous serons déployés. Nos armes les plus puissantes dans ces missions sont notre ruse et nos caméras."
+  
+  STR_COMBAT_DEPLOYMENTS: "Déploiements de combat"
+  STR_COMBAT_DEPLOYMENTS_UFOPEDIA: "Bien que nous soyons principalement des enquêteurs, nous sommes également formés aux tactiques de combat. Les moyens et l'armement de nos ennemis sont aussi inconnus que leurs intentions ; nous utilisons une gamme d'armes diverses utiles dans différentes situations, mais nous ne pouvons pas faire feu de tout bois à chaque déploiement. Certaines opérations nécessiteront une approche plus dissimulée, tandis que dans d'autres, nous aurons l'autorisation d'utiliser des armes."
+  
+  STR_VEHICLES_REPORT: "Véhicules"
+  STR_VEHICLES_UFOPEDIA: "La nature de notre mission nous permet et nous limite à la fois à l'utilisation d'engins de transport de divers types. Le plus courant est un déploiement à découvert utilisant les compagnies aériennes publiques, mais si la situation devient sombre, nous pouvons demander à nos supérieurs des transports spécialisés. Nous avons également accès à la reconnaissance aérienne fournie par les avions espions U-2 Dragon Lady de Lookhed."
+
+  STR_AERIAL_RECON: "Reconnaissance aérienne"
+  STR_AERIAL_RECON_UFOPEDIA : "Les avions espions U-2 sont utilisés pour obtenir un accès privilégié à des renseignements impossibles à obtenir autrement. Pilotés par des pilotes de l'USAF travaillant pour l'Agence, nous pouvons utiliser la portée supérieure et la capacité d'obtenir des photos à haute résolution pour trouver et identifier toute activité ou tout site terrestre envahisseur potentiel."
+  
+#  STR_AERIAL_RECON_UFOPEDIA: "Les avions espions U-2 sont utilisés pour obtenir un accès privilégié à des renseignements impossibles à obtenir autrement. Pilotés par des pilotes de l'USAF travaillant pour l'Agence, nous pouvons utiliser la portée supérieure et la capacité d'obtenir des photos à haute résolution pour trouver et identifier toute activité ou tout site terrestre potentiel de l'envahisseur. Soyez particulièrement prudent lors du déploiement, cependant. Les Soviétiques avaient déjà abattu un U-2 juste un an auparavant. Evitez autant que possible de pénétrer en URSS, ils n'hésiteront pas à lancer des intercepteurs et des SAM."
+
+#################################################
+
+  STR_ALIEN_ALLOYS_UFOPEDIA: "Nous avons déjà plusieurs échantillons de ce minéral de composition inconnue. Il semble qu'il soit largement utilisé par les aliens dans tous les équipements que nous avons récupérés et identifiés depuis l'incident de Roswel. Nous avons mené des expériences sur les applications potentielles des 'alliages aliens' dans les technologies et équipements humains. Les véhicules blindés et les armures personnelles sont l'un des sujets les plus courants lorsque les applications militaires sont mentionnées. Cependant, nous ne savons pas comment les répliquer. Tous les échantillons d'alliages sont stockés dans une chambre forte sécurisée, peut-être qu'à l'avenir nous pourrons les utiliser dans nos projets."
+  
+  STR_UFO_POWER_SOURCE: "Source d'énergie alienne"
+  STR_UFO_POWER_SOURCE_UFOPEDIA: "Cette pièce particulière de la technologie alienne a été l'obsession de notre personnel de laboratoire depuis 1947. Elle est alimentée par un minéral rare identifié comme 'Elerium' et utilise ce que nous croyons être une fusion nucléaire, mais nous n'avons pas identifié comment cela se produit. Ce dont nous sommes sûrs, c'est qu'il émet un grand champ gravitationnel autour de lui. Si nous parvenons à percer ses secrets, ce sera la prochaine révolution des transports ! Nous pourrions facilement transporter de grandes quantités de marchandises et de personnes sur de grandes distances dans des avions équipés de cette source d'énergie. Peut-être qu'un jour..."
+  
+  STR_UFO_NAVIGATION: "Dispositif de navigation alien"
+  STR_UFO_NAVIGATION_UFOPEDIA: "Un dispositif technologique assez abondant trouvé sur tous les vaisseaux aliens. Nous pensons qu'il s'agit d'une combinaison de systèmes de navigation et d'une station de communication utilisée pour contrôler l'OVNI et communiquer avec l'équivalent alien du contrôle de mission, d'après nos recherches. C'est un élément technologique très intéressant, nous n'avons pas encore d'utilisation pratique pour lui, mais nous sommes convaincus que nos recherches pourraient en trouver une."
+
+###############################################
+
+  STR_EVIDENCE_FINAL_REPORT: "Rapport final sur les preuves"
+  STR_EVIDENCE_FINAL_REPORT_UFOPEDIA: "Suite à la conclusion de nos investigations, nous devons admettre qu'il existe des objets d'origine alienne (OVNI) présents au-dessus du sol américain qui doivent être détectés et abattus. Nous sommes totalement sûrs qu'il existe une présence alienne active qui tente d'envahir notre planète. La raison pour laquelle ils sont si actifs dans notre pays n'est pas claire, mais nous croyons qu'ils ciblent les États-Unis parce qu'un de leurs vaisseaux s'est écrasé sur notre sol, dans les années 47. Mais nous sommes sûrs d'une chose : ils vont devenir plus actifs. Moins subtils, plus agressifs. Nous devrons déployer des vaisseaux de reconnaissance et engager des combats aériens contre les vaisseaux ennemis si nous voulons les empêcher d'envahir complètement notre pays."
+
+#####################################
+
+  STR_HYBRID_CIVILIAN: "Hybride (Civil)"
+  STR_D17_INFILTRATION: "Équipe infiltration du KGB D17"
+  STR_D17_AMBUSH: "Spécialistes embuscade du KGB D17"
+  STR_D17_HIDE_AND_SEEK: "Escortes du KGB D17"
+  STR_THIN_MEN_WHISPERS: "Attaquants Hommes minces"
+  STR_OPERATION_GLADIO_HYBRIDS: "Attaquants Gladio + Hybrides"
+
+  STR_HYBRID_DISGUISE_F: "Hybride déguisé"
+  THIN_MAN_ARMOR: "Tenue Homme mince"
+  STR_HYBRID_SHAPESHIFTER: "Hybride métamorphe"
+  STR_HYBRID_CORPSE: "Corps Hybride métamorphe"
+  HYBRID_SHAPESHIFTER_ARMOR: "Caparace Hybride métamorphe"
+  HYBRID_DISGUISE_F_ARMOR: "Femme Civile"
+  STR_HYBRID_AUTOPSY: "Autopsie métamorphe hybride"
+  STR_HYBRID_AUTOPSY_UFOPEDIA: "Le cadavre de cet être est étrange. La peau est presque semblable à celle d'un humain, mais plus résistante. La distribution interne ressemble à un fouillis d'organes quasi-humains et de tissus clairement étrangers. Nous avons identifié des traces d'ADN de plusieurs individus, et même de bétail. Quelques morceaux d'organes humains réels, comme le foie et des sections du tube digestif peuvent être identifiés. Ce qui est vraiment inquiétant, c'est le visage peu naturel de l'alien. Il est resté avec les yeux grands ouverts, car il pouvait encore nous voir. Le sang contient des éléments chimiques inconnus et, pour une raison quelconque, de grandes concentrations de globules blancs humains... qui semblent tuer le corps de l'hôte."
+  
+  STR_KGB_CORPSE: "Corps KGB"
+  D17_SOLDIER: "Uniforme Armée Rouge"
+  D17_OFFICER: "Uniforme Officier KGB"
+  D17_AGENT: "Tenue infiltration D17"
+  STR_AMERICAN_RIFLEMAN: "Fusilier US Army"
+  STR_AMERICAN_ASSAULT: "Troupe d'assaut US Army"
+  STR_AMERICAN_SUPPORT: "Sapeur US Army"
+  STR_SWEDISH_ASSAULT: "Troupe d'assaut suédoise"
+  STR_SWEDISH_RIFLEMAN: "Infanterie suédoise"
+  STR_SOVIET_ASSAULT: "Troupe d'assaut URSS"
+  STR_SOVIET_RIFLEMAN: "Soldat URSS"
+  STR_CUBAN_ASSAULT: "Guérillero cubain"
+  STR_CUBAN_RIFLEMAN: "Fusilier cubain"
+  
+################################
+
+  STR_SPECIAL_CASE_OPEN: "AFFAIRE SPÉCIALE OUVERTE"
+  STR_OPERATION_SPIDERWEB_APPROVED: "OPÉRATION SPIDERWEB APPROUVÉE"
+  STR_DISTRESS_SIGNAL_RECIEVED: "SIGNAL DE DÉTRESSE REÇU"
+  STR_OPERATION_APPROVED: "OPÉRATION HARBINGER APPROUVÉE"
+  STR_INVASION_START: "Reconnaissance préliminaire de l'invasion"
+  STR_PROVING_GROUNDS_DEPLOYMENT: "Terrain d'essai"
+  STR_PROVING_GROUNDS_LARGE_SCOUT: "Grand Éclaireur écrasé"
+  
+  STR_PROVING_GROUNDS_DESCRIPTION: "Des agents de terrain du Bureau 11 ont été envoyés pour enquêter sur un OVNI qui a subi un accident et s'est écrasé près de la frontière. Il y a des rapports d'individus non identifiés près du site du crash. Notre tâche est de sécuriser la zone et d'attendre l'arrivée des équipes de récupération. Identifiez l'identité des personnes près de la zone et leurs intentions. S'ils sont armés, vous avez la permission d'engager le combat."
+  STR_PROVING_GROUNDS_MARKER: "Rapport site du crash de l'OVNI"
+  STR_NORISKA_KRASCHEN_DEPLOYMENT: "Crash nordique"
+  STR_NORISKA_KRASCHEN_MEDIUM_SCOUT: "Éclaireur moyen écrasé"
+  
+  STR_NORISKA_KRASCHEN_DESCRIPTION: "Nous avons reçu un rapport sur un OVNI abattu par des chasseurs de l'armée de l'air suédoise à la frontière entre la Suède et la Norvège. Les forces locales dans la zone sont envoyées pour enquêter, alertées par 'une possible intrusion soviétique dans la zone'. Elles sécurisent le site pendant que les équipes de récupération arrivent. Notre liaison avec les services de renseignement suédois nous permet d'opérer dans leur juridiction."
+  STR_NORISKA_KRASCHEN_MARKER: "Rapport site du crash de l'OVNI"
+  STR_NORISKA_KRASCHEN_SECTOID_CORPSE: "Corps intact d'un sectoïde"
+  
+  STR_NORISKA_KRASCHEN_SECTOID_CORPSE_UFOPEDIA: "Ce n'est pas le premier cadavre de Gris que nous avons dans notre morge. Cependant, c'est le premier qui est entièrement intact. La plupart des cadavres de sectoïdes que nous avons récupérés sont trop endommagés pour que nous puissions mener des recherches sur eux. Maintenant, nous pouvons apprendre comment leurs corps fonctionnent et à quel point ils sont différents des formes de vie terrestres. Le projet le plus prometteur est aussi le plus douteux sur le plan éthique : une machine à traduire utilisant le cerveau de l'être alien. Notre personnel va commencer à développer cet appareil, au cas où nous rencontrerions un spécimen vivant prêt à nous parler."
+  
+  STR_DISCOVERIES_DEPLOYMENT: "Découvertes"
+  STR_DISCOVERIES_LARGE_SCOUT: "Grand Éclaireur assiégé"
+  DISCOVERIES_CUSTOM_TERRAIN: "Terres agricoles forestières"
+  STR_DISCOVERIES_DESCRIPTION: "Un OVNI a été abattu par des batteries anti-aériennes près de Yonkers, New York. Une unité locale de la Garde nationale a été envoyée pour enquêter et sécuriser le site en attendant notre arrivée. Cependant, les occupants du vaisseau aliens sont toujours en vie et ont commencé une fusillade avec les G.Is. Les forces armées ont subi de lourdes pertes en essayant de pénétrer dans l'OVNI, nous devons les aider."
+  
+  STR_DISCOVERIES_MARKER: "La Garde Nationale a abattu un OVNI"
+  STR_DISCOVERIES_SECTOID_ENGINEER: "Ingénieur sectoïde inconscient"
+  STR_DISCOVERIES_SECTOID_ENGINEER_UFOPEDIA: "En utilisant le dispositif 'Gray Radio' (fabriqué avec des cerveaux de Sectoïdes), nous sommes capables d'interroger l'être alien. Bien que la traduction soit grossière et que la plupart des communications soient perdues dans la traduction, nous avons pu en savoir plus sur le visiteur. Il semble qu'il ait un rôle similaire à celui des ingénieurs navals dans les marines de la Terre. Réparer et maintenir la technologie, il semble. Il nous a dit qu'ils utilisaient une sorte de relais pour pouvoir ramener les vaisseaux tombés au sol et leurs membres d'équipage, au cas où ils seraient abattus par les forces locales ou auraient un accident. Nous appelons cela un 'répéteur de signal de sauvetage'. Cette information est très importante, car nous pourrions créer un appât pour eux. Ils arriveront et nous pourrions même capturer leur vaisseau ! Nous allons commencer le développement de la machine dès que possible."
+  
+  STR_HIDE_AND_SEEK_DEPLOYMENT: "Cache-cache"
+  STR_HIDE_AND_SEEK_DESCRIPTION: "Un agent supérieur du KGB, dont le nom de code est 'Orlan' et qui possède des informations sur un 'dispositif de sauvetage' similaire à celui que nous essayons de développer, a été localisé à Berlin-Est. Notre mission est d'obtenir ces informations et de le capturer, mais nous devons d'abord neutraliser son escorte."
+  STR_HIDE_AND_SEEK_MARKER: "Un scientifique de haut niveau du KGB a été localisé"
+  STR_HIDE_AND_SEEK_DATA_SUITCASE: "Valise de données importantes"
+  
+  STR_HIDE_AND_SEEK_DATA_SUITCASE_UFOPEDIA: "Les informations recueillies par le KGB sont liées à un important dispositif à bord du vaisseau alien. En analysant son fonctionnement et sa structure interne, ils sont arrivés à la conclusion qu'il émet automatiquement une impulsion micro-ondes lorsque l'OVNI subit un accident ou est abattu. Il est alors capté par un vaisseau alien et vient au secours de l'équipage. L'humanité pourrait grandement bénéficier de cette technologie, nos scientifiques sont très intéressés à la reproduire. Il est très probable qu'ils aient obtenu cette information en utilisant les mêmes méthodes que nous."
+  STR_SPIDERWEB_DEPLOYMENT: "Opération Spiderweb"
+  STR_SPIDERWEB_LARGE_SCOUT: "Atirer un Grand Éclaireur"
+  
+  STR_SPIDERWEB_DESCRIPTION: "En utilisant les informations 'volontairement obtenues' de l'agent du KGB 'Orlan', nous avons pu terminer notre fausse balise, appelée 'Spider Web Device'. Les forces de l'armée américaine sont déployées à nos côtés pour fournir un soutien supplémentaire. Le piège est prêt. Il est temps de faire face aux envahisseurs."
+  STR_SPIDERWEB_MARKER: "Le dispositif Spiderweb est prêt"
+  STR_OPERATION_SPIDERWEB: "Opération Spiderweb"
+  STR_OPERATION_SPIDERWEB_UFOPEDIA: "En prenant en considération les informations obtenues lors de l'interrogatoire du technicien sectoïde et l'analyse des données obtenues de l'agent D17 'Orlan', notre personnel R&D pense que nous pourrions fabriquer une fausse balise de détresse pour attirer un vaisseau de sauvetage dans un piège et capturer plus d'aliens. La mise en place de ce piège peut être potentiellement dangereuse, c'est pourquoi nous avons demandé le soutien des forces armées nationales pour obtenir le meilleur résultat possible."
+  
+  STR_WHISPERS_DEPLOYMENT: "Murmures"
+  STR_WHISPERS_SAFEHOUSE_UFO: "Une cachette secrète de la CIA"
+  STR_WHISPERS_DESCRIPTION: "Une cachette de la CIA en Europe a été attaquée par des forces inconnues. Les services de renseignement locaux ont été déployés pour enquêter, mais le contact a été perdu avec eux aussi. Nous avons été envoyés pour effectuer une reconnaissance de la zone et établir un lien avec les agents américains."
+  STR_WHISPERS_MARKER: "Contact perdu avec le complexe de la CIA"
+  STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT: "L'Ennemi de mon Ennemi"
+  
+  STR_THE_ENEMY_OF_MY_ENEMY_DESCRIPTION: "L'impensable est arrivé. Une station de la Direction 17 a lancé un appel d'urgence. Ils sont attaqués par un ennemi 'métamorphe'. Ce n'est pas notre style, mais nous allons aller enquêter. Est-ce un piège ? Ou étaient-ils vraiment si désespérés pour solliciter l'aide de leurs pires ennemis ?"
+  STR_THE_ENEMY_OF_MY_ENEMY_MARKER: "Signal de détresse de la base D17"
+  STR_OPERATION_HARBINGER_DEPLOYMENT: "Opération Harbinger"
+  OPERATION_HARBINGER_CUSTOM_TERRAIN: "Zone rurale cubaine"
+  
+  STR_OPERATION_HARBINGER_DESCRIPTION: "Les renseignements indiquent que les aliens ont construit une installation de type pyramide à Cuba. Les aliens interrogés y font référence comme étant 'la balise d'invasion', qui enverra un signal à la planète mère des aliens pour commencer l'attaque sur la Terre. L'opération Harbinger est une opération conjointe B11-D17, avec l'aide des Cubains. Nous devons nettoyer le site et détruire la balise d'invasion. Le président Kennedy et le premier ministre Khrouchtchev ont accepté de simuler une crise diplomatique pour couvrir notre déploiement. Si nous ne gagnons pas ici, la Terre sera sûrement perdue. Tuer ou être tué. Le triomphe ou la perte de l'humanité."
+  STR_OPERATION_HARBINGER_MARKER: "Opération Harbinger approuvée"
+  
+##################################################
+
+  STR_GOOD_ENDING_1: "La balise de la Havane a été détruite par une énorme explosion, vue à des kilomètres de là. Les efforts conjoints des puissances occidentales et orientales ont abouti à une victoire totale. Les derniers aliens encore présents à Cuba ont été pourchassés par la population locale et leurs cadavres conservés comme trophées de guerre. "
+
+  STR_GOOD_ENDING_2: "Le monde a été informé qu'un 'incident grave et inattendu dans une usine chimique' est à l'origine de l'explosion. La quarantaine navale américaine autour de l'île est levée et les troupes soviétiques sont secrètement évacuées vers leur pays. Une 'guerre nucléaire a été évitée grâce à la diplomatie', selon les mots du président Kennedy."
+  
+  STR_GOOD_ENDING_3: "Mais les dirigeants américains et soviétiques savaient que ce n'était pas la fin. Les aliens reviendront. Peut-être pas demain, ni l'année prochaine. Mais leur retour était un fait. Les services de renseignement des deux côtés du rideau de fer échangeaient les données recueillies sur la crise secrète."
+
+  STR_GOOD_ENDING_4: "Des plans furent élaborés et des dessins de prototypes d'armes dessinés, tous deux stockés dans des coffres secrets. La Terre a gagné un grand avantage : la possibilité de développer des armes à énergie dirigée pratiques, en utilisant la technologie laissée par les envahisseurs. Il ne sera pas facile de le reproduire, mais les résultats en vaudront la peine."
+  
+  STR_GOOD_ENDING_5: "Le projet de défense le plus prometteur pour défendre la Terre d'une future invasion, est le Projet Olympus. Un énorme vaisseau spatial propulsé par des bombes nucléaires pourrait protéger l'orbite de la planète et projeter sa puissance bien au-delà de Mars. La crainte d'une escalade nucléaire réduit ce projet à une série de plans et de promesses de les construire le moment venu. La seule question est de savoir quand. Mais nous serons prêts."
+
+  STR_BAD_ENDING_FINAL_1: "Nous n'avons pas réussi à détruire la balise de la Havane avant qu'elle ne soit complètement terminée. Le faisceau lumineux émanant des pyramides est devenu plus lumineux, on pouvait le voir à des kilomètres à la ronde. Peu après, des centaines de signaux inconnus sont apparus dans les radars de toutes les Caraïbes."
+  
+  STR_BAD_ENDING_FINAL_2: "Dans la crainte d'être submergés, les États-Unis lancent plusieurs ogives tactiques directement sur la Balise, espérant la détruire ainsi que les forces qui se trouvent à proximité. Tout ce qui se trouve autour des pyramides est vaporisé, les aliens comme les humains."
+  
+  STR_BAD_ENDING_FINAL_3: "Il est trop tard. Un essaim de vaisseaux aliens commence à se déverser directement sur le blocus naval autour de l'île, engageant la marine américaine et paralysant gravement plusieurs navires. En quelques mois, l'essaim d'OETO se répand rapidement sur la planète."
+
+  STR_BAD_ENDING_FINAL_4: "En quelques heures, toutes les puissances mondiales lancent leurs armes nucléaires sur les aliens, même entre elles. De grandes quantités de terres sont irradiées et ce qui reste devient de nouveaux territoires pour les envahisseurs. La Terre est une enveloppe fondue de son ancienne gloire. L'avenir est incertain."
+  
+  STR_BAD_ENDING_MID_1: "Même avec nos meilleurs efforts, nous ne pouvions pas prouver la menace de l'invasion alienne... nous ne pouvions pas l'arrêter. Nos avertissements ont été ignorés et notre crédibilité perdue. Le Bureau a été dissous et nos ressources détournées vers des 'opérations plus importantes'."
+  
+  STR_BAD_ENDING_MID_2: "Il y a eu des rapports sur une 'colonne de lumière' soudaine quelque part dans les Caraïbes et une perte des communications dans la région. Mais ensuite, tout est revenu à la normale."
+  
+  STR_BAD_ENDING_MID_3: "Les rapports d'êtres inconnus se promenant dans nos sociétés devinrent courants. Les rumeurs de métamorphes aliens opérant directement au sein des gouvernements mondiaux se sont lentement répandues... et finalement, ce n'était plus seulement des rumeurs."
+  
+  STR_BAD_ENDING_MID_4: "Peu après, le ciel était rempli de vaisseaux aliens, atterrissant sur tous les grands centres urbains. Les humains ont été enlevés par centaines. Aucune opposition n'a été faite, car les infiltrés se sont assurés que personne ne serait prêt à se défendre. La Terre ne nous appartient plus."
+  
+#########################################
+# EUROPEAN CITIES
+
+  STR_ABERDEEN: "Aberdeen"
+  STR_ALEPPO: "Aleppo"
+  STR_AMSTERDAM: "Amsterdam"
+  STR_ANTALYA: "Antalya"
+  STR_ARCHANGEL: "Arkhangelsk"
+  STR_ASTRAKHAN: "Astrakhan"
+  STR_ATHENS: "Athens"
+  STR_BAKU: "Baku"
+  STR_BELGRADE: "Belgrade"
+  STR_BARCELONA: "Barcelona"
+  STR_BELFAST: "Belfast"
+  STR_BIRMINGHAM: "Birmingham"
+  STR_BORDEAUX: "Bordeaux"
+  STR_BREST: "Brest"
+  STR_BRUSSELS: "Brussels"
+  STR_BRYANSK: "Bryansk"
+  STR_BUCHAREST: "Bucharest"
+  STR_CARDIFF: "Cardiff"
+  STR_COLOGNE: "Cologne"
+  STR_COPENHAGEN: "Copenhagen"
+  STR_CORK: "Cork"
+  STR_CRETE: "Crete"
+  STR_DUBLIN: "Dublin"
+  STR_FERROL: "Ferrol"
+  STR_FLORENCE: "Florence"
+  STR_GENEVA: "Geneva"
+  STR_GLASGOW: "Glasgow"
+  STR_HAMBURG: "Hamburg"
+  STR_IZMIR: "Izmir"
+  STR_KALININGRAD: "Kaliningrad"
+  STR_KAZAN: "Kazan"
+  STR_KHARKOV: "Kharkov"
+  STR_KIEV: "Kiev"
+  STR_KRAKOW: "Krakow"
+  STR_LENINGRAD: "St. Petersburg"
+  STR_LISBON: "Lisbon"
+  STR_LUBECK: "Lubeck"
+  STR_LULEA: "Lulea"
+  STR_LVIV: "L'viv"
+  STR_LYON: "Lyon"
+  STR_MANCHESTER: "Manchester"
+  STR_MARSEILLE: "Marseille"
+  STR_MILAN: "Milan"
+  STR_MINSK: "Minsk"
+  STR_MUNICH: "Munich"
+  STR_MURMANSK: "Murmansk"
+  STR_NAPLES: "Naples"
+  STR_NOVGOROD: "Novgorod"
+  STR_NOVOROSSIYSK: "Novorossiysk"
+  STR_OSLO: "Oslo"
+  STR_PRAGUE: "Prague"
+  STR_REYKJAVIK: "Reykjavik"
+  STR_RIGA: "Riga"
+  STR_ROSTOV: "Rostov"
+  STR_SARAJEVO: "Sarajevo"
+  STR_SEVASTOPOL: "Sevastopol"
+  STR_SMOLENSK: "Smolensk"
+  STR_SOFIA: "Sofia"
+  STR_STALINGRAD: "Volgograd"
+  STR_STOCKHOLM: "Stockholm"
+  STR_STUTTGART: "Stuttgart"
+  STR_TIRANA: "Tirana"
+  STR_TRONDHEIM: "Trondheim"
+  STR_TURKU: "Turku"
+  STR_VENICE: "Venice"
+  STR_VIENNA: "Vienna"
+  STR_WARSAW: "Warsaw"
+  STR_ZAGREB: "Zagreb"
+  STR_VORKUTA: "Vorkuta"
+  
+###################################
+
+  STR_PATRICE_LUMUMBA_DEATH_EVENT: "Patrice Lumumba a été tué"
+  STR_PATRICE_LUMUMBA_DEATH_EVENT_DESCRIPTION: "Le Premier ministre de la nouvelle République démocratique du Congo a été tué par un peloton d'exécution. C'est le résultat d'une série de luttes politiques contre le président Kasavubu, le colonel Mobutu et le chef de la province rebelle du Katanga, Tshombe. Malgré le rapport selon lequel 'des villageois en colère ont tué Lumumba', nous pensons qu'il existe des liens entre les officiers belges et les auteurs du crime. Des protestations mondiales sont signalées. Il est probable que cela augmente la violence de la crise congolaise actuelle."
+  
+  STR_JFK_BECOMES_35TH_PRESIDENT_EVENT: "John Fitzgerald Kennedy, 35ème président des États-Unis"
+  STR_JFK_BECOMES_35TH_PRESIDENT_EVENT_DESCRIPTION: "Aujourd'hui, JFK a prêté serment en tant que Président. La journée était claire, avec la neige de la nuit précédente. Son investiture a été marquée par plusieurs 'premières', puisqu'il est le premier président catholique, le premier né au 20ème siècle et le plus jeune président élu de l'histoire des États-Unis. Nous espérons travailler à ses côtés sur nos futurs projets."
+  
+  STR_BAY_OF_PIGS_FIASCO_EVENT: "Le fiasco de la Baie des Cochons"
+  STR_BAY_OF_PIGS_FIASCO_EVENT_DESCRIPTION: "La CIA a envoyé une armée entraînée d'exilés cubains pour attaquer et tenter de reprendre Cuba aux communistes. Ce groupe, dont le nom de code était Opération 40, a échoué lamentablement, et l'invasion est devenue publiquement connue sous le nom de Baie des Cochons. Le malheur de ce département est notre gain, en termes de financement."
+  
+  STR_OPERATION_NORTHWOODS_POSTPONED_EVENT: "L'opération Northwoods est reportée"
+  STR_OPERATION_NORTHWOODS_POSTPONED_EVENT_DESCRIPTION: "L'opération Northwoods a été annulée. Le plan était d'organiser une attaque terroriste en Floride et de la mettre sur le dos de Cuba pour justifier la guerre. À la lumière des récentes découvertes faites par le Bureau 11, le ministère de la Défense et d'autres départements de la CIA ont décidé de reporter, et envisagent même d'annuler, l'opération Northwoods."
+  
+  STR_FIRST_MAN_ON_SPACE_EVENT: "Yuri Gagarin, premier homme dans l'espace"
+  STR_FIRST_MAN_ON_SPACE_EVENT_DESCRIPTION: "Plus tôt dans la journée, nous avons été informés de la première mission habitée dans l'espace. Gagarine, un cosmonaute soviétique à bord du Vostok-1, a effectué une orbite autour de la planète au cours d'un vol de 108 minutes. La Terre est bleue, a-t-il dit."
+  
+  STR_FIRST_AMERICAN_IN_SPACE_EVENT: "Alan Shepard, premier Américain dans l'espace"
+  STR_FIRST_AMERICAN_IN_SPACE_EVENT_DESCRIPTION: "L'astronaute Shepard, à bord de la capsule Freedom 7 lancée au sommet de Mercury-Redstone 3. Shepard a effectué le tout premier vol suborbital contrôlé, car Gagarine n'avait pas le contrôle de sa capsule. La fierté américaine peut être blessée parce que nous n'avons pas pu être les premiers, mais c'est un moment vraiment important pour l'histoire de l'humanité."
+  
+  STR_JFK_ASKS_FOR_CONGRESS_FUNDING_EVENT: "Le Président Kennedy veut un homme sur la Lune"
+  STR_JFK_ASKS_FOR_CONGRESS_FUNDING_EVENT_DESCRIPTION: "Lors d'un discours à l'université de Rice, le président Kennedy déclare qu'aller sur la Lune est un défi 'que nous avons l'intention de gagner' et jure que la Lune ne sera pas 'gouvernée par un drapeau hostile de conquête'. Le Congrès étudie le financement nécessaire pour envoyer un homme sur la Lune d'ici la fin de la décennie. Notre liaison avec le Congrès a permis d'obtenir des fonds supplémentaires pour poursuivre nos recherches."
+  
+  STR_BERLIN_WALL_EVENT: "Le mur de Berlin"
+  STR_BERLIN_WALL_EVENT_DESCRIPTION: "Berlin a été le centre de problèmes politiques entre les alliés occidentaux et l'URSS. Le premier ministre Khrushchev a demandé plusieurs fois aux alliés d'abandonner leurs zones d'occupation et il semble prêts à utiliser la force militaire. Depuis le 13 août, il y a un blocus autour de Berlin-Ouest composé de barbelés et de clôtures ainsi que de troupes soviétiques. Le président vient de mobiliser plus de 148000 soldats, ainsi que plusieurs centaines d'avions. Il semble que les choses se réchauffent en Europe centrale."
+  
+  STR_BERLIN_CRISIS_EVENT: "La crise à Berlin"
+  STR_BERLIN_CRISIS_EVENT_DESCRIPTION: "La situation à Berlin est tendue depuis août à cause des barricades érigées dans le secteur ouest. Aujourd'hui, après une série de malentendus liés au libre passage des diplomates américains, ainsi que le flux incessant de Berlinois s'échappant par la moitié de la ville occupée par les Alliés, une confrontation tendue entre les chars américains et soviétiques a eu lieu au Checkpoint Charlie. Après un certain temps, les forces blindées reculent. Les clôtures et les barbelés ont été remplacés par du béton."
+  
+  STR_UN_SECRETARY_GENERAL_SHOT_DOWN_EVENT: "L'avion du Secrétaire général de l'ONU est abattu"
+  STR_UN_SECRETARY_GENERAL_SHOT_DOWN_EVENT_DESCRIPTION: "Dag Hammarskjöld, Secrétaire général de l'ONU, voyageait en avion pour rencontrer les dirigeants de la province sécessionniste du Congo, le Katanga. D'après nos renseignements, l'intention de M. Hammarskjöld était de chercher une solution à la crise en cours dans ce pays d'Afrique centrale. Les causes officielles ne sont pas encore connues, mais on suppose qu'il a pu être intercepté par un groupe de mercenaires européens employés par une société minière belge ayant des intérêts dans cette région riche en minéraux."
+  
+  STR_SIEGE_OF_JADOTVILLE_EVENT: "Le siège de Jadotville"
+  STR_SIEGE_OF_JADOTVILLE_EVENT_DESCRIPTION: "Une petite garnison du contingent irlandais des forces de l'ONU déployées au Congo (ONUC) est devenue la cible d'une attaque de militants katangais dirigés par des mercenaires européens. Pendant ce temps les Casques bleus ont mené l'opération Morthor, un raid sur les infrastructures rebelles. Cependant, les mercenaires ont pu contre-attaquer. La compagnie irlandaise a réussi à tenir jusqu'à ce qu'une force de secours suédoise perce les troupes katangaises. Cet acte de bravoure restera dans les annales de l'histoire."
+  
+  STR_UN_FORCES_HEAVY_COMBAT_CONGO_EVENT: "L'ONU impliquée dans des combats à Elisabethville"
+  STR_UN_FORCES_HEAVY_COMBAT_CONGO_EVENT_DESCRIPTION: "L'échec de l'opération Morthor et la mort de M. Hammarskjöld ont entraîné un cessez-le-feu temporaire entre les rebelles katangais et l'ONUC. Il prend fin avec l'entrée en fonction du nouveau secrétaire général U Thant. Une force militarisée de l'ONU a commencé une série d'attaques pour le contrôle de la capitale. Les Casques bleus ont affronté la gendarmerie du Katanga. Les jets de l'ONUC ont réussi à infliger des pertes à la force aérienne rebelle et à s'assurer la supériorité aérienne. Ceci a forcé Tshombe à rechercher une trêve et à signer un pacte où le Katanga va réintégrer le Congo."
+  
+  STR_FIRST_AMERICAN_IN_ORBIT_EVENT: "John Glenn, premier Américain en orbite autour de la Terre"
+  STR_FIRST_AMERICAN_IN_ORBIT_EVENT_DESCRIPTION: "L'astronaute John H. Glenn est devenu le premier Américain à se mettre en orbite autour de notre planète lors de la mission Mercury-Atlas 6 à trois orbites, à bord du vaisseau spatial qu'il a baptisé Friendship 7. C'est un moment historique où l'humanité commence à conquérir les étoiles."
+   
+  STR_RANGER_4_LANDS_ON_MOON_EVENT: "Succès de la mission Ranger 4"
+  STR_RANGER_4_LANDS_ON_MOON_EVENT_DESCRIPTION: "Le vaisseau spatial Ranger 4 de la NASA a réussi son lancement et son atterrissage sur la lune. Il a pris des photos, effectué des relevés gamma, des balayages radar et des relevés sismographiques. Alors que le public a reçu de jolies petites photos, notre agence a reçu des rapports indiquant que le radar a détecté des anomalies qui ne devraient pas être sur la lune, et un taux élevé de vibrations concentrées provenant de différentes régions. La NASA pense que cela provient d'un équipement défectueux. Nous, ceux qui sont au courant, pensons que c'est autre chose..."
+  
+  STR_MARYLIN_MONROE_SINGS_JFK_EVENT: "Marylin Monroe chante pour JFK"
+  STR_MARYLIN_MONROE_SINGS_JFK_EVENT_DESCRIPTION: "Aujourd'hui, les médias se déchaînent à l'idée que Marylin Monroe chante Joyeux anniversaire à M. le Président. Malheureusement pour les médias, les choses ne se passent pas comme le disent les rumeurs. La CIA tente d'avoir accès aux VIP, un peu comme Mata Hari l'a fait autrefois. Notre organisation a fait beaucoup d'efforts dans ce sens, espérons que ça marche."
+  
+  STR_MARYLIN_MONROE_DIES_EVENT: "Marylin Monroe se suicide"
+  STR_MARYLIN_MONROE_DIES_EVENT_DESCRIPTION: "Plus tôt ce matin, la presse a annoncé que Mme Monroe avait été retrouvée morte à son domicile situé à Los Angeles. Elle avait fait une overdose de sédatifs la nuit précédente. Elle était devenue trop proche des frères Kennedy, donc un danger potentiel pour leur image publique. Elle a été enlevée par des agents de la CIA la nuit précédente et envoyée à l'avant-poste local de l'Agence. Nous avons des plans pour la faire entrer dans notre force, les efforts de réassignation d'identité sont en cours."
+  STR_AGENT_MARYLIN: "Agent Monroe"
+  
+  STR_SOVIET_ACTIVITY_IN_CUBA_EVENT: "Augmentation suspecte de l'activité soviétique à Cuba"
+  STR_SOVIET_ACTIVITY_IN_CUBA_EVENT_DESCRIPTION: "Monsieur, un avion de reconnaissance a détecté plusieurs cargos communistes venant à Cuba depuis les pays du Pacte de Varsovie. Nous soupçonnons les Soviétiques d'essayer d'établir une présence militaire sur l'île. Les représentants américains aux Nations Unies ont protesté, mais les diplomates russes ont réfuté ces accusations. Nous devrions garder un oeil sur eux, monsieur."
+  
+  STR_OPERATION_GRANDSLAM_EVENT: "L'opération Grandslam met fin à la sécession katangaise"
+  STR_OPERATION_GRANDSLAM_EVENT_DESCRIPTION: "Fatigués par la violation continue des accords et des cessez-le-feu par Moïse Tshombe, les dirigeants de l'ONU décident de ramener l'État du Katanga par la force. Le Secrétaire général U Thant a autorisé une offensive de représailles pour éliminer l'opposition sécessionniste. Une augmentation supplémentaire du soutien international a permis à l'opération de se dérouler plus tôt que prévu. Renforcée par d'importantes forces irlandaises, indiennes et suédoises, une opération d'armes combinées a détruit une grande partie de la gendarmerie katangaise en quelques jours. Voyant que sa position était insoutenable, Tshombe a signé un projet de reddition. Ses forces restantes quittent le pays peu de temps après. La crise du Congo est terminée."
+  
+  STR_BOND_MOVIE_RELEASED_EVENT: "Sortie d'un film de James Bond"
+  STR_BOND_MOVIE_RELEASED_EVENT_DESCRIPTION: "En octobre de cette année, un film d'espionnage, James Bond, est sorti et a pris la nation d'assaut. Le personnage principal, 007, dépeint les espions comme suaves et charismatiques. Ceci, monsieur, devrait augmenter le nombre de candidatures à la CIA."
+  
+  STR_SOVIETS_APPROACH_BUREAU_11_EVENT: "Les Soviétiques contacte le Bureau 11"
+  STR_SOVIETS_APPROACH_BUREAU_11_EVENT_DESCRIPTION: "Une série d'espions soviétiques se sont manifestés récemment, ainsi que plusieurs transmissions en anglais, affirmant que les Soviétiques ont détecté une présence alienne à Cuba et se préparent à y faire face. Ils demandent gentiment à notre bureau de les aider à créer une crise et à envoyer des hommes pour faire face à l'incursion alienne. Que devons-nous faire, monsieur ?"
+  
+  STR_ALIEN_PRESENCE_ON_CUBA_CONFIRMED_EVENT: "Les vols de l'U-2 confirment la présence d'aliens à Cuba"
+  STR_ALIEN_PRESENCE_ON_CUBA_CONFIRMED_EVENT_DESCRIPTION: "Il s'avère que les Russes nous ont dit la vérité après tout. Des collègues pilotes de la CIA ont photographié des preuves tangibles d'activité alienne à Cuba. Il semble qu'ils construisent quelque chose. De plus, nous avons capturé des images d'escarmouches entre les envahisseurs et ce qui semble être une milice cubaine près des montagnes à l'extérieur de La Havane. Le président Kennedy en a été informé. Toutes les forces militaires sont passées en DEFCON 3. Nous devrions nous préparer à aider les Soviétiques, monsieur."
+  
+  STR_DEFCON_2_CONFIRMED_EVENT: "Les forces armées sont maintenant en DEFCON 2"
+  STR_DEFCON_2_CONFIRMED_EVENT_DESCRIPTION: "Le Président Kennedy a contacté le Premier ministre Khrouchtchev et ils ont convenu d'un plan. L'US Navy va mettre en place une 'quarantaine navale' autour de Cuba. Cela nous donnera le temps de débarquer des forces navales et d'aider les Soviétiques à attaquer la base alienne établie sur l'île. Et pour défendre le sol américain contre les vaisseaux ennemis. L'USAF est prête à faire pleuvoir l'enfer si les aliens ne sont pas arrêtés. Le Président a annoncé au monde la 'présence de missiles soviétiques'. Personne ne suspectera nos mouvements. Nous sommes presque prêts à partir."
+  
+  STR_CRUSADERS_ENGAGE_UFOS_CUBA_EVENT: "Les Crusader de l'US Navy engagent les OVNIs au-dessus de Cuba"
+  STR_CRUSADERS_ENGAGE_UFOS_CUBA_EVENT_DESCRIPTION: "Avec la quarantaine navale entièrement déployée, nos pilotes ont le champ libre pour tenir les OVNIs à distance. Les canons AA des navires de la marine et les F-8 Crusader interceptent tout vaisseau alien assez stupide pour quitter l'espace aérien cubain. Nos aviateurs sont cependant limités à l'île, pour éviter de susciter une attention non désirée. Les vaisseaux ennemis sont dangereux, mais les pilotes de la Marine sont des durs à cuire et sont activement engagés dans des dogfights avec les envahisseurs."
+  
+  STR_GLADIO_REVEALED_EVENT: "Communication perdue avec les cellules stay-behind"
+  STR_GLADIO_REVEALED_EVENT_DESCRIPTION: "Plus tôt dans la journée, nous avons perdu toutes les communications avec les agents secrets en Europe occidentale, collectivement connus sous le nom de Gladio. Tous les postes d'écoute et les cachettes soutenus par la CIA sont devenus complètement sombres, aucune trace ni aucun signal d'eux. Nous soupçonnons qu'ils ont pu rencontrer des agents du KGB ou pire, que des aliens infiltrés les ont trouvés et attaqués. D'autres postes de l'Agence tentent de rétablir le contact avec eux... nous ne pouvons pas les perdre, nous avons investi une quantité substantielle de ressources dans ces moyens de renseignement. Surtout maintenant avec l'augmentation de la menace alienne."
+  
+  STR_COMPLETE_EVIDENCE_FUNDING_REWARD_EVENT: "Aide financière de l'Agence"
+  STR_COMPLETE_EVIDENCE_FUNDING_REWARD_EVENT_DESCRIPTION: "Après avoir réussi à récupérer toutes les preuves requises d'une activité étrangère sur le sol américain, l'Agence a accepté de nous accorder une augmentation de financement afin de poursuivre nos opérations. Nos supérieurs sont satisfaits des résultats des enquêtes du Bureau. Nous avons une pièce de plus du grand puzzle encore inconnu. Continuez à faire du bon travail."
+
+  STR_D17_OPERATIONS_IN_EUROPE_EVENT: "Le MI6 signale une augmentation de l'activité de la D17 en Europe"
+  STR_D17_OPERATIONS_IN_EUROPE_EVENT_DESCRIPTION: "Notre officier de liaison avec les services de renseignement britanniques a signalé une augmentation suspecte de l'activité de la Division 17 avec les pays d'Europe occidentale. Il n'y a pas encore de rapports confirmés d'activité alienne dans cette région, mais nous devrions garder un œil sur eux. Nos vaisseaux de reconnaissance pourraient survoler l'Europe pour identifier les cachettes soviétiques potentielles."
+  
+  STR_SPIDERWEB_SUCESSFUL_EVENT: "Transmission du directeur de la Zone 51"
+  STR_SPIDERWEB_SUCESSFUL_EVENT_DESCRIPTION: "Je vais en finir avec les félicitations. L'installation de Spring Island a été un grand succès. Votre branche a fait plus de progrès en un an que nous n'en avons fait au cours des dix dernières années, grâce à vous. Avec la capture d'un OVNI entièrement intact, nos équipes de recherche et développement ont fait des progrès sans précédent vers notre programme d'armes à haute énergie. Nous vous tiendrons au courant."
+  
+  STR_USA_PROTOTYPE_WEAPONS_EVENT: "Prototypes d'armes à haute énergie aux Etats-Unis"
+  STR_USA_PROTOTYPE_WEAPONS_EVENT_DESCRIPTION: "Les ingénieurs de la station d'armes aéronavales de China Lake ont expérimenté une arme laser à haute énergie. Alimentés par des prototypes de piles à hélium-néon, ils avaient l'intention de créer une arme aérienne pour notre programme F4 Phantom, mais les alliages aliens se sont avérés si légers qu'ils ont décidé d'abandonner cette idée pour une arme portable. Le F4 devra se passer d'un canon interne, et l'armée de l'air est convaincue qu'elle n'en a pas besoin. Pour répondre aux besoins en énergie, les ingénieurs de la zone 51 ont conçu une combinaison contenant une grande batterie, qui augmente également la force de l'utilisateur grâce à des moteurs prédictifs, et alimente un champ d'énergie similaire à ceux utilisés par les vaisseaux aliens."
+  
+  STR_NATO_PROTOTYPE_WEAPONS_EVENT: "Prototypes d'armes à haute énergie de l'OTAN"
+  STR_NATO_PROTOTYPE_WEAPONS_EVENT_DESCRIPTION: "Nos contacts au sein du MI6 nous ont contactés. Entre la disparition de Gladio et la forte présence de la Division 17, nous avions des soupçons, mais ils ont officiellement révélé qu'ils enquêtaient indépendamment sur les incidents aliens à l'intérieur de leurs frontières et qu'ils connaissaient le Bureau 11. Ils ont offert leur propre prototype d'arme de rétro-ingénierie en échange de certains de nos projecteurs laser de China Lake. Le Sturm Ekanone a été commandé par le MI6 et créé en Allemagne de l'Ouest."
+  
+  STR_SOVIET_PROTOTYPE_WEAPONS_EVENT: "Prototypes d'armes à haute énergie de l'URSS"
+  STR_SOVIET_PROTOTYPE_WEAPONS_EVENT_DESCRIPTION: "Après notre rencontre avec l'infiltré alien et de Gladio sur D17, nous sommes arrivés à la conclusion que les aliens connaissent le Bureau 11 et la Direction 17. Ils ont commencé à prendre des mesures plus agressives et directes contre nos deux organisations. Nous savons que les aliens préparent un grand coup et craignons que nous n'ayons plus beaucoup de temps. En dépit du risque de sécurité, nous avons accepté de partager des prototypes d'armes. En échange de nos China Lakes, les Soviétiques ont offert leur fusil électromagnétique Vikhir. Il semble s'agir d'un fusil anti-matériel, tirant des balles en alliage de tungstène à des vitesses incroyables."
+
+######################
+###    Base.rul    ###
+######################
+  STR_BASE: "MODULES"
+  STR_HANGAR_UFOPEDIA: "Chaque hangar peut accueillir un vaisseau ainsi que la logistique et la planification des missions. Il existe des installations pour l'entretien, le ravitaillement et la réparation des vaisseaux du Bureau 11. Chaque vaisseau stationné à la base doit avoir un hangar libre qui lui est attribué et qui ne peut être utilisé par d'autres vaisseaux, même si le vaisseau attribué est en mission."
+
+######################
+###  Enemies.rul   ###
+######################
+  STR_ENEMIES: "INTERROGATOIRES ET AUTOPSIES"
+  STR_HYBRID: "Hybride"
+  STR_THIN_MAN: "Homme mince"
+  STR_THIN_MAN_CORPSE: "Corp Homme mince"
+  STR_THIN_MAN_AUTOPSY: "Autopsie Homme mince"
+  STR_THIN_MAN_AUTOPSY_UFOPAEDIA: "Cette créature est clairement un produit du génie génétique. Elle semble être une tentative de réplication d'un humain, jusqu'au niveau de l'ADN. Cependant, elle semble imparfaite et dotée de caractéristiques étranges comme des yeux reptiliens. Les rapports du terrain indiquent qu'ils ont exercé une sorte de contrôle mental sur les troupes. Peut-être est-ce pour aider au déguisement, ou pour améliorer la puissance de combat de la créature. Quoi qu'il en soit, il s'agit d'une créature dangereuse qui ne doit pas être sous-estimée."
+  STR_THIN_MAN_INFILTRATOR: "Homme mince infiltré"
+  STR_THIN_MAN_UFOPAEDIA: "L'Homme Mince, comme l'ont baptisé nos troupes, semble être un homme cacucasien décharné, mais présente des caractéristiques étranges comme des yeux reptiliens. L'interrogatoire s'est avéré futile car il semblait avoir un contrôle inconscient sur nos chercheurs. Une personne d'un milieu moins professionnel pourrait appeler cela de la... télépathie. Malheureusement, il a été éliminé après avoir tenté de s'échapper."
+  STR_D17: "Division 17 du KGB"
+  STR_D17_SOLDIER: "Soldat D17"
+  STR_D17_OFFICER: "Officier D17"
+  STR_D17_AGENT: "Agent D17"
+  STR_HYBRID_CORPSE: "Corps Hybride"
+  STR_HYBRID_SHAPESHIFTER: "Hybride métamorphe"
+  STR_GLADIO_OPERATIVE_CORPSE: "Corps agent Gladio"
+  STR_GLADIO_OPERATIVE_M: "Opérateur Gladio mâle"
+  STR_GLADIO_OPERATIVE_F: "Opérateur Gladio Femme"
+  STR_OPERATION_GLADIO: "Opération: Gladio"
+
+###############################
+###  extraStrings_CMPV.rul  ###
+###############################
+  MAP_ACULTA: "Herbe Gothique"
+  MAP_ACULTASNOW: "Neige Ghothique"
+  MAP_ACULTASAND: "Sable Gothique"
+  MAP_MOUNT: "Terrains vagues montagnes"
+  MAP_MOUNTSNOW: "Montagnes enneigées"
+  MAP_MOUNTMUDD: "Montagnes boueuses"
+  MAP_MOUNTGRASS: "Montagnes herbeuses"
+  MAP_MOUNTSAND: "Montagnes ensablées"
+  MAP_MOUNTROCK: "Montagnes rocheuses"
+  MAP_MOUNTTROP: "Montagnes tropicales"
+  MAP_PLAINS: "Plaines en friche"
+  MAP_PLAINSSNOW: "Plaines enneigées"
+  MAP_PLAINSMUDD: "Plaines boueuses"
+  MAP_PLAINSGRASS: "Plaines herbeuses"
+  MAP_PLAINSSAND: "Plaines ensablées"
+  MAP_PLAINSROCK: "Plaines rocheuses"
+  MAP_PLAINSTROP: "Plaines tropicales"
+  MAP_REFINERY: "Raffinerie"
+  MAP_POLAR_BD: "Glace brisée"
+  MAP_RICE_FARM: "Champs de riz"
+  MAP_IDT_AIRPORT: "Aéroport"
+  MAP_IDT_SNOWVILLAGE: "Village rural enneigé"
+  MAP_IDT_SNOWFOREST: "Forêt enneigée"
+  MAP_IDT_VILLAGE: "Établissement rural"
+  MAP_IDT_FOREST: "Forêt"
+  MAP_CHEMTOWN: "Zone chimique"
+  MAP_CHEMTOWN_ROADS: "Zone chimique, Routes"
+  MAP_EXPANDED_TERROR: "Site d'horreur élargi"
+  MAP_RURAL: "Village"
+  MAP_COMRCURBAN: "Zone Commerciale"
+  MAP_INDUSTRIALSLUM: "Bidonvilles industriels"
+  MAP_PORTTFTD6: "Port A"
+  MAP_PORTTFTD5: "Port B"
+  MAP_PORTUFO: "Port, Routes"
+  MAP_ISLANDURBAN: "Île"
+  MAP_CRUISE_LINER: "Grand navire de croisière"
+  MAP_LINERSHIP: "Petit navire de croisière"
+  MAP_CARGOSHIP: "Navire Cargo"
+  MAP_FORESTSWAMP: "Marais forestier"
+  MAP_FOREST_SNOW: "Forêt enneigée (2)"
+  MAP_FORESTSWAMP_SNOW: "Marais forestier enneigé"
+  MAP_IDT_RED_FARM: "Ferme de maïs"
