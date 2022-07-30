@@ -740,13 +740,13 @@ units:
     aggression: 3
     builtInWeaponSets:
      -
-       - STR_AK_47
-       - STR_AK_47_MAG
-       - STR_AK_47_MAG
+       - STR_SKORPION_VZ61
+       - STR_STECHKIN_APS_MAG
+       - STR_STECHKIN_APS_MAG
      -
-       - STR_AK_47
-       - STR_AK_47_MAG
-       - STR_AK_47_MAG
+       - STR_SKORPION_VZ61
+       - STR_STECHKIN_APS_MAG
+       - STR_STECHKIN_APS_MAG
      -
        - STR_AK_47
        - STR_AK_47_MAG
@@ -776,15 +776,11 @@ units:
     aggression: 2
     builtInWeaponSets:
      -
+       - STR_STECHKIN_APS
+       - STR_STECHKIN_APS_MAG
+       - STR_STECHKIN_APS_MAG
+     -
        - STR_SKORPION_VZ61
-       - STR_STECHKIN_APS_MAG
-       - STR_STECHKIN_APS_MAG
-     -
-       - STR_STECHKIN_APS
-       - STR_STECHKIN_APS_MAG
-       - STR_STECHKIN_APS_MAG
-     -
-       - STR_STECHKIN_APS
        - STR_STECHKIN_APS_MAG
        - STR_STECHKIN_APS_MAG
   - type: STR_D17_AGENT
@@ -815,15 +811,13 @@ units:
        - STR_CAMERA_GUN
        - STR_LISTENING_DEVICE
      -
+       - STR_CAMERA_GUN
+       - STR_LISTENING_DEVICE
+     -
        - STR_UMBRELLA_MOSIN_NAGANT
        - STR_UMBRELLA_MOSIN_NAGANT_MAG
        - STR_UMBRELLA_MOSIN_NAGANT_MAG
        - STR_LISTENING_DEVICE
-     -
-       - STR_CAMERA_GUN
-       - STR_CAMERA_GUN
-       - STR_LISTENING_DEVICE
-
   - type: STR_D17_SCIENTIST
     race: STR_D17
     rank: STR_LIVE_LEADER
@@ -849,18 +843,9 @@ units:
     aggression: 0
     builtInWeaponSets:
      -
-       - STR_CAMERA_GUN
-       - STR_DATA_BRIEFCASE
-       - STR_LISTENING_DEVICE
-     -
-       - STR_DATA_BRIEFCASE
        - STR_STECHKIN_APS
        - STR_STECHKIN_APS_MAG
-       - STR_LISTENING_DEVICE
-     -
        - STR_DATA_BRIEFCASE
-       - STR_CAMERA_GUN
-       - STR_LISTENING_DEVICE
 
 ######################
 #####   GLADIO   #####
