@@ -27,6 +27,7 @@ items:
     damageType: 4
     battleType: 1
     weight: 6
+    handSprite: 104
     bulletSprite: 29
     bulletSpeed: 20
     hitAnimation: 36
@@ -169,6 +170,8 @@ units:
     livingWeapon: true
     capturable: false
     spotter: 5
+    builtInWeapons:
+      - MECHTOID_WEAPON
 
 extraSprites:
   - type: MECHTOID_SPRITESHEET.PCK
