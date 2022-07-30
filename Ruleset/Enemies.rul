@@ -1,4 +1,11 @@
 items:
+  - type: STR_PSI_AMP
+    LOSRequired: true
+  - type: STR_MIND_PROBE
+    LOSRequired: true
+  - type: ALIEN_PSI_WEAPON
+    LOSRequired: true
+
   - type: STR_THIN_MAN_CORPSE
     size: 0.4
     costSell: 30000
@@ -224,7 +231,7 @@ armors:
     rearArmor: 6
     underArmor: 2
     visibilityAtDark: 24
-    psiVision: 8
+    psiVision: 3
     specialWeapon: ALIEN_PSI_WEAPON
     damageModifier:
       - 1.0
@@ -619,15 +626,15 @@ units:
     rank: STR_LIVE_COMMANDER
     stats:
       tu: 55
-      stamina: 70
-      health: 60
+      stamina: 60
+      health: 30
       bravery: 100
       reactions: 70
       firing: 60
       throwing: 60
       strength: 30
       psiStrength: 80
-      psiSkill: 35
+      psiSkill: 24
       melee: 60
     armor: THIN_MAN_ARMOR
     standHeight: 24
@@ -646,9 +653,9 @@ units:
     rank: STR_LIVE_LEADER
     race: STR_HYBRID
     stats:
-      tu: 60
+      tu: 70
       stamina: 80
-      health: 25
+      health: 15
       bravery: 110
       reactions: 70
       firing: 75
@@ -673,10 +680,10 @@ units:
     race: STR_HYBRID
     stats:
       tu: 50
-      stamina: 50
-      health: 80
-      bravery: 40
-      reactions: 45
+      stamina: 40
+      health: 120
+      bravery: 30
+      reactions: 30
       firing: 50
       throwing: 60
       strength: 30
