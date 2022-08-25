@@ -4,6 +4,7 @@ Changes made:
 *Added Russian Translation! by AndyFox
 *Added French Translation! by Blackstaff
 *Added HitFlash effect by MistarRed
+*Rebalanced Weapon Weights
 
 June-2022 v0.2.1 The Work of a Nation 
 Changes made:
