@@ -99,7 +99,7 @@ items:
     size: 0.1
     costBuy: 700
     costSell: 580
-    weight: 6
+    weight: 5
     bigSprite: 200
     floorSprite: 200
     handSprite: 200
@@ -149,7 +149,7 @@ items:
     size: 0.1
     costBuy: 200
     costSell: 150
-    weight: 2
+    weight: 1
     bigSprite: 216
     floorSprite: 216
     handSprite: 216
@@ -168,7 +168,7 @@ items:
     size: 0.1
     costBuy: 800
     costSell: 620
-    weight: 7
+    weight: 6
     bigSprite: 224
     floorSprite: 224
     handSprite: 224
@@ -218,7 +218,7 @@ items:
     size: 0.1
     costBuy: 200
     costSell: 150
-    weight: 2
+    weight: 1
     bigSprite: 240
     floorSprite: 240
     handSprite: 240
@@ -239,7 +239,7 @@ items:
     size: 0.1
     costBuy: 1800
     costSell: 1600
-    weight: 8
+    weight: 10
     bigSprite: 248
     floorSprite: 248
     handSprite: 248
@@ -304,7 +304,7 @@ items:
     size: 0.2
     costBuy: 2000
     costSell: 1750
-    weight: 9
+    weight: 20
     bigSprite: 272
     floorSprite: 272
     handSprite: 272
@@ -445,7 +445,7 @@ items:
     size: 0.1
     costBuy: 300
     costSell: 240
-    weight: 2
+    weight: 3
     bigSprite: 336
     floorSprite: 336
     handSprite: 336
@@ -465,7 +465,7 @@ items:
     size: 0.1
     costBuy: 300
     costSell: 240
-    weight: 4
+    weight: 5
     bigSprite: 344
     floorSprite: 344
     handSprite: 344
@@ -541,7 +541,7 @@ items:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
     costBuy: 200
     costSell: 150
-    weight: 2
+    weight: 1
     bigSprite: 368
     floorSprite: 368
     handSprite: 368
@@ -565,7 +565,7 @@ items:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
     costBuy: 1500
     costSell: 1200
-    weight: 9
+    weight: 14
     bigSprite: 376
     floorSprite: 376
     handSprite: 376
@@ -658,7 +658,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_PROPRIETARY, STR_SEMI_CONCEALED]
     size: 0.1
     costSell: 400
-    weight: 2
+    weight: 1
     bigSprite: 400
     floorSprite: 400
     handSprite: 400
@@ -684,7 +684,7 @@ items:
       - STR_MILITARY_EQUIPMENT_AQUISITION
     costBuy: 2000
     costSell: 1800
-    weight: 8
+    weight: 16
     bigSprite: 408
     floorSprite: 408
     handSprite: 408
@@ -737,7 +737,7 @@ items:
       - STR_MILITARY_EQUIPMENT_AQUISITION
     costBuy: 500
     costSell: 400
-    weight: 3
+    weight: 4
     bigSprite: 424
     floorSprite: 424
     handSprite: 424
@@ -760,7 +760,7 @@ items:
     size: 0.2
     costBuy: 6000
     costSell: 5200
-    weight: 18
+    weight: 44
     bigSprite: 432
     floorSprite: 432
     handSprite: 432
@@ -805,7 +805,7 @@ items:
     size: 0.2
     costBuy: 800
     costSell: 650
-    weight: 6
+    weight: 8
     bigSprite: 448
     floorSprite: 448
     handSprite: 448
@@ -831,7 +831,7 @@ items:
     size: 0.2
     costBuy: 4000
     costSell: 3500
-    weight: 11
+    weight: 12
     bigSprite: 456
     floorSprite: 456
     handSprite: 456
@@ -860,7 +860,7 @@ items:
     size: 0.1
     costBuy: 500
     costSell: 450
-    weight: 1
+    weight: 3
     bigSprite: 472
     floorSprite: 472
     handSprite: 472
@@ -890,7 +890,7 @@ items:
     size: 0.2
     costBuy: 1500
     costSell: 1100
-    weight: 11
+    weight: 10
     bigSprite: 480
     floorSprite: 480
     handSprite: 480
@@ -941,7 +941,7 @@ items:
     size: 0.1
     costBuy: 400
     costSell: 350
-    weight: 1
+    weight: 2
     bigSprite: 496
     floorSprite: 496
     handSprite: 496
@@ -967,7 +967,7 @@ items:
     size: 0.2
     costBuy: 1100
     costSell: 900
-    weight: 13
+    weight: 19
     bigSprite: 504
     floorSprite: 504
     handSprite: 504
@@ -1019,7 +1019,7 @@ items:
     size: 0.1
     costBuy: 500
     costSell: 420
-    weight: 3
+    weight: 4
     bigSprite: 520
     floorSprite: 520
     handSprite: 520
@@ -1043,7 +1043,7 @@ items:
     size: 0.2
     costBuy: 2000
     costSell: 1400
-    weight: 15
+    weight: 17
     bigSprite: 528
     floorSprite: 528
     handSprite: 528
@@ -1111,7 +1111,7 @@ items:
     size: 0.2
     costBuy: 4000
     costSell: 3500
-    weight: 11
+    weight: 13
     bigSprite: 552
     floorSprite: 552
     handSprite: 552
@@ -1163,7 +1163,7 @@ items:
     size: 0.1
     costBuy: 500
     costSell: 420
-    weight: 2
+    weight: 3
     bigSprite: 568
     floorSprite: 568
     handSprite: 568
@@ -1187,7 +1187,7 @@ items:
     size: 0.1
     costBuy: 500
     costSell: 480
-    weight: 6
+    weight: 5
     bigSprite: 576
     floorSprite: 576
     handSprite: 576
@@ -1239,7 +1239,7 @@ items:
     size: 0.1
     costBuy: 200
     costSell: 150
-    weight: 3
+    weight: 2
     bigSprite: 592
     floorSprite: 592
     handSprite: 592
@@ -1259,7 +1259,7 @@ items:
       - STR_SOVIET_WEAPON_AQUISITION
     costBuy: 1000
     costSell: 860
-    weight: 8
+    weight: 6
     bigSprite: 600
     floorSprite: 600
     handSprite: 600
@@ -1314,7 +1314,7 @@ items:
     size: 0.2
     costBuy: 3000
     costSell: 2780
-    weight: 12
+    weight: 15
     bigSprite: 616
     floorSprite: 616
     handSprite: 616
@@ -1376,7 +1376,7 @@ items:
     size: 0.1
     costBuy: 500
     costSell: 420
-    weight: 2
+    weight: 3
     bigSprite: 632
     floorSprite: 632
     handSprite: 632
@@ -1399,7 +1399,7 @@ items:
     size: 0.2
     costBuy: 1300
     costSell: 1150
-    weight: 11
+    weight: 13
     bigSprite: 640
     floorSprite: 640
     handSprite: 640
@@ -1444,7 +1444,7 @@ items:
     size: 0.2
     costBuy: 1100
     costSell: 900
-    weight: 14
+    weight: 19
     bigSprite: 656
     floorSprite: 656
     handSprite: 656
@@ -1498,7 +1498,7 @@ items:
       - STR_CARL_GUSTAF_M45_BUY
     costBuy: 2000
     costSell: 1800
-    weight: 8
+    weight: 15
     bigSprite: 672
     floorSprite: 672
     handSprite: 672
@@ -1976,7 +1976,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SEMI_CONCEALED, STR_CONCEALED]
     size: 0.2
     costSell: 8000
-    weight: 9
+    weight: 7
     bigSprite: 840
     floorSprite: 840
     handSprite: 840
@@ -2077,7 +2077,7 @@ items:
       - STR_DELISLE_CARBINE_SNIPER
     costBuy: 4000
     costSell: 3400
-    weight: 10
+    weight: 15
     bigSprite: 904
     floorSprite: 904
     handSprite: 904
@@ -2119,7 +2119,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SEMI_CONCEALED, STR_CONCEALED]
     size: 0.2
     costSell: 4150
-    weight: 8
+    weight: 13
     bigSprite: 920
     floorSprite: 920
     handSprite: 920
