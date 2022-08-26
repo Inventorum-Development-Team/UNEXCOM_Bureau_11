@@ -1328,7 +1328,7 @@ items:
       name: STR_CONTROLLED_BURST
       ammoSlot: 0
       arcing: false
-    snapRange: 18
+    snapRange: 12
     accuracySnap: 85
     tuSnap: 30
     confAuto:
@@ -1336,7 +1336,7 @@ items:
       name: STR_CONTROLLED_AUTO
       ammoSlot: 0
       arcing: false
-    autoRange: 11
+    autoRange: 7
     accuracyAuto: 60
     tuAuto: 35
     accuracyCloseQuarters: 90
@@ -1381,7 +1381,7 @@ items:
     floorSprite: 632
     handSprite: 632
     hitAnimation: -1
-    power: 60
+    power: 50
     damageAlter:
       ToWound: 0.6
       ToHealth: 0.85
