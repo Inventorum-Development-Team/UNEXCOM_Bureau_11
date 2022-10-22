@@ -85,6 +85,14 @@ eventScripts:
     executionOdds: 100
     minDifficulty: 0
     maxDifficulty: 4
+  - type: STR_SEPTEMBER_1961_EVENT_SCRIPTS_3
+    oneTimeSequentialEvents:
+     - STR_D17_OPERATIONS_IN_EUROPE_EVENT
+    firstMonth: 8
+    lastMonth: 8
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
 
   - type: STR_OCTOBER_1961_EVENT_SCRIPTS
     oneTimeSequentialEvents:
@@ -131,6 +139,16 @@ eventScripts:
     minDifficulty: 0
     maxDifficulty: 4
 
+  - type: STR_JUNE_1962_EVENT_SCRIPTS
+    eventWeights:                 # randomly generated repeatable events
+      0:
+        STR_NATO_PROTOTYPE_WEAPONS_EVENT: 100
+    firstMonth: 17
+    lastMonth: 17
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
   - type: STR_AUGUST_1962_EVENT_SCRIPTS_1
     eventWeights:                 # randomly generated repeatable events
       0:
@@ -162,6 +180,15 @@ eventScripts:
   - type: STR_SEPTEMBER_1962_EVENT_SCRIPTS
     oneTimeSequentialEvents:
      - STR_SOVIETS_APPROACH_BUREAU_11_EVENT
+    firstMonth: 20
+    lastMonth: 20
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_SEPTEMBER_1962_EVENT_SCRIPTS_1
+    oneTimeSequentialEvents:
+     - STR_OPERATION_NORTHWOODS_POSTPONED_EVENT
     firstMonth: 20
     lastMonth: 20
     executionOdds: 100
@@ -272,6 +299,12 @@ events:
     description: STR_BERLIN_WALL_EVENT_DESCRIPTION
     background: BERLIN_WALL_EVENT_BACKGROUND
     timer: 41700 # 29 Days
+    #timerRandom: 20500
+
+  - name: STR_D17_OPERATIONS_IN_EUROPE_EVENT
+    description: STR_D17_OPERATIONS_IN_EUROPE_EVENT_DESCRIPTION
+    background: SOVIETS_APPROACH_BUREAU_11_EVENT_BACKGROUND
+    timer: 1400
     #timerRandom: 20500
 
   - name: STR_SIEGE_OF_JADOTVILLE_EVENT
