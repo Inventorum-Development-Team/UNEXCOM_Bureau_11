@@ -262,7 +262,7 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 4
-    accuracySnap: 60
+    accuracySnap: 90
     tuSnap: 20
     accuracyCloseQuarters: 90
     dropoff: 8
@@ -287,11 +287,10 @@ items:
     hitAnimation: 26
     power: 20
     shotgunBehavior: 1
-    shotgunPellets: 4
-    shotgunSpread: 50
+    shotgunPellets: 9
+    shotgunSpread: 80
     damageAlter:
-      ArmorEffectiveness: 0.9
-      ToHealth: 1.25
+      ArmorEffectiveness: 1.1
     damageType: 1
     clipSize: 2
     battleType: 2
@@ -329,15 +328,15 @@ items:
       arcing: false
     snapRange: 16
     accuracySnap: 70
-    tuSnap: 40
+    tuSnap: 30
     confAuto:
       shots: 8
       name: STR_SPRAY_N_PRAY
       ammoSlot: 0
       arcing: false
     autoRange: 8
-    accuracyAuto: 55
-    tuAuto: 30
+    accuracyAuto: 45
+    tuAuto: 45
     accuracyCloseQuarters: 100
     tuLoad: 20
     maxRange: 60
@@ -349,6 +348,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 35
+    sprayWaypoints: 2
     twoHanded: true
     listOrder: 206
   - type: STR_UNITED_DEFENSE_M42_20_MAG
@@ -410,7 +410,7 @@ items:
       ammoSlot: 0
       arcing: false
     aimRange: 24
-    accuracyAimed: 115
+    accuracyAimed: 120
     tuAimed: 70
     confSnap:
       shots: 3
@@ -418,7 +418,7 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 14
-    accuracySnap: 75
+    accuracySnap: 70
     tuSnap: 40
     confAuto:
       shots: 5
@@ -426,7 +426,7 @@ items:
       ammoSlot: 0
       arcing: false
     autoRange: 9
-    accuracyAuto: 50
+    accuracyAuto: 45
     tuAuto: 30
     accuracyCloseQuarters: 90
     tuLoad: 20
@@ -445,7 +445,7 @@ items:
     size: 0.1
     costBuy: 300
     costSell: 240
-    weight: 3
+    weight: 2
     bigSprite: 336
     floorSprite: 336
     handSprite: 336
@@ -463,9 +463,11 @@ items:
   - type: STR_SPRINGFIELD_M2_30_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_MAGAZINES]
     size: 0.1
+    requiresBuy:
+      - STR_MILITARY_EQUIPMENT_AQUISITION
     costBuy: 300
     costSell: 240
-    weight: 5
+    weight: 3
     bigSprite: 344
     floorSprite: 344
     handSprite: 344
@@ -609,6 +611,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 35
+    sprayWaypoints: 2
     twoHanded: true
     listOrder: 207
 
@@ -729,6 +732,7 @@ items:
     invHeight: 3
     armor: 35
     twoHanded: true
+    sprayWaypoints: 2
     listOrder: 217
   - type: STR_M3_GREASEGUN_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES]
@@ -775,16 +779,16 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 20
-    accuracySnap: 70
-    tuSnap: 40
+    accuracySnap: 40
+    tuSnap: 45
     confAuto:
-      shots: 10
+      shots: 15
       name: STR_SUPPRESSION
       ammoSlot: 0
       arcing: false
-    autoRange: 14
-    accuracyAuto: 45
-    tuAuto: 55
+    autoRange: 20
+    accuracyAuto: 30
+    tuAuto: 80
     accuracyCloseQuarters: 90
     tuLoad: 30
     maxRange: 60
@@ -795,6 +799,7 @@ items:
     battleType: 1
     invWidth: 2
     invHeight: 3
+    sprayWaypoints: 2
     twoHanded: true
     blockBothHands: true
     listOrder: 219
@@ -905,7 +910,7 @@ items:
       ammoSlot: 0
       arcing: false
     aimRange: 9
-    accuracyAimed: 110
+    accuracyAimed: 150
     tuAimed: 55
     confSnap:
       shots: 1
@@ -913,15 +918,15 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 6
-    accuracySnap: 90
+    accuracySnap: 130
     tuSnap: 25
     confAuto:
-      shots: 3
+      shots: 9
       name: STR_RAGE_FIRE
       ammoSlot: 0
       arcing: false
     autoRange: 4
-    accuracyAuto: 50
+    accuracyAuto: 30
     tuAuto: 45
     accuracyCloseQuarters: 90
     dropoff: 4
@@ -948,11 +953,10 @@ items:
     hitAnimation: 26
     power: 20
     shotgunBehavior: 1
-    shotgunPellets: 4
-    shotgunSpread: 50
+    shotgunPellets: 9
+    shotgunSpread: 80
     damageAlter:
-      ArmorEffectiveness: 0.9
-      ToHealth: 1.25
+      ArmorEffectiveness: 1.1
     damageType: 1
     clipSize: 6
     battleType: 2
@@ -982,7 +986,7 @@ items:
       ammoSlot: 0
       arcing: false
     aimRange: 22
-    accuracyAimed: 100
+    accuracyAimed: 120
     tuAimed: 65
     confSnap:
       shots: 3
@@ -990,7 +994,7 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 22
-    accuracySnap: 85
+    accuracySnap: 60
     tuSnap: 30
     confAuto:
       shots: 5
@@ -998,8 +1002,8 @@ items:
       ammoSlot: 0
       arcing: false
     autoRange: 15
-    accuracyAuto: 70
-    tuAuto: 35
+    accuracyAuto: 50
+    tuAuto: 45
     accuracyCloseQuarters: 90
     tuLoad: 20
     maxRange: 60
@@ -1414,7 +1418,7 @@ items:
       ammoSlot: 0
       arcing: false
     aimRange: 9
-    accuracyAimed: 110
+    accuracyAimed: 130
     tuAimed: 60
     confSnap:
       shots: 1
@@ -1422,7 +1426,7 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 6
-    accuracySnap: 90
+    accuracySnap: 110
     tuSnap: 35
     accuracyCloseQuarters: 90
     dropoff: 4
@@ -1460,7 +1464,7 @@ items:
       arcing: false
     aimRange: 30
     accuracyAimed: 140
-    tuAimed: 65
+    tuAimed: 60
     confSnap:
       shots: 3
       name: STR_CONTROLLED_BURST
@@ -1567,9 +1571,9 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 30
-    accuracySnap: 70
+    accuracySnap: 90
     costAuto:
-      time: 55
+      time: 70
       mana: 5
     confAuto:
       shots: 10
@@ -1577,10 +1581,10 @@ items:
       ammoSlot: 0
       arcing: false
     autoRange: 20
-    accuracyAuto: 35
+    accuracyAuto: 60
     accuracyCloseQuarters: 90
     damageType: 4
-    power: 55
+    power: 80
     clipSize: -1
     damageAlter:
       RandomType: 7
@@ -1611,6 +1615,7 @@ items:
       - STR_STURM_EKANONE_BATTERY
     costAimed:
       time: 45
+      mana: 4
     confAimed:
       shots: 1
       name: STR_STEADY_SHOT
@@ -1620,6 +1625,7 @@ items:
     accuracyAimed: 110
     costSnap:
       time: 20
+      mana: 4
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
@@ -1676,6 +1682,7 @@ items:
       - STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG
     costAimed:
       time: 55
+      mana: 2
     confAimed:
       shots: 1
       name: STR_DEADEYE
@@ -1685,6 +1692,7 @@ items:
     accuracyAimed: 200
     costSnap:
       time: 40
+      mana: 2
     confSnap:
       shots: 1
       name: STR_STEADY_SHOT
@@ -1999,7 +2007,7 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 25
-    accuracySnap: 65
+    accuracySnap: 75
     tuSnap: 40
     confAuto:
       shots: 8
@@ -2020,6 +2028,7 @@ items:
     invWidth: 1
     invHeight: 2
     armor: 35
+    sprayWaypoints: 2
     twoHanded: false
     listOrder: 206
 
