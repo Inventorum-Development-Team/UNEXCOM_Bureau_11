@@ -319,7 +319,7 @@ items:
       ammoSlot: 0
       arcing: false
     aimRange: 20
-    accuracyAimed: 110
+    accuracyAimed: 120
     tuAimed: 55
     confSnap:
       shots: 2
@@ -327,16 +327,16 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 16
-    accuracySnap: 70
-    tuSnap: 30
+    accuracySnap: 80
+    tuSnap: 35
     confAuto:
       shots: 8
       name: STR_SPRAY_N_PRAY
       ammoSlot: 0
       arcing: false
     autoRange: 8
-    accuracyAuto: 45
-    tuAuto: 45
+    accuracyAuto: 55
+    tuAuto: 30
     accuracyCloseQuarters: 100
     tuLoad: 20
     maxRange: 60
