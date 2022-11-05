@@ -793,7 +793,7 @@ items:
     tuLoad: 30
     maxRange: 60
     dropoff: 1
-    kneelBonus: 150
+    kneelBonus: 200
     costThrow:
       energy: 20
     battleType: 1
@@ -1571,7 +1571,7 @@ items:
       ammoSlot: 0
       arcing: false
     snapRange: 30
-    accuracySnap: 90
+    accuracySnap: 70
     costAuto:
       time: 70
       mana: 5
@@ -1581,7 +1581,7 @@ items:
       ammoSlot: 0
       arcing: false
     autoRange: 20
-    accuracyAuto: 60
+    accuracyAuto: 50
     accuracyCloseQuarters: 90
     damageType: 4
     power: 80
@@ -1590,7 +1590,7 @@ items:
       RandomType: 7
       ToArmor: 0.5
     maxRange: 60
-    kneelBonus: 150
+    kneelBonus: 200
     battleType: 1
     invWidth: 1
     invHeight: 3
