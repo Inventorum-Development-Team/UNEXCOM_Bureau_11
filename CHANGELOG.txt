@@ -1,3 +1,9 @@
+November-2022 v0.2.3 The Work of a Nation 
+Changes made:
+*Rebalanced Shotguns, Rifles, and LMGs
+*Fixed wrong audio file
+*Fixed bugged events
+
 August-2022 v0.2.2 The Work of a Nation 
 Changes made:
 *Fixed Mechtoid Weapon
