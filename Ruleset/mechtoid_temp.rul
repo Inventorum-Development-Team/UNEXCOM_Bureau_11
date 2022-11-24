@@ -47,8 +47,6 @@ items:
     invHeight: 3
     recover: false
     power: 60
-    vaporColorSurface: 3
-    vaporDensitySurface: 30
   - type: STR_MECHTOID_CORPSE
     size: 1
     costSell: 20000
