@@ -39,6 +39,7 @@ extraNerdyPediaInfo: true
 hunterKillerFastRetarget: true
 maxViewDistance: 30
 stunningImprovesMorale: true
+newBaseUnlockResearch: STR_ALIENS_ONLY
 
 mana:
   enabled: true
