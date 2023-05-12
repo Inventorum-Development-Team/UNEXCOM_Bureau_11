@@ -132,7 +132,7 @@ alienDeployments:
     markerIcon: 27
     alert: STR_SPECIAL_CASE_OPEN
     alertBackground: BACK13.SCR
-    alertDescription: STR_NONE
+    alertDescription: STR_PROVING_GROUNDS_DESCRIPTION
     unlockedResearch: STR_NORISKA_KRASCHEN_MISSION_TRIGGER
 
   - type: STR_NORISKA_KRASCHEN_DEPLOYMENT
@@ -224,7 +224,7 @@ alienDeployments:
       palette: 2
     alert: STR_SPECIAL_CASE_OPEN
     alertBackground: BACK13.SCR
-    alertDescription: STR_NONE
+    alertDescription: STR_NORISKA_KRASCHEN_DESCRIPTION
     markerName: STR_NORISKA_KRASCHEN_MARKER
     markerIcon: 27
     missionBountyItem: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
@@ -324,7 +324,7 @@ alienDeployments:
     markerIcon: 28
     alert: STR_SPECIAL_CASE_OPEN
     alertBackground: BACK13.SCR
-    alertDescription: STR_NONE
+    alertDescription: STR_DISCOVERIES_DESCRIPTION
     unlockedResearch: STR_DISCOVERIES_SECTOID_ENGINEER
 
   - type: STR_HIDE_AND_SEEK_DEPLOYMENT
@@ -418,7 +418,7 @@ alienDeployments:
     markerIcon: 28
     alert: STR_SPECIAL_CASE_OPEN
     alertBackground: BACK13.SCR
-    alertDescription: STR_CONCEALED
+    alertDescription: STR_HIDE_AND_SEEK_DESCRIPTION
     unlockedResearch: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
   - type: STR_SPIDERWEB_DEPLOYMENT
@@ -526,7 +526,7 @@ alienDeployments:
     markerIcon: 28
     alert: STR_OPERATION_SPIDERWEB_APPROVED
     alertBackground: BACK13.SCR
-    alertDescription: STR_NONE
+    alertDescription: STR_SPIDERWEB_DESCRIPTION
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
     unlockedResearch: STR_WHISPERS_MISSION_TRIGGER
 
@@ -639,7 +639,7 @@ alienDeployments:
     markerIcon: 29
     alert: STR_DISTRESS_SIGNAL_RECIEVED
     alertBackground: BACK13.SCR
-    alertDescription: STR_SEMI_CONCEALED
+    alertDescription: STR_WHISPERS_DESCRIPTION
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
     unlockedResearch: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
 
@@ -750,7 +750,7 @@ alienDeployments:
     markerName: STR_THE_ENEMY_OF_MY_ENEMY_MARKER
     markerIcon: 29
     alert: STR_DISTRESS_SIGNAL_RECIEVED
-    alertDescription: STR_NONE
+    alertDescription: STR_THE_ENEMY_OF_MY_ENEMY_DESCRIPTION
     alertBackground: BACK13.SCR
     unlockedResearch: STR_OPERATION_HARBINGER_MISSION_TRIGGER
     
@@ -888,6 +888,7 @@ alienDeployments:
     markerIcon: 29
     alert: STR_OPERATION_APPROVED
     alertBackground: BACK12.SCR
+    alertDescription: STR_OPERATION_HARBINGER_DESCRIPTION
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
 ##################
@@ -1091,7 +1092,7 @@ alienDeployments:
       showCraft: true
       desc: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION
       palette: 2
-    alertDescription: STR_SEMI_CONCEALED
+    alertDescription: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION
     markerName: STR_CROP_CIRCLE_INVESTIGATION
     markerIcon: 30
 
@@ -1127,7 +1128,7 @@ alienDeployments:
       showCraft: true
       desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
       palette: 5
-    alertDescription: STR_SEMI_CONCEALED
+    alertDescription: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
     markerName: STR_CATTLE_MUTILATION_INVESTIGATION
     markerIcon: 31
 
@@ -1196,7 +1197,7 @@ alienDeployments:
       showCraft: true
       desc: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DESCRIPTION
       palette: 2
-    alertDescription: STR_SEMI_CONCEALED
+    alertDescription: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DESCRIPTION
     markerName: STR_COUNTER_INTELLIGENCE_INVESTIGATION
     markerIcon: 32
 #############################################
@@ -1265,7 +1266,7 @@ alienDeployments:
       showCraft: true
       desc: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
       palette: 5
-    alertDescription: STR_SEMI_CONCEALED
+    alertDescription: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
     markerName: STR_ABDUCTION_INVESTIGATION
     markerIcon: 33
 
@@ -1348,7 +1349,7 @@ alienDeployments:
       showCraft: true
       desc: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
       palette: 5
-    alertDescription: STR_SEMI_CONCEALED
+    alertDescription: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
     markerName: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION
     markerIcon: 34
 
@@ -1421,7 +1422,7 @@ alienDeployments:
       showCraft: true
       desc: STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DESCRIPTION
       palette: 2
-    alertDescription: STR_SEMI_CONCEALED
+    alertDescription: STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DESCRIPTION
     markerName: STR_COUNTER_INTELLIGENCE_INVESTIGATION
     markerIcon: 32
 
@@ -1520,7 +1521,7 @@ alienDeployments:
       showCraft: true
       desc: STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT_DESCRIPTION
       palette: 2
-    alertDescription: STR_SEMI_CONCEALED
+    alertDescription: STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT_DESCRIPTION
     markerName: STR_CROP_CIRCLE_INVESTIGATION
     markerIcon: 30
 
@@ -1595,8 +1596,8 @@ alienDeployments:
                 - STR_DUMMY_EVIDENCE_ITEM
           - alienRank: 2
             customUnitType: STR_D17_AGENT
-            lowQty: 3
-            highQty: 5
+            lowQty: 1
+            highQty: 3
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 0
@@ -1618,7 +1619,7 @@ alienDeployments:
       showCraft: true
       desc: STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT_DESCRIPTION
       palette: 5
-    alertDescription: STR_SEMI_CONCEALED
+    alertDescription: STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT_DESCRIPTION
     markerName: STR_CATTLE_MUTILATION_INVESTIGATION
     markerIcon: 31
 
@@ -1675,7 +1676,7 @@ alienDeployments:
         data:
           - alienRank: 1
             customUnitType: STR_D17_SCIENTIST
-            lowQty: 1
+            lowQty: 0
             highQty: 1
             dQty: 0
             extraQty: 0
@@ -1693,8 +1694,8 @@ alienDeployments:
                 - STR_DUMMY_EVIDENCE_ITEM
           - alienRank: 2
             customUnitType: STR_D17_AGENT
-            lowQty: 3
-            highQty: 5
+            lowQty: 1
+            highQty: 3
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 0
@@ -1716,7 +1717,7 @@ alienDeployments:
       showCraft: true
       desc: STR_ABDUCTION_AMBUSH_DEPLOYMENT_DESCRIPTION
       palette: 5
-    alertDescription: STR_SEMI_CONCEALED
+    alertDescription: STR_ABDUCTION_AMBUSH_DEPLOYMENT_DESCRIPTION
     markerName: STR_ABDUCTION_INVESTIGATION
     markerIcon: 33
 

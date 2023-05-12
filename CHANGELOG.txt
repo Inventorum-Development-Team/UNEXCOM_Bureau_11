@@ -1,3 +1,8 @@
+May-2023 v0.3.0 Tertia Optio
+Changes made:
+*Added alertDescriptions to Missions
+*Changed Soldier Type Names
+
 November-2022 v0.2.3 The Work of a Nation 
 Changes made:
 *Rebalanced Shotguns, Rifles, and LMGs
