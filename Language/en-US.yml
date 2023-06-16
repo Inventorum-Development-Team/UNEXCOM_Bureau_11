@@ -221,7 +221,7 @@ en-US:
 
   STR_STURM_EKANONE: "Sturm Ekanone"
   STR_STURM_EKANONE_BATTERY: "Sturm Ekanone Battery (10x)"
-  STR_STURM_EKANONE_UFOPEDIA: "The sterotype about German engineering holds true. The Sturm Ekanone, a pormanteau of the German words for Cannon and Electricity, is an electric weapon designed to incapacitate both biological and mechanical targets. Provided by MI6 after sharing the prototype Laser Projectors provided by the China Lake staff. It launches a short burst of electricity that can spread out to multiple targets, analogous to a shotgun."
+  STR_STURM_EKANONE_UFOPEDIA: "The sterotype about German engineering holds true. The Sturm Ekanone, a portmanteau of the German words for Cannon and Electricity, is an electric weapon designed to incapacitate both biological and mechanical targets. Provided by MI6 after sharing the prototype Laser Projectors provided by the China Lake staff. It launches a short burst of electricity that can spread out to multiple targets, analogous to a shotgun."
 
   STR_VIKHR_ELECTROMAGNETIC_RIFLE: "Vikhr EMR"
   STR_VIKHR_ELECTROMAGNETIC_RIFLE_MAG: "Vikhr EMR Mag (10x)"
@@ -521,7 +521,7 @@ en-US:
   STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA: "While examining it up close, the half-canibalized, half-mangled mechanisms of a Mosin-Nagant rifle are very clear, this weapon is quite innovative. When fully closed, it would be difficult to discern it from a real umbrella, especially at a distance. Other than the umbrella, this {ALT}7.62x54mmR{ALT} Mosin-Nagant otherwise operates normally. Very accurate and deadly, although it tends to fall off at longer ranges. {NEWLINE}>Concealable"
   
   STR_SAWED_OFF_MOSIN_NAGANT: "Sawed-off Mosin-Nagant"
-  STR_SAWED_OFF_MOSIN_NAGANT_UFOPEDIA: "A crude adaptation of the Soviet-made bolt-action rifle to reduce it to a handgun size. Commonly used by partisans and criminals as a makeshift pistol. Accuracy and range are almost non-existent, although its quite useful in CQB.{NEWLINE}>Semi-Concealable"
+  STR_SAWED_OFF_MOSIN_NAGANT_UFOPEDIA: "A crude adaptation of the Soviet-made bolt-action rifle to reduce it to a handgun size, sharing the same {ALT}7.62x54mmR{ALT} rounds. Commonly used by partisans and criminals as a makeshift pistol. Accuracy and range are almost non-existent, although its quite useful in CQB.{NEWLINE}>Semi-Concealable"
   
   STR_CAMERA_GUN: "Camera Gun"
   STR_CAMERA_GUN_UFOPEDIA: "Our agents in the field recovered this weapon from KGB sleeper agents operating within the US. While at first glance, it seems to be a camera it is actually a cleverly concealed single-shot .22LR pistol. It is deadly accurate in close quarters, but drastically falls off in accuracy with increased range. {NEWLINE}>Concealable"
