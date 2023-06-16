@@ -161,6 +161,9 @@ en-US:
   STR_HEART_ATTACK_GUN: "Heart Attack Gun"
   STR_HEART_ATTACK_GUN_MAG: ".45 ACP Toxin Magazine (7x)"
   STR_HEART_ATTACK_GUN_UFOPEDIA: "The 'Heart Attack Gun' is a modified internally suppressed M1911 that fires ricin darts. The toxin darts dissolve on the skin and cause a heart attack, killing the target and leaving almost no trace of itself behind. However, it takes time to circulate throughout the body and may give the enemy time to react. We also have no idea of its effectiveness against alien biochemistry. {NEWLINE}> Semi-Concealable"
+  
+  STR_SAWED_OFF_M2_CARBINE: "Sawed-off M2 Carbine"
+  STR_SAWED_OFF_M2_CARBINE_UFOPEDIA: "A shortened version of the standard Springfield M2, our gunsmiths basically removed the stocks to the grip and the barrel till the mechanism. Awfully inaccurate, but a potential option for 'spray and pray' during unexpected encounters. {NEWLINE}> Semi-Concealable"
 
   STR_M3_GREASEGUN: "M3 Greasegun"
   STR_M3_GREASEGUN_MAG: ".45 ACP Magazine (30x)"
@@ -173,6 +176,9 @@ en-US:
   STR_M79_THUMPER: "M79 Thumper"
   STR_M79_THUMPER_GRENADE: "40mm AP Grenade"
   STR_M79_THUMPER_UFOPEDIA: "A break-action shotgun grenade launcher about the size of a rifle, making it easy to operate. Chambered in {ALT}40mm Grenades{ALT}, we were only allowed to purchase Anti-Personnel grenades as the collateral damage of high explosives or incendiary rounds would compromise the secrecy of our operations."
+  
+  STR_SAWED_OFF_M79_THUMPER: "Sawed-off M79 Thumper"
+  STR_SAWED_OFF_M79_THUMPER_UFOPEDIA: "A cheap solution for the lack of heavy ordnance in covert missions deep inside foreign territory. The weapon was cut down as much as possible, basically keeping the firing mechanism and a small grip. Pretty uncomfortable and barely accurate, its very easy to use.  {NEWLINE}> Semi-Concealable"
 
   STR_ITHACA_37: "Ithaca 37"
   STR_ITHACA_37_SHELLS: "12 Gauge Shells (6x)"
@@ -513,6 +519,10 @@ en-US:
   STR_UMBRELLA_MOSIN_NAGANT: "Umbrella Mosin-Nagant"
   STR_UMBRELLA_MOSIN_NAGANT_MAG: "7.62x54mmR Magazine (5x)"
   STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA: "While examining it up close, the half-canibalized, half-mangled mechanisms of a Mosin-Nagant rifle are very clear, this weapon is quite innovative. When fully closed, it would be difficult to discern it from a real umbrella, especially at a distance. Other than the umbrella, this {ALT}7.62x54mmR{ALT} Mosin-Nagant otherwise operates normally. Very accurate and deadly, although it tends to fall off at longer ranges. {NEWLINE}>Concealable"
+  
+  STR_SAWED_OFF_MOSIN_NAGANT: "Sawed-off Mosin-Nagant"
+  STR_SAWED_OFF_MOSIN_NAGANT_UFOPEDIA: "A crude adaptation of the Soviet-made bolt-action rifle to reduce it to a handgun size. Commonly used by partisans and criminals as a makeshift pistol. Accuracy and range are almost non-existent, although its quite useful in CQB.{NEWLINE}>Semi-Concealable"
+  
   STR_CAMERA_GUN: "Camera Gun"
   STR_CAMERA_GUN_UFOPEDIA: "Our agents in the field recovered this weapon from KGB sleeper agents operating within the US. While at first glance, it seems to be a camera it is actually a cleverly concealed single-shot .22LR pistol. It is deadly accurate in close quarters, but drastically falls off in accuracy with increased range. {NEWLINE}>Concealable"
 
