@@ -163,6 +163,10 @@ fr:
   STR_SPRINGFIELD_M2_30_MAG: "Chargeur calibre .30 (30x)"
   STR_SPRINGFIELD_M2_UFOPEDIA: "Le Springfield M2 est une arme de défense personnelle chambrée en {ALT}calibre .30{ALT} destinée aux équipes d'artillerie, au personnel d'approvisionnement et aux troupes d'arrière-garde. Elle est appréciée pour sa facilité d'utilisation et son faible recul, bien qu'elle manque de puissance d'arrêt."
   
+  STR_SAWED_OFF_M2_CARBINE : "Carabine M2 à canon scié".
+
+  STR_SAWED_OFF_M2_CARBINE_UFOPEDIA : "Une version raccourcie de la Springfield M2 standard, nos armuriers ont essentiellement enlevé les crosses jusqu'à la poignée et le canon jusqu'au mécanisme. Très imprécis, mais une option potentielle pour 'pulvériser et prier' lors de rencontres inattendues. {NEWLINE}> Semi-cachable"
+  
   STR_HIGH_STANDARD_HDM: "High Standard HDM"
   STR_HIGH_STANDARD_HDM_MAG: "Chargeur .22 LR (10x)"
   STR_HIGH_STANDARD_HDM_UFOPEDIA: "Bien que le High Standard HDM, chambré en {ALT}calibre .22 LR{ALT}, soit en aucun cas dépassé, il est toujours utilisé par nos pilotes de U-2 et son silencieux intégré pourrait s'avérer utile pour les opérations secrètes.{NEWLINE}> Semi-cachable"
@@ -185,6 +189,8 @@ fr:
   STR_M79_THUMPER: "M79 Thumper"
   STR_M79_THUMPER_GRENADE: "Grenade AP 40mm"
   STR_M79_THUMPER_UFOPEDIA: "Un lance-grenades à canon brisé de la taille d'un fusil, ce qui le rend facile à utiliser. Chambré en grenades {ALT}40mm{ALT}, nous n'étions autorisés à acheter que des grenades anti-personnel car les dommages collatéraux des explosifs puissants ou des balles incendiaires compromettraient le secret de nos opérations."
+  STR_SAWED_OFF_M79_THUMPER : "M79 Thumper scié"
+  STR_SAWED_OFF_M79_THUMPER_UFOPEDIA : "Une solution bon marché pour pallier le manque de munitions lourdes lors de missions secrètes en territoire étranger. L'arme a été réduite autant que possible, en conservant essentiellement le mécanisme de mise à feu et une petite poignée. Plutôt inconfortable et peu précis, il est très facile à utiliser.  {NEWLINE}> Semi-cachable"
   
   STR_ITHACA_37: "Ithaca 37"
   STR_ITHACA_37_SHELLS: "Cartouches calibre 12 (6x)"
@@ -548,6 +554,9 @@ fr:
   STR_UMBRELLA_MOSIN_NAGANT: "Parapluie Mosin-Nagant"
   STR_UMBRELLA_MOSIN_NAGANT_MAG: "Chargeur 7.62x54mmR (5x)"
   STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA: "En l'examinant de près, les mécanismes mi-canibalisés, mi-mangés d'un fusil Mosin-Nagant sont très clairs, cette arme est assez innovante. Lorsqu'elle est entièrement fermée, il serait difficile de la discerner d'un véritable parapluie, surtout à distance. A part le parapluie, ce {ALT}7.62x54mmR{ALT} Mosin-Nagant fonctionne normalement. Très précis et mortel, bien qu'il ait tendance à être moins précis à longue portée.{NEWLINE}>Cachable"
+  
+  STR_SAWED_OFF_MOSIN_NAGANT : "Mosin-Nagant scié"
+  STR_SAWED_OFF_MOSIN_NAGANT_UFOPEDIA : "Une adaptation grossière du fusil à verrou soviétique pour le réduire à la taille d'une arme de poing, partageant les mêmes cartouches {ALT}7.62x54mmR{ALT}. Couramment utilisé par les partisans et les criminels comme pistolet de fortune. La précision et la portée sont presque inexistantes, bien qu'il soit assez utile dans le CQB. {NEWLINE}>Semi-cachable"
   
   STR_CAMERA_GUN: "Caméra-Canon"
   STR_CAMERA_GUN_UFOPEDIA: "Nos agents sur le terrain ont récupéré cette arme auprès d'agents dormants du KGB opérant aux États-Unis. Alors qu'à première vue, il semble s'agir d'un appareil photo, il s'agit en fait d'un pistolet 22LR à un coup habilement dissimulé. Il est d'une précision redoutable à courte distance, mais sa précision diminue considérablement lorsque la distance augmente.{NEWLINE}>Cachable"
