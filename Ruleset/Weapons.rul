@@ -23,34 +23,36 @@ itemCategories:
     listOrder: 11
   - type: STR_CLIPS
     listOrder: 12
-  - type: STR_SEMI_CONCEALED
+  - type: STR_CONCEALABLE
     listOrder: 13
-  - type: STR_CONCEALED
+  - type: STR_SILENCED
     listOrder: 14
-  - type: STR_MELEE
+  - type: STR_GHOST
     listOrder: 15
-  - type: STR_GADGETS
+  - type: STR_MELEE
     listOrder: 16
-  - type: STR_MEDICAL
+  - type: STR_GADGETS
     listOrder: 17
-  - type: STR_GRENADES
+  - type: STR_MEDICAL
     listOrder: 18
-  - type: STR_PROPRIETARY
+  - type: STR_GRENADES
     listOrder: 19
-  - type: STR_AUTOCANNON
+  - type: STR_PROPRIETARY
     listOrder: 20
-  - type: STR_BVRAAM
+  - type: STR_AUTOCANNON
     listOrder: 21
-  - type: STR_AUXILLARY
+  - type: STR_BVRAAM
     listOrder: 22
-  - type: STR_SOVIET_TECHNOLOGY
+  - type: STR_AUXILLARY
     listOrder: 23
-  - type: STR_ALIEN_ARTIFACT
+  - type: STR_SOVIET_TECHNOLOGY
     listOrder: 24
-  - type: STR_VEHICLES
+  - type: STR_ALIEN_ARTIFACT
     listOrder: 25
-  - type: STR_BLANKS
+  - type: STR_VEHICLES
     listOrder: 26
+  - type: STR_BLANKS
+    listOrder: 27
     hidden: true
 
 items:
@@ -95,7 +97,7 @@ items:
 
 # Browning HP-35
   - type: STR_BROWNING_HP35
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_CONCEALABLE]
     size: 0.1
     costBuy: 700
     costSell: 580
@@ -145,7 +147,7 @@ items:
     armor: 35
     listOrder: 200
   - type: STR_BROWNING_HP35_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_CONCEALABLE]
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -164,7 +166,7 @@ items:
 
 # Colt M1911
   - type: STR_COLT_M1911
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SILENCED, STR_CONCEALED, STR_GHOST]
     size: 0.1
     costBuy: 800
     costSell: 620
@@ -214,7 +216,7 @@ items:
     armor: 35
     listOrder: 202
   - type: STR_COLT_M1911_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_CONCEALABLE]
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -235,7 +237,7 @@ items:
 
 # Lupara M1897
   - type: STR_LUPARA_M1897
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CONCEALABLE]
     size: 0.1
     costBuy: 1800
     costSell: 1600
@@ -253,7 +255,7 @@ items:
       name: STR_STEADY_SHOT
       ammoSlot: 0
       arcing: false
-    aimRange: 6
+    aimRange: 10
     accuracyAimed: 120
     tuAimed: 55
     confSnap:
@@ -261,7 +263,7 @@ items:
       name: STR_HIP_FIRE
       ammoSlot: 0
       arcing: false
-    snapRange: 4
+    snapRange: 7
     accuracySnap: 90
     tuSnap: 20
     accuracyCloseQuarters: 90
@@ -276,7 +278,7 @@ items:
     armor: 30
     listOrder: 204
   - type: STR_LUPARA_M1897_SHELLS
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS, STR_CONCEALABLE]
     size: 0.1
     costBuy: 120
     costSell: 100
@@ -352,7 +354,7 @@ items:
     twoHanded: true
     listOrder: 206
   - type: STR_UNITED_DEFENSE_M42_20_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SILENCED, STR_CONCEALABLE, STR_GHOST]
     size: 0.1
     costBuy: 300
     costSell: 250
@@ -369,7 +371,7 @@ items:
     armor: 10
     listOrder: 208
   - type: STR_UNITED_DEFENSE_M42_50_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SILENCED, STR_CONCEALABLE, STR_GHOST]
     size: 0.1
     invWidth: 1
     invHeight: 2 
@@ -485,7 +487,7 @@ items:
 
 # High Standard HDM
   - type: STR_HIGH_STANDARD_HDM
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SILENCED, STR_CONCEALABLE, STR_GHOST]
     size: 0.1
     requiresBuy:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
@@ -537,7 +539,7 @@ items:
     armor: 35
     listOrder: 213
   - type: STR_HIGH_STANDARD_HDM_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SILENCED, STR_CONCEALABLE, STR_GHOST]
     size: 0.1
     requiresBuy:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
@@ -561,7 +563,7 @@ items:
 
 # Beretta M12
   - type: STR_BERETTA_M12
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SILENCED]
     size: 0.2
     requiresBuy:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
@@ -617,7 +619,7 @@ items:
 
 # Heart Attack Gun
   - type: STR_HEART_ATTACK_GUN
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_PROPRIETARY, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_PROPRIETARY, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.1
     costSell: 800
     weight: 7
@@ -658,7 +660,7 @@ items:
     armor: 35
     listOrder: 215
   - type: STR_HEART_ATTACK_GUN_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_PROPRIETARY, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_PROPRIETARY, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.1
     costSell: 400
     weight: 1
@@ -909,7 +911,7 @@ items:
       name: STR_STEADY_SHOT
       ammoSlot: 0
       arcing: false
-    aimRange: 9
+    aimRange: 14
     accuracyAimed: 150
     tuAimed: 55
     confSnap:
@@ -917,7 +919,7 @@ items:
       name: STR_HIP_FIRE
       ammoSlot: 0
       arcing: false
-    snapRange: 6
+    snapRange: 9
     accuracySnap: 130
     tuSnap: 25
     confAuto:
@@ -1417,7 +1419,7 @@ items:
       name: STR_STEADY_SHOT
       ammoSlot: 0
       arcing: false
-    aimRange: 9
+    aimRange: 16
     accuracyAimed: 130
     tuAimed: 60
     confSnap:
@@ -1425,7 +1427,7 @@ items:
       name: STR_HIP_FIRE
       ammoSlot: 0
       arcing: false
-    snapRange: 6
+    snapRange: 9
     accuracySnap: 110
     tuSnap: 35
     accuracyCloseQuarters: 90
@@ -1981,7 +1983,7 @@ items:
 
 # Collapsible SMG
   - type: STR_COLLAPSIBLE_SMG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.2
     costSell: 8000
     weight: 7
@@ -2034,7 +2036,7 @@ items:
 
 # Welrod
   - type: STR_WELROD
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.1
     requiresBuy:
       - STR_WELROD
@@ -2080,7 +2082,7 @@ items:
 
 # DeLisle Carbine Sniper
   - type: STR_DELISLE_CARBINE_SNIPER
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SNIPER_RIFLES, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SNIPER_RIFLES, STR_SILENCED]
     size: 0.2
     requiresBuy:
       - STR_DELISLE_CARBINE_SNIPER
@@ -2125,9 +2127,12 @@ items:
 
 # DeLisle Carbine Paratrooper
   - type: STR_DELISLE_CARBINE_PARATROOPER
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SILENCED, STR_CONCEALED, STR_GHOST]
     size: 0.2
-    costSell: 4150
+    requiresBuy:
+      - STR_DELISLE_CARBINE_PARATROOPER
+    costBuy: 4000
+    costSell: 3400
     weight: 13
     bigSprite: 920
     floorSprite: 920

@@ -1,6 +1,6 @@
 items:
   - type: STR_BANDAGES
-    categories: [STR_GADGETS, STR_MEDICAL, STR_CONCEALED]
+    categories: [STR_GADGETS, STR_MEDICAL, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.1
     costBuy: 600
     costSell: 450
@@ -18,7 +18,7 @@ items:
     flatRate: true
     listOrder: 400
   - type: STR_MEDICAL_BAG
-    categories: [STR_GADGETS, STR_MEDICAL, STR_CONCEALED]
+    categories: [STR_GADGETS, STR_MEDICAL, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.2
     costBuy: 1800
     costSell: 1500
@@ -43,7 +43,7 @@ items:
     flatRate: true
     listOrder: 401
   - type: STR_SPY_CAMERA
-    categories: [STR_GADGETS, STR_PROPRIETARY, STR_CONCEALED]
+    categories: [STR_GADGETS, STR_PROPRIETARY, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.1
     costSell: 2100
     twoHanded: true
@@ -72,7 +72,7 @@ items:
     armor: 50
     listOrder: 402
   - type: STR_GRENADE
-    categories: [STR_GADGETS, STR_GRENADES]
+    categories: [STR_GADGETS, STR_GRENADES, STR_CONCEALABLE]
     requiresBuy:
       - STR_MILITARY_EQUIPMENT_AQUISITION
     damageType: 1
@@ -88,12 +88,12 @@ items:
     blastRadius: 13
     listOrder: 500
   - type: STR_SMOKE_GRENADE
-    categories: [STR_GADGETS, STR_GRENADES]
+    categories: [STR_GADGETS, STR_GRENADES, STR_CONCEALABLE]
     requiresBuy:
       - STR_MILITARY_EQUIPMENT_AQUISITION
     listOrder: 501
   - type: STR_KA_BAR
-    categories: [STR_WEAPONS, STR_MELEE, STR_CONCEALED]
+    categories: [STR_WEAPONS, STR_MELEE, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.2
     costBuy: 300
     costSell: 200

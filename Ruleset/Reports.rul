@@ -821,7 +821,6 @@ ufopaedia:
     image_id: UFOPAEDIA_IMG_THIN_MAN
     text: STR_THIN_MAN_UFOPAEDIA
     text_width: 158
-    #listOrder: 1000
 
   - id: STR_THIN_MAN_AUTOPSY
     type_id: 7
@@ -831,7 +830,14 @@ ufopaedia:
     image_id: UFOPAEDIA_IMG_THIN_MAN_AUTOPSY
     text: STR_THIN_MAN_AUTOPSY_UFOPAEDIA
     text_width: 158
-    #listOrder: 1001
+
+  - id: STR_HYBRID_AUTOPSY
+    type_id: 8
+    section: STR_ENEMIES
+    requires:
+      - STR_HYBRID_CORPSE
+    text: STR_HYBRID_AUTOPSY_UFOPEDIA
+    text_width: 158
 
 ##########################
 ###### EVIDENCE #########

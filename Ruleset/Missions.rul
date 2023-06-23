@@ -1,5 +1,5 @@
 startingConditions:
-  - type: STR_SEMI_CONCEALED
+  - type: STR_CONCEALABLE
     defaultArmor:
       STR_CIA_AGENT:
         STR_AGENT_SUIT_UC: 100
@@ -11,11 +11,10 @@ startingConditions:
       - STR_AGENT_SUIT_UC
       - STR_AGENT_COAT_UC
     allowedItemCategories:
-      - STR_CONCEALED
-      - STR_SEMI_CONCEALED
+      - STR_CONCEALABLE
     allowedCraft:
       - STR_CADILLAC
-  - type: STR_CONCEALED
+  - type: STR_SILENCED
     defaultArmor:
       STR_CIA_AGENT:
         STR_AGENT_SUIT_UC: 100
@@ -27,7 +26,22 @@ startingConditions:
       - STR_AGENT_SUIT_UC
       - STR_AGENT_COAT_UC
     allowedItemCategories:
-      - STR_CONCEALED
+      - STR_SILENCED
+    allowedCraft:
+      - STR_CADILLAC
+  - type: STR_GHOST
+    defaultArmor:
+      STR_CIA_AGENT:
+        STR_AGENT_SUIT_UC: 100
+      STR_ARMY_VETERAN:
+        STR_AGENT_SUIT_UC: 100
+      STR_KGB_OFFICER:
+        STR_AGENT_COAT_UC: 100
+    allowedArmors:
+      - STR_AGENT_SUIT_UC
+      - STR_AGENT_COAT_UC
+    allowedItemCategories:
+      - STR_GHOST
     allowedCraft:
       - STR_CADILLAC
 
@@ -329,7 +343,7 @@ alienDeployments:
 
   - type: STR_HIDE_AND_SEEK_DEPLOYMENT
     customUfo: STR_HIDE_AND_SEEK_VAN
-    startingCondition: STR_CONCEALED
+    startingCondition: STR_GHOST
     loseCutscene: loseGameMidCampaign
     abortCutscene: loseGameMidCampaign
     height: 10
@@ -342,8 +356,8 @@ alienDeployments:
       STR_GLADIO_OPERATIVE_F: 3
     data: 
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
+        lowQty: 2
+        highQty: 4
         dQty: 0
         percentageOutsideUfo: 100
         itemSets:
@@ -535,7 +549,7 @@ alienDeployments:
 ###############
 
   - type: STR_WHISPERS_DEPLOYMENT
-    startingCondition: STR_SEMI_CONCEALED
+    startingCondition: STR_CONCEALABLE
     customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     loseCutscene: loseGameMidCampaign
     abortCutscene: loseGameMidCampaign
@@ -1029,7 +1043,6 @@ alienDeployments:
 #############################
 
   - type: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT
-    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CROP_CIRCLES_UFO
     baseSelfDestructCode: STR_DELETE_CROP_CIRCLES_SITES
     alienBaseUpgrades:
@@ -1097,7 +1110,6 @@ alienDeployments:
     markerIcon: 30
 
   - type: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
-    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CATTLE_MUTILATION_UFO
     baseSelfDestructCode: STR_DELETE_CATTLE_MUTILATION_SITES
     alienBaseUpgrades:
@@ -1133,7 +1145,7 @@ alienDeployments:
     markerIcon: 31
 
   - type: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT
-    startingCondition: STR_SEMI_CONCEALED
+    startingCondition: STR_SILENCED
     customUfo: STR_KGB_HIDEOUT_UFO
     baseSelfDestructCode: STR_DELETE_COUNTER_INTELLIGENCE_SITES
     height: 10
@@ -1203,7 +1215,6 @@ alienDeployments:
 #############################################
 
   - type: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT
-    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_ABDUCTION_CAR_UFO
     baseSelfDestructCode: STR_DELETE_ABDUCTION_SITES
     alienBaseUpgrades:
@@ -1354,7 +1365,7 @@ alienDeployments:
     markerIcon: 34
 
   - type: STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DEPLOYMENT
-    startingCondition: STR_CONCEALED
+    startingCondition: STR_SILENCED
     customUfo: STR_KGB_HIDEOUT_UFO
     baseSelfDestructCode: STR_DELETE_COUNTER_INTELLIGENCE_SITES
     civiliansByType:
@@ -1428,7 +1439,6 @@ alienDeployments:
 
 #############################################
   - type: STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT
-    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CROP_CIRCLES_UFO
     baseSelfDestructCode: STR_DELETE_CROP_CIRCLES_SITES
     height: 10
@@ -1526,7 +1536,6 @@ alienDeployments:
     markerIcon: 30
 
   - type: STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT
-    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CATTLE_MUTILATION_UFO
     baseSelfDestructCode: STR_DELETE_CATTLE_MUTILATION_SITES
     height: 10
@@ -1624,7 +1633,6 @@ alienDeployments:
     markerIcon: 31
 
   - type: STR_ABDUCTION_AMBUSH_DEPLOYMENT
-    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_ABDUCTION_CAR_UFO
     baseSelfDestructCode: STR_DELETE_ABDUCTION_SITES
     height: 10

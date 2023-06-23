@@ -241,20 +241,28 @@ research:
   - name: STR_THIN_MAN_INFILTRATOR
     cost: 200
     points: 50
-#    lookup: STR_THIN_MAN
     needItem: true
     listOrder: 1000
   - name: STR_THIN_MAN_CORPSE
     cost: 200
     points: 50
-#    lookup: STR_THIN_MAN_AUTOPSY
     needItem: true
     listOrder: 1001
+
+  - type: STR_HYBRID_CORPSE
+    cost: 200
+    points: 50
+    needItem: true
+    listOrder: 1002
+  - type: STR_HYBRID_SHAPESHIFTER
+    cost: 200
+    points: 50
+    needItem: true
+    listOrder: 1003
 
   - name: STR_D17_SCIENTIST
     cost: 400
     points: 100
-#    lookup: STR_THIN_MAN
     needItem: true
     listOrder: 1000
 
