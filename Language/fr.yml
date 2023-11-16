@@ -172,7 +172,7 @@ fr:
   
   STR_HEART_ATTACK_GUN: "Pistolet d'attaque cardiaque"
   STR_HEART_ATTACK_GUN_MAG: "Chargeur Toxine .45 ACP (7x)"
-  STR_HEART_ATTACK_GUN_UFOPEDIA: "Le 'Heart Attack Gun' est un M1911 modifié à suppression interne qui tire des fléchettes de ricin. Les fléchettes de toxine se dissolvent sur la peau et provoquent une crise cardiaque, tuant la cible et ne laissant presque aucune trace d'elle-même derrière elle. Cependant, elle met du temps à circuler dans le corps et peut donner à l'ennemi le temps de réagir. Nous n'avons également aucune idée de son efficacité contre la biochimie alienne.{NEWLINE}> Semi-cachable"
+  STR_HEART_ATTACK_GUN_UFOPEDIA: "Le 'Heart Attack Gun' est un M1911 modifié à suppression interne qui tire des fléchettes de toxine des crustacés. Les fléchettes de toxine se dissolvent sur la peau et provoquent une crise cardiaque, tuant la cible et ne laissant presque aucune trace d'elle-même derrière elle. Cependant, elle met du temps à circuler dans le corps et peut donner à l'ennemi le temps de réagir. Nous n'avons également aucune idée de son efficacité contre la biochimie alienne.{NEWLINE}> Semi-cachable"
   
   STR_M3_GREASEGUN: "M3 Greasegun"
   STR_M3_GREASEGUN_MAG: "Chargeur .45 ACP (30x)"
