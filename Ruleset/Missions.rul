@@ -12,6 +12,7 @@ startingConditions:
       - STR_AGENT_COAT_UC
     allowedItemCategories:
       - STR_CONCEALABLE
+      - STR_GHOST
     allowedCraft:
       - STR_CADILLAC
   - type: STR_SILENCED
@@ -27,6 +28,7 @@ startingConditions:
       - STR_AGENT_COAT_UC
     allowedItemCategories:
       - STR_SILENCED
+      - STR_GHOST
     allowedCraft:
       - STR_CADILLAC
   - type: STR_GHOST
@@ -151,6 +153,7 @@ alienDeployments:
 
   - type: STR_NORISKA_KRASCHEN_DEPLOYMENT
     unlockedResearch: STR_ACT_2_START
+    startingCondition: STR_CONCEALABLE
     loseCutscene: loseGameMidCampaign
     abortCutscene: loseGameMidCampaign
     customUfo: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
@@ -338,12 +341,12 @@ alienDeployments:
     markerIcon: 28
     alert: STR_SPECIAL_CASE_OPEN
     alertBackground: BACK13.SCR
-    alertDescription: STR_DISCOVERIES_DESCRIPTION
+    alertDescription: STR_NONE
     unlockedResearch: STR_DISCOVERIES_SECTOID_ENGINEER
 
   - type: STR_HIDE_AND_SEEK_DEPLOYMENT
     customUfo: STR_HIDE_AND_SEEK_VAN
-    startingCondition: STR_GHOST
+    startingCondition: STR_SILENCED
     loseCutscene: loseGameMidCampaign
     abortCutscene: loseGameMidCampaign
     height: 10
@@ -356,8 +359,8 @@ alienDeployments:
       STR_GLADIO_OPERATIVE_F: 3
     data: 
       - alienRank: 5
-        lowQty: 2
-        highQty: 4
+        lowQty: 4
+        highQty: 8
         dQty: 0
         percentageOutsideUfo: 100
         itemSets:
@@ -549,7 +552,7 @@ alienDeployments:
 ###############
 
   - type: STR_WHISPERS_DEPLOYMENT
-    startingCondition: STR_CONCEALABLE
+    startingCondition: STR_GHOST
     customUfo: STR_WHISPERS_SAFEHOUSE_UFO
     loseCutscene: loseGameMidCampaign
     abortCutscene: loseGameMidCampaign
@@ -902,7 +905,6 @@ alienDeployments:
     markerIcon: 29
     alert: STR_OPERATION_APPROVED
     alertBackground: BACK12.SCR
-    alertDescription: STR_OPERATION_HARBINGER_DESCRIPTION
     #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
 
 ##################
@@ -1043,6 +1045,7 @@ alienDeployments:
 #############################
 
   - type: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_CONCEALABLE
     customUfo: STR_CROP_CIRCLES_UFO
     baseSelfDestructCode: STR_DELETE_CROP_CIRCLES_SITES
     alienBaseUpgrades:
@@ -1105,11 +1108,12 @@ alienDeployments:
       showCraft: true
       desc: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION
       palette: 2
-    alertDescription: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+    alertDescription: STR_SEMI_CONCEALED
     markerName: STR_CROP_CIRCLE_INVESTIGATION
     markerIcon: 30
 
   - type: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_CONCEALABLE
     customUfo: STR_CATTLE_MUTILATION_UFO
     baseSelfDestructCode: STR_DELETE_CATTLE_MUTILATION_SITES
     alienBaseUpgrades:
@@ -1215,6 +1219,7 @@ alienDeployments:
 #############################################
 
   - type: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_CONCEALABLE
     customUfo: STR_ABDUCTION_CAR_UFO
     baseSelfDestructCode: STR_DELETE_ABDUCTION_SITES
     alienBaseUpgrades:
@@ -1439,6 +1444,7 @@ alienDeployments:
 
 #############################################
   - type: STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CROP_CIRCLES_UFO
     baseSelfDestructCode: STR_DELETE_CROP_CIRCLES_SITES
     height: 10
@@ -1531,11 +1537,12 @@ alienDeployments:
       showCraft: true
       desc: STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT_DESCRIPTION
       palette: 2
-    alertDescription: STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT_DESCRIPTION
+    alertDescription: STR_SEMI_CONCEALED
     markerName: STR_CROP_CIRCLE_INVESTIGATION
     markerIcon: 30
 
   - type: STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_CATTLE_MUTILATION_UFO
     baseSelfDestructCode: STR_DELETE_CATTLE_MUTILATION_SITES
     height: 10
@@ -1605,8 +1612,8 @@ alienDeployments:
                 - STR_DUMMY_EVIDENCE_ITEM
           - alienRank: 2
             customUnitType: STR_D17_AGENT
-            lowQty: 1
-            highQty: 3
+            lowQty: 3
+            highQty: 5
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 0
@@ -1628,11 +1635,12 @@ alienDeployments:
       showCraft: true
       desc: STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT_DESCRIPTION
       palette: 5
-    alertDescription: STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT_DESCRIPTION
+    alertDescription: STR_SEMI_CONCEALED
     markerName: STR_CATTLE_MUTILATION_INVESTIGATION
     markerIcon: 31
 
   - type: STR_ABDUCTION_AMBUSH_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
     customUfo: STR_ABDUCTION_CAR_UFO
     baseSelfDestructCode: STR_DELETE_ABDUCTION_SITES
     height: 10
@@ -1684,7 +1692,7 @@ alienDeployments:
         data:
           - alienRank: 1
             customUnitType: STR_D17_SCIENTIST
-            lowQty: 0
+            lowQty: 1
             highQty: 1
             dQty: 0
             extraQty: 0
@@ -1702,8 +1710,8 @@ alienDeployments:
                 - STR_DUMMY_EVIDENCE_ITEM
           - alienRank: 2
             customUnitType: STR_D17_AGENT
-            lowQty: 1
-            highQty: 3
+            lowQty: 3
+            highQty: 5
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 0
@@ -1725,7 +1733,7 @@ alienDeployments:
       showCraft: true
       desc: STR_ABDUCTION_AMBUSH_DEPLOYMENT_DESCRIPTION
       palette: 5
-    alertDescription: STR_ABDUCTION_AMBUSH_DEPLOYMENT_DESCRIPTION
+    alertDescription: STR_SEMI_CONCEALED
     markerName: STR_ABDUCTION_INVESTIGATION
     markerIcon: 33
 

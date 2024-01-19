@@ -158,6 +158,7 @@ crafts:
     damageMax: 200
     speedMax: 130
     accel: 1
+    armor: 3
     soldiers: 14
     vehicles: 2
     keepCraftAfterFailedMission: true

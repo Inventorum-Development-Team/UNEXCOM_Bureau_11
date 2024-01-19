@@ -30,29 +30,29 @@ itemCategories:
   - type: STR_GHOST
     listOrder: 15
   - type: STR_MELEE
-    listOrder: 16
+    listOrder: 15
   - type: STR_GADGETS
-    listOrder: 17
+    listOrder: 16
   - type: STR_MEDICAL
-    listOrder: 18
+    listOrder: 17
   - type: STR_GRENADES
-    listOrder: 19
+    listOrder: 18
   - type: STR_PROPRIETARY
-    listOrder: 20
+    listOrder: 19
   - type: STR_AUTOCANNON
-    listOrder: 21
+    listOrder: 20
   - type: STR_BVRAAM
-    listOrder: 22
+    listOrder: 21
   - type: STR_AUXILLARY
-    listOrder: 23
+    listOrder: 22
   - type: STR_SOVIET_TECHNOLOGY
-    listOrder: 24
+    listOrder: 23
   - type: STR_ALIEN_ARTIFACT
-    listOrder: 25
+    listOrder: 24
   - type: STR_VEHICLES
-    listOrder: 26
+    listOrder: 25
   - type: STR_BLANKS
-    listOrder: 27
+    listOrder: 26
     hidden: true
 
 items:
@@ -147,7 +147,7 @@ items:
     armor: 35
     listOrder: 200
   - type: STR_BROWNING_HP35_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_CONCEALABLE]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -166,7 +166,7 @@ items:
 
 # Colt M1911
   - type: STR_COLT_M1911
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SILENCED, STR_CONCEALED, STR_GHOST]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_CONCEALABLE]
     size: 0.1
     costBuy: 800
     costSell: 620
@@ -216,7 +216,7 @@ items:
     armor: 35
     listOrder: 202
   - type: STR_COLT_M1911_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_CONCEALABLE]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.1
     costBuy: 200
     costSell: 150
@@ -255,7 +255,7 @@ items:
       name: STR_STEADY_SHOT
       ammoSlot: 0
       arcing: false
-    aimRange: 10
+    aimRange: 6
     accuracyAimed: 120
     tuAimed: 55
     confSnap:
@@ -263,7 +263,7 @@ items:
       name: STR_HIP_FIRE
       ammoSlot: 0
       arcing: false
-    snapRange: 7
+    snapRange: 4
     accuracySnap: 90
     tuSnap: 20
     accuracyCloseQuarters: 90
@@ -354,7 +354,7 @@ items:
     twoHanded: true
     listOrder: 206
   - type: STR_UNITED_DEFENSE_M42_20_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SILENCED, STR_CONCEALABLE, STR_GHOST]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.1
     costBuy: 300
     costSell: 250
@@ -371,7 +371,7 @@ items:
     armor: 10
     listOrder: 208
   - type: STR_UNITED_DEFENSE_M42_50_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_SILENCED, STR_CONCEALABLE, STR_GHOST]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES]
     size: 0.1
     invWidth: 1
     invHeight: 2 
@@ -487,7 +487,7 @@ items:
 
 # High Standard HDM
   - type: STR_HIGH_STANDARD_HDM
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SILENCED, STR_CONCEALABLE, STR_GHOST]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.1
     requiresBuy:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
@@ -539,7 +539,7 @@ items:
     armor: 35
     listOrder: 213
   - type: STR_HIGH_STANDARD_HDM_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SILENCED, STR_CONCEALABLE, STR_GHOST]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.1
     requiresBuy:
       - STR_SUPPRESSED_WEAPONS_AQUISITION
@@ -911,7 +911,7 @@ items:
       name: STR_STEADY_SHOT
       ammoSlot: 0
       arcing: false
-    aimRange: 14
+    aimRange: 9
     accuracyAimed: 150
     tuAimed: 55
     confSnap:
@@ -919,7 +919,7 @@ items:
       name: STR_HIP_FIRE
       ammoSlot: 0
       arcing: false
-    snapRange: 9
+    snapRange: 6
     accuracySnap: 130
     tuSnap: 25
     confAuto:
@@ -1187,7 +1187,7 @@ items:
 
 # Stechkin APS
   - type: STR_STECHKIN_APS
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SOVIET_TECHNOLOGY]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_SOVIET_TECHNOLOGY, STR_CONCEALABLE]
     requiresBuy:
       - STR_SOVIET_WEAPON_AQUISITION
     size: 0.1
@@ -1239,7 +1239,7 @@ items:
     armor: 35
     listOrder: 231
   - type: STR_STECHKIN_APS_MAG
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SOVIET_TECHNOLOGY]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_SOVIET_TECHNOLOGY, STR_CONCEALABLE]
     requiresBuy:
       - STR_SOVIET_WEAPON_AQUISITION
     size: 0.1
@@ -1259,7 +1259,7 @@ items:
 
 # Skorpion vz.61
   - type: STR_SKORPION_VZ61
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SOVIET_TECHNOLOGY]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_SOVIET_TECHNOLOGY, STR_CONCEALABLE]
     size: 0.2
     requiresBuy:
       - STR_SOVIET_WEAPON_AQUISITION
@@ -1419,7 +1419,7 @@ items:
       name: STR_STEADY_SHOT
       ammoSlot: 0
       arcing: false
-    aimRange: 16
+    aimRange: 9
     accuracyAimed: 130
     tuAimed: 60
     confSnap:
@@ -1427,7 +1427,7 @@ items:
       name: STR_HIP_FIRE
       ammoSlot: 0
       arcing: false
-    snapRange: 9
+    snapRange: 6
     accuracySnap: 110
     tuSnap: 35
     accuracyCloseQuarters: 90
@@ -2082,7 +2082,7 @@ items:
 
 # DeLisle Carbine Sniper
   - type: STR_DELISLE_CARBINE_SNIPER
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SNIPER_RIFLES, STR_SILENCED]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SNIPER_RIFLES, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.2
     requiresBuy:
       - STR_DELISLE_CARBINE_SNIPER
@@ -2127,12 +2127,9 @@ items:
 
 # DeLisle Carbine Paratrooper
   - type: STR_DELISLE_CARBINE_PARATROOPER
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SILENCED, STR_CONCEALED, STR_GHOST]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.2
-    requiresBuy:
-      - STR_DELISLE_CARBINE_PARATROOPER
-    costBuy: 4000
-    costSell: 3400
+    costSell: 4150
     weight: 13
     bigSprite: 920
     floorSprite: 920
