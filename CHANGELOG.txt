@@ -1,3 +1,7 @@
+January-2023 v1.0 Tertia Optio
+Changes made:
+*Various fixes (grammar and balance)
+
 May-2023 v0.3.0 Tertia Optio
 Changes made:
 *Added alertDescriptions to Missions
