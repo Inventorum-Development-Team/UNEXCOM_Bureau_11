@@ -1,6 +1,10 @@
 January-2023 v1.0 Tertia Optio
 Changes made:
 *Various fixes (grammar and balance)
+*Rebalanced Rifle and SMG autoshots to be more competitive
+*Nerfed the Umbrella Mosin-Nagant range signifigantly
+*Fixed ufopedia articles from not showing up
+*Nerfed Whispers & Hide and Seek enemy count
 
 May-2023 v0.3.0 Tertia Optio
 Changes made:
