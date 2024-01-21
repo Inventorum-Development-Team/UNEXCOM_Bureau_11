@@ -100,7 +100,7 @@ en-US:
   STR_AGENT_COAT_UC: "AGENT COAT"
   STR_AGENT_COAT_UC_UFOPEDIA: "This is a discrete leather coat with protective lining that KGB agents wear to conduct field operations unnoticed but restricts quick movement."
   STR_AUGMENTATION_SUIT: "Augmentation Suit"
-  STR_AUGMENTATION_SUIT_UFOPEDIA: "Experiments with hydraulic servomotors have concluded with this exoskeleton prototype. It is derived from the research made on the General Electric Hardiman I exosuit with substantial improvement. Powered by a backpack with a highly experimental powerful miniature motor and connected to the limbs by titanium tubes, cables, and bars, this exoskeleton enhances the speed and strength of the wearer. Due to the nature of the project, it is extremely expensive and is not expected to enter in mass production. However, we have volunteered to test these suits in the field. The research data will be more valuable than any potential pricetag."
+  STR_AUGMENTATION_SUIT_UFOPEDIA: "Experiments with hydraulic servomotors have concluded with this exoskeleton prototype. It is derived from the research made on the General Electric Hardiman I exosuit with substantial improvement. Powered by a backpack with a highly experimental powerful miniature motor and connected to the limbs by titanium tubes, cables, and bars, this exoskeleton enhances the speed and strength of the wearer. Due to the nature of the project, it is not expected to enter in mass production and be openly sold. However, we have volunteered to test these suits in the field. The research data will be more valuable than any potential pricetag."
   STR_AUGMENTATION_SUIT_UC: "AUGMENTATION SUIT"
   STR_AUGMENTATION_SUIT_UC_UFOPEDIA: "The Augmentation suit has in-built servomotors powered by an external battery that augment the wearer's strength and mobility and generate an energy shield that blocks incoming attacks."
   STR_SHIELD_S: "Shields At {0}%"
@@ -264,7 +264,7 @@ en-US:
   STR_SMOKE_GRENADE: "M18 Smoke Grenade"
   STR_SMOKE_GRENADE_UFOPEDIA: "This device used has been used as a signaling device since World War II, however it can be used as a way to conceal troop positions. Do not inhale for extended periods of time."
   STR_KA_BAR: "KA-BAR"
-  STR_KA_BAR_UFOPEDIA: "The KA-BAR has been the standard issue utility knife used by the Marine corps ever since World War II. Deadly and silent, it can be more dangerous than a gun in the wrong, or right depending on your perspective, hands. {NEWLINE}> Concealable"
+  STR_KA_BAR_UFOPEDIA: "The KA-BAR has been the standard issue utility knife used by the Marine Corps ever since World War II. Deadly and silent, it can be more dangerous than a gun in the wrong, or right depending on your perspective, hands. {NEWLINE}> Concealable"
   STR_ALIEN_REACTIVE_GRENADE: "Alien Reactive Grenade"
   STR_ALIEN_REACTIVE_GRENADE_UFOPEDIA: "This explosive device is an overcharged battery of a modified laser weapon with an activation fuze and a streamlined design, to be used as a throwing weapon. The spikes in the frame of the grenade allow it to embed itself in the ground (even in organic tissue) and remain stationary. The radiation it emitts makes it a dangerous artifact if not properly contained. Reacts to nearby movement and explodes."
   STR_DEVIL_AXE: "Devil Axe"
@@ -321,7 +321,7 @@ en-US:
 
 
   STR_USAF_INTERCEPTOR_REQUISITION: "USAF Interceptor Requisition"
-  STR_USAF_INTERCEPTOR_REQUISITION_UFOPEDIA: "Ground observers and airborne recon craft have detected a large buildup of alien activity over North American airspace. We have requested some F-104 Starfighter from the USAF escort our transports to investigation sites. The F-104 is a state-of-the-art high-altitude Interceptor, though its range is limited, it's compensated for by its incredible speed. It will be crewed by USAF pilots, but rearming and repairs will be done on our bases. Coordinate Starfighters with recon planes like Oxcarts and Dragon Ladies to track down OETOs."
+  STR_USAF_INTERCEPTOR_REQUISITION_UFOPEDIA: "Ground observers and airborne recon craft have detected a large buildup of alien activity over North American airspace. We have requested some F-104 Starfighter from the USAF escort our transports to investigation sites, leased at a reduced price. The F-104 is a state-of-the-art high-altitude interceptor, though its range is limited, it's compensated for by its incredible speed. It will be crewed by USAF pilots, but rearming and repairs will be done on our bases. Coordinate Starfighters with recon planes like Oxcarts and Dragon Ladies to track down OETOs."
   STR_GYRODYNE_TRANSPORT_HELICOPTER: "Gyrodone Transport Helicopter"
 
   STR_CIA_RECON_CRAFT_REQUISITION: "CIA Recon Craft Requisition"
