@@ -267,7 +267,7 @@ items:
       name: STR_DEADEYE
       ammoSlot: 0
       arcing: false
-    aimRange: 30
+    aimRange: 10
     accuracyAimed: 200
     tuAimed: 80
     confSnap:
@@ -275,13 +275,13 @@ items:
       name: STR_STEADY_SHOT
       ammoSlot: 0
       arcing: false
-    snapRange: 15
+    snapRange: 4
     accuracySnap: 150
     tuSnap: 55
     accuracyCloseQuarters: 10
     tuLoad: 30
     maxRange: 60
-    dropoff: 1
+    dropoff: 4
     kneelBonus: 150
     costThrow:
       energy: 15

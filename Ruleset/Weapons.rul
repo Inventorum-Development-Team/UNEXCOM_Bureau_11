@@ -137,7 +137,7 @@ items:
     accuracyCloseQuarters: 100
     tuLoad: 15
     maxRange: 60
-    dropoff: 1
+    dropoff: 4
     kneelBonus: 115
     costThrow:
       energy: 8
@@ -206,7 +206,7 @@ items:
     accuracyCloseQuarters: 100
     tuLoad: 15
     maxRange: 60
-    dropoff: 1
+    dropoff: 4
     kneelBonus: 115
     costThrow:
       energy: 8
@@ -267,7 +267,7 @@ items:
     accuracySnap: 90
     tuSnap: 20
     accuracyCloseQuarters: 90
-    dropoff: 8
+    dropoff: 4
     shotgunChoke: 50
     tuLoad: 20
     battleType: 1
@@ -324,8 +324,8 @@ items:
     accuracyAimed: 120
     tuAimed: 55
     confSnap:
-      shots: 2
-      name: STR_DOUBLE_TAP
+      shots: 3
+      name: STR_CONTROLLED_BURST
       ammoSlot: 0
       arcing: false
     snapRange: 16
@@ -529,7 +529,7 @@ items:
     accuracyCloseQuarters: 100
     tuLoad: 15
     maxRange: 60
-    dropoff: 1
+    dropoff: 4
     kneelBonus: 115
     costThrow:
       energy: 8
@@ -587,8 +587,8 @@ items:
     accuracyAimed: 100
     tuAimed: 55
     confSnap:
-      shots: 2
-      name: STR_DOUBLE_TAP
+      shots: 3
+      name: STR_CONTROLLED_BURST
       ammoSlot: 0
       arcing: false
     snapRange: 14
@@ -650,7 +650,7 @@ items:
     accuracyCloseQuarters: 100
     tuLoad: 15
     maxRange: 60
-    dropoff: 1
+    dropoff: 4
     kneelBonus: 115
     costThrow:
       energy: 8
@@ -707,8 +707,8 @@ items:
     accuracyAimed: 110
     tuAimed: 45
     confSnap:
-      shots: 2
-      name: STR_DOUBLE_TAP
+      shots: 3
+      name: STR_CONTROLLED_BURST
       ammoSlot: 0
       arcing: false
     snapRange: 16
@@ -739,6 +739,8 @@ items:
   - type: STR_M3_GREASEGUN_MAG
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES]
     size: 0.1
+    invWidth: 1
+    invHeight: 2
     requiresBuy:
       - STR_MILITARY_EQUIPMENT_AQUISITION
     costBuy: 500
@@ -791,6 +793,7 @@ items:
     autoRange: 20
     accuracyAuto: 30
     tuAuto: 80
+    minRange: 3
     accuracyCloseQuarters: 90
     tuLoad: 30
     maxRange: 60
@@ -854,6 +857,8 @@ items:
     aimRange: 30
     accuracyAimed: 90
     tuAimed: 55
+    minRange: 5
+    dropoff: 4
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -932,7 +937,7 @@ items:
     tuAuto: 45
     accuracyCloseQuarters: 90
     dropoff: 4
-    shotgunChoke: 70
+    shotgunChoke: 90
     tuLoad: 30
     battleType: 1
     twoHanded: true
@@ -991,25 +996,26 @@ items:
     accuracyAimed: 120
     tuAimed: 65
     confSnap:
-      shots: 3
-      name: STR_CONTROLLED_BURST
+      shots: 2
+      name: STR_DOUBLE_TAP
       ammoSlot: 0
       arcing: false
     snapRange: 22
     accuracySnap: 60
     tuSnap: 30
     confAuto:
-      shots: 5
+      shots: 4
       name: STR_CONTROLLED_AUTO
       ammoSlot: 0
       arcing: false
     autoRange: 15
     accuracyAuto: 50
     tuAuto: 45
+    minRange: 2
     accuracyCloseQuarters: 90
     tuLoad: 20
     maxRange: 60
-    dropoff: 1
+    dropoff: 2
     kneelBonus: 125
     costThrow:
       energy: 15
@@ -1074,10 +1080,11 @@ items:
     snapRange: 30
     accuracySnap: 110
     tuSnap: 40
+    minRange: 3
     accuracyCloseQuarters: 10
     tuLoad: 30
     maxRange: 60
-    dropoff: 1
+    dropoff: 4
     kneelBonus: 150
     costThrow:
       energy: 15
@@ -1103,6 +1110,7 @@ items:
     damageAlter:
       ToWound: 0.9
       ToHealth: 1.1
+      RandomType: 7
     damageType: 1
     clipSize: 6
     battleType: 2
@@ -1135,15 +1143,15 @@ items:
     accuracyAimed: 130
     tuAimed: 65
     confSnap:
-      shots: 4
-      name: STR_CONTROLLED_BURST
+      shots: 2
+      name: STR_DOUBLE_TAP
       ammoSlot: 0
       arcing: false
     snapRange: 18
     accuracySnap: 90
-    tuSnap: 35
+    tuSnap: 25
     confAuto:
-      shots: 7
+      shots: 6
       name: STR_CONTROLLED_AUTO
       ammoSlot: 0
       arcing: false
@@ -1153,7 +1161,7 @@ items:
     accuracyCloseQuarters: 90
     tuLoad: 20
     maxRange: 60
-    dropoff: 1
+    dropoff: 2
     kneelBonus: 125
     costThrow:
       energy: 15
@@ -1229,7 +1237,7 @@ items:
     accuracyCloseQuarters: 100
     tuLoad: 15
     maxRange: 60
-    dropoff: 1
+    dropoff: 4
     kneelBonus: 115
     costThrow:
       energy: 8
@@ -1301,7 +1309,7 @@ items:
     accuracyCloseQuarters: 100
     tuLoad: 20
     maxRange: 60
-    dropoff: 1
+    dropoff: 4
     kneelBonus: 125
     costThrow:
       energy: 12
@@ -1348,7 +1356,7 @@ items:
     accuracyCloseQuarters: 90
     tuLoad: 20
     maxRange: 60
-    dropoff: 1
+    dropoff: 2
     kneelBonus: 125
     costThrow:
       energy: 15
@@ -1432,7 +1440,7 @@ items:
     tuSnap: 35
     accuracyCloseQuarters: 90
     dropoff: 4
-    shotgunChoke: 70
+    shotgunChoke: 80
     tuLoad: 30
     battleType: 1
     twoHanded: true
@@ -1468,21 +1476,22 @@ items:
     accuracyAimed: 140
     tuAimed: 60
     confSnap:
-      shots: 3
-      name: STR_CONTROLLED_BURST
+      shots: 2
+      name: STR_DOUBLE_TAP
       ammoSlot: 0
       arcing: false
     snapRange: 16
     accuracySnap: 60
     tuSnap: 40
     confAuto:
-      shots: 5
+      shots: 4
       name: STR_CONTROLLED_AUTO
       ammoSlot: 0
       arcing: false
     autoRange: 9
     accuracyAuto: 40
     tuAuto: 35
+    minRange: 2
     accuracyCloseQuarters: 90
     tuLoad: 20
     maxRange: 60
@@ -1522,8 +1531,8 @@ items:
     accuracyAimed: 90
     tuAimed: 48
     confSnap:
-      shots: 2
-      name: STR_DOUBLE_TAP
+      shots: 3
+      name: STR_CONTROLLED_BURST
       ammoSlot: 0
       arcing: false
     snapRange: 12
@@ -1540,7 +1549,7 @@ items:
     accuracyCloseQuarters: 100
     tuLoad: 20
     maxRange: 60
-    dropoff: 1
+    dropoff: 4
     kneelBonus: 115
     costThrow:
       energy: 12
@@ -1636,7 +1645,7 @@ items:
     snapRange: 12
     accuracySnap: 90
     accuracyCloseQuarters: 90
-    dropoff: 4
+    dropoff: 1
     shotgunChoke: 70
     tuLoad: 30
     battleType: 1
@@ -2004,8 +2013,8 @@ items:
     accuracyAimed: 90
     tuAimed: 45
     confSnap:
-      shots: 2
-      name: STR_DOUBLE_TAP
+      shots: 3
+      name: STR_CONTROLLED_BURST
       ammoSlot: 0
       arcing: false
     snapRange: 25
@@ -2070,7 +2079,7 @@ items:
     accuracyCloseQuarters: 100
     tuLoad: 20
     maxRange: 60
-    dropoff: 1
+    dropoff: 4
     kneelBonus: 115
     costThrow:
       energy: 8

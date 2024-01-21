@@ -116,15 +116,15 @@ ufopaedia:
   - delete: STR_ALIEN_TERROR
   - delete: STR_ALIEN_RETALIATION
   - delete: STR_ALIEN_SUPPLY
-  - delete: STR_UFO_POWER_SOURCE
-  - delete: STR_UFO_NAVIGATION
+#  - delete: STR_UFO_POWER_SOURCE
+#  - delete: STR_UFO_NAVIGATION
   - delete: STR_UFO_CONSTRUCTION
   - delete: STR_ALIEN_FOOD
   - delete: STR_ALIEN_REPRODUCTION
   - delete: STR_ALIEN_ENTERTAINMENT
   - delete: STR_ALIEN_SURGERY
   - delete: STR_EXAMINATION_ROOM
-  - delete: STR_ALIEN_ALLOYS
+#  - delete: STR_ALIEN_ALLOYS
 
 extraSprites:
   - type: BACK01.SCR #Main

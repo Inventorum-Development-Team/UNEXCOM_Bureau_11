@@ -184,7 +184,7 @@ crafts:
     requires:
       - STR_USAF_INTERCEPTOR_REQUISITION
     sprite: 104
-    fuelMax: 192
+    fuelMax: 250
     damageMax: 130
     speedMax: 1458
     avoidBonus: 25
@@ -192,15 +192,15 @@ crafts:
     weapons: 4
     weaponTypes: 
       - 1
-      - 2
+      - 1
       - 2
       - 3
     weaponStrings:
       - STR_AUXILLARY
-      - STR_BVRAAM
+      - STR_AUXILLARY
       - STR_BVRAAM
       - STR_AUTOCANNON
-    fixedWeapons: ["", "STR_SIDEWINDER", "STR_SIDEWINDER", "STR_VULCAN"]
+    fixedWeapons: ["", "", "STR_SIDEWINDER", "STR_VULCAN"]
     allowLanding: false
     costBuy: 750000
     costSell: 600000
@@ -363,7 +363,7 @@ craftWeapons:
     reloadCautious: 64
     reloadStandard: 48
     reloadAggressive: 32
-    ammoMax: 2
+    ammoMax: 4
     launcher: STR_SIDEWINDER_LAUNCHER
     projectileType: 0
     projectileSpeed: 8
