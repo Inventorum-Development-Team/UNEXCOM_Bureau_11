@@ -350,17 +350,16 @@ alienDeployments:
     loseCutscene: loseGameMidCampaign
     abortCutscene: loseGameMidCampaign
     height: 10
-    width: 50
-    length: 50
+    width: 40
+    length: 40
     duration: [999, 999]
-    civilians: 10
     civiliansByType:
-      STR_GLADIO_OPERATIVE_M: 3
-      STR_GLADIO_OPERATIVE_F: 3
+      STR_GLADIO_OPERATIVE_M: 4
+      STR_GLADIO_OPERATIVE_F: 4
     data: 
       - alienRank: 5
-        lowQty: 4
-        highQty: 8
+        lowQty: 2
+        highQty: 3
         dQty: 0
         percentageOutsideUfo: 100
         itemSets:
