@@ -4,6 +4,19 @@ facilities:
   - delete: STR_MISSILE_DEFENSES
   - delete: STR_SMALL_RADAR_SYSTEM
 
+  - type: STR_HANGAR
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 100000
+    buildTime: 15
+    storage: 50
+    monthlyCost: 25000
+    crafts: 2
+    mapName: XBASE_16
+    storageTiles:
+      - [0, 9, 0]
+
 startingBase:
     lon: 5.077544745436402
     lat: -0.80112569599770145

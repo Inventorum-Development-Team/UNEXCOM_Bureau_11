@@ -1,112 +1,114 @@
-January-2023 v1.0 Tertia Optio
+January-2024 v1.0 Tertia Optio
 Changes made:
-*Various fixes (grammar and balance)
-*Rebalanced Rifle and SMG autoshots to be more competitive
-*Nerfed the Umbrella Mosin-Nagant range signifigantly
-*Fixed ufopedia articles from not showing up
-*Nerfed Whispers & Hide and Seek enemy count
+* Various fixes (grammar and balance)
+* Rebalanced Rifle and SMG autoshots to be more competitive
+* Nerfed the Umbrella Mosin-Nagant range signifigantly
+* Fixed ufopedia articles from not showing up
+* Nerfed Whispers & Hide and Seek enemy count
+* Hangars now have 2 slots for vehicles
+* Improved F-104: reduced price, increased radarChance and added the option of carrying missiles in the AUX slots
 
 May-2023 v0.3.0 Tertia Optio
 Changes made:
-*Added alertDescriptions to Missions
-*Changed Soldier Type Names
+* Added alertDescriptions to Missions
+* Changed Soldier Type Names
 
 November-2022 v0.2.3 The Work of a Nation 
 Changes made:
-*Rebalanced Shotguns, Rifles, and LMGs
-*Fixed wrong audio file
-*Fixed bugged events
+* Rebalanced Shotguns, Rifles, and LMGs
+* Fixed wrong audio file
+* Fixed bugged events
 
 August-2022 v0.2.2 The Work of a Nation 
 Changes made:
-*Fixed Mechtoid Weapon
-*Added Russian Translation! by AndyFox
-*Added French Translation! by Blackstaff
-*Added HitFlash effect by MistarRed
-*Rebalanced Weapon Weights
+* Fixed Mechtoid Weapon
+* Added Russian Translation! by AndyFox
+* Added French Translation! by Blackstaff
+* Added HitFlash effect by MistarRed
+* Rebalanced Weapon Weights
 
 June-2022 v0.2.1 The Work of a Nation 
 Changes made:
-*Added Custom Inventory Restrictions, by efrenspartano and Brother^2
-*Removed Hit Sounds and Animations from Automatic Weapons
-*Fixed Spiderweb Elevator, by efrenspartano
-*Fixed Missing Event Text
-*Rebalanced Whispers Mission
-*Rebalanced Operation Harbinger
+* Added Custom Inventory Restrictions, by efrenspartano and Brother^2
+* Removed Hit Sounds and Animations from Automatic Weapons
+* Fixed Spiderweb Elevator, by efrenspartano
+* Fixed Missing Event Text
+* Rebalanced Whispers Mission
+* Rebalanced Operation Harbinger
  - Added Mechtoid Units, sprites by Jackstaw2323
-*Revised Language Files
-*Fixed Grandslam Event reported by Rclipse
-*Added KGB Ambush Missions by Brother^2
+* Revised Language Files
+* Fixed Grandslam Event reported by Rclipse
+* Added KGB Ambush Missions by Brother^2
 
 May-2022 v0.2 The Work of a Nation 
 Changes made:
-*Added all the Story missions
-*Added Act 1 Side missions
+* Added all the Story missions
+* Added Act 1 Side missions
 - Cattle Mutilation
 - Crop Circles
 - Counter-Intelligence
-*Added Act 2 Side missions
+* Added Act 2 Side missions
 - Major Cattle Mutilation
 - Abduction
 - Counter-Intelligence, Europe
-*Major rebalance on weapons and mission conditions, by Brother^2
-*Modified and expanded tech tree, by Brother^2 & efrenespartano
-*Added new faction: GLADIO
-*Added new weapons:
+* Major rebalance on weapons and mission conditions, by Brother^2
+* Modified and expanded tech tree, by Brother^2 & efrenespartano
+* Added new faction: GLADIO
+* Added new weapons:
 - Welrod
 - DeLise Paratrooper Carbine
 - DeLise Sniper Carbine
-*Added 30 Geoscape events, written by efrenespartano, Brother^2 and Kael Schwabauer
-*Added new craft
+* Added 30 Geoscape events, written by efrenespartano, Brother^2 and Kael Schwabauer
+* Added new craft
 - A-12 Oxcart, sprites by Filip-H
-*Added Faceless Shapeshifter unit, sprites by efrenespartano & Gifty, rulesets by efrenespartano, Brother^2 & Filip-H
-*New UI and GlobeMarkers, by efrenespartano
+* Added Faceless Shapeshifter unit, sprites by efrenespartano & Gifty, rulesets by efrenespartano, Brother^2 & Filip-H
+* New UI and GlobeMarkers, by efrenespartano
 
 
 July-2021 v0.1.2 Proving Grounds
 Changes made:
-*Added Collapsible SMG, sprites by efrenspartano, rulesets by Brother^2
+* Added Collapsible SMG, sprites by efrenspartano, rulesets by Brother^2
 
 June-2021 v0.1.1 Proving Grounds
 Changes made:
-*Fixed Heart-Attack Gun manufacturing bug, reported by Black Onix (Виталий)#2140
-*Fixed bug with Starfighter Equipment, reported by various
-*Added en-GB Strings. It's still english, innit? by Brother^2
-*Fixed Various Research Bugs, Typos & Slight Rebalancing, by Brother^2
-*Added Research Reports to the Blue Book, Added Munitions Reports, by Brother^2
-*Added Revised Heart-Attack Gun Blue Book and Rebalanced The Weapon, by Brother^2
-*Added Weapon Compatible Spritesheet, sprites by The Martian
+* Fixed Heart-Attack Gun manufacturing bug, reported by Black Onix (Виталий)#2140
+* Fixed bug with Starfighter Equipment, reported by various
+* Added en-GB Strings. It's still english, innit? by Brother^2
+* Fixed Various Research Bugs, Typos & Slight Rebalancing, by Brother^2
+* Added Research Reports to the Blue Book, Added Munitions Reports, by Brother^2
+* Added Revised Heart-Attack Gun Blue Book and Rebalanced The Weapon, by Brother^2
+* Added Weapon Compatible Spritesheet, sprites by The Martian
 
 October-2020 v0.1 Proving Grounds
 Changes made:
-*Removed vanilla content
-*Added Act 1 weapons, by Brother^2
-*Added Act 2 weapons, by Brother^2
-*Added initial research, by Brother^2
-*Added sprites for Bureau 11 weapons, by efrenespartano
-*Added new backgrounds for all the base screens, by efrenespartano
-*Added new crafts
+* Removed vanilla content
+* Added Act 1 weapons, by Brother^2
+* Added Act 2 weapons, by Brother^2
+* Added initial research, by Brother^2
+* Added sprites for Bureau 11 weapons, by efrenespartano
+* Added new backgrounds for all the base screens, by efrenespartano
+* Added new crafts
     - Cadillac El Dorado, by Alex_D
     - U-2 Dragon Lady, by efrenespartano
     - Mudranger, by the XCF team
     - UH-1A Iroquois, by Alex_D, Nord & efrenespartano
     - F-104 Starfighter, by Andr
     - X-62 Skyranger, by efrenespartano
-*Added new craft weapons, by efrenespartano
+* Added new craft weapons, by efrenespartano
     - Sidewinder Missile
     - M61 Vulcan Cannon
     - Fuel Tank
     - Flare Dispenser
     - Improved Spy Camera
     - Experimental Jet Thruster
-*Added item categories
-*Added custom difficulty names
-*Added Alien Laser Weapons, ruleset by Brother^2, sprites by wolwerin
-*Added food and medical items, by Brother^2
-*Added Laser Devil Axe, ruleset by Brother^2, sprites by wolwerin
-*Added new soldierTypes, by RamoZ
+* Added item categories
+* Added custom difficulty names
+* Added Alien Laser Weapons, ruleset by Brother^2, sprites by wolwerin
+* Added food and medical items, by Brother^2
+* Added Laser Devil Axe, ruleset by Brother^2, sprites by wolwerin
+* Added new soldierTypes, by RamoZ
     - Bureau 11 Agent
     - US Army Veteran
     - Directorate 17 Agent
-*Added D17 unit, ruleset by Brother^2, sprites by The Martian & efrenespartano
-*Added US Army unit ruleset by Brother^2, sprites by Hans Woofington & efrenespartano
+* Added D17 unit, ruleset by Brother^2, sprites by The Martian & efrenespartano
+* Added US Army unit ruleset by Brother^2, sprites by Hans Woofington & efrenespartano

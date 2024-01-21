@@ -191,8 +191,8 @@ crafts:
     accel: 4
     weapons: 4
     weaponTypes: 
-      - 1
-      - 1
+      - [1, 2]
+      - [1, 2]
       - 2
       - 3
     weaponStrings:
@@ -202,14 +202,14 @@ crafts:
       - STR_AUTOCANNON
     fixedWeapons: ["", "", "STR_SIDEWINDER", "STR_VULCAN"]
     allowLanding: false
-    costBuy: 750000
-    costSell: 600000
+    costBuy: 75000
+    costSell: 60000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
     sightRange: 0
     radarRange: 134
-    radarChance: 15
+    radarChance: 20
     score: 400
 
   - type: STR_OXCART
