@@ -672,14 +672,14 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS
     requires:
-      - STR_DELISLE_CARBINE_SNIPER
+      - STR_DELISLE_CARBINE_UNLOCK
     text: STR_DELISLE_CARBINE_SNIPER_UFOPEDIA
     #listOrder: 232
   - id: STR_DELISLE_CARBINE_PARATROOPER
     type_id: 4
     section: STR_WEAPONS
     requires:
-      - STR_DELISLE_CARBINE_PARATROOPER
+      - STR_DELISLE_CARBINE_UNLOCK
     text: STR_DELISLE_CARBINE_PARATROOPER_UFOPEDIA
     #listOrder: 233
 

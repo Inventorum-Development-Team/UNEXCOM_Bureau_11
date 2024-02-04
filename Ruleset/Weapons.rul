@@ -2094,7 +2094,7 @@ items:
     categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_SNIPER_RIFLES, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
     size: 0.2
     requiresBuy:
-      - STR_DELISLE_CARBINE_SNIPER
+      - STR_DELISLE_CARBINE_UNLOCK
     costBuy: 4000
     costSell: 3400
     weight: 15
@@ -2137,8 +2137,10 @@ items:
 # DeLisle Carbine Paratrooper
   - type: STR_DELISLE_CARBINE_PARATROOPER
     categories: [STR_WEAPONS, STR_FIREARMS, STR_CARBINES, STR_CONCEALABLE, STR_SILENCED, STR_GHOST]
-    size: 0.2
-    costSell: 4150
+    requiresBuy:
+      - STR_DELISLE_CARBINE_UNLOCK
+    costBuy: 4000
+    costSell: 3400
     weight: 13
     bigSprite: 920
     floorSprite: 920
@@ -2236,18 +2238,29 @@ manufacture:
     producedItems:
       STR_HEART_ATTACK_GUN_MAG: 1
 
+  - name: STR_DELISLE_CARBINE_SNIPER
+    category: STR_WEAPONS
+    space: 4
+    time: 10
+    cost: 500
+    requires:
+      - STR_DELISLE_CARBINE_SNIPER
+    requiredItems:
+      STR_DELISLE_CARBINE_PARATROOPER: 1
+    producedItems:
+      STR_DELISLE_CARBINE_SNIPER: 1
+
   - name: STR_DELISLE_CARBINE_PARATROOPER
     category: STR_WEAPONS
     space: 4
-    time: 30
-    cost: 10
+    time: 10
+    cost: 500
     requires:
       - STR_DELISLE_CARBINE_PARATROOPER
     requiredItems:
       STR_DELISLE_CARBINE_SNIPER: 1
     producedItems:
       STR_DELISLE_CARBINE_PARATROOPER: 1
-
 
 extraSprites:
   - type: BIGOBS.PCK

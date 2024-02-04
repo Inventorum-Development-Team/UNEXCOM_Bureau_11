@@ -220,20 +220,26 @@ research:
     points: 10
     needItem: true
 
+  - name: STR_DELISLE_CARBINE_UNLOCK
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_DELISLE_CARBINE_PARATROOPER
+      - STR_DELISLE_CARBINE_SNIPER
+
   - name: STR_DELISLE_CARBINE_SNIPER
     cost: 50
     points: 10
     needItem: true
     unlocks:
-      - STR_DELISLE_CARBINE_PARATROOPER
+      - STR_DELISLE_CARBINE_UNLOCK
 
   - name: STR_DELISLE_CARBINE_PARATROOPER
     cost: 50
     points: 10
     needItem: true
     unlocks:
-      - STR_DELISLE_CARBINE_SNIPER
-
+      - STR_DELISLE_CARBINE_UNLOCK
 
 #############################
 ######### ENEMIES ##########
