@@ -1977,6 +1977,8 @@ missionScripts:
     missionWeights:
       0:
         STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: 100
+    researchTriggers:
+      STR_D17_BRIEFING: true
     startDelay: 21600 # 15 Days
     targetBaseOdds: 100
     useTable: false
@@ -1986,6 +1988,8 @@ missionScripts:
     missionWeights:
       0:
         STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: 100
+    researchTriggers:
+      STR_D17_BRIEFING: true
     startDelay: 21600 # 15 Days
     targetBaseOdds: 100
     executionOdds: 40
