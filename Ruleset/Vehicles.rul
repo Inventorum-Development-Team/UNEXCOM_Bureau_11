@@ -450,11 +450,13 @@ extraSprites:
       111: Resources/Vehicles/Cadillac/Cadillac_Dogfight.png
       101: Resources/Vehicles/Dragon Lady/U2DragonLady_minimised.png
       112: Resources/Vehicles/Dragon Lady/U2DragonLady_dogfight.png
+      102: Resources/Vehicles/Iroquois/Huey_minimised.png
       113: Resources/Vehicles/Iroquois/Huey_dogfight.png
+      103: Resources/Vehicles/Mudranger/Mudranger_minimised.png
       114: Resources/Vehicles/Mudranger/Mudranger_dogfight.png
       115: Resources/Vehicles/Starfighter/Starfighter_dogfight.png
       116: Resources/Vehicles/Skyranger/Skyranger_dogfight.png
-      104: Resources/Vehicles/Starfighter/Starfighter_minimised.png
+      102: Resources/Vehicles/Iroquois/Huey_minimised.png
       105: Resources/Vehicles/Skyranger/Skyranger_minimised.png
       935: Resources/Vehicles/Oxcart/Oxcart_minimised.png
       946: Resources/Vehicles/Oxcart/Oxcart_dogfight.png
