@@ -33,8 +33,8 @@ items:
     listOrder: 1002
   - type: STR_D17_SOLDIER_CORPSE
     name: STR_KGB_CORPSE
-    size: 0.4
-    costSell: 1000
+    size: 0.6
+    costSell: -5000
     weight: 25
     bigSprite: 1501
     floorSprite: 1501
@@ -52,8 +52,8 @@ items:
     listOrder: 1003
   - type: STR_D17_OFFICER_CORPSE
     name: STR_KGB_CORPSE
-    size: 0.4
-    costSell: 1000
+    size: 0.6
+    costSell: -5000
     weight: 25
     bigSprite: 1502
     floorSprite: 1502
@@ -71,8 +71,8 @@ items:
     listOrder: 1004
   - type: STR_D17_AGENT_CORPSE
     name: STR_KGB_CORPSE
-    size: 0.4
-    costSell: 1000
+    size: 0.6
+    costSell: -5000
     weight: 25
     bigSprite: 1503
     floorSprite: 1503
@@ -91,6 +91,8 @@ items:
   - type: STR_D17_SCIENTIST_CORPSE
     name: STR_KGB_CORPSE
     weight: 25
+    size: 0.6
+    costSell: -5000
     bigSprite: 2429
     floorSprite: 2479
     invWidth: 2
