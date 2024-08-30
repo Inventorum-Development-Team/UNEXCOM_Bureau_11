@@ -209,9 +209,9 @@ fr:
   STR_SKORPION_VZ61: "Skorpion vz61"
   STR_SKORPION_VZ61_UFOPEDIA: "Fabriquée en Tchécoslovaquie. Cette version, chambrée en {ALT}9x18mm Makarov{ALT} au lieu des traditionnelles balles de 7,58mm, a fait son chemin dans les rangs communs de la Direction 17."
 
-  STR_AK_47: "AK-47"
+  STR_AK_47: "AKM"
   STR_AK_47_MAG: "Chargeur 7.62x39mm (30x)"
-  STR_AK_47_UFOPEDIA: "L'AK-47, chambré en {ALT}7,62x39mm soviétique{ALT}, est probablement l'une des armes les plus prolifiques et produites en masse dans le monde, et ce pour une bonne raison. C'est un fusil d'assaut fiable et résistant."
+  STR_AK_47_UFOPEDIA: "L'AKM, chambré en {ALT}7,62x39mm soviétique{ALT}, est probablement l'une des armes les plus prolifiques et produites en masse dans le monde, et ce pour une bonne raison. C'est un fusil d'assaut fiable et résistant."
 
   STR_WINCHESTER_MODEL_12: "Winchester Model 12"
   STR_WINCHESTER_MODEL_12_UFOPEDIA: "Le modèle 12 de Winchester est un fusil à pompe chambré pour des munitions de {ALT}calibre 12{ALT}. Bien qu'il ait été utilisé pendant la Seconde Guerre mondiale et en Corée, il occupe une place particulière dans le cœur de la population civile américaine. L'acquisition de cette arme ne devrait pas poser de problème, bien qu'il y ait probablement de meilleures alternatives."
@@ -978,8 +978,8 @@ fr:
   STR_D17_SOLDIER: "Soldat D17"
   STR_D17_OFFICER: "Officier D17"
   STR_D17_AGENT: "Agent D17"
-  STR_HYBRID_CORPSE: "Corps Hybride"
-  STR_HYBRID_SHAPESHIFTER: "Hybride métamorphe"
+  #STR_HYBRID_CORPSE: "Corps Hybride"
+  #STR_HYBRID_SHAPESHIFTER: "Hybride métamorphe"
   STR_GLADIO_OPERATIVE_CORPSE: "Corps agent Gladio"
   STR_GLADIO_OPERATIVE_M: "Opérateur Gladio mâle"
   STR_GLADIO_OPERATIVE_F: "Opérateur Gladio Femme"

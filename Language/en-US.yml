@@ -198,9 +198,9 @@ en-US:
   STR_SKORPION_VZ61: "Skorpion vz61"
   STR_SKORPION_VZ61_UFOPEDIA: "The Skorpion is a submachinegun manufactured in Czechoslovakia. This rendition, chambered in {ALT}9x18mm Makarov{ALT} instead of the traditional 7.58mm rounds, has made its way into the common ranks of Directorate 17. {NEWLINE}> Concealable"
 
-  STR_AK_47: "AK-47"
+  STR_AK_47: "AKM"
   STR_AK_47_MAG: "7.62x39mm Magazine (30x)"
-  STR_AK_47_UFOPEDIA: "The AK-47, chambered in {ALT}7.62x39mm Soviet{ALT}, is possibly one of the most prolific and mass-produced weapons in the world, and for good reason. It is a reliable and resiliant assault rifle."
+  STR_AK_47_UFOPEDIA: "The AKM, chambered in {ALT}7.62x39mm Soviet{ALT}, is possibly one of the most prolific and mass-produced weapons in the world, and for good reason. It is a reliable and resiliant assault rifle."
 
   STR_WINCHESTER_MODEL_12: "Winchester Model 12"
   STR_WINCHESTER_MODEL_12_UFOPEDIA: "The Winchester Model 12 is a pump-action shotgun chambered in {ALT}12 Gauge{ALT} ammunition. Aquiring this weapon should be no issue, although there are probrably better alternatives."
