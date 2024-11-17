@@ -1,7 +1,9 @@
-August-2027 v1.1 Tertia Optio
+November-2024 v1.1 Tertia Optio
 Changes made:
 * Various fixes (grammar and balance)
 * Added Spanish (LATAM) Translation! By efrenespartano 
+* Fixed Gladio Operative F, pointed out by tajava on mod.io
+* Fixed vehicle interception crash, pointed out by tajava on mod.io
 
 January-2024 v1.0 Tertia Optio
 Changes made:
