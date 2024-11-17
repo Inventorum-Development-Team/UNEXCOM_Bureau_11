@@ -866,7 +866,7 @@ units:
       psiStrength: 100
       psiSkill: 0
       melee: 65
-    armor: GLADIO_OPERATIVE_M
+    armor: GLADIO_OPERATIVE_F
     standHeight: 22
     kneelHeight: 14
     value: 5
