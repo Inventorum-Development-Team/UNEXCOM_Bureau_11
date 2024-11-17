@@ -672,14 +672,14 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS
     requires:
-      - STR_DELISLE_CARBINE_UNLOCK
+      - STR_DELISLE_CARBINE_SNIPER
     text: STR_DELISLE_CARBINE_SNIPER_UFOPEDIA
     #listOrder: 232
   - id: STR_DELISLE_CARBINE_PARATROOPER
     type_id: 4
     section: STR_WEAPONS
     requires:
-      - STR_DELISLE_CARBINE_UNLOCK
+      - STR_DELISLE_CARBINE_PARATROOPER
     text: STR_DELISLE_CARBINE_PARATROOPER_UFOPEDIA
     #listOrder: 233
 
@@ -837,19 +837,23 @@ ufopaedia:
 ###### EVIDENCE #########
 ########################
   - id: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
-    type_id: 8
+    type_id: 7
+    image_id: UP025.SPK
     section: STR_INVESTIGATION_EVIDENCE
     requires:
       - STR_NORISKA_KRASCHEN_SECTOID_CORPSE
     #listOrder: 400
     text: STR_NORISKA_KRASCHEN_SECTOID_CORPSE_UFOPEDIA
+    text_width: 158
   - id: STR_DISCOVERIES_SECTOID_ENGINEER
-    type_id: 8
+    type_id: 7
+    image_id: UP024.SPK
     section: STR_INVESTIGATION_EVIDENCE
     requires:
       - STR_DISCOVERIES_SECTOID_ENGINEER
     #listOrder: 400
     text: STR_DISCOVERIES_SECTOID_ENGINEER_UFOPEDIA
+    text_width: 158
 
   - id: STR_CROP_CIRCLE_REPORT
     type_id: 8
