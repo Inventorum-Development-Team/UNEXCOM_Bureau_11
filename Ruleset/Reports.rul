@@ -995,6 +995,13 @@ ufopaedia:
   - id: STR_UMBRELLA_MOSIN_NAGANT_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_LISTENING_DEVICE
+    type_id: 8
+    section: STR_INVESTIGATION_EVIDENCE
+    #listOrder: 402
+    requires:
+      - STR_LISTENING_DEVICE
+    text: STR_LISTENING_DEVICE_UFOPEDIA
   - id: STR_KGB_TECH_REPORT
     type_id: 8
     section: STR_INVESTIGATION_EVIDENCE
