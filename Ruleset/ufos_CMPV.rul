@@ -1,35 +1,67 @@
 
 ufos:
 #STORY UFOS
+## Small scout now actually
+  - type: STR_SMALL_SCOUT
+    battlescapeTerrainData:
+      name: SMALL_SCOUT
+      mapDataSets:
+        - BLANKS
+        - IDT_A1UFO_FLOOR
+        - IDT_A1UFO_WALLS1
+        - IDT_A1UFO_CLIMB1
+        - IDT_A1UFO_RAMPS1
+        - IDT_A1UFO_EXTWEAPONS1
+        - IDT_A1UFO_DOORS1
+        - IDT_A1UFO_TECHTIER1
+        - IDT_A1UFO_TECHTIER2
+        - IDT_A1UFO_TECHTIER3
+        - IDT_A1UFO_TECHTIER4
+        - IDT_A1UFO_TECHTIER5
+      mapBlocks:
+        - name: A_A1UFO1SCOUT2
+          width: 10
+          length: 10
   - type: STR_PROVING_GROUNDS_LARGE_SCOUT
     battlescapeTerrainData:
       name: PROVING_GROUNDS_LARGE_SCOUT
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_BITS
-        - CRASHED_UFO_TILES
+        - IDT_A1UFO_FLOOR
+        - IDT_A1UFO_WALLS1
+        - IDT_A1UFO_CLIMB1
+        - IDT_A1UFO_RAMPS1
+        - IDT_A1UFO_EXTWEAPONS1
+        - IDT_A1UFO_DOORS1
+        - IDT_A1UFO_TECHTIER1
+        - IDT_A1UFO_TECHTIER2
+        - IDT_A1UFO_TECHTIER3
+        - IDT_A1UFO_TECHTIER4
+        - IDT_A1UFO_TECHTIER5
       mapBlocks:
-        - name: UFO_CRASH_1_00
-          width: 20
-          length: 30
-        - name: UFO_CRASH_1_01
-          width: 30
-          length: 20
+        - name: A_A1UFO1SCOUT2
+          width: 10
+          length: 10
   - type: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
     battlescapeTerrainData:
       name: NORISKA_KRASCHEN_MEDIUM_SCOUT
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_BITS
-        - CRASHED_UFO_TILES
+        - IDT_A1UFO_FLOOR
+        - IDT_A1UFO_WALLS1
+        - IDT_A1UFO_CLIMB1
+        - IDT_A1UFO_RAMPS1
+        - IDT_A1UFO_EXTWEAPONS1
+        - IDT_A1UFO_DOORS1
+        - IDT_A1UFO_TECHTIER1
+        - IDT_A1UFO_TECHTIER2
+        - IDT_A1UFO_TECHTIER3
+        - IDT_A1UFO_TECHTIER4
+        - IDT_A1UFO_TECHTIER5
       mapBlocks:
-        - name: UFO_CRASH_1_02
+        - name: IDT_UFOBASSAULTA1
           width: 10
-          length: 20
+          length: 10
   - type: STR_DISCOVERIES_LARGE_SCOUT
     battlescapeTerrainData:
       name: DISCOVERIES_LARGE_SCOUT
