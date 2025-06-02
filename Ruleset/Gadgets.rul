@@ -71,6 +71,15 @@ items:
     invHeight: 1
     armor: 50
     listOrder: 402
+  - type: STR_MAP_GRENADE
+    size: 0.1
+    weight: 3
+    bigSprite: 19
+    floorSprite: 19
+    power: 200
+    damageType: 3
+    battleType: 4
+    blastRadius: 2
   - type: STR_GRENADE
     categories: [STR_GADGETS, STR_GRENADES, STR_CONCEALABLE]
     requiresBuy:

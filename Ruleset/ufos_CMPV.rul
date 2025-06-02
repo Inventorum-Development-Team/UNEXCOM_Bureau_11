@@ -1,6 +1,7 @@
 
 ufos:
 #STORY UFOS
+# Small Scout now actually
   - type: STR_PROVING_GROUNDS_LARGE_SCOUT
     battlescapeTerrainData:
       name: PROVING_GROUNDS_LARGE_SCOUT
@@ -23,8 +24,8 @@ ufos:
           length: 10
           items:
             STR_MAP_GRENADE:
-              - [ 2, 6, 1]
-              - [ 6, 6, 1]
+              - [2, 6, 1]
+              - [6, 6, 1]
           fuseTimers:
             STR_MAP_GRENADE: [-2, -2]
   - type: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
@@ -49,81 +50,75 @@ ufos:
           length: 10
           items:
             STR_MAP_GRENADE:
-              - [ 4, 2, 1]
-              - [ 5, 2, 1]
+              - [4, 2, 1]
+              - [5, 2, 1]
           fuseTimers:
-            STR_MAP_GRENADE: [-2, -2]
-
+              STR_MAP_GRENADE: [-2, -2]
   - type: STR_DISCOVERIES_LARGE_SCOUT
     battlescapeTerrainData:
       name: DISCOVERIES_LARGE_SCOUT
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_BITS
+        - IDT_A1UFO_FLOOR
+        - IDT_A1UFO_WALLS1
+        - IDT_A1UFO_CLIMB1
+        - IDT_A1UFO_RAMPS1
+        - IDT_A1UFO_EXTWEAPONS1
+        - IDT_A1UFO_DOORS1
+        - IDT_A1UFO_TECHTIER1
+        - IDT_A1UFO_TECHTIER2
+        - IDT_A1UFO_TECHTIER3
+        - IDT_A1UFO_TECHTIER4
+        - IDT_A1UFO_TECHTIER5
         - CRASHED_UFO_TILES
         - US_ARMY_BARRICADE_TILES
       mapBlocks:
-        - name: UFO_CRASH_1_03
-          width: 30
-          length: 30
+        - name: IDT_UFOCBATTLEA1
+          width: 20
+          length: 20
           items:
             STR_CORPSE_BDU_DUMMY:
-              - [ 3, 15, 0]
-              - [ 6, 19, 0]
-              - [ 5, 11, 0]
-              - [ 4, 27, 0]
-              - [ 13, 23, 0]
-              - [ 17, 16, 0]
-              - [ 14, 10, 0]
-              - [ 18, 11, 0]
-              - [ 24, 20, 0]
-              - [ 13, 18, 0]
-              - [ 24, 22, 0]
-            STR_COLT_M1911:
-              - [ 3, 15, 0]
-              - [ 6, 19, 0]
-              - [ 16, 18, 0]
-              - [ 7, 18, 0]
-            STR_COLT_M1911_MAG:
-              - [ 3, 15, 0]
-              - [ 6, 19, 0]
-              - [ 16, 18, 0]
-              - [ 7, 18, 0]
-            STR_M60_HOG:
-              - [ 13, 18, 0]
-            STR_M60_HOG_MAG:
-              - [ 13, 18, 0]
-            STR_M3_GREASEGUN:
-              - [ 5, 11, 0]
-              - [ 4, 27, 0]
-              - [ 14, 26, 0]
-            STR_M3_GREASEGUN_MAG:
-              - [ 5, 11, 0]
-              - [ 4, 27, 0]
-              - [ 14, 26, 0]
+              - [13, 17, 0]
+              - [16, 13, 0]
+              - [2, 14, 0]
+              - [1, 17, 0]
+              - [11, 4, 1]
             STR_ITHACA_37:
-              - [ 13, 23, 0]
-              - [ 17, 16, 0]
+              - [10, 4, 1]
             STR_ITHACA_37_SHELLS:
-              - [ 13, 23, 0]
-              - [ 17, 16, 0]
+              - [10, 4, 1]
+              - [10, 4, 1]
+            STR_GRENADE:
+              - [14, 17, 0]
+              - [16, 14, 0]
+              - [2, 13, 0]
+              - [1, 14, 0]
+              - [10, 4, 1]
             STR_SPRINGFIELD_M14:
-              - [ 14, 10, 0]
-              - [ 18, 11, 0]
-              - [ 24, 20, 0]
-              - [ 24, 22, 0]
-              - [ 25, 20, 0]
-              - [ 20, 10, 0]
+              - [14, 17, 0]
+              - [16, 12, 0]
+              - [2, 13, 0]
+              - [1, 18, 0]
             STR_SPRINGFIELD_M14_MAG:
-              - [ 14, 10, 0]
-              - [ 18, 11, 0]
-              - [ 24, 20, 0]
-              - [ 24, 22, 0]
-              - [ 25, 20, 0]
-              - [ 20, 10, 0]
-
+              - [14, 17, 0]
+              - [16, 12, 0]
+              - [2, 13, 0]
+              - [1, 18, 0]
+            STR_MAP_GRENADE:
+              - [5, 5, 2]
+              - [6, 5, 2]
+              - [13, 5, 2]
+              - [14, 5, 2]
+              - [13, 15, 2]
+              - [3, 12, 3]
+              - [7, 10, 0]
+              - [14, 16, 2]
+              - [15, 13, 2]
+              - [14, 13, 2]
+              - [12, 2, 2]
+              - [4, 2, 2]
+          fuseTimers:
+            STR_MAP_GRENADE: [-2, -2]
 
   - type: STR_HIDE_AND_SEEK_VAN
     battlescapeTerrainData:
@@ -141,14 +136,22 @@ ufos:
       name: SPIDERWEB_LARGE_SCOUT
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_BITS
+        - IDT_A1UFO_FLOOR
+        - IDT_A1UFO_WALLS1
+        - IDT_A1UFO_CLIMB1
+        - IDT_A1UFO_RAMPS1
+        - IDT_A1UFO_EXTWEAPONS1
+        - IDT_A1UFO_DOORS1
+        - IDT_A1UFO_TECHTIER1
+        - IDT_A1UFO_TECHTIER2
+        - IDT_A1UFO_TECHTIER3
+        - IDT_A1UFO_TECHTIER4
+        - IDT_A1UFO_TECHTIER5
         - SPIDERWEB_DEVICE1
         - SPIDERWEB_DEVICE2
         - GRAVLIFT_BEAM
       mapBlocks:
-        - name: UFO_SPIDERWEB
+        - name: IDT_UFOCBATTLEA1
           width: 20
           length: 20
 
@@ -460,93 +463,22 @@ ufos:
     radarRange: 300
     radarChance: 45
     battlescapeTerrainData:
-      name: UFO_120
+      name: IDT_UFOCBATTLEA1
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_BITS
-        - UFOL83
+        - IDT_A1UFO_FLOOR
+        - IDT_A1UFO_WALLS1
+        - IDT_A1UFO_CLIMB1
+        - IDT_A1UFO_RAMPS1
+        - IDT_A1UFO_EXTWEAPONS1
+        - IDT_A1UFO_DOORS1
+        - IDT_A1UFO_TECHTIER1
+        - IDT_A1UFO_TECHTIER2
+        - IDT_A1UFO_TECHTIER3
+        - IDT_A1UFO_TECHTIER4
+        - IDT_A1UFO_TECHTIER5
       mapBlocks:
-        - name: UFO_120
-          width: 20
-          length: 20
-        - name: UFO_120a
-          width: 20
-          length: 20
-        - name: UFO_120b
-          width: 20
-          length: 20
-        - name: UFO_120c
-          width: 20
-          length: 20
-        - name: UFO_120d
-          width: 20
-          length: 20
-        - name: UFO_120e
-          width: 20
-          length: 20
-        - name: UFO_120f
-          width: 20
-          length: 20
-        - name: UFO_120g
-          width: 20
-          length: 20
-        - name: UFO_120h
-          width: 20
-          length: 20
-        - name: UFO_120i
-          width: 20
-          length: 20
-        - name: UFO_120j
-          width: 20
-          length: 20
-        - name: UFO_120k
-          width: 20
-          length: 20
-        - name: UFO_120l
-          width: 20
-          length: 20
-        - name: UFO_120m
-          width: 20
-          length: 20
-        - name: UFO_120n
-          width: 20
-          length: 20
-        - name: UFO_120o
-          width: 20
-          length: 20
-        - name: UFO_120p
-          width: 20
-          length: 20
-        - name: UFO_120q
-          width: 20
-          length: 20
-        - name: UFO_120r
-          width: 20
-          length: 20
-        - name: UFO_120s
-          width: 20
-          length: 20
-        - name: UFO_120t
-          width: 20
-          length: 20
-        - name: UFO_120u
-          width: 20
-          length: 20
-        - name: UFO_120v
-          width: 20
-          length: 20
-        - name: UFO_120w
-          width: 20
-          length: 20
-        - name: UFO_120x
-          width: 20
-          length: 20
-        - name: UFO_120y
-          width: 20
-          length: 20
-        - name: UFO_120z
+        - name: IDT_UFOCBATTLEA1
           width: 20
           length: 20
 #END LARGE SCOUT
