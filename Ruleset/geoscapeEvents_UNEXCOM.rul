@@ -449,11 +449,7 @@ events:
     background: GENERIC_EVENT_BACKGROUND
     timer: 180
     timerRandom: 20160 # 14 days
-    funds: 250000
-    randomItemList:
-      - STR_MEDICAL_BAG
-      - STR_SPY_CAMERA
-      - STR_BANDAGES
+    funds: 1000000
 
   - name: STR_SPIDERWEB_SUCCESSFUL_EVENT
     description: STR_SPIDERWEB_SUCCESSFUL_EVENT_DESCRIPTION
