@@ -342,7 +342,7 @@ alienDeployments:
     alert: STR_SPECIAL_CASE_OPEN
     alertBackground: BACK13.SCR
     alertDescription: STR_NONE
-    unlockedResearch: STR_DISCOVERIES_SECTOID_ENGINEER
+    missionBountyItem: STR_DISCOVERIES_SECTOID_ENGINEER
 
   - type: STR_HIDE_AND_SEEK_DEPLOYMENT
     customUfo: STR_HIDE_AND_SEEK_VAN
