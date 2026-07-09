@@ -142,19 +142,10 @@ eventScripts:
   - type: STR_JUNE_1962_EVENT_SCRIPTS
     eventWeights:                 # randomly generated repeatable events
       0:
-        STR_USA_PROTOTYPE_WEAPONS_EVENT: 100
-    firstMonth: 17
-    lastMonth: 17
-    executionOdds: 100
-    minDifficulty: 0
-    maxDifficulty: 4
-
-  - type: STR_JULY_1962_EVENT_SCRIPTS
-    eventWeights:                 # randomly generated repeatable events
-      0:
         STR_NATO_PROTOTYPE_WEAPONS_EVENT: 100
-    firstMonth: 18
-    lastMonth: 18
+    firstMonth: 17
+    researchTriggers:
+       STR_ALIEN_WEAPON_OPERATION: true
     executionOdds: 100
     minDifficulty: 0
     maxDifficulty: 4
