@@ -1,3 +1,10 @@
+July-2026 v1.01 Tertia Optio
+Changes made:
+* Grammar
+* Made Sturm Ekanone require research
+* Buffed side mission rewards
+* Temporarily reversed Proving Grounds map
+
 November-2024 v1.0 Tertia Optio
 Changes made:
 * Various fixes (grammar and balance)
