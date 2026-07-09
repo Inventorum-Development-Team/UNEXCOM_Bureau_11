@@ -222,7 +222,7 @@ items:
     bulletSprite: 1
     fireSound: 502
     clipSize: 3
-    power: 50
+    power: 18
     damageAlter:
       ToHealth: 1.34
       ToWound: 1.67
@@ -236,7 +236,7 @@ items:
       arcing: false
     aimRange: 15
     accuracyAimed: 150
-    tuAimed: 70
+    tuAimed: 15
     maxRange: 10
     accuracyCloseQuarters: 100
     hitAnimation: 26
