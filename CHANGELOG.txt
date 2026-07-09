@@ -4,6 +4,7 @@ Changes made:
 * Made Sturm Ekanone require research
 * Buffed side mission rewards
 * Temporarily reversed Proving Grounds map
+* Made Camera Gun consistent with D17
 
 November-2024 v1.0 Tertia Optio
 Changes made:
